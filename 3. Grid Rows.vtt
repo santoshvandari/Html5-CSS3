@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.390 --> 00:07.080
+All right so in the last video we looked at how to create a grid and how to deal with the grid template
+
+00:07.080 --> 00:08.090
+columns property.
+
+00:08.100 --> 00:10.770
+Now there's also a grid template Rose property.
+
+00:10.830 --> 00:15.450
+Now we're going to we're going to look at that we're also going to talk about the implicit grid or implicit
+
+00:15.450 --> 00:16.180
+rows.
+
+00:16.200 --> 00:25.170
+So let's create a new file here called Zero to underscore grid underscore Rose dot H PML and I'm going
+
+00:25.170 --> 00:30.720
+to actually copy what we have in the grid columns file because there's gonna be some some things that
+
+00:30.720 --> 00:38.550
+are similar so paste that in and we'll change the title here and let's get rid of everything in this
+
+00:38.550 --> 00:40.950
+grid class except for display grid.
+
+00:40.950 --> 00:43.090
+I want to keep the items styling.
+
+00:43.290 --> 00:44.270
+Get rid of Main.
+
+00:44.340 --> 00:45.120
+We don't want that.
+
+00:45.120 --> 00:46.830
+We don't want this main down here.
+
+00:46.830 --> 00:53.670
+I just wanted to show you how easy it was to create a basic main main area and sidebar but we're gonna
+
+00:53.670 --> 00:57.580
+keep this here and let's open this with live server.
+
+00:57.750 --> 00:58.050
+All right.
+
+00:58.080 --> 01:02.880
+So remember with Flex blocks we have a row and a column.
+
+01:02.910 --> 01:07.970
+We can set flex direction to either row or column with the grid we have.
+
+01:07.980 --> 01:10.190
+We also have rows and columns.
+
+01:10.350 --> 01:23.040
+So I'm going to go ahead and set grid dash template rows and let's set this to we'll do one at far too
+
+01:23.190 --> 01:24.170
+far.
+
+01:24.360 --> 01:25.610
+Three F5.
+
+01:26.440 --> 01:28.920
+OK so I'm going to save this and let's see what we get here.
+
+01:28.920 --> 01:36.720
+So as you can see there they're vertical OK so it's not we're not adding columns here so it's not going
+
+01:36.720 --> 01:38.290
+horizontally.
+
+01:38.400 --> 01:40.890
+And the first one is one far.
+
+01:40.890 --> 01:42.090
+Second is to a fire.
+
+01:42.090 --> 01:43.670
+Third is three IFR.
+
+01:43.860 --> 01:44.100
+OK.
+
+01:44.130 --> 01:49.830
+If I were to add another one here and go for I fire the next one will be for fire.
+
+01:49.850 --> 01:56.310
+But notice the ones that are remaining where we don't add a specific value for they're just going to
+
+01:56.310 --> 01:58.920
+stay the same they're all going to look like this.
+
+01:58.920 --> 02:05.580
+This is actually called the implicit grid are implicit rows because we didn't we didn't manually set
+
+02:05.580 --> 02:06.020
+them.
+
+02:06.030 --> 02:13.920
+In fact I'm going to take this one off and there's actually another property we can use if we want to
+
+02:13.920 --> 02:17.880
+set these to something different and that's grid auto rows.
+
+02:18.150 --> 02:18.420
+OK.
+
+02:18.450 --> 02:27.710
+So if we say grid dash auto dash rows we can set this to let's say we want the rest of them to be three
+
+02:27.710 --> 02:31.650
+FIA as well just like the last one that we put here.
+
+02:31.830 --> 02:35.050
+So we can say three IFR and save.
+
+02:35.070 --> 02:38.100
+And now the rest of them are all three IFR.
+
+02:39.390 --> 02:39.690
+All right.
+
+02:39.720 --> 02:48.360
+Now unlike flex blocks the grid is multi-dimensional so we can we can use grid template rows along with
+
+02:48.480 --> 02:50.050
+grid template columns.
+
+02:50.160 --> 03:00.600
+So just to show you that let's say grid dash template dash columns and let's say we want to do let's
+
+03:00.600 --> 03:04.470
+do repeat we'll just have to.
+
+03:04.470 --> 03:08.220
+So we'll say repeat 2 and let's do one.
+
+03:08.410 --> 03:10.320
+FDR did they spell wrong here
+
+03:15.270 --> 03:16.830
+OK so we'll save that.
+
+03:16.830 --> 03:22.900
+And now you can see that we have our columns which is just to one F.
+
+03:22.920 --> 03:24.660
+So the columns are even.
+
+03:24.750 --> 03:30.090
+But then we're also we also have our rows which are one at far too far and three or far and this is
+
+03:30.090 --> 03:32.140
+this will still be in effect.
+
+03:32.250 --> 03:37.990
+So if I were to add extras down here and save you'll see that those will all be three f.
+
+03:39.090 --> 03:39.360
+All right.
+
+03:39.360 --> 03:44.130
+And if I wanted three rows or three columns I could do that as well.
+
+03:44.130 --> 03:52.350
+So you can really create the layout that you want and you can span items across multiple rows and columns
+
+03:52.350 --> 03:54.740
+and I'm going to show you how to do that as well.
+
+03:54.750 --> 03:55.000
+All right.
+
+03:55.020 --> 03:57.550
+But that is grid template rows.
+
+03:57.600 --> 03:58.350
+So that's it.
+
+03:58.350 --> 03:59.580
+I'll see you in the next video.

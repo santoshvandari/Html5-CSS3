@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.620 --> 00:03.300
+All right so now we're gonna deal with these buttons here.
+
+00:03.320 --> 00:06.990
+OK so I'm going to just get rid of this a tag here with the hover.
+
+00:06.990 --> 00:13.740
+I just wanted to give you an example of that how to use sudo selectors within your nested elements or
+
+00:13.740 --> 00:15.210
+nested styles.
+
+00:15.210 --> 00:17.780
+Now these buttons are going to share a lot.
+
+00:17.800 --> 00:18.040
+Okay.
+
+00:18.060 --> 00:23.820
+So they're going to share like the padding in the border and you know cursor pointer or all that stuff.
+
+00:23.820 --> 00:28.920
+What we were doing before is we'd have a Beatty in class with all that stuff and then also a Beatty
+
+00:28.920 --> 00:33.220
+and dark t and light that have to do with the color.
+
+00:33.240 --> 00:33.630
+OK.
+
+00:33.630 --> 00:40.280
+So instead of doing that I'm going to create a style a set of styles to be extended.
+
+00:40.290 --> 00:48.040
+So to do that we use a percent sign and we're just going to do t n dash shared.
+
+00:48.090 --> 00:48.450
+All right.
+
+00:48.450 --> 00:53.600
+And then all the the core styles that we want to share I'm going to put in here like display inline
+
+00:53.680 --> 00:55.400
+block.
+
+00:56.460 --> 01:04.480
+Let's do padding C zero point seven ram to ram.
+
+01:04.920 --> 01:07.700
+Let's do what else.
+
+01:07.710 --> 01:15.490
+It's to a border non pointer should be a cursor
+
+01:18.950 --> 01:19.730
+spell wrong
+
+01:22.150 --> 01:24.780
+pointer cursor.
+
+01:24.820 --> 01:26.230
+I don't know why it's not popping up
+
+01:29.180 --> 01:31.990
+I did it backwards.
+
+01:32.030 --> 01:34.760
+Be cursor pointer.
+
+01:35.750 --> 01:37.500
+Brain fart.
+
+01:37.850 --> 01:38.480
+Let's do.
+
+01:38.480 --> 01:39.860
+Text.
+
+01:40.160 --> 01:41.320
+Declaration.
+
+01:41.330 --> 01:42.650
+None.
+
+01:42.650 --> 01:44.660
+And let's just do a margin.
+
+01:44.900 --> 01:47.510
+Top one room.
+
+01:47.510 --> 01:47.840
+All right.
+
+01:47.870 --> 01:55.880
+Now the styling here I want to use for both buttons light dark and if we had other ones I want I would
+
+01:55.880 --> 01:57.110
+want to use it as well.
+
+01:57.170 --> 02:00.800
+So I'm gonna go down here and let's do B T N.
+
+02:01.280 --> 02:05.060
+Now we don't have a B10 class we just have beaten light and dark.
+
+02:05.060 --> 02:08.350
+However I'm gonna use this type of nesting.
+
+02:08.480 --> 02:12.230
+I'm gonna say Ampersand dash light.
+
+02:12.750 --> 02:18.590
+OK so this will pertain to any B10 light and I want to extend the button shared so to do that we use
+
+02:18.590 --> 02:23.350
+Ampersand extend and then we want to put in here.
+
+02:23.360 --> 02:26.880
+Percent Beatty and shared like that.
+
+02:27.620 --> 02:27.980
+All right.
+
+02:28.010 --> 02:32.330
+And then I'm going to go right below it and do the same thing for dark
+
+02:35.040 --> 02:42.790
+so we want to extend and we want PETN shared.
+
+02:42.930 --> 02:43.220
+All right.
+
+02:43.230 --> 02:47.480
+So I'm gonna save this and it gets all of that all these properties.
+
+02:47.500 --> 02:52.680
+Okay so the padding board or non cursor all that stuff.
+
+02:52.770 --> 02:58.280
+What we want to change between these is the color the background color as well as the text color.
+
+02:58.740 --> 03:07.320
+So I'm going to add background color for the light is gonna be our variable of light color and then
+
+03:07.320 --> 03:15.420
+for the text or the color I'm just gonna put in this do three 3 3.
+
+03:15.630 --> 03:19.230
+So we want a dark text and then down here let's do
+
+03:21.990 --> 03:23.010
+background
+
+03:25.520 --> 03:34.940
+color and we'll set that to dark color and for color we'll say F F F and I'm not using variables here
+
+03:34.940 --> 03:40.070
+because I'm going to show you in the next section when we deal with functions we're gonna have a function
+
+03:40.070 --> 03:44.200
+that automatically sets the text color based on the background color.
+
+03:44.450 --> 03:45.430
+So let's save that.
+
+03:45.440 --> 03:46.060
+And there we go.
+
+03:46.060 --> 03:52.880
+So now you can see we have the different colors now again if you don't like this syntax here you could
+
+03:52.880 --> 04:01.730
+of course instead just do like Beatty and dash lights and then you could just take this and put it in
+
+04:01.730 --> 04:06.470
+here and then you could do down here VTR n dash dark.
+
+04:06.500 --> 04:09.540
+So I mean it's up to you what parts of sass you want it.
+
+04:09.630 --> 04:13.190
+You want to use I like this because it's all encapsulated.
+
+04:13.190 --> 04:18.260
+However if you don't like the look of this Ampersand or whatever you can just do it like this and you
+
+04:18.260 --> 04:21.080
+can still extend the button shared.
+
+04:21.260 --> 04:21.680
+All right.
+
+04:21.710 --> 04:24.350
+So hopefully that makes sense.
+
+04:24.350 --> 04:27.900
+So in the next video I'm going to show you.
+
+04:28.250 --> 04:34.070
+I'm going to we're going to look at functions mix ins which are similar to functions as well as conditionals
+
+04:34.400 --> 04:35.740
+and color functions.
+
+04:35.740 --> 04:41.540
+And the reason I'm doing all that in one video is because we're going to create probably the most helpful
+
+04:42.380 --> 04:50.540
+SAS function that in my experience which is one that will look at the background color of an element
+
+04:50.930 --> 04:57.110
+and depending on the the the brightness of it or the lightness or darkness it'll set the text color
+
+04:57.140 --> 04:58.380
+automatically.
+
+04:58.560 --> 04:59.000
+OK.
+
+04:59.000 --> 05:03.610
+So if it's dark it'll be a light tax if it's light it'll be dark text.
+
+05:03.610 --> 05:07.730
+So we're going to create that function and do some other stuff as well.
+
+05:07.730 --> 05:07.960
+All right.
+
+05:07.970 --> 05:09.170
+So I'll see you in the next video.

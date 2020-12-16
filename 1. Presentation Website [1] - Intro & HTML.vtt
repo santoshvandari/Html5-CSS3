@@ -1,0 +1,334 @@
+WEBVTT
+
+00:00.220 --> 00:04.980
+All right guys so we're gonna start a small project here and has a presentation Web site.
+
+00:04.980 --> 00:11.280
+So this is not really like a mainstream Web site but something that maybe you would do at some kind
+
+00:11.280 --> 00:15.270
+of con friends if you want to if you want to have some kind of presentation but you don't want to use
+
+00:15.270 --> 00:16.050
+PowerPoint.
+
+00:16.050 --> 00:18.130
+You want to build something custom.
+
+00:18.240 --> 00:23.300
+Obviously this is very simplified but you could add graphics to it charge stuff like that.
+
+00:23.340 --> 00:28.290
+So basically we're going to be using a bunch of stuff that we've we've already learned.
+
+00:28.290 --> 00:33.750
+So we're going to use variables we're gonna use a little bit of a key frame animation transition stuff
+
+00:33.750 --> 00:34.360
+like that.
+
+00:34.620 --> 00:41.460
+So basically when the page loads when it's going to reload it the talk comes in the side comes in.
+
+00:41.490 --> 00:41.820
+All right.
+
+00:41.820 --> 00:44.280
+And then we also have a transition on the button.
+
+00:44.280 --> 00:46.200
+You can see it kind of fades nicely.
+
+00:46.380 --> 00:48.950
+And this is like though the landing page.
+
+00:48.960 --> 00:52.860
+So the greeting page and then notice there's no scroll bars.
+
+00:52.860 --> 00:54.460
+I can't scroll up and down.
+
+00:54.540 --> 00:57.610
+We actually have to click the button to go to the next page.
+
+00:57.690 --> 01:04.770
+And what I've done is I've integrated that smooth scrolling J query script RJ query code that we used
+
+01:04.770 --> 01:08.250
+a while back but you don't have to do that if you don't use it.
+
+01:08.250 --> 01:13.250
+You'll just click and It'll just it'll just go to the next page it won't have the scrolling effect.
+
+01:13.260 --> 01:15.420
+So it's up to you if you want to use that or not.
+
+01:15.420 --> 01:17.820
+And then notice this is just page 2.
+
+01:17.870 --> 01:23.190
+You would change the title here and the content you could add any content you want we have previous
+
+01:23.190 --> 01:28.980
+which will bring us back up and then we have next which will bring us to the next page which is a different
+
+01:28.980 --> 01:30.270
+color background.
+
+01:30.390 --> 01:33.570
+We're gonna use variables for that and then the next page.
+
+01:33.690 --> 01:36.050
+And of course if you wanted to add more you could.
+
+01:36.060 --> 01:38.930
+But I just I just have four pages now.
+
+01:38.940 --> 01:42.930
+These are not separate each team all pages it's all an end in this.
+
+01:42.930 --> 01:48.420
+Well I called it landing each team Al but we'll be calling it indexed on each team L but it appears
+
+01:48.420 --> 01:50.620
+to be multiple pages.
+
+01:50.640 --> 01:50.990
+OK.
+
+01:51.000 --> 01:52.320
+So this is what we'll be building.
+
+01:52.320 --> 01:53.770
+So let's get started.
+
+01:53.820 --> 01:57.600
+So I'm going to go ahead and close that up open a new tab.
+
+01:57.720 --> 02:00.420
+Let's go to about here.
+
+02:00.420 --> 02:06.030
+Just because I want to have both on the same screen and I just have an empty folder called presentation
+
+02:06.030 --> 02:14.490
+Web site and we're going to create an indexed dot each time I'll file and let's create.
+
+02:14.940 --> 02:17.440
+I'm just gonna do a style dot CSI.
+
+02:17.480 --> 02:22.810
+So I'm not even going to create a CSX folder because this is a very small project.
+
+02:22.950 --> 02:31.110
+So in our index each is generate our boilerplate I'm just gonna close this and let's just say presentation
+
+02:32.970 --> 02:38.480
+for our title and we'll put in actually you know what we're gonna do is link our style sheet.
+
+02:38.490 --> 02:45.060
+So let's go above the title and link and let's link to style dot CSX.
+
+02:45.120 --> 02:49.270
+We don't have a CSX folder so we don't have to do CSX slash style.
+
+02:49.560 --> 02:54.750
+And then for the content the content is going to be pretty simple.
+
+02:54.750 --> 03:00.630
+So we're gonna have a section actually that's put a comment here we'll say this is gonna be page one
+
+03:01.170 --> 03:04.800
+which is the intro and it's going to be a section.
+
+03:04.800 --> 03:12.570
+These are all gonna be sections with I.D. So we're gonna give it an I.D. of page dash one and then each
+
+03:12.570 --> 03:14.660
+one is gonna have a class.
+
+03:14.660 --> 03:20.020
+I don't want to put the word class when to say dot and then the class name which is page.
+
+03:20.500 --> 03:20.960
+Okay.
+
+03:20.970 --> 03:31.950
+And then we'll have an H one and let's say Welcome to my presentation and then under that let's put
+
+03:31.950 --> 03:39.180
+a paragraph and I believe I did Latham did 40 sounds about right.
+
+03:39.180 --> 03:49.200
+So large 40 and underneath the paragraph we're gonna have a div in this div is gonna have whatever buttons
+
+03:49.200 --> 03:49.590
+there are.
+
+03:49.590 --> 03:53.490
+Now on the first page we're just going to have one button because it's just a next.
+
+03:53.490 --> 03:57.660
+There's no previous words that were on the first page so let's do an A tag.
+
+03:57.660 --> 04:03.030
+Let's give it a class of B10 because we're gonna style that and then this is going to go to the I.D.
+
+04:03.060 --> 04:05.160
+of page dash.
+
+04:05.720 --> 04:06.700
+Okay.
+
+04:06.810 --> 04:13.210
+And then inside here let's say next page now we are gonna be using font.
+
+04:13.230 --> 04:13.770
+Awesome.
+
+04:13.770 --> 04:22.560
+So I'm actually going to go to font awesome dot com and we're gonna grab the link here so that we can
+
+04:22.560 --> 04:28.070
+use these icons so let's put this right above our link to our style sheet.
+
+04:28.240 --> 04:28.710
+Excuse me.
+
+04:30.180 --> 04:30.920
+OK.
+
+04:31.080 --> 04:33.030
+Now we should be able to use icons.
+
+04:33.030 --> 04:42.840
+So I'm going to go after the text of next page and when to put an eye tag with a class of f a s let's
+
+04:42.840 --> 04:51.700
+do a class of F A Dash arrow dash circle dash down.
+
+04:51.940 --> 04:54.840
+OK so that will give us a down facing arrow.
+
+04:54.840 --> 05:00.430
+So if I save this and we open this with live server we're gonna see something like this.
+
+05:00.460 --> 05:02.790
+So notice the the arrow coming from font.
+
+05:02.800 --> 05:04.320
+Awesome.
+
+05:04.390 --> 05:12.130
+So for the next page I'm going to copy this whole section and go right under it.
+
+05:12.130 --> 05:16.260
+And this is gonna be page two and get rid of that.
+
+05:16.300 --> 05:19.070
+And this is gonna have an idea of page two.
+
+05:19.420 --> 05:24.390
+And for the title or the H1 I should say I'm just gonna say page two.
+
+05:24.520 --> 05:25.900
+I'm going to leave the same text.
+
+05:25.900 --> 05:31.300
+Obviously it would be different content if this were a real life project and then down here the next.
+
+05:31.330 --> 05:33.960
+This is going to have this go to the previous page.
+
+05:34.170 --> 05:39.780
+I you know what I'll do is just copy the entire a tag here and paste it under.
+
+05:39.940 --> 05:48.190
+And this one is gonna go to page one and this is going to say previous or prev page and then for the
+
+05:48.190 --> 05:56.220
+icon it's gonna be f a circle up and then this one here is gonna go to page three and this is gonna
+
+05:56.230 --> 05:59.310
+be circled down and it's going to go to the next page.
+
+05:59.350 --> 06:00.700
+OK so now it's copy.
+
+06:00.700 --> 06:06.280
+Page 2 Copy that section paste that in.
+
+06:06.280 --> 06:08.730
+This is going to be page three.
+
+06:08.920 --> 06:15.020
+Change that all to page 3 and then as for the previous it's going to go to page 2 and this is going
+
+06:15.020 --> 06:17.610
+to go to page 4.
+
+06:17.900 --> 06:18.960
+All right.
+
+06:19.120 --> 06:27.060
+Actually one thing I wanted to do is for the see for the previous page button.
+
+06:27.070 --> 06:28.060
+Let's let's give.
+
+06:28.060 --> 06:33.450
+Also give that a class of button dark because I don't want them to be the same color.
+
+06:33.460 --> 06:34.830
+So that'll be button dark.
+
+06:34.840 --> 06:35.340
+This one.
+
+06:35.340 --> 06:39.020
+Also button dark.
+
+06:39.530 --> 06:39.880
+All right.
+
+06:39.880 --> 06:43.150
+And then we have one more page to do so.
+
+06:43.150 --> 06:52.690
+Paste this in this would be page 4 given an idea of page 4 and then the previous is gonna be page 3
+
+06:53.380 --> 06:58.060
+and then we're not going to have a next so we can we can get rid of the this whole tag
+
+07:01.420 --> 07:02.010
+all right.
+
+07:02.100 --> 07:06.190
+And let's see.
+
+07:06.400 --> 07:11.010
+We won't do the button dark here just because it's the only button.
+
+07:11.070 --> 07:11.340
+All right.
+
+07:11.350 --> 07:12.320
+So going to save that.
+
+07:12.330 --> 07:14.450
+And that's what that's what we're gonna get.
+
+07:14.490 --> 07:19.220
+And you can see just how much CSX does because this is the H Tim Allen.
+
+07:19.220 --> 07:20.610
+And just look at this.
+
+07:20.610 --> 07:22.180
+It's absolutely horrible.
+
+07:22.620 --> 07:28.770
+So CSX is very important when it comes to shaping up a website or an application.
+
+07:28.770 --> 07:32.760
+So that's the Tim Allen the next video we're gonna start on the CSX.

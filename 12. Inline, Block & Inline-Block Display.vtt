@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.150 --> 00:00.330
+All right.
+
+00:00.330 --> 00:06.700
+In this video we're going to look at the display property with the values inline block and inline block.
+
+00:06.710 --> 00:11.120
+Now display is very important because that's actually how we implement flex blocks.
+
+00:11.130 --> 00:13.680
+That's how we implement the CSX grid.
+
+00:13.680 --> 00:17.700
+But we're not going to get to that just yet and we'll do that a little later.
+
+00:17.730 --> 00:22.440
+So in this video I want to show you how to turn block level elements into inline and vice versa.
+
+00:22.560 --> 00:24.240
+And also look at inline block.
+
+00:24.250 --> 00:34.250
+So let's create a new file called let's call it 10 underscore inline underscore block dot h t AML
+
+00:37.100 --> 00:48.610
+and I'm just going to close this up and for the title will say inline and block styling.
+
+00:49.570 --> 00:50.040
+Okay.
+
+00:50.070 --> 00:57.630
+So in the body I'm going to start off with a well I guess I only only even need to give it we're only
+
+00:57.710 --> 01:01.400
+we're going to only going to have one you l so we'll just use that as a selector.
+
+01:01.650 --> 01:03.410
+But this is gonna be like a menu.
+
+01:03.420 --> 01:07.020
+So we'll do in a tag in here
+
+01:09.930 --> 01:17.030
+so go just nowhere and let's say that these are like categories maybe it's I don't know a list of blog
+
+01:17.030 --> 01:28.820
+posts or something like that so we'll just say like technology and for this one let's say business and
+
+01:28.820 --> 01:31.120
+I don't know fashion.
+
+01:31.160 --> 01:31.420
+All right.
+
+01:31.430 --> 01:32.930
+So let's go ahead and open this up.
+
+01:34.910 --> 01:38.180
+And by default list items are block level.
+
+01:38.180 --> 01:38.500
+Right.
+
+01:38.500 --> 01:44.540
+If we open up our our tools and we we use our element selector we look at the list item you can see
+
+01:44.540 --> 01:47.680
+that it goes all the way across and it knocks the next one down.
+
+01:47.690 --> 01:50.030
+So that that's a block level element.
+
+01:50.030 --> 01:57.290
+Now we can change that to be inline and in fact this could be a way to create a horizontal menu horizontal
+
+01:57.290 --> 01:58.700
+navigation.
+
+01:58.700 --> 02:06.590
+So let's go up into our styling and let's grab on to the UL and let's set it to.
+
+02:06.710 --> 02:08.510
+I'm sorry not the well the ally
+
+02:11.410 --> 02:17.620
+and let's set it to display in line and save.
+
+02:17.620 --> 02:20.370
+So notice that now it's going this way.
+
+02:20.410 --> 02:24.620
+And the bullets are no longer showing either.
+
+02:24.640 --> 02:30.070
+Now you probably want to spread these out a little bit so we could do like Actually I'd probably put
+
+02:30.070 --> 02:40.970
+these on the on the links so ally a and let's set padding right to 10 pixels.
+
+02:41.200 --> 02:42.730
+So it's going to spread them apart.
+
+02:42.730 --> 02:45.890
+Actually it's 220.
+
+02:45.940 --> 02:46.190
+All right.
+
+02:46.190 --> 02:50.540
+So that's how we can change block level elements to inline.
+
+02:50.650 --> 02:56.310
+Now let's take an inline elements such as an image and make it block level and I'm gonna give you a.
+
+02:56.340 --> 02:59.140
+I'm going to show you a reason why you would do this.
+
+02:59.140 --> 03:08.050
+So let's put a couple of line breaks in and we'll put in an image and inside of our folder we still
+
+03:08.050 --> 03:11.120
+have the AMG folder with the leaf dot PMG.
+
+03:11.140 --> 03:13.290
+I'm going to use that.
+
+03:13.420 --> 03:15.810
+So and here let's do dot slash.
+
+03:15.880 --> 03:17.300
+So the current directory.
+
+03:17.290 --> 03:21.850
+It go into the image directory and We want Leaf PMG for the all.
+
+03:21.850 --> 03:25.540
+I'll just say my image and save that.
+
+03:26.020 --> 03:26.620
+OK.
+
+03:26.650 --> 03:30.130
+Now this is an inline image or I'm sorry an inline element.
+
+03:30.160 --> 03:36.830
+If we grab the selector and we take a look you see how it doesn't go all the way across.
+
+03:36.840 --> 03:38.460
+If I were to put another image in.
+
+03:38.460 --> 03:43.710
+Actually if I just duplicate this and save it's going to go next to it it doesn't get pushed on to the
+
+03:43.710 --> 03:45.540
+next line.
+
+03:45.540 --> 03:49.680
+Now I want to make this a block level element when we get rid of one of these.
+
+03:50.010 --> 03:54.940
+And the reason I want to do that is because I want to add margin Otto because I want it in the middle.
+
+03:54.960 --> 03:56.430
+If I were to do that now
+
+04:02.520 --> 04:06.270
+if I were to do that now nothing happens because we can't do this.
+
+04:06.330 --> 04:10.030
+We can't do margin auto on an inline element.
+
+04:10.190 --> 04:10.670
+Okay.
+
+04:10.680 --> 04:17.040
+It needs it needs to be block level so we'll simply say display block and save.
+
+04:17.040 --> 04:19.740
+And now we can actually add margin auto.
+
+04:20.490 --> 04:27.300
+I can't tell you how how confusing that was to me a long time ago when I was just trying to simply center
+
+04:27.300 --> 04:30.210
+an image and margin auto just wouldn't work.
+
+04:30.210 --> 04:36.290
+I didn't realize that the the element had to be be display block to be able to do that.
+
+04:36.330 --> 04:36.630
+All right.
+
+04:36.650 --> 04:37.350
+So that's it.
+
+04:37.380 --> 04:43.850
+These are two situations where you would want to display something that's normally in line.
+
+04:43.910 --> 04:44.270
+I'm sorry.
+
+04:44.280 --> 04:48.630
+Normally block is in line and normally in line is block.
+
+04:48.630 --> 04:54.390
+Now let's say we want some divs here some some box divs like we've been dealing with just going to put
+
+04:54.390 --> 05:03.780
+a couple of line breaks and let's do a class of box and an H three just say heading and then let's put
+
+05:03.780 --> 05:05.970
+paragraph Lorem 20
+
+05:08.880 --> 05:10.770
+and let's say we have three of these
+
+05:13.840 --> 05:14.420
+OK.
+
+05:14.460 --> 05:22.950
+Go ahead and save that and let's say we want to align these going across.
+
+05:22.950 --> 05:23.550
+Actually know what.
+
+05:23.550 --> 05:27.930
+First let's style them a little bit just so we can kind of see the outline and stuff like that.
+
+05:27.930 --> 05:30.560
+So we'll do what we've been doing.
+
+05:30.560 --> 05:35.310
+Just give him a quick background.
+
+05:35.340 --> 05:46.810
+Border actually let's not even Sullivan do a border let's just do padding 20 pixels.
+
+05:47.270 --> 05:52.710
+What else do margin bottom 15 pixel.
+
+05:52.850 --> 05:55.970
+And we want these to display horizontally.
+
+05:55.970 --> 05:59.470
+So obviously we need a width right.
+
+05:59.510 --> 06:08.120
+So with let's do thirty two percent now if I save that we get that with.
+
+06:08.270 --> 06:13.250
+But they're still on top of each other because by default divs are displayed as block.
+
+06:13.250 --> 06:15.260
+So maybe we just need to do inline.
+
+06:15.260 --> 06:15.500
+Right.
+
+06:15.530 --> 06:19.130
+Let's do display in line and save.
+
+06:19.130 --> 06:22.850
+And that doesn't work and be the reason this isn't working.
+
+06:23.030 --> 06:29.900
+And it'll show you right in here and V.S. code that this property width is being ignored because display
+
+06:30.320 --> 06:32.470
+you can't use with on inline.
+
+06:32.990 --> 06:34.100
+OK.
+
+06:34.280 --> 06:37.550
+And the margin is also being ignored.
+
+06:37.580 --> 06:43.670
+So the solution to this if we want these to go across is to use inline block which is basically like
+
+06:43.670 --> 06:45.180
+a mix of both.
+
+06:45.260 --> 06:49.960
+It goes horizontal but it also allows us to add widths.
+
+06:50.060 --> 06:52.190
+So let's change it to inline Dash.
+
+06:52.190 --> 06:55.190
+BLOCK And save.
+
+06:55.190 --> 07:00.670
+Now this is getting knocked on to the next line because again we have padding.
+
+07:01.010 --> 07:05.720
+So that's getting added to the width because we didn't add the box sizing properties so let's go up
+
+07:05.720 --> 07:06.140
+here
+
+07:09.250 --> 07:11.170
+and let's say box.
+
+07:11.170 --> 07:11.730
+Actually no.
+
+07:11.800 --> 07:15.550
+Let's just put it that's you.
+
+07:15.580 --> 07:16.370
+That's what I.
+
+07:16.440 --> 07:17.590
+I'll usually do.
+
+07:17.590 --> 07:20.440
+But we can just put it in here.
+
+07:20.440 --> 07:25.440
+So box sizing order box and save.
+
+07:25.450 --> 07:28.220
+And now you'll see that there are lying side by side.
+
+07:28.300 --> 07:30.580
+You can probably even do 33.
+
+07:30.700 --> 07:33.680
+No let's do like thirty two point.
+
+07:33.850 --> 07:37.480
+I don't think I mentioned that we can do decimals and percentages like that.
+
+07:38.510 --> 07:38.790
+OK.
+
+07:38.800 --> 07:41.750
+So that looks pretty cool actually.
+
+07:42.110 --> 07:49.600
+But yeah that's so we have display inline display block and display inline block and then later on we
+
+07:49.600 --> 07:52.720
+get to flex we can do display flex.
+
+07:52.720 --> 07:54.810
+We can also do display grid.
+
+07:54.970 --> 07:59.230
+And I'm going to I'm going to talk all about that and the different properties that are associated with
+
+07:59.230 --> 08:01.330
+that as well but yeah.
+
+08:01.360 --> 08:06.040
+So that's that's that in the next video we're going to look at positioning there's different types of
+
+08:06.040 --> 08:09.010
+positioning relative absolute fixed.
+
+08:09.010 --> 08:14.070
+So I want to explain what the differences between all of those in the next video.

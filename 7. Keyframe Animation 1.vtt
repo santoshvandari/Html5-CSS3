@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.320 --> 00:00.840
+All right guys.
+
+00:00.840 --> 00:04.610
+Now we're going to start to talk about animation in CSX.
+
+00:04.620 --> 00:10.140
+And there's a few ways to do animations you have key frames which you're going to be looking at.
+
+00:10.140 --> 00:12.280
+Now we also have transitions.
+
+00:12.450 --> 00:19.320
+Basically when you animate something and CSX what it means is you're taking a property that can be animated
+
+00:19.320 --> 00:28.740
+such as a with a position a color opacity something like that where you have basically you have midpoint.
+
+00:28.800 --> 00:35.820
+So let's take a width for example you have zero pixels and let's say you go to six hundred pixels.
+
+00:35.820 --> 00:39.110
+Well there's there's all the pixels in between.
+
+00:39.110 --> 00:44.250
+So you can go from zero to six hundred pixels you can animate that so you can make something grow or
+
+00:44.250 --> 00:45.130
+shrink.
+
+00:45.150 --> 00:48.390
+You also have positions so you can move things around.
+
+00:48.930 --> 00:53.010
+You have opacity so you can fade things in Fade things out.
+
+00:53.010 --> 00:54.270
+Stuff like that.
+
+00:54.270 --> 00:56.690
+So let's get started with key frames.
+
+00:56.730 --> 01:06.650
+So I'm going to create a new file here I'm going to call it 0 7 underscore key frames dot HD hymnal.
+
+01:07.520 --> 01:10.980
+Let's put in our stuff here.
+
+01:10.980 --> 01:17.540
+Sure you guys are so coherent and we say that and do this but just want to set everything up from scratch.
+
+01:17.580 --> 01:17.850
+All right.
+
+01:17.870 --> 01:24.150
+So key frames now as far as the H team l we're gonna have a single div with the class of box.
+
+01:24.150 --> 01:25.230
+That's it.
+
+01:25.230 --> 01:25.530
+OK.
+
+01:25.540 --> 01:30.510
+We're going to create this this div basically it's gonna be a square and we're going to animated.
+
+01:30.510 --> 01:32.220
+So in the style.
+
+01:32.460 --> 01:36.360
+Let's let's start off by doing body.
+
+01:36.360 --> 01:38.490
+I'm going to give it a dark background.
+
+01:41.370 --> 01:42.750
+All right let's open this up.
+
+01:44.190 --> 01:53.130
+So if dark background and then for the box let's make this a white box by default.
+
+01:53.250 --> 01:59.070
+So back ground I will make this white.
+
+01:59.070 --> 01:59.750
+Actually you know what.
+
+01:59.790 --> 02:04.990
+Let's use let's use words because we're gonna be animating the colors.
+
+02:05.040 --> 02:09.810
+So background y obviously nothing is going to show up because it's empty there's no content in it.
+
+02:09.830 --> 02:12.740
+So that means we have to add a width and height.
+
+02:12.770 --> 02:23.070
+So we'll say with 200 picks and height 200 picks and save and now we have a white box it's 200 pixels
+
+02:23.730 --> 02:26.170
+wide into and pixels high.
+
+02:26.190 --> 02:32.130
+Now what I want to do is let's and let's end and meet the width.
+
+02:32.160 --> 02:38.790
+First of all so when it comes to animation we have a bunch of different properties and then we also
+
+02:38.790 --> 02:44.680
+can combine them much like we can with many other properties like border background stuff like that
+
+02:44.700 --> 02:46.560
+but let's look at each one one by one.
+
+02:46.560 --> 02:56.790
+So first I'm going to do animation dash name and I'm going to call this intimate let's do animate one
+
+02:58.530 --> 03:02.550
+and let's do an inmate
+
+03:05.100 --> 03:08.640
+duration case this is the time that it should take to animate.
+
+03:08.640 --> 03:10.800
+I'm going to say two seconds.
+
+03:10.800 --> 03:11.190
+All right.
+
+03:11.200 --> 03:15.770
+Now why is this giving me an error here.
+
+03:15.770 --> 03:21.530
+It's probably because we didn't create animate one.
+
+03:22.040 --> 03:22.490
+I'm sorry.
+
+03:22.490 --> 03:24.820
+Animation duration.
+
+03:24.820 --> 03:25.680
+OK.
+
+03:25.790 --> 03:28.580
+Now this animate one right here.
+
+03:28.580 --> 03:28.970
+This.
+
+03:28.970 --> 03:32.330
+We have to create a key frame called inmate 1.
+
+03:32.390 --> 03:39.360
+So we're going to go down below and we're gonna say at key frames and then enemy 1.
+
+03:39.600 --> 03:40.850
+And you can call it whatever you want.
+
+03:40.850 --> 03:48.070
+I just chose inmate 1 so we can basically specify points in the animation.
+
+03:48.080 --> 03:49.010
+Now I'm going to do this.
+
+03:49.010 --> 03:53.540
+The simplest way first from first just to show you.
+
+03:53.680 --> 03:54.890
+And that's from and to.
+
+03:54.920 --> 03:56.920
+So we'll say from.
+
+03:58.010 --> 04:02.890
+So from we could say like so let's extend the width.
+
+04:02.900 --> 04:18.890
+So if we could say from with 200 picks and then to set with two let's say 600 picks and let's save and
+
+04:18.890 --> 04:19.400
+then we go.
+
+04:19.430 --> 04:24.310
+So you can see that we get that little animation now since it's 200 pix to begin with.
+
+04:24.320 --> 04:32.240
+We don't even need the from like we could simply say to with 600 picks and if I save it still it still
+
+04:32.240 --> 04:33.350
+works.
+
+04:33.350 --> 04:36.410
+Now there's some other things that we can add here.
+
+04:36.410 --> 04:41.180
+And by the way if you want to change the duration to five seconds now it's going to take five seconds
+
+04:41.180 --> 04:45.740
+for that to happen for it to extend to 600 pixels.
+
+04:45.760 --> 04:48.090
+We're going to change it back to 2.
+
+04:48.170 --> 04:51.060
+Notice how it only goes once.
+
+04:51.320 --> 05:00.880
+What we could do is add in animation dash iteration count and to right now it's set to 1.
+
+05:00.890 --> 05:04.490
+But let's set it to 2 and let's save and see what happens.
+
+05:04.550 --> 05:08.640
+So we get 1 2 and then stops.
+
+05:08.790 --> 05:09.090
+OK.
+
+05:09.090 --> 05:11.880
+Now if you wanted to keep going you can use infinite.
+
+05:12.360 --> 05:18.570
+So I'll save and it'll just keep going.
+
+05:18.700 --> 05:20.440
+Now I'm going to set this back to 1
+
+05:23.910 --> 05:24.940
+which is the default.
+
+05:24.960 --> 05:32.490
+And I'm going to add another property here called animation dash filled dash mode.
+
+05:32.610 --> 05:39.540
+So right now notice that once it's done animating once it's done stretching out it goes back to the
+
+05:39.540 --> 05:42.650
+to its default of two hundred pixels right.
+
+05:42.690 --> 05:46.770
+So what if we want to keep it at that stretched out six hundred pixels.
+
+05:46.770 --> 05:53.070
+We can change this to forwards OK so if we save this now it's going to anime and it's going to stay
+
+05:53.550 --> 05:55.290
+where it's at.
+
+05:55.430 --> 05:56.380
+All right.
+
+05:56.810 --> 06:06.230
+Let's see we also have just to show you some more properties we have animation delay which shall set
+
+06:06.230 --> 06:07.520
+to two seconds.
+
+06:07.550 --> 06:12.630
+So now once they save it's going to wait two seconds and then it's going to start OK.
+
+06:12.650 --> 06:15.550
+So it's going to delay the start of the animation.
+
+06:15.560 --> 06:25.200
+We also have animation dash direction and let's set that to alternate.
+
+06:25.580 --> 06:34.600
+So if we save that actually notes it's two alternate dash or does it alternate reverse
+
+06:37.330 --> 06:41.180
+so then it's going to go reverse so you can do that as well.
+
+06:41.370 --> 06:44.850
+We're going to keep it our alternate.
+
+06:46.090 --> 06:54.960
+And then the last one I'm going to show you is the timing function so animation dash timing dash function.
+
+06:55.210 --> 07:03.610
+And this is basically like the the motion and you could do like ease ease in which is going to kind
+
+07:03.610 --> 07:07.350
+of start off and start off fast.
+
+07:07.360 --> 07:14.190
+And then like ease in or ease out which will start off slow and then go faster.
+
+07:14.190 --> 07:20.760
+So let's look at ease in there's not too much of a difference at least in my opinion.
+
+07:20.800 --> 07:26.800
+Let's make the let's make the duration a little longer we'll say five seconds and let's watch the motion
+
+07:26.800 --> 07:29.180
+near it's going to delay.
+
+07:29.180 --> 07:33.250
+So it starts off slow and then it starts to go faster.
+
+07:33.250 --> 07:38.640
+All right let's let's actually comment out the delay but let's do ease.
+
+07:38.660 --> 07:40.280
+Oh and see the difference.
+
+07:40.310 --> 07:47.220
+So save and so it starts fast and then it slows down and then you can also do ease in our
+
+07:49.970 --> 07:53.970
+ease in O which will start off slow in and slow.
+
+07:53.990 --> 07:55.850
+So it eases out.
+
+07:55.880 --> 08:01.830
+And then it eases in all right those are the different timing functions that you can use
+
+08:05.170 --> 08:08.850
+now obviously with isn't the only thing we can enemy.
+
+08:08.860 --> 08:16.180
+Let's do color so let's say we want the color or I'm sorry the background color color would be the text.
+
+08:16.210 --> 08:23.510
+So we want background color and let's set that to red and we'll go ahead and save.
+
+08:23.620 --> 08:28.290
+Now not only is it going to extend to 600 pixels but it's going to turn to red.
+
+08:28.330 --> 08:34.630
+It's going to go through all the color the whole color system and it's going to go from white to red.
+
+08:34.720 --> 08:42.840
+Let's see another thing we could do is it's position so let's actually let's give this a position of
+
+08:43.470 --> 08:44.470
+relative.
+
+08:44.670 --> 08:50.520
+Because remember when we add position relative we can use parameters like top bottom left right.
+
+08:50.550 --> 08:52.620
+So what I'll do is say from
+
+08:55.800 --> 09:05.790
+top zero So basically its default position and then two we're gonna end up at let's say from the top
+
+09:05.930 --> 09:09.020
+we want to go down three hundred pixels.
+
+09:09.240 --> 09:18.520
+So let's save and now you can see that it's animating the with the color and also the position moving
+
+09:18.520 --> 09:24.330
+it from from 0 from the top down to 300 pixels from the top.
+
+09:24.340 --> 09:30.010
+Now like I said there's a shortcut for this so you don't have to have all of these different properties
+
+09:30.010 --> 09:32.540
+we can simply use the animation property.
+
+09:32.620 --> 09:37.840
+So I'm going to uncommon the delay and I'm going to comment all of these out and I'm going to show you
+
+09:37.840 --> 09:41.110
+how we can do this with just one line or just one property.
+
+09:41.110 --> 09:46.710
+So going to say animation first parameter here is going to be the name of the animation.
+
+09:46.720 --> 09:53.480
+So animator one second is going to be the speed or the the the duration.
+
+09:53.530 --> 09:56.270
+So we'll say five seconds.
+
+09:56.620 --> 09:59.590
+Next is going to be the fill mode.
+
+09:59.590 --> 10:06.040
+So I wanted to stop at the end so we'll do forwards if we wanted to delay we could do that.
+
+10:06.040 --> 10:13.260
+We'll do a one second delay and then we can do the timing function so I'll do ease in out.
+
+10:13.400 --> 10:16.140
+OK so let's save that.
+
+10:16.180 --> 10:19.040
+Wait a second and then it does the same thing.
+
+10:19.960 --> 10:20.270
+OK.
+
+10:20.310 --> 10:24.200
+So this is just a shorter way to do all this stuff.
+
+10:24.550 --> 10:26.770
+So that's it in the next video.
+
+10:26.770 --> 10:30.760
+We're going to we're going to still look at key frames but I want to show you how we can add different
+
+10:30.760 --> 10:31.240
+points.
+
+10:31.240 --> 10:37.690
+We don't have to do just from and to we can actually use percentages in here and we're going to make
+
+10:38.890 --> 10:42.520
+an element move around the screen a little bit different points.
+
+10:42.520 --> 10:42.780
+All right.
+
+10:42.790 --> 10:44.040
+So I'll see you in the next video.

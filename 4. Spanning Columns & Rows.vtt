@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.270 --> 00:06.510
+All right guys now I'm going to show you how to take a grid item and span it across multiple rows and
+
+00:06.510 --> 00:07.530
+columns.
+
+00:07.530 --> 00:14.030
+So we're gonna create a new file here called 0 3 underscore grid underscore span dot HD CML.
+
+00:14.490 --> 00:24.390
+And let's go ahead and generate our each team I'll head body tags we'll say grid span style
+
+00:27.910 --> 00:36.560
+and as far as the markup let's just do our parent call it grid and then let's do class item just say
+
+00:36.560 --> 00:41.940
+item money Sign and let's do a bunch of them so we'll do times 15.
+
+00:42.350 --> 00:54.410
+So have 15 grid items here so let's say grid display grid and then I'm going to add grid template columns
+
+00:54.740 --> 01:02.170
+and I'm going to just do a repeat of 4 1 f fa items.
+
+01:03.080 --> 01:04.250
+OK so we'll save that.
+
+01:04.250 --> 01:06.480
+Let's open it up.
+
+01:06.500 --> 01:07.600
+All right it's gonna look like that.
+
+01:07.610 --> 01:14.180
+I'm just gonna grab the styling of the item from one of the other files just so we can clearly see see
+
+01:14.180 --> 01:17.500
+them as boxes.
+
+01:17.840 --> 01:19.190
+Why is this not copying
+
+01:22.300 --> 01:22.670
+all right.
+
+01:22.810 --> 01:23.920
+So save that.
+
+01:23.920 --> 01:24.850
+Good.
+
+01:24.880 --> 01:31.330
+Now what I want to do is take one of these items we'll take the first one and I want to show you how
+
+01:31.330 --> 01:39.370
+we can span it across okay across the columns and also down through the rows.
+
+01:39.370 --> 01:42.790
+So I want to take this item one and I want to have it go like this.
+
+01:42.790 --> 01:48.320
+Fill up this whole area and basically push the rest over so we can do that using.
+
+01:48.370 --> 01:52.320
+I want to show you kind of a long way first and then I'll show you a short away.
+
+01:52.570 --> 01:55.750
+So let's first target this first item.
+
+01:55.750 --> 01:59.880
+We could give it a special class but well let's just use our pseudo selectors.
+
+01:59.890 --> 02:01.080
+We'll use first child.
+
+02:01.090 --> 02:02.230
+So I'll say.
+
+02:02.230 --> 02:03.850
+Class of item.
+
+02:03.860 --> 02:14.050
+We want the first child and we have a property called GRID column start.
+
+02:14.050 --> 02:17.710
+OK so we can specify where we want it to start.
+
+02:17.710 --> 02:18.960
+In terms of the columns.
+
+02:18.970 --> 02:21.330
+So it starts at 1 right now.
+
+02:21.340 --> 02:23.770
+Let's say let's just put it to two and save.
+
+02:23.770 --> 02:26.050
+And you can see that it gets pushed over.
+
+02:26.070 --> 02:26.330
+OK.
+
+02:26.350 --> 02:32.500
+So we can start at wherever we want but I'm going to started at 1 and then I'm going to use another
+
+02:32.500 --> 02:35.000
+property called GRID column end.
+
+02:35.180 --> 02:41.940
+And we can basically tell it where we want it to end and I'm going to put in here for.
+
+02:43.210 --> 02:47.650
+And you can see what happens is it spanned across what looks like three.
+
+02:47.650 --> 02:55.560
+But what you're going to do is you're going to look at the lines Casey of one two three four.
+
+02:55.610 --> 02:56.080
+OK.
+
+02:56.140 --> 03:00.240
+So if you use this grid column and start now and that's what you're going to look at is you're going
+
+03:00.240 --> 03:02.350
+to count these lines.
+
+03:02.410 --> 03:09.310
+Now we can also go down and that's that's the big difference between the grid and flex box or one of
+
+03:09.310 --> 03:15.550
+them is that you can't do that with Flex blocks you have your rows and that's it with with the grid
+
+03:15.550 --> 03:20.050
+we can we can be multi-dimensional and we can span this down into the next one.
+
+03:20.500 --> 03:30.760
+So let's add grid dash row dash start and we'll start at 1 which is where we currently are.
+
+03:30.760 --> 03:40.090
+And then let's say grid dash row dash and and let's say we want to end at three and I'm going to save
+
+03:40.090 --> 03:40.460
+that.
+
+03:40.480 --> 03:47.740
+And now you can see that this is now spanning basically Well look what looks like two rows.
+
+03:47.740 --> 03:54.040
+But again if you look at the lines it's going from one to three.
+
+03:54.040 --> 03:56.740
+Now this is kind of a long way to do this.
+
+03:56.740 --> 04:00.270
+There's a shorter way much like with many things and CSX.
+
+04:00.280 --> 04:05.170
+So I'm going to comment this out and I'm going to show you how to do the same thing by using the grid
+
+04:05.170 --> 04:08.700
+column in the grid row property rather than starting.
+
+04:08.710 --> 04:12.340
+And so let's say grid dash column.
+
+04:12.340 --> 04:18.670
+So it's basically just a shortcut and we're gonna say start at 1 and then we want to do a slash and
+
+04:18.670 --> 04:21.120
+we want to span three.
+
+04:21.250 --> 04:26.130
+So I save that you can see it's doing the same thing that these two lines are doing.
+
+04:26.170 --> 04:31.480
+And even though I put four here when I put three it does the same thing because here we're saying we
+
+04:31.480 --> 04:37.870
+want to take we want an item to start at 1 and go to 4 when here we're saying we're taking item 1 and
+
+04:37.870 --> 04:39.680
+spanning it 3.
+
+04:39.700 --> 04:40.080
+OK.
+
+04:40.080 --> 04:41.610
+And item one is here.
+
+04:41.620 --> 04:43.370
+So we're spanning three.
+
+04:43.570 --> 04:46.780
+Now if we want to go down like we did before.
+
+04:46.780 --> 04:54.650
+Down down a row we can do grid row and let's start at one.
+
+04:54.750 --> 04:58.950
+And we want to span two and we'll save.
+
+04:58.970 --> 05:00.950
+And we get the same result.
+
+05:00.950 --> 05:01.250
+OK.
+
+05:01.260 --> 05:05.110
+So this is just a shorter way of doing this.
+
+05:05.190 --> 05:06.180
+Let's grab another one.
+
+05:06.180 --> 05:09.810
+So let's let's get a random one we'll just take nine.
+
+05:09.960 --> 05:19.470
+So we'll use and the child so we'll say item and let's say andthe child and we'll do nine
+
+05:22.580 --> 05:28.390
+and I want to keep it in its place but span it across all the way to the end here.
+
+05:28.400 --> 05:32.300
+So in terms of columns it's in the second column.
+
+05:32.300 --> 05:32.570
+Right.
+
+05:32.570 --> 05:38.620
+So we want to do grid dash column and we want to set to.
+
+05:38.630 --> 05:45.300
+We want to start at 2 and then we want to span 2.
+
+05:45.380 --> 05:45.770
+OK.
+
+05:45.800 --> 05:50.250
+We'll go ahead and save that actually wanted to go all the way over so we want to spend three.
+
+05:50.270 --> 05:50.540
+All right.
+
+05:50.540 --> 05:56.680
+And then if we want to span it down we could do grid row
+
+05:59.480 --> 06:00.650
+and let's start it.
+
+06:00.710 --> 06:04.540
+So we're at 1 2 3 4.
+
+06:05.330 --> 06:12.830
+So let's say start at 4 and let's span 2 and save.
+
+06:12.830 --> 06:14.440
+And now it gets pushed down.
+
+06:14.450 --> 06:15.180
+OK.
+
+06:15.320 --> 06:22.910
+So I mean you can start it wherever you want like we could do grid row 2 and span 2 and it's going to
+
+06:22.910 --> 06:25.190
+get it's going to get pushed up here.
+
+06:25.280 --> 06:25.640
+All right.
+
+06:25.640 --> 06:32.540
+And notice that it's completely out of order but you may want that you may you may want your markup
+
+06:32.540 --> 06:39.590
+to be a certain way but you want to move the the element visually without changing your markup.
+
+06:39.590 --> 06:41.780
+So the grid is good for that as well.
+
+06:41.780 --> 06:42.050
+All right.
+
+06:42.050 --> 06:46.490
+So in the next video we're going to take a look at auto fitting and min max.

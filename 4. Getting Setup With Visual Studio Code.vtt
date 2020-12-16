@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.410 --> 00:05.740
+All right guys so we're almost ready to start learning how to learn each team LCROSS build Web sites.
+
+00:05.790 --> 00:08.070
+But before we do that we need a couple things.
+
+00:08.070 --> 00:12.390
+What's good about learning each team on C assesses it doesn't take much to get started.
+
+00:12.420 --> 00:17.640
+If you're learning a more complex language like let's say peach PEA or Python or something like that
+
+00:17.880 --> 00:23.040
+usually you'll need to install a web server locally so that you can develop on your local machine.
+
+00:23.040 --> 00:25.140
+And that takes a lot more work.
+
+00:25.170 --> 00:29.340
+Some languages even need to be compiled and you need something called an IDC.
+
+00:29.430 --> 00:34.440
+But with each team LCROSS we can simply click on an each team Al file and run it in a browser.
+
+00:34.440 --> 00:36.390
+We can also edit it with a text editor.
+
+00:36.390 --> 00:40.410
+So those are the two things we need as a browser and a text editor.
+
+00:40.410 --> 00:46.680
+Now it doesn't matter what operating system you're on if you're using Windows Mac Linux you can see
+
+00:46.680 --> 00:47.760
+I'm on a Mac.
+
+00:47.760 --> 00:49.790
+But everything we do in this course.
+
+00:49.800 --> 00:54.840
+It doesn't matter what you're on and if there is something little that specific to Windows I will mention
+
+00:54.840 --> 00:57.630
+it for you guys that are using Windows.
+
+00:57.630 --> 01:01.920
+Now your system comes with a browser and a text editor.
+
+01:01.920 --> 01:06.900
+So for windows you have for instance edge and notepad for Mac.
+
+01:06.930 --> 01:12.780
+You have safari and text edit but these are not good for web development especially the text editors
+
+01:13.560 --> 01:19.020
+for a browser I would definitely recommend Google Chrome it's it's the most popular in the web development
+
+01:19.020 --> 01:19.550
+community.
+
+01:19.560 --> 01:20.580
+It's very fast.
+
+01:20.580 --> 01:26.150
+It's fast to a to adapt new features and CSX javascript and so on.
+
+01:26.340 --> 01:32.880
+It also has really great development tools second to to Chrome I would say Firefox as far as a text
+
+01:32.880 --> 01:37.860
+editor you don't want to use Notepad or anything like that because there's no features there's no syntax
+
+01:37.860 --> 01:40.530
+highlighting anything like that.
+
+01:40.530 --> 01:46.080
+There's a lot of choices but what I would recommend and what I'm going to use is visual studio code
+
+01:46.380 --> 01:49.890
+and I use this for everything I don't just use it for each team LCROSS.
+
+01:49.890 --> 01:56.640
+I also use it for AP HP Javascript Python any language that I work with because it's just very fast
+
+01:56.640 --> 02:03.030
+it's intuitive has a lot of features it has great extensions and it's just all around it's just a great
+
+02:03.030 --> 02:03.800
+editor.
+
+02:03.840 --> 02:05.620
+So that's what we'll be using.
+
+02:05.730 --> 02:10.230
+I don't have it installed so I'm going to go ahead and download it and it's available for Windows Mac
+
+02:10.230 --> 02:12.890
+or Linux doesn't matter what system you're on.
+
+02:12.930 --> 02:15.730
+So on a Mac it's just going to give me the zip file.
+
+02:15.780 --> 02:21.970
+I'll go ahead and open it up or unpacking it and you can see I have my icon here and I'm just going
+
+02:21.970 --> 02:24.260
+to bring it to my applications folder.
+
+02:24.860 --> 02:27.320
+OK so once it's in there I can open it up.
+
+02:27.330 --> 02:31.110
+I'm actually going to drag it down to my bar which you guys can't see.
+
+02:31.560 --> 02:36.560
+Just so I can easily access it and then I'll go ahead and open it.
+
+02:36.570 --> 02:39.780
+So when you first open up this code you'll see a welcome page.
+
+02:39.790 --> 02:45.090
+It'll give you some options like open up a file open a folder you'll show your recent projects and the
+
+02:45.090 --> 02:49.010
+only reason I have recent projects is because I already had VSO code installed.
+
+02:49.020 --> 02:51.440
+I just uninstalled it for this course.
+
+02:51.670 --> 02:54.290
+If also over here if you want to change your theme.
+
+02:54.330 --> 02:59.700
+So if I click color theme it will open up this which is the command palette and I for instance we could
+
+02:59.700 --> 03:04.770
+change it to a light theme and you can kind of experiment with these a little bit.
+
+03:04.770 --> 03:08.110
+I'm just gonna keep the regular dark theme like that.
+
+03:08.110 --> 03:12.180
+So let's close this welcome page up and head over to the side bar.
+
+03:12.180 --> 03:15.750
+So this first icon here is your your file explorer.
+
+03:15.750 --> 03:20.580
+So when you have a Web site or a web application it's gonna be in a folder and you're going to want
+
+03:20.580 --> 03:24.800
+to open that folder so that you can see the files and access them easily.
+
+03:24.810 --> 03:30.750
+So I actually have a folder that is on my desktop that I'm going to open called Split landing page which
+
+03:30.750 --> 03:36.320
+is just a very simple web site with some javascript and HDMI LCROSS.
+
+03:36.320 --> 03:40.860
+So I'm gonna open that and you'll see that I have the files over here.
+
+03:40.890 --> 03:43.310
+So we have one HD him file.
+
+03:43.470 --> 03:49.310
+We have a CSX file for styling and then we have a javascript file and when I just click them once I
+
+03:49.340 --> 03:54.300
+notice that they just open and they just stay in this one tab and then it kind of closes when I click
+
+03:54.300 --> 03:54.930
+on the next one.
+
+03:54.930 --> 03:56.850
+If I double click it'll stay.
+
+03:57.090 --> 03:59.720
+So if I go click on the next file notice that the.
+
+03:59.790 --> 04:02.160
+Each team will index each team l stayed there.
+
+04:02.310 --> 04:05.690
+OK if I double click this one it'll stay there and then I can just close them up.
+
+04:06.300 --> 04:09.580
+OK and we'll be working in the file explorer quite a bit.
+
+04:09.630 --> 04:12.630
+So the next thing I want to show you is the settings.
+
+04:12.630 --> 04:16.890
+Now this this text right here is way too small especially for doing a course.
+
+04:16.890 --> 04:18.890
+You guys probably can barely read this.
+
+04:18.930 --> 04:24.870
+So to get to the settings you can go to this little gear and you can go to settings or you can do control
+
+04:24.930 --> 04:31.080
+karma on an on a Windows machine or command karma on a Mac and that will also bring you to the settings
+
+04:31.140 --> 04:32.400
+as we go along here.
+
+04:32.400 --> 04:38.340
+I'm going to be teaching you guys some of the keyboard shortcuts because e your your workflow really
+
+04:38.340 --> 04:44.910
+speeds up when you learn shortcuts and when we write our code our each team LCROSS I'm going to teach
+
+04:44.910 --> 04:49.350
+you some shortcuts to navigate around really easily as well.
+
+04:49.350 --> 04:54.960
+So what I want to change is the font size which is actually right here Ed font size but if I couldn't
+
+04:54.960 --> 05:00.150
+find this I could just search for it up here so I could say font size and you can see now it's at the
+
+05:00.150 --> 05:04.110
+top here it's 14 pixels by default.
+
+05:04.110 --> 05:08.570
+So I want to change it to twenty six and that should take effect right away.
+
+05:08.580 --> 05:11.730
+The only other setting I want to change is my tab space.
+
+05:11.730 --> 05:18.350
+So if I type in tab spaces the default is for and what this means is the number of spaces that it indents
+
+05:18.360 --> 05:19.860
+when you hit tab.
+
+05:19.860 --> 05:20.220
+OK.
+
+05:20.220 --> 05:26.610
+Because in each team L and in most languages you're going to have you're going to indent to organize
+
+05:26.610 --> 05:30.990
+your code but for is a little too much for me I like to keep it at two.
+
+05:31.230 --> 05:34.710
+So going to change that to two and that should save right away.
+
+05:34.800 --> 05:40.530
+So let's close up the settings and now if I go back to let's say index each team l notice the font is
+
+05:40.530 --> 05:41.530
+much bigger.
+
+05:41.580 --> 05:42.020
+OK.
+
+05:42.030 --> 05:46.260
+And a tab now is two spaces as opposed to four.
+
+05:46.290 --> 05:50.040
+So the last thing I want to do is just go over these other icons.
+
+05:50.040 --> 05:54.900
+This one is just to search if you want to search within the page you can also replace.
+
+05:54.900 --> 05:57.450
+This is for version control with a get.
+
+05:57.450 --> 05:59.350
+We're not going to get into that right now.
+
+05:59.370 --> 06:04.710
+This is a debugger for programming languages like Python javascript and so on.
+
+06:04.710 --> 06:06.520
+Also something we're not going to get into.
+
+06:06.630 --> 06:12.060
+But this one right here the last one is your extensions K so you can extend the functionality of V.S.
+
+06:12.060 --> 06:18.150
+code with a whole bunch of extensions and we don't have any installed right now but it does show some
+
+06:18.150 --> 06:22.780
+of the popular ones shows us some of the recommended recommendations.
+
+06:22.920 --> 06:29.580
+If you want to search you can search like let's say we're using P HP if we want to search for p p extensions
+
+06:29.940 --> 06:35.430
+like this one right here and tell essence and if we click on that it'll show us a bunch of documentation
+
+06:35.430 --> 06:36.550
+and examples.
+
+06:36.570 --> 06:42.360
+Basically this gives you some p p drop downs as you can see right here if we wanted to install this
+
+06:42.360 --> 06:46.650
+we could just click the green install button and it would simply get installed.
+
+06:46.650 --> 06:51.960
+And if I make this a little bigger you can see the number of downloads you can see this one has five
+
+06:51.960 --> 06:55.890
+point seven million downloads and a rating of three point five.
+
+06:55.930 --> 06:58.940
+Case you see the number of downloads as well as the ratings.
+
+06:59.010 --> 07:04.080
+And I do have a couple extensions that I want to install later but I don't want to get into that right
+
+07:04.080 --> 07:05.060
+now.
+
+07:05.070 --> 07:05.400
+All right.
+
+07:05.400 --> 07:10.230
+So now that you have these codes set up in the next section we're going to jump in and we're going to
+
+07:10.230 --> 07:11.620
+start to learn HDL.

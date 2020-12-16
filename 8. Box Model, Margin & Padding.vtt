@@ -1,0 +1,670 @@
+WEBVTT
+
+00:00.240 --> 00:04.440
+All right so in this video we're going to talk about the box model and we're gonna talk about margin
+
+00:04.440 --> 00:08.130
+and padding as well as what a C reset is.
+
+00:08.130 --> 00:08.440
+OK.
+
+00:08.460 --> 00:11.190
+We're also going to look at some of the default styling of the browser.
+
+00:11.190 --> 00:19.560
+So let's create a new file here called 0 6 underscore box underscore model dot h t email and to put
+
+00:19.560 --> 00:32.370
+in our head body tags and for the title we'll say box model margin and padding and put in our style
+
+00:33.570 --> 00:38.350
+and then for the each team l I'm going to put in a cloud a div with the class of box which is just going
+
+00:38.350 --> 00:45.230
+to have an h three we'll say box one and then a paragraph with 20 words or alarm 20.
+
+00:45.240 --> 00:45.570
+All right.
+
+00:45.570 --> 00:47.570
+And then I'm just going to copy this down.
+
+00:47.580 --> 00:54.750
+So shift option or shift Ault and then down or copy it and let's just we'll just change this to Box
+
+00:54.750 --> 00:57.040
+2 and they both have the same class.
+
+00:57.110 --> 00:57.350
+OK.
+
+00:57.360 --> 01:01.110
+Which is which is absolutely fine we're just going to style in the same way.
+
+01:01.200 --> 01:04.230
+So let's save this and open it with live server.
+
+01:04.230 --> 01:07.590
+Open it and chrome and I want to open up our dev tools.
+
+01:07.590 --> 01:14.130
+So on Mac it's command option I on Windows it's F 12 or you can use your here menu.
+
+01:14.190 --> 01:16.920
+So remember this is the H team all over here.
+
+01:16.920 --> 01:18.500
+This is a CSX.
+
+01:18.570 --> 01:24.060
+So I'm actually going to just click on the div right here the first div which will give us the CSX which
+
+01:24.060 --> 01:30.210
+by default just has a display block because remember divs by default are displayed as a block.
+
+01:30.420 --> 01:32.090
+Meaning they go all the way across.
+
+01:32.190 --> 01:37.960
+And right here you're going to see a diagram of the box model which makes it a lot easier to explain.
+
+01:37.980 --> 01:43.500
+So there's basically four layers there's that element itself which we can put a Hytner with property
+
+01:43.500 --> 01:43.830
+on.
+
+01:43.830 --> 01:49.320
+By default the width is all is all the way across and the height is going to be however much content
+
+01:49.320 --> 01:50.070
+is in it.
+
+01:50.100 --> 01:56.580
+If I had a bunch more paragraphs it's going to extend more or I can just set a height and CSX then we
+
+01:56.580 --> 01:57.470
+have padding.
+
+01:57.510 --> 02:01.070
+So we have spacing we can put here then we have the border.
+
+02:01.170 --> 02:05.830
+We looked at the border properties in the last video and then we have the margin.
+
+02:05.940 --> 02:12.350
+Now the margin in padding the spacing is some people get this confused when they first start.
+
+02:12.540 --> 02:17.250
+But all you really have to remember is the margin is the outside of the element or the outside of the
+
+02:17.250 --> 02:19.230
+board or the padding is the inside.
+
+02:19.840 --> 02:20.240
+OK.
+
+02:20.250 --> 02:28.260
+So to give you an example let me just add some styling for the box.
+
+02:28.410 --> 02:32.010
+So we're gonna see box we're going to say background.
+
+02:32.480 --> 02:38.820
+We're going to give it a color of light gray and then we'll give it a border.
+
+02:38.820 --> 02:46.260
+Let's say two pixels Gray solid and we went over the stuff in the last video.
+
+02:46.260 --> 02:53.010
+So now you can get a better picture of of the box model so we have the content then we have the padding
+
+02:53.520 --> 02:57.670
+and then we have the border and then outside of the borders the margin.
+
+02:57.780 --> 03:01.200
+Now notice that there's some spacing here.
+
+03:01.230 --> 03:06.600
+There's spacing here there's spacing here and there's even spacing around the sides that's because the
+
+03:06.600 --> 03:11.190
+browser has default margin impacting on certain elements.
+
+03:11.220 --> 03:17.400
+So if we grab the selector tool here and I hover over the h three you'll see that there's some orange
+
+03:17.520 --> 03:19.590
+areas here where the spaces.
+
+03:19.590 --> 03:21.000
+That's the margin.
+
+03:21.000 --> 03:28.380
+And if I go over the the paragraph we have some margin and even the body if I go right.
+
+03:28.590 --> 03:30.060
+Actually it's not going to let me show it.
+
+03:30.930 --> 03:35.400
+But anyways the body has some some margin as well.
+
+03:35.400 --> 03:37.360
+So let's click on this.
+
+03:37.440 --> 03:43.440
+The H3 and then over here you'll see the styling so this margin blocks start margin block and is basically
+
+03:43.440 --> 03:45.300
+margin top and bottom.
+
+03:45.300 --> 03:52.710
+And it has a value of 1 M and M is a relative unit it's relative to the number of pixels of the font
+
+03:52.710 --> 03:56.230
+size of its element of its parent container.
+
+03:56.230 --> 03:58.850
+And if you don't understand what that means don't worry about it.
+
+03:58.860 --> 04:04.500
+If you want to see the computed pixels you can actually click on computed and it will show you that
+
+04:04.500 --> 04:12.060
+the font size and the margin on the top and bottom for the H 3 is going to be it's 18 7 2 pixels by
+
+04:12.060 --> 04:12.900
+default.
+
+04:13.140 --> 04:19.260
+If we click on the paragraph you'll see that it has a margin on the top and bottom of 16 pixels.
+
+04:19.320 --> 04:24.990
+If I click on the body you can see it has a margin on all sides of eight pixels.
+
+04:24.990 --> 04:28.140
+And there you can see the orange around the whole body.
+
+04:28.170 --> 04:28.460
+OK.
+
+04:28.470 --> 04:34.710
+So these are all default browser styles and there's other elements as well like a well and unordered
+
+04:34.710 --> 04:36.960
+list and an ordered list.
+
+04:36.960 --> 04:44.700
+They both have margin on the top and bottom and they have a padding on the left of I believe 40 pixels.
+
+04:44.730 --> 04:51.330
+So this is just stuff that you that you're going to run into and you can overwrite those values obviously
+
+04:51.330 --> 04:59.340
+like I could set for paragraph I could set margin to to zero and get rid of that and I can actually
+
+04:59.340 --> 05:00.330
+show you that real quick.
+
+05:00.360 --> 05:13.980
+So if I say box paragraph and set margin to zero and save that we go back.
+
+05:13.980 --> 05:19.740
+Now if I you'll see that there's no orange when I hover over the paragraph and if we look at the styles
+
+05:20.160 --> 05:23.040
+you can still see the default but this overwrite it.
+
+05:23.070 --> 05:23.990
+What I just did.
+
+05:24.660 --> 05:25.080
+OK.
+
+05:25.080 --> 05:31.470
+Now if you want to take away all the default styling you can do that with what's called a reset.
+
+05:31.470 --> 05:32.990
+So I'm going to get rid of that.
+
+05:33.000 --> 05:37.640
+What I just did and I'm going to create C assess reset.
+
+05:39.150 --> 05:39.510
+OK.
+
+05:39.510 --> 05:41.120
+And there's different ways to reset.
+
+05:41.130 --> 05:45.780
+You can reset margin and padding font size borders.
+
+05:45.870 --> 05:52.710
+There is actually like a popular reset files that you can use like Eric Myers has a reset file that's
+
+05:52.710 --> 05:53.540
+pretty popular.
+
+05:53.550 --> 06:00.300
+But the easiest way to do it is just to use an asterisk which selects everything and then just say you
+
+06:00.300 --> 06:04.980
+want margin to be zero and padding to be zero.
+
+06:05.150 --> 06:05.480
+OK.
+
+06:05.490 --> 06:09.210
+So we're just setting the margin and padding to zero for everything.
+
+06:09.210 --> 06:10.210
+So let's save that.
+
+06:10.230 --> 06:12.110
+And this is on all sides.
+
+06:12.350 --> 06:12.630
+OK.
+
+06:12.630 --> 06:14.700
+Top Top Bottom Left and Right.
+
+06:14.730 --> 06:20.430
+So if we go back now notice there's no spacing anywhere not even on the body not even on the side here.
+
+06:20.510 --> 06:26.640
+And if I grab the selector tool there's no orange there's no green which is padding there's just no
+
+06:26.640 --> 06:28.000
+spacing at all.
+
+06:28.020 --> 06:31.740
+Now it's up to you on if you want to use a reset or not.
+
+06:31.770 --> 06:39.330
+I do sometimes it really depends on the layout but if you do use it you have to remember to add all
+
+06:39.330 --> 06:46.230
+of your your your own map margin and padding because now if I add another paragraph under this one it's
+
+06:46.230 --> 06:50.790
+going to be right next to it it's not going to have that that default spacing that the browser gives
+
+06:50.790 --> 06:56.070
+it same with the heading usually you'll want some space here it's not there anymore we will have to
+
+06:56.070 --> 06:58.860
+create it if we're going to keep the reset.
+
+06:58.890 --> 06:59.210
+All right.
+
+06:59.220 --> 07:03.780
+So I just wanted to kind of explain how the the default margin and padding works.
+
+07:03.780 --> 07:06.780
+Also the structure of the box model.
+
+07:06.780 --> 07:11.160
+So now let's look at some properties that have to do with margin in padding.
+
+07:11.160 --> 07:22.590
+So I'm going to add a width to the box as well it's do with 500 pixels and let's say want padding on
+
+07:22.590 --> 07:24.240
+all sides.
+
+07:24.240 --> 07:30.030
+So I'm going to put a comment right here and going to see padding on all sides.
+
+07:31.200 --> 07:36.210
+So we would just use padding and then we could do let's say 20 pixels.
+
+07:36.240 --> 07:40.380
+So this will put 20 pixels on all sides.
+
+07:40.380 --> 07:46.050
+You can see top and and notice the green when if I use the elements selector and we hover over it we
+
+07:46.050 --> 07:48.910
+see the green that's actually the padding OK.
+
+07:49.020 --> 07:53.940
+And you can see that it's 20 pixels on all sides for both obviously because they're both they both have
+
+07:53.940 --> 07:57.510
+the class of box which is what we styled.
+
+07:57.720 --> 08:06.750
+Now when we add padding if we if we keep the box sizing the way it is now the box sizing property it
+
+08:06.750 --> 08:09.490
+adds to the width of the entire thing.
+
+08:09.510 --> 08:09.950
+All right.
+
+08:09.960 --> 08:19.440
+And to just give you an example if I say padding 120 and we take a look at the width of this is no it's
+
+08:19.440 --> 08:26.370
+not 500 pixels it added to that it's 500 pixels plus the padding and that's not usually how you want
+
+08:26.370 --> 08:31.670
+to do it usually you want to keep the with at the right width and then just add the padding so to do
+
+08:31.670 --> 08:35.360
+that you want to add to the Astros right here.
+
+08:35.480 --> 08:38.910
+A box sizing property.
+
+08:39.290 --> 08:41.900
+And you want to set that to border box.
+
+08:41.900 --> 08:44.390
+So now if I save that we go back.
+
+08:44.390 --> 08:49.790
+We still have 120 pixels padding but the box is still 500 pixels.
+
+08:49.790 --> 08:51.680
+It just pushes it inside.
+
+08:51.740 --> 08:52.000
+OK.
+
+08:52.070 --> 08:53.940
+As opposed to adding it.
+
+08:54.020 --> 09:01.220
+So let's put that back to 20 I just made it that big just so just so you could tell that the width was
+
+09:01.220 --> 09:08.110
+larger so we'll put that back and the next thing I want to do is show you margin because right now there's
+
+09:08.120 --> 09:11.030
+no margin and these are kind of stuck together.
+
+09:11.060 --> 09:15.590
+So margin is gonna be spacing around the border on the outside of the border.
+
+09:15.590 --> 09:26.440
+So let's add a margin on all sides and we'll say margin 20 pixels.
+
+09:26.660 --> 09:32.550
+And if we take a look and we use our element selector see the orange that's the the margin.
+
+09:32.690 --> 09:33.980
+The green is the padding.
+
+09:33.980 --> 09:38.720
+Orange is the margin in fact if I click on one of the divs and we look at the box model it'll show us
+
+09:38.720 --> 09:40.420
+all the values 20.
+
+09:40.430 --> 09:44.900
+The border is two pixels the padding is 20 and then the width here.
+
+09:45.510 --> 09:45.880
+OK.
+
+09:45.890 --> 09:51.620
+So just remember that margin outside padding inside and it doesn't matter if you have a border property
+
+09:51.620 --> 09:52.440
+set or not.
+
+09:52.460 --> 09:57.720
+It's still it's still going to be relative to the box model.
+
+09:57.860 --> 09:58.280
+All right.
+
+09:58.280 --> 10:05.090
+Now these properties that we've used Matt Pat padding and margin with just one value it's putting the
+
+10:05.090 --> 10:10.580
+same on all sides but there may be cases where you want different values on different sides.
+
+10:10.670 --> 10:18.620
+So I'm going to go down here and let's say padding per side.
+
+10:19.280 --> 10:19.860
+OK.
+
+10:19.880 --> 10:23.180
+So we can use padding top.
+
+10:23.810 --> 10:31.900
+So let's say on the top we want 10 pixels and let's do padding bottom.
+
+10:31.910 --> 10:34.310
+Actually I want to do top stoop right.
+
+10:34.370 --> 10:38.240
+And I'm doing this in a certain order for a reason and I'll show you that in a minute.
+
+10:38.270 --> 10:39.290
+So padding right.
+
+10:39.290 --> 10:41.300
+Let's say we want 20 pixels
+
+10:45.640 --> 10:47.610
+let's do padding bottom.
+
+10:47.770 --> 10:48.460
+We'll do 10.
+
+10:48.460 --> 10:51.910
+Just like the top and then left.
+
+10:52.060 --> 10:53.540
+We'll do 20.
+
+10:53.740 --> 10:54.720
+Just like the right.
+
+10:55.240 --> 10:55.600
+OK.
+
+10:55.600 --> 11:00.270
+Now this is going to overwrite this and that's something that I really haven't talked about yet.
+
+11:00.280 --> 11:07.060
+When you have the same properties that are the ones that are further down are going to overwrite the
+
+11:07.060 --> 11:08.360
+ones that are further off.
+
+11:08.410 --> 11:12.010
+OK so all this padding here is going to overwrite this one.
+
+11:12.430 --> 11:14.700
+So even if I leave them without commenting.
+
+11:14.710 --> 11:16.920
+So this is going to take effect.
+
+11:17.050 --> 11:20.170
+So let's take a look and you can see now there's less padding.
+
+11:20.170 --> 11:27.040
+If you look at the green there's 10 pixels on the top and bottom there's 20 on the left and right.
+
+11:27.100 --> 11:33.490
+So if you want to do this but you don't want to have four different properties you can you can shorten
+
+11:33.490 --> 11:38.280
+this just like with with most cases like you saw with the with the border in the background there's
+
+11:38.300 --> 11:39.680
+there's short hands.
+
+11:39.820 --> 11:45.940
+So let's say padding shorthand.
+
+11:45.940 --> 11:49.600
+Now when we do this there's a certain order to the values.
+
+11:49.600 --> 11:56.610
+So it's gonna be this just like I did right above Top Right Bottom Left.
+
+11:56.620 --> 11:58.480
+That's why I did it in this order.
+
+11:58.480 --> 12:04.660
+So if we say padding it's gonna be in that order so let's do top 10 pixels.
+
+12:04.780 --> 12:05.450
+Right.
+
+12:05.470 --> 12:12.490
+Twenty pixels bottom 10 pixels left 20 pixels.
+
+12:12.490 --> 12:16.590
+So if I save that and we take a look it's gonna be the same thing.
+
+12:16.600 --> 12:19.720
+So this is just a shorthand for this.
+
+12:19.720 --> 12:21.100
+Does the exact same thing.
+
+12:21.100 --> 12:27.310
+Now we can make this even shorter because the top and bottom in the left and right are the same top
+
+12:27.310 --> 12:29.640
+and bottom 10 left and right or 20.
+
+12:29.650 --> 12:37.530
+So let's say padding shorthand so we can actually just have two values.
+
+12:37.540 --> 12:42.670
+One will be top bottom one will be left right.
+
+12:43.660 --> 12:49.030
+So we'll say padding top and bottom we want 10 left and right we want 20.
+
+12:49.630 --> 12:49.870
+OK.
+
+12:49.980 --> 12:54.640
+So this is the same exact thing is this which is the same exact thing is this.
+
+12:54.640 --> 12:55.930
+So we're just shortening it up.
+
+12:56.240 --> 12:56.990
+OK.
+
+12:57.070 --> 13:02.620
+So if we look at it we get the same exact thing we have the 10 on the top and bottom 20 on the left
+
+13:02.620 --> 13:03.040
+and right.
+
+13:03.430 --> 13:04.890
+So hopefully that makes sense.
+
+13:04.900 --> 13:08.950
+You can add padding all these different ways now with margin.
+
+13:08.950 --> 13:10.600
+It's the same exact thing.
+
+13:10.660 --> 13:10.990
+OK.
+
+13:10.990 --> 13:14.940
+Same exact thing I'm actually going to just copy all this and change it to margin.
+
+13:14.950 --> 13:18.500
+So margin top right left bottom this same thing.
+
+13:18.520 --> 13:27.370
+Same order so let's grab this and let's put this down here and just change this to margin
+
+13:30.010 --> 13:31.570
+change these to margin
+
+13:36.250 --> 13:36.970
+margin
+
+13:46.310 --> 13:49.110
+OK so that's gonna do same exact thing.
+
+13:49.110 --> 13:51.210
+Save that for Take a look.
+
+13:51.210 --> 13:56.160
+Now we have ten pixels top and bottom margin 20 left and right margin.
+
+13:57.490 --> 13:57.820
+OK.
+
+13:57.880 --> 14:02.300
+So yeah I think that that's all I want to do here.
+
+14:02.310 --> 14:03.590
+Oh one other thing.
+
+14:03.690 --> 14:08.910
+Usually since we did a reset we'd probably want to separate the h three in the paragraph a little bit.
+
+14:08.940 --> 14:20.820
+So what I would do is just add Box H three and I'd probably add like padding bottom 10 pixels five pixels
+
+14:20.820 --> 14:22.660
+whatever it may be.
+
+14:22.670 --> 14:24.190
+So happened here.
+
+14:24.180 --> 14:28.620
+Inside I'm inside this style.
+
+14:28.620 --> 14:28.890
+OK.
+
+14:28.920 --> 14:30.090
+So let's check that out.
+
+14:30.090 --> 14:33.300
+And now we have spacing under the heading.
+
+14:33.300 --> 14:33.630
+All right.
+
+14:33.660 --> 14:37.400
+So that's it guys in the next video we're going to start to talk about floats.
+
+14:37.400 --> 14:37.720
+OK.
+
+14:37.730 --> 14:39.520
+So we can align things now.
+
+14:39.600 --> 14:45.750
+Ultimately when you when you align stuff you're usually going to want to use flex box or the CSX grid.
+
+14:45.840 --> 14:51.900
+But we're not going to talk about that stuff just yet because that that stuff is a little more complicated
+
+14:51.930 --> 14:53.360
+and it's much newer.
+
+14:53.370 --> 15:00.330
+I want you to get a handle on just old fashioned floating before you start to deal with flex in grid
+
+15:00.360 --> 15:01.590
+and stuff like that.
+
+15:01.590 --> 15:01.850
+All right.
+
+15:01.860 --> 15:03.380
+So I'll see you in the next video.

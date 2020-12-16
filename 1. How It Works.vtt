@@ -1,0 +1,130 @@
+WEBVTT
+
+00:00.380 --> 00:06.390
+All right guys so now we're going to deploy a Web site to a platform called Net lo fi which is just
+
+00:06.390 --> 00:13.170
+a fantastic platform for hosting static web sites as well as front end applications using javascript
+
+00:13.170 --> 00:17.940
+frameworks like react and view J.S. and that stuff you'll get into later if you're just getting into
+
+00:17.940 --> 00:19.240
+web development.
+
+00:19.410 --> 00:23.310
+But what's really cool about nullify is they give you a lot for free.
+
+00:23.310 --> 00:29.670
+So work we can deploy for free we can host our Web site they even give us an SSL for free we can add
+
+00:29.670 --> 00:36.810
+our own domain name which we'll do later on and then there is also extra features such as contact form
+
+00:36.810 --> 00:37.350
+submission.
+
+00:37.350 --> 00:43.560
+So if we go down here you can see that we can simply add a net lo fi attribute to the form tag and we'll
+
+00:43.560 --> 00:46.950
+be able to receive submissions in our Natalya RFID dashboard.
+
+00:47.040 --> 00:52.200
+So if you recall when we deployed to a shared host in order to make the contact form work it was it
+
+00:52.200 --> 00:58.170
+was quite a bit of work we had to implement a peach piece script to be able to mail it to our email
+
+00:58.170 --> 01:02.070
+address which wasn't even the best way to do it.
+
+01:02.070 --> 01:10.230
+So this gives you a very simple and secure way to add give functionality to your contact forms.
+
+01:10.920 --> 01:17.370
+So what you need to do is first of all sign up for nullify it's absolutely free to sign up no credit
+
+01:17.370 --> 01:18.760
+card or anything like that.
+
+01:18.810 --> 01:25.080
+And then once you log in you'll see this new site from get a button and you can choose get hub get lab
+
+01:25.080 --> 01:25.780
+bit bucket.
+
+01:26.160 --> 01:32.460
+So get is a version control system and it's something that you're going to need to learn if you're going
+
+01:32.460 --> 01:33.860
+to be a web developer.
+
+01:33.930 --> 01:40.890
+It's something like 95 percent of dev companies use get and for this particular for what we're doing
+
+01:40.890 --> 01:46.350
+now you're only going to need to use a couple of commands and I'm going to put a document in this section
+
+01:46.350 --> 01:47.660
+with those commands.
+
+01:47.670 --> 01:51.810
+I'm also going to put a link to a crash course that I have on YouTube.
+
+01:51.810 --> 01:55.680
+Forget that you might be interested in but you will have to download it.
+
+01:55.710 --> 01:58.680
+So you go to get dash ACM dot com.
+
+01:58.680 --> 02:00.070
+Just go ahead and download it.
+
+02:00.210 --> 02:05.520
+And if you're on Windows you'll get a tool called Get bash which is just a better command line or a
+
+02:05.520 --> 02:08.290
+better terminal for windows than the standard ones.
+
+02:08.290 --> 02:10.630
+So I would suggest using that.
+
+02:10.920 --> 02:16.020
+And then also the last thing I want you to do is create a github account if you don't have one.
+
+02:16.020 --> 02:16.320
+All right.
+
+02:16.320 --> 02:22.140
+I'm actually logged in right now and get hub is just a place to store your repositories So you store
+
+02:22.140 --> 02:24.890
+your code here and all we have to do.
+
+02:24.900 --> 02:31.710
+As I showed you from nullify is bring over a get Hub Repository and we can actually host our Web site
+
+02:31.990 --> 02:38.520
+it believing it'll give us a really weird domain name but we can we can add our own custom domain name
+
+02:38.520 --> 02:40.200
+which we're going to do as well.
+
+02:40.200 --> 02:40.520
+All right.
+
+02:40.530 --> 02:47.880
+So just do those three things sign up for nullify sign create an account at GitHub dot com and download
+
+02:47.880 --> 02:50.510
+get to your local to your machine.
+
+02:50.520 --> 02:50.800
+All right.
+
+02:50.820 --> 02:56.940
+So once you do those things we're ready to move on to the next video where will initialize a gate repository.
+
+02:56.940 --> 02:58.440
+And we'll push it to get hub.

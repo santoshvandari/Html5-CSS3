@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.320 --> 00:03.620
+All right guys so we're going to jump right in and start to learn aged him out.
+
+00:03.630 --> 00:10.020
+We're gonna learn all the important age HTML5 tags attributes we'll learn how to insert images into
+
+00:10.020 --> 00:16.110
+pages links form stuff like that and I realize that a lot of you guys probably already know some of
+
+00:16.110 --> 00:16.520
+this stuff.
+
+00:16.530 --> 00:22.260
+So feel free to skip around skip some videos if you want to skip this whole section altogether that's
+
+00:22.260 --> 00:23.340
+fine.
+
+00:23.340 --> 00:30.840
+Later on after section three we'll be getting into like CSX grid and flex blocks and animations and
+
+00:30.840 --> 00:32.470
+more difficult stuff.
+
+00:32.580 --> 00:38.880
+But again I want this course to be very friendly for absolute beginners that have never even touched
+
+00:38.880 --> 00:40.500
+aged him out before.
+
+00:40.500 --> 00:46.350
+OK so let's go ahead and create a new folder for our aged him all files so we'll just go ahead and right
+
+00:46.350 --> 00:52.510
+click and say new folder and I'm going to rename this to h t AML sandbox.
+
+00:52.740 --> 01:00.960
+And the idea here is for every section or every video I should say we're gonna be touching on a different
+
+01:00.960 --> 01:01.590
+topic.
+
+01:01.620 --> 01:07.110
+So for instance we'll look at like links and images and a video will look at forms and input and I want
+
+01:07.110 --> 01:12.780
+to have a separate file for each video and create a sandbox that you can use as a reference if you need
+
+01:12.780 --> 01:18.750
+to go back to it later on to see how it how a tag is structured or what attributes it takes.
+
+01:18.750 --> 01:20.010
+Things like that.
+
+01:20.010 --> 01:20.260
+OK.
+
+01:20.310 --> 01:26.940
+So let's go ahead and open this up in V.S. code in Visual Studio code and there's a few ways to do that.
+
+01:27.360 --> 01:32.610
+If you're on Windows you should be able to right click and say open with code you can do it that way.
+
+01:32.730 --> 01:38.880
+If you're on a Mac you can drag it down to your VSO code icon in your bar down below or you can just
+
+01:38.910 --> 01:42.870
+open up V.S. code and just click open folder and then search for it.
+
+01:42.900 --> 01:44.790
+So mine's on my desktop.
+
+01:44.790 --> 01:48.540
+There it is each team sandbox and I'll go ahead and open.
+
+01:48.660 --> 01:50.270
+All right so we can close this up.
+
+01:50.280 --> 01:54.750
+And now on the side you can see the HDMI sandbox folder is open.
+
+01:54.960 --> 02:00.540
+So let's go ahead and create our first h t AML file and I'm basically going to create a file called
+
+02:00.600 --> 02:05.510
+index dot HDMI all comma but dot HDMI all.
+
+02:05.610 --> 02:11.970
+Now there's something really important for Windows users if you are seeing a dot t XY here after the
+
+02:11.970 --> 02:13.160
+dot each time l.
+
+02:13.200 --> 02:17.340
+Then you have to actually change something in your folder settings.
+
+02:17.340 --> 02:17.640
+All right.
+
+02:17.640 --> 02:19.460
+So I have a screenshot here.
+
+02:19.620 --> 02:24.690
+If you're on Windows and you're seeing a dot t x t you should check this anyways to make sure that this
+
+02:24.690 --> 02:26.250
+box is unchecked.
+
+02:26.250 --> 02:32.910
+What you want to do is go to your view tab in your your file manager and go to options right here and
+
+02:32.910 --> 02:35.500
+then click change folder and search options.
+
+02:35.580 --> 02:40.500
+You'll get a box like this that pops up and you want to click the View tab and make sure that this is
+
+02:40.530 --> 02:41.160
+unchecked.
+
+02:41.160 --> 02:44.110
+This Hide extensions for known file types.
+
+02:44.310 --> 02:47.630
+You want it to show the file extension.
+
+02:47.850 --> 02:51.860
+So just just make sure that that's unchecked if you're on Windows.
+
+02:51.870 --> 02:52.130
+All right.
+
+02:52.160 --> 02:55.310
+So I just wanted to mention that you don't run into problems.
+
+02:55.380 --> 02:57.270
+So now we have an HD e-mail file.
+
+02:57.270 --> 02:58.930
+So what do we do with this.
+
+02:58.950 --> 03:05.040
+We need to put in what's called an h t email tag K so each team all files are full of h t mail tags
+
+03:05.400 --> 03:07.440
+which surround content.
+
+03:07.470 --> 03:11.700
+So let's take a look at how each team all tags are actually formatted.
+
+03:11.700 --> 03:14.550
+So elements are surrounded in angle brackets.
+
+03:14.550 --> 03:18.370
+So basically this the the less than and greater than signs.
+
+03:18.390 --> 03:23.580
+So the element here for example is an H1 and different elements do different things.
+
+03:23.580 --> 03:24.830
+This is a heading tag.
+
+03:24.840 --> 03:29.340
+There's actually H1 through age 6 and I'm going to go over that in another video.
+
+03:29.340 --> 03:32.100
+But basically this will make this text much bigger.
+
+03:32.270 --> 03:38.940
+OK this here is a paragraph tag which is just four paragraphs just regular sized text.
+
+03:38.940 --> 03:45.450
+And notice that there's an opening tag and there's a closing tag or a start and an end tag and the end
+
+03:45.450 --> 03:47.550
+tag has a forward slash.
+
+03:47.610 --> 03:47.900
+OK.
+
+03:47.910 --> 03:50.520
+So that's how you identify the ending tag.
+
+03:50.520 --> 03:57.630
+Now there are some self closing tags for stuff that doesn't have content inside of it like the H1 in
+
+03:57.630 --> 03:58.380
+the paragraph.
+
+03:58.380 --> 04:02.580
+They have content inside the bizarre tag is actually just a line break.
+
+04:02.580 --> 04:04.520
+So it just kind of skips a line.
+
+04:04.620 --> 04:07.320
+So there's no need to put any content inside of it.
+
+04:07.320 --> 04:11.450
+So it's a self closing tag it doesn't need an ending tag.
+
+04:11.460 --> 04:19.170
+Now notice that this one has a slash in this one doesn't this is actually a remnant of x h t AML which
+
+04:19.170 --> 04:21.240
+is a derivative of HCM.
+
+04:21.360 --> 04:24.450
+And it's not used that much anymore.
+
+04:24.460 --> 04:26.460
+Each 5 is definitely the standard.
+
+04:26.460 --> 04:30.970
+That's what you want to learn in HMO five you could use either of these.
+
+04:30.990 --> 04:36.450
+So you can use the x each team El version with the line or the slash but you don't need to.
+
+04:36.480 --> 04:38.250
+This would be just fine.
+
+04:38.280 --> 04:38.570
+OK.
+
+04:38.580 --> 04:41.340
+So this is how tags are structured.
+
+04:41.430 --> 04:46.740
+So what I'm going to do now is just put in a couple tags and I want to show you how to open an HMO file
+
+04:46.740 --> 04:47.870
+in the browser.
+
+04:47.970 --> 04:53.160
+So remember tags have an opening angle bracket and we'll do an H1 which is a heading.
+
+04:53.190 --> 04:59.430
+We'll close that H1 and with this code every text editor as is different with Visa's code it's going
+
+04:59.430 --> 05:01.370
+to the tag for you.
+
+05:01.380 --> 05:01.700
+OK.
+
+05:01.710 --> 05:08.070
+So notice that the ending tag was put in automatically which is very helpful and this code actually
+
+05:08.070 --> 05:14.640
+has a tool that comes pre installed called Emmett which you can use to type really fast each team Alan
+
+05:14.660 --> 05:18.090
+I'm going to show you some some tips and tricks with Emmett.
+
+05:18.120 --> 05:26.250
+As we move along so let's put something in here we'll just say welcome to my Web site and then we're
+
+05:26.250 --> 05:30.500
+gonna go on the next line and we're going to put a paragraph tag.
+
+05:30.510 --> 05:37.500
+Now remember we have Emmett installed in with him and we can just do PE because we want to p a paragraph
+
+05:37.500 --> 05:41.970
+tag with it which is a P and then we can hit enter or tab.
+
+05:42.120 --> 05:45.960
+You can do enter a tab and it will actually complete it for us.
+
+05:46.020 --> 05:46.340
+OK.
+
+05:46.350 --> 05:52.080
+So it makes it very easy if we want you know an H to tag we can do H to enter if we want.
+
+05:52.080 --> 05:57.780
+So let's say an image tag we can do I am G enter and that will actually give us the attributes that
+
+05:57.780 --> 05:58.230
+we need.
+
+05:58.230 --> 06:00.920
+I'm going to go over all this stuff later so don't worry about it.
+
+06:01.080 --> 06:06.560
+But just to show you that Emmett is very helpful and it allows you to write aged him out very fast.
+
+06:06.560 --> 06:06.860
+OK.
+
+06:06.870 --> 06:15.510
+So in the paragraph let's just say this is my very first Web site.
+
+06:15.630 --> 06:15.930
+OK.
+
+06:15.960 --> 06:18.930
+So we just have it heading tag and a paragraph.
+
+06:18.960 --> 06:20.490
+Let's go ahead and save this.
+
+06:20.520 --> 06:26.940
+You can either go to file save or you can just do control assets or command assets on a Mac and that
+
+06:26.940 --> 06:28.040
+will save the file.
+
+06:28.550 --> 06:28.740
+OK.
+
+06:28.800 --> 06:35.640
+So now let's go ahead and minimize this and let's go into our age team our sandbox folder and you can
+
+06:35.640 --> 06:38.700
+see we have our index start each team I'll file.
+
+06:38.700 --> 06:41.010
+Now you might have a different icon.
+
+06:41.010 --> 06:47.070
+It's probably going to be whatever your default browser is it could be Chrome or Safari or edge if you're
+
+06:47.070 --> 06:48.060
+on Windows.
+
+06:48.060 --> 06:50.430
+So you just want to open this with a browser.
+
+06:50.550 --> 06:56.040
+So I'm actually going to right click and just say open with Google Chrome which is my default browser
+
+06:57.680 --> 06:58.480
+and there it is.
+
+06:58.490 --> 07:06.710
+So you can see that the H One is a large heading and then the paragraph is just just normal sized text.
+
+07:06.710 --> 07:11.290
+But this is in fact an each team file you can see in the in the U.R.L. bar here.
+
+07:11.330 --> 07:12.770
+It gives us the full path.
+
+07:12.800 --> 07:13.070
+OK.
+
+07:13.070 --> 07:20.610
+Yours will probably be different but mine is in my desktop in HDMI sandbox and then index HD CML.
+
+07:20.630 --> 07:25.040
+Now of course when you upload this to a web host it'll be your domain name.
+
+07:25.040 --> 07:29.930
+So let's say you registered my Web site dot com which of course is already taken but we'll use that
+
+07:29.930 --> 07:31.320
+as an example.
+
+07:31.340 --> 07:34.180
+So this would be replace this file.
+
+07:34.190 --> 07:38.070
+This stuff here would all be replaced with whatever your domain is.
+
+07:38.150 --> 07:45.860
+Now there's a reason that I called that index each team L and this name here is significant because
+
+07:45.860 --> 07:50.010
+when you call it index dot h t AML This is your home page.
+
+07:50.030 --> 07:55.070
+If we were to upload this to a host with let's say my Web site dot com is the domain.
+
+07:55.070 --> 07:59.260
+If we go to my Web site dot com it's going to load the index page.
+
+07:59.260 --> 07:59.490
+OK.
+
+07:59.510 --> 08:04.490
+So it's very important to understand that whatever you want your home page you want to call that index
+
+08:04.790 --> 08:07.330
+and then any other page you can call whatever you want.
+
+08:07.350 --> 08:12.340
+Like let's say you had an about page that listed your company info or something like that.
+
+08:12.500 --> 08:19.250
+You could create an about Dot HCM out page upload it and then you would go to my Web site dot com slash
+
+08:19.310 --> 08:25.200
+about Dot HDMI all OK and that would load that but index is significant because that's always going
+
+08:25.200 --> 08:27.090
+to be your home page.
+
+08:27.140 --> 08:27.430
+All right.
+
+08:27.450 --> 08:34.130
+So now that we have created an age team I'll file and open it opened it with Chrome in the next video
+
+08:34.130 --> 08:39.100
+I'm going to show you how to correctly structure in each Tim I'll document because this isn't correct.
+
+08:39.110 --> 08:43.600
+There's some other things that we need to add in order for it to be valid.
+
+08:43.610 --> 08:44.990
+Each team I'll document.
+
+08:44.990 --> 08:45.250
+All right.
+
+08:45.260 --> 08:46.670
+So we'll get into that next.

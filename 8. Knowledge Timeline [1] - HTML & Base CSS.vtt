@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.240 --> 00:05.130
+All right guys we're going to start our next project which is going to be a CSX timeline and in some
+
+00:05.130 --> 00:09.450
+of you guys may have seen something like this before it's just a timeline that has different years it
+
+00:09.450 --> 00:11.230
+could be any type of data.
+
+00:11.370 --> 00:14.400
+This happens to be just web development knowledge.
+
+00:14.400 --> 00:21.000
+And when I actually learn this stuff so you can see it starts in 2007 with each team on CSX then we
+
+00:21.000 --> 00:27.480
+go to JavaScript and J query p p and WordPress and notice that we have these coming in from the sides
+
+00:28.020 --> 00:30.110
+just animating in sliding in.
+
+00:30.120 --> 00:34.770
+Now we're gonna have to add a little bit of JavaScript at the end if we want to have that type of effect
+
+00:35.040 --> 00:40.350
+because it only in JavaScript can we tell where we are in the viewport and stuff like that.
+
+00:40.350 --> 00:42.870
+You can't do that with just pure CSX.
+
+00:42.930 --> 00:48.540
+Also when the page loads they'll come in from the side but as far as the whole layout here we're gonna
+
+00:48.540 --> 00:52.290
+do that first and we're just gonna use each team on CNS for that.
+
+00:52.290 --> 00:56.040
+All right so we'll we'll try to do the javascript at the very end.
+
+00:56.130 --> 01:01.820
+So I have a empty folder called knowledge resumé and we're just going to need two files for now.
+
+01:01.830 --> 01:08.550
+So let's create index dot h t model and let's create style dot CSF.
+
+01:08.580 --> 01:14.960
+I'm just gonna put the CSX right in the route and let's close up the side bar and go into our H team
+
+01:14.950 --> 01:26.610
+L and generate our boilerplate and for the title we'll just say knowledge timeline and let's link our
+
+01:26.610 --> 01:36.940
+style sheet so style dot CSX and we're also gonna be using font awesome so let's grab that real quick.
+
+01:37.640 --> 01:44.250
+So font awesome dot com will click this start using free and then grab the link here paste that right
+
+01:44.250 --> 01:45.310
+in.
+
+01:45.450 --> 01:45.840
+All right.
+
+01:45.870 --> 01:54.390
+And then down in the body we're gonna have a header and we'll give this an idea of just main dash header
+
+01:55.890 --> 02:03.810
+and we're gonna have in here a container class and then let's put in H1 and we're gonna have that the
+
+02:03.810 --> 02:04.970
+brain icon.
+
+02:04.980 --> 02:12.900
+So I took the class of ass or font awesome and then F A Dash brain that will give us that icon and then
+
+02:12.900 --> 02:19.800
+we just want to put the text knowledge resume and you can change up this if you want if you want to
+
+02:19.800 --> 02:22.680
+use different data and make it something completely different.
+
+02:22.680 --> 02:25.250
+That's that's absolutely fine.
+
+02:25.380 --> 02:30.900
+So let's put it in an h three underneath and we just want to put the user's name but I want to put an
+
+02:30.900 --> 02:35.490
+icon as well so FAA as FAA dash user.
+
+02:35.640 --> 02:41.130
+And then next to that icon I'll put my name but feel free to put your own.
+
+02:41.130 --> 02:45.560
+And if we save this and open it up we're gonna see this.
+
+02:45.630 --> 02:45.880
+OK.
+
+02:45.920 --> 02:53.530
+So now under the header we just want a section and we're gonna give this an idea of timeline.
+
+02:54.030 --> 03:00.780
+And like I said all this is gonna be is an unordered list so we're gonna do a U L and then each ally
+
+03:00.780 --> 03:08.880
+is just gonna have a div and then it's gonna have an h three with the year and in the technology.
+
+03:08.880 --> 03:10.790
+I also want to put a Chevron icon.
+
+03:10.800 --> 03:18.380
+So we're gonna do FAA S F A Dash Chevron dash right.
+
+03:18.570 --> 03:25.290
+And then we'll put a year so say 2007 and I'll say h Tim L and CSX.
+
+03:25.650 --> 03:31.080
+And then underneath I'll do a paragraph with let's say 20 words OK so I'll save that.
+
+03:31.080 --> 03:32.890
+And it should look like this.
+
+03:33.210 --> 03:34.000
+Now the H.
+
+03:34.020 --> 03:40.710
+What's cool about this project is each team is very simple it's just it's just list items exactly like
+
+03:40.710 --> 03:41.160
+this.
+
+03:41.170 --> 03:42.810
+There's no nothing's different.
+
+03:42.810 --> 03:43.950
+They're all the exact same.
+
+03:43.950 --> 03:45.740
+They just have different titles.
+
+03:45.780 --> 03:51.630
+So in that case I'm going to just paste the rest in because I don't want to just type out the same thing
+
+03:51.630 --> 03:53.910
+over and over just with different titles.
+
+03:53.910 --> 03:57.750
+So let me just go right under this ally and pieces in and save.
+
+03:58.020 --> 04:03.330
+And basically if you want to pause the video if you want to do exactly what I'm doing as far as the
+
+04:03.330 --> 04:09.660
+text and the content just change the titles it's the same as the first one we did there is different
+
+04:09.660 --> 04:11.190
+titles different years.
+
+04:11.250 --> 04:17.430
+Now I am going to add just some core styling in this video so we are going to use some variables so
+
+04:17.430 --> 04:25.560
+I'm going to have a root scope and I want a primary color and we're gonna set that to a blue.
+
+04:25.560 --> 04:32.110
+They're both gonna be shades of blue so let's do four to five and we want to be a four.
+
+04:32.110 --> 04:41.190
+OK so that's gonna be our primary and then our secondary color is gonna be hexadecimal and it's gonna
+
+04:41.190 --> 04:44.660
+be five B seven Bebe four.
+
+04:45.500 --> 04:51.570
+So that'll be our secondary color and then I'm just going to also set a max width and we'll set that
+
+04:51.570 --> 04:54.170
+to eleven hundred pixels.
+
+04:54.960 --> 04:59.940
+So that's all I'm gonna do for variables and again if you guys find something that you think you should
+
+04:59.980 --> 05:02.550
+be put in a variable for easy access or whatever.
+
+05:02.560 --> 05:07.020
+Feel free to do so and then I'm just gonna add a reset.
+
+05:07.060 --> 05:18.280
+So let's do margin zero padding zero and box sizing for the box.
+
+05:18.280 --> 05:24.360
+And then for the body let's do a font let's put everything in just the font tag.
+
+05:24.370 --> 05:26.160
+So I'm going to do a normal font way.
+
+05:26.170 --> 05:28.610
+Let's do one room.
+
+05:28.870 --> 05:32.130
+Let's do one point five.
+
+05:32.410 --> 05:38.600
+Line height and let's do aerial font sans serif.
+
+05:38.620 --> 05:41.230
+So just a shortcut for the font.
+
+05:41.230 --> 05:45.590
+And then the background for the body is going to be the primary colors.
+
+05:45.600 --> 05:47.270
+So let's grab that.
+
+05:50.360 --> 05:50.850
+OK.
+
+05:50.860 --> 05:58.570
+And then the color is going to be white and I'm gonna add an overflow.
+
+05:58.570 --> 06:00.490
+I don't know if I showed you guys this so I did.
+
+06:00.490 --> 06:05.110
+I've done overflow hidden which means that there's not going to be any scroll bars.
+
+06:05.110 --> 06:07.090
+Also it's going to include all the content.
+
+06:07.420 --> 06:15.100
+It's not going to like you know stop above the content or whatever but we can also do overflow dash
+
+06:15.160 --> 06:18.070
+X and dash y and it just pertains to that access.
+
+06:18.400 --> 06:25.920
+So I don't want to have any type of scroll bars that go horizontal so I'm gonna set this to hidden.
+
+06:26.460 --> 06:26.770
+All right.
+
+06:26.770 --> 06:34.240
+And then I'm just going to add padding bottom of 50 pixels just to have a little bit of room on the
+
+06:34.240 --> 06:35.020
+bottom.
+
+06:35.230 --> 06:38.560
+So we'll save that and it's going to look like this.
+
+06:38.560 --> 06:40.660
+So let's take care of the header real quick.
+
+06:40.660 --> 06:47.500
+We have an idea of main header and that background is gonna be the secondary color
+
+06:51.850 --> 06:58.490
+and let's add padding so we'll say top and bottom for REM.
+
+06:58.600 --> 07:00.010
+And if we save that.
+
+07:00.130 --> 07:00.500
+OK.
+
+07:00.510 --> 07:00.790
+Good.
+
+07:00.790 --> 07:08.920
+Now it has a container as well so let's say a container to a max width and we we created a variable
+
+07:08.920 --> 07:09.520
+for that.
+
+07:10.360 --> 07:21.160
+So Max width is going to be the the width of the the UI and then the header and then margin.
+
+07:21.160 --> 07:26.140
+We want to do zero top and bottom and auto left and right push it to the middle.
+
+07:26.140 --> 07:31.570
+And let's do text align center and save that.
+
+07:31.570 --> 07:33.120
+Good.
+
+07:33.340 --> 07:38.310
+And the H one I want to be a little bigger so it's a h ones we want.
+
+07:38.320 --> 07:46.020
+Let's do font size we'll do two point three rands and that's pretty much it.
+
+07:46.020 --> 07:49.500
+Everything else that we're gonna do is gonna have to do with the timeline.
+
+07:49.710 --> 07:54.210
+So we're gonna stop the video here and we'll continue with the timeline see SS in the next one.

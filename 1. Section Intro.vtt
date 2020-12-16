@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.540 --> 00:00.830
+All right.
+
+00:00.840 --> 00:06.150
+So we've learned about each team mail including page structure tags syntax attributes and more.
+
+00:06.270 --> 00:09.660
+But H.M. by itself is very ugly as you've seen.
+
+00:09.690 --> 00:15.870
+So we need CSX are cascading style sheets to make our mark up or each team out look presentable.
+
+00:15.870 --> 00:22.420
+So the goal of this section is to look at the fundamental CSX properties for things like fonts colors
+
+00:22.440 --> 00:24.990
+alignment positioning etc..
+
+00:24.990 --> 00:31.200
+Now this section after this will we'll be creating an actual Web site project.
+
+00:31.200 --> 00:36.720
+But I didn't want to jump right into that right into a full project because I want you guys to really
+
+00:36.720 --> 00:41.840
+understand what's going on and understand what these properties are doing rather than just jump into
+
+00:41.850 --> 00:47.880
+a Web site project and have you copy the code and you know just follow along if you're really comfortable
+
+00:47.880 --> 00:49.060
+with basic CSX.
+
+00:49.060 --> 00:50.430
+Feel free to skip around.
+
+00:50.730 --> 00:55.590
+But even if you've worked with CSX before I think that they'll be things in this section that will still
+
+00:55.590 --> 00:58.010
+help you out that you can still learn.
+
+00:58.050 --> 01:01.440
+So here's a list of what will be going over in this section.
+
+01:01.440 --> 01:06.570
+I'm going to show you how to actually implement CSX as there's a few different ways we're going to look
+
+01:06.570 --> 01:12.840
+at basic selectors so that we can actually grab different elements whether it's by the tag name or the
+
+01:12.840 --> 01:19.540
+I.D. the class will look at fonts and colors and different properties different color types like hexadecimal
+
+01:19.560 --> 01:26.280
+our G.B. we're gonna look at backgrounds and borders including background colors background images box
+
+01:26.280 --> 01:27.960
+model and margin and padding.
+
+01:27.980 --> 01:34.200
+I'm going to look at what the box model is what exactly margin is where that spacing goes where the
+
+01:34.200 --> 01:37.170
+padding goes floating in alignment.
+
+01:37.180 --> 01:37.460
+OK.
+
+01:37.470 --> 01:45.270
+Now there are more more modern ways to align things on a page such as flex box and the grid system and
+
+01:45.270 --> 01:47.140
+we're gonna get into that later on.
+
+01:47.220 --> 01:50.710
+This section is all about just core basics RSS.
+
+01:50.930 --> 01:51.260
+OK.
+
+01:51.270 --> 01:57.550
+We're also going to be looking at the display properties so display inline display block inline block.
+
+01:57.630 --> 02:03.480
+We'll look at styling links and buttons creating menus such as a horizontal navigation menu as well
+
+02:03.480 --> 02:05.850
+as a vertical menu positioning.
+
+02:05.850 --> 02:12.390
+So relative positioning absolute fixed and so on form styling and then we're also going to be using
+
+02:12.390 --> 02:16.680
+the Google Chrome dev tools quite a bit to look at the age.
+
+02:16.680 --> 02:22.860
+Tim Allen CSX as well as the computed CSX and stuff like that.
+
+02:23.120 --> 02:23.390
+All right.
+
+02:23.420 --> 02:28.490
+So just like with the the last section we're gonna have a sandbox.
+
+02:28.490 --> 02:34.150
+So this will be the CSX sandbox where we're going to have a different file for different aspects of
+
+02:34.220 --> 02:37.970
+of the section different aspects of CSX.
+
+02:38.120 --> 02:42.770
+And you can keep this and use it if you ever need to go back to and these files will be included in
+
+02:42.770 --> 02:44.390
+the lecture downloads.
+
+02:44.390 --> 02:48.350
+And then after this section we're going to start putting everything together and we're going to build
+
+02:48.620 --> 02:50.090
+a simple hotel website.
+
+02:50.740 --> 02:51.100
+OK.
+
+02:51.110 --> 02:56.690
+So you and you can either use the CSF sandbox start of files or you can just create the files as you
+
+02:56.690 --> 02:59.540
+go like I'm gonna be doing in the video but that's it.
+
+02:59.570 --> 03:00.830
+Let's go ahead and get started.

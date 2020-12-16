@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.210 --> 00:04.320
+All right so in this video I want to quickly talk about the different colored types that are commonly
+
+00:04.320 --> 00:04.890
+used.
+
+00:04.890 --> 00:09.060
+Now I'm not going to go over all of them but I'm going to go over the ones that you'll see for the most
+
+00:09.060 --> 00:09.580
+part.
+
+00:09.690 --> 00:10.890
+The most common types.
+
+00:10.950 --> 00:18.360
+So let's create a file called 0 4 underscore colors dot HD here Mel and let's put our boiler plate in
+
+00:18.360 --> 00:22.940
+here and we'll go ahead and change the title to colors.
+
+00:23.490 --> 00:25.500
+Let's add in our style tags.
+
+00:26.310 --> 00:29.310
+And as far as the body let's just put a couple headings
+
+00:33.710 --> 00:35.330
+let's do an H to here
+
+00:39.780 --> 00:41.020
+in an age three
+
+00:45.090 --> 00:51.880
+and then up in the style I'm going to grab the H one as a selector and give it a color property which
+
+00:51.880 --> 00:55.230
+is gonna be the color of the text.
+
+00:55.240 --> 01:01.870
+Okay now as far as colors go anything I'm going to show you you can use for the color property you can
+
+01:01.870 --> 01:04.500
+also use for it for the background color.
+
+01:04.600 --> 01:07.280
+You can also use for a border anything.
+
+01:07.300 --> 01:12.100
+And the first type is is a name so we can put like red in here.
+
+01:12.100 --> 01:17.020
+So let's save this and let's run it with this life server.
+
+01:17.260 --> 01:20.650
+So open that up and of course we have a red heading.
+
+01:20.650 --> 01:23.770
+So this is a color name.
+
+01:23.830 --> 01:30.610
+Now in addition to common colors like red blue green we have a bunch of not so common colors like for
+
+01:30.610 --> 01:32.040
+instance coral.
+
+01:32.090 --> 01:32.800
+We save that.
+
+01:32.800 --> 01:35.830
+You can see we get coral and envious code.
+
+01:35.830 --> 01:41.050
+If I just put any letter in like a G it's going to show us all the different options for the different
+
+01:41.050 --> 01:42.160
+color names.
+
+01:42.160 --> 01:51.700
+If I put in a C all these different colors of Aqua aquamarine a juror B all these beige blue violet
+
+01:51.730 --> 01:56.710
+Burley would some really weird names but anyways these are color names.
+
+01:56.710 --> 02:01.360
+So the second color type that we can use is in our G.B. value.
+
+02:01.360 --> 02:09.160
+So for the H two let's say our G.B. and this takes in three things three values red green and blue.
+
+02:09.160 --> 02:14.010
+And each value should be anywhere between 0 and 255.
+
+02:14.140 --> 02:19.040
+So if I do zero that means that the value for Red is zero.
+
+02:19.110 --> 02:26.440
+Let's do blue zero I'm sorry Green 0 and blue 0 and if I save that it's gonna be black because we have
+
+02:26.440 --> 02:28.660
+no presence of red green or blue.
+
+02:28.690 --> 02:31.620
+Now the highest you can go is 255.
+
+02:31.630 --> 02:37.720
+So if I say 255 four for the first one here and then V.S. code it even gives us a little preview here
+
+02:37.750 --> 02:40.820
+which is nice but if I save that we get red.
+
+02:40.880 --> 02:41.570
+Okay.
+
+02:41.620 --> 02:47.970
+Now if I wanted it slightly darker I could do like I don't know 2 10 and see now it's darker.
+
+02:48.310 --> 02:50.740
+And let's say I wanted to do all blue.
+
+02:50.800 --> 02:58.600
+I could go to the last one here 255 is the highest and it's it's Black is blue is it can get really
+
+02:59.470 --> 03:06.850
+now there's a lot of different color combinations obviously you can be anything between 0 and 255 for
+
+03:06.850 --> 03:07.910
+all of these.
+
+03:07.960 --> 03:17.140
+So if I do like let's say one hundred of green and maybe I don't know 20 of red and save we get this
+
+03:17.140 --> 03:18.000
+blue color.
+
+03:18.190 --> 03:19.900
+Let's let's tone this down a bit.
+
+03:19.900 --> 03:27.820
+We'll say like 120 and save and we get this color which is like a grayish blue and it gives you a little
+
+03:27.820 --> 03:29.330
+preview right here.
+
+03:29.350 --> 03:36.510
+So just remember that all zeros is black and then if you do all 250 fives take a crack at what that's
+
+03:36.510 --> 03:44.890
+gonna give us if all zeros are black then it's all 250 fives are gonna be white as you can see and you
+
+03:44.890 --> 03:49.030
+can't even read it because the background is white but as you can see it is there.
+
+03:49.030 --> 03:52.330
+So that's red green blue are G.B..
+
+03:52.570 --> 03:58.270
+Now the third type is the most common and the one that will be using the most and that's hexadecimal
+
+03:58.300 --> 04:06.120
+or hex which is base sixteen number and it pertains to the composition of a certain color in the RG
+
+04:06.120 --> 04:06.980
+B space.
+
+04:07.210 --> 04:13.660
+So it's always going to start with a number sine and it's gonna be six or three characters that are
+
+04:13.660 --> 04:20.830
+gonna be letters letters and or numbers for numbers it's gonna be it is either zero to nine or four
+
+04:20.830 --> 04:30.430
+letters it'll be a two F so all zeros is gonna be black and then all F's is gonna be white.
+
+04:30.580 --> 04:38.800
+Now just like RG b we have red green blue in hexadecimal we have read the first two green the second
+
+04:38.800 --> 04:40.660
+two in blue the last two.
+
+04:40.660 --> 04:48.690
+So if I wanted red I could do f f for red for the first 2 and then 0 0 green 0 0 blue.
+
+04:48.700 --> 04:57.200
+And that gives me red OK if I want a blue I'd put F for the last two like that and if I did f f in just
+
+04:57.200 --> 05:01.920
+the middle it would be green and then any combination of any of those.
+
+05:01.940 --> 05:08.720
+So just like our G.B. it's gonna give us just a color based off of the values of red green and blue.
+
+05:08.780 --> 05:14.360
+Now obviously you're not gonna remember all these different hex codes you may have some preferred colors
+
+05:14.360 --> 05:19.940
+that you use often that you'll remember but there's there's plenty of Web sites and software that you
+
+05:19.940 --> 05:25.280
+can use to to reference different colors and I'm going to give you an example in a minute but what you
+
+05:25.280 --> 05:28.990
+do want to remember is obviously black which is all zeros.
+
+05:29.240 --> 05:34.580
+Now when you have something that when you have hex value that's all the same you can actually cut it
+
+05:34.580 --> 05:42.110
+down to three so three zeros as black and three Fs as white K you want to remember that and then anything
+
+05:42.110 --> 05:49.310
+else that's going to be all the same like let's say three D or three C's it's gonna be a shade of gray
+
+05:49.340 --> 05:52.460
+because all the red green and blue values are the same.
+
+05:52.460 --> 06:00.360
+Same thing if we do like F for three times that's gonna be some shades of gray if we do e three that
+
+06:00.360 --> 06:03.410
+will be a shade of gray as you can see it's very light.
+
+06:03.410 --> 06:09.050
+So some common ones that I use are 3 3 3 which is almost black it's a really dark gray I think it's
+
+06:09.050 --> 06:10.660
+cleaner than using jet black.
+
+06:10.670 --> 06:16.490
+So I use it for a lot for backgrounds if I want to light background a lot of times I use f for like
+
+06:16.490 --> 06:17.120
+that.
+
+06:17.150 --> 06:23.330
+So those are just some of the ones that I keep in mind as far as color is like different blues or reds
+
+06:23.330 --> 06:24.170
+and stuff.
+
+06:24.260 --> 06:28.500
+I'll use a reference like this Web site here.
+
+06:28.550 --> 06:31.100
+This is color dash hex dot com.
+
+06:31.100 --> 06:34.010
+So we just have a palette here of different colors.
+
+06:34.010 --> 06:39.740
+These are just the latest favorite colors but we can go up here we can use the color palette but if
+
+06:39.740 --> 06:45.190
+I click one of these like let's say this blue right here let's say we're building an application or
+
+06:45.200 --> 06:52.400
+Web site we like this blue by click on that it shows us the hexadecimal the RG b value and then other
+
+06:52.430 --> 06:59.960
+color types as well that I didn't talk about like H S L HSV and you can use these and C Ss but I don't
+
+07:00.020 --> 07:02.780
+I mean they're not that common.
+
+07:02.780 --> 07:08.240
+Also what's cool about this site is if you go down you have a palette of different shades different
+
+07:08.240 --> 07:10.850
+shades and tents that have to do with this.
+
+07:10.850 --> 07:16.220
+This hexadecimal value because often you're going to want a color palette or a color scheme in your
+
+07:16.220 --> 07:23.090
+web site or your application with colors that relate to each other so you might have you know buttons
+
+07:23.090 --> 07:27.800
+that have this color and maybe your background has this color or something like that.
+
+07:27.800 --> 07:31.060
+And then down here you can see the percentages of our G.B..
+
+07:31.130 --> 07:34.730
+So this this gives you a lot of information on different colors.
+
+07:34.730 --> 07:37.040
+Gives you examples and CSX.
+
+07:37.130 --> 07:42.050
+So really really helpful side I would definitely bookmark this site.
+
+07:42.050 --> 07:48.090
+Another good one is each team l color codes dot com.
+
+07:48.350 --> 07:51.010
+And this one here you can see we have a color palette.
+
+07:51.020 --> 07:56.420
+We can just kind of slide and it gives us the hex value the RG G.B. the H has cell.
+
+07:56.420 --> 07:58.640
+So this is a pretty cool site as well.
+
+07:58.640 --> 08:04.460
+Down here we have a color chart we can click and it shows us in the header the different values.
+
+08:04.490 --> 08:04.820
+All right.
+
+08:04.820 --> 08:06.670
+So you'll learn more as we go along.
+
+08:06.680 --> 08:13.310
+But I just wanted you to understand these these three different types of colors that we can use in CSX
+
+08:14.180 --> 08:15.880
+and of course you can use color names.
+
+08:15.890 --> 08:21.440
+I prefer hacks like if I have to make something white or black I'll use the hex value a lot of people
+
+08:21.440 --> 08:28.510
+have asked me why why don't I just use white or or black but I like to be consistent.
+
+08:28.520 --> 08:29.590
+I don't like to just.
+
+08:29.630 --> 08:35.360
+I don't like to have color names mixed with hex values it's just kind of just it's just my thing.
+
+08:35.360 --> 08:36.770
+But you can do it any way you want.
+
+08:36.770 --> 08:38.500
+So just just keep that in mind.
+
+08:38.540 --> 08:39.440
+Everyone's different.
+
+08:39.440 --> 08:41.420
+Everyone does things differently.
+
+08:41.420 --> 08:44.630
+All right guys so that's it for this one and I'll see you in the next video.

@@ -1,0 +1,928 @@
+WEBVTT
+
+00:00.180 --> 00:00.440
+All right.
+
+00:00.450 --> 00:04.930
+So in the last video we set up our file structure for our little Web site here.
+
+00:05.040 --> 00:07.800
+And we created the nav bar and also styled it.
+
+00:07.830 --> 00:09.900
+So we have this now bar at the top.
+
+00:09.900 --> 00:14.850
+The next thing you want to do is the showcase area which is this right here this background image.
+
+00:14.850 --> 00:16.710
+This tax this button here.
+
+00:16.740 --> 00:18.120
+So that's what we're going to move on to.
+
+00:18.120 --> 00:21.660
+So within the header case we have our header tag.
+
+00:21.660 --> 00:26.220
+We have the NAV and then under the NAV is where we want to put our showcase.
+
+00:26.220 --> 00:31.780
+So I'm just going to use a div here and I'm going to give it an idea of showcase.
+
+00:31.860 --> 00:35.400
+And inside here we're gonna want another container.
+
+00:35.400 --> 00:37.740
+So let me explain why we need this.
+
+00:37.770 --> 00:45.060
+If I stretch to so if we don't put a container our content is going to go all the way over here just
+
+00:45.060 --> 00:50.910
+like you saw at the now bar in the last video so we don't want the container around the showcase because
+
+00:50.910 --> 00:53.390
+then that the image would be constricted.
+
+00:53.390 --> 00:53.730
+All right.
+
+00:53.760 --> 00:59.820
+So we want the showcase to go all the way out but we want the content inside to be within a container.
+
+00:59.820 --> 01:09.900
+So let's go ahead and add a class of container here and then all of this stuff the heading button paragraph.
+
+01:09.930 --> 01:18.560
+I'm going to put that inside of a class called let's call it showcase dash content.
+
+01:18.590 --> 01:19.200
+That's what it is.
+
+01:19.200 --> 01:20.970
+It's the content within the showcase.
+
+01:21.720 --> 01:29.250
+So inside here we have an H1 that says enjoy your stay.
+
+01:29.250 --> 01:33.960
+And then underneath that we have a paragraph which I think it's 15.
+
+01:33.960 --> 01:40.080
+I'm just going to do Lorem 15 enter and then underneath that we have a link.
+
+01:40.440 --> 01:42.900
+And this is actually going to go to the about page.
+
+01:42.900 --> 01:50.370
+So about Dot H Timo and for the text will say about our hotel.
+
+01:50.930 --> 01:51.290
+OK.
+
+01:51.320 --> 01:58.320
+So if we take a look should look like this now there's a couple of things that I left out here that
+
+01:58.320 --> 02:03.310
+we need to add one if you notice the enjoys it is a different color.
+
+02:03.360 --> 02:08.130
+So the way it is now there is there's no way for us to actually target that right.
+
+02:08.130 --> 02:13.350
+This just this one word of course we could we could make the H One all that color but I just want that
+
+02:13.350 --> 02:13.950
+one word.
+
+02:13.980 --> 02:23.940
+So what I'll do is surround that in a span and I'm going to give it a class of text dash primary just
+
+02:23.940 --> 02:24.630
+the enjoy.
+
+02:24.630 --> 02:30.240
+So this ending span we want to cut that and we want to put that right after enjoy like that.
+
+02:30.450 --> 02:35.990
+And then this text primary we'll style it to just have this color and we can put that wherever we want.
+
+02:36.060 --> 02:41.420
+You can see down here the history also has that color so we can use that same class down there.
+
+02:41.490 --> 02:48.930
+Another thing I want to do is add a class to the paragraph and call it lead because it's bigger than
+
+02:48.930 --> 02:49.880
+the rest of the text.
+
+02:49.890 --> 02:58.230
+So it'll be it'll be just a larger font size and then the link obviously the link is is formatted like
+
+02:58.230 --> 02:58.790
+a button.
+
+02:59.070 --> 03:09.670
+So let's give this a class as well of B10 and that should do it as far as each team.
+
+03:09.690 --> 03:14.100
+So let's save that and let's go to our CSX.
+
+03:14.100 --> 03:20.990
+So let's go down below the nav bar and let's add our styles for the showcase.
+
+03:21.270 --> 03:28.170
+So of course we want to style the actual showcase which has an I.D. of showcase I believe right.
+
+03:28.270 --> 03:29.600
+Yep right here.
+
+03:29.760 --> 03:32.180
+And that's what we want to add the background image to.
+
+03:32.180 --> 03:37.900
+So remember background or background image and we want to use U.R.L..
+
+03:38.370 --> 03:41.340
+And then the image is located in.
+
+03:41.340 --> 03:45.470
+If we look at our file structure it's located in this AMG folder.
+
+03:45.480 --> 03:52.590
+Now since we're inside of the CSX folder right were in the style sheet that's inside of the CSX folder
+
+03:52.590 --> 03:59.400
+we can't do dot slash AMG slash and then the name.
+
+03:59.400 --> 04:03.870
+We have to do dot dot slash because we need to go outside of the CSX.
+
+04:03.870 --> 04:10.260
+So the trip the double dot means that we're going outside of the current file and then we want to go
+
+04:10.260 --> 04:16.710
+into the image folder and then we want to choose the showcase dot j peg OK a single dot would mean we're
+
+04:16.710 --> 04:23.220
+looking in the current for the current folder double is going to mean we want to go outside of the current
+
+04:23.220 --> 04:29.580
+folder and then we're just going to add no repeat let's do no repeat.
+
+04:29.580 --> 04:33.810
+And then let's do center center.
+
+04:33.840 --> 04:40.280
+So this is the the background position and then we wanted to cover the whole thing as well.
+
+04:40.290 --> 04:42.310
+So let's save that.
+
+04:42.830 --> 04:43.780
+OK.
+
+04:43.950 --> 04:49.340
+Now obviously we want the showcase to be we want a bigger height than this.
+
+04:49.350 --> 04:56.490
+So I'm gonna set the height to 600 pixels and save good.
+
+04:56.490 --> 04:59.540
+So now you can see that it's the same height.
+
+04:59.740 --> 05:04.480
+And the reason that when I click over you see how the links move over and stuff that's because of the
+
+05:04.480 --> 05:08.040
+scroll bar right here there's no scroll bar here because there's no corn.
+
+05:08.050 --> 05:10.480
+It doesn't go down far enough yet.
+
+05:10.510 --> 05:10.870
+All right.
+
+05:10.900 --> 05:14.430
+So now we want to target the showcase content.
+
+05:14.500 --> 05:22.610
+So I'm going to say I.D. showcase and we have a class of showcase dash content.
+
+05:22.750 --> 05:25.540
+And first of all I want all the color.
+
+05:25.540 --> 05:29.920
+Anything that's inside of there I want to be white except for the link.
+
+05:29.920 --> 05:33.290
+The link will have to actually add the color ourselves for that.
+
+05:33.760 --> 05:36.610
+And then we want to align everything to the center.
+
+05:36.640 --> 05:40.020
+So we want to do text align center.
+
+05:40.270 --> 05:43.930
+So if I do that everything gets aligned to the center and let's push everything down.
+
+05:43.930 --> 05:51.840
+So I'm going to do a padding top of one hundred and seventy pixels and that pushes everything down.
+
+05:51.850 --> 05:52.200
+All right.
+
+05:52.210 --> 05:55.030
+Now let's let's work on the H one.
+
+05:55.090 --> 05:56.650
+So we'll do a showcase
+
+05:59.020 --> 06:04.140
+showcase content and then we want to target the H1.
+
+06:04.240 --> 06:07.540
+And I want that to be bigger.
+
+06:07.540 --> 06:14.300
+So I'm going to say font size and let's set it to we'll do 60 pixels.
+
+06:14.450 --> 06:14.780
+OK.
+
+06:14.800 --> 06:15.670
+So save that.
+
+06:15.670 --> 06:17.410
+So that's much bigger.
+
+06:17.440 --> 06:29.160
+Let's do a line height of say one point two m and then let's do padding.
+
+06:29.440 --> 06:35.760
+Actually we don't need to do that because we already have the padding bottom on all of the on H1 H2
+
+06:35.760 --> 06:36.520
+to an H.
+
+06:36.520 --> 06:39.670
+So we don't need to add that here.
+
+06:39.880 --> 06:40.150
+All right.
+
+06:40.150 --> 06:41.570
+Now that's the H one.
+
+06:41.650 --> 06:46.760
+Let's let's add the Texas primary class.
+
+06:47.480 --> 06:50.190
+So remember we added the class of Texas primary.
+
+06:50.210 --> 06:55.580
+Now we don't want to put like h 1 Texas primary because I want to be able to use this class absolutely
+
+06:55.580 --> 06:56.050
+anywhere.
+
+06:56.060 --> 06:57.670
+So it's more of a utility class.
+
+06:57.680 --> 07:05.360
+So I'm going to put that up here right under container.
+
+07:05.940 --> 07:06.250
+All right.
+
+07:06.250 --> 07:16.450
+So Texas primary we're gonna use color and let's see the color that we want is hexadecimal.
+
+07:16.450 --> 07:28.720
+It's gonna be F seven C zero eight A OK so same as as the Harvard link right here.
+
+07:28.720 --> 07:35.010
+So if I save that now only that word enjoy has that color.
+
+07:35.060 --> 07:38.340
+Let's go back down to showcase and finish that up.
+
+07:38.510 --> 07:40.700
+So we have the H one.
+
+07:40.700 --> 07:42.920
+Now the power graph here.
+
+07:43.160 --> 07:47.210
+We want the font size to be larger but remember it has a class of lead.
+
+07:47.540 --> 07:50.360
+So actually let's add that up top as well
+
+07:53.750 --> 07:55.670
+so right under Texas primary
+
+07:59.110 --> 08:02.600
+and let's see I forget the font size I want from lead
+
+08:05.660 --> 08:09.050
+you know let's do 18 pixels.
+
+08:09.500 --> 08:17.860
+Font size 18 pixels actually looks a little bit bigger than now it's 220
+
+08:20.760 --> 08:21.060
+All right.
+
+08:21.090 --> 08:27.510
+So font size 20 pixels for the lead class and hopefully guys understand what I mean by utility classes
+
+08:27.510 --> 08:31.230
+I mean that these are just classes that will be will use throughout the site.
+
+08:31.230 --> 08:34.230
+They're not specific to any specific area.
+
+08:34.330 --> 08:34.630
+OK.
+
+08:34.680 --> 08:39.810
+Like it's not specific to the showcase or to the now bar we can use them anywhere.
+
+08:39.810 --> 08:47.880
+So let's go back down now to the showcase and the showcase paragraph.
+
+08:48.020 --> 08:52.580
+Let's see you just want to see if we want to add anything to that.
+
+08:52.610 --> 08:55.730
+Let's let's give that some padding bottom actually.
+
+08:55.730 --> 09:03.820
+So grab this and put in paragraph or P and let's see.
+
+09:03.890 --> 09:08.080
+Let's add padding dash bottom.
+
+09:08.120 --> 09:10.200
+Say 20 pixels OK.
+
+09:10.250 --> 09:15.840
+Just to push the button or the link down below and you know what.
+
+09:15.850 --> 09:21.820
+Let's increase the line height a little bit to here hear we'll say line height for the paragraph.
+
+09:21.830 --> 09:24.030
+Let's try one point five.
+
+09:25.880 --> 09:27.640
+We'll do seven.
+
+09:27.640 --> 09:29.130
+There we go.
+
+09:29.140 --> 09:29.400
+All right.
+
+09:29.410 --> 09:32.890
+So now let's move on to the link here.
+
+09:32.920 --> 09:39.160
+Now this is gonna be another utility class because I want to be able to format links into buttons just
+
+09:39.160 --> 09:42.220
+by using that Beatty in class that we added.
+
+09:42.220 --> 09:52.510
+So we want to go up above here and go right under lead and let's say dot B10 and let's first of all
+
+09:52.720 --> 09:55.150
+display it as an inline block
+
+09:57.780 --> 09:59.020
+so save that.
+
+09:59.040 --> 10:01.140
+There's gonna be no difference just by doing that.
+
+10:01.800 --> 10:05.390
+But we don't want it to go all the way across like a block.
+
+10:05.400 --> 10:08.120
+But we also don't want it to be in line.
+
+10:09.990 --> 10:12.740
+So let's say font size.
+
+10:13.170 --> 10:16.670
+We'll set that to 18 pixels make it a little bigger.
+
+10:16.920 --> 10:23.160
+Let's set the color to white and let's set the background
+
+10:26.950 --> 10:27.710
+backgrounds.
+
+10:27.720 --> 10:31.890
+Gonna be three three three.
+
+10:31.970 --> 10:34.520
+Obviously we need some padding here.
+
+10:34.520 --> 10:39.150
+So for padding let's do 13 on the top and bottom.
+
+10:39.260 --> 10:41.610
+And let's do 20 on the left and right.
+
+10:41.720 --> 10:42.310
+Like that.
+
+10:43.000 --> 10:43.940
+OK.
+
+10:43.950 --> 10:48.200
+And I think the last thing let's make sure that there's no border on any browser.
+
+10:48.200 --> 10:49.700
+So let's say border none
+
+10:52.370 --> 10:57.680
+because we want to if we have buttons we want to be able to add this to the button as well.
+
+10:57.710 --> 10:58.000
+OK.
+
+10:58.010 --> 11:03.080
+And buttons by default have borders links don't but buttons do.
+
+11:03.260 --> 11:03.560
+OK.
+
+11:03.560 --> 11:06.820
+So now when we hover over this we get a pointer.
+
+11:06.830 --> 11:09.860
+But again buttons do not if you use a button tag it doesn't.
+
+11:09.860 --> 11:15.980
+And we want to be able to add this to those as well so let's make sure we do cursor pointer and then
+
+11:15.980 --> 11:17.160
+we want to hover state.
+
+11:17.210 --> 11:19.800
+We want it to be this color if we hover over it.
+
+11:19.800 --> 11:29.630
+So let's actually copy this color this hexadecimal right here from text primary and let's say B.T. n
+
+11:30.230 --> 11:40.610
+Cole and hover and let's set the background to that color and set the color of the text to dark and
+
+11:40.610 --> 11:41.200
+save.
+
+11:41.210 --> 11:42.760
+And now only hover over it.
+
+11:42.800 --> 11:44.960
+We get that color.
+
+11:45.020 --> 11:45.290
+All right.
+
+11:45.290 --> 11:46.550
+So that's the showcase.
+
+11:48.110 --> 11:51.800
+So now let's do the the home info section.
+
+11:51.890 --> 11:53.420
+So this right here.
+
+11:53.420 --> 12:00.070
+Meaning the the image in this part I'm calling home info and we want this to be a section.
+
+12:00.170 --> 12:06.650
+So let's go below the header and you'll see a common theme throughout my projects I usually have a header
+
+12:06.650 --> 12:11.630
+at the top and then every other part and the page is going to be a section up until the footer.
+
+12:11.630 --> 12:14.250
+Then we'll use the HMO five footer tag.
+
+12:14.330 --> 12:19.330
+So let's do section and I usually gives the sections an I.D. that describes them.
+
+12:19.430 --> 12:22.560
+So I'm gonna call this home dash info.
+
+12:22.820 --> 12:23.180
+All right.
+
+12:23.180 --> 12:29.360
+And as far as naming conventions I like to use dashes when I use if I have more than one word inside
+
+12:29.360 --> 12:33.050
+of an idea or a class I usually use a dash or a hyphen.
+
+12:33.050 --> 12:37.460
+Some people we use underscores OK or some people will even use none.
+
+12:37.460 --> 12:38.650
+It's all up to you.
+
+12:38.840 --> 12:41.580
+Like I said I like to use dashes.
+
+12:41.990 --> 12:51.560
+So inside here let's see I actually want the background of this whole thing to be dark and there's other
+
+12:51.560 --> 12:57.450
+parts of the site where I'm going to want that as well so I actually think it's just the foot.
+
+12:57.450 --> 12:57.650
+Yeah.
+
+12:57.690 --> 12:58.380
+Right here.
+
+12:58.380 --> 13:05.020
+So this part I want also to have dark and what I'm going to do is create a utility class called big
+
+13:05.040 --> 13:05.570
+dark.
+
+13:05.580 --> 13:10.350
+We're gonna have different background utility classes now doing stuff like this.
+
+13:10.350 --> 13:16.170
+You don't have to I mean you could just style each individual element like home info with the background
+
+13:16.170 --> 13:23.610
+dark and then when I get to this part I could target this and put background whatever triple three which
+
+13:23.610 --> 13:30.170
+is the dark gray or we can have nice clean utility classes where if we have if we add onto the website
+
+13:30.270 --> 13:36.330
+later if we add more pages we have that class available to us it's almost like using a framework but
+
+13:36.330 --> 13:38.200
+it's like it's your own framework.
+
+13:38.280 --> 13:49.230
+So I'm going to add a class of B G dash dark and then inside here we're going to need these two sections
+
+13:49.230 --> 13:55.440
+or two I'm shouldn't shouldn't say sections with two areas we have one which is going to be an image
+
+13:55.850 --> 14:00.110
+a background image and then one which is going to be this area with the text.
+
+14:00.220 --> 14:03.860
+So let's go ahead and add in here.
+
+14:03.870 --> 14:06.650
+Class of info.
+
+14:06.650 --> 14:08.880
+Going to do class of info Dash.
+
+14:08.910 --> 14:10.040
+I am G.
+
+14:10.350 --> 14:13.260
+And then right under that not within it but under it.
+
+14:13.260 --> 14:17.430
+We want to do a class of info dash content.
+
+14:18.500 --> 14:18.980
+OK.
+
+14:19.020 --> 14:20.940
+So this is the info I am G.
+
+14:20.940 --> 14:26.240
+This is the info content and inside the content I'm going to use an H too.
+
+14:26.520 --> 14:35.700
+And I'm going to say the experts put a span in here as well to expand with the class of text primary
+
+14:35.970 --> 14:39.390
+because in that span we want the history.
+
+14:40.140 --> 14:47.130
+So the history and then outside of the span will finish that we'll say of our hotel.
+
+14:47.130 --> 14:49.890
+And by the way I know that this doesn't look that great.
+
+14:49.940 --> 14:50.820
+It's because it's not.
+
+14:50.820 --> 14:56.510
+This is not responsive it's somewhat responsive where we use the max width and stuff like that.
+
+14:56.760 --> 15:03.130
+But later on when we talk about media queries and stuff we'll get more into building responsive Web
+
+15:03.120 --> 15:04.760
+sites.
+
+15:04.890 --> 15:11.850
+So after the H two we're gonna want this text right here which I'm not sure.
+
+15:11.850 --> 15:19.110
+I think it's 40 or 40 but I'm not exactly sure so I'm going to copy the exact text and I'm going to
+
+15:19.110 --> 15:25.800
+put it in a paragraph and you guys have the finished project in the in the first video of the section
+
+15:25.800 --> 15:26.340
+as well.
+
+15:26.370 --> 15:28.400
+If you want to copy anything.
+
+15:28.500 --> 15:34.370
+All right and then under the paragraph if I make this bigger you'll see we actually have a read more
+
+15:35.880 --> 15:36.970
+button here.
+
+15:37.110 --> 15:41.820
+So let's go ahead and add a tag and let's do.
+
+15:41.820 --> 15:43.310
+Class B10.
+
+15:43.500 --> 15:47.220
+And again I want to be able to have we have different buttons this one's dark.
+
+15:47.220 --> 15:57.260
+This one is light so I'm going to have it in the utility class of and light in addition to B10 so we
+
+15:57.290 --> 15:58.270
+want to do that.
+
+15:58.390 --> 16:00.230
+And then this is just going to go.
+
+16:00.340 --> 16:02.320
+This will go to the about page as well.
+
+16:02.320 --> 16:03.640
+It's not a big side to this.
+
+16:03.640 --> 16:05.970
+We don't have too many options here.
+
+16:06.370 --> 16:08.160
+And that should be it for the home info.
+
+16:08.170 --> 16:16.900
+So if we save that and go back I forgot to put text in here that should say Read more.
+
+16:17.110 --> 16:18.580
+And there we go.
+
+16:18.580 --> 16:18.920
+All right.
+
+16:18.940 --> 16:23.350
+Now let's let's start with the button.
+
+16:23.350 --> 16:28.750
+So notice it has all the traits of this one because they both have the class of B10.
+
+16:28.840 --> 16:31.610
+The only difference is I want this one to be light.
+
+16:31.780 --> 16:39.790
+So we'll go back to our CSX and go up to where we have our Beatty in class and right under the Beatty
+
+16:39.790 --> 16:40.480
+in class.
+
+16:40.480 --> 16:46.110
+We're gonna do dot Beatty and dash light.
+
+16:46.250 --> 16:49.520
+So we have a light version and we're going to set the background
+
+16:52.040 --> 17:01.060
+to let's do hexadecimal f for three times and then set the color of the text to dark.
+
+17:01.400 --> 17:07.520
+So now if I save that notice said it gets all the traits of the B10 meaning the padding the font size
+
+17:07.520 --> 17:08.750
+all that stuff.
+
+17:08.750 --> 17:12.950
+It just has a different color.
+
+17:13.070 --> 17:16.330
+That should be three three three.
+
+17:16.430 --> 17:16.700
+OK.
+
+17:16.700 --> 17:19.240
+There we go.
+
+17:19.430 --> 17:23.020
+And if we wanted to have a different hover color for the light we could have.
+
+17:23.030 --> 17:25.310
+But I'm just going to keep it as is.
+
+17:25.340 --> 17:31.730
+OK so now let's let's work on floating the image which we have we have yet but we're going to add a
+
+17:31.730 --> 17:34.450
+background image to this div right here.
+
+17:34.490 --> 17:41.340
+This info image we want that floated to the left and then we want info content to the right.
+
+17:41.840 --> 17:43.370
+So let's go
+
+17:46.380 --> 17:59.510
+down below showcase and let's say home info so home dash whips home dash info itself.
+
+17:59.520 --> 18:09.200
+I'm gonna give this a height of 400 pixels and that should be all we need for the home info itself.
+
+18:09.210 --> 18:16.800
+So for the image we want to do home dash in phone and we want to target the class of info Dash.
+
+18:16.800 --> 18:21.270
+I am G and let's add.
+
+18:21.270 --> 18:27.390
+Let's see first of all its float it to the left and we want it half and half.
+
+18:27.390 --> 18:34.690
+So I'm going to do with 50 percent and then let's give it a background of U.R.L..
+
+18:34.760 --> 18:44.250
+We want to go outside of the CSX folder into image and then we want the see we want photo 1 dot J Peg
+
+18:44.780 --> 18:46.280
+let's put quotes around this
+
+18:52.020 --> 18:52.540
+OK.
+
+18:52.540 --> 18:56.880
+And then let's do no repeats.
+
+18:56.890 --> 19:03.970
+And then we just want to set a mean height of 100 percent because we want the image to take up the whole
+
+19:03.970 --> 19:05.320
+space.
+
+19:05.500 --> 19:06.970
+So let's save that.
+
+19:06.970 --> 19:07.530
+All right good.
+
+19:07.540 --> 19:10.510
+So now let's do the content side.
+
+19:10.510 --> 19:22.280
+So home info and we want info dash content and we want to float right.
+
+19:22.390 --> 19:26.770
+We want to set the width to 50 percent.
+
+19:26.770 --> 19:33.400
+I'm going to set the height to 100 percent and I want to align everything to the center.
+
+19:33.670 --> 19:39.250
+So text a line to the center and let's add some padding.
+
+19:39.250 --> 19:43.500
+So we'll do 50 top and bottom 30 left and right.
+
+19:43.660 --> 19:46.950
+And then let's just do overflow hidden.
+
+19:47.140 --> 19:52.590
+So if anything goes outside of it there's no scroll bars and save.
+
+19:52.750 --> 19:53.140
+Good.
+
+19:53.140 --> 19:59.770
+Now notice how the background is white because the BJP dark class is what's going to handle that.
+
+19:59.770 --> 20:01.600
+The background color being dark.
+
+20:01.600 --> 20:04.870
+So let's add that as a utility class.
+
+20:05.320 --> 20:11.710
+So we're going to go up above here and let's go right here under the Beattie and light and do BJP dash
+
+20:12.320 --> 20:13.620
+dark.
+
+20:14.050 --> 20:22.210
+And let's say background and we'll set that to 3 3 3 and you want to set the color to be light to be
+
+20:22.210 --> 20:23.740
+white.
+
+20:23.740 --> 20:28.360
+Now while we're here we might as well add some of the other BJP classes because I want to be able to
+
+20:28.360 --> 20:31.880
+do a background light and also a background primary.
+
+20:31.900 --> 20:35.510
+Now the primary color in this is this tarnished color.
+
+20:35.530 --> 20:38.100
+So I want to be able to have those as background.
+
+20:38.110 --> 20:48.390
+So let's copy this and let's do BJP light and see BJP light will be f for.
+
+20:48.460 --> 20:57.550
+We want to change the color to 3 3 3 and then BJP primary just like Texas primary up here we have Texas
+
+20:57.550 --> 20:58.140
+primary.
+
+20:58.210 --> 21:06.220
+So we want the background to be that color which is right here OK.
+
+21:06.240 --> 21:14.470
+Now if I save this we get this background dark P.G. dark so the last thing I want to do here is the
+
+21:14.610 --> 21:19.950
+the content info the paragraph I just want to add a little bit of padding to the bottom because you
+
+21:19.950 --> 21:22.020
+see how close this is.
+
+21:22.310 --> 21:24.990
+So I'm going to go back down.
+
+21:25.200 --> 21:28.050
+Copy this.
+
+21:28.050 --> 21:35.410
+And Cruz target the paragraph and just say patting bottom and let's say 30 pixels.
+
+21:35.490 --> 21:38.700
+So that'll push it down and that's it.
+
+21:38.710 --> 21:39.310
+There we go.
+
+21:40.300 --> 21:45.100
+So this is starting to look pretty good and hopefully things aren't too confusing.
+
+21:45.130 --> 21:52.210
+So we basically just have our header our header has our NAV bar and the showcase and then underneath
+
+21:52.210 --> 21:58.450
+that we have our home info and then along the way we have some utility classes like Texas primary big
+
+21:58.450 --> 22:01.900
+primary Beatty and Beatty and light.
+
+22:02.230 --> 22:06.210
+Hopefully you can just kind of see how everything's coming together OK.
+
+22:06.250 --> 22:11.170
+So in the next video we're going to work on the three boxes below and we're also going to start to look
+
+22:11.170 --> 22:14.300
+at font awesome which is a fantastic service.
+
+22:14.440 --> 22:15.460
+Very easy to use.
+
+22:15.460 --> 22:20.740
+We just have to include a certain style sheet and then use some certain classes and we can get some
+
+22:20.890 --> 22:22.440
+some nice icons.
+
+22:22.450 --> 22:23.950
+All right so we'll see you in the next video.

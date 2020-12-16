@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.310 --> 00:03.330
+All right guys so we have the news grid files.
+
+00:03.330 --> 00:06.210
+We have them in a repository on GitHub dot com.
+
+00:06.210 --> 00:12.690
+So now we can deploy it in that lo fi in literally seconds or minutes in in our case because I'm going
+
+00:12.690 --> 00:17.730
+to be explaining some things but you'll see how simple it is if we go to our panel here and that lo
+
+00:17.730 --> 00:22.860
+fi panel which is very simple we could just say new site from get.
+
+00:23.160 --> 00:28.980
+And we have different providers here we used GitHub so we're gonna click on github and you might get
+
+00:29.010 --> 00:36.690
+a little box set that asks you to vote to authorize your GitHub account so that nettled Fi can access
+
+00:36.690 --> 00:41.490
+your repositories and then you're going to see all your repositories down here and you can see I have
+
+00:41.490 --> 00:42.670
+quite a few.
+
+00:42.930 --> 00:44.820
+So I'm going to search for news grid
+
+00:49.520 --> 00:55.160
+and if if you just created a get hub account and did and follow the instructions you'll just have this
+
+00:55.160 --> 00:56.390
+one repository.
+
+00:56.390 --> 01:01.330
+So we're gonna choose that we're gonna choose the master branch it's the only branch we have.
+
+01:01.660 --> 01:05.760
+And then we don't need a build command or published directory because everything is in the root.
+
+01:05.780 --> 01:11.470
+So we're gonna just say deploy site and you can see this little gears spinning should only take a couple
+
+01:11.480 --> 01:12.010
+seconds.
+
+01:12.020 --> 01:13.950
+And now our site is deployed.
+
+01:13.950 --> 01:14.240
+OK.
+
+01:14.300 --> 01:18.080
+So it's as easy as that to actually get your Web site live on the Internet.
+
+01:18.080 --> 01:20.880
+Now the domain as you can see right here is something.
+
+01:20.990 --> 01:24.120
+It's gonna be different than this but it's going to be something crazy.
+
+01:24.170 --> 01:30.380
+Mine is optimistic fe fe in men and then some numbers dot net lo fi dot com.
+
+01:30.380 --> 01:35.690
+So let's go ahead and open this up in a new tab and there's our Web site.
+
+01:35.960 --> 01:38.470
+So deployment is that easy with nullify.
+
+01:38.480 --> 01:40.460
+Now the domain we're gonna take care of that.
+
+01:40.460 --> 01:41.230
+Don't worry about it.
+
+01:41.990 --> 01:45.460
+But what I want to do is I want to make this form work.
+
+01:45.590 --> 01:53.150
+OK so I'm going to search for Natalya Phi forms and this is documentation page here.
+
+01:53.150 --> 01:58.850
+We'll show us what we have to do we have to add method post to our form tag and data nullify equals
+
+01:58.850 --> 01:59.530
+true.
+
+01:59.600 --> 02:05.180
+And then just make sure we have a name attribute on on each field which we only have an email field.
+
+02:05.180 --> 02:11.990
+Now we've already deployed our our pushed our repository to github and deployed our Web site.
+
+02:11.990 --> 02:13.590
+But we need to make a change.
+
+02:13.620 --> 02:13.890
+OK.
+
+02:13.910 --> 02:20.180
+So whenever you need to make a change you need to push your need to update your repository and push
+
+02:20.180 --> 02:20.930
+to get hub.
+
+02:21.050 --> 02:24.770
+And then it should automatically update on the site.
+
+02:24.770 --> 02:32.900
+So let's do that let's go to C and it's going to minimize this and I'm going to open up our news grid
+
+02:33.000 --> 02:35.000
+Web site in V.S. code
+
+02:38.900 --> 02:41.120
+and make that bigger.
+
+02:41.690 --> 02:47.420
+And we just closed this stuff up so let's see we have our news good Web site open and the form is on
+
+02:47.450 --> 02:48.140
+every page.
+
+02:48.140 --> 02:51.890
+So we're just going to have to go to each of the three each him all pages.
+
+02:51.890 --> 03:06.200
+Let's go down to our form and let's add a method of post and we just say data dash network Phi equals
+
+03:07.330 --> 03:08.720
+true.
+
+03:09.160 --> 03:15.980
+And then the input of this email input we want to give a name of IMAP.
+
+03:16.010 --> 03:18.700
+All right let me just make sure that that's correct.
+
+03:18.710 --> 03:23.900
+So we did data and nullify equals true method POST.
+
+03:23.900 --> 03:26.200
+Let's give it a name as well.
+
+03:26.510 --> 03:30.960
+So we'll say where is it form.
+
+03:30.980 --> 03:37.190
+Name equals call it contact.
+
+03:37.190 --> 03:37.580
+All right.
+
+03:37.580 --> 03:39.020
+So that should do it.
+
+03:39.020 --> 03:39.820
+Let's save.
+
+03:39.830 --> 03:45.260
+And then let's take this whole form and go to about Dot each symbol because obviously we wanted to work
+
+03:45.260 --> 03:52.610
+on all pages so we'll paste that in here and then let's go to Article dot each team out to the footer
+
+03:53.120 --> 03:56.140
+and do the same thing.
+
+03:56.300 --> 03:56.620
+OK.
+
+03:56.630 --> 04:00.950
+So now that we've updated that we're going to go back into our terminal and make sure you're in the
+
+04:00.950 --> 04:07.010
+news grid folder as you can see I am and we need to go get add all.
+
+04:07.280 --> 04:11.820
+So it's going to add anything that that has been changed is now in the staging area.
+
+04:11.840 --> 04:12.920
+So now we need to commit.
+
+04:12.920 --> 04:15.440
+Once again I'm going to say get commit.
+
+04:15.440 --> 04:21.210
+Dash M and then I'm going to say updated form.
+
+04:21.850 --> 04:22.120
+OK.
+
+04:22.130 --> 04:26.870
+So we're going to commit that you can see three files changed and now we need to push to get hub.
+
+04:26.870 --> 04:34.070
+Now we've already added it as a remote repository and all we have to do now to push our changes is simply
+
+04:34.070 --> 04:36.980
+get push.
+
+04:37.140 --> 04:37.420
+All right.
+
+04:37.450 --> 04:42.940
+So just doing that should go ahead and update our repository.
+
+04:43.060 --> 04:44.080
+It says one commit.
+
+04:44.110 --> 04:49.540
+If I reload now we have to commits and if we look at one of these each time all files we should see
+
+04:49.540 --> 04:50.200
+the changes.
+
+04:50.200 --> 04:55.000
+So let's go down to the form and there it is.
+
+04:55.000 --> 04:56.660
+So there's what we added.
+
+04:56.860 --> 05:04.140
+Let's go to our Web site nullify site and reload and let's take a look at the source code.
+
+05:04.150 --> 05:04.870
+So I did.
+
+05:04.870 --> 05:08.450
+I'm on a max I did command option you.
+
+05:08.680 --> 05:21.750
+And if we go down you can see that the form now this it's going to look different than what we actually
+
+05:21.750 --> 05:22.460
+uploaded.
+
+05:22.470 --> 05:24.090
+So it has a method of post.
+
+05:24.090 --> 05:25.840
+You can see the name is contact.
+
+05:25.890 --> 05:28.680
+What it does though is it puts a hidden value in here.
+
+05:28.710 --> 05:28.980
+OK.
+
+05:29.010 --> 05:35.550
+So basically now the fi needs this to to process the form but it has changed.
+
+05:35.550 --> 05:40.740
+Maybe we should change something else just so I could prove it to you but it is there it should work.
+
+05:40.740 --> 05:42.540
+So let's try it out.
+
+05:42.540 --> 05:46.190
+Let's go down to the e-mail and let's say test.
+
+05:46.230 --> 05:57.030
+We'll just do test at test dot com and subscribe and look at that nullify actually gives us a success
+
+05:57.030 --> 05:57.480
+page.
+
+05:57.480 --> 05:59.170
+We don't even have to deal with that.
+
+05:59.310 --> 06:01.320
+And then we can just go back to our site.
+
+06:01.440 --> 06:09.390
+Now if we go back to notify and we go down we go to overview right here you can see recent form submissions
+
+06:09.600 --> 06:11.810
+and we have test at test dot com.
+
+06:11.820 --> 06:17.340
+If I click on that it's going to show us the e-mail field in any other fields we have if we had you
+
+06:17.340 --> 06:21.630
+know name and address and all that stuff that would also show here.
+
+06:21.810 --> 06:28.650
+OK we can delete these so we can manage all of our submissions from here we can also download them as
+
+06:28.800 --> 06:30.780
+CSP file.
+
+06:30.780 --> 06:31.050
+All right.
+
+06:31.050 --> 06:33.210
+So really really cool service.
+
+06:33.210 --> 06:35.260
+Definitely recommend it.
+
+06:35.460 --> 06:40.380
+Now the next thing I want to do is I want to set up a custom domain.
+
+06:40.410 --> 06:40.760
+OK.
+
+06:40.770 --> 06:46.440
+So in the next video I'm going to show you how we can register a domain name from name cheap and we
+
+06:46.440 --> 06:49.530
+can basically link it to our net low fi Web site.

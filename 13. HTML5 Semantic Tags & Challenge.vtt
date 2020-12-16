@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.430 --> 00:07.260
+All right guys so before each team all five we would put everything in divs much like you saw in not
+
+00:07.260 --> 00:11.670
+the not the last video but the one before that where we had an idea of MAIN HEADER we had an idea of
+
+00:11.670 --> 00:19.200
+main nav with each team of five we got semantic tags like header footer nav so we can actually describe
+
+00:19.560 --> 00:21.700
+what is in that tag.
+
+00:21.840 --> 00:28.200
+Now this isn't just for organization although it is excellent for organization it's also for accessibility
+
+00:28.200 --> 00:33.720
+it helps people with disabilities that you know that have hearing disabilities vision disabilities it
+
+00:33.720 --> 00:37.400
+helps them understand what goes where.
+
+00:37.410 --> 00:42.890
+So they're very important to use instead of just using divs which have no meaning at all.
+
+00:42.900 --> 00:48.960
+So these are the more the more popular each HTML5 tags there are a couple other ones but these are the
+
+00:48.960 --> 00:49.810
+main ones.
+
+00:49.920 --> 00:55.680
+And then I just have a sample that I found on the Internet that kind of shows you what goes where it's
+
+00:55.680 --> 00:59.040
+not using all of these but I'm going to explain each one.
+
+00:59.040 --> 01:04.030
+So basically we have the header and footer that's pretty self-explanatory as you can see here headers
+
+01:04.080 --> 01:06.990
+usually go at the top four is usually go at the bottom.
+
+01:07.110 --> 01:12.210
+A lot of times your header will have like a logo you may have your navigation in your head or you may
+
+01:12.210 --> 01:13.540
+have it underneath.
+
+01:13.710 --> 01:17.300
+He may have like a search box or something like that.
+
+01:17.340 --> 01:21.270
+Next we have NAV which is used for navigation.
+
+01:21.270 --> 01:26.850
+I don't have an example on this but let's say you have a Navarre here which would be a well an unordered
+
+01:26.850 --> 01:29.850
+list and then you'd wrap it in the NAV tag.
+
+01:29.850 --> 01:30.300
+OK.
+
+01:30.300 --> 01:37.170
+Or maybe you have a side menu which is a well that you wrap in a nav tag main which also is on here
+
+01:37.680 --> 01:43.320
+could be wrapped around this whole area which is like the main content of the page or maybe even around
+
+01:43.320 --> 01:44.050
+this whole thing.
+
+01:44.050 --> 01:47.100
+There's no like special science to this.
+
+01:47.130 --> 01:52.410
+Some of it is preference but there are just some general rules to follow it just generally means the
+
+01:52.410 --> 01:56.670
+main content of your page and a lot of times people don't even use main.
+
+01:56.670 --> 01:58.920
+They'll just split it into sections.
+
+01:59.670 --> 02:08.280
+But yeah you can use main section is going to be just that for instance the the about div that we had
+
+02:08.280 --> 02:09.860
+and then the contact div.
+
+02:10.020 --> 02:14.940
+That's where I would use this section instead of using a div there I'd say section and maybe still give
+
+02:14.940 --> 02:21.600
+it an idea of about or whatever and then article is going to be used for just that if there's an article
+
+02:21.600 --> 02:28.710
+post or a blog post a lot of times you'll see multiple blog posts and then maybe a read more button
+
+02:28.710 --> 02:32.180
+or something those could be wrapped in Article tags.
+
+02:32.250 --> 02:40.200
+OK instead of divs and then a side is just that it's sidebar content or just content that isn't it's
+
+02:40.200 --> 02:47.670
+not the main focus of the page it could be maybe an ADD or it could be like a category section for the
+
+02:47.670 --> 02:49.900
+main blog section or something like that.
+
+02:50.700 --> 02:50.970
+OK.
+
+02:51.000 --> 02:57.900
+So these are the HMO five semantic tags now I'm gonna give you a little challenge and I want to give
+
+02:57.900 --> 03:06.400
+you a layout that only uses divs and I want you to figure out where to put these semantic tags.
+
+03:06.420 --> 03:08.610
+OK all the ones that I just showed you.
+
+03:08.610 --> 03:16.080
+So let's go ahead and create a new file here we'll call this 11 underscore each team of five underscore
+
+03:17.370 --> 03:24.480
+semantics start each Timo and you're going to have this each team I'll file in your project files for
+
+03:24.480 --> 03:31.920
+this video and I'm going to paste it in and it does have a bunch of CSX up at the top in the style Don't
+
+03:31.920 --> 03:37.010
+worry about this I just wanted it to look like an actual web page we're going to learn how to do all
+
+03:37.030 --> 03:42.400
+this later on but just pay attention to the H team Al so I'm going to save this and open it up just
+
+03:42.600 --> 03:44.030
+see what it looks like.
+
+03:44.220 --> 03:48.660
+OK so it's not very good looking but it is laid out like an actual Web site.
+
+03:48.810 --> 03:58.950
+So we have a header we have our main area we have this section here this section here we also have some
+
+03:58.950 --> 04:03.780
+articles in the section and then we have our sidebar with a navigation.
+
+04:03.780 --> 04:08.380
+So keep that stuff in mind keep those elements in mind and let's look at the aged email.
+
+04:08.610 --> 04:15.450
+So we have a div with the idea of header right down here we have a div with the idea of main we have
+
+04:15.840 --> 04:21.830
+a div with the idea of welcome and the comments should give you hints as well welcome s..
+
+04:21.930 --> 04:29.460
+We have the blog section we have Article 1 Article 2 but notice that they're all using div so I just
+
+04:29.460 --> 04:33.820
+want you to figure out where the each team 0 5 Ellen tags go.
+
+04:33.960 --> 04:40.390
+We have a sidebar inside the sidebar we have our navigation and then we have our footer.
+
+04:40.440 --> 04:40.740
+OK.
+
+04:40.740 --> 04:41.740
+Don't worry about this clear.
+
+04:41.760 --> 04:45.330
+This just has to do with the floats we just floated using CSF.
+
+04:45.330 --> 04:46.640
+So we had to clear it.
+
+04:46.920 --> 04:47.880
+Don't worry about that.
+
+04:48.750 --> 04:56.460
+So just take a look at this and take a look at this and figure out what goes where.
+
+04:56.490 --> 04:56.780
+OK.
+
+04:56.790 --> 04:58.590
+And I'll even do the first one for you.
+
+04:58.590 --> 05:01.220
+So for header we have this div..
+
+05:01.270 --> 05:10.090
+So what I would do is replace this with header and then the ending tag also with header and we can keep
+
+05:10.090 --> 05:11.360
+and keep the I.D..
+
+05:11.730 --> 05:12.090
+OK.
+
+05:12.120 --> 05:16.350
+If we were going to style it or something we could even style it just by the element itself.
+
+05:16.360 --> 05:22.230
+But you may want to keep the I.D. but that's the first one I'm going to do so take a look at the rest.
+
+05:22.390 --> 05:28.560
+And I want you to replace certain divs where you think they should be replaced with these each team
+
+05:28.570 --> 05:30.370
+all five semantic tags.
+
+05:30.400 --> 05:30.720
+OK.
+
+05:30.730 --> 05:34.450
+And then in the next video I'll give you my my solution.

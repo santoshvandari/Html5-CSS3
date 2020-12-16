@@ -1,0 +1,469 @@
+WEBVTT
+
+00:00.560 --> 00:05.280
+All right guys in this video we're going to style some menus so we're going to create verticals like
+
+00:05.280 --> 00:11.580
+side menu and then also a navigation bar that goes horizontal so create let's create a new file called
+
+00:11.580 --> 00:23.460
+0 9 underscore menus dot each team L and for the title I'm just going to say menu styling let's add
+
+00:23.460 --> 00:30.810
+in our style tags and for the markup we just want to add a U L and I'm gonna give it a class of side
+
+00:30.810 --> 00:32.850
+menu.
+
+00:32.850 --> 00:37.780
+Ok we're gonna have a list item with a link inside of it doesn't matter where it goes.
+
+00:37.860 --> 00:43.080
+And then let's just say home for the text and then we'll copy this down a few times.
+
+00:43.070 --> 00:45.740
+And this one will be about.
+
+00:45.740 --> 00:52.320
+This will be services and this will be contact.
+
+00:52.320 --> 00:53.640
+OK let's save that.
+
+00:53.670 --> 00:56.400
+Open it up.
+
+00:56.400 --> 00:57.180
+And there we go.
+
+00:57.180 --> 00:59.150
+Looks horrendous.
+
+00:59.190 --> 01:09.230
+First thing I'm going to do is for the body I'm just going to change the font family to do aerial.
+
+01:09.420 --> 01:17.010
+And next thing we want to target the side menu which is the UL and I want to get rid of the bullets
+
+01:17.040 --> 01:22.450
+because by default you always have these these disk bullets.
+
+01:22.500 --> 01:30.660
+Now you can get rid of these within the well or within the list item with the list style property and
+
+01:30.660 --> 01:32.010
+we want to set that to none.
+
+01:32.040 --> 01:33.090
+So we'll save that.
+
+01:33.090 --> 01:34.370
+That gets rid of them.
+
+01:34.400 --> 01:36.890
+See we also the aerial font.
+
+01:36.960 --> 01:44.370
+Next thing I want to do is add a border around the whole you well so we'll say border and let's set
+
+01:44.370 --> 01:46.420
+it to one pixel.
+
+01:46.620 --> 01:54.270
+I want to do a light grey so I'm going to do DDD and let's do solid save that.
+
+01:54.300 --> 01:54.660
+Good.
+
+01:55.530 --> 01:59.660
+Let's do a border radius just to add a slight curve.
+
+01:59.670 --> 02:10.350
+We'll do 10 pixels and let's set a width of 300 pixels kind of shorten and a little bit and let's set
+
+02:10.350 --> 02:17.190
+the padding now by default unordered list have 40 pixels padding on the left as you can see that's pushed
+
+02:17.190 --> 02:17.870
+over.
+
+02:17.940 --> 02:22.350
+So doing padding 20 pixels on all sides is going to overwrite that.
+
+02:22.350 --> 02:27.410
+So if I save that you can see now we have 20 pixels on all sides.
+
+02:27.930 --> 02:31.750
+And then I think yeah I think that's all I want to do for the well.
+
+02:31.800 --> 02:42.420
+So now we're going to focus on the list items themselves so side not slide side menu list items and
+
+02:42.420 --> 02:49.290
+we want to set the font size a little bigger by default at 16 we're gonna set it to 18.
+
+02:49.290 --> 02:51.190
+I think I have this zoomed in.
+
+02:51.240 --> 02:53.670
+Let me just see real quick.
+
+02:53.700 --> 02:53.880
+Yes.
+
+02:53.910 --> 02:56.540
+So that's that's normal that's 100 percent.
+
+02:57.150 --> 03:01.410
+So Font size 18 I also want them spread apart quite a bit.
+
+03:01.410 --> 03:08.670
+So I'm going to use line height and set it to two point four m save that and it's going to spread them
+
+03:08.670 --> 03:09.230
+apart.
+
+03:10.560 --> 03:12.060
+Let's see what else do we want.
+
+03:12.060 --> 03:13.020
+Here.
+
+03:13.020 --> 03:15.180
+Let's do a border bottom on each one
+
+03:18.230 --> 03:25.640
+and I'm going to do dotted for the style one pixel and the same color as the the well border.
+
+03:25.860 --> 03:31.320
+So you can see that each one now has this this bottom border.
+
+03:31.320 --> 03:34.540
+Now one thing I want to show you is that the borders are.
+
+03:34.650 --> 03:40.100
+I put them here to separate the links and we don't need the last one under contact.
+
+03:40.110 --> 03:47.760
+So we can actually use a pseudo pseudo selector called Last Child to target the last list item.
+
+03:47.820 --> 03:49.790
+So let's say it's a side menu.
+
+03:49.800 --> 03:53.590
+Ally colon last dash child.
+
+03:53.930 --> 03:54.270
+OK.
+
+03:54.310 --> 03:59.250
+And we'll get into some of the other pseudo selectors later on we can select the first one we can select
+
+03:59.610 --> 04:06.000
+anything in the middle we can do like all the even all the odd and it's pretty powerful but just for
+
+04:06.000 --> 04:13.110
+now we're going to use last child and set border to none and save and now the last link here or the
+
+04:13.110 --> 04:16.070
+last list item doesn't have a border.
+
+04:16.110 --> 04:22.960
+So for the the styling of the the actual links the colour and the underline we have to target the eight
+
+04:22.970 --> 04:23.420
+tags.
+
+04:23.420 --> 04:27.730
+So let's do side menu list item a.
+
+04:28.410 --> 04:31.920
+And change the color to 3 3 3.
+
+04:31.980 --> 04:36.260
+Let's get rid of the underline with text decoration none.
+
+04:36.510 --> 04:43.910
+Save that and for the hover right now it doesn't change at all.
+
+04:43.910 --> 04:50.900
+So I want to actually change the color for that so let's say side and on the why keep doing soft slide.
+
+04:50.900 --> 04:57.710
+Let's do ally a colon hover and let's change the color to coral.
+
+04:58.730 --> 05:04.010
+So now when I hover over a link it turns into the Coral color.
+
+05:04.040 --> 05:04.300
+All right.
+
+05:04.330 --> 05:06.290
+So I think that that's pretty much it.
+
+05:06.290 --> 05:11.360
+It's not the best looking menu but it looks a lot better than the standard unordered list.
+
+05:11.360 --> 05:14.940
+So now we're gonna move on to the navigation menu.
+
+05:15.210 --> 05:18.640
+So I'm just going to put a comment right here.
+
+05:18.680 --> 05:19.670
+Which side menu
+
+05:23.450 --> 05:24.880
+and down here.
+
+05:24.880 --> 05:29.260
+Let's just copy this up so I'm going to do shift option up.
+
+05:29.440 --> 05:39.700
+And this one I'm going to change the class to nav bar and let's just put a couple line breaks in between
+
+05:39.700 --> 05:42.990
+these two to kind of just separate them a little bit.
+
+05:43.030 --> 05:43.360
+All right.
+
+05:43.360 --> 05:51.040
+So this is our nav bar so we want this to be to go straight across and we want these links or the list
+
+05:51.040 --> 05:53.200
+items to float.
+
+05:53.320 --> 05:55.970
+So let's go under.
+
+05:56.920 --> 05:58.630
+Actually we'll go above.
+
+05:58.630 --> 06:05.040
+Since now bars at the top.
+
+06:05.180 --> 06:05.500
+All right.
+
+06:05.530 --> 06:10.480
+So we want to target the well which is called nav bar.
+
+06:10.930 --> 06:14.350
+And the first thing I want to do is remove the list the bullet.
+
+06:14.350 --> 06:16.270
+So we're gonna say list style.
+
+06:16.300 --> 06:18.550
+None.
+
+06:18.550 --> 06:18.930
+OK.
+
+06:18.940 --> 06:24.280
+Now I want to take away all the margin and all the padding
+
+06:27.290 --> 06:28.000
+save that.
+
+06:28.000 --> 06:29.600
+Good.
+
+06:29.600 --> 06:30.080
+Let's see.
+
+06:30.080 --> 06:35.290
+Next thing we want to do is add the background.
+
+06:35.630 --> 06:47.960
+I'm going to use that Facebook style blue which is for c 6 C a 0 K will save that let's add board a
+
+06:47.960 --> 06:55.220
+radius of five pixels OK.
+
+06:55.460 --> 07:01.310
+Now I'm gonna go down here and we're gonna say nav bar list item and we want to float these because
+
+07:01.310 --> 07:03.020
+we want them to be side by side.
+
+07:03.020 --> 07:04.670
+We don't want them to go down.
+
+07:04.670 --> 07:09.950
+We don't want them to be vertical so let's float all of the list items to the left.
+
+07:10.040 --> 07:12.310
+So they're kind of just stack side by side.
+
+07:12.320 --> 07:13.850
+So I'll save that.
+
+07:13.850 --> 07:20.690
+And it happened they float they float now to the left but the background is now gone since we floated
+
+07:20.690 --> 07:21.270
+it.
+
+07:21.400 --> 07:25.810
+It kind of just kind of collapse the background.
+
+07:26.000 --> 07:33.260
+So the way that we can fix this is go to the nav bar that the parent element and we want to add in overflow
+
+07:33.980 --> 07:37.250
+and set that to auto and save.
+
+07:37.280 --> 07:39.330
+And now we get the background back.
+
+07:39.530 --> 07:39.900
+All right.
+
+07:39.920 --> 07:47.630
+Because now the background is going to basically pertain to whatever content is inside of it and you
+
+07:47.630 --> 07:49.560
+can set this to hidden as well.
+
+07:49.640 --> 07:55.700
+If you have some some content that goes outside of the element and it has a scroll bar and lets say
+
+07:55.700 --> 08:00.770
+you don't want that scroll bar there you can set overflow to hidden and I'm sure we'll run into that
+
+08:00.770 --> 08:01.670
+later.
+
+08:01.820 --> 08:06.710
+But now that we have the background let's start to style the links.
+
+08:06.710 --> 08:11.380
+So we want to say nav bar ally a.
+
+08:12.530 --> 08:16.910
+And change the color to white.
+
+08:17.000 --> 08:18.950
+You will take away the underline
+
+08:22.280 --> 08:23.840
+save that.
+
+08:24.300 --> 08:28.710
+And we want to display his block.
+
+08:29.240 --> 08:35.930
+It's actually it's actually move this up to the top.
+
+08:36.070 --> 08:36.870
+OK.
+
+08:36.890 --> 08:44.560
+Now since we display block we we can add some padding and it's going to actually it's going to give
+
+08:44.550 --> 08:46.490
+us some space on the top bottom here.
+
+08:46.490 --> 08:50.160
+Also space in between all of the links.
+
+08:50.240 --> 08:53.410
+So let's say for each link we want some padding.
+
+08:53.510 --> 08:59.330
+We want to do 15 on the top and bottom and we want to do 20.
+
+08:59.330 --> 09:00.800
+On the left and right.
+
+09:00.830 --> 09:02.270
+So let's save that.
+
+09:02.300 --> 09:03.260
+And there we go.
+
+09:03.260 --> 09:07.240
+So it kind of filled out the wrapper that the nav bar.
+
+09:07.320 --> 09:09.080
+Well all right.
+
+09:09.110 --> 09:11.180
+So that looks pretty good.
+
+09:12.440 --> 09:17.590
+Let's make it so that when we hover over a link the background changes color.
+
+09:17.630 --> 09:21.770
+So I'm just going to make it a slightly darker than the blue it already is.
+
+09:21.770 --> 09:23.390
+So let's say nav bar
+
+09:26.140 --> 09:32.270
+the state I'm a hover and we're going to do a background
+
+09:34.700 --> 09:46.370
+color and that's going to be let's see what is that going to be 4 4 6 1 9 0 which is slightly darker.
+
+09:46.400 --> 09:48.260
+We can also change the color of the tax.
+
+09:48.260 --> 09:51.680
+We'll just do like a light gray slight change.
+
+09:51.680 --> 09:56.990
+So now if we go up and we hover you'll see that it changes the background and it takes up the whole
+
+09:57.530 --> 10:00.490
+the whole area of the link.
+
+10:00.500 --> 10:06.500
+Now sometimes you might see people put the padding on the list item but that's not really a good idea
+
+10:07.190 --> 10:12.010
+especially if you want to have the hover state take up the whole thing like this.
+
+10:12.080 --> 10:18.230
+Otherwise it would just take up like a square around it which doesn't look very good and you know you'll
+
+10:18.230 --> 10:26.330
+see different ways to create nav bars I think that this specific CSX is probably the easiest to do this
+
+10:26.810 --> 10:31.970
+and you'll see if I make this bigger it just stretches along if I make it really small.
+
+10:32.450 --> 10:34.060
+Well actually we don't have enough links here.
+
+10:34.070 --> 10:39.530
+But if we had more links it would just knock on to the next line which doesn't look very good.
+
+10:39.590 --> 10:45.830
+So later on I'm going to show you how to create a more responsive nav bar where it will kind of you
+
+10:45.830 --> 10:52.100
+know when you get to a certain screen size like like for a smartphone they'll actually switch to going
+
+10:52.100 --> 10:52.800
+this way.
+
+10:52.890 --> 10:55.670
+It'll look nice and neat centred and stuff like that.
+
+10:55.670 --> 10:55.970
+All right.
+
+10:55.970 --> 11:01.080
+So next I quickly want to look at the display properties UCLA did display block here.
+
+11:01.130 --> 11:04.840
+We can change in line to block in and vice versa.
+
+11:04.850 --> 11:07.130
+There's also something called inline block.
+
+11:07.190 --> 11:10.250
+So we're going to we're going to take a look at that in the next video.

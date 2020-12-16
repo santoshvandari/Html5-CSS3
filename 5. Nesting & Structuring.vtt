@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00.510 --> 00:03.380
+All right guys so in this video I want to take a look at nesting.
+
+00:03.420 --> 00:06.690
+So we actually need some markup to work with.
+
+00:06.720 --> 00:11.760
+So this each one here I'm actually going to put in a header tag.
+
+00:12.240 --> 00:18.540
+So say header and we'll go ahead and move this up into the header and then under the header I'm going
+
+00:18.540 --> 00:26.430
+to put a section and I'm going to give this this section a class of section and also a class of Section
+
+00:26.460 --> 00:28.710
+dash a.
+
+00:29.100 --> 00:36.300
+And let's put an H three in here we'll just say section A and then let's put a paragraph and I'll do
+
+00:36.300 --> 00:44.220
+like Lord 30 and I want to also have a just a link or read more link that we're going to style as a
+
+00:44.220 --> 00:44.670
+button.
+
+00:44.670 --> 00:50.070
+So let's put an A tag with the class of now I'm just gonna do Beaty and dash light.
+
+00:50.110 --> 00:57.930
+I'm going to do B10 and Beatty and light like I would before with CSX and then in here let's just say
+
+00:57.930 --> 00:59.250
+read more.
+
+00:59.640 --> 01:00.100
+OK.
+
+01:00.120 --> 01:04.740
+And then I'm just going to copy this whole section and we'll bring it down and we'll call this section
+
+01:04.770 --> 01:13.800
+B so we'll change that class and change that to B and let's change this button class to button dark.
+
+01:13.860 --> 01:14.160
+All right.
+
+01:14.160 --> 01:16.580
+So if we save that it should look like this.
+
+01:16.650 --> 01:27.000
+So we're gonna head back in to Maine dot SPSS and let's just look at some some basic nesting.
+
+01:27.000 --> 01:29.830
+So I'm going to put it in my head or here.
+
+01:30.300 --> 01:44.190
+Now for the header itself I'm going to set a background of the dark color and color of the light color.
+
+01:44.500 --> 01:44.970
+OK.
+
+01:44.970 --> 01:48.880
+And then let's just add a little bit of padding so we'll do one REM.
+
+01:48.930 --> 01:50.060
+OK so save that.
+
+01:50.070 --> 01:53.700
+Now I want to align the H one to the center.
+
+01:53.700 --> 01:59.570
+Now normally what we would do is we would take a header and we would take each one and create our style.
+
+01:59.580 --> 02:11.220
+However with SAS we can go right in the header and we can do H1 and we can set it set text align to
+
+02:11.220 --> 02:12.860
+the center.
+
+02:13.080 --> 02:14.790
+And if I save that it works.
+
+02:14.790 --> 02:20.940
+Now this tech center is only going to applied to the H1 that's within the header.
+
+02:20.940 --> 02:26.260
+If we if we put another H1 This is not going to apply to it because it's nested within the header.
+
+02:26.310 --> 02:26.700
+OK.
+
+02:26.700 --> 02:28.710
+And what is what's really nice about this.
+
+02:28.710 --> 02:35.070
+I mean just having this you might not see a huge advantage but when you start to nest a lot of stuff
+
+02:35.070 --> 02:42.330
+together you can really see the benefit of it but you can structure it like your age team Al if we look
+
+02:42.330 --> 02:48.180
+at our e-mail we have a header and we have an H1 nested inside we look at our SAS we have a header we
+
+02:48.180 --> 02:57.060
+have an H1 nested inside so we can structure it very similar to the HD PML case so that's basic nesting.
+
+02:57.060 --> 02:59.310
+Now I'm gonna.
+
+02:59.770 --> 03:00.510
+Let's see.
+
+03:00.530 --> 03:09.720
+Let's go to our section now have a class of section and I'm just going to add a padding here of 2 3
+
+03:09.810 --> 03:10.820
+room.
+
+03:10.880 --> 03:11.360
+OK.
+
+03:11.550 --> 03:12.980
+Spread it out a little bit.
+
+03:13.020 --> 03:20.070
+Now for the H three I want to say in all my section age threes let's go I'd nest that let's set the
+
+03:20.070 --> 03:25.020
+font size to 2 REM.
+
+03:26.180 --> 03:27.270
+OK.
+
+03:27.270 --> 03:36.780
+Now we can get creative here since we have some classes we have section dash a and section dash B we
+
+03:36.780 --> 03:46.020
+can use an in Ampersand as basically like kind of like a like a wild card or like a place holder I guess
+
+03:46.470 --> 03:53.730
+since we have session dash what I'm gonna to ask I'm sorry section dash I'm going to go within my section
+
+03:53.730 --> 03:59.240
+class here and I'm going to do Amber Samp dash a.
+
+03:59.860 --> 04:00.370
+OK.
+
+04:00.390 --> 04:07.640
+So what this Ampersand represents is whatever its parent selector.
+
+04:07.650 --> 04:10.020
+So in this case dot s..
+
+04:10.050 --> 04:14.580
+Now I want to style dot section a which is this right here.
+
+04:14.580 --> 04:15.270
+Right.
+
+04:15.330 --> 04:21.960
+So this is actually going to take this section put it in this Ampersand and then just add dash to it.
+
+04:21.960 --> 04:27.280
+So let's say we want a background and this kind of stuff.
+
+04:27.290 --> 04:29.150
+I mean you don't have to do I like it.
+
+04:29.150 --> 04:36.980
+I think it's it's organized you have everything in one place related to a section so it's two primary
+
+04:36.980 --> 04:40.400
+color for the background and color.
+
+04:40.400 --> 04:42.290
+I'm just going to say white.
+
+04:42.530 --> 04:46.640
+I'm going to show you something cool later on when it comes to text color.
+
+04:46.640 --> 04:49.390
+Now if I save this you'll see that section A.
+
+04:49.640 --> 04:51.470
+Now has this styling.
+
+04:51.470 --> 04:51.770
+OK.
+
+04:51.790 --> 04:55.130
+So this ampersand is just replaced with this.
+
+04:55.370 --> 05:01.790
+And at the same time if I want to do Section B I'll go ahead and paste that in and we'll just change
+
+05:01.790 --> 05:02.660
+that to a B.
+
+05:02.660 --> 05:08.470
+Let's change this to secondary color and save.
+
+05:08.540 --> 05:12.200
+And now Section B has that secondary color.
+
+05:12.200 --> 05:12.530
+All right.
+
+05:12.560 --> 05:15.530
+So I think it's just organize to have everything.
+
+05:15.530 --> 05:22.090
+You know we wanted to we're dealing with sections have it all in here rather than doing you know section
+
+05:22.190 --> 05:30.200
+section H three section a section b it's just all in here nice and encapsulated so I think it's it's
+
+05:30.200 --> 05:33.650
+an advantage and I like to do things this way.
+
+05:33.680 --> 05:34.030
+All right.
+
+05:34.060 --> 05:36.330
+So that's basic nesting now.
+
+05:36.500 --> 05:44.840
+We can also do like pseudo classes so for instance let's say I'm going to change this later but let's
+
+05:44.840 --> 05:53.370
+say our a tag let's say we wanted to do some styling here like color 333 so I save that.
+
+05:53.390 --> 05:55.760
+See now the links are dark.
+
+05:55.760 --> 06:04.850
+Now to add a hover I could simply do Ampersand colon hover whether it's hover before after any pseudo
+
+06:04.850 --> 06:11.990
+class I want to use first child last child anything like that and I'll set the color too I don't know
+
+06:12.020 --> 06:13.540
+just say coral.
+
+06:13.900 --> 06:15.230
+OK so I save that.
+
+06:15.260 --> 06:18.830
+And now when I hover over it you'll see that it's coral.
+
+06:19.100 --> 06:24.230
+Now in the next video I want to do a little more with nesting with the buttons but I also want to show
+
+06:24.230 --> 06:26.050
+you how we can use inheritance.
+
+06:26.130 --> 06:30.590
+We can actually extend other selectors or other styles.
+
+06:30.590 --> 06:32.000
+All right so we'll get to that next.

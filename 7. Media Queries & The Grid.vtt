@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.380 --> 00:04.350
+All right guys so now we're going to take a look at media queries with the grid.
+
+00:04.350 --> 00:12.870
+So let's create a file called 0 6 underscore grid underscore media queries dot each team Al
+
+00:18.520 --> 00:25.160
+and put our style tags so I'm going to create the the the markup first.
+
+00:25.160 --> 00:33.290
+So we're gonna have a container of grid and then let's do an item and an H three inside here or just
+
+00:33.290 --> 00:39.050
+say heading and then a paragraph with the text we'll just do last 15.
+
+00:39.170 --> 00:41.010
+And then I'm going to copy this down.
+
+00:41.240 --> 00:44.560
+I want four of them so going to do three more.
+
+00:44.570 --> 00:44.900
+All right.
+
+00:44.900 --> 00:48.970
+And we'll go ahead and save this and open it with live server.
+
+00:48.970 --> 00:49.300
+OK.
+
+00:49.310 --> 00:52.760
+So let's start off with adding a grid.
+
+00:52.790 --> 01:05.870
+So we'll take the parent element and we'll set it to display grid and let's say grid dash template columns
+
+01:05.930 --> 01:14.280
+and we're going to do a repeat say repeat for auto.
+
+01:14.280 --> 01:14.680
+OK.
+
+01:14.720 --> 01:19.390
+So that's going to set them to basically a four column grid.
+
+01:19.550 --> 01:24.480
+And we'll do a grid gap one room.
+
+01:24.500 --> 01:24.830
+All right.
+
+01:24.860 --> 01:31.140
+Now the way that that this is naturally is it's just going it's it's four columns no matter what.
+
+01:31.160 --> 01:33.220
+Okay no matter how small.
+
+01:33.440 --> 01:42.150
+And what I would like to do is have it so that when we get to a certain point like maybe tablet size
+
+01:42.170 --> 01:50.420
+768 or so we change it to two columns and then when we get to Mobile it's stacked meaning that it's
+
+01:50.420 --> 01:51.840
+just one column.
+
+01:51.860 --> 01:56.210
+So this is pretty easy to do we can just add in media query
+
+01:59.280 --> 02:07.130
+so let's say we want this to be four Max with 768 pixels.
+
+02:07.140 --> 02:13.140
+We need that and then we're going to simply take our grid element and we're going to say we want grid
+
+02:13.170 --> 02:17.820
+actual just copy this here and let's say for Max with
+
+02:20.490 --> 02:22.520
+768 we want to.
+
+02:22.520 --> 02:24.720
+So we'll say repeat to auto now.
+
+02:24.930 --> 02:29.940
+Once they hit 768 you can see that it goes to two.
+
+02:30.150 --> 02:30.440
+All right.
+
+02:30.450 --> 02:36.270
+And then we'll just add another one so I'll copy this and we'll say at 500.
+
+02:36.300 --> 02:38.280
+So basically smartphones.
+
+02:38.430 --> 02:45.040
+I simply want one FDR actually noting and do instead of auto I'm just gonna do one FDR like that.
+
+02:45.060 --> 02:52.170
+So we get the same result on big screens and then basically tablet size and then we get to smartphone
+
+02:52.170 --> 02:53.940
+size stacks.
+
+02:54.120 --> 02:58.910
+So it's as easy as that to use media queries with the grid.
+
+02:59.040 --> 03:05.520
+Now we also have grid template areas which we went over in the last video so I want to show you what
+
+03:05.520 --> 03:07.000
+we would do in that case.
+
+03:07.020 --> 03:11.850
+So I'm actually going to open up the file from the last video and just add to that.
+
+03:11.850 --> 03:16.710
+So let's go ahead and open this with live server.
+
+03:16.710 --> 03:22.660
+So right now even if we go down you know to mobile size that doesn't look very good.
+
+03:22.710 --> 03:32.880
+So all we would have to do is add a media query so we'll say at media and I'm just going to do.
+
+03:33.010 --> 03:36.260
+Let's see let's see what this looks like it like 768.
+
+03:36.270 --> 03:39.390
+So it's OK that that's fine for like a tablet size.
+
+03:39.390 --> 03:41.930
+But for smartphones we want to change it.
+
+03:41.940 --> 03:48.060
+So let's do a max width of let's say five hundred pixels.
+
+03:48.060 --> 03:54.090
+And what we would do is just change up the grid template areas so we'll take this and if we want to
+
+03:54.090 --> 03:58.700
+stack everything we can simply have one column.
+
+03:58.710 --> 04:07.010
+So we'll do header content which I forgot to put the D.
+
+04:07.130 --> 04:14.310
+Select the selector which is going to be our container of grid or is it.
+
+04:14.330 --> 04:16.870
+Wait no it's contain or sorry.
+
+04:16.940 --> 04:21.760
+So container and then I'm going to piece that in and we'll say header.
+
+04:21.920 --> 04:23.120
+So I only want one.
+
+04:23.120 --> 04:35.830
+We want these to be stack so header content and then we'll add in here side bar we'll do box 1 box 2
+
+04:36.640 --> 04:39.210
+box 3 and footer.
+
+04:39.490 --> 04:39.770
+OK.
+
+04:39.780 --> 04:41.680
+So it's only one column.
+
+04:41.680 --> 04:47.280
+And again this is this is visually representative of what we actually want to display in our browser
+
+04:47.290 --> 04:48.100
+so let's save.
+
+04:48.100 --> 04:50.740
+And now everything is nicely stacked.
+
+04:50.740 --> 04:50.990
+OK.
+
+04:51.010 --> 04:55.050
+So when it hits 500 pixels everything stacks nicely.
+
+04:55.150 --> 05:01.450
+So pretty easy if we're going to be getting more into this in our project which we're going to get into
+
+05:01.450 --> 05:02.430
+in the next section.

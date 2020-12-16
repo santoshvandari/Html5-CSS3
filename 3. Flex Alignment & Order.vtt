@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.300 --> 00:00.590
+OK.
+
+00:00.630 --> 00:04.140
+So we went over the basics of flex box weekly.
+
+00:04.230 --> 00:11.220
+We add display flex to a container and then all of its immediate children get turned into flex items
+
+00:11.220 --> 00:15.120
+and we can align them horizontally or in a column.
+
+00:15.210 --> 00:16.130
+However we want.
+
+00:16.230 --> 00:21.490
+And there's also alignment classes we can use so justification alignment and so on.
+
+00:21.570 --> 00:28.950
+So to display this we're going to create a new file called 1 7 underscore flex underscore a line dot
+
+00:28.980 --> 00:39.270
+HD him l put our boiler plate in and let's change the title to flex a line and we'll put in our style
+
+00:39.270 --> 00:42.530
+tags.
+
+00:44.370 --> 00:50.820
+And in the body I just I want the same thing I just want three divs but I want them to have a class
+
+00:50.820 --> 00:53.520
+of item and then also their own custom class.
+
+00:53.550 --> 00:55.420
+So item 1 2 and 3.
+
+00:55.440 --> 00:59.090
+So let's use em in here we'll do class item also.
+
+00:59.230 --> 01:05.820
+Class item Dash and I wanted to increment 1 to 3 so we'll use a money sign here and then for the content
+
+01:05.820 --> 01:08.080
+inside we use curly braces.
+
+01:08.160 --> 01:13.320
+We'll put an H 3 inside each age 3 inside each one and we'll just say item.
+
+01:13.320 --> 01:15.510
+And then an incremental number.
+
+01:15.540 --> 01:19.190
+So money sign and we'll do this three times four times three.
+
+01:19.200 --> 01:20.980
+And there we go.
+
+01:21.000 --> 01:24.140
+And one thing I forgot to do was add a container.
+
+01:25.170 --> 01:32.160
+So we want to grab all these and shift our option and hit the up arrow and you can just bring it right
+
+01:32.160 --> 01:32.400
+up.
+
+01:32.950 --> 01:33.500
+OK.
+
+01:33.510 --> 01:45.620
+So let's open this in live server and I just want to add some general styling too to the the items.
+
+01:45.630 --> 01:47.920
+So let's do that real quick.
+
+01:47.950 --> 01:53.520
+So I'm actually gonna paste it in the same styling we had the great background the border padding alignment
+
+01:53.520 --> 02:03.530
+and so on and then I'm also gonna add let's do a margin of let's say zero point five for him.
+
+02:04.700 --> 02:05.260
+OK.
+
+02:05.270 --> 02:13.980
+Now for in order for these to be flex items of course we need to add to the container we need to add
+
+02:13.980 --> 02:15.940
+display flex
+
+02:19.080 --> 02:25.730
+so we'll save that and again automatically it's going to align Horizontal into a row.
+
+02:25.770 --> 02:30.710
+Now let's say that we don't want to just use flex 1 Flex 2 We don't want it to go all the way across
+
+02:30.720 --> 02:31.220
+we want them.
+
+02:31.230 --> 02:33.960
+We want to give these custom widths.
+
+02:33.960 --> 02:40.830
+So basically what we can do is we could use with I'm just going to make them all the same but we could
+
+02:40.830 --> 02:46.200
+use width like this and say three hundred pixels.
+
+02:46.360 --> 02:52.540
+So now each one is 300 pixels but there is another property that we can use with Flex items called flex
+
+02:52.540 --> 03:00.460
+basis which will also give it a width of 300 pixels so basically does the same thing.
+
+03:00.460 --> 03:00.870
+All right.
+
+03:00.880 --> 03:02.370
+Now let's start off.
+
+03:02.400 --> 03:11.560
+Let's start looking at the alignment classes so I want to I want to align these on the are the horizontal
+
+03:11.560 --> 03:13.190
+axis right here.
+
+03:13.210 --> 03:20.760
+So for that we use justified content and these alignment classes they're going to go classes but properties
+
+03:20.750 --> 03:22.570
+are going to go on the container.
+
+03:22.660 --> 03:31.420
+So let's say justify dash content and there's a lot of different values for this.
+
+03:31.420 --> 03:37.660
+The default is going to be flex start which is is basically aligned to the right here.
+
+03:37.660 --> 03:43.810
+Let's actually make this 2D 200 pixels another two hundred pixels.
+
+03:43.810 --> 03:47.420
+So flecks start is basically aligning them all to the right.
+
+03:47.440 --> 03:54.520
+I'm sorry the left and then we have flex and if we want to align to the right you can see they all got
+
+03:54.520 --> 03:59.840
+pushed over another value we have is center.
+
+03:59.850 --> 04:01.550
+So we can align them all to the center.
+
+04:01.990 --> 04:08.930
+Now we have some some really cool values that we can use as well sort of close that up.
+
+04:09.520 --> 04:16.750
+So we have space around we do that what that's gonna do is it's going to divide the space around each
+
+04:16.750 --> 04:22.380
+one so you can see over here and then we have the space around the first one around the second one at
+
+04:22.380 --> 04:30.490
+and around the third one another one we have is space between which is similar except it's not on the
+
+04:30.490 --> 04:39.700
+edge the space the remaining space is going to go in between like that we also have space evenly and
+
+04:39.700 --> 04:45.280
+if we save that you'll see now it's just even on all sides so really really cool these these alignment
+
+04:45.370 --> 04:50.410
+on the properties and what I'm going to do is I'm going to paste in here inside of a comment all the
+
+04:50.410 --> 04:56.500
+different options just so you have them so you know in case you need to come back to this.
+
+04:56.650 --> 05:03.730
+All right now let's take a look at a line items which is actually going to align it this way.
+
+05:03.760 --> 05:08.160
+Now in order for this to work you're gonna have to set a height on your container.
+
+05:08.200 --> 05:12.620
+Now for the container I'm gonna give it a background color just so we can see it.
+
+05:14.290 --> 05:21.070
+So I'm gonna say background and let's do we'll do five five five and save.
+
+05:21.070 --> 05:23.370
+So right now it just wraps around the content.
+
+05:23.380 --> 05:25.370
+But let's give this container a height.
+
+05:26.410 --> 05:26.920
+Okay.
+
+05:26.950 --> 05:34.200
+So I'm gonna say height and we'll do six hundred pixels and save.
+
+05:34.540 --> 05:34.920
+OK.
+
+05:34.940 --> 05:40.980
+Now the default for this is gonna be stretch for a line item.
+
+05:40.990 --> 05:50.410
+So let's say a line items and if we say stretch and save you'll see that it's the same thing.
+
+05:50.410 --> 05:54.360
+Basically they're gonna just stretch all the way down.
+
+05:54.370 --> 06:00.340
+Now we also have flex start and flex and so if we do flex start you'll see that there's just going to
+
+06:00.340 --> 06:01.880
+line up here.
+
+06:02.470 --> 06:07.490
+If we do flex and they're gonna go to the bottom.
+
+06:07.570 --> 06:08.320
+If we do
+
+06:11.380 --> 06:16.780
+center they're gonna go right in the center as you can see how easy a line aligning this stuff is.
+
+06:16.780 --> 06:23.490
+We don't have to judge and do like a padding top in and have it be different pertaining to the browser
+
+06:23.490 --> 06:23.830
+high.
+
+06:23.860 --> 06:26.450
+Like it's always gonna be in the center.
+
+06:26.620 --> 06:31.510
+So let's look at some other ones we also have actually those.
+
+06:31.510 --> 06:39.850
+Yeah I think the only other one we have is base line which is just just the normal much of the difference
+
+06:39.850 --> 06:48.460
+between baseline and flex start actually but those are the values I'm going to pace those in and let's
+
+06:48.460 --> 06:51.310
+just put a comment here and say justify.
+
+06:51.310 --> 06:55.420
+Content is is when we align items
+
+06:57.640 --> 07:09.010
+horizontal and then a line items is to be a line items vertical OK.
+
+07:09.090 --> 07:13.290
+And we should as you put in here that there must be a height
+
+07:17.020 --> 07:26.240
+OK so next we're going to show you is a line content and this aligns vertical when there's extra space.
+
+07:26.240 --> 07:33.730
+So basically if they wrap what I'm going to do is just copy this down a bunch I'll get rid of it after
+
+07:33.740 --> 07:36.240
+but let's save that and let's make it wrap.
+
+07:36.380 --> 07:45.460
+So remember we have flex dash wrap and we'll set it to wrap.
+
+07:45.800 --> 07:51.510
+I actually think that's too much for the 600 pixel container for the height.
+
+07:53.380 --> 07:53.650
+Yeah.
+
+07:53.670 --> 07:54.940
+So we'll do that.
+
+07:54.960 --> 07:56.850
+So actually take off one more.
+
+07:56.850 --> 08:00.150
+So we just have two rows.
+
+08:00.150 --> 08:06.040
+So a line content is going to deal with how these are aligned vertically.
+
+08:06.060 --> 08:17.330
+So let's go right here and say a line dash content and let's set it to flex start.
+
+08:18.320 --> 08:18.680
+OK.
+
+08:18.690 --> 08:24.250
+So if we save that you'll see that now that we don't have that giant space in between.
+
+08:24.260 --> 08:24.510
+OK.
+
+08:24.540 --> 08:30.030
+If we want to do flex and save it's going to move all of them to the bottom.
+
+08:30.030 --> 08:31.920
+If we do center
+
+08:34.640 --> 08:44.030
+gonna go to the center if we do space around we'll do space around which I think is the default.
+
+08:44.090 --> 08:51.860
+But we also have space between save that and then that's going to they're just going to go with the
+
+08:51.860 --> 08:52.220
+top.
+
+08:52.250 --> 08:56.490
+So yeah this has to do with having more than one row.
+
+08:56.630 --> 09:08.690
+So I'm going to put a comment here and let's say a line items vertical where there's extra space and
+
+09:08.690 --> 09:10.850
+then I'm going to paste the options in here
+
+09:13.870 --> 09:15.480
+so hopefully this makes sense.
+
+09:15.490 --> 09:22.270
+Now we can also add alignments properties to individual items.
+
+09:22.330 --> 09:25.780
+So what I'm going to do is go back to having just three
+
+09:28.450 --> 09:33.100
+and let's say we want the second one to be down here.
+
+09:33.100 --> 09:37.030
+We want to keep the these two up here but have the middle one down.
+
+09:37.030 --> 09:41.060
+So what we can do is that has a class of item to
+
+09:43.610 --> 09:44.150
+to
+
+09:46.790 --> 09:48.150
+item two.
+
+09:48.490 --> 09:54.820
+And then let's put a comment let's say a line it's a single
+
+09:57.580 --> 09:58.960
+item vertical.
+
+10:00.130 --> 10:02.550
+So this is gonna be a line self.
+
+10:02.910 --> 10:03.240
+OK.
+
+10:03.250 --> 10:08.380
+So a line self and let's do flex and save it.
+
+10:08.380 --> 10:09.000
+Take a look.
+
+10:09.000 --> 10:15.010
+And now this one item two is now aligned flex and we can do center if we want
+
+10:18.720 --> 10:19.860
+and now it's in the center.
+
+10:19.890 --> 10:26.700
+So I'm just going to paste in the options for align self OK.
+
+10:26.710 --> 10:29.510
+So the last thing I want to show you is the order.
+
+10:29.560 --> 10:35.320
+We can change up the order here without having to change the markup which is is pretty powerful because
+
+10:35.800 --> 10:41.020
+your markup you want to be very semantic and you want it to be orderly but you might want it displayed
+
+10:41.020 --> 10:42.220
+differently in the browser.
+
+10:42.250 --> 10:49.180
+So instead of having to move things around here we can simply use the order property.
+
+10:49.180 --> 10:52.780
+So what I'm going to do is say let's to
+
+10:55.370 --> 11:06.380
+item one and we already have item two here and then let's do item three and for item three let's to
+
+11:06.380 --> 11:19.620
+order one item one we'll do order three in item two let's to order two.
+
+11:19.640 --> 11:21.710
+So basically it should be three to one.
+
+11:21.710 --> 11:23.220
+So let's save.
+
+11:23.300 --> 11:29.620
+And now if we check it out we have item 3 first two and then one and we didn't do anything in the markup.
+
+11:29.720 --> 11:32.270
+We just did it all within CSX.
+
+11:32.270 --> 11:34.160
+So that's flex order.
+
+11:34.220 --> 11:36.570
+I'm sorry just order.
+
+11:36.710 --> 11:37.010
+All right.
+
+11:37.010 --> 11:43.790
+So I think that we've covered pretty much the basics the core flex blocks and if you're still confused
+
+11:43.850 --> 11:44.860
+don't worry about it.
+
+11:44.870 --> 11:49.910
+Next we're going to jump in to a pretty cool project where we're gonna be using flex quite a bit.
+
+11:49.910 --> 11:50.170
+All right.
+
+11:50.180 --> 11:51.650
+So I'll see you in the project.

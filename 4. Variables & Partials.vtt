@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.270 --> 00:03.410
+All right guys so we're going to jump back into our SAS sandbox.
+
+00:03.420 --> 00:11.130
+Now remember we have the the SAS script the NPM script so I'm going to run NPM run SAS.
+
+00:11.130 --> 00:16.830
+We're going to want to run that when we're in development and then in our index each team l let's open
+
+00:16.830 --> 00:18.270
+that with a live server.
+
+00:18.940 --> 00:19.260
+OK.
+
+00:19.260 --> 00:22.260
+And it should be blue if you've been following along.
+
+00:22.260 --> 00:31.640
+And if I go ahead and into my SAS main dot SPSS and they change this to let's say black and save it'll
+
+00:31.860 --> 00:33.840
+it'll reload automatically.
+
+00:33.870 --> 00:34.190
+All right.
+
+00:34.200 --> 00:38.280
+But I want to set that back to blue now variables.
+
+00:38.280 --> 00:40.140
+I mean you can see how they're used.
+
+00:40.140 --> 00:46.620
+We use a money sign to define a variable and then we simply use a colon for assignment and then whatever
+
+00:46.620 --> 00:48.350
+the value goes in here.
+
+00:48.350 --> 00:48.670
+OK.
+
+00:48.690 --> 00:56.190
+So it could be a color it could be absolutely anything just just like with standard CFS variables.
+
+00:56.220 --> 01:01.050
+So I think what we'll do here is just create a couple different ones.
+
+01:01.050 --> 01:06.690
+Let's do primary dash color set to steel blue.
+
+01:06.690 --> 01:12.730
+We're going to just create kind of a simple interface to to work with for the next few lectures.
+
+01:12.870 --> 01:24.420
+So we'll do secondary dash color and we'll set that to Sky Blue and let's do a light color
+
+01:28.300 --> 01:34.620
+and a dark color.
+
+01:35.020 --> 01:35.890
+OK.
+
+01:36.150 --> 01:45.550
+So as far as this CSX here for now I'm just going to add a reset.
+
+01:46.530 --> 01:47.850
+So say margin
+
+01:51.780 --> 01:55.870
+padding 0 and then let's just add some stuff for the body.
+
+01:56.160 --> 02:00.780
+So the background I'm going to set to the white color
+
+02:03.380 --> 02:04.980
+in color.
+
+02:04.980 --> 02:11.820
+I'm going to set to for now I'll just set to the dark color and then for font family
+
+02:15.130 --> 02:16.380
+we can do aerial.
+
+02:16.400 --> 02:22.010
+Actually know what we'll do is we'll take this and we'll put this in a variable called font stack
+
+02:28.900 --> 02:30.850
+just in case we want to change that.
+
+02:30.850 --> 02:32.050
+It's right up here.
+
+02:32.050 --> 02:36.350
+Easily accessible so we'll set that to font stack.
+
+02:36.350 --> 02:36.720
+OK.
+
+02:36.730 --> 02:39.220
+And then let's just set a line height.
+
+02:39.220 --> 02:43.900
+It's completely up to you guys what you want to put in variables in your projects and what you don't.
+
+02:43.900 --> 02:45.990
+I try to keep them a minimal amount.
+
+02:46.030 --> 02:52.440
+Usually things that are gonna be you know use quite a bit in different places but yes.
+
+02:52.450 --> 02:56.020
+So that's how we can set variables I'll go ahead and save that.
+
+02:56.020 --> 03:00.510
+Now we also have what are called partials.
+
+03:00.540 --> 03:00.750
+OK.
+
+03:00.790 --> 03:06.690
+So a lot of times the SAS you break your CSX up a lot more.
+
+03:06.970 --> 03:13.930
+For instance if you use bootstrap which is a CSX framework and you use SAS every element like the button's
+
+03:13.960 --> 03:20.770
+the nav bar they all have their own separate partial file with just those styles so you can really break
+
+03:20.770 --> 03:21.030
+it out.
+
+03:21.040 --> 03:28.720
+Now you can import these partials into a CSX and to a SAS file and it's important to mention you can
+
+03:28.720 --> 03:30.570
+do this with regular CSX.
+
+03:30.580 --> 03:32.080
+However it works differently.
+
+03:32.080 --> 03:40.380
+You make you you have to keep making extra HDP requests to the server to fetch these the regular CSX
+
+03:40.390 --> 03:45.370
+files with SAS it just kinda takes them and builds them on top of each other.
+
+03:45.370 --> 03:45.640
+All right.
+
+03:45.640 --> 03:49.340
+So it's just much more efficient using SAS partials.
+
+03:49.450 --> 03:57.670
+So in our SPSS I'm going to create a new file and I'm going to call it underscore variables dot SPSS.
+
+03:57.700 --> 04:00.790
+So this is a partial where I want to store all my variables.
+
+04:00.790 --> 04:07.720
+Now notice I put an underscore the reason for that is this tells the SAS compiler that this is a partial
+
+04:07.720 --> 04:10.450
+and I don't want this file to be compiled.
+
+04:10.450 --> 04:18.550
+I don't want a variables dot c SS file in my main in my CSF folder I still we still want to keep just
+
+04:18.550 --> 04:20.280
+one file here.
+
+04:20.440 --> 04:26.800
+However we want to split it up here so I'm going to take all my variables here and cut them out and
+
+04:26.800 --> 04:32.180
+I'm going to put them into variables dot CSX and save that.
+
+04:32.200 --> 04:35.530
+Now if I go back here and I save we're gonna get some errors down here.
+
+04:35.550 --> 04:40.900
+It's another good thing about SAS is it gives you errors and tells you what's going on so this is basically
+
+04:40.900 --> 04:43.740
+telling us we have undefined variables.
+
+04:43.960 --> 04:47.820
+So in order to use the variables in the partial we have to import the files.
+
+04:47.830 --> 04:56.170
+So we're gonna go up here we're gonna say at import and we want to import variables.
+
+04:56.260 --> 05:03.790
+You don't want to put the actual underscore the underline you also don't have to put dot SPSS just simply
+
+05:03.790 --> 05:05.200
+variables.
+
+05:05.200 --> 05:05.600
+All right.
+
+05:05.620 --> 05:07.230
+And then I'll go ahead and save that.
+
+05:07.240 --> 05:09.270
+And now that's working again.
+
+05:09.430 --> 05:19.230
+If I go to variables and change light color to red just to show you and I say actually you know what
+
+05:19.230 --> 05:24.460
+we'll have to restart SAS down here just because we created a new file.
+
+05:24.900 --> 05:26.460
+So let's run that.
+
+05:26.630 --> 05:30.960
+And now if we save this now it turns to red.
+
+05:30.960 --> 05:31.250
+All right.
+
+05:31.350 --> 05:33.210
+So I'm just gonna put that back
+
+05:35.850 --> 05:36.790
+and save.
+
+05:36.810 --> 05:37.530
+Good.
+
+05:37.650 --> 05:44.040
+So you can see we can structure our SAS however you want and notice that it didn't create a variables
+
+05:44.040 --> 05:46.250
+dot CSX because it is a partial.
+
+05:46.260 --> 05:53.010
+If I left that underscore off then it would have compiled this whole file into the CSX folder and we
+
+05:53.010 --> 05:53.670
+don't want that.
+
+05:53.670 --> 05:57.990
+We just want this single main dot CSX.
+
+05:57.990 --> 06:01.340
+And notice it's using the light gray that we set in the variable.
+
+06:01.680 --> 06:06.150
+And you never want to touch the CSX that that gets compiled from SAS.
+
+06:06.150 --> 06:06.390
+All right.
+
+06:06.390 --> 06:11.370
+So in the next video what I want to do is finish up our index each team also can get some markup in
+
+06:11.370 --> 06:11.940
+here.
+
+06:11.940 --> 06:18.900
+And we're also going to look at nesting in structure within SAS which is very important and in a really
+
+06:18.900 --> 06:20.820
+nice advantage of using SAS.

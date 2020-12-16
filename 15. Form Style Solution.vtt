@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.260 --> 00:07.650
+All right guys in the last video I give you an assignment with some HD Himmel of a form and a bunch
+
+00:07.650 --> 00:13.410
+of classes and ideas with some hints inside your CSX and your styling.
+
+00:13.410 --> 00:18.780
+So in this video I'm going to go through and I'm going to add my styling and don't worry if yours doesn't
+
+00:18.780 --> 00:21.640
+match the you know my exact CSF.
+
+00:21.660 --> 00:22.420
+That's fine.
+
+00:22.920 --> 00:30.630
+So let's start off with the asterisk here so as the hint says we might want to add Border box for the
+
+00:30.630 --> 00:33.630
+box sizing property so the padding doesn't affect the width.
+
+00:33.630 --> 00:37.930
+We also want to reset the margin and padding that's pretty self-explanatory.
+
+00:37.980 --> 00:40.830
+So let's go ahead and set border.
+
+00:40.860 --> 00:41.280
+I'm sorry.
+
+00:41.280 --> 00:50.010
+Box sizing to border box and let's clear out the margin and padding on everything
+
+00:52.910 --> 00:53.470
+OK.
+
+00:53.490 --> 00:54.460
+So I'll save that.
+
+00:54.480 --> 00:56.810
+Now all the margin in padding is removed.
+
+00:57.750 --> 01:03.470
+So we used railway for the font as you can see it's already bringing it's already brought in here.
+
+01:03.520 --> 01:08.370
+So let's go ahead and actually I'll put that back.
+
+01:08.880 --> 01:20.320
+Let's set the font family and we want to set that to railway and sans serif.
+
+01:22.160 --> 01:22.750
+OK.
+
+01:22.770 --> 01:23.610
+We'll save that.
+
+01:23.610 --> 01:30.540
+Now we have our font and the hint there is the background color which is that hexadecimal value so it's
+
+01:30.540 --> 01:34.920
+too background to do background or background color.
+
+01:34.930 --> 01:40.920
+I'm going to set it to three four for a seven to save that.
+
+01:40.920 --> 01:42.360
+There we go.
+
+01:42.360 --> 01:44.830
+So we should also.
+
+01:45.060 --> 01:45.790
+Actually no we don't.
+
+01:45.940 --> 01:46.120
+Yeah.
+
+01:46.140 --> 01:51.380
+We'll set the color to white here.
+
+01:51.900 --> 01:58.370
+We are going to have that white form wrap but we can just change the font color in there.
+
+01:58.380 --> 02:03.150
+And then the last thing I want to do here is set the line height too.
+
+02:03.150 --> 02:05.220
+Let's do one point eight
+
+02:08.370 --> 02:12.990
+OK so let's see underlines our ugly.
+
+02:12.990 --> 02:14.220
+So let's remove that.
+
+02:14.220 --> 02:16.960
+Remember text decoration.
+
+02:17.040 --> 02:21.190
+Want to set that none that will get rid of all the underlines.
+
+02:21.270 --> 02:25.410
+Let's go to our container so remember we want to center the form.
+
+02:25.530 --> 02:33.120
+So we want to use margin auto and we also want to set a max width and we may want to add some padding
+
+02:33.120 --> 02:35.110
+so let's let's go ahead and do that.
+
+02:35.130 --> 02:42.820
+So going to set the margin to auto but on the top and bottom I'm going to set 30 pixels just to move
+
+02:43.140 --> 02:45.110
+the container down a little bit.
+
+02:45.750 --> 02:46.030
+OK.
+
+02:46.070 --> 02:52.160
+We'll set a max width and it's a pretty thin or narrow form.
+
+02:52.170 --> 02:56.480
+So we're going to set this to 400 pixels.
+
+02:56.880 --> 03:03.650
+OK and then let's set the margin.
+
+03:03.750 --> 03:11.310
+I'm sorry not the margin clarity that want to set the padding to 20 pixels and save that.
+
+03:12.690 --> 03:13.070
+OK.
+
+03:13.080 --> 03:15.290
+So next we have the form wrap.
+
+03:15.290 --> 03:19.830
+This is the white area around the form in the heading and all this.
+
+03:19.830 --> 03:21.450
+So let's go ahead and do that.
+
+03:21.480 --> 03:28.990
+Let's say background let's set that to white and then for padding.
+
+03:29.180 --> 03:36.970
+I'm going to set that to 15 pixels on the top and bottom and 25 on the left and right.
+
+03:37.130 --> 03:45.800
+So since our text is white our body text we want to change the color of this form wrap text.
+
+03:45.830 --> 03:48.290
+So let's change that to 3 3 3
+
+03:51.130 --> 03:52.650
+OK so that's our form.
+
+03:52.660 --> 03:56.460
+Now let's move on to the H1 in paragraph.
+
+03:56.470 --> 03:57.490
+We want to center these.
+
+03:57.490 --> 04:04.130
+So we want to use the text align and we want to set that to center.
+
+04:04.360 --> 04:05.710
+We don't want to center everything.
+
+04:05.710 --> 04:07.380
+That's why I didn't add it to the form right.
+
+04:07.390 --> 04:13.750
+We don't want these the inputs and stuff centered we just want the heading in the paragraph centered.
+
+04:13.770 --> 04:14.080
+All right.
+
+04:14.110 --> 04:18.490
+So each label input is wrapped in form group.
+
+04:18.490 --> 04:24.890
+So what I'm going to do is just add a margin top to each form group.
+
+04:25.260 --> 04:28.890
+So margin top let's do 15 pixels.
+
+04:30.020 --> 04:32.320
+OK just push him push each one down.
+
+04:33.550 --> 04:37.180
+So for the label we want that to be displayed as a block level element.
+
+04:37.210 --> 04:46.480
+So let's use the display property set that to block and I'm going to change the color to Let's do triple
+
+04:46.480 --> 04:54.220
+six and save OK so for the inputs they should go all the way across.
+
+04:54.310 --> 04:55.960
+By default they don't.
+
+04:56.110 --> 05:00.310
+And then we also want them to have some padding because they're much too skinny right now.
+
+05:00.310 --> 05:01.910
+So let's do that.
+
+05:01.930 --> 05:05.840
+Let's say we want the with to be 100 percent.
+
+05:05.890 --> 05:07.500
+We want it to go all the way across.
+
+05:07.510 --> 05:11.710
+And let's add 10 pixels padding to each input.
+
+05:11.710 --> 05:21.960
+Let's also set the border to Let's do DDD one pixel solid and let's give it a kind of a rounded border
+
+05:21.970 --> 05:27.240
+so we'll say border radius and let's do just five pixels for each one.
+
+05:27.250 --> 05:31.810
+OK so that makes these the inputs look much cleaner.
+
+05:31.810 --> 05:31.990
+All right.
+
+05:31.990 --> 05:37.510
+Next we have the button so button should wrap across 100 percent in display as block background color
+
+05:37.510 --> 05:38.020
+is this.
+
+05:38.020 --> 05:51.410
+So let's first of all just grab that and set the background to that and get rid of that and let's set
+
+05:52.190 --> 05:56.820
+the display to block OK.
+
+05:56.970 --> 06:00.560
+So save that and then we want it to go all the way across.
+
+06:00.560 --> 06:04.300
+So let's do a width of 100 percent OK.
+
+06:04.370 --> 06:08.090
+Now you can see it goes all the way across we need some padding here.
+
+06:08.090 --> 06:12.850
+So it's two padding 10 pixels all the way around.
+
+06:12.950 --> 06:15.550
+We want to bring it down from the from the top input.
+
+06:15.560 --> 06:21.410
+You can see it's kind of stuck to it right now so let's do a margin top member margin is the outside.
+
+06:21.410 --> 06:24.860
+So we'll do 20 pixels push it down.
+
+06:24.860 --> 06:27.170
+Let's also make the color of the text white.
+
+06:28.790 --> 06:30.230
+So we'll see a color
+
+06:32.870 --> 06:35.930
+white and what else.
+
+06:35.960 --> 06:38.740
+Let's do.
+
+06:39.290 --> 06:40.090
+Let's see.
+
+06:40.250 --> 06:41.810
+I think that's that's good.
+
+06:41.840 --> 06:46.940
+Let's change the pointer to a car serve notice that if we go over a button doesn't change to a cursor
+
+06:47.290 --> 06:50.790
+we want that to happen so we'll say cursor pointer.
+
+06:50.790 --> 06:57.680
+And now when we have rover it we get the the cursor or I'm sorry the pointer.
+
+06:57.890 --> 06:59.990
+All right so let's see what we have next.
+
+06:59.990 --> 07:01.060
+The hover.
+
+07:01.820 --> 07:07.550
+So I wanted to to have kind of a different color or just get a bit lighter on the hover and you can
+
+07:07.550 --> 07:13.970
+see I actually gave you the hexadecimal value here so we're just going to go ahead and add the background
+
+07:15.950 --> 07:17.240
+and make it that color.
+
+07:17.270 --> 07:21.090
+So now if I have rover it it actually gets darker.
+
+07:21.110 --> 07:21.370
+All right.
+
+07:21.400 --> 07:29.240
+So the bottom tax which is this right here we want to make that smaller so the default remember is 16
+
+07:29.240 --> 07:34.430
+pixels so let's set the font size here to 13 pixels.
+
+07:34.610 --> 07:42.440
+And I'm also going to move it down a bit by doing a margin top of 20 pixels.
+
+07:42.910 --> 07:44.270
+Next thing is the footer.
+
+07:44.270 --> 07:46.990
+So this right here we want this to be centered.
+
+07:46.990 --> 07:48.690
+We also want to push it down a little bit.
+
+07:48.700 --> 07:55.460
+So let's say text align center.
+
+07:56.350 --> 08:02.520
+And let's do see the colors find for the text.
+
+08:03.010 --> 08:08.780
+Let's do margin dash top and let's move it down 10 pixels.
+
+08:08.870 --> 08:11.070
+OK so now it's centered it's moved down.
+
+08:11.110 --> 08:12.250
+Last thing is the link.
+
+08:12.250 --> 08:13.900
+So I gave you the color for the link.
+
+08:13.900 --> 08:16.340
+So we're gonna change that.
+
+08:16.430 --> 08:20.210
+That's a color and we want.
+
+08:20.380 --> 08:22.280
+What happened.
+
+08:22.360 --> 08:23.150
+There we go.
+
+08:24.140 --> 08:27.270
+So paste that in and save and that's it.
+
+08:27.280 --> 08:32.860
+So don't get discouraged if you don't have this exact CSX or if you couldn't do it or if you can only
+
+08:32.860 --> 08:35.270
+do part of it that's absolutely fine.
+
+08:35.440 --> 08:40.630
+If you if you're just getting into CSX then this this is kind of a tough project.
+
+08:40.630 --> 08:47.110
+So we're going to move on and in the next section what I want to do is take what we've learned in the
+
+08:47.110 --> 08:52.890
+H T mail section as well as this one and build an actual Web site an actual project.
+
+08:52.900 --> 08:53.200
+OK.
+
+08:53.230 --> 08:59.200
+So we're gonna build a small hotel Web site that has you know a home page and about page contact page
+
+08:59.210 --> 09:06.000
+and we're going to style the navigation menu and add some background images so we'll actually get to
+
+09:06.160 --> 09:09.340
+to put something together with everything that we've learned so far.
+
+09:09.340 --> 09:09.600
+All right.
+
+09:09.610 --> 09:10.990
+So I'll see you in the next section.

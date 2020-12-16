@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.430 --> 00:06.180
+OK so in the last video we created our core styles with our variables of the primary color secondary
+
+00:06.180 --> 00:07.260
+color and so on.
+
+00:07.260 --> 00:08.560
+We also did the now via.
+
+00:08.560 --> 00:12.490
+So now we're gonna move on to the showcase so let's head back over to the HD CML.
+
+00:12.570 --> 00:19.170
+Let's go under the NAV here and let's add our showcase.
+
+00:19.410 --> 00:19.810
+OK.
+
+00:19.850 --> 00:26.520
+So we're going to use a header here with the I.D. of showcase.
+
+00:26.590 --> 00:33.130
+Now I want to put everything into the metal here so we're going to use a container.
+
+00:33.130 --> 00:39.760
+But I don't want to use the actual container here for the for the grid container so I'm going to create
+
+00:40.180 --> 00:45.050
+another class called showcase dash container.
+
+00:45.430 --> 00:49.540
+And inside here we're gonna just have one grid item.
+
+00:49.840 --> 00:51.060
+So I'm going to use it.
+
+00:51.070 --> 00:55.690
+I mean use the grids to just align it over to the side like this.
+
+00:55.800 --> 01:02.620
+So which I probably would normally use flex for but I just like I said in the last video I want to keep
+
+01:02.620 --> 01:03.970
+this focused on the grid.
+
+01:04.750 --> 01:06.530
+So we're gonna do that.
+
+01:06.610 --> 01:14.920
+So we're gonna have one grid item and we're gonna call this showcase dash content and inside here we're
+
+01:14.920 --> 01:16.810
+gonna have the category.
+
+01:16.810 --> 01:19.570
+So this right here this little sports.
+
+01:19.570 --> 01:22.310
+So that's gonna have a class of category.
+
+01:22.540 --> 01:29.440
+And we're also going to have to basically category is the core styling like the padding the border radius
+
+01:29.620 --> 01:32.650
+but then the color is dependent on the category.
+
+01:32.650 --> 01:37.180
+So we're gonna have a class called category sports.
+
+01:37.180 --> 01:39.870
+And then here we'll just say sports.
+
+01:40.560 --> 01:41.010
+OK.
+
+01:41.020 --> 01:46.740
+And underneath the category let's put the title so this is gonna be an H1.
+
+01:46.900 --> 01:59.020
+And let's just say some sports article and then a paragraph and I think I did last 20 seems about right.
+
+01:59.020 --> 02:06.010
+And then underneath the paragraph we want a link and we're gonna give this a class of B.T. n which would
+
+02:06.010 --> 02:12.010
+be the core Button class and then B10 primary which will be the primary colors so we'll have to set
+
+02:12.010 --> 02:17.340
+those up and we'll just have this go to Article dot H terminal.
+
+02:18.870 --> 02:19.150
+All right.
+
+02:19.150 --> 02:20.280
+So that's the.
+
+02:20.500 --> 02:21.950
+We've got to put the text in here.
+
+02:21.950 --> 02:24.540
+Let's put read more.
+
+02:24.650 --> 02:26.350
+OK so that's the markup.
+
+02:26.350 --> 02:27.760
+Now let's add the CSF.
+
+02:27.790 --> 02:36.250
+So we'll go to style and let's go right here and say showcase.
+
+02:36.970 --> 02:42.030
+So the showcase itself let's do color white.
+
+02:42.040 --> 02:42.280
+OK.
+
+02:42.280 --> 02:47.470
+It's gonna have a it's gonna have the image background but the background.
+
+02:47.470 --> 02:54.820
+We're gonna put on the before pseudo selector if you remember in when we did the the the lecture on
+
+02:54.820 --> 03:02.110
+after and before I showed you how to add a background image with an overlay using the before selector.
+
+03:02.110 --> 03:07.450
+So for the actual showcase I want the background to be dark.
+
+03:07.450 --> 03:22.300
+So let's use 3 3 3 and we're gonna just add padding of to ram all around and let's do position relative.
+
+03:22.300 --> 03:29.490
+And that's important because the before Sol the before pseudo selector is gonna be position absolute.
+
+03:29.530 --> 03:35.590
+And remember if you position something absolute it is positioned inside inside of the first relative
+
+03:35.590 --> 03:39.410
+container so that we want that to be our showcase.
+
+03:39.550 --> 03:51.780
+So let's save that and let's go right below when let's add showcase and we're gonna do before.
+
+03:52.210 --> 03:52.390
+Okay.
+
+03:52.450 --> 03:57.820
+Now when used before and after you want to put in the content in when not actually inserting content
+
+03:57.850 --> 04:03.060
+so we're just going to leave this blank and then we want to add our background image here.
+
+04:03.070 --> 04:10.390
+So let's say background you are L thoughts slash you want to go outside of the CSX into image and then
+
+04:10.390 --> 04:19.360
+we want featured and we're gonna do no repeats center center slash cover
+
+04:22.280 --> 04:22.620
+all right.
+
+04:22.620 --> 04:24.690
+That's not gonna show just yet.
+
+04:24.900 --> 04:31.590
+Let's position this absolute because we're basically laying this on top of the showcase.
+
+04:31.800 --> 04:32.050
+OK.
+
+04:32.070 --> 04:37.620
+So position absolute start at the top zero and the left zero.
+
+04:37.680 --> 04:40.450
+And then we want the width to go all the way across.
+
+04:40.470 --> 04:42.680
+We want the height to go all the way.
+
+04:42.690 --> 04:43.860
+So hundred percent.
+
+04:44.970 --> 04:52.740
+And we also want to make it translucent or transparent so let's add an opacity of let's say zero point
+
+04:52.860 --> 04:55.830
+four and save.
+
+04:55.980 --> 04:56.280
+All right.
+
+04:56.280 --> 05:03.210
+So now you can see the the image has has an overlay or it's it's not really an overlay on the image
+
+05:03.210 --> 05:09.080
+it's basically the image you can see through it to the dark eyes basically what's happening.
+
+05:09.210 --> 05:13.170
+You can also see through the text right now but we'll fix that in a little bit.
+
+05:13.170 --> 05:27.730
+So let's let's grab on to the showcase container so we'll see a showcase in the class of showcase container.
+
+05:28.710 --> 05:33.180
+And we want to display as a grid.
+
+05:33.180 --> 05:37.990
+And then the grid template columns.
+
+05:37.990 --> 05:45.480
+I wanted to take up half the space basically so we're gonna just repeat two times one far.
+
+05:46.000 --> 05:46.340
+OK.
+
+05:46.370 --> 05:50.530
+We want it to be a two column grid even though we only have one item that's fine.
+
+05:50.570 --> 05:56.610
+It should just it should still make room for just just an empty item basically.
+
+05:56.610 --> 06:02.520
+And then after that let's justify content to the center.
+
+06:02.520 --> 06:03.930
+So this whole center it's
+
+06:06.990 --> 06:13.080
+horizontally and then we want to center it vertically as well so a line items center and then let's
+
+06:13.080 --> 06:16.160
+make the height of the showcase half the viewport.
+
+06:16.170 --> 06:22.410
+So 50 VH and we'll go ahead and save that and then we go actually know what I wanted some more more
+
+06:22.410 --> 06:31.170
+text than that let's do for the paragraph what's to Lorem 40.
+
+06:31.350 --> 06:32.520
+Yeah it's a little too much.
+
+06:32.520 --> 06:36.060
+I think 30 is what I did.
+
+06:36.060 --> 06:37.210
+There you go.
+
+06:37.230 --> 06:37.610
+OK.
+
+06:37.620 --> 06:42.180
+So notice that the the text here you can see through it.
+
+06:42.210 --> 06:49.590
+So basically the image is on top of the text and remember z index takes care of of what displays first.
+
+06:49.590 --> 06:53.610
+And basically the order of of what is on top of what.
+
+06:53.610 --> 07:01.980
+So let's take the showcase and take the not the showcase container we want the showcase content which
+
+07:01.980 --> 07:09.810
+wraps all the text and let's set the z index to one and save and now you can see that it becomes clearer
+
+07:09.810 --> 07:12.250
+and it's it's now on top of the image.
+
+07:12.550 --> 07:15.010
+OK let's see.
+
+07:15.600 --> 07:23.580
+So I think I mean that's pretty much it for the core showcase styles but we do want to add the category
+
+07:23.660 --> 07:27.150
+that we need some styling for that as well as the button which you can't even see.
+
+07:27.270 --> 07:34.410
+But those are gonna be utility classes that we can apply it in other places as well so let's go up here
+
+07:34.410 --> 07:43.230
+to where we have our utilities and let's do the category so we'll say category.
+
+07:45.790 --> 07:46.400
+OK.
+
+07:46.400 --> 07:57.860
+So for category I'm going to display as inline block and let's make the color white.
+
+07:57.860 --> 08:03.000
+I'm not going to do a back to the background is dependent on the category so we're not going to do that
+
+08:03.000 --> 08:03.940
+here.
+
+08:03.940 --> 08:09.780
+But let's change the font size I actually want to make it smaller so we'll do fifty point five five
+
+08:09.780 --> 08:11.180
+REM units.
+
+08:11.370 --> 08:17.620
+And I want it to be uppercase so let's say text transform to uppercase.
+
+08:17.640 --> 08:21.800
+And as far as padding goes will do zero point four REM.
+
+08:21.840 --> 08:27.240
+So that's the top and bottom and zero point six REM on the left and right.
+
+08:27.300 --> 08:27.630
+All right.
+
+08:27.630 --> 08:38.310
+And then for the border dash radius let's do 15 pixels make it rounded and then add a margin or a margin
+
+08:38.310 --> 08:44.050
+bottom rather of we'll do a half around.
+
+08:44.490 --> 08:45.690
+So we'll save that.
+
+08:46.350 --> 08:46.710
+OK.
+
+08:46.710 --> 08:48.720
+Now notice it doesn't have a color around it.
+
+08:48.750 --> 08:54.720
+So what we're going to do is add our special category colors so these two categories sports
+
+08:57.000 --> 09:00.600
+and I'll just do one line since just one property.
+
+09:00.600 --> 09:07.560
+So background is gonna be var cat.
+
+09:08.190 --> 09:13.790
+What do we call it c o sports color.
+
+09:13.800 --> 09:18.720
+So we'll do dash dash sports color and save.
+
+09:18.720 --> 09:19.710
+And there we go.
+
+09:19.710 --> 09:25.170
+So while we're at it though we might as well add the other categories so we also have E.A. for entertainment
+
+09:25.200 --> 09:31.350
+and we have tech and we'll change this to EMT and tech.
+
+09:31.350 --> 09:34.680
+OK so now when we add our other categories the styles should be set.
+
+09:35.550 --> 09:37.780
+Now the button we want to do that next.
+
+09:37.780 --> 09:40.990
+So it's a veto pen.
+
+09:41.100 --> 09:48.400
+So we'll have B10 and then we'll have special B10 for the colors as well special classes for the colors.
+
+09:48.450 --> 09:58.470
+So for the core button let's display as an inline block let's do a year's in line Dash.
+
+09:58.480 --> 10:04.530
+BLOCK And then we want to take away the border just in case we use this on an actual button.
+
+10:04.530 --> 10:06.200
+So we'll say border none.
+
+10:06.360 --> 10:10.920
+And then the background just by default I'm gonna use the dark color.
+
+10:10.930 --> 10:16.550
+So we'll see a var dash dash dark.
+
+10:16.560 --> 10:21.510
+Just in case you do B10 and without another special class for the color.
+
+10:21.720 --> 10:22.740
+So we'll do that.
+
+10:22.740 --> 10:33.330
+And then let's do color white by default in our padding which will be point five REM top and bottom
+
+10:33.330 --> 10:34.840
+one point five.
+
+10:35.100 --> 10:35.940
+Left and Right.
+
+10:35.940 --> 10:39.270
+So we'll save that.
+
+10:39.360 --> 10:49.880
+Let's see I actually want to push that down a little bit so where our showcase is
+
+10:54.120 --> 11:05.490
+let's do let's grab the paragraph that's in the showcase content and let's add margin bottom one room
+
+11:06.540 --> 11:08.660
+just to move that down a little bit.
+
+11:08.700 --> 11:08.970
+All right.
+
+11:09.000 --> 11:10.460
+So back to the buttons.
+
+11:10.470 --> 11:17.580
+We have the core button style but we need to do B10 and we're gonna have a B10 light.
+
+11:17.580 --> 11:23.640
+I'm just gonna do all the colors now soon off to worry about it which I'll just put this on the same
+
+11:23.640 --> 11:24.960
+line like this.
+
+11:24.960 --> 11:31.890
+So background is going to be the variable of light color.
+
+11:31.890 --> 11:32.170
+All right.
+
+11:32.190 --> 11:33.450
+They're going to copy this down.
+
+11:33.460 --> 11:38.040
+Let's see we have we have light dark.
+
+11:38.040 --> 11:40.830
+Actually we don't need dark because it's dark by default.
+
+11:40.830 --> 11:56.350
+So we'll just do primary and secondary K so primary this will be our primary color and then secondary.
+
+11:56.400 --> 11:56.730
+All right.
+
+11:56.760 --> 12:03.450
+So save that and I can see we have our red button now for the hover.
+
+12:04.120 --> 12:09.640
+What I'm going to do is I'm just going to have one hover and I'm just going to make.
+
+12:09.640 --> 12:14.180
+I'm just gonna add the opacity of zero point nine that way.
+
+12:14.200 --> 12:16.220
+It doesn't matter what color it is.
+
+12:16.240 --> 12:21.820
+It'll still have an effect when you hover over it and it doesn't mean you know if it's even if it's
+
+12:21.820 --> 12:28.180
+dark or light it's just going to change the opacity just to give it a little bit of an effect of darkening.
+
+12:28.180 --> 12:34.250
+But really it's just it's just we're changing the opacity we're making it a little bit transparent.
+
+12:34.600 --> 12:40.720
+And then I want to have one more class for the button that will make it into a block level button meaning
+
+12:40.720 --> 12:42.360
+it goes all the way across.
+
+12:42.370 --> 12:49.270
+So we're actually gonna do button or Beatty and dash block where we set it to display block instead
+
+12:49.270 --> 12:53.570
+of inline block and we set the width to 100 percent.
+
+12:53.710 --> 12:56.170
+And I want to align to the middle.
+
+12:56.170 --> 12:58.160
+So text align center.
+
+12:58.700 --> 12:59.100
+Okay.
+
+12:59.110 --> 13:01.750
+So now our buttons should be all set.
+
+13:01.750 --> 13:07.270
+All right we're gonna have quite a few utility classes in this project which is nice because you can
+
+13:07.270 --> 13:11.760
+easily change things up if you want to change the background of something.
+
+13:11.760 --> 13:13.570
+It's it's easy to do.
+
+13:13.570 --> 13:14.270
+All right.
+
+13:14.350 --> 13:14.890
+So that's it.
+
+13:14.920 --> 13:21.700
+I will see you in the next video where we will create we'll start to create this grid right here with
+
+13:21.700 --> 13:22.990
+all of the articles.

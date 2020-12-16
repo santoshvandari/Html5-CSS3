@@ -1,0 +1,430 @@
+WEBVTT
+
+00:00.470 --> 00:05.400
+All right guys so in the last video I showed you how to implement CSX in a few different ways.
+
+00:05.520 --> 00:11.910
+And the most common way is going to be by using an external style sheet like style dot CSX and then
+
+00:11.910 --> 00:14.640
+bringing it in using the link tag.
+
+00:14.640 --> 00:20.940
+But like I said for the sandbox for this section I'm going to be using internal CSX in a style tag just
+
+00:20.940 --> 00:25.100
+so we have everything on one page just for the sake of learning.
+
+00:25.140 --> 00:33.900
+OK so let's create a new file here and we're going to call this zero to underscore selectors dot each
+
+00:33.900 --> 00:34.500
+team out.
+
+00:35.190 --> 00:41.100
+Because what I want to talk about is the different ways that we can select content to style or select
+
+00:41.130 --> 00:43.470
+elements or tags to style.
+
+00:43.470 --> 00:51.810
+So let's put in our boilerplate here with VSO code and let's call the CSX selectors
+
+00:54.880 --> 00:58.540
+and we're going to put in some style tags here.
+
+00:59.350 --> 01:07.060
+OK and then as far as the body I'm going to just put in some simple aged him l will have a div and inside
+
+01:07.060 --> 01:09.620
+this div let's do an H two.
+
+01:09.820 --> 01:14.350
+We'll just say welcome and paragraph.
+
+01:14.350 --> 01:26.470
+Let's do Lorem 20 tab and then let's do another div and we'll do another H two and we'll say about paragraph
+
+01:27.100 --> 01:29.170
+Lorem 20 tab.
+
+01:29.650 --> 01:29.870
+OK.
+
+01:29.910 --> 01:33.300
+So let's save this and let's open it up with live server.
+
+01:33.670 --> 01:39.220
+If you're using live server so we have two divs with heading in a paragraph.
+
+01:39.220 --> 01:45.040
+Now in the last video we took an H two and we gave it a color.
+
+01:45.040 --> 01:46.070
+Let's go ahead and do that.
+
+01:46.060 --> 01:47.980
+We'll see green.
+
+01:48.270 --> 01:54.550
+And if I save that what happens is it's going to take every single each to on the page and style it
+
+01:54.550 --> 01:55.910
+green.
+
+01:56.010 --> 02:01.930
+Now there's gonna be cases where you don't want every single element whatever that element is to be
+
+02:02.000 --> 02:05.710
+styled you want to pick and choose what you want to style like.
+
+02:05.710 --> 02:09.780
+Let's say we only want this this one this first one to be green.
+
+02:09.910 --> 02:12.150
+In that case we would use an idea or a class.
+
+02:12.160 --> 02:23.740
+So if I were to add Ida green dash heading I could go up here and I could add onto this age to a no
+
+02:23.740 --> 02:29.680
+sign which represents an I.D. and then the name of the I.D. and I could have called it called it absolutely
+
+02:29.680 --> 02:33.690
+anything if I save that notice only the first one is green.
+
+02:34.200 --> 02:34.560
+OK.
+
+02:34.570 --> 02:37.120
+Because it's targeting this I.D..
+
+02:37.420 --> 02:42.590
+Now this is actually optional we don't have to put the actual element.
+
+02:42.910 --> 02:48.700
+However if we keep it off like that we could add this green heading idea to anything and it would be
+
+02:48.700 --> 02:54.040
+in effect if I added to a paragraph it would turn the paragraph color green although that wouldn't make
+
+02:54.040 --> 03:00.160
+much sense because we call the green heading but for the most part you're not gonna see the actual element
+
+03:00.670 --> 03:02.620
+at least in my experience.
+
+03:02.800 --> 03:08.740
+Now remember what I said about classes and I.D. This is not really something I would put inside of an
+
+03:08.740 --> 03:14.890
+I.D. because it doesn't really for one thing we might want to use this again we might want another green
+
+03:14.890 --> 03:19.880
+heading somewhere an I.D. should be something that there's only one of.
+
+03:19.960 --> 03:25.170
+So I would actually change this to a class and then to target a class.
+
+03:25.330 --> 03:30.700
+The styling is the same way it's just this right here instead of a number sine you want a dot.
+
+03:30.730 --> 03:33.130
+So if I save that notice it's still green.
+
+03:33.250 --> 03:33.500
+OK.
+
+03:33.520 --> 03:45.250
+So just remember no sign is for I.D. dot is for classes and I'm just going to comment this stuff out
+
+03:45.870 --> 03:51.160
+just so you have just you have some reference and I'll do an I.D. and I'll I'll add that as well later
+
+03:51.160 --> 03:52.500
+on.
+
+03:52.510 --> 03:56.490
+So now what I want to do is talk a little bit about naming conventions.
+
+03:56.620 --> 04:01.780
+This is not really a good name because at any point we might want to change this to a different color
+
+04:01.780 --> 04:06.260
+like blue maybe maybe it's a Web site for a company and they change their branding.
+
+04:06.400 --> 04:13.390
+So if I save that it's now blue and then this this heading or I'm sorry this this title here the class
+
+04:13.390 --> 04:15.140
+name makes no sense.
+
+04:15.190 --> 04:21.070
+So what I would do is I'd call this something like primary heading instead of green heading.
+
+04:21.070 --> 04:21.430
+OK.
+
+04:21.430 --> 04:27.730
+That way it's just your primary color your or your headings primary color you mean it might even have
+
+04:27.730 --> 04:32.800
+a secondary heading class if you want a different color and it doesn't have to just be color you could
+
+04:32.800 --> 04:38.610
+change the font size whatever it is that you want but you want to think about your naming conventions.
+
+04:38.680 --> 04:38.980
+OK.
+
+04:38.980 --> 04:40.380
+And you want to think about the future.
+
+04:40.390 --> 04:45.910
+Could this change in the future so calling it green heading is not really a good choice even though
+
+04:45.910 --> 04:48.370
+it's it's going to work.
+
+04:48.640 --> 04:52.990
+It's just it doesn't it's not it's not a smart choice semantically.
+
+04:52.990 --> 04:53.320
+All right.
+
+04:53.350 --> 05:03.160
+So now what I want to do is see let's add an I.D. to these divs so we'll call this one welcome and let's
+
+05:03.160 --> 05:06.160
+call this one about.
+
+05:06.480 --> 05:06.930
+OK.
+
+05:06.940 --> 05:12.430
+So you see all this makes sense because we're not going to have another welcome Dev or another about
+
+05:12.430 --> 05:13.080
+div.
+
+05:13.180 --> 05:15.490
+So an I.D. is a good choice for this.
+
+05:16.510 --> 05:25.450
+So if I wanted to let's say let's say give the welcome idea background color I could target it like
+
+05:25.480 --> 05:27.920
+this.
+
+05:28.070 --> 05:28.850
+All right.
+
+05:28.860 --> 05:35.470
+And I'll say background or background color and don't worry about any of these properties I don't want
+
+05:35.470 --> 05:38.230
+you to focus on these because we're going to talk about all of these later.
+
+05:38.230 --> 05:41.170
+I just I want you to focus on the selectors.
+
+05:41.320 --> 05:46.900
+So I'm going to give this a background color of a hexadecimal value that's actually a light gray.
+
+05:47.050 --> 05:51.660
+So if I save that notice that this only has that background color.
+
+05:51.790 --> 06:03.850
+So let me put a comment here and say no sign is for I.D. Now what if I want to have some styling but
+
+06:03.850 --> 06:07.060
+I want it for both of these divs right here.
+
+06:07.150 --> 06:07.480
+OK.
+
+06:07.510 --> 06:14.050
+So if we want to do that we can use multiple selectors.
+
+06:14.740 --> 06:17.010
+So what I'll do is I'll take the welcome.
+
+06:17.460 --> 06:17.670
+OK.
+
+06:17.680 --> 06:20.110
+The div with the idea of welcome.
+
+06:20.230 --> 06:25.710
+Put a comma and then put the div with the idea of a bow and then put my styling.
+
+06:25.720 --> 06:31.890
+So let's say I want to give them a border of one pixel solid.
+
+06:31.890 --> 06:35.250
+Do you like gray.
+
+06:35.320 --> 06:41.200
+I'm going to talk about these numbers probably in the next video or the one after that and then I also
+
+06:41.200 --> 06:48.580
+want to add a little bit of padding and margin bottom of five pixels.
+
+06:48.580 --> 06:48.870
+All right.
+
+06:48.880 --> 06:50.110
+So going to save that.
+
+06:50.110 --> 06:56.350
+And that style was now it was applied to both of these divs because I used multiple selectors and I
+
+06:56.350 --> 07:02.560
+could add more if I want doesn't have to be I.D. I could put an H to I could put a paragraph I could
+
+07:02.560 --> 07:08.040
+put a class whatever I want and that would take on all of these styles in here.
+
+07:08.750 --> 07:09.870
+OK.
+
+07:10.150 --> 07:17.440
+Now let's say I wanted to target a specific for instance a specific paragraph inside of a specific div
+
+07:18.070 --> 07:20.050
+like let's say the welcome paragraph.
+
+07:20.050 --> 07:22.600
+I want that font size to be bigger.
+
+07:22.600 --> 07:26.500
+What I could do is I could use a nested selector
+
+07:29.410 --> 07:34.670
+by saying D welcome and then space paragraph.
+
+07:34.720 --> 07:39.970
+You don't want to do a comma what that means is is it means all the divs or all the elements with the
+
+07:39.970 --> 07:42.520
+idea of welcome in all paragraphs.
+
+07:42.520 --> 07:49.240
+You don't want that comma because we want to say inside the the element of welcome we want the paragraph
+
+07:49.240 --> 07:50.780
+inside of it.
+
+07:51.210 --> 07:51.630
+OK.
+
+07:51.640 --> 07:59.400
+And then let's say font size we'll do 20 pixels by the way 16 is the default.
+
+07:59.410 --> 08:02.100
+But I'll talk about pixels and all that and a little bit.
+
+08:02.230 --> 08:03.100
+So I save that.
+
+08:03.100 --> 08:10.900
+Notice that only the welcome div paragraph has the font size of 20.
+
+08:10.930 --> 08:11.330
+All right.
+
+08:11.330 --> 08:15.940
+So let's see what else we can also style the body.
+
+08:15.940 --> 08:23.200
+So if we go up here say body styling.
+
+08:25.350 --> 08:26.020
+So we'll take.
+
+08:26.020 --> 08:31.720
+Body and body is usually where you put lye if you want the whole Web site or the whole web page to have
+
+08:31.720 --> 08:32.740
+a background color.
+
+08:32.740 --> 08:36.780
+You could do that.
+
+08:36.980 --> 08:40.820
+I'm going to give it a hexadecimal of three three three which is a dark gray.
+
+08:40.870 --> 08:42.090
+So if I save that you'll see it.
+
+08:42.090 --> 08:44.250
+It changes the whole body.
+
+08:44.260 --> 08:50.500
+Now the reason we can't read this right here is because by default the text is black.
+
+08:50.500 --> 09:01.330
+So what I'll do is I'll go to I'll just target the about the div with the bow and I'll change the color
+
+09:01.330 --> 09:07.190
+which is the text color to white so that we can see it.
+
+09:07.760 --> 09:08.010
+OK.
+
+09:08.030 --> 09:14.150
+And I know this is pretty ugly looking but I just want you to know the different types of ways to basically
+
+09:14.150 --> 09:17.580
+select and style different elements.
+
+09:17.600 --> 09:18.020
+OK.
+
+09:18.020 --> 09:21.020
+So instead of body styling I'm just going to say element
+
+09:23.990 --> 09:24.740
+selector
+
+09:27.350 --> 09:28.020
+OK.
+
+09:28.460 --> 09:33.410
+Because we're grabbing the actual element or the actual tag when I say element.
+
+09:33.410 --> 09:41.810
+I just mean tag the body itself is the element div is the element H2 is the element with the angle brackets
+
+09:41.840 --> 09:42.590
+is a tag.
+
+09:42.590 --> 09:45.340
+So I use them interchangeably.
+
+09:45.410 --> 09:45.710
+All right.
+
+09:45.740 --> 09:57.460
+So we have elements or selectors just make this consistent here elements selectors dot is for classes
+
+09:57.520 --> 10:04.780
+number for I.D. We have multiple selectors by using a comma we have nested selectors we can select stuff
+
+10:04.840 --> 10:09.130
+inside of other elements and those that's pretty much the basics.
+
+10:09.160 --> 10:13.960
+I mean we have other things like pseudo selectors and and stuff like that but I'm not going to get into
+
+10:13.960 --> 10:20.230
+that now I just want you to understand the fundamentals of selecting elements and being able to style
+
+10:20.230 --> 10:21.040
+them.
+
+10:21.070 --> 10:22.630
+All right so that's it guys.
+
+10:22.630 --> 10:24.010
+I will see you in the next video.

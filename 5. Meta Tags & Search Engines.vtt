@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.240 --> 00:04.890
+All right in this video we're going to talk about and look at meta tags which are tags or snippets that
+
+00:04.890 --> 00:11.640
+describe a page's content and they don't appear in the body of the web page anywhere nobody sees them.
+
+00:11.640 --> 00:14.990
+It just describes some stuff about the page.
+
+00:15.000 --> 00:19.990
+So we're going to look at some of the popular ones including the ones that are used in search engines.
+
+00:20.040 --> 00:27.850
+So let's create a new file we'll call it 0 3 underscore Metta underscore tags dot h t AML and I'm gonna
+
+00:27.870 --> 00:29.640
+generate my content with Emmet.
+
+00:29.670 --> 00:35.990
+So I'm going to use exclamation tab or enter and notice that it adds three meta tags.
+
+00:36.000 --> 00:41.190
+It also adds a laying attribute which you don't need in your age team I'll tag what it just describes
+
+00:41.190 --> 00:42.890
+the language is English.
+
+00:43.140 --> 00:46.920
+And these are all attributes so tags have attributes.
+
+00:46.920 --> 00:53.730
+We're gonna be using them along the way and they describe basically their properties of the tag.
+
+00:53.760 --> 00:55.770
+So all of these are meta right.
+
+00:55.800 --> 00:58.770
+So the only difference is the different attributes.
+
+00:58.770 --> 01:01.630
+That's all we can tell what what each one is.
+
+01:02.370 --> 01:08.370
+So the first one here is char set which is the character set and this specifies the character encoding
+
+01:08.370 --> 01:09.260
+of the page.
+
+01:09.390 --> 01:12.240
+So UTF 8 is actually the default.
+
+01:12.240 --> 01:15.220
+It's the character encoding for unicode.
+
+01:15.360 --> 01:18.760
+It's not extremely important to understand how this works or what it is.
+
+01:18.780 --> 01:25.320
+It's we could actually remove this and it would still be UTF 8 and the unicode standard covers almost
+
+01:25.320 --> 01:30.150
+all characters punctuation punctuation symbols things like that.
+
+01:30.150 --> 01:35.400
+So that's what that is is the character set that this page uses the next one here is pretty important
+
+01:35.400 --> 01:36.990
+for Responsive design.
+
+01:36.990 --> 01:41.310
+This is the viewport tag and responsive design it.
+
+01:41.370 --> 01:49.000
+It's all about making your your website or your user interface responsive to different screen sizes.
+
+01:49.030 --> 01:56.460
+OK so you want your Web site to look good on a desktop a laptop smartphone a tablet and there's different
+
+01:56.460 --> 02:02.370
+strategies mostly to do with CSX on making your site look good on these devices.
+
+02:02.370 --> 02:08.530
+But one of the things you want to do is add this viewport tag and you want to set the content value.
+
+02:08.730 --> 02:13.830
+You want to set a couple of things in the content which is 1 the width you want to set it to whatever
+
+02:13.830 --> 02:18.690
+the width of the device and the scale should be set to one point zero.
+
+02:18.720 --> 02:23.850
+So if you've ever gone on a nonresponsive site on a smartphone and you had to drag your finger over
+
+02:23.850 --> 02:30.690
+to kind of see the rest of the site that probably doesn't have the viewport set OK so you wanted to
+
+02:30.690 --> 02:34.530
+actually show the entire Web site or the entire interface.
+
+02:34.530 --> 02:37.920
+So that's what the viewport tag does it's actually really important.
+
+02:37.920 --> 02:42.560
+So this next one has to do with browser compatibility this HDP a quiver.
+
+02:42.570 --> 02:49.950
+You can see the content equals i.e. equals edge so i.e. is referring to the old Internet Explorer browser
+
+02:49.950 --> 02:53.960
+which is not used very much at all anymore.
+
+02:54.000 --> 03:00.300
+Windows now ships with Ed shore basically saying we want to use the edge standards and Microsoft browsers
+
+03:00.300 --> 03:04.400
+have been just a nightmare since since the beginning of web development.
+
+03:04.470 --> 03:10.060
+Back when I started it was Internet Explorer 6 which never rendered things correctly.
+
+03:10.230 --> 03:14.580
+You always had to do little hacks here and there and you're see assassin in your javascript to get things
+
+03:14.580 --> 03:15.400
+to work.
+
+03:15.420 --> 03:22.410
+So even now i.e. 11 which is the latest version is still very clunky but not too many people use it.
+
+03:22.410 --> 03:28.110
+I think if I look at my analytics on my Web site it's like zero point three percent or something ridiculous
+
+03:28.110 --> 03:34.350
+like that so it's not it's stream extremely important to support those browsers anymore unless you're
+
+03:34.350 --> 03:40.590
+building a Web site that may have like a lot of elderly people as viewers because a lot of them have
+
+03:40.620 --> 03:44.810
+older computers that they haven't updated that's still run i.e.
+
+03:44.910 --> 03:45.270
+All right.
+
+03:45.300 --> 03:49.900
+So now what I want to look at is met attacks that have to do with search engines.
+
+03:49.920 --> 03:55.020
+So we're gonna talk a little bit about search engines and the title is actually really important.
+
+03:55.020 --> 03:58.360
+I'm just gonna put meta tags here but you're in your title.
+
+03:58.440 --> 04:03.500
+You want to have you want to put something that really describes the page.
+
+04:03.510 --> 04:08.020
+You also want to put keywords that you want to rank for well on the search engines.
+
+04:08.070 --> 04:15.450
+Now MCO which is search engine optimization has changed dramatically from years ago likes the certain
+
+04:15.450 --> 04:18.490
+things that used to be really important are not anymore.
+
+04:18.630 --> 04:24.300
+And I'm not an NCO expert so I'm not going to speak too much on that but the title is what shows in
+
+04:24.300 --> 04:25.170
+the search engine.
+
+04:25.170 --> 04:31.500
+So if we jump into chrome here and let's open up a new tab and by the way this time that you see here
+
+04:31.500 --> 04:36.330
+in the background this is a chrome a Google Chrome extension called moment if you're interested.
+
+04:36.330 --> 04:38.060
+I know a lot of people ask me about it.
+
+04:38.070 --> 04:42.420
+So I figured I'd just tell you guys it has to dos and stuff like that it's pretty cool.
+
+04:42.600 --> 04:53.610
+But let's go ahead and go to Google dot com and let's search for like let's say Miami web design and
+
+04:53.640 --> 04:57.590
+we look at these Web sites that show up this large text here.
+
+04:57.590 --> 04:58.780
+This is the title.
+
+04:58.860 --> 05:02.270
+OK whatever you have in the title for the page is going to show up here.
+
+05:02.360 --> 05:08.870
+Most of the time if it doesn't match the pages content Google might take it upon itself to put something
+
+05:08.870 --> 05:11.450
+in here but usually it's going to be your title.
+
+05:11.450 --> 05:16.520
+And then this text here the smaller text is actually the description met a tag which I'll show you in
+
+05:16.520 --> 05:17.160
+a second.
+
+05:17.270 --> 05:23.630
+But if we go to this site and which I'm not affiliated at all with and if we could go ahead and view
+
+05:23.630 --> 05:30.500
+the source code with command option you or control you on a Windows machine and we look at the title
+
+05:30.560 --> 05:35.720
+you'll see it's Miami Web site design company digital agency and then the name of the company.
+
+05:35.750 --> 05:37.880
+So that's a good choice for a title.
+
+05:37.910 --> 05:42.880
+It has some keywords in there and also as the company name and you can see if I hover over the title.
+
+05:42.890 --> 05:48.310
+That's exactly it should should pop up here.
+
+05:48.340 --> 05:50.960
+Well usually does.
+
+05:50.990 --> 05:54.890
+I'm not sure why it's not popping up but usually it'll pop up and show you the whole title.
+
+05:54.890 --> 05:55.760
+There we go.
+
+05:55.850 --> 05:58.760
+And you can see that it matches what is in the HDL.
+
+05:58.880 --> 06:10.390
+And then if we look at the meta description tag which is see where is it's here's the viewport.
+
+06:10.560 --> 06:11.240
+Search for it.
+
+06:11.250 --> 06:17.780
+So if we do control F and search for a description here it is so meta.
+
+06:17.790 --> 06:24.000
+Name equals description in the content you'll see this is exactly what is showing up in the search engine.
+
+06:24.000 --> 06:28.180
+So fuse is a full service Miami website design company.
+
+06:28.200 --> 06:34.060
+If we go back to the the results here fuse is a full service Miami website design company.
+
+06:34.080 --> 06:37.160
+So this is going to be your description this is your title.
+
+06:37.260 --> 06:40.830
+So let's go ahead and add in a description.
+
+06:41.250 --> 06:45.090
+So we're gonna say meta and we want to use the name
+
+06:47.940 --> 06:53.880
+description and content you say whatever.
+
+06:53.880 --> 07:01.800
+I'm just gonna put this is my Web site description but you would want to put something that's that specifies
+
+07:01.800 --> 07:03.390
+what's on the page.
+
+07:03.540 --> 07:06.150
+You also want to put some keywords in here.
+
+07:06.150 --> 07:11.400
+I don't think the description holds too much weight but it is what what the user sees when they search
+
+07:11.400 --> 07:13.640
+for your site so that's pretty important.
+
+07:13.740 --> 07:20.970
+And another search engine related tag is the keywords met a tag.
+
+07:20.970 --> 07:27.930
+Now this keywords tag used to hold a lot of weight like years and years ago but now it's not it doesn't
+
+07:27.930 --> 07:34.440
+really matter it's just for describing the pages content so it's not like it's going to make or break
+
+07:34.440 --> 07:39.920
+your site in the search engine but generally you want to keep between like 8 and 12 words.
+
+07:39.930 --> 07:47.040
+So let's say this was a web web development company we'd put like web development maybe web design
+
+07:49.920 --> 07:52.770
+maybe ask your company name or something like that.
+
+07:52.770 --> 07:57.650
+So you generally want to have around 8 or so of these keywords.
+
+07:57.720 --> 08:05.190
+All right so let's see the last one that I want to show you is is if you don't want your site to rank
+
+08:05.190 --> 08:10.530
+in search engines if you don't want it to show up at all you would use the robot's meta tag.
+
+08:10.650 --> 08:21.000
+So let's say maiden name equals robots and for the content you would want to put no index so that it
+
+08:21.000 --> 08:24.300
+doesn't index your site in the search engine and then no follow.
+
+08:24.300 --> 08:27.960
+So it doesn't follow any links on the page and index those.
+
+08:27.990 --> 08:28.290
+All right.
+
+08:28.290 --> 08:32.820
+So for some reason you don't want your site to show up in Google and Bing and all the other engines
+
+08:33.150 --> 08:42.120
+you would just put this in here and I'll just put a comment do not index page.
+
+08:42.540 --> 08:43.320
+All right.
+
+08:43.620 --> 08:45.440
+So that's pretty much it.
+
+08:45.440 --> 08:47.410
+I'm going to go ahead and save that.
+
+08:47.490 --> 08:51.590
+I'm not going to go over any of the other ones right now because they're really not that important.
+
+08:51.600 --> 08:55.980
+If you want to look look look up some of the other ones on your own you can do that but I don't want
+
+08:55.980 --> 08:59.600
+to throw too much stuff at you that you don't really need right now.
+
+08:59.790 --> 09:05.310
+So that's it guys in the next video we're going to start to look at topography look at creating headings
+
+09:05.310 --> 09:08.600
+in paragraphs and bolded text and stuff like that.

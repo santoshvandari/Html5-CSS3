@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.210 --> 00:02.810
+All right guys so I decided to add on a little bonus here.
+
+00:02.810 --> 00:09.240
+I want to actually make the contact form on our Web site work now that we're actually deployed and our
+
+00:09.240 --> 00:16.620
+shared host has p p installed which is a programming language so we can execute HP files and PDP has
+
+00:16.620 --> 00:22.410
+a very simple mail function that we can use to actually make this this form work.
+
+00:22.440 --> 00:28.350
+So what I'm going to do is have it submit to my Brad ad edge the ledger dot net email which you can
+
+00:28.350 --> 00:30.160
+see my inbox right here.
+
+00:30.300 --> 00:37.620
+Now in the lecture files for this section or this lecture I should say you're going to have a zip file
+
+00:37.620 --> 00:43.830
+called contact an inside that you're going to have two files and I have that right here.
+
+00:43.860 --> 00:47.890
+So you gonna process stop BHP and success dot HCM CML.
+
+00:47.940 --> 00:54.430
+So we're just going to move those two files to our project to our Web site locally.
+
+00:54.630 --> 01:02.220
+And I'm going to go back into this code with those two added files and in our index file we have our
+
+01:02.220 --> 01:04.890
+form which doesn't have any attributes.
+
+01:04.890 --> 01:12.090
+So in order for the form to submit we want to put an action and we wanted to submit to process dot BHP.
+
+01:12.090 --> 01:17.940
+It's gonna submit to that BHP file and then we also want to add a method there's different types of
+
+01:18.320 --> 01:19.980
+HDP methods.
+
+01:19.980 --> 01:25.530
+We have a get request which is basically just when the page loads it's a get request.
+
+01:25.530 --> 01:29.250
+But when you submit a form you want to make a post request to the server.
+
+01:29.660 --> 01:29.980
+OK.
+
+01:30.000 --> 01:33.420
+So we want to do Method POST and we'll save that.
+
+01:33.420 --> 01:39.060
+And what that's going to do is it's going to submit to this process dot page P file which is a very
+
+01:39.060 --> 01:40.290
+very simple script.
+
+01:40.290 --> 01:45.680
+I actually got it from the in motion hosting documentation.
+
+01:46.040 --> 01:50.300
+It's it's very very simple you probably want to add more validation and so on.
+
+01:50.430 --> 01:54.600
+If you are going to you know if this was a production site but I just want to make it work.
+
+01:54.720 --> 02:00.330
+So I'm just gonna go through it and I know a lot of you probably don't know BHP but it's just checking
+
+02:00.330 --> 02:04.190
+to see if the email field is filled in this post.
+
+02:04.200 --> 02:11.810
+Email pertains to our form input right here because the name is email.
+
+02:11.840 --> 02:12.210
+All right.
+
+02:12.210 --> 02:17.850
+So this is actually called a super global and it's looking for the name attribute of email.
+
+02:17.850 --> 02:22.230
+So if that's filled in it's going to proceed and it's going to create some variables.
+
+02:22.260 --> 02:25.580
+Okay this variable is the email that we want to submit to.
+
+02:25.620 --> 02:31.470
+So you would change this to yours and then we have the rest of these variables just pointing to whatever
+
+02:31.470 --> 02:33.820
+text is filled in the form fields.
+
+02:33.840 --> 02:39.300
+So for the name email phone and message those who get put into variables which are like place holders
+
+02:39.780 --> 02:44.670
+then we're going to run a function called mail which is a BHP function.
+
+02:44.670 --> 02:50.460
+The first parameter is the email that it's going to send to which is our admin email here and then the
+
+02:50.460 --> 02:55.350
+second is the subject of the email which will be new form submission of course you can change it if
+
+02:55.350 --> 02:59.520
+you want and then the body is going to be the message and the phone number.
+
+02:59.520 --> 03:05.070
+That's what's going to be in the actual email body and then from is going to be whatever the user puts
+
+03:05.070 --> 03:06.300
+in as their email.
+
+03:06.390 --> 03:11.600
+And then once all that happens once it sends we're going to redirect using the header function.
+
+03:11.610 --> 03:17.310
+So this will redirect us to a file called success story h t email which I have right here.
+
+03:17.790 --> 03:20.850
+So if we look at success each now it's very simple.
+
+03:20.850 --> 03:24.810
+We just have the nav bar minus the links and the footer.
+
+03:24.810 --> 03:27.150
+And then here we just have a thank you message.
+
+03:27.150 --> 03:31.830
+So I can show you this real quick if I just open with live server.
+
+03:31.830 --> 03:33.570
+Actually it opened on the wrong screen.
+
+03:33.570 --> 03:34.020
+Hold on
+
+03:36.880 --> 03:39.250
+just bring it over real quick.
+
+03:39.250 --> 03:39.520
+All right.
+
+03:39.550 --> 03:43.390
+So this is what it's going to look like once you submit the form it's just going to say thank you and
+
+03:43.390 --> 03:45.520
+then you can choose to go back to the site.
+
+03:46.100 --> 03:46.410
+OK.
+
+03:46.420 --> 03:47.650
+So that's pretty much it.
+
+03:47.650 --> 03:52.650
+Now there's one other thing we need to change and it's actually in our JavaScript file the main dot
+
+03:52.690 --> 04:02.080
+J.S. now right here we were grabbing on to a click event for the nav bar links for the smooth scrolling
+
+04:02.380 --> 04:04.780
+as well as the class of button.
+
+04:04.780 --> 04:09.480
+Now the class of button is also on the Submit button here.
+
+04:09.580 --> 04:10.160
+OK.
+
+04:10.450 --> 04:17.380
+And inside the javascript what we're saying is test is to prevent the default behavior of the form or
+
+04:17.380 --> 04:19.000
+the button I should say.
+
+04:19.000 --> 04:22.960
+And since we have that class on our form button it won't submit correctly.
+
+04:22.960 --> 04:27.000
+So what I'm gonna do is just get rid of the dot B10 and the comma.
+
+04:27.040 --> 04:31.660
+That way the smooth scrolling is only on the nav bar in the form should be able to submit.
+
+04:32.080 --> 04:33.670
+So let's save that.
+
+04:33.790 --> 04:36.060
+And now our Web site should be all set.
+
+04:36.070 --> 04:37.890
+We just want to open up files zilla.
+
+04:37.890 --> 04:43.600
+Go ahead and log in and we're just going to basically replace the files that are there.
+
+04:43.600 --> 04:51.010
+So I'm going to drag all of these over if it asks to overwrite just say yes and now it should work.
+
+04:51.010 --> 04:57.010
+So let's head over to edu ledger dot net or whatever your whatever Web site you're using if you're following
+
+04:57.010 --> 04:57.760
+along.
+
+04:57.910 --> 05:01.730
+And I'm going to just reload and then fill this out real quick.
+
+05:01.750 --> 05:08.920
+So I'll say John Doe email to John Doe at gmail
+
+05:12.100 --> 05:12.900
+no here.
+
+05:12.930 --> 05:14.490
+Just all fives.
+
+05:14.490 --> 05:17.530
+And then a message will we'll just say hello world.
+
+05:17.640 --> 05:17.940
+All right.
+
+05:17.970 --> 05:20.320
+So now I'm going to click send.
+
+05:20.370 --> 05:27.000
+Now what happened is it's submitted to the process stop P. file it ran that called the mail function
+
+05:27.030 --> 05:32.790
+so it should have sent and then redirected us to success study each team L and we can go back if we
+
+05:32.790 --> 05:33.360
+want.
+
+05:33.390 --> 05:41.620
+Now I'm gonna go to my inbox and I'm going to reload and we have an email from John at gmail dot com
+
+05:41.890 --> 05:47.060
+and you can see the subject is new form submission because that's what we put in the process speech
+
+05:47.080 --> 05:53.740
+PDF file and the body here is whatever we put in the message field and whatever we put in the phone
+
+05:53.740 --> 05:54.930
+field.
+
+05:55.000 --> 05:55.260
+OK.
+
+05:55.300 --> 06:01.870
+So we now have a working contact form and they know that p p is not part of this course but I wanted
+
+06:01.870 --> 06:06.820
+to at least have this be a full Web site where the form actually worked.
+
+06:06.990 --> 06:07.350
+OK.
+
+06:07.360 --> 06:11.350
+So hopefully you guys can appreciate that and that's it.
+
+06:11.350 --> 06:12.600
+I'll see you in the next section.

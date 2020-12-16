@@ -1,0 +1,361 @@
+WEBVTT
+
+00:00.180 --> 00:05.490
+All right guys so we're gonna jump in to CSX grid here and I've created a whole new folder called CSX
+
+00:05.490 --> 00:07.080
+grid sandbox.
+
+00:07.080 --> 00:15.180
+And when I create a new file called 0 1 underscore grid underscore columns dot h t AML and we're gonna
+
+00:15.180 --> 00:18.000
+go over just the basics of how the grid works.
+
+00:18.000 --> 00:21.050
+Also the grid template columns property.
+
+00:21.210 --> 00:25.110
+So I'm going to close the sidebar up and will generate our boilerplate here.
+
+00:25.140 --> 00:34.410
+Let's say grid columns and style and the fact that you know flex blocks if you've been following along
+
+00:34.410 --> 00:40.110
+with the course is going to benefit you because the grid works in a similar way where we take a parent
+
+00:40.140 --> 00:44.490
+element and we set display grid just like we would do display flex.
+
+00:44.610 --> 00:49.900
+And it makes all the child elements of that of that parent.
+
+00:50.010 --> 00:57.470
+It makes them grid items and then we can add specific properties on the parent to affect the grid items.
+
+00:57.470 --> 01:00.510
+So let's go ahead and create our mark up.
+
+01:00.510 --> 01:02.480
+I'm just gonna do a class of grid.
+
+01:02.490 --> 01:04.440
+This is gonna be the container.
+
+01:04.530 --> 01:08.190
+And it does it doesn't matter what you call the class obviously I just call that grid.
+
+01:08.190 --> 01:11.820
+And then let's do a few divs with the class of item.
+
+01:11.940 --> 01:19.180
+So we'll just for the content we'll say item and then incrementing number and we'll do times three guys
+
+01:19.200 --> 01:23.760
+we have three div elements inside of our container here.
+
+01:24.180 --> 01:30.810
+So let's let's style the items first of all just so we can kind of get a better visual picture of how
+
+01:30.810 --> 01:31.400
+this works.
+
+01:31.400 --> 01:35.310
+So I'm going to add let's say padding.
+
+01:35.610 --> 01:48.760
+We'll do three ram and let's do a border one pixels solid and a background of light grey.
+
+01:49.360 --> 02:04.030
+Let's do a font size of one point three ram we'll do font weight fold and let's do text align center.
+
+02:04.030 --> 02:04.320
+All right.
+
+02:04.360 --> 02:10.090
+So let's save this and we'll go ahead and open the sub with live server and we just have our three element
+
+02:10.210 --> 02:11.260
+three items here.
+
+02:11.680 --> 02:18.810
+So what we need to do now is add for this this parent right here this div we want to add display grid.
+
+02:18.820 --> 02:25.630
+So I'm going to say the class of grid we want to do display and then grid.
+
+02:25.630 --> 02:26.110
+OK.
+
+02:26.110 --> 02:31.540
+Now if I save that nothing happens it's not like flex where it automatically turns into a flex row.
+
+02:31.660 --> 02:36.840
+What we need to do is add a another property called GRID template columns.
+
+02:36.970 --> 02:40.840
+So let's say a grid dash template.
+
+02:40.840 --> 02:43.070
+Dash columns.
+
+02:43.300 --> 02:51.190
+And here's where we specify how many columns we want and also the width of those columns.
+
+02:51.190 --> 02:57.580
+OK so basically by columns I mean we'll have one column another column so basically going in a horizontal
+
+02:57.580 --> 02:58.270
+row.
+
+02:58.390 --> 03:05.470
+So let's say we want to do three columns that are 200 pixels wide so 200 pixels for the first second
+
+03:06.040 --> 03:07.180
+and third.
+
+03:07.180 --> 03:10.210
+And if I save that that's exactly what we get.
+
+03:10.210 --> 03:13.390
+OK so no floats or anything like that.
+
+03:13.390 --> 03:17.440
+We simply create the number of columns we want and the width.
+
+03:17.440 --> 03:23.430
+Now even if we have more than 3 3 great items here.
+
+03:23.440 --> 03:27.000
+That's absolutely fine it's just going to continue on to the next line.
+
+03:27.040 --> 03:36.420
+So if I were to copy this down and say 4 and save it's just going to go right into the next spot.
+
+03:36.610 --> 03:36.850
+OK.
+
+03:36.880 --> 03:45.040
+If we do two more and we say five six and save it's just going to it's just going to keep going in this
+
+03:45.160 --> 03:47.230
+in this sequence.
+
+03:47.230 --> 03:47.500
+All right.
+
+03:47.530 --> 03:53.240
+So this is great for like new sites which is what one of the projects that we're going to build.
+
+03:53.260 --> 03:57.800
+It's great for image galleries and it's just great for all just basic layout.
+
+03:57.910 --> 04:03.110
+It's just to if you want just a main area with a side bar you simply set two columns.
+
+04:03.160 --> 04:03.490
+All right.
+
+04:03.490 --> 04:10.700
+Now this obviously doesn't go all the way across its container which which is container is the viewport.
+
+04:11.080 --> 04:16.750
+But let's say we wanted the middle one to stretch so that this went all the way across.
+
+04:16.750 --> 04:23.590
+We could use auto so if I put an auto here and I save now it's going to give it the length that it needs
+
+04:23.590 --> 04:28.480
+to fill the container and if I stretch it out it's always going to fill its container.
+
+04:28.480 --> 04:29.390
+OK.
+
+04:29.500 --> 04:34.900
+And let's say I wanted them all to be the same but I wanted them to fill the container I could do this.
+
+04:34.900 --> 04:42.640
+I mean just copy this down car comment this so and instead of doing the two hundred pixels let's do
+
+04:43.600 --> 04:52.450
+auto let's do it three times OK so now we have three columns that are all the same size if we wanted
+
+04:52.450 --> 04:56.050
+for we could add in another one like that.
+
+04:56.140 --> 05:02.020
+Now there's a better way to do this if you're gonna be repeating the same width like this.
+
+05:02.020 --> 05:08.260
+You can simply use repeats and then this takes in two things it takes in the number of times you want
+
+05:08.260 --> 05:11.100
+to repeat which I'm going to say three and then the width.
+
+05:11.110 --> 05:15.740
+You want to repeat which I'll do auto and save and you see we get the same result.
+
+05:15.760 --> 05:22.480
+If I were to put let's say 200 pixels in here and save it's going to repeat 200 pixels three times.
+
+05:22.510 --> 05:26.100
+So this is a much nicer way to do it.
+
+05:26.110 --> 05:32.530
+Now we used pixels here you can also use other units you can use percentages but the most common unit
+
+05:32.530 --> 05:36.460
+you're going to see when using the grid is an F R unit which is a fraction.
+
+05:36.490 --> 05:38.740
+So it's basically a fraction of the page in it.
+
+05:38.980 --> 05:47.140
+It works similar to how the the the Flex property works and we say flex one flex to you know it's work
+
+05:47.140 --> 05:48.160
+similar to that.
+
+05:48.190 --> 05:52.920
+So I'm going to copy this down and comment that out.
+
+05:52.930 --> 05:55.360
+I just want you guys to have this as a reference.
+
+05:55.360 --> 06:05.860
+But we can do let's say one FIA for the first row too far for the second and one far for the third and
+
+06:05.860 --> 06:06.870
+we'll save.
+
+06:06.880 --> 06:13.480
+And you can see that it's split up into fractions and the second one is larger and if I wanted it even
+
+06:13.480 --> 06:17.330
+larger I could do three FDR and it will extend more.
+
+06:17.430 --> 06:18.210
+OK.
+
+06:18.240 --> 06:23.590
+So I wanted to do two and then maybe two on the end so we'll have one short and then two longer ones
+
+06:23.590 --> 06:26.880
+we could do that could do any combination we want.
+
+06:27.010 --> 06:31.160
+And of course we can do repeat with FIA as well.
+
+06:31.870 --> 06:38.050
+And that's usually what I would do is repeat 3 1 FIA if I wanted three columns that were all the same
+
+06:38.050 --> 06:38.970
+with.
+
+06:39.070 --> 06:42.480
+Now notice that these are all stuck together.
+
+06:42.490 --> 06:42.880
+Right.
+
+06:42.880 --> 06:49.600
+So instead of adding margin there's actually a specific property we can use called GRID gap.
+
+06:49.860 --> 06:50.110
+OK.
+
+06:50.200 --> 06:55.990
+So we're going to say grid gap and you can put any unit here pixels whatever I'm just gonna do one room
+
+06:56.470 --> 06:59.760
+and save and it's automatically going to add that gap.
+
+06:59.770 --> 07:01.780
+That's spacing in between.
+
+07:01.840 --> 07:02.200
+All right.
+
+07:02.200 --> 07:08.200
+And there's no dealing with you know calculating widths or anything like that it just it just simply
+
+07:08.200 --> 07:16.750
+works and it doesn't matter how how wider or narrow the browser is either.
+
+07:16.750 --> 07:17.050
+All right.
+
+07:17.080 --> 07:23.950
+So that's pretty much the basics of how to create a grid and create basically a horizontal row with
+
+07:23.950 --> 07:25.320
+columns.
+
+07:25.420 --> 07:31.970
+What I want to show you now is just how easy it is to do a simple layout like a main area and a sidebar
+
+07:31.990 --> 07:38.080
+if you remember back to when we did the floats where we had to carefully choose the percentages we had
+
+07:38.080 --> 07:40.060
+to clear them stuff like that.
+
+07:40.060 --> 07:47.620
+So just want to show you how simple it is if we had let's say Main and inside main we want our main
+
+07:47.620 --> 07:58.300
+area our content area to be a section and we'll just put an H three say Welcome to my sites and we'll
+
+07:58.300 --> 08:04.960
+do a paragraph and say Lorem 30 and let's say we want an aside.
+
+08:04.970 --> 08:09.590
+So this would be our sidebar we'll just say whatever Hello.
+
+08:10.090 --> 08:13.260
+And let's say Lorem 10.
+
+08:13.360 --> 08:17.220
+OK so we're gonna save this and we want this to be our sidebar.
+
+08:17.230 --> 08:19.130
+So we want this to be over here.
+
+08:19.180 --> 08:26.920
+So with the grid we could take this main because that's the parent of the section and the aside and
+
+08:26.920 --> 08:38.710
+we could simply say display grid and we'll define our grid template columns and we'll simply do too
+
+08:38.770 --> 08:45.550
+far for the main area or for the section and then one F5 for the aside for the sidebar and then let's
+
+08:45.550 --> 08:51.940
+give it a grid gap of let's say one point five RAM and save and that's it.
+
+08:52.380 --> 08:52.700
+OK.
+
+08:52.720 --> 08:58.050
+So three lines instead of having to flow and deal with percentages it's very very simple.
+
+08:58.120 --> 09:05.950
+If we wanted to have it split in the middle we could do one fire one fire like that OK if we wanted
+
+09:05.950 --> 09:08.260
+this to be a little bigger we could do three Fia.
+
+09:08.290 --> 09:15.800
+So it's very simple to manipulate how your content is displayed and how things are aligned.
+
+09:15.820 --> 09:16.090
+All right.
+
+09:16.090 --> 09:20.860
+So in the next video we're gonna start to look at grid rows because up to this point we've looked at
+
+09:20.860 --> 09:24.240
+grid template columns but there's also a grid template rows.
+
+09:24.400 --> 09:25.840
+So we're gonna get into next.

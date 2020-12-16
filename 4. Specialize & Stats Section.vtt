@@ -1,0 +1,598 @@
+WEBVTT
+
+00:00.400 --> 00:06.210
+All right guys so in the last video we did the header the nav bar basically the landing part of the
+
+00:06.210 --> 00:07.820
+website on the index page.
+
+00:07.830 --> 00:10.170
+Now we're going to continue with the index page.
+
+00:10.170 --> 00:15.340
+And I also have a tab with the finished product just to see what we're gonna be getting at.
+
+00:15.540 --> 00:23.350
+Now the way I'm going to format this is each page is going to have sections so the sections I'm going
+
+00:23.350 --> 00:28.410
+to give an idea of the page name and then A B C D and so on.
+
+00:28.410 --> 00:33.630
+And the reason for that is you might end up changing the content so I don't want to call this like section
+
+00:33.630 --> 00:36.130
+specialize or something like that.
+
+00:36.360 --> 00:39.920
+I'm going to call this section home a k.
+
+00:39.930 --> 00:41.490
+This will be home B.
+
+00:41.490 --> 00:47.880
+This will be home C and then this will be the footer K on the about page will have about a about B about
+
+00:47.880 --> 00:49.330
+C and so on.
+
+00:49.350 --> 00:51.800
+So let's go ahead and move on to this right here.
+
+00:51.800 --> 00:58.590
+This specialize in part so I'm going to jump in to index each team out and let's go ahead and put a
+
+00:58.590 --> 01:06.240
+comment in here and we'll just say section A and we can put what it is in the comment that's always
+
+01:06.240 --> 01:17.760
+easy to change so we'll do specialize so let's do section with an I.D. of s..
+
+01:17.820 --> 01:23.400
+I'm sorry not section home because we want to because we don't have Section A on the home page and then
+
+01:23.400 --> 01:25.190
+Section A on the about page.
+
+01:25.200 --> 01:29.910
+So we're going to do home a And let's also
+
+01:33.040 --> 01:39.100
+yeah let's do this now so I'm going to give this a couple utility classes now we already have a text
+
+01:39.730 --> 01:42.870
+center utility class because I want everything centered.
+
+01:42.970 --> 01:47.920
+I'm also going to create some padding classes as we've done before I want P Y meaning padding on the
+
+01:47.920 --> 01:49.730
+top and bottom two.
+
+01:50.050 --> 01:54.580
+So well we'll at we'll create that class later on.
+
+01:54.580 --> 01:57.380
+But let's just finish the markup for now.
+
+01:57.460 --> 02:01.780
+So pretty much every section is gonna have a container.
+
+02:01.810 --> 02:03.270
+Want to move everything to the middle.
+
+02:04.060 --> 02:16.420
+Let's do an H two and we'll gonna have a class of Section dash title and we'll say I specialize in and
+
+02:16.450 --> 02:23.290
+underneath the H two we're gonna just have a class of bottom dash line.
+
+02:23.510 --> 02:23.890
+OK.
+
+02:23.890 --> 02:27.960
+And just to show you what that's going to look like it's gonna be this right here.
+
+02:27.970 --> 02:28.300
+OK.
+
+02:28.330 --> 02:32.080
+So we can use that around the site under the bottom line.
+
+02:32.080 --> 02:37.600
+Let's do a paragraph with the class of lead.
+
+02:37.600 --> 02:40.890
+And in here we're gonna say.
+
+02:41.620 --> 02:44.500
+So you're saying I specialize in in the most say
+
+02:46.930 --> 02:57.310
+photography as well as creating digital masterpieces.
+
+02:57.370 --> 03:01.290
+I might misspell some stuff here guys but I really don't care.
+
+03:01.300 --> 03:14.480
+So in UI UX layouts for Web sites for Web sites and mobile applications.
+
+03:14.700 --> 03:21.820
+OK we'll be a bit more descriptive than some of our other projects where we just use just alarm Epsom
+
+03:22.690 --> 03:31.990
+so underneath the paragraph we're gonna have a class of specials and inside here we're gonna have some
+
+03:31.990 --> 03:36.070
+divs and we're gonna be using the grid for this as well.
+
+03:36.070 --> 03:38.710
+So each div is gonna have an icon.
+
+03:38.710 --> 03:40.420
+So let's put an icon here.
+
+03:40.420 --> 03:47.210
+Let's do F.A. s and then we want a class of F A Dash file dash all.
+
+03:47.470 --> 03:49.150
+That's the icon we want to use.
+
+03:49.210 --> 03:54.550
+And then if we want to make an icon bigger font awesome have has classes for that we're gonna do F.A.
+
+03:54.550 --> 03:57.520
+dash to X so that's our icon.
+
+03:57.530 --> 04:06.760
+Then we're gonna put an H three and this is gonna be concept ing and then a paragraph and I believe
+
+04:06.760 --> 04:11.040
+I did Lord when he should be right.
+
+04:11.320 --> 04:15.580
+And then what we'll do is just copy this whole div and we want for these.
+
+04:15.580 --> 04:19.930
+So we've got one two three four.
+
+04:19.960 --> 04:20.410
+OK.
+
+04:20.410 --> 04:24.010
+And then I'm just going to change the second one here.
+
+04:24.010 --> 04:35.440
+Let's do instead of this file all let's do F.A. dash desktop and the heading is gonna be UI dash UX.
+
+04:36.070 --> 04:43.090
+And then this third one here will be a dash object dash on group.
+
+04:43.090 --> 04:45.980
+These are just icons I found on font awesome.
+
+04:46.120 --> 04:51.730
+And then this is gonna be visual design.
+
+04:51.730 --> 05:00.320
+And then this last one here is gonna be thumbs up so thumbs dash up and the heading for this is gonna
+
+05:00.340 --> 05:06.130
+be interaction.
+
+05:06.130 --> 05:06.540
+OK.
+
+05:06.570 --> 05:14.130
+So that is Section A and if we take a look at it our version it looks like this which looks pretty crappy
+
+05:14.140 --> 05:16.780
+so we're gonna add the CSX for this.
+
+05:17.230 --> 05:26.200
+So let's jump into the s code and before I start with this specific styles here let's go to our utilities
+
+05:26.740 --> 05:32.260
+and let's add in let's create our padding classes.
+
+05:32.260 --> 05:32.650
+All right.
+
+05:32.650 --> 05:39.930
+So for padding I want to have padding on the top and bottom.
+
+05:40.300 --> 05:47.260
+So we're going to use the P Y so we can actually just do class P Y and then for each one we can do like
+
+05:47.260 --> 05:51.360
+Ampersand dash one which will be p y dash one.
+
+05:52.270 --> 06:03.550
+And I'm going to set the padding to what's to one room top and bottom zero room left and right.
+
+06:04.710 --> 06:05.240
+OK.
+
+06:05.250 --> 06:09.130
+And then we can just basically just copy this down.
+
+06:09.370 --> 06:11.830
+Let's do four of them.
+
+06:11.830 --> 06:19.750
+So one two three and four second one will be two.
+
+06:21.010 --> 06:24.220
+Yeah we'll do two to three room four.
+
+06:25.750 --> 06:26.080
+All right.
+
+06:26.080 --> 06:30.140
+So if I save that and we take a look we should have some padding here.
+
+06:30.150 --> 06:32.390
+Let's check it out.
+
+06:32.720 --> 06:33.620
+Looks like we do.
+
+06:33.620 --> 06:35.180
+Well let's make sure.
+
+06:35.180 --> 06:40.310
+So yeah we can see the padding when the green and if and if you guys want to extend it a little more
+
+06:40.310 --> 06:43.550
+if you want these P three instead anything like that.
+
+06:43.550 --> 06:45.610
+Feel free to do that.
+
+06:45.830 --> 06:51.370
+Now while we're at it we might as well add some margin classes like this.
+
+06:51.770 --> 06:58.600
+And I mean if you want to put it all on one line like if you want to do that to clean it up you might.
+
+06:58.600 --> 06:59.230
+You can do that.
+
+06:59.240 --> 07:04.430
+But if you use pretty air and you save by default it's going to format it like this just to let you
+
+07:04.430 --> 07:04.730
+know.
+
+07:05.330 --> 07:06.620
+So it's do margin.
+
+07:06.620 --> 07:15.500
+This will be m y and then we're just going to change these four to margin okay.
+
+07:15.520 --> 07:18.860
+So that should be good.
+
+07:19.000 --> 07:22.140
+Let's save that.
+
+07:22.140 --> 07:31.190
+And now let's go back to our main file because now we want to target the actual home a I d.
+
+07:31.210 --> 07:31.570
+All right.
+
+07:31.570 --> 07:36.460
+So for the home styles let's put a comment in here.
+
+07:36.490 --> 07:47.980
+Let's just say home sections OK so we have a D home and let's do Ampersand dash a which will target
+
+07:48.130 --> 07:50.530
+home dash a.
+
+07:50.530 --> 07:55.280
+Now I'm going to target these specials class.
+
+07:55.660 --> 08:00.230
+And like I said I want to use the grid I'm actually going to add a little bit of margin to the top though
+
+08:00.230 --> 08:02.650
+so let's do margin top.
+
+08:02.650 --> 08:10.430
+We'll do three ram and let's do display grid.
+
+08:10.470 --> 08:19.360
+OK we're going to add a grid gap of one room and let's do our grid column.
+
+08:19.360 --> 08:27.040
+So grid dash grid dash template columns.
+
+08:27.040 --> 08:37.090
+And I'm just going to do a repeat and let's say repeat four times one fraction case will have four even
+
+08:37.090 --> 08:41.380
+columns and then the icon.
+
+08:41.380 --> 08:47.570
+I actually want to make the main color so inside specials we're going to grab the class of FAA.
+
+08:47.590 --> 08:48.070
+What is it.
+
+08:48.070 --> 08:59.390
+FAA yes because each icon has a class of FAA so let's grab on to that and let's set the color to the
+
+08:59.420 --> 09:01.990
+main color.
+
+09:01.990 --> 09:02.330
+All right.
+
+09:02.330 --> 09:11.360
+And then I'm just gonna add a padding bottom of zero point for RAM.
+
+09:11.450 --> 09:15.300
+So let's take a look at that and that looks pretty good.
+
+09:15.830 --> 09:17.830
+OK so we set this.
+
+09:17.840 --> 09:20.450
+This is the div with the class of specials.
+
+09:20.450 --> 09:28.010
+We set that to be a grid and we set template columns of repeat for 1 f fa so they're all even and then
+
+09:28.010 --> 09:31.600
+we have a grid gap of 1 RAM in between.
+
+09:31.720 --> 09:38.480
+And we change the icon colors so let's move on to the.
+
+09:38.510 --> 09:40.910
+Section B which is this part here.
+
+09:41.600 --> 09:54.140
+So jump back into our index each team L and go under the last section here and let's put a comment we'll
+
+09:54.140 --> 09:59.420
+say Section B which is basically stats.
+
+09:59.420 --> 10:06.500
+So the awards and stuff like that so we're gonna do section with the class of home Dash.
+
+10:06.510 --> 10:15.050
+B Let's do some utility classes so tech center and let's let's also do P Y too so padding on the top
+
+10:15.050 --> 10:18.220
+and bottom and then I'm going to have a class of stats.
+
+10:18.230 --> 10:27.560
+We're also going to use the grid here and let's do a div OK so each div is going to have a well and
+
+10:27.560 --> 10:31.100
+the first list item here is gonna be an icon.
+
+10:31.160 --> 10:40.940
+So let's do an I I tag with the class of FAA s and I'm going to do F A Dash users OK.
+
+10:41.000 --> 10:52.040
+And then let's do an ally with a class of stats dash title and I'm going to do clients and then let's
+
+10:52.040 --> 10:58.440
+do an ally with a class of stats dash No.
+
+10:58.730 --> 11:02.030
+And I'm gonna say 100 all right.
+
+11:02.030 --> 11:10.020
+And then I'm just gonna copy this div and we're gonna have for these as well so two three four save.
+
+11:10.430 --> 11:16.060
+And then let's go and change the second one from starting with the icon.
+
+11:16.100 --> 11:18.900
+We're gonna do FAA award.
+
+11:19.190 --> 11:27.590
+One thing I forgot is I want to make these icons bigger so we want to add FAA dash 3 x for all of these.
+
+11:27.590 --> 11:28.930
+So let's just do that.
+
+11:32.040 --> 11:32.700
+OK.
+
+11:32.710 --> 11:39.850
+And then we have FAA award changes to awards and let's say that this user or this developer has three
+
+11:39.850 --> 11:41.440
+awards.
+
+11:41.950 --> 11:58.280
+OK next one is gonna be ours worked so FAA dash our glass dash start say hours worked and let's do thirty
+
+11:58.280 --> 11:59.170
+five hundred.
+
+12:00.890 --> 12:04.910
+It's just a random number I don't know if that's a lot or a little or what.
+
+12:04.910 --> 12:13.730
+And then this icon here is gonna be FAA dash code dash branch and you can find all these in the font
+
+12:13.760 --> 12:26.030
+awesome Web site and then this is gonna be projects completed and let's do one thirty five.
+
+12:26.780 --> 12:27.190
+OK.
+
+12:27.200 --> 12:32.810
+So we'll save that lawsuit it looks like without CSF so looks absolutely horrible.
+
+12:32.810 --> 12:42.280
+So now let's go back to main dot SPSS and now we're gonna deal with with the Section B.
+
+12:42.290 --> 12:44.390
+So just like we did here.
+
+12:44.450 --> 12:45.980
+So this ends right here.
+
+12:45.980 --> 13:01.040
+We're gonna do Ampersand dash B and if you want to put comments here Home section B go up here and a
+
+13:01.190 --> 13:04.760
+home section A.
+
+13:07.010 --> 13:13.400
+So I mean you know certain people might like this way of doing it and you might not but it's it's all
+
+13:13.400 --> 13:16.470
+preference I just I'm just giving you guys the option.
+
+13:16.880 --> 13:27.410
+So let's take the stats that are in Section B class of stats and let's display a grid and let's do our
+
+13:27.410 --> 13:42.640
+grid dash template dash columns and say repeat for one FDR and you could even create functions if you're
+
+13:42.640 --> 13:44.530
+seeing the same type of patterns.
+
+13:44.530 --> 13:50.590
+You could even you know shorten this up a little more create functions extend styles things like that.
+
+13:50.590 --> 13:54.450
+So do you want to make this new this project even better.
+
+13:54.460 --> 13:56.480
+I invite you to do that.
+
+13:56.650 --> 14:07.300
+So let's take the list items and I'm going to do a line height of two for each list item.
+
+14:07.300 --> 14:07.630
+All right.
+
+14:07.630 --> 14:13.270
+And then remember some of the list items have class names such as stats titles so going to take this
+
+14:13.330 --> 14:20.140
+the list item with the class of stats dash title.
+
+14:20.140 --> 14:26.400
+And let's set the font size to one point five REM.
+
+14:26.530 --> 14:28.320
+And then we also have stats number.
+
+14:28.330 --> 14:32.800
+So let's say the list item with the class of stats
+
+14:34.870 --> 14:37.750
+dash number
+
+14:40.900 --> 14:54.770
+and let's set the font size here to to ram and let's set the font weight to bold.
+
+14:55.090 --> 14:55.560
+OK.
+
+14:55.570 --> 15:01.860
+Now if we save that and we take a look this is what it looks like.
+
+15:01.870 --> 15:09.580
+Oh you know what I think I forgot the container.
+
+15:09.960 --> 15:11.490
+Actually no we don't want a container.
+
+15:11.490 --> 15:12.330
+If we look at this.
+
+15:12.330 --> 15:12.520
+Yeah.
+
+15:12.530 --> 15:15.360
+We don't want this bound inside the container.
+
+15:15.360 --> 15:16.260
+That's right.
+
+15:16.260 --> 15:19.950
+It'll look better once we add the colors in the background.
+
+15:19.950 --> 15:22.680
+Now for the colors we're gonna use.
+
+15:22.680 --> 15:23.430
+And the child.
+
+15:23.430 --> 15:27.120
+Odd and the child even because we want light gray dark gray light gray.
+
+15:27.510 --> 15:32.630
+So remember these are all divs so we'll target.
+
+15:32.680 --> 15:40.110
+Let's see we want to go outside of say no we want to be within stats but we want to go outside of the
+
+15:40.110 --> 15:45.060
+ally which ends right here.
+
+15:45.060 --> 15:47.890
+So right here let's say div.
+
+15:48.750 --> 15:51.770
+So for each div I'm actually going to give it some padding.
+
+15:51.780 --> 16:00.570
+Let's do three room top and bottom and then we want to grab the end child on and even so we'll do Ampersand
+
+16:00.600 --> 16:05.630
+colon and we want the end child pseudo selector.
+
+16:05.640 --> 16:16.710
+We want to grab the odds and let's set the background to the light color variable.
+
+16:16.940 --> 16:17.870
+Okay.
+
+16:18.070 --> 16:24.190
+And then we'll take the Evens I'll just grab this and we'll say even.
+
+16:24.190 --> 16:29.820
+And we're gonna set that to the medium color all right.
+
+16:29.880 --> 16:32.960
+Let's take a look and there we go.
+
+16:32.960 --> 16:34.260
+So that looks pretty good.
+
+16:36.530 --> 16:42.720
+So again we have a grid with four columns and we're gonna do the response of this later on four for
+
+16:42.750 --> 16:44.860
+smartphones and stuff like that.
+
+16:44.870 --> 16:45.050
+All right.
+
+16:45.050 --> 16:49.670
+So I think I'm going to stop here in the next video we're gonna get to this part where it's a little
+
+16:49.670 --> 16:50.120
+tricky.
+
+16:50.120 --> 16:55.790
+We have our icons and then we have this positioned in a way so it kind of overlaps it.
+
+16:55.790 --> 16:57.520
+We have a transition.
+
+16:57.800 --> 17:01.840
+So we'll do that and also the footer in the next video.

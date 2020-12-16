@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.580 --> 00:05.520
+All right guys so now we're gonna jump into flex blocks and if you don't understand everything in this
+
+00:05.520 --> 00:07.570
+first video here don't worry about it.
+
+00:07.650 --> 00:12.100
+We're gonna be building an entire project an entire Web site using FLAC.
+
+00:12.120 --> 00:14.730
+So things are gonna come to you as we go.
+
+00:14.940 --> 00:17.990
+But I'm just going to use the CSF sandbox that we've been using.
+
+00:17.990 --> 00:28.650
+I'm going to create a file called 16 underscore flex underscore basics dot h t AML okay and we'll put
+
+00:28.650 --> 00:39.210
+in our boiler plate for our title we'll save flex basics and let's put in our style tags now for the
+
+00:39.210 --> 00:39.830
+body.
+
+00:39.840 --> 00:47.490
+I'm going to have a div I'm just gonna give it an idea of container and then let's do a div with the
+
+00:47.490 --> 00:49.890
+class of item we're going to have a couple of these.
+
+00:49.890 --> 00:55.720
+So for the content inside the item I want to have an h three K we're just using Emmet here.
+
+00:55.750 --> 01:03.510
+I'm gonna say item money sign which will be an incremented number and then I think that's it.
+
+01:03.540 --> 01:11.880
+So let's go ahead and hit I actually wanted two times three and then tab or enter and it will give us
+
+01:11.880 --> 01:15.300
+three divs class item and then h 3s.
+
+01:15.330 --> 01:22.760
+So if I save this and we take a look it's open with live server you'll see we just have our our divs
+
+01:22.760 --> 01:33.890
+here and I just want to style the items so for a class item let's just say background light grey we'll
+
+01:33.890 --> 01:49.820
+do a border of light grey and padding we'll say one room let's text aligned to the center and that should
+
+01:49.820 --> 01:51.290
+be good.
+
+01:51.290 --> 01:55.230
+And now we have some styling for each one here.
+
+01:55.250 --> 02:01.970
+Now remember what I said when we if we say display flex for this item here and for this element it becomes
+
+02:01.970 --> 02:08.000
+a flex container and then everything all the direct children which are these divs are going to become
+
+02:08.000 --> 02:13.900
+flex items which we can lay out horizontally or vertically in a column.
+
+02:13.910 --> 02:22.130
+So let's take that container and let's add a display property with a value of flex and as soon as I
+
+02:22.130 --> 02:22.610
+save.
+
+02:22.610 --> 02:23.990
+Notice what happens.
+
+02:23.990 --> 02:26.530
+They get aligned horizontally.
+
+02:26.530 --> 02:32.930
+K. so basically doing what like a float does with just this one line and it doesn't matter if these
+
+02:32.930 --> 02:39.140
+don't have classes it doesn't matter if these are divs or list elements or I'm sorry list items it doesn't
+
+02:39.140 --> 02:46.610
+matter anything that's a direct child of this flex item or this flex container I should say is a flex
+
+02:46.610 --> 02:50.310
+item and we'll automatically get put into a row.
+
+02:50.420 --> 03:01.220
+Now we can have flex items go this way in a column by setting flex direction to column.
+
+03:01.340 --> 03:07.100
+And if I save that now it goes back to a column and it's still a flex box we can still use the alignment
+
+03:07.100 --> 03:12.350
+classes and stuff that I'm going to show you in the next video but I want to keep this arrow so I'm
+
+03:12.350 --> 03:17.090
+just going to comment that out and I'm going to put this to Roe which is basically the same thing is
+
+03:17.090 --> 03:19.880
+not putting it at all because Roe is default.
+
+03:19.910 --> 03:26.420
+Oh actually I want to show you we can also do row reverse and if I save that notice that now three is
+
+03:26.420 --> 03:34.220
+the first one and they also get aligned over here and then yes you can do row reverse as well but we're
+
+03:34.220 --> 03:36.970
+going to stick to Roe.
+
+03:37.070 --> 03:43.250
+Now we can set specific widths to these if we want using flex basis in fact we're going to do that in
+
+03:43.250 --> 03:44.360
+the next video.
+
+03:44.630 --> 03:51.710
+But for the most part you're going to want your your horizontal items to go all the way across.
+
+03:51.770 --> 03:52.040
+OK.
+
+03:52.040 --> 03:57.860
+Regardless of which one takes up you know whatever amount of space you want them to go all the way across
+
+03:57.860 --> 04:01.840
+the container which in our case is the whole browser window.
+
+04:01.850 --> 04:10.760
+So what I'm going to do is set on on the item here I'm going to set flex 1 and save OK.
+
+04:10.780 --> 04:15.020
+And what that's going to do is it's going to make them all equal and it doesn't matter how I size the
+
+04:15.020 --> 04:18.210
+browser they're always going to be equal.
+
+04:18.320 --> 04:21.530
+So you can see how easy this is.
+
+04:22.280 --> 04:28.070
+After doing the floats remember we did the flow we did the with whatever I think we did like thirty
+
+04:28.100 --> 04:34.520
+thirty two point three percent and then we had to set the box sizing so that the with the padding didn't
+
+04:34.520 --> 04:40.130
+add to the width we had to clear them and it's just it's just a pain the height you have to add a height
+
+04:40.160 --> 04:41.440
+when you do the floats.
+
+04:41.510 --> 04:44.210
+This makes things so so much easier.
+
+04:44.330 --> 04:50.660
+And I know that it's another thing to learn but once you start using flex in the grid you you don't
+
+04:50.660 --> 04:51.650
+use float.
+
+04:51.980 --> 04:56.670
+Now aside from this course just to teach you guys I haven't used float in years.
+
+04:57.170 --> 05:04.550
+So let's say we wanted to do like a main area in a sidebar we didn't want them to be all equal so let's
+
+05:04.550 --> 05:06.620
+actually just take two of them.
+
+05:06.620 --> 05:10.660
+And even if we have to if they're set to flex one they're going to be equal.
+
+05:11.090 --> 05:16.940
+But what I'll do is I'll take the first one which I could give a custom class if I wanted to but what
+
+05:16.940 --> 05:20.080
+I'm going to do is use this pseudo selector first child.
+
+05:20.090 --> 05:28.460
+So going to say item colon first first child and that's going to select the first item and I'm going
+
+05:28.460 --> 05:31.180
+to set that flex property to two.
+
+05:31.470 --> 05:38.000
+OK so this first one has a flex of two and then the second one has flex of one.
+
+05:38.000 --> 05:39.260
+So let's save that.
+
+05:39.410 --> 05:42.320
+And now you'll see that this has more space.
+
+05:42.320 --> 05:48.890
+OK so easy way to set up a main area in a sidebar and it's going to stay like that no matter what.
+
+05:49.610 --> 05:49.960
+OK.
+
+05:49.970 --> 05:55.470
+If we wanted it to be even bigger we could say Flex Three and save and it gets even bigger.
+
+05:56.430 --> 06:02.590
+OK but I'm going to put this let's just put this back to one.
+
+06:04.040 --> 06:05.120
+Yeah we'll just do that.
+
+06:06.620 --> 06:11.190
+So let's see what else we want to show you guys in this video.
+
+06:12.920 --> 06:18.310
+If we wanted some margin because right now you can see there they're basically stuck to each other.
+
+06:18.530 --> 06:22.050
+So we could add margin to the item as well.
+
+06:22.130 --> 06:32.420
+So if I say margin let's do zero point seven five RAM and save and we get our margin let's put the third
+
+06:32.420 --> 06:33.140
+one back.
+
+06:34.520 --> 06:34.930
+OK.
+
+06:34.930 --> 06:35.760
+So no matter what.
+
+06:35.780 --> 06:38.360
+And now I can keep bringing I can keep bringing in more.
+
+06:38.480 --> 06:43.430
+Let's put that in it's just everything just works.
+
+06:43.430 --> 06:45.660
+It just aligns how it should.
+
+06:46.010 --> 06:53.900
+Now we do have a property called flex wrap because once you hit twelve it's gonna do one of two things
+
+06:53.900 --> 06:58.490
+it's going to keep it's going to go off the screen and you'll have a scroll bar or it'll wrap onto the
+
+06:58.490 --> 06:59.180
+next line.
+
+06:59.180 --> 07:03.260
+So what we have here one two three four five six seven eight.
+
+07:03.320 --> 07:09.410
+So let's do nine 10 11 12 13 14 15 16 and let's save.
+
+07:09.470 --> 07:16.040
+So notice now we have a scroll bar because it's not going to put more than 12 on the screen but if we
+
+07:16.040 --> 07:24.290
+wanted to wrap onto the next line we could go to our container and we could add a property of flax wrap
+
+07:24.710 --> 07:26.740
+and we could set that to wrap.
+
+07:26.910 --> 07:28.940
+OK so we have we have no wrap.
+
+07:28.970 --> 07:29.600
+We have wrap.
+
+07:29.600 --> 07:35.640
+We have wrapper verse which we just reverse some and save and I can see they go on to the next slide.
+
+07:36.440 --> 07:36.770
+All right.
+
+07:36.770 --> 07:37.960
+So and you can see.
+
+07:38.440 --> 07:41.650
+So it's pretty cool and think of it.
+
+07:41.660 --> 07:46.760
+Think of if we did like an image gallery or something you know it makes things much easier than having
+
+07:46.760 --> 07:53.480
+to float these clear them deal with the heights deal with you know all the crap that goes into floating
+
+07:53.480 --> 07:54.780
+the widths.
+
+07:54.830 --> 07:57.770
+So yeah it makes things much easier.
+
+07:57.770 --> 08:00.440
+So another thing that we can do.
+
+08:00.710 --> 08:06.380
+I'm trying to think of all the properties I want to display here we have flex flow which is basically
+
+08:06.380 --> 08:10.880
+a shortcut for the direction and the wrap.
+
+08:11.350 --> 08:11.710
+OK.
+
+08:11.720 --> 08:19.620
+So instead of putting both of these we could do flex flow and we could say we want a row and we want
+
+08:19.620 --> 08:21.490
+it to wrap.
+
+08:21.530 --> 08:27.470
+So that's the same as these two so if I comment these two out and save we get the same thing.
+
+08:27.530 --> 08:33.470
+If I wanted to change this to let's say no wrap and save now I can see there's no wrap.
+
+08:33.470 --> 08:37.100
+All right but I don't I personally don't usually use flex flow.
+
+08:37.100 --> 08:45.260
+I don't usually use wrap because I don't have in most cases I won't have more than twelve flex items.
+
+08:45.260 --> 08:45.590
+All right.
+
+08:45.590 --> 08:49.300
+So let's see I think that's it.
+
+08:50.060 --> 08:50.380
+Yeah.
+
+08:50.390 --> 08:57.050
+So in the next video I'm going to show you how we can work with the alignment properties like justify
+
+08:57.080 --> 09:04.190
+content a line items and stuff like that which are very useful if you know you don't have them spanning
+
+09:04.190 --> 09:07.880
+across the whole the whole parent container.
+
+09:07.880 --> 09:09.890
+All right so we'll get into alignment next.

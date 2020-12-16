@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.240 --> 00:00.520
+All right.
+
+00:00.540 --> 00:03.570
+So now it's time to actually upload our Web site.
+
+00:03.600 --> 00:09.900
+So if we go to our domain name obviously yours is different but mine is edge ledger dot net.
+
+00:09.900 --> 00:13.500
+We're just going to see the emotion just place holder.
+
+00:13.620 --> 00:17.270
+So we obviously want to replace this with the Web site that we built.
+
+00:17.280 --> 00:24.160
+So we're gonna go down to words as files and we want to click on FTB accounts.
+
+00:24.160 --> 00:31.860
+OK FCP stands for File Transfer Protocol and it's an Internet protocol that's used for file transfer.
+
+00:31.890 --> 00:35.200
+That's the I guess that's the easiest way I can put it.
+
+00:35.310 --> 00:38.650
+And right here we can put it in just like with the e-mail accounts.
+
+00:38.670 --> 00:39.720
+Any name we want.
+
+00:39.720 --> 00:45.340
+I'm just gonna do Brad and it's gonna be at edu ledger dot that year will be different obviously.
+
+00:45.510 --> 00:46.820
+And then a password.
+
+00:46.830 --> 00:51.000
+So just put in a password here
+
+00:54.210 --> 00:56.010
+and this is really important.
+
+00:56.010 --> 01:03.270
+So the directory by default it's going to put it into this this FCP account will go to just a separate
+
+01:03.270 --> 01:05.880
+folder called Brad which is not very useful.
+
+01:05.880 --> 01:12.650
+We want to actually go to the root of the of the Web site so that we can access the root page here.
+
+01:12.690 --> 01:18.900
+So we're going to just clear all of this out like that and you can also set a quota if you want and
+
+01:18.930 --> 01:19.740
+upload quota.
+
+01:19.760 --> 01:25.290
+But we're just going to keep on limited and then let's click creative to FTB account and now that's
+
+01:25.290 --> 01:28.230
+been created now to access our file.
+
+01:28.230 --> 01:33.840
+We need to we need to FCP client and I would highly recommend file zilla.
+
+01:33.930 --> 01:42.120
+So if we just search for file Zilla it's gonna be this right here file Zilla project dot org and you
+
+01:42.120 --> 01:48.120
+want to make sure you get the client not the server the server is if you want to have your own FTB server.
+
+01:48.120 --> 01:54.340
+So you just want to click download here and download and it's for Mac Windows Linux it's cross platform.
+
+01:54.600 --> 01:59.850
+So just grab that once it's installed you can open it up I already have installed so I'm just going
+
+01:59.850 --> 02:09.030
+to open it up here and you're going to see what you're gonna see something like this and over here on
+
+02:09.030 --> 02:13.410
+this side is your local machine as you can see it's showing my desktop right here.
+
+02:13.410 --> 02:18.540
+These are the folders I have on my desktop which includes the edge ledger Web site that we built.
+
+02:18.540 --> 02:25.590
+So if I go in there you'll see the R H team I'll file USS image javascript DSA store is just a hidden
+
+02:25.590 --> 02:27.720
+Mac file so don't worry about that.
+
+02:27.730 --> 02:29.640
+If you're on Windows you won't even have that.
+
+02:30.540 --> 02:35.770
+But what we're gonna do now is log in to our Web site through FTB.
+
+02:35.790 --> 02:38.750
+So up here in the host We want to put our domain name.
+
+02:38.760 --> 02:45.930
+So I'm going to use edge ledger dot net.
+
+02:45.930 --> 02:53.940
+And then the user name is going to be whatever your FTE account is mine is Brad at edged ledger dot
+
+02:53.970 --> 02:55.160
+net.
+
+02:55.620 --> 03:06.060
+And then the password that we used what was it and then port you can leave that blank the default port
+
+03:06.060 --> 03:07.770
+for FTB is twenty one.
+
+03:07.770 --> 03:10.320
+But if you leave it blank it's still going to use 21.
+
+03:10.350 --> 03:16.200
+So we don't need to put it in and then quick connect and you might get a box that says like authorize
+
+03:16.200 --> 03:21.060
+or something the first time you try to log in just say OK or authorize or whatever.
+
+03:21.060 --> 03:26.990
+Now what we're looking at here is the root of our entire server or I should say our account.
+
+03:27.210 --> 03:33.180
+And the place where you want to go to for your website is public HDMI out.
+
+03:33.260 --> 03:33.530
+OK.
+
+03:33.540 --> 03:35.300
+This public underscore each team.
+
+03:35.310 --> 03:37.100
+This is our actual website.
+
+03:37.110 --> 03:45.420
+So if we go into there what we're gonna see is a couple of files and the default dot H T M OK so could
+
+03:45.420 --> 03:47.460
+be each team out or each team.
+
+03:47.670 --> 03:52.230
+That is the the landing page that we see that coming soon page.
+
+03:52.260 --> 03:55.860
+So what we want to do is delete everything in here.
+
+03:55.860 --> 03:58.440
+We're just gonna delete all of this.
+
+03:58.740 --> 04:01.190
+So we'll say yes to the confirmation.
+
+04:01.200 --> 04:06.900
+And then if I go back to edge ledger dot net and reload we're just going to see this this blank index
+
+04:06.930 --> 04:07.590
+of.
+
+04:07.740 --> 04:08.150
+OK.
+
+04:08.160 --> 04:10.110
+So there's no files here.
+
+04:10.110 --> 04:16.260
+So we want to go to files Zilla and just bring all of our Web site files not the D.S. store but our
+
+04:16.260 --> 04:23.100
+Web site files right over we can just drag and drop and it's simply going to upload them to our host.
+
+04:23.660 --> 04:24.070
+OK.
+
+04:24.080 --> 04:25.130
+So it's all done.
+
+04:25.200 --> 04:27.780
+So there's only a couple of files so it doesn't take long.
+
+04:28.530 --> 04:34.230
+And then if we go back to our domain and reload there's our Web site.
+
+04:34.440 --> 04:37.230
+So our Web site is now live on the Internet
+
+04:40.470 --> 04:42.160
+and it's easy as that.
+
+04:42.180 --> 04:48.810
+Now FCP is when you start to get into application development when you're building these larger apps
+
+04:49.570 --> 04:51.660
+FCP is not really efficient.
+
+04:51.660 --> 04:52.950
+It's very slow.
+
+04:52.980 --> 04:59.040
+You probably want to start to learn about get in using SSD age using the control panel stuff like that
+
+04:59.760 --> 05:04.940
+but that's later on down the road for now if you're just building small business Web sites each team
+
+05:04.940 --> 05:07.470
+all CSA is a little front end Javascript.
+
+05:07.470 --> 05:09.240
+I mean FCP is fine.
+
+05:09.330 --> 05:16.710
+So now that you know how to purchase shared hosting account create e-mail accounts create RTP upload
+
+05:16.710 --> 05:20.850
+your site in the next video we're gonna start to learn more about CSX.
+
+05:20.850 --> 05:22.960
+We're going to start to learn about transitions and stuff.
+
+05:22.960 --> 05:27.990
+We're gonna start to look at the grid system and then we're going to build some more projects.
+
+05:27.990 --> 05:33.290
+I'm also going to show you how to deploy to a static host called Net lo fi a little later on.
+
+05:33.330 --> 05:33.630
+All right.
+
+05:33.630 --> 05:35.190
+So I'll see you in the next section.

@@ -1,0 +1,742 @@
+WEBVTT
+
+00:00.370 --> 00:03.330
+All right guys so now we're going to take a look at forms and inputs.
+
+00:03.330 --> 00:11.330
+Now it's important to to understand that with forms on a Web site displaying them is with H Tim Allen
+
+00:11.330 --> 00:12.980
+and we can style them with CSX.
+
+00:12.990 --> 00:17.400
+But when you submit a form and make it do something like let's say a registration form.
+
+00:17.400 --> 00:23.190
+That stuff happens on the back end and that happens with some type of programming language like peach
+
+00:23.190 --> 00:26.750
+PEA or Python or JavaScript or something like that.
+
+00:26.760 --> 00:33.180
+So just just understand that each team on CSR to display the form but server side programming languages
+
+00:33.450 --> 00:35.850
+which you'll learn in another course.
+
+00:35.850 --> 00:39.400
+Those that's what is used to actually process the form.
+
+00:39.510 --> 00:39.870
+OK.
+
+00:39.900 --> 00:41.940
+Even a simple contact form.
+
+00:41.940 --> 00:48.870
+Although there are some services that you can use that will basically you can kind of insert a snippet
+
+00:48.870 --> 00:49.530
+into your age.
+
+00:49.530 --> 00:55.530
+Tim Allen you can use their service to process your form and we may talk about that much later on.
+
+00:55.530 --> 00:59.990
+But for now let's go ahead and take a look at creating a form in the different inputs.
+
+01:00.000 --> 01:08.030
+So going to create a file called 0 7 underscore forms underscore input dot h t email and go ahead and
+
+01:08.030 --> 01:13.410
+put our boilerplate in here we'll change the title to forms and input
+
+01:15.930 --> 01:19.270
+and let's go down to the body area and create a form.
+
+01:19.310 --> 01:23.850
+Okay so we're gonna use a form tag and notice when I use Emmett to create a form tag it gives us an
+
+01:23.850 --> 01:24.780
+action.
+
+01:24.810 --> 01:27.590
+This is where the the form is gonna be submitted to.
+
+01:27.930 --> 01:32.400
+So you would submit it to a file sometimes it's gonna be a p p file if that's what you're working with
+
+01:32.400 --> 01:38.100
+on your server it might be something like a file called process stop P HP where it would take all the
+
+01:38.100 --> 01:45.360
+form inputs the values maybe integrate it with a database you can insert the data into a database something
+
+01:45.360 --> 01:46.610
+like that.
+
+01:46.650 --> 01:55.860
+So here is where we're gonna put our inputs and I'm going to separate our labels and inputs with Divs.
+
+01:55.890 --> 02:01.650
+OK so divs are just basically just that divisions if you want to separate your markup and you know in
+
+02:01.650 --> 02:02.790
+certain ways.
+
+02:02.790 --> 02:04.190
+So I'm gonna put a label in here.
+
+02:04.200 --> 02:10.620
+So if I say label tab it'll give me a four attribute and this four attribute you want this to match
+
+02:10.620 --> 02:13.750
+the idea of the input and I'll show you why in a second.
+
+02:13.800 --> 02:19.470
+So let's say this is gonna be for the user's name we'll put the tex name in here right under it we're
+
+02:19.470 --> 02:25.890
+gonna put an input and in this code and emit if I hit enter a tab it's gonna give me a type of text
+
+02:26.160 --> 02:28.770
+by default which is what we want right now.
+
+02:28.800 --> 02:35.950
+So if I go ahead and save this and let's actually run this in life server you'll see we have a label
+
+02:36.240 --> 02:37.720
+and we have our input.
+
+02:37.780 --> 02:45.280
+Now if I give this an I.D. of name which is the same value I did for the four attribute I save that
+
+02:45.280 --> 02:48.410
+and I click on the label it will actually highlight the form.
+
+02:48.810 --> 02:49.120
+OK.
+
+02:49.150 --> 02:54.880
+So if you want that functionality then you want to put the four in the I.D. If this doesn't match you'll
+
+02:54.880 --> 02:58.710
+see if I click on the label it doesn't actually highlight the form.
+
+02:58.810 --> 03:03.430
+It's not something you need to do but if you want that functionality then you want to add both of these
+
+03:04.330 --> 03:10.570
+and then a lot of times with inputs you'll have a name attribute which in this case the value just happens
+
+03:10.570 --> 03:11.650
+to be name.
+
+03:11.920 --> 03:14.620
+But this is what is used on the server side.
+
+03:14.620 --> 03:20.700
+So if on the server and like let's say HP you want to grab the value you would use whatever this is.
+
+03:20.740 --> 03:22.440
+In this case name.
+
+03:22.630 --> 03:22.950
+All right.
+
+03:22.960 --> 03:26.320
+So let's move on to create another input here.
+
+03:26.470 --> 03:31.670
+So we'll put another div we'll do a label this time let's make this an email.
+
+03:32.230 --> 03:34.570
+So we'll put an input in here.
+
+03:34.570 --> 03:40.420
+Now with Emmett we can do a colon here and then whatever that type of input and so I want this to be
+
+03:40.420 --> 03:46.030
+an email type and if we do that it'll also give us the name I.D. by default.
+
+03:46.030 --> 03:50.390
+So we're going to fill this in with email and email.
+
+03:50.470 --> 03:50.800
+All right.
+
+03:50.810 --> 03:57.220
+And I'll save that and notice it looks just like the text field but it has to actually be an email for
+
+03:57.220 --> 03:59.290
+it to for to submit.
+
+03:59.320 --> 03:59.630
+OK.
+
+03:59.650 --> 04:06.060
+So you can actually easily add validation by just using this type email OK.
+
+04:06.100 --> 04:11.500
+It's just client side validation if you're working with a server with like let's say BHP you'd want
+
+04:11.500 --> 04:13.930
+to add validation there as well.
+
+04:13.930 --> 04:15.940
+So that's an email failed.
+
+04:16.360 --> 04:23.560
+And if you want to put your label on a separate line without CSX you could put a line break here.
+
+04:23.560 --> 04:25.450
+Let's go and do that.
+
+04:25.450 --> 04:30.270
+Just think it just looks a little better like that and we're going to I'm going to show you how to style
+
+04:30.280 --> 04:34.290
+form really nice later on it's actually going to be one of our challenges.
+
+04:34.450 --> 04:37.300
+So let's go ahead and create another field here.
+
+04:37.300 --> 04:46.600
+Let's do a div and label and this is going to be for message and message is gonna be a text area which
+
+04:46.600 --> 04:52.930
+is different from a text input like this because it's bigger it's for it's for more content usually
+
+04:52.930 --> 05:00.430
+like a message or don't know a bio or something like that and a text area has its own tag which also
+
+05:00.430 --> 05:06.300
+has an ending tag and I'm going to get rid of these for a second here and just carve the name and I.D..
+
+05:06.520 --> 05:14.920
+So for name let's say a message I.D. will say message and then we don't have to put anything within
+
+05:14.920 --> 05:21.850
+the text area tags with if I save that let's put a line break after the label and save it and you'll
+
+05:21.850 --> 05:22.960
+see that it's a little bigger.
+
+05:22.960 --> 05:29.200
+Now if we want to make this even bigger without without using CSX we can use the calls in roll rows
+
+05:29.230 --> 05:30.310
+attribute.
+
+05:30.400 --> 05:33.790
+So for calls let's do 50 and save.
+
+05:33.820 --> 05:37.100
+So what this is is it's 50 columns going this way.
+
+05:37.150 --> 05:37.500
+All right.
+
+05:37.510 --> 05:42.570
+If we want to make it bigger vertically then we can use rows.
+
+05:42.730 --> 05:45.940
+So we'll say rolls equals five AND SAVE.
+
+05:45.940 --> 05:51.440
+And now it's five rows going down and you can make it as big or as small as you want.
+
+05:51.460 --> 05:52.900
+So that's a text area.
+
+05:52.900 --> 05:57.100
+So these are the main ones like this could this could be a contact form right here.
+
+05:57.280 --> 06:00.250
+But there are other ones let's look at a select list.
+
+06:00.760 --> 06:03.300
+So again we'll put a div in here.
+
+06:04.280 --> 06:05.640
+OK.
+
+06:06.120 --> 06:13.390
+And here let's put a select tag with the name and I.D. let's call this gender.
+
+06:13.750 --> 06:15.420
+Actually we'll call it sex.
+
+06:15.730 --> 06:18.830
+We'll be politically correct here.
+
+06:18.880 --> 06:21.100
+So let's say sex.
+
+06:21.100 --> 06:25.840
+And actually we want to go inside these select we don't want to do this.
+
+06:25.840 --> 06:27.690
+I meant to put a label here.
+
+06:28.030 --> 06:35.960
+So it's to label and then inside the select was where we want to put our options if I just save it like
+
+06:35.990 --> 06:41.090
+this let's put the text in here we have just an empty select list.
+
+06:41.120 --> 06:45.940
+So for each option we want to put an actual option tag with a value.
+
+06:46.160 --> 06:54.630
+So in this case we'll say male and then we'll put the text in here and let's just copy this down let's
+
+06:54.980 --> 07:01.680
+say female and then we'll just put other as an option as well.
+
+07:03.130 --> 07:03.490
+OK.
+
+07:03.520 --> 07:10.270
+So now we have a select list with kind of this drop down menu or we can select an option.
+
+07:10.360 --> 07:10.570
+OK.
+
+07:10.600 --> 07:12.000
+So that is select.
+
+07:12.040 --> 07:16.600
+Let's take a look at number.
+
+07:17.170 --> 07:20.830
+So have a label and let's let's make this one in age.
+
+07:21.340 --> 07:30.910
+We might use this for age and put a line very clear and let's say input and then colon number because
+
+07:30.910 --> 07:32.500
+we want it to be the type of number.
+
+07:33.760 --> 07:36.360
+And if you don't want to remember these image shortcuts.
+
+07:36.370 --> 07:38.800
+Right now if it's too much you don't have to.
+
+07:38.820 --> 07:41.560
+It just it will make your life easier in the future.
+
+07:42.400 --> 07:54.130
+So for name let's say age and for I.D. age OK if we save that it's gonna look like a text field but
+
+07:54.130 --> 07:58.420
+when we click inside of it or when we hover over it actually we get these arrows and we can go ahead
+
+07:58.420 --> 08:02.600
+and we can kind of just change just increment and decrease the number.
+
+08:02.640 --> 08:11.080
+We can also type in a number and we can't type in any any letters except for e because that can actually
+
+08:11.080 --> 08:12.940
+be part of a number.
+
+08:12.940 --> 08:15.280
+So that's a number fields.
+
+08:15.520 --> 08:17.650
+It's good for ages stuff like that.
+
+08:17.650 --> 08:20.090
+Let's take a look at the date type.
+
+08:20.140 --> 08:24.420
+So say div we'll do a label and let's make this one.
+
+08:24.430 --> 08:25.480
+Birth date
+
+08:30.910 --> 08:42.430
+and we'll put a line break at the end here K and we want to do input type of date and we'll say birth
+
+08:42.430 --> 08:50.350
+date for the name and birth date for the I.D. save that and it's gonna give us this.
+
+08:50.350 --> 08:51.930
+Now there's two ways we can use this.
+
+08:51.930 --> 08:53.110
+We can click inside of it.
+
+08:53.110 --> 09:01.290
+We can put in like you know like that or we can click this little arrow which will give us this date
+
+09:01.300 --> 09:04.060
+picker and we can actually pick a date.
+
+09:04.060 --> 09:10.990
+We can go ahead and scroll through the Munch months and years and makes makes it a lot easier to format
+
+09:11.020 --> 09:15.480
+dates and it makes the user format in a certain way.
+
+09:15.490 --> 09:19.200
+So next let's look at radio buttons.
+
+09:19.270 --> 09:24.520
+Create another div here and to label for this let's call it membership.
+
+09:24.520 --> 09:29.720
+Maybe this is some kind of sign up form for a membership and there's different levels.
+
+09:29.830 --> 09:37.860
+So we're going to do an input for each one with the type of radio we'll call then the name is going
+
+09:37.860 --> 09:40.930
+to be the same for each one which will be membership.
+
+09:40.930 --> 09:44.020
+But the value is going to be different for each one.
+
+09:44.050 --> 09:49.130
+So value let's say we have there's a membership called simple.
+
+09:49.330 --> 09:49.690
+All right.
+
+09:49.690 --> 09:52.230
+So we'll do what happened here.
+
+09:52.300 --> 09:54.590
+Value is going to be simple.
+
+09:54.850 --> 09:58.310
+And then the idea will say membership.
+
+09:58.360 --> 10:02.980
+So if we want to have more than one radio button we'll just copy this down.
+
+10:02.980 --> 10:04.600
+Let's do three times.
+
+10:04.600 --> 10:09.540
+Let's say the second membership value is going to be standard.
+
+10:10.270 --> 10:13.750
+And then this third one is gonna be let's say Super.
+
+10:13.750 --> 10:16.360
+Maybe it's like a hosting package or something like that.
+
+10:16.360 --> 10:23.020
+So if we save you'll see that we just have the buttons there's no label and two if we want a label we
+
+10:23.020 --> 10:24.760
+just put the text right next to it.
+
+10:24.790 --> 10:28.090
+So we'll say simple OK.
+
+10:28.180 --> 10:36.630
+We don't we don't even have to do like a label tag or anything standard and super and save.
+
+10:36.640 --> 10:40.810
+And there we go so now we can choose one of these.
+
+10:41.230 --> 10:47.440
+Now let's say that when you load the page you want one preselected if you want to do that what you can
+
+10:47.440 --> 10:53.680
+do is you can take the one you want selected like let's say standard and we can add an attribute here
+
+10:54.040 --> 10:56.150
+of checked.
+
+10:56.200 --> 11:01.120
+So if I say checked and then it loads the page you'll see that it's automatically going to be checked.
+
+11:01.120 --> 11:06.820
+And I forgot to mention with select we can do the same thing let's say we want a female selected on
+
+11:06.820 --> 11:07.650
+a select list.
+
+11:07.660 --> 11:10.080
+You don't use check to use selected.
+
+11:10.150 --> 11:14.450
+So if I save that now notice that female is selected by default.
+
+11:14.620 --> 11:23.290
+Also if we want to pre fill a value here like let's say a name we want to a value we can actually add
+
+11:23.290 --> 11:29.660
+a value attribute and let's say John Doe and save.
+
+11:30.820 --> 11:36.460
+Now sometimes you may want something in here that's not an actual value but kind of like a message like
+
+11:36.520 --> 11:42.430
+enter an email or something like that before each team of five we would have to actually use a value
+
+11:42.730 --> 11:47.830
+but you would want that to go away when you click in the box so we would have to use javascript to add
+
+11:47.830 --> 11:48.970
+that functionality.
+
+11:49.000 --> 11:51.850
+But with each team all five came place holder.
+
+11:52.470 --> 11:52.720
+OK.
+
+11:52.750 --> 12:01.270
+So if we want to add place holder and set that to let's say enter an email and we save.
+
+12:01.270 --> 12:04.150
+Now it seems like it's filled like the value.
+
+12:04.150 --> 12:11.260
+But notice the text is lighter and if I click inside of it it doesn't like it doesn't go it doesn't
+
+12:11.260 --> 12:16.390
+go away but it gives me the cursor at the beginning it's not something that I actually have to delete
+
+12:16.840 --> 12:18.240
+which we don't want.
+
+12:18.250 --> 12:21.430
+OK so that's a that's a placeholder attribute.
+
+12:21.460 --> 12:26.380
+So the last type we want to see was a checkbox which is very similar to a radio button except you can
+
+12:26.500 --> 12:28.150
+you can choose multiple options.
+
+12:28.150 --> 12:30.750
+Notice with the radio I can only choose one.
+
+12:30.750 --> 12:30.960
+OK.
+
+12:30.970 --> 12:36.190
+So there's different situations where you might want to use a checkbox in certain situations where you
+
+12:36.190 --> 12:37.360
+might want to use a radio.
+
+12:37.360 --> 12:43.600
+So I'm going to copy the whole div with the with the membership and let's change this to let's just
+
+12:43.600 --> 12:49.800
+say I like this would be like a hobbies I guess or I mean it doesn't matter it's just an example.
+
+12:49.840 --> 12:53.220
+Well we want to change all the types here to checkbox.
+
+12:53.230 --> 12:58.990
+Now I'm going to show you another little trick if you highlight something like let's say radio and you
+
+12:58.990 --> 13:05.500
+want to choose the next thing that matches the next text of radio you can hold control D and it will
+
+13:05.500 --> 13:07.930
+choose the next one if you want to choose the next.
+
+13:07.930 --> 13:13.720
+Do it again and notice all three are now selected and I can change them all at the same time I'm going
+
+13:13.720 --> 13:21.790
+to change them all to checked I'm sorry not checked checkbox like that and then if you hit escape it'll
+
+13:21.790 --> 13:28.960
+bring you back to your single cursor or you can just click somewhere else and then for the name I'm
+
+13:28.960 --> 13:33.840
+going to double click and highlight and I want to select all the memberships here.
+
+13:34.120 --> 13:40.990
+So I'm going to do control D again just to select all of these and I'm going to change it to the likes
+
+13:41.110 --> 13:41.760
+like that.
+
+13:42.440 --> 13:42.830
+OK.
+
+13:42.850 --> 13:45.420
+And then we can escape and there we go.
+
+13:45.460 --> 13:53.650
+So we have a checkbox likes for the values I'm going to change this one to say let's say bike and say
+
+13:53.650 --> 13:55.170
+this is like a vehicle.
+
+13:55.480 --> 13:59.540
+So bike might not be the best example but it's fine.
+
+13:59.660 --> 14:04.790
+I want to change that to bike as do car
+
+14:07.810 --> 14:12.400
+we want to change the value here too.
+
+14:12.420 --> 14:17.090
+Car pride to the values lower.
+
+14:17.430 --> 14:21.150
+The value is the actual data that gets sent to the server.
+
+14:21.430 --> 14:24.110
+Say boat and I'll change that to boat.
+
+14:24.940 --> 14:26.140
+OK so let's save that.
+
+14:26.140 --> 14:31.260
+Now we have a checkboxes as I like cards selected by default because we have checked.
+
+14:31.270 --> 14:38.550
+I'm going to get rid of that and we can go ahead and we can check as many as we want that.
+
+14:39.370 --> 14:41.210
+OK so that is a checkbox.
+
+14:41.220 --> 14:46.650
+Now we're going to add a submit button because obviously a form is no good unless you can actually submit
+
+14:46.650 --> 14:48.570
+it now with a submit.
+
+14:48.570 --> 14:52.510
+You can do a couple of things you can either.
+
+14:53.210 --> 14:54.770
+Oh and that's something I want to show you too.
+
+14:54.780 --> 14:57.660
+If we have all of these tabbed over we want to bring them back.
+
+14:57.660 --> 15:02.370
+We can hold shift and then hit tab and it'll bring it backwards.
+
+15:02.370 --> 15:07.520
+So for a submit button we could use an input like this.
+
+15:07.670 --> 15:13.950
+We could say input and give it a type of submit and then give it a value which would be the text that's
+
+15:13.950 --> 15:15.570
+actually displayed in the button.
+
+15:15.570 --> 15:21.930
+So if I save that now we have a button that says submit another way to do it would be to use a button
+
+15:21.930 --> 15:22.470
+tag
+
+15:26.700 --> 15:27.850
+so we could do.
+
+15:27.850 --> 15:31.410
+Button and again give it a type of submit.
+
+15:31.410 --> 15:37.620
+And now we would just put the text in the middle like that because input is a self closing tag button
+
+15:37.620 --> 15:38.150
+is not.
+
+15:38.190 --> 15:40.070
+So you would put the text in the middle.
+
+15:40.140 --> 15:42.880
+So that will give us the same thing.
+
+15:42.900 --> 15:44.020
+All right.
+
+15:44.340 --> 15:49.230
+I'm just going to comment these just so you guys know what is what.
+
+15:49.230 --> 15:50.550
+So that's a text input.
+
+15:50.550 --> 15:53.640
+This is an e-mail input.
+
+15:53.640 --> 16:01.880
+This is a message input not a message a text text area input.
+
+16:02.100 --> 16:04.350
+See this is a select
+
+16:06.740 --> 16:07.900
+this is a no
+
+16:10.640 --> 16:13.510
+this is a date.
+
+16:14.420 --> 16:15.290
+Radio
+
+16:19.950 --> 16:28.590
+and check box and then this is an input submit.
+
+16:28.690 --> 16:29.030
+Okay.
+
+16:29.050 --> 16:32.900
+So if you ever need to come back here for reference you can do that.
+
+16:33.020 --> 16:33.790
+Sexiest.
+
+16:33.870 --> 16:35.780
+This button.
+
+16:35.880 --> 16:37.770
+Submit.
+
+16:38.100 --> 16:38.430
+Okay.
+
+16:38.460 --> 16:43.830
+Now one more thing I want to show you is we can at a reset button that actually comment out one of these
+
+16:43.860 --> 16:49.110
+because we don't want to submit buttons but if we want to do a reset we can do button with the type
+
+16:49.170 --> 16:51.920
+of reset like that.
+
+16:51.960 --> 16:54.000
+We'll put the text reset in here.
+
+16:54.120 --> 17:02.660
+And now if I fill some stuff in it's a thirty three and then I hit reset.
+
+17:02.660 --> 17:09.490
+It'll clear everything out except for John Doe because we hardcoded that value in here like that.
+
+17:09.550 --> 17:09.900
+All right.
+
+17:09.910 --> 17:14.450
+So that's how we can create forms and I know that this form is extremely ugly.
+
+17:14.500 --> 17:18.200
+I'm going to show you how to style forms when we get to the CSF section.
+
+17:18.220 --> 17:21.520
+This is just how we can actually display the fields.
+
+17:21.520 --> 17:22.510
+All right guys so that's it.
+
+17:22.510 --> 17:23.800
+I'll see you in the next video.

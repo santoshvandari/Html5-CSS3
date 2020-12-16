@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.270 --> 00:05.540
+All right guys in this video we're going to take a look at CSX variables also called Custom properties.
+
+00:05.560 --> 00:09.180
+K so in documentation you might see them as custom properties.
+
+00:09.180 --> 00:13.970
+But most people call them variables because that's what they are they're just place holders for values.
+
+00:14.040 --> 00:22.160
+So let's create a new file called 06 underscore variables dot h t a mouth and we'll put in our boiler
+
+00:22.160 --> 00:23.480
+plate.
+
+00:23.900 --> 00:25.600
+It's a C assess
+
+00:27.690 --> 00:30.900
+variables and put our style
+
+00:33.390 --> 00:38.350
+to just close up and in the body.
+
+00:38.550 --> 00:39.780
+We're not going to have too much here.
+
+00:39.780 --> 00:43.350
+We're going to put a header and the header will have an H one.
+
+00:43.350 --> 00:52.350
+We'll just say See assess variables and outside the header let's do a container and it's going to have
+
+00:52.350 --> 00:53.290
+to Divs.
+
+00:53.340 --> 00:58.570
+So Class of box it's to a class of box dash and then money sign.
+
+00:58.770 --> 01:05.100
+And then let's times that by two and enter and each one is going to have let's do an h three we'll just
+
+01:05.100 --> 01:09.150
+say heading paragraph will do Lorem 15.
+
+01:09.160 --> 01:14.250
+Doesn't really matter what the content is it's going to copy the H3 in the paragraph and put that in
+
+01:14.250 --> 01:15.820
+this div as well.
+
+01:16.120 --> 01:21.530
+And let's just move this back and open this with live server.
+
+01:21.660 --> 01:26.810
+So it should look like this and we're gonna add some some base styling here before we get into variables.
+
+01:27.060 --> 01:31.950
+And I know a lot of this stuff is repetitive but it's good to keep typing it out because you get more
+
+01:31.950 --> 01:43.040
+familiar with things so we're going to add a reset of so margin zero padding zero and the body.
+
+01:43.210 --> 01:44.730
+Want to make it look somewhat decent.
+
+01:44.730 --> 01:55.970
+So we're gonna do a font family of Ariel which Ariel was the default font for browsers not Times New
+
+01:55.970 --> 02:00.530
+Roman because it just looks horrible or some kind of sans serif font.
+
+02:00.800 --> 02:13.790
+So let's do a line height of one point four and let's do a background of light grey.
+
+02:13.990 --> 02:14.260
+All right.
+
+02:14.420 --> 02:19.850
+So I'm gonna save this now before I move on to styling this other stuff.
+
+02:19.910 --> 02:21.910
+I'm gonna show you how to create a variable.
+
+02:21.920 --> 02:25.980
+Now you need to define a scope for your variables.
+
+02:26.040 --> 02:30.400
+Well actually you can define them right inside here if we wanted to.
+
+02:30.440 --> 02:33.230
+I could go right above and I could say dash dash.
+
+02:33.230 --> 02:37.330
+This is how you format the variable dash dash and then name it.
+
+02:37.340 --> 02:48.350
+So I could say let's say light dash color and set it to F for three times like that and then I could
+
+02:48.350 --> 02:56.210
+use the variable right here by using the VAR keyword opening up some parentheses and then putting in
+
+02:56.600 --> 03:03.080
+dash dash light color you're seeing V.S. code will actually get a dropdown with with the options.
+
+03:03.260 --> 03:05.180
+And if I say we get the same result.
+
+03:05.960 --> 03:06.410
+OK.
+
+03:06.410 --> 03:08.840
+So this is how you can define a variable.
+
+03:08.840 --> 03:12.920
+Now usually you're not going to define it right in the same.
+
+03:12.980 --> 03:16.670
+You know right where you're using it that kind of defeats the purpose.
+
+03:16.670 --> 03:24.170
+I like to use variables so I have a single place in my CSA in my style sheet that I can update like
+
+03:24.170 --> 03:26.880
+primary colors and stuff like that.
+
+03:26.900 --> 03:32.870
+So what I'm going to do is just take this just cut that out and then I'm going to go up here.
+
+03:32.870 --> 03:36.100
+I'm going to define a scope to define my variable.
+
+03:36.290 --> 03:43.420
+Now since I used it in body I could just do body like that and then put in the variable but I'm going
+
+03:43.420 --> 03:44.550
+to put it in the root.
+
+03:44.580 --> 03:45.960
+What's called the root scope.
+
+03:45.980 --> 03:48.590
+So we do colon root.
+
+03:48.730 --> 03:49.150
+OK.
+
+03:49.150 --> 03:54.180
+So any variable that you create in the root scope you can use anywhere in the style sheet.
+
+03:54.200 --> 03:57.420
+So if I save this you can see that this still works.
+
+03:57.560 --> 03:57.880
+All right.
+
+03:57.890 --> 04:05.690
+Now what I usually use variable variables for is primary color secondary color and then you usually
+
+04:05.690 --> 04:11.330
+have some kind of light grey at least at least when I build sites you eyes I have some kind of light
+
+04:11.330 --> 04:17.720
+gray sometimes a dark gray sometimes a really like a black almost and I put these into variables because
+
+04:17.720 --> 04:23.540
+I might use them over and over and then if you ever want to change it you don't have to go to each instance
+
+04:23.540 --> 04:25.250
+of that color and change it.
+
+04:25.340 --> 04:33.730
+So let's create a primary color and for the primary color I'm just going to do steel blue.
+
+04:34.310 --> 04:40.280
+OK and then let's do a secondary color because usually you'll have kind of a color palette to your UI
+
+04:40.280 --> 04:41.180
+or your Web site.
+
+04:41.190 --> 04:49.640
+And I'm gonna do sky blue OK so have a primary color a secondary color and a light color and then we're
+
+04:49.640 --> 04:57.590
+gonna go down here and add some some more styling so let's go header and for the header I'm going to
+
+04:57.590 --> 05:08.300
+set a background color and I want to set that to the variable of primary color.
+
+05:08.300 --> 05:10.910
+OK so if I save that we get the color.
+
+05:10.910 --> 05:15.810
+I'm also gonna change the text color to white.
+
+05:16.310 --> 05:18.430
+And then let's see.
+
+05:18.420 --> 05:28.400
+Let's let's text the line to the center and then I'm going to add a bottom border action going to go
+
+05:28.400 --> 05:36.590
+right here and I'm going to say border bottom let's do five pixels and then I'm going to use the secondary
+
+05:36.590 --> 05:36.950
+color.
+
+05:36.950 --> 05:43.970
+So var dash dash secondary color solid and we'll save.
+
+05:43.970 --> 05:44.440
+All right.
+
+05:44.440 --> 05:49.400
+Now let's do the container the container is actually going to be a flex box.
+
+05:49.790 --> 05:52.790
+So we'll see a display flex that has two items in it.
+
+05:52.820 --> 06:00.560
+So those are gonna be side by side and then in the container I'm going to add let's see.
+
+06:00.580 --> 06:06.820
+Let's do margin auto and then let's add a max with and this is some.
+
+06:06.860 --> 06:12.230
+This is something I may put in a variable as well because if you want to for some reason change the
+
+06:12.260 --> 06:17.210
+the width of the the interface or the Web site you can easily do that up here.
+
+06:17.210 --> 06:26.210
+So I'm actually going to go right here and say Max width and let's set it to eleven hundred pixels and
+
+06:26.210 --> 06:33.200
+then we can set that right here by saying var dash dash Max with.
+
+06:33.200 --> 06:37.670
+Now if I save it I shouldn't be able to go past eleven hundred pixels and if I wanted to change it I
+
+06:37.670 --> 06:45.000
+could just very easily just change it to like 960 and I can see it gets it gets thinner.
+
+06:45.110 --> 06:45.890
+OK.
+
+06:45.920 --> 06:56.750
+Now the boxes I want to have the the primary color as well so let's go dot box and let's say background
+
+06:58.250 --> 07:05.260
+color and we'll set that to var dash dash primary color and let's do the same thing with the border
+
+07:05.270 --> 07:05.810
+bottom
+
+07:08.500 --> 07:08.800
+so.
+
+07:08.820 --> 07:14.370
+Border bottom we're going to set to five pixels.
+
+07:14.990 --> 07:21.430
+We're going to use the secondary color and solid k.
+
+07:21.440 --> 07:24.440
+Let's change the color to white.
+
+07:24.440 --> 07:28.160
+You could even put the text color in a variable if you wanted to.
+
+07:28.160 --> 07:32.500
+You can put whatever you want into variables but sometimes it just doesn't make sense.
+
+07:32.510 --> 07:39.320
+It really makes sense when you're gonna be reusing it or if it's something major like the width of the
+
+07:39.350 --> 07:45.300
+layout or something like that at least in my opinion and let's just add some padding here.
+
+07:45.800 --> 07:54.050
+Let's say one room margin one room and we'll save that and you can see that it has the same colors as
+
+07:54.050 --> 07:55.530
+the header.
+
+07:55.610 --> 07:55.910
+All right.
+
+07:55.940 --> 08:01.790
+So what's great about this is if I want to change that let's pretend that this is a whole Web site and
+
+08:01.850 --> 08:04.760
+we're using these variables all over the place.
+
+08:04.850 --> 08:10.670
+So we have like seven eight nine instances of the primary secondary color like color.
+
+08:10.670 --> 08:13.210
+We can now easily change this.
+
+08:13.220 --> 08:24.050
+OK so if we wanted to change it to like I don't know dark dark gray and then maybe like light gray or
+
+08:24.050 --> 08:27.380
+something like that that might look a little weird but we'll save it.
+
+08:27.380 --> 08:29.420
+And now the whole thing changes.
+
+08:29.420 --> 08:36.620
+So it's very convenient to use variables for colors and then things like widths and in layout and stuff
+
+08:36.620 --> 08:37.220
+like that.
+
+08:37.850 --> 08:38.150
+OK.
+
+08:38.180 --> 08:42.970
+So another thing that maybe we can do is is the width of the Flex boxes.
+
+08:42.980 --> 08:54.380
+So if we actually go up here and let's set dash dash box one with we'll set that to one and then dash
+
+08:54.380 --> 09:09.440
+dash box 2 with we'll set that to 2 and then let's add the box one class and we'll say what are we doing
+
+09:09.440 --> 09:16.980
+here raising flex so we can save our dash dash box one with.
+
+09:17.150 --> 09:18.150
+Copy that down.
+
+09:18.170 --> 09:25.480
+Changes to two blocks two ends and save up what I do.
+
+09:25.490 --> 09:28.240
+Just delete everything and save.
+
+09:28.240 --> 09:32.410
+Now you can see that there is a different layout here.
+
+09:32.420 --> 09:39.160
+And now we can easily change this if I wanted to do maybe three here save that that gets that gets bigger.
+
+09:39.160 --> 09:46.190
+If I wanted to do maybe one in three here now I can easily change the layout with these variables.
+
+09:46.190 --> 09:49.790
+Now everything is in all the variables are defined in the root scope.
+
+09:49.820 --> 10:01.080
+But again you can for instance the boxes we want we can say dot box and we can move these into here
+
+10:01.080 --> 10:05.100
+since we're not going to be using these variables anywhere else except for the box scope right.
+
+10:05.130 --> 10:08.830
+So if I save that that still works.
+
+10:08.880 --> 10:14.400
+Now if I move the max width into the box that's not going to work.
+
+10:14.430 --> 10:19.710
+So if I stretch to sell you'll see the max with doesn't work anymore because it's in the container.
+
+10:19.710 --> 10:24.020
+I could put this in the container scope like I could do dot container and put that in.
+
+10:24.030 --> 10:26.630
+But that's something I would I'd keep in the room.
+
+10:26.680 --> 10:27.020
+OK.
+
+10:27.030 --> 10:30.920
+Because it's like a main just a main part of the site.
+
+10:30.950 --> 10:31.290
+All right.
+
+10:31.290 --> 10:33.320
+So that's pretty much it.
+
+10:33.330 --> 10:40.830
+Guys I mean like I said I mostly use it for primary and secondary colors things like widths but.
+
+10:41.190 --> 10:47.430
+Yeah we'll be we'll be using variables throughout the coming projects and that's it.
+
+10:47.430 --> 10:48.750
+I will see you in the next video.

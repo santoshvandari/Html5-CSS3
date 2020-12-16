@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.320 --> 00:05.680
+All right guys so in the last video we created our hamburger menu here we have the checkbox.
+
+00:05.820 --> 00:09.960
+We can actually check and uncheck but we can't really visually see that right now.
+
+00:09.960 --> 00:15.650
+What I do want to happen is when we check I want the I want the lines here to turn into an x.
+
+00:15.750 --> 00:19.820
+So we're gonna be utilizing transform and rotate.
+
+00:19.950 --> 00:21.840
+So let's go down.
+
+00:21.840 --> 00:29.280
+Here in menu dot CSX and let's say toggle or animation.
+
+00:29.280 --> 00:37.670
+So basically we want to take our toggles which is our checkbox and we can target the state of checked.
+
+00:37.670 --> 00:37.940
+OK.
+
+00:37.950 --> 00:43.160
+So this style will only be in effect when it's actually checked.
+
+00:43.170 --> 00:49.670
+Now I want to manipulate the div inside the hamburger which is the lines right.
+
+00:50.040 --> 00:57.240
+So we're going to say plus when we looked at the plus selector a little while ago and we want to choose
+
+00:57.240 --> 01:07.680
+the hamburger class and then the directive and that's what we want to transform so we're gonna say transform
+
+01:07.710 --> 01:17.190
+and we want to rotate and let's rotate one hundred and thirty five degrees and save and now if I click
+
+01:17.190 --> 01:23.040
+this you'll see that it rotates 135 degrees and obviously that's not all we want to happen.
+
+01:23.100 --> 01:25.240
+We want this to turn into an x.
+
+01:25.440 --> 01:30.450
+So we have to target the before and after as well.
+
+01:30.570 --> 01:33.990
+So let's actually copy this
+
+01:36.830 --> 01:37.580
+and
+
+01:40.080 --> 01:49.080
+let's do colon before and then comma and I'm gonna paste this in again and we're gonna do after as well.
+
+01:49.530 --> 01:58.490
+And let's set this to be from the top zero and then we want to add a transform for these of 90 degrees.
+
+01:59.040 --> 02:09.120
+So we won't transform rotate and we wanted to rotate these 90 degrees and we'll go ahead and save and
+
+02:09.120 --> 02:15.630
+click and it's doing exactly what we wanted to do except it's not transitioning and the reason for that
+
+02:15.630 --> 02:20.830
+is I actually forgot to put transition on the the hamburger div.
+
+02:20.830 --> 02:31.410
+So up here we want to add in transition and we'll say all and let's say zero point four seconds and
+
+02:31.410 --> 02:32.400
+we'll ease.
+
+02:33.150 --> 02:34.050
+So let's save that.
+
+02:34.050 --> 02:38.430
+Now when we click it it actually spins and has a transition.
+
+02:38.430 --> 02:51.180
+Now I just want to put a comment in here and we'll just say that this turns the lines into X hey again
+
+02:51.180 --> 02:53.460
+just so you know what does what.
+
+02:53.460 --> 03:00.550
+This one right here moves lying down.
+
+03:01.440 --> 03:08.220
+And another thing that I want is when it's checked like that right now that the inputs checked that's
+
+03:08.220 --> 03:10.290
+how this is happening when it's checked.
+
+03:10.290 --> 03:14.850
+If I hover over this I wanted to kind of just spin back in the form of I'm on it.
+
+03:14.850 --> 03:22.050
+And then if I go off spin back again so we can go down here and let's just say rotate
+
+03:24.330 --> 03:29.110
+rotate on hover when checked.
+
+03:29.640 --> 03:31.050
+So we're going to target
+
+03:34.620 --> 03:37.300
+menu and cheeses.
+
+03:37.350 --> 03:47.790
+Can't type menu wrap and then toddler and we're gonna say when it's checked when we hover then we want
+
+03:47.850 --> 03:51.170
+the hamburger div.
+
+03:51.180 --> 03:58.250
+So we just want to do class hamburger div.
+
+03:58.620 --> 03:59.870
+We want that to rotate.
+
+03:59.880 --> 04:09.570
+So we'll say transform and let's say rotate and let's rotate it two to five degrees.
+
+04:09.750 --> 04:10.050
+All right.
+
+04:10.080 --> 04:17.890
+So now if I check it it's checked right now and if I hover over it it will rotate and twenty five degrees
+
+04:18.370 --> 04:20.300
+close it up.
+
+04:20.320 --> 04:24.340
+So this is this is giving us the exact effect that we want.
+
+04:24.960 --> 04:25.260
+OK.
+
+04:25.270 --> 04:29.570
+So now what we want to do is move on to the menu itself.
+
+04:29.680 --> 04:31.450
+These links here.
+
+04:31.450 --> 04:32.910
+We want those too.
+
+04:32.920 --> 04:37.270
+We don't want those to be visible at first and then we when we click this we want those to show up and
+
+04:37.270 --> 04:39.830
+we want to add that overlay in that style.
+
+04:39.850 --> 04:41.800
+So that's all we're going to get to in the next video.

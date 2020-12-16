@@ -1,0 +1,946 @@
+WEBVTT
+
+00:00.570 --> 00:03.330
+All right guys so we have all of our pages done.
+
+00:03.330 --> 00:09.840
+Now we're gonna start to look at responsiveness and making it look better on smaller screen so I'm going
+
+00:09.840 --> 00:12.360
+to actually create a new SAS file.
+
+00:12.360 --> 00:19.470
+So in SPSS I'm going to create a file called underscore media dot SPSS and this is where I want to put
+
+00:19.470 --> 00:20.400
+my media queries.
+
+00:20.400 --> 00:26.760
+Now I want to bring this into the main CSX our SPSS but I'm going to bring it in down at the bottom
+
+00:26.790 --> 00:29.620
+because that's where I want this stuff to be included.
+
+00:29.640 --> 00:35.420
+So at the very bottom here let's do import media.
+
+00:37.800 --> 00:44.280
+So we'll just put a comment here or say import media queries.
+
+00:44.780 --> 00:45.060
+OK.
+
+00:45.090 --> 00:55.070
+So let's head over to media SPSS and let's start off with tablets and smaller.
+
+00:55.090 --> 00:55.320
+OK.
+
+00:55.380 --> 00:59.090
+So I'm going to put a media query for a max width of 800 pixels here.
+
+00:59.160 --> 01:09.450
+So let's do at media and let's say Max with it's going to be eight hundred pixels
+
+01:11.880 --> 01:15.490
+and let's start with the header home.
+
+01:15.630 --> 01:21.040
+So let's do I.D. had our dash home.
+
+01:21.270 --> 01:23.060
+We're actually not going to have very much in here.
+
+01:23.070 --> 01:31.500
+But what I want to do is make the height much less than what it is on on laptops and desktops so I'm
+
+01:31.500 --> 01:38.010
+going to take the height from 100 viewport with our viewport height to just 30 REM which is still pretty
+
+01:38.010 --> 01:38.370
+big.
+
+01:38.370 --> 01:44.120
+It should take a good chunk of the screen but we don't want it to cover the whole screen on a tablet.
+
+01:44.370 --> 01:47.190
+And then I'm just gonna take the header content
+
+01:52.080 --> 01:59.940
+and actually you know what we can nest this within header home.
+
+01:59.940 --> 02:06.400
+So we're going to take the header content and just add a padding dash top of five.
+
+02:07.530 --> 02:08.940
+So let's take a look at that.
+
+02:08.940 --> 02:16.410
+Now if if this doesn't show like if the media query styles do not show just go ahead and restart this
+
+02:16.410 --> 02:24.020
+down here with control C and then run NPM run SAS again you might have to just receive media SPSS.
+
+02:24.340 --> 02:24.730
+OK.
+
+02:24.750 --> 02:30.810
+And then let's go back here and let's make this smaller and once we hit eight hundred you can see that
+
+02:31.560 --> 02:36.540
+it then goes down to the width of that sorry the height goes down to 30 REM.
+
+02:37.420 --> 02:37.680
+OK.
+
+02:37.680 --> 02:42.300
+So I think that that's better on a tablet rather than having it take up the whole screen.
+
+02:43.440 --> 02:48.570
+So that's pretty much it for the 800 pix media pixels media query.
+
+02:48.570 --> 02:55.200
+Now I want to deal with smartphones so anything that's under 500 because right here I mean things look
+
+02:55.200 --> 02:56.890
+pretty decent.
+
+02:57.010 --> 02:59.450
+We don't really need to do anything else for this size.
+
+02:59.520 --> 03:04.650
+So we want to now deal with you know smaller Actually what we'll do is open up
+
+03:07.620 --> 03:12.140
+chrome tools and let's set it to iPhone X.
+
+03:12.820 --> 03:13.160
+OK.
+
+03:13.170 --> 03:16.840
+So there's a few things you want to do here.
+
+03:18.240 --> 03:22.490
+Under the media max width of 800 pixels.
+
+03:22.500 --> 03:36.780
+Let's do smartphones and we're going to do media Max with and let's do this let's say five hundred pixels.
+
+03:37.100 --> 03:37.360
+OK.
+
+03:37.380 --> 03:42.610
+So first I'm going to work on the header and the main NAV.
+
+03:42.690 --> 03:50.790
+Now the main nav I'm going to set the Flex direction instead of roll I'm going to set it to column I
+
+03:50.790 --> 03:58.350
+actually want the the logo on top in the center and then the menu underneath in the center.
+
+03:58.350 --> 04:07.990
+So let's take the main NAV and let's set the Flex direction to column.
+
+04:08.400 --> 04:19.170
+And I want to line items center and I also want the list items I'm going to embed our nest the list
+
+04:19.170 --> 04:20.110
+items here.
+
+04:20.250 --> 04:23.260
+I'm going to set padding too.
+
+04:23.310 --> 04:25.410
+Let's do one REM
+
+04:30.210 --> 04:30.450
+OK.
+
+04:30.480 --> 04:34.680
+So now you can see that it's in a column fashion rather than a row.
+
+04:34.680 --> 04:41.490
+So we have the the logo in the middle on top and then we have the menu in the middle here.
+
+04:41.580 --> 04:46.290
+So let's deal with the rest of the header because this obviously doesn't look very good.
+
+04:46.440 --> 04:57.680
+So we're going to go under the main NAV and let's do header and we're going to do Amber Sam Dash home.
+
+04:57.680 --> 04:58.620
+OK.
+
+04:58.740 --> 05:04.110
+And the reason I'm doing it like this is because we're also going to add some styles for Dash inner
+
+05:04.110 --> 05:04.670
+as well.
+
+05:04.680 --> 05:10.560
+Notice up here I just put in header dash home because we weren't we don't have any styles up here for
+
+05:11.400 --> 05:13.060
+header dash inter.
+
+05:13.210 --> 05:19.890
+OK so I mean you can do it if you want and header dash home header dash or you don't have to do it this
+
+05:19.890 --> 05:20.180
+way.
+
+05:20.190 --> 05:22.880
+I just like to organize it in this way.
+
+05:22.980 --> 05:25.650
+But you know everyone's different.
+
+05:25.650 --> 05:30.500
+So I'm going to set the height to be much smaller.
+
+05:30.530 --> 05:35.890
+So on tablets it's 30 ram on full screen it's 100.
+
+05:35.900 --> 05:38.330
+It takes up the whole thing on smartphones.
+
+05:38.330 --> 05:40.880
+I'm just going to do 10 Ram.
+
+05:41.680 --> 05:46.770
+OK so if we save that we take a look you can see that it's much smaller.
+
+05:46.770 --> 05:53.160
+Now I'm also going to add a border on the bottom here to kind of separate the rest of the content.
+
+05:53.160 --> 06:03.060
+So it's two border bottom and let's set that to three pixels solid and we want it set to the main color
+
+06:03.780 --> 06:05.040
+variable.
+
+06:05.040 --> 06:05.400
+All right.
+
+06:05.400 --> 06:12.780
+Now I don't want the header content displayed all we want is the the logo and the menu and it's not
+
+06:12.780 --> 06:17.510
+shown here just because well it is actually we have that you can see the button here.
+
+06:17.580 --> 06:20.730
+So we want to just we don't want to show that at all.
+
+06:20.730 --> 06:26.070
+So I'm going to invest in here the header content
+
+06:29.390 --> 06:34.040
+and let's just set this to display none.
+
+06:35.340 --> 06:35.610
+OK.
+
+06:35.630 --> 06:40.310
+So now if we go back you'll see that none of that contents displayed that button's gone and we just
+
+06:40.310 --> 06:44.530
+have a very simple header with a logo and a menu.
+
+06:44.600 --> 06:49.950
+Now the inter pages we take a look here you'll see that the menu is is covered.
+
+06:50.360 --> 06:58.030
+So we want the same height for the inner add that we do for the home menu or the home header.
+
+06:58.030 --> 07:09.200
+So let's go back in here and let's go after home and let's say inner and let's also set the height to
+
+07:09.200 --> 07:10.620
+10 room.
+
+07:11.030 --> 07:16.610
+And then if we go back and you'll see the inner pages now are the same as the home actually you know
+
+07:16.610 --> 07:20.640
+what we want to do though see how the home the positioning is different.
+
+07:20.660 --> 07:23.360
+We want to set the positioning of the home to the same.
+
+07:23.360 --> 07:28.350
+To the same x and y values as the inner.
+
+07:28.370 --> 07:41.990
+So right here in the home what's two background dash position which if we look in main dot SPSS is right
+
+07:41.990 --> 07:42.740
+here.
+
+07:42.740 --> 07:45.200
+So 20 percent 30 percent.
+
+07:45.790 --> 07:46.090
+OK.
+
+07:46.100 --> 07:52.140
+So we want to set that to 20 percent 30 percent.
+
+07:52.140 --> 07:58.010
+And now if we save that you'll see that now it looks the same on all pages.
+
+07:58.010 --> 07:58.360
+OK.
+
+07:58.370 --> 08:02.320
+So let's start to work on stacking some of this stuff.
+
+08:02.330 --> 08:05.530
+So we'll start with the home page.
+
+08:05.750 --> 08:12.950
+We'll just have basically one style for everything we want stacked so anything that has a grid template
+
+08:12.960 --> 08:17.840
+columns of you know repeat for one FDR or repeat three 1 to fire.
+
+08:17.840 --> 08:24.320
+We just want to set it to 1 at 5 1 fraction which is just one column that will make it stacked.
+
+08:24.320 --> 08:26.000
+So I'm going to go.
+
+08:26.180 --> 08:27.000
+Let's see.
+
+08:27.020 --> 08:29.150
+Let's go under.
+
+08:29.150 --> 08:31.550
+We want to be within the media query.
+
+08:31.550 --> 08:34.220
+So this media query ends here.
+
+08:34.220 --> 08:41.470
+So I'm going to go right here and let's say stack we want this to be a comment.
+
+08:41.480 --> 08:45.220
+So stack grid columns.
+
+08:45.260 --> 08:53.890
+So first thing is let's do home dash a specials OK which is a grid.
+
+08:54.230 --> 08:56.560
+Next we want home B.
+
+08:56.960 --> 09:02.730
+So home dash B stats stats.
+
+09:03.150 --> 09:07.710
+And let's do home dash see process.
+
+09:08.180 --> 09:13.650
+So these are all grids and then on the about page we have our testimonials.
+
+09:13.670 --> 09:20.720
+So let's do a boat dash D class of testimonials.
+
+09:20.720 --> 09:24.230
+And then we also have our items on our work page.
+
+09:24.350 --> 09:25.880
+So let's say items
+
+09:29.290 --> 09:37.990
+so within here I'm just going to set the grid template columns simply to one fraction.
+
+09:38.110 --> 09:40.420
+So if I save that we go back.
+
+09:40.420 --> 09:43.090
+You can see that these are all stacked.
+
+09:43.160 --> 09:49.720
+OK the three sections on the home page will deal with the footer and a little bit and then on the about
+
+09:49.720 --> 09:54.730
+page the testimonials are stacked.
+
+09:54.970 --> 10:03.610
+We're going to deal with this and then let's see on the work page these are all stacked.
+
+10:03.620 --> 10:05.980
+So let's see what else you want to do here.
+
+10:05.980 --> 10:09.680
+I want to add.
+
+10:10.300 --> 10:17.020
+And the reason that this doesn't look good is because remember we used grid template areas here so we
+
+10:17.020 --> 10:23.620
+have to we have to manage this in a different way to make it responsive same with the contact.
+
+10:23.620 --> 10:31.390
+But before we do that I want to make this look a little bit better by taking like these boxes here and
+
+10:31.390 --> 10:36.840
+putting a little border underneath each one because they're kind of running into each other here.
+
+10:36.970 --> 10:38.810
+So let's do that.
+
+10:38.950 --> 10:53.260
+Let's go back in and let's go under here and let's do home and let's do Ampersand dash a and we want
+
+10:53.260 --> 11:03.350
+to grab the specials div so each div inside the specials class I'm going to add a border bottom two.
+
+11:03.380 --> 11:11.550
+Let's do one pixel I'm going to use the light color I want it to be pretty faint and solid.
+
+11:11.810 --> 11:14.250
+Let's add a little bit of padding to push each one down.
+
+11:14.260 --> 11:20.920
+So padding bottom I'm going to set to one room and I don't want the very last one to have a border so
+
+11:20.920 --> 11:30.500
+I'm going to add in here Ampersand colon last child and let's set the border to none.
+
+11:30.520 --> 11:33.300
+UPS border none.
+
+11:33.480 --> 11:39.460
+And let's set the padding bottom to 0 on the last one.
+
+11:39.460 --> 11:40.360
+So we save that.
+
+11:40.360 --> 11:41.490
+We take a look.
+
+11:41.590 --> 11:46.350
+Now you can see it has a very faint border after each one except for the bottom.
+
+11:46.360 --> 11:50.140
+We don't need a border here that would look kind of weird.
+
+11:50.250 --> 11:53.110
+Now let's see what else do we want to do.
+
+11:53.110 --> 12:01.070
+Here are the stats which are these here I want to just lessen the padding a little bit.
+
+12:01.070 --> 12:08.900
+So within this a right here I'm going to go outside of specials but within the a I'm sorry not within
+
+12:08.900 --> 12:10.490
+the eights it's Section B.
+
+12:10.490 --> 12:23.820
+So we want to go after the A C dash B and we're gonna take the stats divs and set the padding to let's
+
+12:23.820 --> 12:36.560
+do two REM top zero and then one Ram bottom OK so that lessens the padding a little bit.
+
+12:36.930 --> 12:40.760
+Now I think that that's good for the.
+
+12:40.770 --> 12:42.070
+The home page.
+
+12:42.150 --> 12:46.110
+I think that we should handle the footer though before we move on because this obviously doesn't look
+
+12:46.110 --> 12:47.610
+very good.
+
+12:47.700 --> 12:53.220
+So let's go back in and let's go.
+
+12:53.410 --> 12:55.090
+Still within the media query.
+
+12:55.090 --> 12:57.250
+So we want to go right here.
+
+12:57.280 --> 13:04.630
+Let's say footer and we have an I.D. of main dash footer.
+
+13:04.630 --> 13:12.160
+I'm going to set the height of the footer to seven RAM and then I'm going to grab the footer content
+
+13:14.440 --> 13:16.710
+and set the Flex direction to column.
+
+13:16.720 --> 13:22.900
+So we're kind of doing the same thing that we did with the nav bar set it to column and then we're going
+
+13:22.900 --> 13:30.820
+to set padding to one room and let's set the height of that to 5 room and let's see what that looks
+
+13:30.820 --> 13:32.640
+like.
+
+13:32.660 --> 13:33.370
+OK.
+
+13:33.460 --> 13:39.700
+So instead of having it in a flex row going across now they're in a column and we just added some padding
+
+13:39.700 --> 13:42.220
+to kind of separate this stuff a little bit.
+
+13:42.220 --> 13:45.620
+So I think that that looks pretty good.
+
+13:45.670 --> 13:46.080
+Let's see.
+
+13:46.080 --> 13:51.160
+Next thing we want to do is let's do the about page.
+
+13:51.160 --> 13:55.630
+So we'll handle this part right here which is which our grid template areas.
+
+13:55.630 --> 13:59.410
+So we just want to basically reframe the grid template areas.
+
+13:59.410 --> 14:09.430
+So I want to go here and say about let me just put a comment right here as well for home.
+
+14:09.830 --> 14:15.170
+So we'll say idea about and we want to deal with about Dash a.
+
+14:15.200 --> 14:18.600
+So let's do Ampersand dash a.
+
+14:19.190 --> 14:23.260
+And it has a class of intro right.
+
+14:23.300 --> 14:24.080
+Wait what was it.
+
+14:24.080 --> 14:27.280
+I mean just check this out.
+
+14:27.280 --> 14:31.970
+So hey and we want the grid which is this.
+
+14:31.970 --> 14:41.930
+Oh it's about info not intro so class about Dash info which is already displayed as a grid and it has
+
+14:41.930 --> 14:45.350
+template areas which sets the columns.
+
+14:45.350 --> 14:46.970
+Now I just want it to be stacked.
+
+14:46.970 --> 14:53.850
+So I'm going to take the bio image and just to show you what I'm talking about.
+
+14:53.850 --> 14:58.630
+If we look at about let's see where is it.
+
+14:58.770 --> 15:05.010
+So right here we have bio image bio bio basically want all of these just to go straight down in one
+
+15:05.700 --> 15:07.950
+one column or one row.
+
+15:07.950 --> 15:10.140
+So let's say bio image
+
+15:13.450 --> 15:13.870
+Wait a minute.
+
+15:13.870 --> 15:14.530
+This isn't right.
+
+15:14.530 --> 15:20.500
+We have to add in grid template areas and then we're going to do
+
+15:23.130 --> 15:30.900
+bio image next line here will be bio then we have award one
+
+15:33.450 --> 15:37.990
+award too and award three.
+
+15:38.050 --> 15:43.550
+And we already have the grid template the other grid areas set right here.
+
+15:43.770 --> 15:46.500
+So we don't have to redo those or anything it's already set.
+
+15:46.500 --> 15:49.440
+We just simply want to change the orientation.
+
+15:49.440 --> 15:49.860
+All right.
+
+15:49.860 --> 15:58.790
+And then for SI let's see this right here.
+
+15:58.790 --> 16:01.070
+This is see the logos.
+
+16:01.070 --> 16:06.830
+I'm just going to remove this whole thing because I don't it's not that important.
+
+16:07.220 --> 16:12.260
+And I mean we could we could stack the logos on top of each other but that's just too much rum just
+
+16:12.260 --> 16:17.760
+to show some logos and they're way too small to leave it like this so I'm going to just get rid of that.
+
+16:17.870 --> 16:21.980
+And of course again if you guys want to do something different that's absolutely fine.
+
+16:21.980 --> 16:24.180
+But that's what I would do in this situation.
+
+16:24.230 --> 16:26.030
+So I'm going to go.
+
+16:26.180 --> 16:28.850
+Actually it's at a semicolon right here.
+
+16:28.970 --> 16:42.710
+I'm going to go below the hips below the ay which ends here and do dash Sam Dash C which is the logo
+
+16:42.710 --> 16:45.630
+section and I'm just going to display none.
+
+16:45.650 --> 16:47.850
+Get rid of it completely.
+
+16:47.870 --> 16:50.950
+So now if we go back that part is now gone.
+
+16:51.660 --> 16:51.980
+OK.
+
+16:52.010 --> 16:54.450
+So the about page looks pretty good.
+
+16:54.470 --> 16:56.600
+Let's go to the work is good.
+
+16:56.600 --> 16:58.820
+Let's go to the contact page.
+
+16:58.820 --> 17:01.420
+So let's see.
+
+17:01.430 --> 17:07.800
+Let's head over here and let's add a section for contact.
+
+17:08.150 --> 17:17.060
+So we have I.D. contact and let's target contact dash a.
+
+17:17.420 --> 17:26.040
+And I'm gonna grab the text fields class so text fields and we want to change the orientation of the
+
+17:26.240 --> 17:27.380
+the the inputs.
+
+17:27.380 --> 17:36.140
+So again we're gonna do grid template areas and let's set.
+
+17:36.140 --> 17:36.770
+Name
+
+17:39.690 --> 17:41.860
+Email actually.
+
+17:41.910 --> 17:43.390
+Subject
+
+17:46.450 --> 17:52.760
+e-mail phone and message.
+
+17:53.170 --> 17:56.460
+OK so we're just kind of stacking all those inputs.
+
+17:56.710 --> 17:58.470
+So I save that we go back.
+
+17:58.480 --> 18:03.880
+Now he can see that they're all stacked so the next part is this.
+
+18:04.000 --> 18:05.470
+This right here.
+
+18:05.470 --> 18:15.610
+I also want to stack these so we can actually let's actually add that up above where we put all the
+
+18:15.610 --> 18:17.610
+other stuff we want stacked.
+
+18:17.680 --> 18:24.250
+So what is the selector for this.
+
+18:24.250 --> 18:27.500
+So it's contact info is the grid.
+
+18:27.500 --> 18:27.720
+OK.
+
+18:27.730 --> 18:31.030
+So we can just go back here and I mean here
+
+18:34.620 --> 18:40.670
+let's say dots contact info.
+
+18:40.690 --> 18:45.210
+Now if I save that wait a minute why is
+
+18:50.060 --> 18:51.600
+contact info.
+
+19:00.090 --> 19:03.080
+Actually we might have to add this section.
+
+19:03.240 --> 19:08.060
+We should do that anyway so contact B so let's do I.D..
+
+19:08.070 --> 19:14.630
+Contact B contact info.
+
+19:14.650 --> 19:15.130
+There we go.
+
+19:15.280 --> 19:17.630
+OK so now these are stacked.
+
+19:17.860 --> 19:23.380
+And the reason for that is because that's the selector we used to add to the.
+
+19:24.190 --> 19:25.990
+The repeat 3 1 FA
+
+19:28.670 --> 19:31.070
+now that still doesn't look very good.
+
+19:31.070 --> 19:32.930
+I want to separate these a little bit.
+
+19:32.930 --> 19:39.810
+I also want to add a little faint Porter below each one like we did on the home page so let's jump down
+
+19:39.810 --> 19:45.660
+here and let's target contact dash B
+
+19:50.780 --> 20:00.860
+and we want to target the div or the divs inside and let's set a margin bottom of one room.
+
+20:00.920 --> 20:09.050
+Let's do a padding bottom of one room and let's do a border.
+
+20:09.190 --> 20:11.800
+Border bottom.
+
+20:12.380 --> 20:19.060
+So the border bottom I'm going to set to one pixel and I'm just gonna use the hardcoded color.
+
+20:19.070 --> 20:24.500
+I'm gonna use 5 5 5 solid.
+
+20:24.700 --> 20:33.070
+I mean we could use a variable by it has a dark background so we can't use dark and I think medium is
+
+20:33.070 --> 20:34.320
+a little too light.
+
+20:34.330 --> 20:35.580
+I want it to be very faint.
+
+20:35.590 --> 20:37.290
+So that's why I hardcoded this.
+
+20:37.300 --> 20:39.330
+But again you can do what you want.
+
+20:40.540 --> 20:44.200
+And then we don't want a border for the last child or margin or padding.
+
+20:44.200 --> 20:47.350
+So let's do ampersand.
+
+20:47.350 --> 20:54.220
+Last Child and let's set the border to none set.
+
+20:54.250 --> 21:01.570
+Margin bottom to zero and padding bottom to zero.
+
+21:03.190 --> 21:04.080
+So save that.
+
+21:04.080 --> 21:06.580
+Go back and there we go.
+
+21:06.580 --> 21:07.810
+It looks pretty good.
+
+21:07.810 --> 21:13.320
+Now I do want to make this text smaller so I'm going to go and see.
+
+21:13.330 --> 21:20.680
+So that Section C. So we want to be in contact we'll go under B and let's do Ampersand dash C and we
+
+21:20.680 --> 21:26.080
+want to target the H one and it's for REM.
+
+21:26.110 --> 21:33.840
+By default I believe so I'm going to set it to two REM.
+
+21:33.860 --> 21:34.190
+All right.
+
+21:34.190 --> 21:35.950
+We'll save that.
+
+21:36.200 --> 21:37.310
+And there it goes.
+
+21:37.370 --> 21:38.210
+That looks better.
+
+21:38.690 --> 21:38.990
+OK.
+
+21:39.020 --> 21:40.310
+So this looks pretty good.
+
+21:40.340 --> 21:43.970
+Let's check it out on an iPhone 5.
+
+21:44.090 --> 21:50.150
+So if it passes the iPhone 5 test I think we're good and looks nice.
+
+21:50.330 --> 21:51.020
+About
+
+21:53.630 --> 21:57.200
+work contact.
+
+21:57.290 --> 21:58.040
+Good.
+
+21:58.040 --> 22:01.420
+Now the last thing I want to look at is landscape mode.
+
+22:01.430 --> 22:03.660
+I'm going to go to iPhone X and turn it.
+
+22:03.680 --> 22:10.190
+Now I'd like this to be in the middle on landscape mode and you can see that the button is actually
+
+22:10.550 --> 22:14.780
+outside of the the container here or the it's below the fold.
+
+22:14.780 --> 22:17.090
+So we want to just move this.
+
+22:17.450 --> 22:25.280
+So I'm going to jump in here to media SPSS and I'm gonna go at the very bottom and let's do a media
+
+22:25.310 --> 22:26.690
+query for landscape.
+
+22:26.690 --> 22:29.420
+So to do this we want to target the height.
+
+22:29.420 --> 22:36.140
+So let's do media in let's say Max height of five 80 pixels
+
+22:38.640 --> 22:40.590
+and we want to grab the header home.
+
+22:40.590 --> 22:45.100
+So header dash home.
+
+22:45.780 --> 22:48.480
+And then we want the header content which is inside of it.
+
+22:48.480 --> 22:57.420
+So class header content and I'm going to set the padding top to just three round.
+
+22:57.420 --> 22:59.360
+So that should move it up.
+
+23:00.140 --> 23:01.310
+If we go back there we go.
+
+23:01.310 --> 23:04.930
+So everything is now in view.
+
+23:05.150 --> 23:05.470
+All right.
+
+23:05.500 --> 23:13.240
+And even if we go to the let's go to the galaxy and it looks good.
+
+23:13.240 --> 23:25.280
+IPhone 5 so the iPhone 5 I mean I guess it's so small it's it's kind of hard to deal with.
+
+23:25.290 --> 23:31.710
+I guess what we could do is set another media query for the height see how the it's 320 it's really
+
+23:31.830 --> 23:32.510
+small.
+
+23:32.520 --> 23:36.090
+The iPhone X height is 325.
+
+23:36.090 --> 23:38.880
+Let's see the galaxy is 360.
+
+23:38.880 --> 23:47.160
+Pixel is in landscape is for 11 so let's set up so go to iPhone 5.
+
+23:47.190 --> 23:58.270
+Let's set 1 for 3 20 and what we'll do is I guess I mean we'll reduce the font size of the heading here.
+
+23:58.470 --> 24:08.370
+So let's actually copy this and let's say a max height of will do Thriller three thirty.
+
+24:08.830 --> 24:12.290
+And if that's the case then let's take call we see.
+
+24:12.310 --> 24:13.840
+Just want to check the each team out.
+
+24:16.760 --> 24:26.980
+So it's this each one right here so the header content each one which what's the size by default.
+
+24:27.210 --> 24:33.660
+I didn't plan on doing this that's why I'm checking all this so the size by default is for RAM so I
+
+24:33.660 --> 24:35.970
+guess we could change it to two Ram.
+
+24:35.970 --> 24:50.740
+So we'll say header home header content H1 and we'll set the font size 2 to see if that works out OK.
+
+24:50.770 --> 24:56.800
+So I think that that's that's good enough not too many people have iPhone 5 anymore at least that I
+
+24:56.800 --> 24:58.320
+know of.
+
+24:58.340 --> 25:05.110
+And then if we go back to something bigger than 330 heights you'll see that the H One is back to four.
+
+25:06.040 --> 25:06.330
+All right.
+
+25:06.340 --> 25:11.410
+So that's it guys we have created our project in the next video.
+
+25:11.410 --> 25:14.250
+I want to get it ready to deploy to nullify.
+
+25:14.260 --> 25:17.880
+And I want to make the contact form work as well.

@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.290 --> 00:04.980
+All right guys so in the last video we finished the home article section here.
+
+00:04.980 --> 00:09.580
+Now we're going to start to work on the footer which is also going to be a great container.
+
+00:09.570 --> 00:17.440
+So let's go below the section here and we'll just say footer and let's give it a footer tag with an
+
+00:17.550 --> 00:21.880
+I.D. of main dash footer.
+
+00:21.970 --> 00:22.380
+All right.
+
+00:22.380 --> 00:26.780
+And then inside here we're gonna have the container class to move everything to the middle.
+
+00:26.780 --> 00:34.230
+I'm also going to add a class of foot container here which will be the actual grid container.
+
+00:34.230 --> 00:41.340
+And inside here we're gonna have basically have five divs if we look at the project here we're gonna
+
+00:41.340 --> 00:46.340
+set it to repeat for one at far so it has one two three four.
+
+00:46.620 --> 00:49.410
+And then the next one gets knocked on to the next line.
+
+00:49.410 --> 00:53.080
+Now this last one here we want to span across all the way.
+
+00:53.130 --> 00:53.460
+Okay.
+
+00:53.490 --> 01:01.860
+So we're gonna add a grid span as well so let's add our first div which is going to have that light
+
+01:02.340 --> 01:05.390
+logo so we're gonna say image.
+
+01:05.520 --> 01:12.930
+The source is going to be in the image folder and it's going to be this logo liked PMG.
+
+01:12.970 --> 01:16.890
+OK we'll just say news news grid.
+
+01:16.890 --> 01:25.200
+And then underneath that I'm going to put a paragraph excuse me and we'll say let's do Lorem 30 let's
+
+01:25.200 --> 01:27.420
+do 20 and I think that's what I want.
+
+01:28.380 --> 01:29.480
+So that's the first div.
+
+01:29.490 --> 01:39.650
+And the next one is going to be the email newsletter so let's do an h three and say e-mail news newsletter
+
+01:41.390 --> 01:50.040
+and then we're gonna do a paragraph let's say Lorem will do alarm 8 and under the paragraph we're gonna
+
+01:50.070 --> 01:51.850
+have a little form.
+
+01:52.110 --> 01:53.850
+We want to get rid of the action
+
+01:56.680 --> 01:58.910
+inside here we're gonna have an input.
+
+01:58.940 --> 02:05.960
+Let's give it a type of email since this is gonna be an email field we don't need name and I.D. We will
+
+02:05.960 --> 02:09.040
+put a place holder.
+
+02:11.420 --> 02:18.550
+And we'll say enter we'll say enter email and then we want to submit button.
+
+02:18.560 --> 02:29.120
+So I'm going to do an input with the type of submit and for the value will say subscribe and let's also
+
+02:29.120 --> 02:38.270
+give this a class of B T N and I want to do B T N and primary All right.
+
+02:38.270 --> 02:45.680
+So the next thing we want is the links here so these site links which aren't going to go anywhere but
+
+02:45.830 --> 02:50.090
+it's just for just for the aesthetics of the site.
+
+02:50.090 --> 02:58.180
+So let's say div and we're gonna have an H 3 and just say site links and then a.
+
+02:58.320 --> 02:59.140
+Well now this.
+
+02:59.210 --> 03:05.150
+Well I'm going to style I'm going to give a class of list and I want it to be basically like a utility
+
+03:05.540 --> 03:08.780
+class so that we can use this in other places as well.
+
+03:08.960 --> 03:13.880
+And as far as the list items go we're gonna have links to just nowhere.
+
+03:13.940 --> 03:18.770
+This first one is gonna be help and support.
+
+03:18.770 --> 03:28.160
+Copy this down a couple of times four times and let's do privacy policy.
+
+03:28.170 --> 03:31.010
+It's just some common pages you see on Web sites.
+
+03:31.190 --> 03:33.160
+We'll do about us.
+
+03:33.500 --> 03:34.870
+And this one here.
+
+03:34.880 --> 03:36.890
+Let's do contact.
+
+03:38.800 --> 03:39.100
+OK.
+
+03:39.110 --> 03:44.610
+Now the next grid item is gonna be a dev as well.
+
+03:45.080 --> 03:47.690
+And this is gonna be that the join our club.
+
+03:47.780 --> 03:58.790
+So we're gonna do an H TO AN H two and I'll say join our club and then let's put a paragraph and we'll
+
+03:58.790 --> 04:08.600
+do Lorem 10 and then under that will have an A tag with the class of B10 and class of B T N secondary
+
+04:10.910 --> 04:16.270
+and let's just say in here we'll say Join Now.
+
+04:16.530 --> 04:16.900
+Okay.
+
+04:16.910 --> 04:24.400
+And then the final div is just gonna be a paragraph and in that paragraph will say copyright.
+
+04:24.470 --> 04:29.570
+Let's do Ampersand copy semicolon which will give us a little copyright symbol.
+
+04:29.560 --> 04:31.400
+Twenty nineteen.
+
+04:31.400 --> 04:33.920
+All rights reserved.
+
+04:33.920 --> 04:34.150
+All right.
+
+04:34.160 --> 04:35.590
+So that's all of our each team Al.
+
+04:35.600 --> 04:37.200
+Let's check it out.
+
+04:37.370 --> 04:39.300
+So it's gonna look very very ugly.
+
+04:39.410 --> 04:46.310
+So we'll head over to our CSX and we have some utility classes to create but we're going to just start
+
+04:46.310 --> 04:47.990
+on the footer itself first.
+
+04:47.990 --> 04:50.300
+So it's a footer.
+
+04:50.720 --> 04:51.900
+We have an I.D..
+
+04:52.010 --> 04:56.220
+We have an idea of main dash footer.
+
+04:56.390 --> 05:04.970
+Now the footer I'm going to give the dark color as it's background so far let's do dash dash.
+
+05:04.970 --> 05:09.670
+Dark color and let's make the actual color of the text white.
+
+05:11.000 --> 05:12.930
+OK so save that.
+
+05:13.190 --> 05:18.040
+Now the image is obviously way too big so let's say main dash image
+
+05:20.950 --> 05:24.930
+not main image mean footer and then target the image.
+
+05:25.290 --> 05:27.110
+And we want to set the width too.
+
+05:27.120 --> 05:30.490
+Let's do one hundred and fifty pixels.
+
+05:30.730 --> 05:31.130
+All right.
+
+05:31.140 --> 05:33.150
+And I want all the links to be white.
+
+05:33.150 --> 05:41.550
+So let's say main footer all the tags we want the color to be white.
+
+05:41.550 --> 05:48.420
+And now we're going to work on the grid and aligning these we want them to go in obviously we want to
+
+05:48.420 --> 05:49.460
+create some columns.
+
+05:49.470 --> 05:56.830
+So we're going to say main footer and we're gonna grab onto the footer dash container and we're gonna
+
+05:56.850 --> 05:59.800
+say display grid.
+
+06:00.060 --> 06:09.350
+And then as far as the grid template columns we're gonna do repeat and let's repeat four times one fraction.
+
+06:10.680 --> 06:12.650
+And let's add a grid gap.
+
+06:12.930 --> 06:18.440
+Spread them apart a little bit so we'll say one point five REM and save.
+
+06:18.480 --> 06:21.430
+And now you can see that they're all aligned.
+
+06:21.510 --> 06:27.630
+Now we have some some other designed to do styling to do like this.
+
+06:27.630 --> 06:30.810
+This form here also the list.
+
+06:30.810 --> 06:34.620
+But this last one here this this copy right.
+
+06:34.620 --> 06:36.510
+I want this to span all the way across.
+
+06:36.540 --> 06:47.340
+So I'm going to target that by saying main footer and let's let's say we want from the footer container
+
+06:47.850 --> 06:52.200
+a direct element to that is the last child.
+
+06:52.200 --> 06:58.710
+So even if it wasn't a div it doesn't matter what what kind of element we're going to target it and
+
+06:58.710 --> 07:03.480
+then we're gonna set the background to do four four four.
+
+07:03.630 --> 07:08.550
+And if we save that you can see it's stuck in here so we want to span it all the way across.
+
+07:08.730 --> 07:10.200
+And you guys remember how to do that.
+
+07:10.200 --> 07:12.810
+We're gonna do grid dash column
+
+07:15.840 --> 07:21.250
+and we want to start at the first column and then we want to span across four.
+
+07:21.330 --> 07:22.560
+We have four total.
+
+07:22.680 --> 07:23.580
+So we'll save that.
+
+07:23.580 --> 07:25.780
+And now it spans all the way across.
+
+07:25.860 --> 07:32.470
+Let's just add a little bit of padding here we'll see.
+
+07:32.470 --> 07:35.710
+Point five Ram.
+
+07:35.860 --> 07:39.610
+Let's also text aligned to the center
+
+07:42.610 --> 07:49.840
+and I want to make the font size just a little smaller so we're gonna do zero point seven five REM and
+
+07:49.840 --> 07:51.680
+save.
+
+07:51.700 --> 07:52.020
+All right.
+
+07:52.060 --> 07:59.730
+So let's see the footer itself.
+
+07:59.800 --> 08:00.360
+Actually you know what.
+
+08:00.370 --> 08:03.370
+Let's add a padding class to the footer.
+
+08:03.550 --> 08:04.750
+So up here we'll say.
+
+08:04.750 --> 08:06.070
+Class.
+
+08:06.070 --> 08:09.490
+Remember we have the P Y which is top and bottom.
+
+08:09.490 --> 08:13.050
+We'll do PE y to and save.
+
+08:13.060 --> 08:17.790
+So now this right here the form the little email form I want to style that.
+
+08:17.800 --> 08:29.120
+So let's target main footer and let's do photo container.
+
+08:29.120 --> 08:36.430
+And we're gonna grab the input and I'm gonna say I want the input that has the type that is equal to
+
+08:36.500 --> 08:50.170
+e-mail OK and I'm going to set the width to 90 percent and let's set padding say zero point five room
+
+08:50.770 --> 08:56.820
+and let's do a margin bottom of point five.
+
+08:57.890 --> 08:59.200
+All right so we'll save that.
+
+08:59.410 --> 09:00.600
+So that looks pretty good.
+
+09:00.600 --> 09:08.560
+Now for this for this button here I just want to set that with to 90 percent as well.
+
+09:08.560 --> 09:10.420
+So remember that main footer
+
+09:14.830 --> 09:24.220
+that's an input and we want to say where that type is equal to submit and then I just want to set the
+
+09:24.250 --> 09:32.290
+width to 90 percent which didn't mark because we needed a semicolon.
+
+09:32.790 --> 09:33.080
+OK.
+
+09:33.100 --> 09:35.190
+So that looks pretty good.
+
+09:35.230 --> 09:42.770
+One thing that I forgot to do is for the paragraphs I want all paragraphs to have a little bit of margin.
+
+09:42.910 --> 09:48.240
+You see how this is so close right here and right here so I'm just gonna add.
+
+09:48.420 --> 09:55.270
+Let's go up top here to like our core styles and let's put in paragraph and we'll say for the margin
+
+09:55.270 --> 09:59.500
+top and bottom we want to do point 5 room.
+
+10:00.160 --> 10:03.220
+So it just adds a little bit of space.
+
+10:03.220 --> 10:03.520
+All right.
+
+10:03.520 --> 10:05.720
+So I think that looks pretty good.
+
+10:05.770 --> 10:12.130
+Let's handle the list now like I said I want to be able to use the List class and other places as well
+
+10:12.130 --> 10:15.010
+so we're going to you add this as a utility class.
+
+10:15.020 --> 10:22.860
+So let's go see we'll go right under the padding here and let's say Don list.
+
+10:23.020 --> 10:25.050
+Actually we don't need to style the list itself.
+
+10:25.060 --> 10:27.130
+The usual let's just do the ally.
+
+10:27.370 --> 10:33.560
+And I just want to add padding I'll say point five room top and bottom.
+
+10:34.000 --> 10:44.770
+And let's add a border bottom of five five five dotted one pixel and then I want to set the width to
+
+10:44.800 --> 10:47.530
+90 percent and save.
+
+10:47.740 --> 10:50.880
+OK so that looks pretty good.
+
+10:51.370 --> 10:51.910
+All right.
+
+10:52.740 --> 10:53.150
+Oh you know what.
+
+10:53.170 --> 10:54.460
+Let's you and me.
+
+10:54.530 --> 10:56.220
+Let's do a hover state.
+
+10:56.260 --> 10:59.880
+Let's make the hover the primary colors so we'll see a list.
+
+11:00.760 --> 11:05.920
+Let's do we want to do dot list ally a
+
+11:08.960 --> 11:16.960
+hover and let's say we want the color to be var primary color.
+
+11:17.130 --> 11:18.550
+And now.
+
+11:18.830 --> 11:19.380
+Okay.
+
+11:19.400 --> 11:21.750
+That's not working.
+
+11:21.790 --> 11:23.430
+Not sure why that's not working.
+
+11:25.500 --> 11:28.830
+We've list ally a hover.
+
+11:28.890 --> 11:32.770
+Let's add an important flag here.
+
+11:32.970 --> 11:34.070
+See if that works.
+
+11:34.080 --> 11:34.290
+All right.
+
+11:34.290 --> 11:35.830
+There we go.
+
+11:35.870 --> 11:36.170
+OK.
+
+11:36.180 --> 11:38.030
+So that's our list styling.
+
+11:38.220 --> 11:39.560
+And I think that's it.
+
+11:39.570 --> 11:41.040
+I think that's it for the footer.
+
+11:41.040 --> 11:45.420
+So in the next video we're going to start to work on the inner pages.
+
+11:45.420 --> 11:46.820
+We have an about page.
+
+11:46.830 --> 11:53.640
+We also have an article page so we'll create those and then we'll start to work on the the mobile version
+
+11:53.640 --> 11:54.630
+for the Web site.

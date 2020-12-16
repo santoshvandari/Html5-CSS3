@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.180 --> 00:00.690
+All right guys.
+
+00:00.700 --> 00:05.490
+Now we're going to talk about the position property which has to do with positioning elements in certain
+
+00:05.490 --> 00:07.580
+places on the page.
+
+00:07.650 --> 00:15.930
+So we're going to create a new file here called 11 underscore position dot h t AML and let's put in
+
+00:15.930 --> 00:27.390
+our head body tags and for the title we'll just say CSX positioning and its two hour style tags.
+
+00:27.390 --> 00:33.390
+And as far as the H team all goes I JUST WANT TO HAVE FIVE BOXES AND WE'RE GONNA format them to just
+
+00:33.390 --> 00:36.080
+be square colored boxes and we want to.
+
+00:36.150 --> 00:42.080
+We want to position them in certain ways so each one will have its own I.D. let's do box one.
+
+00:42.090 --> 00:46.410
+But I also want them to have a class of box because that's what we're going to use to create the heightened
+
+00:46.410 --> 00:50.620
+with and do five of these.
+
+00:50.620 --> 00:51.170
+Okay.
+
+00:51.180 --> 01:01.320
+So this will be box two three four and five and let's go up here and style the box class to have a width
+
+01:02.520 --> 01:07.110
+of one hundred pixels and a height of one hundred pixels.
+
+01:07.110 --> 01:13.200
+Now if I save this and we open this up it's gonna be blank because we have no backgrounds for these
+
+01:13.200 --> 01:13.960
+boxes.
+
+01:14.280 --> 01:18.920
+So each one will have a different color background so let's grab box one.
+
+01:19.860 --> 01:27.130
+Let's give it a background of red and then I'm gonna just copy this down.
+
+01:27.160 --> 01:35.670
+We have five of them and let's do box two three four and five.
+
+01:35.920 --> 01:46.490
+So we'll do red yellow green blue and orange OK.
+
+01:46.630 --> 01:47.580
+So let's save this.
+
+01:47.590 --> 01:52.570
+And now everything by default has a position of static.
+
+01:52.600 --> 01:53.060
+OK.
+
+01:53.110 --> 02:01.260
+If I do a position position here and say static that's actually the default.
+
+02:01.270 --> 02:01.960
+I'll save it.
+
+02:02.210 --> 02:03.550
+It's the same.
+
+02:03.550 --> 02:09.760
+Now I just want to show you a quick screen right here that has all the value the possible values of
+
+02:09.760 --> 02:12.970
+position so static is the default.
+
+02:12.970 --> 02:19.750
+And it's not affected by top bottom left and right properties in CSX we have properties where we can
+
+02:20.440 --> 02:25.480
+let's say for top we want to move it from the top a certain amount of pixels or percentage.
+
+02:25.480 --> 02:28.820
+We can do that but we can't do it if it's position static.
+
+02:28.820 --> 02:34.380
+OK relative we can use these values top bottom left right.
+
+02:34.600 --> 02:38.130
+And it'll cause them to be moved from their normal position.
+
+02:38.140 --> 02:39.280
+OK.
+
+02:39.630 --> 02:46.330
+Whatever whatever its normal position would be on the page if we can move it from that now absolute
+
+02:46.420 --> 02:51.310
+is different because absolute it pertains to its parent element.
+
+02:51.370 --> 02:56.880
+So if you have a parent like let's say a div that can do that that's surrounding other Divs.
+
+02:57.040 --> 03:02.830
+You would make the inner divs absolute and the outer div or its parent relative and then you could position
+
+03:02.830 --> 03:04.240
+it within that parent.
+
+03:04.390 --> 03:04.690
+OK.
+
+03:04.690 --> 03:09.880
+And I'm going to give you an example of that fixed is actually position to the viewport meaning the
+
+03:09.880 --> 03:15.940
+whole browser window so it'll stay at that that place even if you scroll down or whatever and then sticky
+
+03:15.940 --> 03:20.760
+is similar to fixed except you can stick it in a certain position like at the top.
+
+03:20.760 --> 03:20.990
+OK.
+
+03:21.040 --> 03:25.840
+When you're scrolling down if you want it to stay at the top you could use sticky and this is used a
+
+03:25.840 --> 03:30.270
+lot for menus where you always want the menu to show at the top no matter what.
+
+03:30.310 --> 03:32.570
+So you can navigate the site.
+
+03:32.650 --> 03:32.970
+All right.
+
+03:32.980 --> 03:35.440
+So it's I'm going to give you examples of all of these.
+
+03:35.440 --> 03:36.850
+So we already looked at static.
+
+03:36.850 --> 03:38.260
+That's just the default.
+
+03:38.260 --> 03:44.980
+Let's change this to relative and since we we could we set it to relative.
+
+03:44.980 --> 03:48.150
+We can actually use Top Right Bottom in left properties.
+
+03:48.220 --> 03:55.510
+So let's say we want to push this let's say 50 pixels from the top and from the left we want to push
+
+03:55.510 --> 03:58.050
+it 50 pixels and I'll save that.
+
+03:58.120 --> 04:03.340
+And notice the red box has now moved 50 down and 50 over from the left.
+
+04:03.400 --> 04:03.810
+OK.
+
+04:03.820 --> 04:08.980
+And if if we didn't do position relative in a Save it doesn't it doesn't work.
+
+04:08.980 --> 04:09.640
+OK.
+
+04:09.730 --> 04:16.060
+So it's going to be from its from its natural place we can move it now absolute like I said has to do
+
+04:16.060 --> 04:18.190
+with inside of a parent.
+
+04:18.300 --> 04:25.060
+So Box 2 and 3 I'm going to make absolute but I'm going to put them within a container class or div
+
+04:25.060 --> 04:26.790
+with the class of container.
+
+04:27.130 --> 04:34.690
+And if there is no pat relative parent it's going to use just the body or the basically the whole browser
+
+04:34.690 --> 04:36.930
+window here.
+
+04:37.030 --> 04:42.090
+So let's do that now two and three which are the yellow and green are within the container.
+
+04:42.160 --> 04:48.590
+So up here just so we can see the limits of the container.
+
+04:48.880 --> 04:58.930
+Let's give it a width of 500 pixels a height of 500 pixels a background of dark gray.
+
+04:59.560 --> 05:04.600
+And let's position it relative because remember the parent has to be position relative.
+
+05:05.200 --> 05:06.270
+And I'll save that.
+
+05:06.280 --> 05:06.910
+And there we go.
+
+05:06.910 --> 05:08.930
+There's the container.
+
+05:08.980 --> 05:10.130
+OK.
+
+05:10.300 --> 05:13.570
+Now box one in box two are within the container.
+
+05:13.570 --> 05:19.560
+But let's say we want to move it move want to move this one a hundred pixels down from the top and one
+
+05:19.560 --> 05:22.500
+hundred pixels over from the left.
+
+05:22.540 --> 05:34.180
+So if I go to Box 2 and I say top 100 pixels and left 100 pixels save it it doesn't move because it's
+
+05:34.180 --> 05:41.020
+still static right now since I wanted to move 100 pixels down and out within its container I want to
+
+05:41.020 --> 05:42.720
+set it to absolute.
+
+05:43.060 --> 05:50.500
+So let's say position absolute and save.
+
+05:50.500 --> 05:55.950
+And now you can see that it moved down a hundred pixels and over one hundred pixels within its container.
+
+05:55.990 --> 05:58.770
+Now box 3 is also within the container.
+
+05:58.840 --> 06:10.570
+So let's just copy this and let's do this time we'll do from the bottom right and save.
+
+06:10.600 --> 06:17.160
+And now within its container it went from the bottom up a hundred pixels and from the right over one
+
+06:17.160 --> 06:18.090
+hundred pixels.
+
+06:18.340 --> 06:26.090
+So you can precisely put things wherever you want within you know position to absolute within a relative
+
+06:26.090 --> 06:27.120
+container.
+
+06:27.140 --> 06:28.750
+Hopefully that makes sense.
+
+06:28.910 --> 06:34.100
+Now before you move on to fix I just want to mention something and that's the z index property.
+
+06:34.100 --> 06:37.700
+Notice how Box 1 is behind the container.
+
+06:37.700 --> 06:41.700
+So if I wanted to move this in front I could use the z index property.
+
+06:41.840 --> 06:49.430
+So let's go to Box 1 which is our red box and let's add Z dash index and if we do just a value of 1
+
+06:49.430 --> 06:50.210
+that should do it.
+
+06:50.270 --> 06:51.320
+Let's save.
+
+06:51.320 --> 06:52.460
+And now it's in front.
+
+06:52.670 --> 06:57.340
+So the higher the z index then the closer to you it's going to be.
+
+06:57.340 --> 07:06.170
+If I were to add to the container which is the big box if I add a z index here of 2 and save it goes
+
+07:06.170 --> 07:11.450
+in front of the red box because obviously 2 is higher than 1 and you can also have negative values as
+
+07:11.450 --> 07:12.590
+well.
+
+07:12.650 --> 07:15.450
+Let's get rid of that we'll keep the red box upfront.
+
+07:15.650 --> 07:19.090
+But I just wanted to mention that about z index.
+
+07:19.130 --> 07:27.570
+All right so let's do fixed so box for let's say we want position to be fixed.
+
+07:27.620 --> 07:29.170
+Now watch what happens when I save.
+
+07:29.180 --> 07:35.630
+Watch what happens to the blue box or actually the orange box it seems to disappear but it didn't disappear
+
+07:35.630 --> 07:43.220
+what happened is it's it's under the blue box because when it's fixed it's it's pulled out of the flow
+
+07:43.220 --> 07:45.600
+of the document and put right on top.
+
+07:46.010 --> 07:46.490
+OK.
+
+07:46.490 --> 07:51.080
+And this would be the the next position after all this stuff.
+
+07:51.350 --> 07:58.100
+Now if I were to scroll down you would see the orange box because the blue would just stay where it
+
+07:58.100 --> 07:58.350
+is.
+
+07:58.340 --> 07:59.840
+So let me give you an example of that.
+
+07:59.840 --> 08:05.450
+We don't have enough content to scroll but if I just add a crazy height to the body we'll be able to
+
+08:05.450 --> 08:07.040
+scroll down.
+
+08:07.130 --> 08:12.490
+So let's just give the body height of like 4000 pixels and save.
+
+08:12.490 --> 08:19.670
+Now you can see we have a scroll bar and as I scroll see the blue box just stays in a fixed position.
+
+08:19.670 --> 08:20.960
+So that's what that's going to do.
+
+08:20.960 --> 08:26.540
+So if you have a Web page where maybe you have like an ad or something that's really important that
+
+08:26.540 --> 08:28.630
+you always want to stay on top.
+
+08:28.640 --> 08:30.370
+You would use fixed for that.
+
+08:31.180 --> 08:32.380
+OK.
+
+08:32.750 --> 08:38.240
+And the next one I want to look at is sticky which is similar but you can actually have it stick in
+
+08:38.240 --> 08:45.580
+a certain spot like let's say the orange box here we want it to stick to the top when we scroll down.
+
+08:45.830 --> 08:55.370
+So for box five let's say position sticky and this is used a lot for menus because a lot of times you
+
+08:55.370 --> 09:00.670
+want the navigation menu to stay at the top no matter where you are on the site now where we wanted
+
+09:00.680 --> 09:03.400
+to stick is top zero.
+
+09:04.130 --> 09:05.200
+So let's save that.
+
+09:05.600 --> 09:10.570
+And now you'll see the orange one is on top of the blue and we can change that with the z index.
+
+09:10.760 --> 09:16.280
+But let's scroll up and watch when I hit the top with the orange box it stays there.
+
+09:16.500 --> 09:18.860
+I keep scrolling and it still stays at the top.
+
+09:18.890 --> 09:23.150
+So it's really good from four top menus or navigation menus.
+
+09:23.710 --> 09:27.380
+All right and just to show you box five is orange.
+
+09:27.380 --> 09:33.730
+If I were to give this a z index let's actually give this a negative z index so negative 1 and save
+
+09:33.740 --> 09:36.080
+and you can see it goes behind the blue.
+
+09:36.230 --> 09:41.750
+So hopefully this gives you some insight on the different values for position as well as how z index
+
+09:41.750 --> 09:42.520
+works.
+
+09:42.620 --> 09:52.460
+Now positioning like this isn't used that much in in modern web sites and you eyes because responsiveness
+
+09:52.460 --> 09:58.490
+and having your your layout look good on mobile devices is very important and when you do things in
+
+09:58.490 --> 10:00.710
+this way it's not very mobile friendly.
+
+10:01.150 --> 10:01.560
+OK.
+
+10:01.570 --> 10:07.880
+Unless it's like part of a very small area and you have stuff positioned absolute within there that's
+
+10:07.880 --> 10:10.730
+still going to look good on a mobile device.
+
+10:10.890 --> 10:16.320
+But yeah I'd say this stuff isn't used as much anymore than it used to as it used to be.
+
+10:16.400 --> 10:22.280
+All right so in the next video we're gonna start to look at form styling and I'm actually gonna give
+
+10:22.280 --> 10:24.380
+this one to you guys as a challenge.
+
+10:24.380 --> 10:29.900
+I'm going to give you some hints and I want you to try and style a form based on all the properties
+
+10:29.900 --> 10:31.540
+that we've learned about so far.

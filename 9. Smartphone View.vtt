@@ -1,0 +1,562 @@
+WEBVTT
+
+00:00.560 --> 00:01.110
+All right guys.
+
+00:01.110 --> 00:07.920
+Now we're gonna start to work on the basically smartphone version of the of the website.
+
+00:07.920 --> 00:12.630
+So let's start off with the nav bar because that doesn't look too good.
+
+00:12.630 --> 00:20.040
+So in our mobile dot CSX I'm going to add a media query so this is for smart phones.
+
+00:20.370 --> 00:28.980
+So let's say at media and we'll say max width of 500 pixels
+
+00:32.010 --> 00:34.290
+and let's see.
+
+00:34.290 --> 00:36.870
+So we're gonna target the nav bar first right.
+
+00:36.900 --> 00:44.220
+So it has an idea of nav bar and I'm going to change I'm going to actually keep the Flex but I'm going
+
+00:44.220 --> 00:49.120
+to change the direction because we have it as a row which is horizontal.
+
+00:49.110 --> 00:52.470
+Let's change it to column once I save that.
+
+00:52.470 --> 00:57.540
+Now you can see that it's going this way instead of horizontal.
+
+00:57.690 --> 01:05.260
+And I'm also going to add the A line dash items to the center and save.
+
+01:05.460 --> 01:08.490
+And it already starts to look pretty good.
+
+01:08.490 --> 01:13.050
+Now the logo I'm going to add some margin bottom I'm also going to make sure I text align it to the
+
+01:13.050 --> 01:13.500
+center.
+
+01:13.500 --> 01:25.080
+So let's say nav bar let's target the logo and let's do margin bottom and we're gonna do zero point
+
+01:25.080 --> 01:37.490
+five REM and let's do text align center and save that did that push it down.
+
+01:37.510 --> 01:38.070
+Yeah I did.
+
+01:38.070 --> 01:38.570
+Right.
+
+01:42.700 --> 01:42.990
+Let's.
+
+01:43.080 --> 01:48.240
+Let's move it a little more so we'll do 7 5.
+
+01:48.430 --> 01:54.060
+Actually it doesn't seem to be moving does it.
+
+01:54.230 --> 01:54.970
+Logo
+
+02:01.490 --> 02:04.090
+display none.
+
+02:04.220 --> 02:09.790
+So we are targeting it.
+
+02:09.850 --> 02:10.180
+OK.
+
+02:10.180 --> 02:12.740
+So I guess we'll just move it down a little more.
+
+02:12.980 --> 02:16.180
+Let's do one run OK
+
+02:19.490 --> 02:23.500
+so let's see for the well
+
+02:26.710 --> 02:32.400
+padding actually the Well I think is let's say we had some padding to it.
+
+02:32.410 --> 02:33.820
+So I would now bar.
+
+02:34.210 --> 02:34.690
+Well
+
+02:37.150 --> 02:38.440
+padding.
+
+02:38.440 --> 02:40.880
+Zero point five Ram.
+
+02:41.860 --> 02:43.080
+Oh that's why I had it.
+
+02:43.120 --> 02:47.730
+Because of that padding so let's change this back to zero point five.
+
+02:47.740 --> 02:50.120
+Here we go.
+
+02:50.680 --> 02:51.580
+OK.
+
+02:51.610 --> 02:52.300
+Next thing
+
+02:55.710 --> 03:00.300
+if we go down here notice that we now have this space.
+
+03:00.300 --> 03:08.010
+That's because the nav bar the height has now grown in what we had before in our style sheet.
+
+03:08.010 --> 03:13.140
+If we look at the showcase let's go up to showcase content.
+
+03:13.140 --> 03:18.540
+We had top sixty five because that that basically made up for the now bar.
+
+03:18.570 --> 03:21.570
+But now the now bar is bigger.
+
+03:21.750 --> 03:37.650
+So let's do we're gonna go and say showcase content that's prefixes with I.D. showcase
+
+03:39.830 --> 03:46.130
+and instead of sixty five let's say top 110 10 pixels and save.
+
+03:46.130 --> 03:49.600
+And now if we go down you can see that there is no more space here.
+
+03:49.610 --> 03:50.870
+So that covers it.
+
+03:50.930 --> 03:55.820
+And if we make this bigger into the regular size it's fine.
+
+03:55.820 --> 04:03.640
+So as soon as we hit 500 pixels it goes into this this menu here.
+
+04:03.680 --> 04:04.010
+All right.
+
+04:04.010 --> 04:09.090
+So let's see what else what else we have to do here.
+
+04:11.030 --> 04:12.610
+So that looks good.
+
+04:13.310 --> 04:18.060
+And we'll tell we'll test the devices after this here this this who area.
+
+04:18.070 --> 04:25.280
+I want to get rid of the image and actually we're going to remove the Flex from the WHO I.D. because
+
+04:25.280 --> 04:30.620
+right now this is a flex box and these two are flex items since we're are removing the this image here.
+
+04:30.620 --> 04:32.600
+There's no need for flex.
+
+04:32.600 --> 04:45.230
+So let's say who and we'll say display block and if I save that the image is going to go away because
+
+04:45.230 --> 04:51.950
+now since the image is in part of a flex box it would need a height to display.
+
+04:51.950 --> 04:56.700
+But I don't even want to display it at all so I'm just going to say who.
+
+04:56.720 --> 05:03.230
+And then we're going to take the class of who Dash I am G which the image is wrapped in and we're simply
+
+05:03.230 --> 05:07.930
+going to say display none OK so we'll save that.
+
+05:07.930 --> 05:10.440
+All right so looks pretty good.
+
+05:10.450 --> 05:13.700
+Next thing is the clients.
+
+05:13.810 --> 05:18.030
+So I mean we could leave it like this but the images are really small.
+
+05:18.100 --> 05:28.540
+So what I'd like to do is first of all increase the with so many say clients dot items and grab the
+
+05:28.540 --> 05:29.880
+images themselves.
+
+05:29.890 --> 05:33.500
+And we have 60 percent by default in style CSF.
+
+05:33.520 --> 05:36.800
+Let's change it to 80 and save it.
+
+05:37.570 --> 05:39.800
+But I want to remove the last one.
+
+05:39.820 --> 05:50.280
+So what we can do is say client's items and grab the div but we want the last child we're going to use
+
+05:50.280 --> 05:57.560
+the pseudo selector last child and say display display none.
+
+05:57.620 --> 06:03.650
+So if you watch the last logo when I save this it goes away and I think that looks a little better.
+
+06:03.650 --> 06:09.320
+They're bigger and there's less of them and we didn't even have to mess with the markup to get rid of
+
+06:09.320 --> 06:11.400
+the logo.
+
+06:11.510 --> 06:13.460
+Let's see now the contact.
+
+06:13.460 --> 06:16.680
+We also want to remove the flax because we want these to stack.
+
+06:16.700 --> 06:19.170
+We don't want them to align.
+
+06:19.400 --> 06:21.920
+So let's say contact
+
+06:25.190 --> 06:28.100
+and actually know we could try.
+
+06:28.100 --> 06:36.440
+I did when I initially did this I did display block but let's try flex direction and let's do column
+
+06:36.470 --> 06:39.050
+instead and see what that looks like.
+
+06:39.050 --> 06:40.210
+OK.
+
+06:40.460 --> 06:46.610
+Now the reason we can't see the map anymore is because since it's no longer basically attached to the
+
+06:46.610 --> 06:50.060
+form horizontally we need to add a height.
+
+06:50.060 --> 07:00.150
+So let's say contact map excuse me and let's say height 200 pixels and save.
+
+07:00.180 --> 07:05.600
+Now if we go down we can see the map and I also want to just have a little boy like a black border right
+
+07:05.600 --> 07:06.310
+here.
+
+07:06.350 --> 07:13.970
+So on the map let's say border top and you can see you can style it however you want on different screens.
+
+07:13.970 --> 07:19.910
+I'm gonna do four pixels solid and three three three save.
+
+07:19.910 --> 07:23.620
+And now we have square is it pixels light.
+
+07:23.700 --> 07:29.990
+P.S. And now we have this border right here which is pretty cool so let's you know.
+
+07:30.080 --> 07:32.990
+So once we hit 500 it turns into that
+
+07:37.410 --> 07:40.400
+all right good.
+
+07:40.400 --> 07:41.630
+Let's see
+
+07:44.000 --> 07:50.960
+now the showcase content looks good in a browser but let's actually do the real test and look at it
+
+07:51.680 --> 07:52.540
+on the device.
+
+07:52.550 --> 07:58.100
+So we're going to open up our chrome tools and check out the device.
+
+07:58.360 --> 08:03.980
+OK so this is an iPhone X and I think that looks pretty good.
+
+08:04.030 --> 08:04.280
+Yeah.
+
+08:04.310 --> 08:13.880
+Everything seems cool so let's check the iPhone 6 7 8 plus.
+
+08:14.000 --> 08:17.710
+Good try.
+
+08:17.720 --> 08:19.400
+Six seven eight.
+
+08:19.430 --> 08:19.880
+Good
+
+08:24.010 --> 08:25.100
+and see.
+
+08:25.100 --> 08:35.560
+Galaxy Well we could we could move the showcase content up a little bit yeah.
+
+08:35.580 --> 08:36.480
+Why don't we do that.
+
+08:36.480 --> 08:40.290
+So let's see do we have a showcase content here.
+
+08:40.290 --> 08:40.950
+No.
+
+08:40.960 --> 08:42.490
+Yeah right here.
+
+08:42.540 --> 08:45.480
+So showcase content.
+
+08:45.480 --> 08:49.350
+We did top one hundred ten pixels.
+
+08:50.070 --> 08:54.650
+Let's do a margin dash top.
+
+08:54.750 --> 08:56.730
+But let's do a negative value in this.
+
+08:56.730 --> 08:59.770
+What this will do is it will suck the content up.
+
+08:59.820 --> 09:07.980
+So notice that right now on the galaxy the read more is kind of it's not in the in the you know the
+
+09:07.980 --> 09:09.570
+viewport when you first enter.
+
+09:09.570 --> 09:11.780
+I mean you can simply scroll down and it's fine.
+
+09:11.790 --> 09:14.610
+But I'd like to just move this up a little bit.
+
+09:15.090 --> 09:15.780
+So I'm going to do.
+
+09:15.780 --> 09:16.790
+Negative.
+
+09:17.400 --> 09:20.880
+It's too negative to REM and save.
+
+09:20.880 --> 09:26.490
+And now this is actually in the you know above the fold is what they say.
+
+09:27.000 --> 09:34.210
+And then even if we go on like an iPhone X it's still fine it's just up a little more that looks good.
+
+09:34.220 --> 09:36.580
+And let's try the iPhone 5.
+
+09:37.930 --> 09:38.210
+OK.
+
+09:38.260 --> 09:45.280
+So if we wanted to look good on the iPhone 5 which has a very short height what we could do is lessen
+
+09:45.280 --> 09:48.320
+the font size of the L heading.
+
+09:49.870 --> 09:51.210
+But I'm only going to you know what.
+
+09:51.210 --> 09:57.890
+I'm only going to do that if the height is five 68 or less.
+
+09:58.090 --> 09:58.360
+Right.
+
+09:58.360 --> 10:00.240
+Because this is a height of five sixty eight.
+
+10:00.250 --> 10:02.890
+The iPhone 5 the six is six sixty seven.
+
+10:02.890 --> 10:06.090
+Everything else is larger than that.
+
+10:06.100 --> 10:18.200
+So what I'll do is I'll put an extra media query down here and I'm going to say Max height of five 68
+
+10:18.290 --> 10:19.270
+pixels.
+
+10:21.430 --> 10:24.520
+And let's take the showcase
+
+10:26.960 --> 10:31.160
+actually let me see that again.
+
+10:31.180 --> 10:34.060
+No actually we don't need to do the showcase content.
+
+10:34.060 --> 10:34.720
+That's fine.
+
+10:34.750 --> 10:36.130
+Let's take the L heading
+
+10:39.780 --> 10:42.720
+and the original font size I believe is for REM.
+
+10:42.720 --> 10:52.440
+So let's say font size and let's set it to three REM and let's take the lead the paragraph has a class
+
+10:52.440 --> 10:53.740
+of lead.
+
+10:53.820 --> 11:00.690
+We're gonna change that font size to one room which I believe is one point five by default.
+
+11:00.690 --> 11:02.840
+And there we go it fits.
+
+11:02.970 --> 11:08.280
+So we're targeting 568 height or smaller and then we're at work lessening the font size.
+
+11:08.310 --> 11:14.190
+But if we go back to like the iPhone X then the font size is normal.
+
+11:14.190 --> 11:15.810
+Actually we have this here though
+
+11:19.070 --> 11:19.770
+why is that
+
+11:25.990 --> 11:28.290
+that shouldn't be there.
+
+11:28.290 --> 11:34.160
+Because we put the top one hundred ten pixels.
+
+11:34.590 --> 11:37.800
+Oh is it because of the margin type let me get rid of that.
+
+11:40.230 --> 11:41.140
+Yes it is.
+
+11:41.140 --> 11:42.090
+It's because.
+
+11:42.090 --> 11:42.390
+OK.
+
+11:42.420 --> 11:53.090
+So you know what we'll do is we'll only do the margin top negative on heights that are 568 or less.
+
+11:53.430 --> 11:59.670
+So showcase content paste that in.
+
+11:59.670 --> 11:59.990
+OK.
+
+12:00.030 --> 12:00.960
+So that looks good.
+
+12:00.960 --> 12:06.500
+Let's go back to the iPhone 5.
+
+12:06.530 --> 12:08.700
+Well I guess we still have that problem.
+
+12:08.750 --> 12:17.020
+So we have to do is add to the top value.
+
+12:17.030 --> 12:20.850
+So we have top one hundred ten.
+
+12:21.590 --> 12:26.780
+So let's do top let's try 130 in
+
+12:34.770 --> 12:36.380
+showcase.
+
+12:36.650 --> 12:44.070
+That could be why I actually wanted to 130 doesn't seem to be enough let's do one 40.
+
+12:44.090 --> 12:48.140
+There we go.
+
+12:48.440 --> 12:53.420
+OK so the I mean the iPhone 5 isn't really important at least for me.
+
+12:53.430 --> 12:57.530
+But I mean it's good to at least have a look decent on older devices.
+
+12:58.420 --> 12:58.720
+OK.
+
+12:58.720 --> 13:00.710
+So that's going to be it for this project guys.
+
+13:00.750 --> 13:04.120
+Hopefully you enjoyed it and you learned quite a bit from it.
+
+13:04.240 --> 13:11.430
+If you run into any little bugs or or you know things that aren't displaying quite right on certain
+
+13:11.440 --> 13:17.890
+devices maybe you have some some different kind of Android phone and something doesn't look right then
+
+13:17.890 --> 13:23.900
+feel free to just tweak it you know go in change some of the values of some of the properties.
+
+13:24.280 --> 13:30.640
+I mean this had this Web site obviously isn't like a production Web site that's been fully tested and
+
+13:30.940 --> 13:36.160
+and up and running for a while this is something I built for the core so you might run into a couple
+
+13:36.190 --> 13:40.090
+things here and they are not just with this project but with any of the projects.
+
+13:40.120 --> 13:41.110
+But yeah that's it.
+
+13:41.110 --> 13:46.090
+I mean you can use this Web site as kind of a boilerplate or a template for other sites you've just
+
+13:46.090 --> 13:51.250
+changed the background image change the colors all that stuff but that's going to be it guys in the
+
+13:51.250 --> 13:52.800
+next section.
+
+13:52.870 --> 13:57.460
+What I want to do is start to look at Web site deployment because up to this point we've only been building
+
+13:57.460 --> 13:58.860
+on our local machine.
+
+13:58.960 --> 14:06.910
+So I want to show you how to in probably the simplest way possible to upload a Web site to a shared
+
+14:06.910 --> 14:07.750
+hosting account.

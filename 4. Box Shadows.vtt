@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.430 --> 00:01.020
+All right guys.
+
+00:01.020 --> 00:07.260
+Now we're going to look at the box shadow property and box Sharyl actually takes a bunch of different
+
+00:07.260 --> 00:11.960
+values so we're gonna go over those and we're going to just show you how to add some shadows to some
+
+00:11.970 --> 00:12.860
+as some did.
+
+00:12.870 --> 00:14.050
+Some elements here.
+
+00:14.130 --> 00:21.120
+So let's create a new file called 0 4 underscore box underscore shadows dot HD here.
+
+00:21.120 --> 00:29.550
+Now let's add our boilerplate say a box shadows
+
+00:31.800 --> 00:34.520
+style.
+
+00:34.650 --> 00:39.210
+Now for the H table I'm just gonna put in a container class
+
+00:41.700 --> 00:52.170
+and let's do let's do three boxes so we'll do dot box and then in here will it's to put an H three.
+
+00:52.260 --> 00:55.140
+I'll just say heading and then a paragraph.
+
+00:55.140 --> 00:58.550
+I'll do Lorem 10 and then I'm just gonna have three of these.
+
+00:58.560 --> 01:01.740
+So we'll just go ahead and bring this down three times.
+
+01:01.740 --> 01:06.990
+All right let's open this with live server and should look like this.
+
+01:06.990 --> 01:13.370
+So what I want to do is I'm going to use flex to display the boxes.
+
+01:13.380 --> 01:21.350
+So we're gonna take the container class and we're just going to say display flex.
+
+01:21.420 --> 01:21.820
+Okay.
+
+01:21.840 --> 01:27.790
+So we have our boxes and then I'm just gonna add some base styling to the box class as well.
+
+01:27.870 --> 01:30.200
+Before we get into the shadows.
+
+01:30.270 --> 01:31.590
+So just some padding
+
+01:34.850 --> 01:36.420
+and let's do some margin
+
+01:39.570 --> 01:41.040
+and let's see we'll do.
+
+01:41.070 --> 01:48.730
+Let's do a background of coral and we'll see color white.
+
+01:48.990 --> 01:49.260
+All right.
+
+01:49.290 --> 01:50.650
+So now we have some boxes.
+
+01:50.660 --> 02:02.040
+I should probably make it a little wider so close this up and we should be good like great here okay.
+
+02:02.040 --> 02:12.000
+So we have boxes now we're gonna add some shadows so I'm going to say box shadow now like I said there's
+
+02:12.000 --> 02:18.050
+there's different basically options or values that you can that you can use.
+
+02:18.040 --> 02:24.870
+So I'm going to paste in a comment right above and we're going to put in three values here to to start
+
+02:24.870 --> 02:25.350
+off with.
+
+02:25.350 --> 02:31.330
+So the first is going to be the offset x next will be the offset Y and the last will be the color.
+
+02:31.410 --> 02:35.240
+So you guys know what a shadow is it just comes off the box.
+
+02:35.250 --> 02:39.010
+Now offset X is going to be on the x axis.
+
+02:39.020 --> 02:47.400
+K X is always gonna be horizontal Y is vertical so let's say for the x axis or am sorry X offset we
+
+02:47.390 --> 02:52.760
+want to do 10 pixels and then for the Y we'll do 10 pixels as well.
+
+02:52.800 --> 02:54.300
+And then next will be the color.
+
+02:54.300 --> 02:56.000
+I'm going to use teal.
+
+02:56.180 --> 02:59.250
+It's kind of kind of weird colors but I just wanted to stand out.
+
+02:59.250 --> 03:01.920
+So let's go ahead and save that.
+
+03:02.190 --> 03:10.250
+And as you can see it added a box shadow it put 10 pixels on the x axis ten on the Y.
+
+03:10.410 --> 03:10.780
+All right.
+
+03:10.830 --> 03:20.970
+Now I'm gonna be adding different box shadow values the next one I want to add the Blur radius because
+
+03:20.970 --> 03:26.390
+there's actually more that you can add and one of them is a blur radius.
+
+03:26.400 --> 03:32.130
+So this is gonna have four parameters so I'm going to copy what I did here and this is just going to
+
+03:32.130 --> 03:34.340
+overwrite the one before it.
+
+03:34.650 --> 03:41.880
+So the blow radius is going to be after the offset y and before the color and the blow radius is just
+
+03:41.880 --> 03:48.060
+that it's going to add a blur effect to it and it's in pixels so let's say 20 pixels and we'll save.
+
+03:48.060 --> 03:50.610
+And now notice that the shadows have a blur.
+
+03:51.300 --> 03:57.660
+And if these stick out too much for you if you want them to be less you could do like five pixels and
+
+03:57.690 --> 04:00.600
+save and now it's less and you can experiment with it.
+
+04:00.720 --> 04:05.280
+Now you can also do negative values for the offsets.
+
+04:05.280 --> 04:12.420
+What that will do is it will add the shadow to the top and the left by default we have the shadow coming
+
+04:12.420 --> 04:14.640
+out of the right and the bottom.
+
+04:14.700 --> 04:21.990
+But what we could do is just copy copy this line here and let's just say negative five and negative
+
+04:21.990 --> 04:23.940
+5 and save.
+
+04:23.940 --> 04:28.250
+And now you can see that the shadow was actually on the left and the top.
+
+04:28.260 --> 04:35.520
+OK so negative five on the X is going to go this way negative five on the Y is going to go up.
+
+04:35.520 --> 04:35.820
+All right.
+
+04:35.850 --> 04:42.810
+Now we can also do a spread radius so how far do we want it to spread.
+
+04:42.810 --> 04:50.970
+So I'm going to actually copy these comments again and I'm just putting these comments here so you know
+
+04:50.970 --> 04:54.290
+what each of these values are.
+
+04:54.540 --> 04:58.740
+So let's grab this one here.
+
+04:58.740 --> 05:05.810
+So we'll say let's do three pixels for the offset.
+
+05:05.820 --> 05:08.720
+Why offset X blur radius.
+
+05:08.720 --> 05:16.560
+Let's do 10 pixels and then see for the spread radius.
+
+05:16.550 --> 05:22.170
+We'll do one pixel and then instead of using a solid color I'm going to use our GPA.
+
+05:22.170 --> 05:24.120
+So it's red green blue alpha.
+
+05:24.690 --> 05:27.810
+So the red green blue we've went over this.
+
+05:27.810 --> 05:30.180
+I'm going to use zero for them all which will make it black.
+
+05:30.180 --> 05:32.970
+And then the Alpha is a transparency.
+
+05:32.970 --> 05:37.800
+So we're going to do zero point three here and save.
+
+05:37.800 --> 05:43.710
+So this is something I don't really use box shadows that much I don't particularly like the look of
+
+05:43.710 --> 05:44.810
+them.
+
+05:44.820 --> 05:49.710
+Some people do if I were to use them it would be something like this something very very subtle.
+
+05:50.160 --> 05:59.070
+So as in I would probably use our GPA because the the the less transparent the lighter this is if we
+
+05:59.070 --> 06:03.290
+were to do like zero point nine and save.
+
+06:03.300 --> 06:04.950
+You can see it's much darker.
+
+06:04.950 --> 06:11.490
+Now you may like that kind of look but I don't I think it looks really you know 2002 ish.
+
+06:11.490 --> 06:18.970
+So I don't use shadows that much but nevertheless you should know how to how to add them.
+
+06:19.140 --> 06:19.880
+All right.
+
+06:20.040 --> 06:27.180
+Let's see we can also do an inset box shadow meaning that it's not coming it's on on the outside it's
+
+06:27.180 --> 06:28.410
+on the inside.
+
+06:28.410 --> 06:39.690
+So I'm going to just paste this in here and let's say box shadow and we can specify inset and then we
+
+06:39.690 --> 06:42.020
+do the offset x x and y.
+
+06:42.030 --> 06:48.170
+So I'm actually going to do negative three pixels and negative three.
+
+06:48.240 --> 06:50.340
+So that's at the left and the top.
+
+06:50.610 --> 06:59.410
+And let's do teal and save I'm sorry not the left in the top it's going to be down here because when
+
+06:59.410 --> 07:01.640
+you do inset it's the opposite.
+
+07:01.670 --> 07:08.090
+If I wanted it to be the left in the top I would do positive values shows you how much I actually who's
+
+07:08.090 --> 07:08.990
+this.
+
+07:09.200 --> 07:11.220
+But yeah we can do that if we want.
+
+07:11.250 --> 07:16.470
+It's now it's on the inset of the box it's not coming like from the outside.
+
+07:16.780 --> 07:19.030
+And then we can also do multiple shadows
+
+07:23.240 --> 07:30.860
+so to do that we could say like Box shadow and we could do let's say three pixels three pixels teal
+
+07:31.400 --> 07:39.080
+and then we can put a comma and let's do negative three pixels negative three pixels and we'll do all
+
+07:39.080 --> 07:40.550
+of it's gonna be very ugly.
+
+07:40.550 --> 07:47.420
+But just to show you how this works if I save you can see now I have the teal shadow box shadow right
+
+07:47.420 --> 07:49.490
+here and then the all of.
+
+07:49.490 --> 07:50.230
+Up top.
+
+07:50.480 --> 07:50.680
+OK.
+
+07:50.780 --> 07:55.730
+So you can separate them with a comma if you want to add more and of course you could add a blur radius
+
+07:55.760 --> 08:05.320
+if we do let's do 10 pixels here and 10 pixels here and we'll save and we get our blurry radius.
+
+08:06.080 --> 08:06.320
+OK.
+
+08:06.350 --> 08:11.300
+So that's going to be it for box shadows guys like I said it's not something that I usually use I don't
+
+08:11.360 --> 08:16.700
+I don't really like the look of them but that's how how you use them in the next video we're going to
+
+08:16.700 --> 08:18.530
+take a look at text shadows.

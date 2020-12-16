@@ -1,0 +1,214 @@
+WEBVTT
+
+00:07.720 --> 00:12.100
+Hello and welcome to Modern Age Tim Allen CEO says from the beginning in this video we just want to
+
+00:12.100 --> 00:15.630
+talk a little bit about what you can expect from this course.
+
+00:15.640 --> 00:18.310
+So this is going to be a comprehensive course on age.
+
+00:18.320 --> 00:19.540
+Tim Allen CSX.
+
+00:19.540 --> 00:24.000
+And we're going to start from the absolute beginning starting with each HTML5 markup.
+
+00:24.010 --> 00:31.240
+We'll go through all the basics of CSX to the latest features like flex box CSX grid animation variables
+
+00:31.240 --> 00:33.480
+responsive design and much more.
+
+00:33.520 --> 00:39.550
+Not only that you'll also learn SAS in this course which is a CSX pre compiler that extends the syntax
+
+00:39.550 --> 00:44.520
+of CSX to include things like nesting inheritance functions and more.
+
+00:44.530 --> 00:50.350
+This course is composed of both learning sections where we'll basically be working in a sandbox to look
+
+00:50.350 --> 00:56.050
+at certain features and then we have about a half dozen projects ranging in size and then some mini
+
+00:56.050 --> 00:58.530
+projects on top of that.
+
+00:58.540 --> 01:00.430
+So who is this course actually for.
+
+01:00.430 --> 01:05.620
+The short answer is everyone whether you're an absolute beginner learn looking to learn how to build
+
+01:05.620 --> 01:12.850
+Web sites how Web sites work or a seasoned developer that wants to get better at CSX SAS and UI creation
+
+01:12.850 --> 01:16.360
+in general without having to rely on frameworks like bootstrap.
+
+01:16.780 --> 01:22.340
+So Sections 1 through 4 are geared more towards beginners as we go over the basics of each team Alan
+
+01:22.390 --> 01:23.310
+CSX.
+
+01:23.320 --> 01:29.470
+So if you're comfortable with things like each team 0 5 and CSX topics like font styles basic alignment
+
+01:29.470 --> 01:36.160
+margin and padding things like that then feel free to skip these sections and start using FLAC CSX grid
+
+01:36.190 --> 01:37.820
+animation in SAS.
+
+01:38.320 --> 01:41.830
+So here's a summary of some of the things that we'll be going over in this course.
+
+01:41.830 --> 01:47.230
+So we'll start with the basics of how Web sites work and how the internet works in general in terms
+
+01:47.230 --> 01:53.560
+of IP addresses how exactly a Web site that's stored on a server somewhere else gets displayed in your
+
+01:53.560 --> 01:54.380
+browser.
+
+01:54.430 --> 01:59.860
+We'll look at setup and tools we're using a text editor called V.S. code which is definitely the most
+
+01:59.860 --> 02:02.330
+popular editor in the web development world.
+
+02:02.500 --> 02:08.140
+And we'll be using tools such as Emmett will install a couple of different extensions as well get a
+
+02:08.140 --> 02:15.520
+workflow going we'll look at each team all five in terms of just the core basics of tags and attributes.
+
+02:15.550 --> 02:21.160
+We'll look at all the basic tags we'll also look at these semantic tags like header footer aside things
+
+02:21.160 --> 02:26.380
+like that and show you how to structure in each a proper each team 0 five document.
+
+02:26.530 --> 02:33.340
+We'll be looking at CSX fundamentals like the box model font styles things like that responsive design
+
+02:33.520 --> 02:40.000
+so media queries making everything look good on mobile devices including smartphones and tablets.
+
+02:40.000 --> 02:43.170
+Every single project we create is going to be responsive.
+
+02:43.420 --> 02:50.530
+We'll be looking at flex box CSX grid which are ways to align columns and rows.
+
+02:50.560 --> 02:57.780
+We'll be looking at animation with transitions in key frames CNS variables transform pseudo selectors.
+
+02:57.820 --> 03:03.610
+We'll be building things like sticky menus overlays we'll be styling forms and landing pages we'll even
+
+03:03.610 --> 03:05.330
+look at Web site deployment.
+
+03:05.410 --> 03:10.960
+So making your website live on the Internet using a shared host we'll also be looking at a platform
+
+03:10.960 --> 03:12.060
+called Net LA fi.
+
+03:12.340 --> 03:18.430
+And then finally we'll look at SAS which is a CSA as pre compiler to allow us to basically extend the
+
+03:18.430 --> 03:24.100
+functionality of CSX and we'll create a portfolio project with that.
+
+03:24.160 --> 03:24.490
+All right.
+
+03:24.490 --> 03:29.230
+So as I said this is going to be a mix of learning sections and projects the learning lectures will
+
+03:29.230 --> 03:34.730
+include specific topics such as the box model media queries and many other things.
+
+03:34.810 --> 03:40.130
+And then we'll also have six good sized projects along with some other mini projects.
+
+03:40.150 --> 03:46.330
+So the first Web site project we'll be building is this hotel Web site which is before we even get into
+
+03:46.330 --> 03:52.870
+flex box in the grid and anything like that we'll be using just basic CSX here including floats because
+
+03:52.900 --> 03:58.180
+I think it's important to learn the basics even though for the most part you're going to be using flex
+
+03:58.180 --> 04:05.490
+or the grid next project is this edge ledger Web site which is a single page site for a financial company.
+
+04:05.530 --> 04:10.180
+It includes flex box image overlay sticky menu things like that.
+
+04:10.180 --> 04:14.230
+We will be implementing a little bit of JavaScript for a smooth scroll.
+
+04:14.230 --> 04:16.220
+We'll be doing this in a couple projects.
+
+04:16.270 --> 04:18.850
+However javascript is not the focus of this course.
+
+04:18.850 --> 04:23.800
+I just want to make that clear we will be using a little bit of it but we're not going to really get
+
+04:23.800 --> 04:31.180
+into javascript discourses more about UI and each team LCROSS and SAS so the next project is a news
+
+04:31.180 --> 04:39.100
+grid site where we use CSX grid we use grid template columns and I show you how to span rows and things
+
+04:39.100 --> 04:39.860
+like that.
+
+04:39.880 --> 04:43.500
+Next we'll build a landing page that uses a hamburger menu.
+
+04:43.510 --> 04:47.740
+So you guys have probably seen this before you click it and it opens up a menu.
+
+04:47.800 --> 04:54.260
+We'll have a big overlay that has the menu items will also animate the the the hamburger menu itself.
+
+04:54.380 --> 04:58.870
+Then we have a CSX timeline project where we have different items on the timeline.
+
+04:58.930 --> 05:03.610
+We're going to add a little bit of JavaScript here to bring the items in from the side as we scroll
+
+05:03.610 --> 05:11.050
+down and then the last project is a asked project will recreate a four page portfolio site with a home
+
+05:11.080 --> 05:19.900
+about a work page with some pretty in-depth CSI s animations transitions and then a contact page and
+
+05:19.900 --> 05:25.480
+we're going to deploy this to a platform called nullify and make the contact page actually work with
+
+05:25.480 --> 05:27.100
+spam filtering.
+
+05:27.100 --> 05:27.450
+All right.
+
+05:27.460 --> 05:28.270
+So that's it.
+
+05:28.270 --> 05:31.050
+Hopefully you enjoy the course and learn a lot from it.
+
+05:31.060 --> 05:33.180
+So let's jump in and get started.

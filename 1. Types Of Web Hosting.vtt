@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.240 --> 00:03.240
+All right so we've built a couple of small projects on our local machine.
+
+00:03.240 --> 00:07.110
+Now I want to start looking at how to actually get a Web site online.
+
+00:07.140 --> 00:11.250
+And we talked a little bit about this in the beginning of the course you're usually going to register
+
+00:11.250 --> 00:17.010
+a domain name and then by some kind of hosting account although many hosting accounts do include a free
+
+00:17.010 --> 00:18.020
+domain name.
+
+00:18.030 --> 00:22.860
+So in this video I just want to go over the different types of hosting there are as well as the pricing
+
+00:22.860 --> 00:23.970
+points.
+
+00:23.970 --> 00:29.010
+So these are the most common types of hosting we have shared hosting VPN us which is a virtual private
+
+00:29.010 --> 00:34.950
+server dedicated server reseller hosting cloud hosting and static hosting.
+
+00:34.980 --> 00:38.810
+So we're gonna go over each of these and talk about what they are.
+
+00:38.820 --> 00:45.360
+So aside from from free tiers of static hosting which I'll get to in a bit shared hosting is definitely
+
+00:45.360 --> 00:51.660
+the cheapest ranging from around three dollars to 15 dollars per month although a lot of times you'll
+
+00:51.660 --> 00:57.750
+have to pay by the year so it'll be around 70 bucks 70 to 100 bucks a year which isn't bad and shared
+
+00:57.750 --> 01:05.490
+hosting means that you get one of many accounts on the same server and on the same operating system
+
+01:05.490 --> 01:06.470
+environment.
+
+01:06.600 --> 01:11.310
+And this is suitable for most small Web sites so anything that we build in this course would be just
+
+01:11.310 --> 01:14.700
+fine on a shared host in terms of data and size.
+
+01:14.700 --> 01:20.100
+However they usually restrict bandwidth so if you have a site where you're expecting you know tens of
+
+01:20.100 --> 01:25.440
+thousands of users every day it's probably not the best thing you probably want to go with with something
+
+01:25.440 --> 01:33.300
+of a higher tier but if it's some local business like a flower shop or something like that in most cases
+
+01:33.300 --> 01:34.140
+it's gonna be fine.
+
+01:34.140 --> 01:40.080
+I built Web sites for local businesses for a long time and I would say 90 percent of them use the shared
+
+01:40.080 --> 01:41.500
+web host.
+
+01:41.520 --> 01:45.270
+So this is definitely probably where you're going to want to start I should say probably where you're
+
+01:45.270 --> 01:49.320
+going to start or maybe static hosting which I'll get to in a little bit.
+
+01:50.310 --> 01:57.030
+And this is this is what we'll be doing in this section we're gonna set up a shared host shared hosted
+
+01:57.030 --> 02:03.960
+account within motion which is a great service great company that I've used for years now most of these
+
+02:03.960 --> 02:09.090
+these types of accounts are managed and they include email servers so you'll be able to set up your
+
+02:09.090 --> 02:16.350
+email with your domain name you get a control panel to view analytics create FTB accounts you can upload
+
+02:16.350 --> 02:22.890
+files you can even create databases a lot of them come with like you know one click installs for things
+
+02:22.890 --> 02:29.820
+like WordPress so shared hosting is great for small local businesses and like I said I suggest in motion
+
+02:29.850 --> 02:32.330
+but there's also hosted gator blue hosted these.
+
+02:32.330 --> 02:36.980
+These are some other companies that I've worked with that are really good as well.
+
+02:37.020 --> 02:37.350
+All right.
+
+02:37.350 --> 02:44.720
+So next up we have VPN or virtual private server and this is a step up from shared hosting you're going
+
+02:44.730 --> 02:53.120
+to get a it's basically an account that's on a physical machine but it's a virtualize environment.
+
+02:53.130 --> 02:59.280
+OK so with shared hosting you have the same environment you just have different accounts on a VPN you
+
+02:59.280 --> 03:04.400
+have you have less people on the same server and they're all their own environments.
+
+03:04.410 --> 03:10.860
+So it's more secure you know it's less prone to issues from other accounts things like that you also
+
+03:10.860 --> 03:17.400
+get much more access with a shared account you usually can't log in through SSL H or through the shell
+
+03:17.580 --> 03:23.430
+as a route user and with a VPN yes you have much more control you can log in his route you can install
+
+03:23.430 --> 03:29.790
+things in these range from usually range from about twenty to one hundred dollars per month and obviously
+
+03:29.790 --> 03:36.630
+different packages have different disk space and bandwidth restrictions just like a shared host a VPN
+
+03:36.750 --> 03:41.820
+is great if you plan on having more than one web site you can actually create your own smaller shared
+
+03:41.820 --> 03:47.760
+accounts with their own separate control panels and you could even sell shared accounts but a reseller
+
+03:47.760 --> 03:51.410
+is better for that which I'll talk about next.
+
+03:51.450 --> 03:58.830
+So a reseller account is very similar to a VPN Yes except it's more geared towards reselling shared
+
+03:58.830 --> 04:01.740
+hosting to third parties.
+
+04:01.740 --> 04:08.610
+So you'll basically get a panel where you can create and terminate shared accounts and you can sell
+
+04:08.610 --> 04:14.760
+those to two users on your Web site and most reseller packages come bundled with a piece of software
+
+04:14.760 --> 04:18.900
+called W. HCM s which is used for billing.
+
+04:19.080 --> 04:24.210
+You can actually make it so when a user pays through the system which you can integrate into your Web
+
+04:24.210 --> 04:28.470
+site a new account gets set up on your reseller server.
+
+04:28.470 --> 04:28.910
+OK.
+
+04:28.920 --> 04:32.250
+And then they'll get sent an email and they'll be able to log in and all this.
+
+04:32.250 --> 04:38.790
+I actually did this for about three or four years when I had my web dev company but I wouldn't suggest
+
+04:38.790 --> 04:41.390
+doing it unless unless you really know what you're doing.
+
+04:41.400 --> 04:49.900
+You know you need to really know about things like DNS and and dev ops and stuff like that all right.
+
+04:49.910 --> 04:55.430
+So a dedicated server is an actual physical machine sitting in a data center that you rent out.
+
+04:55.430 --> 05:02.240
+So as opposed to just basically having an account on a server with other people you you actually not
+
+05:02.270 --> 05:04.190
+own but rent the machine.
+
+05:04.370 --> 05:06.110
+And these are definitely the most expensive.
+
+05:06.110 --> 05:09.340
+They range anywhere from one hundred which is very very cheap.
+
+05:09.350 --> 05:15.460
+You're lucky to find a dedicated server for 100 bucks to four hundred and even more than that.
+
+05:15.530 --> 05:22.460
+Now these are great for large sites and applications that are going to have tons of users.
+
+05:22.460 --> 05:26.870
+You get full freedom you can usually install whatever operating system you want.
+
+05:26.870 --> 05:27.620
+Stuff like that.
+
+05:27.620 --> 05:29.890
+Most likely Linux Linux rules.
+
+05:29.900 --> 05:30.830
+The hosting world.
+
+05:30.830 --> 05:33.810
+So most of the time your servers will run Linux.
+
+05:34.040 --> 05:36.230
+Some some distribution of Linux.
+
+05:36.260 --> 05:42.140
+The downside is they're much harder to manage and in most cases you'll probably have like a designated
+
+05:42.380 --> 05:47.600
+dev ops person on a team managing a dedicated server.
+
+05:47.600 --> 05:47.890
+All right.
+
+05:47.900 --> 05:49.420
+So next is cloud hosting.
+
+05:49.430 --> 05:53.990
+And this is more for web applications more so than just static web sites.
+
+05:54.020 --> 06:00.200
+So if you build something like a social network or an e-commerce site using a language like Python PJ
+
+06:00.240 --> 06:04.900
+P or something like no J.S. cloud hosting is great for that.
+
+06:04.910 --> 06:11.750
+It's basically having multiple servers working together and it's extremely powerful and scalable Digital
+
+06:11.750 --> 06:14.780
+Ocean is one of my favorite providers for this.
+
+06:14.780 --> 06:18.410
+The downside is you have to know a lot to manage cloud hosting.
+
+06:18.410 --> 06:22.730
+You need to know a bunch of Linux terminal commands.
+
+06:22.790 --> 06:29.120
+You need to know how to setup things like engine X servers firewalls and it gets really really advanced
+
+06:29.120 --> 06:34.180
+and way beyond you know what we're doing in this course.
+
+06:34.190 --> 06:34.420
+All right.
+
+06:34.430 --> 06:39.890
+So lastly we have static hosting which is fairly new and a good example of this is net lo fi and get
+
+06:39.890 --> 06:41.250
+hub pages.
+
+06:41.360 --> 06:46.460
+We're actually going to be deploying to nullify a little later which is a fantastic service they offer
+
+06:46.460 --> 06:51.890
+hosting but they also have additional features like server list functions if you want to add some dynamic
+
+06:51.890 --> 06:58.580
+functionality and also contact form submission which is really cool and they're used for both front
+
+06:58.580 --> 07:05.670
+end applications and static web sites including sites that want to have backend services Natalya find
+
+07:05.690 --> 07:08.140
+GitHub pages both have free tiers.
+
+07:08.180 --> 07:13.880
+So if you just want to host your site without having the bells and whistles of a control panel you know
+
+07:13.880 --> 07:17.610
+e-mail and all that you can do that for free.
+
+07:17.660 --> 07:23.240
+But if he I mean you could still have email on that domain you'll just most likely have to have it's
+
+07:23.540 --> 07:27.110
+connected to some other service some kind of email service.
+
+07:27.170 --> 07:34.640
+Now you will need to know at least the basics of get which is a version control system to deploy to
+
+07:34.640 --> 07:37.210
+either notify or get hub pages.
+
+07:37.430 --> 07:38.750
+But we're going to do that later.
+
+07:38.750 --> 07:44.510
+I'm going to teach you some of the basic commands and it's really not that difficult.
+
+07:44.540 --> 07:44.840
+All right.
+
+07:44.840 --> 07:51.440
+So for now what we're gonna do is jump in and we're going to upload our edge ledger Web site to in motion
+
+07:51.440 --> 07:57.680
+hosting to a shared account and they'll show you how to create FCP how to upload your files and all
+
+07:57.680 --> 07:58.520
+that good stuff.

@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.650 --> 00:06.300
+All right guys so we're going to look at the transform property now and this is a page from the MDA
+
+00:06.460 --> 00:12.540
+and Web site the Mozilla docs and it gives you a pretty good example of some of the effects that you
+
+00:12.540 --> 00:16.190
+can do with the transform so for instance we can rotate.
+
+00:16.420 --> 00:18.190
+I'm going to click off it first.
+
+00:18.210 --> 00:20.830
+This is skew so you can kind of skew it.
+
+00:20.900 --> 00:22.420
+You can rotate.
+
+00:22.530 --> 00:23.760
+You can scale.
+
+00:23.760 --> 00:29.240
+So make it bigger you can translate which is basically move it around matrix.
+
+00:29.670 --> 00:31.430
+So we're going to look at some of these properties.
+
+00:31.440 --> 00:36.970
+And we're also going to kind of integrate it with transitions.
+
+00:37.470 --> 00:47.580
+So let's create a new file called 10 underscore transform dot HD email
+
+00:51.700 --> 00:56.670
+say transform and put in our style.
+
+00:56.670 --> 00:59.530
+And again I'm just going to have a glass of box.
+
+00:59.530 --> 01:01.770
+So we're just working with this box here.
+
+01:01.780 --> 01:06.920
+And I'm just going to copy from the transitions.
+
+01:06.930 --> 01:10.920
+I'm going to copy the whole body because I just want to a box in the middle.
+
+01:10.970 --> 01:13.550
+Actually I'll just grab both of these.
+
+01:13.560 --> 01:16.650
+Grab the hover as well and I'll just delete some stuff.
+
+01:16.650 --> 01:24.030
+So it's paste that in and I'm going to keep for the box the background the width and the height and
+
+01:24.060 --> 01:26.360
+I'll get rid of all the hover for now.
+
+01:26.820 --> 01:30.850
+And I'm actually going to set it to 300 pixels.
+
+01:30.930 --> 01:31.230
+All right.
+
+01:31.260 --> 01:37.530
+So let's save that and let's open this with live server we have a 300 pixel wide three a pixel height
+
+01:37.620 --> 01:39.660
+box in the middle of the screen.
+
+01:39.870 --> 01:41.610
+And let's apply a transform.
+
+01:41.610 --> 01:53.790
+So we'll go to the box here and let's say transform and then we're gonna have an effect let's use rotate.
+
+01:53.790 --> 02:00.120
+OK so we'll say rotate and that's going to take in whatever the amount you want to rotate let's say
+
+02:00.130 --> 02:01.990
+25 TEGA.
+
+02:02.130 --> 02:05.130
+So 25 degrees and we'll save.
+
+02:05.130 --> 02:06.580
+And that's going to rotate it.
+
+02:06.630 --> 02:11.800
+Now of course you could use rotate this rotate with animation with key frames transitions.
+
+02:11.820 --> 02:17.140
+But if you just wanted to have something tilted a little bit you could just use it directly like this.
+
+02:17.160 --> 02:17.460
+All right.
+
+02:17.460 --> 02:21.470
+So next we're going to look at let's let's comment this.
+
+02:21.480 --> 02:29.190
+So next we're going to look at SKU which we'll just kind of skew it diagonally Diak diagonally Is that
+
+02:29.220 --> 02:30.530
+a word diagonal.
+
+02:30.930 --> 02:32.430
+And let's try that.
+
+02:32.440 --> 02:32.660
+OK.
+
+02:32.670 --> 02:34.500
+So you can see what SKU does.
+
+02:34.500 --> 02:42.870
+And this is nice if you want to have diagonal lines like in your layout if you want to have maybe you
+
+02:42.870 --> 02:47.970
+know a little showcase area where you have something on this side something on this side and you want
+
+02:47.970 --> 02:53.190
+to diagonal line in the middle instead of just having it half and half like that.
+
+02:53.190 --> 02:55.980
+So that is SKU.
+
+02:55.980 --> 02:57.310
+Let's see its costs.
+
+02:57.330 --> 02:59.030
+Copy this down and common this.
+
+02:59.050 --> 03:02.810
+So and let's look at scale.
+
+03:03.090 --> 03:09.940
+So scale let's just put in two and that's just going to scale it up.
+
+03:09.960 --> 03:15.930
+So essentially we're doubling in size we could put three and we'll scale even more.
+
+03:15.930 --> 03:16.260
+All right.
+
+03:16.290 --> 03:29.190
+So it's comment that out now the next thing I want to show you is is how to use transform with transitions.
+
+03:29.210 --> 03:39.550
+So I'm going to add a transition for all elements that are animated bill and let's do one second is
+
+03:39.560 --> 03:42.060
+an out OK.
+
+03:42.090 --> 03:43.710
+And then let's just save that.
+
+03:43.720 --> 03:47.130
+That's going to go back down and in our hover.
+
+03:47.430 --> 03:49.950
+Let's let's do the rotate
+
+03:52.490 --> 03:58.160
+so to rotate instead of 25 though let's do 180.
+
+03:58.160 --> 04:04.140
+So now when I hover over it it rotates when I hover off it goes back.
+
+04:04.220 --> 04:05.990
+So pretty cool.
+
+04:05.990 --> 04:08.220
+We can also skew it.
+
+04:08.670 --> 04:09.470
+Let's grab that
+
+04:13.690 --> 04:21.440
+so now when I hover over it it skews and this this is going to basically you know overwrite the rotate
+
+04:23.180 --> 04:25.340
+and then we can also do scale
+
+04:30.620 --> 04:32.630
+so we save that and I hover over it.
+
+04:32.650 --> 04:34.040
+It'll scale up.
+
+04:34.140 --> 04:40.500
+Now we can also move this around the page without having to do like a position relative and then doing
+
+04:40.500 --> 04:42.600
+top bottom left right properties.
+
+04:42.600 --> 04:48.270
+And we can do that by using translate case we have translate we have translate X translate y so we can
+
+04:48.270 --> 04:53.140
+move it along the x axis in the y axis.
+
+04:53.250 --> 05:06.870
+So let's actually comment this stuff out and let's do a trance form and then we're gonna set it to translate
+
+05:07.110 --> 05:14.290
+let's to translate y and let's say one hundred pixels.
+
+05:14.440 --> 05:14.720
+All right.
+
+05:14.750 --> 05:15.830
+So let's save that.
+
+05:15.840 --> 05:22.390
+Now when I hover over this it's going to move it down a hundred pixels.
+
+05:22.740 --> 05:30.000
+So I didn't have to do like a position relative or a top top one whatever property.
+
+05:30.000 --> 05:32.580
+It just simply moves a hundred pixels.
+
+05:33.280 --> 05:39.030
+And now if I want to move it up on the y axis I can simply put a negative value so negative 100 is going
+
+05:39.030 --> 05:40.090
+to move it up.
+
+05:40.650 --> 05:48.620
+And if I want to do on the x axis I can do translate X to 100 pixels.
+
+05:48.930 --> 05:54.570
+And that's going to go over and if I want to go the other way I could of course do a negative value
+
+05:54.570 --> 05:56.360
+there.
+
+05:56.370 --> 06:03.390
+Now let's say I want to move it on the x and y axis I can just use translate.
+
+06:03.570 --> 06:05.100
+I can say transform
+
+06:07.420 --> 06:08.660
+translate.
+
+06:09.060 --> 06:15.770
+And this is gonna take in the x and the Y parameters so let's say one hundred pixels on the x axis one
+
+06:15.760 --> 06:18.070
+hundred pixels on the y axis.
+
+06:18.130 --> 06:22.580
+And now when I hover over it it will go one hundred over and one hundred down.
+
+06:23.010 --> 06:26.420
+And of course I could use negative values if I wanted to.
+
+06:26.670 --> 06:34.080
+Now for if you want to increase performance you can actually use translate 3D which I don't use all
+
+06:34.080 --> 06:42.820
+that much but we can do translate 3D and let's actually comment this stuff.
+
+06:43.530 --> 06:49.800
+So if we use translate 3D this actually has to have a z value as well.
+
+06:49.950 --> 06:53.570
+So hundred pixels and that's gonna do the same thing.
+
+06:54.550 --> 06:55.790
+OK.
+
+06:55.890 --> 07:01.620
+And I believe it increases performance if you use translate 3D and you can do some really cool things
+
+07:01.620 --> 07:03.640
+I mean I'm not that familiar with it.
+
+07:03.690 --> 07:08.000
+I usually use translate but it is available to us.
+
+07:08.130 --> 07:08.370
+All right.
+
+07:08.370 --> 07:14.100
+So that's the transform property we'll be using this later on in other projects but that's going to
+
+07:14.100 --> 07:16.650
+be it for this video guys and I'll see you in the next one.

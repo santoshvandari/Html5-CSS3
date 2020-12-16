@@ -1,0 +1,607 @@
+WEBVTT
+
+00:00.670 --> 00:04.000
+All right so in the last video we talked about Raymond M units.
+
+00:04.000 --> 00:10.870
+Now we're going to talk about VH and VW which is viewport height and viewport widths so the viewport
+
+00:10.870 --> 00:13.600
+is this whole area inside the browser.
+
+00:13.600 --> 00:15.990
+Basically the browser body.
+
+00:16.050 --> 00:16.570
+OK.
+
+00:16.570 --> 00:26.890
+And when we say for instance 50 VH which is 50 viewport height it's going to take up 50 of 100 viewport
+
+00:26.920 --> 00:27.670
+heights.
+
+00:27.670 --> 00:30.760
+And the way we think of this is slices.
+
+00:30.760 --> 00:34.660
+So each viewport height is a slice across.
+
+00:34.700 --> 00:40.150
+OK it goes up and down and slices across and there's always going to be one hundred of them.
+
+00:40.150 --> 00:40.450
+OK.
+
+00:40.450 --> 00:42.910
+No matter how big or small the browser is.
+
+00:43.010 --> 00:47.380
+You make it tiny you could stretch it across your whole screen there's always one hundred of viewport
+
+00:47.380 --> 00:50.230
+heights and each one is a slice.
+
+00:50.230 --> 00:55.480
+Now for viewport widths it's the same thing only it goes across and the slices go down.
+
+00:55.480 --> 01:03.400
+So there's 100 slices that go this way and you can set your content to take up two or one hundred or
+
+01:03.400 --> 01:07.930
+anything between zero and one hundred viewport heights and viewport widths.
+
+01:07.990 --> 01:14.760
+So we're going to create a tiny little project kind of a landing page using.
+
+01:14.800 --> 01:20.560
+So I can give you an example of how to use these in viewport heights or use much more than viewport
+
+01:20.560 --> 01:24.920
+widths because for the most part things go all the way across any way.
+
+01:25.000 --> 01:35.560
+So we're going to create a new file here let's call it 1 5 underscore VH underscore VW dot HD CML and
+
+01:35.560 --> 01:47.360
+we're going to put our head and body tags it's a V H and V W units and we'll put in our style.
+
+01:48.290 --> 01:57.220
+Okay so let's let's add our each team out first and we're gonna put in a header tag and inside the header
+
+01:57.250 --> 02:07.190
+let's do an H one we'll just say welcome to our website and we'll put a paragraph.
+
+02:07.210 --> 02:14.970
+Let's do Lorem we'll do Lord 15 and see underneath that.
+
+02:14.980 --> 02:19.810
+Let's put a link with a class of B T N S we want to link.
+
+02:19.810 --> 02:21.330
+So it's gonna be an A tag.
+
+02:21.370 --> 02:30.880
+The class of B10 and so I'm going to go anywhere and inside the link we'll just say find out more.
+
+02:30.880 --> 02:31.230
+All right.
+
+02:31.240 --> 02:37.340
+Now in the style first thing I'm going to do is I'm going to add a little bit of resets so we're going
+
+02:37.340 --> 02:46.390
+to use an asterisk meaning target everything and let's set the box sizing to board our box and then
+
+02:46.420 --> 02:49.390
+let's remove the margin and padding from everything
+
+02:53.720 --> 02:54.960
+OK.
+
+02:55.000 --> 02:59.320
+And I'm just going to open this with the live server.
+
+02:59.320 --> 03:00.740
+So this is what it should look like.
+
+03:00.740 --> 03:03.700
+Notice the margin padding is removed from everything.
+
+03:03.700 --> 03:11.710
+Let's add in the body style because I want this to look decent so we'll say font family and let's grab
+
+03:11.710 --> 03:18.190
+this right here is a go UI to Homa and for the header
+
+03:21.520 --> 03:23.460
+I'm gonna do it.
+
+03:23.500 --> 03:26.670
+Let's do a background.
+
+03:26.860 --> 03:27.910
+I'm going to add an image.
+
+03:27.910 --> 03:29.590
+But for now I'm just going to add a color.
+
+03:29.590 --> 03:35.190
+So just a dark color and let's make that the color of the text white.
+
+03:35.660 --> 03:38.220
+And let's save that and see what we get.
+
+03:38.230 --> 03:44.920
+So by default it's just going to the the background color is going to wrap.
+
+03:45.730 --> 03:47.630
+You know it's going to wrap the content.
+
+03:47.800 --> 03:53.000
+If we add more paragraphs and stuff it's going to just go down along with the content.
+
+03:53.050 --> 04:00.130
+What I want is the header background to take up the entire thing the entire screen and you might think
+
+04:00.550 --> 04:07.620
+well let's set the height to 100 percent of its container which is the body.
+
+04:07.870 --> 04:09.610
+So let's save that.
+
+04:09.660 --> 04:12.210
+OK I saved it and there's no difference.
+
+04:12.380 --> 04:15.540
+And this is kind of kind of a gotcha.
+
+04:15.850 --> 04:18.960
+I'm just going to show you that if we look at the body.
+
+04:19.000 --> 04:19.630
+Right.
+
+04:19.990 --> 04:22.940
+Let's let's click on the body here.
+
+04:23.020 --> 04:29.380
+So the body is being highlighted you may think the body takes up the entire browser body but it's not
+
+04:29.390 --> 04:33.080
+it's just wrapping whatever that whatever is in the content.
+
+04:33.250 --> 04:33.620
+Right.
+
+04:33.940 --> 04:40.750
+So setting into 100 percent of the body is literally just doing what what it's already doing.
+
+04:40.750 --> 04:44.680
+It's just coming down to here we want it to cover everything.
+
+04:44.680 --> 04:47.050
+This is where viewport heights come in.
+
+04:47.050 --> 04:53.230
+So I'm going to go ahead and change this from 100 percent to 100 VH and save.
+
+04:53.230 --> 04:54.980
+And now you can see it can.
+
+04:55.000 --> 04:57.030
+It covers everything.
+
+04:57.350 --> 05:02.890
+OK regardless of how big or small the browser is you know it can make it bigger or smaller.
+
+05:03.100 --> 05:05.920
+It doesn't matter it's taking up 100 viewport heights.
+
+05:05.920 --> 05:13.690
+Now if I change this to 50 viewport heights and save it takes up exactly half because remember there's
+
+05:13.690 --> 05:15.160
+100 slices right.
+
+05:15.160 --> 05:18.630
+This is taking up 50 of those 100 slices.
+
+05:18.790 --> 05:23.890
+If I change this to 20 it's going to take up 20 of those 100 slices.
+
+05:23.950 --> 05:27.700
+So this makes creating landing pages very easily.
+
+05:27.700 --> 05:33.660
+You know it's very popular now to have a like a whole big image with some text and a button.
+
+05:33.850 --> 05:39.540
+That's a very popular look and VH allows us to do that very easily.
+
+05:39.670 --> 05:42.150
+So let's make this an actual image.
+
+05:42.250 --> 05:53.170
+I'm gonna grab a remote image from source dot on Splash dot com and if you go down here let's see.
+
+05:53.200 --> 05:59.350
+So random from a collection.
+
+05:59.840 --> 06:02.460
+Let's grab let's grab the daily photo.
+
+06:02.480 --> 06:03.880
+So this right here.
+
+06:04.010 --> 06:09.080
+This will give us a random daily photo I'm going to grab that and I'm going to add this to the background
+
+06:09.120 --> 06:14.470
+I don't know if I've showed you this before but you can have a background color and then put a U.R.L.
+
+06:14.510 --> 06:15.470
+after it.
+
+06:15.470 --> 06:19.560
+So basically of the color and then you have the image on top of it.
+
+06:19.700 --> 06:25.070
+So let's put in here that link.
+
+06:25.070 --> 06:26.870
+Let's save it and go back.
+
+06:27.050 --> 06:31.400
+And now you'll see we have a background image yours will probably be different.
+
+06:31.600 --> 06:38.760
+Close that up yours will probably be different because it's a daily photo and they change it daily.
+
+06:38.760 --> 06:43.520
+Now notice that it's repeating and I don't think I've had the chance to even show you this.
+
+06:43.580 --> 06:49.470
+Let's see the repeat since our window is bigger than the actual image.
+
+06:49.580 --> 06:50.830
+Then it repeats.
+
+06:50.840 --> 06:53.920
+So we're going to add some other properties to this background.
+
+06:54.050 --> 06:57.480
+So one is gonna be no repeat.
+
+06:57.710 --> 06:58.570
+Save that.
+
+06:58.580 --> 07:03.550
+And now you can see it doesn't repeat OK.
+
+07:03.580 --> 07:05.830
+Another thing I want to do is I want it to cover.
+
+07:05.830 --> 07:10.490
+I want to center it and I want it to cover the whole page the whole background.
+
+07:10.540 --> 07:13.270
+So in addition to no repeat.
+
+07:13.270 --> 07:20.830
+Let's do center center on the x and y access and then slash cover and save.
+
+07:20.860 --> 07:22.630
+And now it covers the entire thing.
+
+07:22.630 --> 07:26.810
+If I stretch this so it's it's still it's always going to cover.
+
+07:26.890 --> 07:35.260
+So that's gonna be your most popular your most popular way to do this or the most common way to do this.
+
+07:35.350 --> 07:37.780
+Now let's work on actually centering the text.
+
+07:37.780 --> 07:43.810
+Now this is where flex blocks actually works really well but we haven't gotten to that yet so we're
+
+07:43.810 --> 07:47.020
+just going to use patterns and stuff like that.
+
+07:47.050 --> 07:54.250
+So for the header first of all I want to text align everything and I could stop here I mean I showed
+
+07:54.250 --> 08:02.080
+you guys what the h and why I didn't show you VW yet but yeah actually let's do that first so let's
+
+08:02.080 --> 08:09.250
+add in a width of let's say 50 V W and save.
+
+08:09.400 --> 08:12.050
+And now you'll see it's only going to take up half.
+
+08:12.130 --> 08:12.430
+Okay.
+
+08:12.460 --> 08:19.600
+So it's the exact same thing only it goes horizontal instead of vertical but I personally don't use
+
+08:19.600 --> 08:25.510
+VW that much because as you can see it goes all the way across any anyway the height is a different
+
+08:25.510 --> 08:26.700
+story it doesn't.
+
+08:26.890 --> 08:32.230
+It's not going to go all the way down on its own but yeah that's VW.
+
+08:32.230 --> 08:37.820
+So let's go ahead and text aligned to the center.
+
+08:37.930 --> 08:38.920
+So we'll save that.
+
+08:38.920 --> 08:41.470
+Now everything is aligned to the center.
+
+08:41.470 --> 08:51.040
+Make this a little bigger and let's see now what I want to do is add some padding within the header.
+
+08:51.040 --> 08:54.370
+Let's do two Ram.
+
+08:54.370 --> 08:56.680
+So now there's two Ram padding all around.
+
+08:56.680 --> 09:01.060
+But I want to push this down more and there's better ways to do this with Flex blocks.
+
+09:01.060 --> 09:05.500
+We could we could align it directly in the middle but we haven't gotten to that yet.
+
+09:05.560 --> 09:11.300
+So I'm just going to add padding top let's do padding top.
+
+09:11.350 --> 09:11.860
+Let's try.
+
+09:11.860 --> 09:13.200
+Two hundred.
+
+09:13.290 --> 09:15.960
+Now will we use Ram units.
+
+09:15.970 --> 09:20.730
+Let's do five ram.
+
+09:20.830 --> 09:21.040
+No.
+
+09:21.070 --> 09:21.910
+We want more than that.
+
+09:21.910 --> 09:30.920
+Let's do 10 that's still still not low enough let's do 15.
+
+09:31.340 --> 09:31.720
+All right.
+
+09:31.810 --> 09:34.000
+And if I were to make this smaller.
+
+09:34.000 --> 09:39.490
+Good so let's let's make this look somewhat decent.
+
+09:39.490 --> 09:45.030
+We're going to target some of these other elements like the H one the paragraph the button and style.
+
+09:45.030 --> 09:45.880
+Those a little bit.
+
+09:45.880 --> 09:49.540
+So it's a header.
+
+09:50.410 --> 09:58.390
+Actually we want header H1 and we're going to change the font size to three ram.
+
+09:58.690 --> 10:02.040
+So that's going to be six sixteen is the default route.
+
+10:02.080 --> 10:09.880
+Font size it's gonna be sixteen times three and four the paragraph say header paragraph.
+
+10:10.060 --> 10:13.070
+Let's do margin and let's do one Ram.
+
+10:13.090 --> 10:15.750
+Top and bottom zero left and right.
+
+10:15.820 --> 10:19.290
+That way it pushes the link down and pushes the header up.
+
+10:19.540 --> 10:24.640
+And then for the button or that I should say the link with the class of B10 n where we'll just make
+
+10:24.640 --> 10:25.660
+that look decent.
+
+10:26.620 --> 10:31.900
+And I know that this doesn't have anything to do with VH and VW but I want to reiterate things we've
+
+10:31.900 --> 10:33.250
+already gone over.
+
+10:33.400 --> 10:41.560
+So we want this button to be inline block because by default links are inline and then we're gonna add
+
+10:41.800 --> 10:45.830
+text decoration none.
+
+10:45.970 --> 10:50.180
+Let's do a background of light grey.
+
+10:50.500 --> 11:00.970
+Change the color to dark grey and do the padding we'll use Ram we'll do zero point seventy five on the
+
+11:00.970 --> 11:01.950
+top and bottom.
+
+11:01.960 --> 11:04.210
+And to ram on the left and right.
+
+11:04.900 --> 11:05.900
+And save.
+
+11:05.920 --> 11:07.400
+And there's our button.
+
+11:07.510 --> 11:07.770
+OK.
+
+11:07.780 --> 11:08.850
+So it looks a little better.
+
+11:08.860 --> 11:15.430
+And e I mean the text might blend and not blend well with the background image but later on I'm going
+
+11:15.430 --> 11:22.510
+to show you how we can use CSX overlays we can have like a dark overlay over the image so that the text
+
+11:22.510 --> 11:30.870
+is more readable so like I said this the viewport heights it's it's always gonna be a hundred even if
+
+11:30.870 --> 11:32.370
+we have content below it.
+
+11:32.370 --> 11:38.760
+So let's go below the header and let's add a section and we'll put an H three we'll just say like about
+
+11:39.630 --> 11:46.200
+our company and then we'll put a paragraph let's do Lorem 50
+
+11:49.980 --> 11:57.270
+and then I'm just going to add for that section I'm just gonna add padding of to ram just so it's not
+
+11:57.270 --> 12:01.570
+right up against the edge OK.
+
+12:01.800 --> 12:07.800
+So notice that it's still it's still gonna take up 100 viewport height and then immediately when I scroll
+
+12:07.800 --> 12:15.610
+down we're gonna see that content and it doesn't matter how how tall or short the browser is.
+
+12:15.610 --> 12:19.650
+So right now you might think that as we scroll we'll see more of the image.
+
+12:19.660 --> 12:20.400
+But no.
+
+12:20.400 --> 12:23.710
+As we scroll it's going to go right to that content.
+
+12:23.710 --> 12:31.210
+So viewport Heights is great for landing pages like this where you have this large image because it
+
+12:31.210 --> 12:32.710
+doesn't matter where.
+
+12:32.710 --> 12:36.200
+How how tall or short your browser is.
+
+12:36.220 --> 12:39.190
+As soon as you scroll down you're going to see the content.
+
+12:39.190 --> 12:45.300
+It only takes up one 100 viewport heights of whatever the current browser size is.
+
+12:45.310 --> 12:45.620
+All right.
+
+12:45.620 --> 12:51.790
+Now let's see if we make this smaller like that still looks good.
+
+12:51.790 --> 12:55.840
+So this is actually pretty responsive.
+
+12:56.950 --> 12:57.580
+Let's see.
+
+12:57.610 --> 13:02.430
+Let's actually check it out with with the chrome tools device toolbar.
+
+13:02.440 --> 13:06.300
+So we're going to hit that case.
+
+13:06.300 --> 13:11.490
+So that looks pretty good we'll look on it on an iPad.
+
+13:11.510 --> 13:12.260
+Good.
+
+13:12.260 --> 13:15.370
+Now let's try an iPhone landscape.
+
+13:15.410 --> 13:19.400
+So we need to make this a little bigger and we'll click the landscape.
+
+13:19.400 --> 13:23.150
+So in this case I would probably want this too.
+
+13:23.150 --> 13:24.650
+Yeah that doesn't look very good.
+
+13:24.650 --> 13:26.960
+So I'd want this to be moved up.
+
+13:26.960 --> 13:32.570
+So let's let's practice our media query and we don't have to do much we always we just need to change
+
+13:32.570 --> 13:33.870
+the padding of the header.
+
+13:34.250 --> 13:41.630
+So let's say media and I would say max height.
+
+13:41.810 --> 13:46.200
+So max height let's do 450 pixels.
+
+13:46.250 --> 13:55.130
+What this means is that when the the viewport is four hundred and fifty pixels or less then this styling
+
+13:55.130 --> 13:55.880
+will kick in.
+
+13:55.880 --> 14:06.770
+So we'll see a header and see we initially set the padding top to what I think it was 15 Ram.
+
+14:06.770 --> 14:11.600
+So let's let's try five REM and save.
+
+14:11.600 --> 14:18.760
+And then we go so now it looks good on landscape and if we go back you can see it goes back to 15 REM.
+
+14:18.980 --> 14:25.680
+So it's a good example of where and when to use a media query.
+
+14:25.700 --> 14:26.030
+All right.
+
+14:26.050 --> 14:28.150
+So I think that's going to be it guys.
+
+14:28.160 --> 14:34.840
+What I want to do in the next video is take our hotel Web site project and I want to make that responsive
+
+14:34.850 --> 14:42.020
+so we're actually going to be adding media queries to that project and just making it overall making
+
+14:42.020 --> 14:42.740
+it better.
+
+14:42.740 --> 14:43.000
+All right.
+
+14:43.010 --> 14:44.240
+So I'll see you in the next video.

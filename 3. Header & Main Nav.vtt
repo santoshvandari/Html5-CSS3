@@ -1,0 +1,841 @@
+WEBVTT
+
+00:00.390 --> 00:06.540
+All right guys so now we're gonna start on the markup for the showcase area where the the navigation
+
+00:06.540 --> 00:09.720
+the header all that stuff and we're gonna also style it.
+
+00:10.170 --> 00:15.570
+But before we get started with that I just want to mention I'm using the pretty or extension for V.S.
+
+00:15.570 --> 00:16.160
+code.
+
+00:16.260 --> 00:23.040
+So if I have something that's out of line like put this link way over here and I save it fixes it automatically
+
+00:23.220 --> 00:27.780
+because in my settings I have it set to fly format on save.
+
+00:27.780 --> 00:34.640
+So if you want this extension you can just click on the extensions here and just search for prettier.
+
+00:35.340 --> 00:37.090
+And it's this one right here.
+
+00:37.140 --> 00:43.710
+So pretty are code for matter and if you install it and you want it to format on save like mine is then
+
+00:43.710 --> 00:45.390
+you just want to go to your settings.
+
+00:45.390 --> 00:51.120
+So if you click on the little cog down here and go to settings or you do control karma or command karma
+
+00:51.480 --> 00:58.640
+and just search for format on save and it's right here you want this box checked.
+
+00:58.650 --> 01:04.260
+Okay if you want that functionality and I just want to mention it because you might see at times when
+
+01:04.260 --> 01:09.600
+I save it'll kind of change up a little bit and that that's why it's just it's not changing any of the
+
+01:09.630 --> 01:13.850
+code or anything it's just formatting it in a more readable way.
+
+01:13.870 --> 01:18.920
+Okay so let's get started down here in the body.
+
+01:18.930 --> 01:25.810
+So I'm going to get rid of the H1 and we're going to go ahead and and create the header.
+
+01:26.040 --> 01:32.940
+So everything we do right now is gonna be wrapped in a header tag and I'm gonna give it an I.D. of header
+
+01:33.210 --> 01:34.790
+dash home.
+
+01:34.800 --> 01:39.480
+Now the reason I'm doing head her home is because the home page and the inter pages are very different
+
+01:39.540 --> 01:41.650
+in terms of the header and the menu.
+
+01:41.700 --> 01:47.700
+So the inter pages are actually going to have an idea of header inter and we're gonna style them differently.
+
+01:47.730 --> 01:48.090
+All right.
+
+01:48.090 --> 01:53.400
+And then inside here I'm going to put a class of container which is a utility class that will use over
+
+01:53.400 --> 01:58.170
+and over to just center content and then let's put our NAV.
+
+01:58.170 --> 02:02.570
+And I'm gonna give this an idea of main dash NAV.
+
+02:02.870 --> 02:03.290
+Okay.
+
+02:03.300 --> 02:07.320
+And then some of these in some cases if you want to use class that's fine.
+
+02:07.320 --> 02:12.930
+I'm basically using I.D. for things that are just you know for that single element and then classes
+
+02:12.930 --> 02:14.300
+more for utilities.
+
+02:14.400 --> 02:22.170
+We're actually going to create a utilities SPSS file which we'll put like the container buttons backgrounds
+
+02:22.170 --> 02:23.190
+things like that.
+
+02:23.190 --> 02:25.790
+Anything that's basically a utility.
+
+02:25.890 --> 02:33.520
+So in here let's put the logo so I'm going to do an image with the I.D. of logo and the source is gonna
+
+02:33.540 --> 02:36.600
+be in the image folder and then the logo PMG.
+
+02:36.630 --> 02:42.720
+And again I did include the PSAT if you want to edit it and change the initials or anything like that
+
+02:43.230 --> 02:50.140
+for all its we'll just say I don't know my portfolio.
+
+02:50.190 --> 02:55.840
+OK so let's see under the image we're going to put the U L which is going gonna have the links.
+
+02:55.920 --> 02:57.570
+So we'll do a list item.
+
+02:57.690 --> 03:03.720
+Let's do an A actually going to give this a class of current since this is the index page.
+
+03:03.760 --> 03:11.250
+This is gonna go to index h t email and we'll say home and then let's copy this down four times and
+
+03:11.250 --> 03:18.390
+then we're gonna have the about and just going to highlight this class current and hit control D twice
+
+03:18.690 --> 03:19.620
+and then get rid of it.
+
+03:20.460 --> 03:31.470
+OK so about who's going to go to about h t email we also have work each team L so work and let's do
+
+03:31.530 --> 03:36.420
+contact and contact each team.
+
+03:36.450 --> 03:45.480
+OK so those are our links now under the NAV we're gonna put let's do our header content in case I'm
+
+03:45.480 --> 03:47.280
+going to give this a class of header
+
+03:49.740 --> 03:59.500
+dash contents and we're gonna have an H1 and say I am let's do caps.
+
+03:59.520 --> 04:03.430
+I am John the.
+
+04:03.450 --> 04:06.660
+And then this is where the typed text is going to come in.
+
+04:06.660 --> 04:09.240
+So javascript is gonna be used for that.
+
+04:09.360 --> 04:12.170
+And again I'm not going to really go over the javascript code.
+
+04:12.180 --> 04:15.000
+I do like I said the tutorial is on YouTube.
+
+04:15.060 --> 04:20.520
+However we need to put in our span here because this is what the javascript is going to grab on to to
+
+04:20.520 --> 04:23.340
+insert that text that type text.
+
+04:23.340 --> 04:32.130
+So I'm gonna give this a class of T X T dash type K and we need we're gonna give this some special data
+
+04:32.160 --> 04:36.170
+attributes that the JavaScript can basically grab and read from.
+
+04:36.210 --> 04:40.580
+So we want a data dash we'll wait and I'm gonna set that to 3000.
+
+04:40.590 --> 04:45.890
+So that's basically the time it's going to take in milliseconds after it types you know photographer
+
+04:45.910 --> 04:54.840
+or whatever we put and then types the next thing and then it's also gonna take in data dash words and
+
+04:54.900 --> 04:59.720
+I'm gonna use single quotes here because this is gonna take in some brackets and then any word that
+
+04:59.720 --> 05:03.000
+we want in the type of fact is gonna go in double quotes.
+
+05:03.080 --> 05:13.880
+So going to say photographer and put a comma and then we'll do designer if you remake this for your
+
+05:13.880 --> 05:21.480
+own portfolio obviously you can change these up and then UI dash you ex Dev.
+
+05:22.100 --> 05:22.330
+OK.
+
+05:22.340 --> 05:27.250
+So the javascript is gonna grab onto those and and add that type effect.
+
+05:27.290 --> 05:34.190
+So under the H1 let's add a paragraph I'm going to give it a class of lead which is gonna be utility
+
+05:34.190 --> 05:50.000
+class just to make the font size a little bigger and let's say I specialize in graphic design UI UX
+
+05:50.540 --> 05:54.440
+and photography.
+
+05:54.760 --> 05:55.130
+OK.
+
+05:55.190 --> 06:01.210
+And then the last thing we want in here is in a tag with the class of Beatty and dash light it's going
+
+06:01.200 --> 06:07.610
+to be formatted as a button and it's gonna go to the work dot H HTML page and as far as the text goes
+
+06:07.610 --> 06:13.070
+we'll just say view my work.
+
+06:13.070 --> 06:13.400
+All right.
+
+06:13.460 --> 06:19.250
+So save and you can see pretty are just kind of made things look a little more readable it put all these
+
+06:19.310 --> 06:22.040
+attributes on separate lines.
+
+06:22.040 --> 06:28.940
+So now let's take a look and notice that it's just white because we actually set the body text to be
+
+06:28.940 --> 06:30.000
+white.
+
+06:30.080 --> 06:36.050
+So the next thing we're going to work on is the CSX or the SAS and we're gonna add that big background
+
+06:36.080 --> 06:38.830
+image so that we can actually see the text.
+
+06:38.870 --> 06:52.160
+So let's jump in to main dot SPSS and we have the header home the header dash home and then the inter
+
+06:52.160 --> 06:54.970
+pages are going to have header dash inner.
+
+06:54.980 --> 07:02.580
+So what I'm gonna do is let's say header and we'll do I.D. header.
+
+07:02.630 --> 07:08.430
+Now there isn't gonna be an actual idea of header this header home and header inner so in here I'm gonna
+
+07:08.450 --> 07:12.290
+use Ampersand dash home.
+
+07:12.320 --> 07:12.730
+OK.
+
+07:12.800 --> 07:17.420
+And then we'll do canvas Sam Dash enter.
+
+07:17.480 --> 07:23.420
+So anything for header home we'll go in here and then enter we'll go down below so for header home let's
+
+07:23.420 --> 07:33.200
+do background and we're gonna set that to our variable member we have a variable BMG image which holds
+
+07:33.200 --> 07:37.640
+the location of the background image and then we'll do no repeat.
+
+07:37.790 --> 07:43.310
+I'm gonna do centre and I'm going to position it right so centre right and then we want it to cover
+
+07:43.310 --> 07:45.520
+the entire area.
+
+07:45.710 --> 07:51.440
+And as far as the height goes we're gonna take up the whole page so we're gonna do a hundred viewport
+
+07:51.440 --> 07:59.530
+heights and then let's just make sure the colours white all right so if we go ahead and save that and
+
+07:59.530 --> 08:02.360
+we go back now we can see the image.
+
+08:02.590 --> 08:07.150
+Now let's work on this logo because obviously it's it's giant.
+
+08:07.150 --> 08:16.630
+So the logo and the nav bar while we're at it let's take a look there inside the header home right.
+
+08:16.630 --> 08:23.190
+However we're also going to be using the nav bar and the logo inside header inner.
+
+08:23.290 --> 08:30.630
+OK so we don't want to embed it inside either of these or in header because there is no idea of header
+
+08:30.640 --> 08:32.270
+so I'm going to put that outside of it.
+
+08:32.270 --> 08:38.850
+So right here let's do logo and we'll do main NAV.
+
+08:39.520 --> 08:39.850
+OK.
+
+08:39.850 --> 08:50.290
+So for the logo let's do let's do a width of 70 pixels.
+
+08:50.290 --> 09:01.720
+I should probably put the selector see it's an I.D. So logo with 70 pixels and let's do a height of
+
+09:01.720 --> 09:02.740
+70 pixels.
+
+09:02.740 --> 09:10.380
+Now you may not want to use an image you may want to use text or it like an H1 with an idea of logo
+
+09:10.380 --> 09:15.660
+so I'm also going to add a color of white.
+
+09:15.760 --> 09:24.230
+And I'm also going to make it uppercase so text transform uppercase just in case it's not a an image.
+
+09:24.250 --> 09:26.220
+So if we save that we take a look.
+
+09:26.230 --> 09:27.640
+Now the logo is smaller.
+
+09:27.670 --> 09:30.650
+We can see the rest of the content.
+
+09:30.880 --> 09:35.530
+Now before we move on to the main Nav let's center this with the container class.
+
+09:35.570 --> 09:38.670
+Remember it's there the stuff is wrapped in a container.
+
+09:38.710 --> 09:44.350
+Now like I said I'm going to create a utility's SAS file that we can.
+
+09:44.350 --> 09:48.500
+Are a partial for things like buttons and stuff like that.
+
+09:48.550 --> 09:57.540
+So let's create a new file in the SPSS folder called underscore utilities dot SPSS.
+
+09:57.940 --> 10:02.670
+And in here I'm going to put our container class.
+
+10:02.740 --> 10:05.770
+Now we have a variable called Web site.
+
+10:05.770 --> 10:16.220
+With that we have in the config folder so let's set the max width to a variable of website with all
+
+10:16.220 --> 10:16.480
+right.
+
+10:16.490 --> 10:19.220
+And then I'm just going to add some padding on the sides.
+
+10:19.220 --> 10:27.140
+So let's do one point five REM and then let's do margin auto to push it to the middle and then overflow
+
+10:27.680 --> 10:28.220
+hidden.
+
+10:28.220 --> 10:30.500
+So nothing goes out of its container.
+
+10:31.680 --> 10:32.120
+OK.
+
+10:32.120 --> 10:35.120
+And now we need to bring this utilities file in.
+
+10:35.180 --> 10:44.210
+So up at the top here after config we're going to bring in utilities and let's save that.
+
+10:45.160 --> 10:49.120
+And if we go back now you can see everything is pushed to the middle.
+
+10:49.160 --> 10:49.330
+OK.
+
+10:49.370 --> 10:56.280
+So let's continue working on the the main NAV which is the basically the logo and the list here.
+
+10:56.330 --> 10:58.730
+So let's go back down
+
+11:01.110 --> 11:04.860
+and let's see main NAV.
+
+11:04.860 --> 11:14.940
+Let's put an I.D. of main the main dash nav OK and we can embed the well the Ally I should say.
+
+11:14.940 --> 11:16.960
+Nest we can nest the well.
+
+11:16.960 --> 11:18.860
+Ally the link stuff like that.
+
+11:18.870 --> 11:21.980
+Now the whole main nav including the logo and everything.
+
+11:21.990 --> 11:27.470
+I'm actually going to set this to display flex as I usually would.
+
+11:27.480 --> 11:34.080
+I wouldn't use the grid for something like this and then I'm going to justify content with space between
+
+11:34.110 --> 11:38.960
+because I want the logo on one side and then the well on the other side.
+
+11:39.240 --> 11:44.900
+And let's just do a padding top just to kind of push everything down a little bit.
+
+11:44.970 --> 11:47.410
+We'll do one room.
+
+11:48.320 --> 11:48.750
+OK.
+
+11:48.750 --> 11:54.840
+And then we can embed in here the UL which is also going to be display flex because we want the list
+
+11:54.840 --> 11:58.260
+items inside to be flex items.
+
+11:58.260 --> 11:59.400
+So let's do that.
+
+11:59.430 --> 12:05.220
+Let's do ally and what's nice is we can we can nest all this stuff within the main nav just like we
+
+12:05.220 --> 12:06.490
+do in the each team out.
+
+12:07.260 --> 12:15.910
+So then it's going to add a little bit of padding here so it's to one room and then one point five on
+
+12:15.940 --> 12:18.900
+the sides and then the link.
+
+12:20.090 --> 12:26.610
+OK so link I know I did a global text declaration none but I'm going to do it again here.
+
+12:26.670 --> 12:27.820
+Same thing with the color.
+
+12:27.830 --> 12:29.630
+It's too white.
+
+12:29.700 --> 12:39.660
+And I want it to be all uppercase so I'm going to do text transform to uppercase and I'm going to do
+
+12:39.660 --> 12:48.030
+a border bottom and this might seem a little weird but I'm gonna do three pixels transparent solid.
+
+12:48.030 --> 12:52.790
+Now the reason I'm doing transparent is because I want to have our hover effect when we hover over it.
+
+12:52.790 --> 12:54.250
+It gets a line under it.
+
+12:54.390 --> 12:59.820
+But if I don't put a border here and I just do it on the hover it's going to basically push the text
+
+12:59.880 --> 13:03.290
+upwards to give it the border and I don't want that kind of effect.
+
+13:03.300 --> 13:05.270
+They just want the border to just show up.
+
+13:05.760 --> 13:06.120
+OK.
+
+13:06.150 --> 13:16.260
+So we want to make it transparent at first and then I'm also going to add some padding bottom to zero
+
+13:16.260 --> 13:20.670
+point five rim and then I'm also going to add a transition.
+
+13:20.670 --> 13:23.410
+So it kind of has a smooth effect.
+
+13:23.460 --> 13:28.020
+So we want to transition the board our color because that's what's going to change on the hover.
+
+13:28.020 --> 13:32.340
+So we'll say border color zero point five seconds.
+
+13:32.340 --> 13:32.700
+OK.
+
+13:32.700 --> 13:43.800
+Now I want the hover so inside this a tag or this a selector I should say I can do Ampersand dot I mean
+
+13:44.790 --> 13:47.170
+colon hover.
+
+13:47.250 --> 13:55.980
+So this will be the hover effect and I'm going to set the border color to the variable medium dash color.
+
+13:56.000 --> 13:56.360
+OK.
+
+13:56.370 --> 13:59.820
+So that we define that already in our config.
+
+13:59.820 --> 14:07.980
+Now I also want the current link to have a border as well so I'm going to do Ampersand class currents
+
+14:08.010 --> 14:19.350
+which will be a dot current in the NAV and going to set the border color and let's set that to what
+
+14:19.350 --> 14:27.010
+do they call it main color so call we'll do.
+
+14:27.010 --> 14:29.160
+Main dash color.
+
+14:31.240 --> 14:35.020
+All right so let's save that and we'll take a look.
+
+14:35.020 --> 14:36.160
+So it looks pretty good.
+
+14:36.160 --> 14:43.510
+So this is this whole thing is the main nav it's flex box and we have space between for the main NAV
+
+14:43.840 --> 14:51.140
+and then the UL is also a flex box where each list item is a flex item and you can see the border.
+
+14:51.280 --> 14:54.980
+And now when I hover over it it just kind of fades in.
+
+14:55.030 --> 15:00.520
+If I didn't do the transparent border to begin with it would just kind of tick up when I hover over
+
+15:00.520 --> 15:00.610
+it.
+
+15:00.640 --> 15:02.720
+I don't want that.
+
+15:02.770 --> 15:05.020
+All right so that looks pretty good.
+
+15:05.020 --> 15:06.450
+So let's see.
+
+15:06.460 --> 15:08.060
+Let's move on to the.
+
+15:08.200 --> 15:09.250
+The header content.
+
+15:09.280 --> 15:15.880
+So that basically this stuff right here and then we'll bring in our JavaScript file as well so let's
+
+15:15.880 --> 15:16.290
+see.
+
+15:16.300 --> 15:25.280
+Let's go down to header and we want to be let's see we want to be within the header home.
+
+15:25.320 --> 15:34.890
+So inside here it's a header content sometimes helps just to comment this stuff
+
+15:37.730 --> 15:38.670
+header home
+
+15:46.090 --> 15:46.540
+all right.
+
+15:46.570 --> 15:53.250
+So header content it is a class of header dash content.
+
+15:54.610 --> 16:00.000
+Let's align everything to the center so text align center and let's.
+
+16:00.010 --> 16:05.140
+I'm going to add a padding top of 20 percent.
+
+16:05.410 --> 16:05.960
+Okay.
+
+16:05.980 --> 16:10.870
+And then I'm going to take the H one that's inside the header content so we can nest it like this.
+
+16:10.890 --> 16:16.930
+I'm going to set the font size to be pretty big I'm going to do for RAM and I'm gonna give it a line
+
+16:16.930 --> 16:20.550
+height of one point two.
+
+16:20.560 --> 16:22.540
+All right so let's take a look at that.
+
+16:23.350 --> 16:30.370
+OK now this right here has a class of B10 light which is going to be a utility.
+
+16:30.370 --> 16:33.030
+So let's take care of that.
+
+16:33.280 --> 16:33.970
+While we're at it.
+
+16:34.000 --> 16:43.180
+So we're going to go into utilities and I showed you this in the last section on how to basically extend
+
+16:43.660 --> 16:51.250
+a selector or extend style I'm going to just two buttons and we're gonna create like like a base shared
+
+16:51.250 --> 16:57.980
+button style so many use a percent sign and say B10 Das dash shared.
+
+16:58.900 --> 17:10.240
+OK so all buttons will share these styles that are gonna be display inline inline block and see some
+
+17:10.240 --> 17:11.420
+padding.
+
+17:11.560 --> 17:20.980
+So zero point eight REM and let's do two REM and then I want them all to transition on hover so let's
+
+17:20.980 --> 17:30.550
+say transition and I'm just gonna do all zero point five seconds we're gonna set the border to none
+
+17:31.600 --> 17:36.080
+and let's set the cursor to a pointer.
+
+17:36.300 --> 17:36.550
+OK.
+
+17:36.610 --> 17:40.760
+Because this is for both buttons and links.
+
+17:40.770 --> 17:55.580
+Now down here we're gonna have B10 and I want to add a couple different options here so we'll have a
+
+17:55.570 --> 17:58.020
+button main button light and button dark.
+
+17:58.050 --> 18:00.750
+So let's do Ampersand dash mean.
+
+18:00.760 --> 18:06.070
+So this will pertain to a class of button dash main and we want to extend
+
+18:08.440 --> 18:11.410
+the shared button class or styles.
+
+18:11.440 --> 18:14.380
+So we want to do percent B10 shared.
+
+18:14.500 --> 18:17.020
+So we want to extend all that stuff above.
+
+18:17.110 --> 18:27.640
+And then the color for right now I'm just going to set it to set it to a dark color.
+
+18:27.850 --> 18:32.860
+But later on work we're actually going to use that set text color function that I showed you guys in
+
+18:32.860 --> 18:34.660
+the last section.
+
+18:35.230 --> 18:43.330
+So do background color which is going to be the main color so that for right now it's that yellow.
+
+18:43.350 --> 18:47.340
+But of course you can change that within the config All right.
+
+18:47.350 --> 18:55.500
+And then I'll just grab this copy this down twice and let's make this one the light.
+
+18:56.110 --> 18:57.730
+So this will be button dash light.
+
+18:57.730 --> 18:59.650
+We're going to extend everything.
+
+18:59.710 --> 19:07.210
+We'll keep the dark color here and then the background is going to be the light color.
+
+19:07.210 --> 19:07.570
+All right.
+
+19:07.570 --> 19:12.400
+And then down here it's too dark
+
+19:15.040 --> 19:17.160
+shared button.
+
+19:17.340 --> 19:25.130
+We'll put the light color here and then the background is gonna be the dark color.
+
+19:25.240 --> 19:34.780
+Now as far as the hover I actually want any any of these buttons to when you hover over it to have the
+
+19:34.780 --> 19:37.900
+main color as the background.
+
+19:37.930 --> 19:38.290
+All right.
+
+19:38.290 --> 19:47.560
+So the way I'm going to do this is let's go outside of this B10 and we're gonna say so for button.
+
+19:47.890 --> 19:50.280
+And then here we can actually do like class.
+
+19:50.290 --> 19:52.630
+We could do class equals something.
+
+19:52.630 --> 19:55.060
+However I want to only include part of it.
+
+19:55.060 --> 20:02.350
+Anything that has the Beatty and dash inside the class I want to grab on to so we can put a carrot character
+
+20:02.350 --> 20:12.880
+here which is shifts shift and then number six and then equals and we'll set this to just be t n dash.
+
+20:12.920 --> 20:13.450
+Okay.
+
+20:13.460 --> 20:20.870
+And then we want Cole and hover so any class any button with the class of Beatty and dash anything.
+
+20:20.890 --> 20:27.610
+This will this will be in effect for now we also want links with the same thing.
+
+20:27.640 --> 20:34.050
+So I'm just going to copy this and we'll do an A tag with that stuff.
+
+20:34.060 --> 20:38.340
+Let's also do if it's an input with the class.
+
+20:38.440 --> 20:41.550
+So you we'll do input.
+
+20:43.220 --> 20:52.750
+Ok so any of these if they're hovered then let's make the background color main color.
+
+20:53.430 --> 20:53.730
+OK.
+
+20:53.740 --> 20:57.580
+So it just saves us some room here.
+
+20:57.610 --> 21:03.510
+Now I'm going to add a couple other utility classes we already use the lead class.
+
+21:03.540 --> 21:05.160
+So we want to definitely put that in.
+
+21:05.170 --> 21:14.140
+So lead is just going to have a font size of one point three ram and let's add a little bit of margin
+
+21:14.350 --> 21:16.650
+bottom as well so we'll do two.
+
+21:17.680 --> 21:22.290
+And then I also want to have a text center just to center or something if we want.
+
+21:22.900 --> 21:28.950
+So we're just going to set text aligned to center.
+
+21:28.990 --> 21:29.370
+All right.
+
+21:29.400 --> 21:34.960
+So let's save that and let's go back and take a look and you can see we have our button and when we
+
+21:34.960 --> 21:40.810
+hover over it we get that that main color happens to be yellow but we could easily change it in the
+
+21:40.810 --> 21:46.040
+config to be any color and this would change this color up here would change.
+
+21:46.060 --> 21:46.470
+All right.
+
+21:46.480 --> 21:52.780
+So the last thing I want to do in this video is this part here I want to add the JavaScript script so
+
+21:52.780 --> 21:54.700
+that this actually works.
+
+21:54.700 --> 21:59.320
+And again I'm not going to go over the actual javascript code if you want you can check the tutorial
+
+21:59.320 --> 21:59.820
+out.
+
+21:59.890 --> 22:03.820
+In fact what I'll do is I'll put a comment in.
+
+22:03.820 --> 22:09.400
+Let's see it's go to the index each team all down at the bottom here and I'm going to paste in a comment
+
+22:09.460 --> 22:17.800
+to the actual tutorials so we'll say type effect tutorial and then let's just include the script.
+
+22:18.100 --> 22:24.220
+So we want to do source to J.S. slash typewriter J S save it.
+
+22:24.220 --> 22:26.190
+Go back and it works.
+
+22:26.910 --> 22:27.210
+OK.
+
+22:27.220 --> 22:35.280
+So the script is the way that it works is it just looks at or is it the span looks at this right here
+
+22:35.290 --> 22:39.580
+looks at the wait time it looks at the different words if you want to change up the words you can just
+
+22:39.580 --> 22:42.320
+simply change them right here.
+
+22:42.430 --> 22:42.760
+All right.
+
+22:42.760 --> 22:49.690
+So I think we're good for now in the next video we're going to move on to the next part which will be
+
+22:49.690 --> 22:57.910
+what the developer specializes in the different icon stuff like that the creative process with the transitions.
+
+22:57.910 --> 23:00.090
+So we will get into that next.

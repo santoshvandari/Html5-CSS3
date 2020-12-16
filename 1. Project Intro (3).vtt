@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.510 --> 00:05.640
+All right guys in this video I just want to show you the next project we'll be building which is a portfolio
+
+00:05.640 --> 00:07.880
+project that uses SAS.
+
+00:07.890 --> 00:08.190
+OK.
+
+00:08.190 --> 00:15.510
+Now the inspiration for the look of this site comes from a template that I found on Moby rides dot com.
+
+00:15.510 --> 00:21.660
+So I just wanted to show you guys this real quick and it's just a one page is just a single page our
+
+00:21.660 --> 00:24.080
+templates is gonna be multiple pages.
+
+00:24.150 --> 00:27.210
+I didn't even look at the H team L of the CSX for this.
+
+00:27.300 --> 00:33.900
+And then as far as this typing effect here the typing effect we're using comes from my javascript tutorial
+
+00:33.900 --> 00:34.880
+on youtube.
+
+00:34.920 --> 00:40.500
+So if you're interested in the actual javascript you can just search for JavaScript typing effect and
+
+00:40.590 --> 00:47.510
+the first result here will be my tutorial that shows you exactly what's going on as far as this course
+
+00:47.520 --> 00:49.400
+we're just going to kind of include the file.
+
+00:50.160 --> 00:54.020
+So we have a landing page here with a background image.
+
+00:54.150 --> 01:00.360
+This logo up here JD pertains to the the the developers name John Doe.
+
+01:00.360 --> 01:05.880
+Now I did include the PSAT file if you want to change the initials if you want to use your own logo
+
+01:05.880 --> 01:07.540
+if you want to use text here.
+
+01:07.590 --> 01:12.020
+If you don't want to use anything here whatever you want to do is fine if you're going to use this as
+
+01:12.030 --> 01:13.890
+your own portfolio or whatever.
+
+01:14.070 --> 01:18.460
+And then we have the menu over here with the different pages which I'll show you in a second.
+
+01:18.480 --> 01:24.690
+We have a button to go to the work page and then down here we have what John specializes in some font
+
+01:24.720 --> 01:26.250
+awesome icons.
+
+01:26.250 --> 01:32.610
+And then here we have some more icons with the clients awards hours worked projects completed creative
+
+01:32.610 --> 01:39.960
+process so down here we're gonna add some visual effects using transitions footer is pretty simple just
+
+01:39.960 --> 01:46.200
+have some social media icons with a hover effect and then the about page you can see we're still using
+
+01:46.200 --> 01:51.660
+that same background image but we're pushing it up into the nav bar and then we have the about section
+
+01:51.660 --> 01:57.350
+we're actually going to be using grid template areas here then we have some progress bars.
+
+01:57.540 --> 01:59.540
+So we'll be creating these from scratch.
+
+01:59.550 --> 02:05.130
+I know that progress bars are included with frameworks like bootstrap and stuff like that but we'll
+
+02:05.130 --> 02:07.110
+be creating these with just age.
+
+02:07.110 --> 02:11.820
+Tim Allen CSX we have some logos here some testimonials.
+
+02:11.820 --> 02:19.020
+And then on the work page we have some images with some overlay effects case we'll be using some CSX
+
+02:19.020 --> 02:25.980
+transitions here as well that looks pretty nice all these images will be included in the project files
+
+02:26.010 --> 02:31.410
+as well so let's take a look at the contact page which is very simple we just have a form here.
+
+02:31.410 --> 02:37.710
+We have this section with the email phone and address big Texas says let's start your next project and
+
+02:37.710 --> 02:38.850
+the footer.
+
+02:38.850 --> 02:39.120
+All right.
+
+02:39.120 --> 02:44.920
+So now let's take a look at the responsiveness of this I'm going to open up my chrome tools and let's
+
+02:44.920 --> 02:47.180
+set the device icon here.
+
+02:47.180 --> 02:52.800
+So this is what it would look like on an iPad which is very similar to what it looks like on desktop.
+
+02:52.920 --> 02:56.920
+Basically everything is is pretty much the same.
+
+02:56.970 --> 03:02.420
+So let's look at say iPhone X okay.
+
+03:02.450 --> 03:10.140
+So on smaller devices smartphones we're just going to kind of narrow the header down to just the logo
+
+03:10.170 --> 03:15.770
+and the menu centered and then everything else is just nicely stacked on top of each other.
+
+03:15.780 --> 03:22.280
+OK for the about page you can see everything's nicely stacked testimonials progress bars the work page
+
+03:22.290 --> 03:29.440
+we just have the images and then the contact page everything is nice and stacked as well.
+
+03:29.460 --> 03:31.470
+All right so that's the responsiveness of it.
+
+03:31.470 --> 03:33.750
+So that's it guys hopefully you enjoy this.
+
+03:33.750 --> 03:37.410
+Let's jump into the next video and start to set up our SAS environment.

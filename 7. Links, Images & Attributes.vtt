@@ -1,0 +1,475 @@
+WEBVTT
+
+00:00.420 --> 00:05.250
+All right guys so in this video we're going to look at links and images and what I've done here is I've
+
+00:05.250 --> 00:11.440
+put the bra I've made the browser smaller so that I could fit it on the same screen as the as the editors
+
+00:11.490 --> 00:17.850
+that we can see what's going on at the same time because we have auto reload with live server and I
+
+00:17.850 --> 00:23.430
+won't do this for every video just the ones that where we don't need a lot of real estate in the browser
+
+00:23.460 --> 00:24.230
+window here.
+
+00:25.080 --> 00:27.340
+So let's go ahead and create a new file.
+
+00:27.360 --> 00:33.000
+I'm going to call this 0 5 underscore links underscore images dot HD CML.
+
+00:33.140 --> 00:33.630
+All right.
+
+00:33.630 --> 00:39.570
+And we're going to close this up to give us some more room and we're gonna generate a boilerplate and
+
+00:40.020 --> 00:45.390
+might say boilerplate it just means you know our are our starter template whatever our structure.
+
+00:45.390 --> 00:54.420
+So the title I'm gonna say links and images and let's go ahead and let's first start with an external
+
+00:54.420 --> 00:54.750
+link.
+
+00:54.750 --> 00:58.770
+So if you want to link to another Web site you can do that.
+
+00:58.770 --> 01:03.510
+So I'm going to put a paragraph in between all these links actually know what I won't do that because
+
+01:03.510 --> 01:04.690
+I want to show you something.
+
+01:05.370 --> 01:09.540
+So a link is is represented within a tag.
+
+01:09.540 --> 01:16.760
+So I'm going to say a tab or a enter and notice that with V.S. code it gives us this H RF attribute
+
+01:16.770 --> 01:17.510
+right away.
+
+01:17.700 --> 01:22.830
+And that's because every link needs an H ref attribute because that's the location that you're linking
+
+01:22.830 --> 01:23.670
+to.
+
+01:23.670 --> 01:34.770
+So in this case let's link to H TTP Google dot com and inside here is what we want to put whatever we
+
+01:34.770 --> 01:39.690
+want to click to link like some text or an image or whatever that's what we want to put in here so let's
+
+01:39.960 --> 01:46.120
+let's just say click for Google and we'll save this.
+
+01:46.220 --> 01:48.120
+We're just going to add a comment here.
+
+01:48.320 --> 01:56.210
+We'll say external link and let's go ahead and save and run with live server OK.
+
+01:56.260 --> 01:57.360
+So we have this link here.
+
+01:57.370 --> 01:59.050
+This is click for Google.
+
+01:59.050 --> 02:03.700
+By default it's going to be colored differently it's going to have an underlying and if I click it brings
+
+02:03.700 --> 02:06.780
+us to Google now knows it opens in the same tab.
+
+02:06.790 --> 02:12.850
+And when you link to an external site like this usually you want to open it in a new tab because you
+
+02:12.850 --> 02:16.980
+don't want to do you don't want people to drift away from your Web site.
+
+02:17.080 --> 02:18.330
+You're trying to show them something.
+
+02:18.340 --> 02:21.340
+But at the same time you want your Web site to stay open.
+
+02:21.700 --> 02:24.640
+So what we would do is add a target attribute.
+
+02:24.640 --> 02:29.020
+Now I'm going to show you a little another little trick here keyboard trick if you want to copy this
+
+02:29.020 --> 02:35.860
+whole line down what you can do is hold shift option or shift all on on windows and then hit the down
+
+02:35.890 --> 02:39.230
+arrow and that will just copy that line for you.
+
+02:39.280 --> 02:39.930
+OK.
+
+02:40.000 --> 02:46.270
+And another tip if you want to see how I'm just going back and forth here one character at a time if
+
+02:46.270 --> 02:53.290
+you want to go by by word you can hold down Ault or actually on Windows it's control I believe.
+
+02:53.290 --> 02:54.970
+But on a Mac it's option.
+
+02:55.090 --> 02:57.130
+And if you hit the the over arrow.
+
+02:57.130 --> 02:59.180
+Notice how it goes across the whole word.
+
+02:59.510 --> 02:59.820
+OK.
+
+02:59.830 --> 03:06.660
+So to go from here to here so you can go across much faster.
+
+03:06.790 --> 03:07.300
+All right.
+
+03:07.330 --> 03:11.530
+And if you want to go all the way to the beginning you can hit the home key if you want to go all the
+
+03:11.530 --> 03:12.870
+way to the end of the line.
+
+03:12.880 --> 03:14.460
+You can hit the end key.
+
+03:14.590 --> 03:18.910
+So it's very helpful to be able to navigate very quickly like that.
+
+03:20.170 --> 03:26.410
+So again like I was saying if we want to open in a different tag we can use the target attribute.
+
+03:26.410 --> 03:29.220
+And for a value we want to do underscore blank.
+
+03:29.620 --> 03:29.910
+OK.
+
+03:29.920 --> 03:31.420
+So we'll save that.
+
+03:31.420 --> 03:37.810
+And what I wanted to show you is notice how this the next link here is not on a separate line.
+
+03:37.810 --> 03:43.100
+The reason for that is an on a tag is actually what's called an inline element.
+
+03:43.120 --> 03:48.730
+So it doesn't knock it onto the next line like if it were a paragraph which is actually a block element
+
+03:49.060 --> 03:51.750
+and we're going to talk about inline and block elements.
+
+03:51.760 --> 03:53.580
+I think two videos from now.
+
+03:53.650 --> 03:59.080
+But I wanted you to know that there are some inline elements and there are some block elements.
+
+03:59.110 --> 04:06.210
+Now if I want this on a new line I could put a line break or I could just wrap them in a paragraph tag.
+
+04:06.460 --> 04:06.850
+OK.
+
+04:06.850 --> 04:12.280
+And another tip is if I want this moved up here I can actually just hold either all it on Windows or
+
+04:12.280 --> 04:13.440
+option on a Mac.
+
+04:13.480 --> 04:17.590
+And I can just bring it up I can move this line wherever I want.
+
+04:17.590 --> 04:17.980
+All right.
+
+04:18.250 --> 04:25.140
+So we'll do that and let's put another paragraph tag and we'll bring that up into here.
+
+04:25.150 --> 04:30.970
+So now if I save there on separate lines because a paragraph is actually a block level element and if
+
+04:30.970 --> 04:36.230
+I click the second one it opens up in a new tab because of the target attribute.
+
+04:36.300 --> 04:36.600
+OK.
+
+04:36.610 --> 04:39.600
+Because I set it to blank.
+
+04:39.640 --> 04:39.940
+All right.
+
+04:39.970 --> 04:46.390
+So these are external links usually your links are going to be internal because you're going to be linking
+
+04:46.390 --> 04:53.350
+to other pages in your web site like let's say in about page or a services or contact page something
+
+04:53.350 --> 04:54.360
+like that.
+
+04:54.370 --> 05:00.040
+So since we have these each team all files in the same folder Let's link to one of these.
+
+05:00.040 --> 05:02.840
+So we'll link to the 0 4 typography.
+
+05:03.130 --> 05:05.570
+So we're going to close that back up.
+
+05:06.440 --> 05:15.640
+Let's say internal link put a paragraph and we'll put a an h in a tag with an eight graph that points
+
+05:15.640 --> 05:20.580
+to slash meaning the current folder that we're in.
+
+05:20.710 --> 05:21.960
+And then with V.S. code.
+
+05:21.970 --> 05:26.280
+Notice that it actually shows us the HCM him all files that are in this folder.
+
+05:26.320 --> 05:26.670
+Ok.
+
+05:26.680 --> 05:29.020
+The slash means the current folder we're in.
+
+05:29.140 --> 05:38.260
+So going to choose the topography h t AML and in here let's just say topography and we'll go and save
+
+05:38.260 --> 05:38.980
+that.
+
+05:38.980 --> 05:42.490
+And then if we click topography it brings us to that page.
+
+05:42.910 --> 05:43.180
+OK.
+
+05:43.180 --> 05:50.860
+We don't have to put the whole like 1 2 7 0 0 1 fifty five under we don't have to put that in here because
+
+05:50.860 --> 05:52.800
+we're already in the same folder.
+
+05:52.870 --> 05:55.630
+So we just need that Slash.
+
+05:55.630 --> 05:55.930
+All right.
+
+05:55.930 --> 06:01.110
+We're just going to click the back button so we can link to any inner page that way.
+
+06:01.120 --> 06:03.450
+So now let's take a look at images.
+
+06:03.490 --> 06:09.640
+So this is our folder right here HCM all sandbox and I'm gonna just create a new folder here called
+
+06:09.640 --> 06:10.840
+images.
+
+06:10.930 --> 06:14.530
+Usually you'll see this or they might it might be called I Am G.
+
+06:14.560 --> 06:18.630
+A lot of times you'll see that on Web sites and applications.
+
+06:18.790 --> 06:24.220
+But in this images folder I'm just going to bring over a sample image which you should have in your
+
+06:24.220 --> 06:28.660
+ear if you're HDMI sandbox in the project files.
+
+06:28.960 --> 06:32.800
+And I'm going to bring this onto our Web page.
+
+06:32.960 --> 06:33.250
+OK.
+
+06:33.280 --> 06:42.820
+So I'll go down here and let's say local image I'm seeing local image because it's actually in our folder
+
+06:42.850 --> 06:49.450
+it's in it's in our file structure you can also link to remote images that are elsewhere and I'll show
+
+06:49.450 --> 06:55.560
+you that in a second but let's go ahead and do an image tag which is I am G and in V.S. mode if I do
+
+06:55.560 --> 06:59.520
+I AMG enter a tab it's gonna give me two attributes.
+
+06:59.520 --> 07:04.190
+One is the source which is the location of the image and the image name.
+
+07:04.350 --> 07:07.770
+And then one is the basically the alternative tax.
+
+07:07.770 --> 07:10.240
+So for some reason the image doesn't show up.
+
+07:10.350 --> 07:12.120
+If it's not there or something.
+
+07:12.120 --> 07:14.180
+This will be the text that's shown.
+
+07:14.220 --> 07:22.050
+So for the altar I'll just say my image and then for the for the link here we want to go into the images
+
+07:22.050 --> 07:22.830
+folder.
+
+07:22.890 --> 07:29.310
+Notice with V.S. code if I do forward slash brings down this dropdown and I can choose the images folder
+
+07:29.640 --> 07:31.360
+and it even shows me what's in there.
+
+07:31.410 --> 07:32.930
+And the sample dot JPEG.
+
+07:32.940 --> 07:34.350
+So I want that.
+
+07:34.440 --> 07:38.370
+So the location and the image name itself.
+
+07:38.370 --> 07:40.060
+So if I go ahead and save.
+
+07:40.350 --> 07:41.140
+There it is.
+
+07:41.190 --> 07:42.810
+The image shows up now.
+
+07:42.930 --> 07:46.650
+It goes out of view here because we have no CSF.
+
+07:46.670 --> 07:49.350
+So it's just going to show the full size image.
+
+07:49.350 --> 07:56.880
+But with CSX we can actually change actually we can change with H team as well if I wanted to I could
+
+07:56.880 --> 07:57.960
+add a width here.
+
+07:57.990 --> 08:03.060
+This isn't really something I'd recommend doing usually you would use CSX but you can set the width
+
+08:03.060 --> 08:05.070
+and height in HMO.
+
+08:05.220 --> 08:11.580
+So if I set this to two hundred and save now I could see that it's smaller and you can do height the
+
+08:11.580 --> 08:18.390
+height as well but the height will auto adjust if you add a width so we can also do remote images
+
+08:22.650 --> 08:25.470
+so same way I am G.
+
+08:25.890 --> 08:28.980
+And also just say my image too.
+
+08:29.250 --> 08:33.030
+And for the source I could do any source I want.
+
+08:33.030 --> 08:36.230
+Actually there's a really good image sharing site.
+
+08:36.270 --> 08:46.410
+If you go to source dot on Splash dot com and we go down here you can get random images from a specific
+
+08:46.410 --> 08:48.550
+user of the site.
+
+08:48.600 --> 08:55.290
+What I want though is let's see there's a fixed date daily weekly photo so you could grab any of these
+
+08:55.290 --> 09:02.460
+you are ls right here random search term so if you want a random image like of nature and water you
+
+09:02.460 --> 09:06.320
+can just grab this you are all and put in nature and water.
+
+09:06.360 --> 09:09.420
+So let's do that.
+
+09:09.510 --> 09:15.570
+So if we go back if I save it's going to give me an image that sixteen hundred pixels by nine hundred
+
+09:15.570 --> 09:18.720
+pixels of nature water let's make this smaller
+
+09:21.320 --> 09:22.410
+say two hundred
+
+09:25.900 --> 09:27.870
+OK so there we go.
+
+09:27.950 --> 09:32.870
+And this only works because the UN splash dot com allows us to do this.
+
+09:32.870 --> 09:38.900
+They they basically allow us to specify the size and hear this you can't do this with just any link
+
+09:38.960 --> 09:40.640
+any image link.
+
+09:40.640 --> 09:42.980
+Same thing with keywords here.
+
+09:42.980 --> 09:44.900
+If I wanted like let's say building
+
+09:47.890 --> 09:50.100
+and then we go get some kind of picture of a building.
+
+09:50.100 --> 09:50.840
+I think it's right.
+
+09:51.210 --> 09:56.300
+Yeah it's random so if I click reload it's just going to be a random building.
+
+09:56.370 --> 10:03.750
+And again this has nothing to do with h t Amal it's just the UN splash service is an image sharing service
+
+10:03.750 --> 10:07.510
+or an image place holder service that allows us to do this.
+
+10:07.530 --> 10:12.150
+So it's free it's pretty cool if you're building something and you just need some some kind of random
+
+10:12.150 --> 10:14.790
+image and you don't want to have it local.
+
+10:14.790 --> 10:18.210
+You can just link to on splash like this.
+
+10:18.210 --> 10:18.560
+All right.
+
+10:18.570 --> 10:24.210
+So I think that's going to do it guys in the next video we're gonna start to look at lists and tables.

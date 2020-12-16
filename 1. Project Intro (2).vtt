@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00.360 --> 00:03.620
+All right so we're going to take a look at the project we'll be building in this section.
+
+00:03.630 --> 00:07.790
+It's called news grid and it's basically a UI for a news Web site.
+
+00:07.800 --> 00:13.080
+And it's going to be pretty simple in terms of the the number of pages we're just going to have a home
+
+00:13.140 --> 00:13.620
+about.
+
+00:13.620 --> 00:18.990
+And then we have a single article page which we'll take a look at and obviously we'll be using the grid
+
+00:18.990 --> 00:20.050
+system here.
+
+00:20.190 --> 00:21.930
+And I'm just gonna go through this real quick.
+
+00:21.960 --> 00:25.760
+So we have a Navarre that sticky so it sticks to the top wherever we go.
+
+00:25.800 --> 00:29.990
+And this logo here is just something that I created in Photoshop.
+
+00:30.090 --> 00:36.510
+It took an icon cutting added some color to it added some text and I might add on a bonus video showing
+
+00:36.510 --> 00:38.670
+you how to do something like that in photoshop.
+
+00:38.670 --> 00:44.180
+I also created a light version down here for it to be placed on dark backgrounds.
+
+00:44.340 --> 00:50.280
+So we have the now var we have some font awesome social media icons here we have our links and then
+
+00:50.280 --> 00:55.770
+we have this showcase area which would be like a featured article and we're using an overlay we're going
+
+00:55.770 --> 01:01.350
+to use the before pseudo selector as we looked at in a past video.
+
+01:01.350 --> 01:05.910
+We're using the grid to kind of push all this over to the side and then of course down here we're using
+
+01:05.910 --> 01:07.290
+grid CSX.
+
+01:07.290 --> 01:10.710
+And this one for instance is going to span over a column.
+
+01:10.710 --> 01:12.140
+This one spans over.
+
+01:12.240 --> 01:16.080
+We're going to have different utility classes for different background colors.
+
+01:16.080 --> 01:23.030
+We'll be using CSX variables all the images you see here you'll have in a folder called Image Resources.
+
+01:23.040 --> 01:27.890
+In this lecture and then the footer we're using the grid as well we have these four different sections.
+
+01:27.900 --> 01:34.410
+And then this one that spans all the way across just the copyright and then the the about page is very
+
+01:34.410 --> 01:39.590
+simple we just have a main area and then we have our sidebar we're using the grid here.
+
+01:39.750 --> 01:42.550
+And the article page is similar.
+
+01:42.660 --> 01:48.690
+We have the main article with an image some meta info like the author of the date the category.
+
+01:48.840 --> 01:53.680
+And then on the side we have the categories links which don't go anywhere.
+
+01:53.820 --> 01:57.340
+And then the join our club a little widget here.
+
+01:57.420 --> 02:01.740
+So any any other grid items we add here would get placed on the sidebar.
+
+02:01.770 --> 02:07.810
+So it's very efficient if you are scalable if you want to add more content all right.
+
+02:07.810 --> 02:13.180
+Now let's take a look at the responsive version so I'm going to open up my dev tools and let's take
+
+02:13.180 --> 02:14.010
+a look.
+
+02:14.020 --> 02:16.840
+This is a landscape iPhone X.
+
+02:17.110 --> 02:19.660
+So as you can see it looks pretty good.
+
+02:19.660 --> 02:20.230
+Let's turn.
+
+02:20.230 --> 02:26.830
+Turn this around in portrait mode and everything is stacked on top of each other nice and neatly.
+
+02:26.830 --> 02:29.350
+If you look at the about page same thing.
+
+02:29.740 --> 02:33.800
+Let's take a look at an iPad OK.
+
+02:33.830 --> 02:39.300
+So on the iPad I just kept the inner pages having the two columns here on the home page.
+
+02:39.300 --> 02:45.870
+I change this grid to have to be in two columns rather than stacked because I think that on an iPad
+
+02:45.900 --> 02:51.120
+it's too wide to have just one per row or just one column.
+
+02:51.120 --> 02:53.070
+So we have two here.
+
+02:53.340 --> 03:00.270
+And if I take it out of this mode and you'll see that as I bring the browser down I hit 768.
+
+03:00.480 --> 03:05.660
+It's going to go into two and then when I hit 600 it goes into one.
+
+03:05.700 --> 03:11.490
+So it's very responsive and I think that you're going to learn a lot in this project.
+
+03:11.490 --> 03:11.730
+All right.
+
+03:11.730 --> 03:12.990
+So let's go ahead and get started.

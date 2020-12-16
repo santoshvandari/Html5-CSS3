@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.440 --> 00:05.310
+All right guys so now we're going to jump in and get started with CSX grid which is one of the best
+
+00:05.310 --> 00:11.570
+additions to CSX and makes grid based layouts very easy to create.
+
+00:11.580 --> 00:13.110
+So what is the grid.
+
+00:13.110 --> 00:19.620
+It's a grid layout system for CSX it's similar to flex box in that you can do a lot of the same things
+
+00:19.620 --> 00:21.230
+that you can do at flex box.
+
+00:21.240 --> 00:23.810
+However there are some big differences.
+
+00:23.850 --> 00:29.230
+The biggest being that the grid is capable of two dimensional layouts and I'll get to that in a minute.
+
+00:29.580 --> 00:36.540
+CSX grid is a bit harder to use than flex but it's also more powerful and we can use we can still use
+
+00:36.540 --> 00:42.990
+the same alignment properties that we've used with Flex such as a line items justify content as far
+
+00:42.990 --> 00:44.120
+as browser support.
+
+00:44.130 --> 00:45.470
+All browsers support it.
+
+00:45.480 --> 00:53.580
+Aside from Internet Explorer which does have partial support for the grid system now since you've already
+
+00:53.580 --> 00:58.020
+learned flex box if you've been following along with this course that's going to help you tremendously
+
+00:58.020 --> 01:03.930
+because you understand the concept of having a container and then having items within that container
+
+01:04.170 --> 01:11.520
+and grid works the same way where you set you know we've set a display property to grid of a container
+
+01:11.850 --> 01:18.900
+and then all of the child elements become grid items and then we can set an property called GRID template
+
+01:18.900 --> 01:24.010
+columns where we define the number of columns that we want as well as the widths.
+
+01:24.150 --> 01:29.410
+And you're going to be introduced to a new unit of measure called F R fraction.
+
+01:29.430 --> 01:35.700
+Now the biggest difference between flex and the grid is that Flex is not capable of two dimensional
+
+01:35.700 --> 01:41.790
+layouts you use it for a single row or column and you just set your alignments with the grid.
+
+01:41.790 --> 01:44.430
+You can have two dimensional layouts.
+
+01:44.430 --> 01:51.000
+So on the left we have just a one dimensional row with a nav bar and this is something we would use
+
+01:51.000 --> 01:56.750
+flex box for you could use the grid but flex is usually good for this type of stuff.
+
+01:56.820 --> 02:03.440
+And then on the right we have basically an entire layout that is set with one grid.
+
+02:03.450 --> 02:03.920
+OK.
+
+02:03.930 --> 02:09.080
+And you can actually span items across multiple columns in multiple rows.
+
+02:09.570 --> 02:12.750
+And this is a good example of exactly what I'm talking about.
+
+02:12.750 --> 02:16.980
+This is one grid and this is something we cannot do with Flex blocks.
+
+02:16.980 --> 02:20.170
+You see it's it's two dimensional it goes both ways.
+
+02:20.220 --> 02:29.160
+We can take a an item and we can span it down a rows separate rows or we can take an item and we can
+
+02:29.160 --> 02:36.720
+span it across columns or we can span it across both rows and columns where flex blocks you would just
+
+02:36.720 --> 02:44.070
+have you know certain elements along in one row one line and it's just one dimensional.
+
+02:44.070 --> 02:46.110
+So that's the that's the biggest difference.
+
+02:46.200 --> 02:49.740
+And there's different use cases for each.
+
+02:49.770 --> 02:54.050
+I can't stand the argument of always use CSX grid.
+
+02:54.060 --> 02:59.400
+I had to in my opinion people that say that they're just the type of people that have to use the newest
+
+02:59.400 --> 03:06.780
+thing and have to use buzzwords just to basically sound smart and sound cool and that's just ridiculous.
+
+03:06.780 --> 03:10.920
+There's different use cases for grid and flex.
+
+03:10.920 --> 03:18.570
+For me I like to use CSX grid for outer elements basically boxes and grid like layouts and then for
+
+03:18.570 --> 03:25.800
+simple alignments or inner elements things like menu items stuff like that use flex I use flex for most
+
+03:25.800 --> 03:32.280
+of the stuff that we've done up to this point like menu items and you know landing pages were centering
+
+03:32.310 --> 03:33.970
+elements in a flex column.
+
+03:33.990 --> 03:37.390
+I would I would use flex for that I would not use the grid for that.
+
+03:37.410 --> 03:42.510
+There were a couple cases like maybe with the hotel site where we had the different boxes I may have
+
+03:42.510 --> 03:46.980
+used a grid for that but you know it's preference.
+
+03:46.990 --> 03:48.310
+Everyone's different.
+
+03:48.330 --> 03:54.000
+Some people will use only one or the other but those people generally don't understand the difference
+
+03:54.300 --> 03:56.460
+and they use cases.
+
+03:56.460 --> 04:01.160
+So you want to you'll kind of pick this stuff up as you go along.
+
+04:01.170 --> 04:04.500
+All right so let's jump in and let's start to learn CSX grid.

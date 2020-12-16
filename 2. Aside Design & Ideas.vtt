@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.390 --> 00:00.590
+All right.
+
+00:00.600 --> 00:05.610
+So before we jump in and we start writing our aged hymnal and CSX for this project I just want to talk
+
+00:05.610 --> 00:08.560
+a little bit about design and ideas.
+
+00:08.790 --> 00:15.630
+So it really depends sometimes you'll get a job as a front end developer and you'll have a designer
+
+00:15.630 --> 00:20.880
+on your team that will create the you eyes and create the designs and then hand them off to you.
+
+00:20.880 --> 00:26.700
+So usually it'll be like maybe a photoshop file or a sketch file illustrator or some kind of graphic
+
+00:26.700 --> 00:32.970
+design program and then it's your job to take that design and use each team Alan CSX and possibly some
+
+00:32.970 --> 00:40.840
+javascript to recreate that seed so that it actually runs in the browser as a Web site or a web app.
+
+00:40.860 --> 00:46.290
+Now a lot of the times you don't have the luxury of having a designer you'll have to actually create
+
+00:46.290 --> 00:51.690
+everything come up with the ideas on your own especially if you're doing freelancing where you do absolutely
+
+00:51.690 --> 00:52.740
+everything.
+
+00:52.740 --> 00:59.160
+So what I usually do is I look at other Web sites and other themes for inspiration and a good way to
+
+00:59.160 --> 01:01.260
+do that is to search like theme sites.
+
+01:01.260 --> 01:08.010
+So for instance bootstrap has a lot of really nice themes bootstrap is actually a framework in each
+
+01:08.010 --> 01:09.640
+team LCROSS framework.
+
+01:09.690 --> 01:12.590
+I have an entire course in bootstrap if you want to learn more about it.
+
+01:12.870 --> 01:18.690
+But let's say we search for bootstrap themes and there's going to be all types of sites that have different
+
+01:19.020 --> 01:19.710
+themes.
+
+01:20.160 --> 01:21.260
+Let's just go to this one here.
+
+01:21.270 --> 01:26.730
+Themes dot get bootstrap dot com and we go down here and you can see some examples some of them are
+
+01:26.730 --> 01:30.790
+Web sites and some are like admin interfaces like this.
+
+01:30.900 --> 01:32.670
+That's not really what we're interested right now.
+
+01:32.670 --> 01:37.860
+But let's take this site for example and this is actually selling for 50 dollars and that that's another
+
+01:37.860 --> 01:42.990
+idea for you guys if you get good at this after this course and you can create some decent layouts you
+
+01:42.990 --> 01:50.740
+can actually sell them online but most of these sites have a live preview so let's take a look at that.
+
+01:50.770 --> 01:55.060
+So what I would do is I would take a look at this layout and I would just get some ideas.
+
+01:55.060 --> 01:56.250
+So look at the header.
+
+01:56.260 --> 01:58.970
+Look at how things are laid out how the logo looks.
+
+01:59.080 --> 02:05.530
+The background image K so that's that's really the what's popular right now is to have the main large
+
+02:05.560 --> 02:11.740
+image with just a little bit of text and maybe some buttons and then underneath that have some boxes
+
+02:12.100 --> 02:13.930
+and you'll see that over and over.
+
+02:13.960 --> 02:20.200
+And that's really what's in right now it's to keep it very clean you know not not crazy colors just
+
+02:20.200 --> 02:27.100
+maybe you know to two or maybe three colors with some light grays and in some dark colors but it's pretty
+
+02:27.100 --> 02:33.730
+simple and down here we have some demo pages like the services page which again we just have a large
+
+02:33.730 --> 02:36.570
+background with some with some text over it.
+
+02:36.650 --> 02:42.310
+If we go down we have three boxes with some icons so icons are really big.
+
+02:42.310 --> 02:46.490
+Down here you can see just have some text images laid out.
+
+02:46.930 --> 02:50.580
+There's some animation in this theme but you know of course you don't need to add the animation.
+
+02:50.590 --> 02:53.050
+I'm actually not a fan of a lot of animation.
+
+02:53.170 --> 02:58.750
+And again just icons and text just like we have right here so you'll see this over and over.
+
+02:58.750 --> 03:05.140
+So just go to different theme sites and get some ideas get some inspiration and don't copy them I'm
+
+03:05.140 --> 03:11.500
+not saying just you know take exactly what they did and redo it but take in some of the ideas from maybe
+
+03:11.500 --> 03:16.450
+four or five different themes and create something of your own so that that's what I do that's how I
+
+03:16.450 --> 03:23.710
+create my web sites and user interfaces I'm far from a graphic designer but I think I have at least
+
+03:23.830 --> 03:27.360
+some some eye for design and it's not that hard.
+
+03:27.360 --> 03:30.940
+Just take some some examples for inspiration.
+
+03:30.970 --> 03:31.260
+All right.
+
+03:31.270 --> 03:35.200
+So that said I just wanted to kind of talk a little bit about that before we get started.
+
+03:35.230 --> 03:38.320
+So in the next video we're going to start to write our age Tamil.

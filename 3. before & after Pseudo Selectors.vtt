@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.440 --> 00:05.790
+All right guys in this video we're gonna take a look at the before and after pseudo selector which actually
+
+00:05.790 --> 00:09.990
+allows us to insert content before or after an element.
+
+00:10.350 --> 00:19.700
+So gonna create a new file here called 0 3 underscore before underscore after dot age GMO and let's
+
+00:19.710 --> 00:22.700
+put our boilerplate in here.
+
+00:23.160 --> 00:27.060
+Say before and after.
+
+00:29.720 --> 00:30.630
+OK.
+
+00:30.900 --> 00:35.670
+So like I said it allows us to put something before and after and I'm gonna give you some practical
+
+00:35.670 --> 00:36.300
+examples.
+
+00:36.300 --> 00:44.010
+So one example would be where we have a form and there's some fields that are required and you may have
+
+00:44.010 --> 00:49.770
+seen this before but they'll be like some kind of mark like an asterisk or something where the fields
+
+00:49.770 --> 00:50.880
+are actually required.
+
+00:50.880 --> 01:01.260
+So what I'm gonna do is just put in a label and we'll just say for name and I'm going to give this a
+
+01:01.260 --> 01:06.710
+class of is Dash required.
+
+01:06.710 --> 01:07.250
+OK.
+
+01:07.260 --> 01:18.000
+And then here I'll just say name and then after the label we'll put an input type text that sets that
+
+01:18.030 --> 01:19.300
+we don't need anything else.
+
+01:19.350 --> 01:20.930
+So let's say this and open it
+
+01:24.060 --> 01:32.460
+so a good example of a practical use for this would be to put an asterisk after the label like right
+
+01:32.460 --> 01:36.190
+here and we could even style it we could color it read for instance.
+
+01:36.240 --> 01:39.270
+So let's take our is required class.
+
+01:39.270 --> 01:45.200
+So we'll say what we want what is required.
+
+01:45.750 --> 01:54.030
+And so I want to do is required and then we want to do colon after I wanted to be after.
+
+01:54.120 --> 02:02.100
+And then in here it takes in a Val property called content which I'm going to make an asterisk.
+
+02:02.100 --> 02:05.310
+So we're just going to put loops wrong character.
+
+02:05.310 --> 02:09.510
+I'm going to put an asterisk in here and let's just save that and see what happens.
+
+02:09.960 --> 02:15.750
+So I noticed that the actress actually gets put in here and in it's it's not in the markup if we open
+
+02:15.750 --> 02:23.820
+up our our Deb tools here and we go to the elements tab and we take a look at the label see we want
+
+02:23.820 --> 02:28.770
+to look at the each team also going to just bring this down if you look at the label we have a label
+
+02:28.770 --> 02:32.090
+and then input There's no asterisk in the markup at all.
+
+02:32.100 --> 02:39.060
+It's being inserted into the brought into the view here in the browser through CSX and then we can also
+
+02:39.060 --> 02:47.550
+style it we should have a semicolon here but we can style it we could say like color red and I saved
+
+02:47.550 --> 02:53.300
+that it's now red we might want to push it over a little so we can add some padding dash left we'll
+
+02:53.310 --> 02:59.550
+say like two pixels and save and it pushes it over so that I think that's a pretty practical use because
+
+02:59.550 --> 03:02.490
+then you can go ahead and just give any.
+
+03:02.500 --> 03:07.560
+Like let's say we had you know six seven fields whatever ones were required you could simply give a
+
+03:07.560 --> 03:12.380
+class of is required and it would have would automatically have this asterisk.
+
+03:12.390 --> 03:18.990
+You don't have to worry about going into your markup and actually adding an asterisk in your each team.
+
+03:19.200 --> 03:19.520
+OK.
+
+03:19.560 --> 03:21.720
+So that's one practical use.
+
+03:21.720 --> 03:27.930
+And just to show you if I did before and save it does the same thing it just puts it before.
+
+03:28.170 --> 03:36.020
+Now another really practical use for before is to do an overlay in an image overlay.
+
+03:36.030 --> 03:44.460
+Now we did an overlay in the edge ledger project but we didn't use before we just kind of did it on
+
+03:44.460 --> 03:45.230
+that element.
+
+03:45.600 --> 03:48.980
+But I'm going to I'm going to give you an example of how we would do this.
+
+03:49.050 --> 03:52.100
+I'm going to comment this so we don't want this element.
+
+03:52.110 --> 04:00.060
+We're gonna do kind of a little landing page here so let's put a header and in the header we'll do an
+
+04:00.100 --> 04:12.990
+H1 will say hello world to a paragraph I'll do Lorem 10 and then under that header let's do a section
+
+04:14.430 --> 04:22.740
+and we'll put an H three I'll just say Lorem three and then we'll do a paragraph and let's do Lorem
+
+04:22.970 --> 04:24.070
+30.
+
+04:24.140 --> 04:25.930
+Okay so we'll save that.
+
+04:26.190 --> 04:31.000
+And I'm actually going to bring this back down to 100 percent I did have this zoomed in.
+
+04:31.460 --> 04:38.940
+It's going to bring that back down and then let's add some some core styles so I'm going to add some
+
+04:38.940 --> 04:43.940
+styles to the body just I wanted to look somewhat decent and realistic.
+
+04:43.950 --> 04:51.680
+So it's a font family well to use aerial for our font and let's give it a background.
+
+04:51.770 --> 04:59.600
+We're given the body of background of dark and a color of white all right.
+
+04:59.620 --> 05:07.720
+And then for the header itself scoring here will see a header.
+
+05:07.750 --> 05:08.980
+I'm gonna display
+
+05:11.500 --> 05:16.870
+as flex as soon as I do that it's gonna it's gonna go horizontal.
+
+05:16.870 --> 05:23.500
+But we want the Flex direction to be a column case.
+
+05:23.550 --> 05:28.910
+I save that it goes back to that direction and we want to justify content center.
+
+05:28.920 --> 05:30.590
+I just want to move everything to the center.
+
+05:30.600 --> 05:33.150
+So this is stuff we've already done.
+
+05:33.150 --> 05:34.400
+We're just setting it up.
+
+05:34.430 --> 05:44.250
+So we want to align items to the center and we want to text align to the center as well.
+
+05:44.250 --> 05:50.850
+And then let's let's add a height of one hundred viewport height so we'll save that.
+
+05:50.850 --> 05:52.200
+Good.
+
+05:52.580 --> 05:55.160
+The font size of the H1 I just want to increase.
+
+05:55.160 --> 06:01.890
+So I going to see a header each one.
+
+06:01.980 --> 06:08.880
+Now we could use if you want you can use greater then it doesn't really make a difference but sometimes
+
+06:08.880 --> 06:11.740
+you'll see that they'll see that people like to do that.
+
+06:12.030 --> 06:15.150
+Which means that it's a direct child of header.
+
+06:16.200 --> 06:29.940
+So let's say font size for RAM and let's say margin 1 RAM and I'm just gonna mark zero at the margin
+
+06:31.560 --> 06:37.620
+on the body as well so I'm going to take an image and first of all I'm going to add it to just just
+
+06:37.620 --> 06:41.920
+the header itself and I'm going to show you with the problem with that is.
+
+06:42.000 --> 06:52.630
+So let's get an image from source dot on Splash dot com and if you go down see.
+
+06:52.640 --> 06:54.370
+From a collection.
+
+06:54.410 --> 06:58.160
+Let's do this random search term for grab this.
+
+06:58.160 --> 07:10.480
+This nature water random search term and let's put a background of your URL.
+
+07:11.060 --> 07:14.940
+Put that in there and say no repeat because we don't want it to repeat.
+
+07:14.960 --> 07:20.090
+We want to center on the x and y axis and then we want it to cover the hole we want to show the whole
+
+07:20.090 --> 07:20.840
+image.
+
+07:20.930 --> 07:25.040
+So I save that we get a picture of some water here.
+
+07:25.100 --> 07:28.020
+Now I want the I.
+
+07:28.100 --> 07:36.140
+This is actually nice because we can read the text fine but a lot of times with with some images you
+
+07:36.140 --> 07:38.330
+won't be able to read the text.
+
+07:38.360 --> 07:39.820
+These all seem to be pretty good.
+
+07:40.370 --> 07:41.780
+All right so let's use this one.
+
+07:41.780 --> 07:50.420
+So let's say that we want this image to be transparent we want to add opacity value and we could see
+
+07:50.420 --> 07:53.150
+like zero point four and save.
+
+07:53.360 --> 07:59.000
+And the image is gonna change but you can see that now we can see through the image and it makes it
+
+07:59.000 --> 08:04.330
+darker but the text is also translucent and we can also see through that.
+
+08:04.340 --> 08:07.450
+And it's also not readable still.
+
+08:07.490 --> 08:14.630
+So we want the text to be nice and clear but only the background image to be faded or to be translucent
+
+08:14.690 --> 08:15.630
+loosing.
+
+08:15.650 --> 08:19.970
+So what we need to do here what we could do as a solution is use before.
+
+08:19.990 --> 08:28.590
+So we're gonna say header before and we're gonna take this right here.
+
+08:28.670 --> 08:34.730
+The background image and the opacity value and pass it in there.
+
+08:34.730 --> 08:39.770
+Now when you use before and after you want to use content now we're not actually inserting content in
+
+08:39.770 --> 08:44.840
+the page so we're just going to leave this blank like that right.
+
+08:44.850 --> 08:51.540
+Now if I save that we can't see the image because we basically need to position it so that it's it's
+
+08:51.690 --> 08:56.280
+it's basically on top of it or actually behind it.
+
+08:56.670 --> 09:05.820
+So we want to position this let's say position absolute we want to start at the top corner so top 0
+
+09:05.820 --> 09:07.820
+left 0.
+
+09:07.980 --> 09:08.240
+OK.
+
+09:08.250 --> 09:14.790
+So basically right here we want it to go 100 percent across 100 percent height because we wanted to
+
+09:14.790 --> 09:22.220
+cover the whole thing so let's say with 100 percent in height also 100 percent.
+
+09:23.250 --> 09:30.730
+So if we go ahead and save that you can see that the we're still having the same issue.
+
+09:30.750 --> 09:34.280
+I mean the image is dark but the text is not.
+
+09:34.290 --> 09:40.830
+So we're gonna actually give it a z index and we're gonna push it behind.
+
+09:40.830 --> 09:43.340
+So we're gonna say negative 1 and let's save.
+
+09:43.350 --> 09:46.130
+And now look at the text it's nice and bright.
+
+09:46.320 --> 09:49.050
+Yet the image is still darkened.
+
+09:49.110 --> 09:55.530
+OK so if we wanted to change the the amount of opacity we could make it darker the even darker than
+
+09:55.530 --> 10:01.460
+this like zero point two zero is gonna be completely just dark.
+
+10:01.460 --> 10:02.710
+OK.
+
+10:03.000 --> 10:05.570
+And then one is gonna be just the full image.
+
+10:05.580 --> 10:09.610
+Anything in between we can do like zero point five.
+
+10:09.660 --> 10:12.390
+It's kind of hard because the image keeps changing.
+
+10:12.390 --> 10:17.430
+You'd probably be a better example if it was a static image I probably should have did that but either
+
+10:17.430 --> 10:22.010
+way you can see how this works so we're adding the background image on the.
+
+10:22.050 --> 10:29.820
+Before pseudo selector adding some opacity positioning and absolute starting it at the top left making
+
+10:29.820 --> 10:35.060
+sure it covers the whole area and then we're sending it back with the index of negative one.
+
+10:35.060 --> 10:37.000
+That will bring the text forward.
+
+10:37.020 --> 10:37.310
+OK.
+
+10:37.320 --> 10:41.960
+So just remember that when you when you're doing a showcase image you can do it that way.
+
+10:42.000 --> 10:42.290
+All right.
+
+10:42.300 --> 10:45.690
+So that's a pretty practical use of this and you'll see this a lot.
+
+10:46.740 --> 10:50.370
+So in the next video we're gonna start to take a look at box shadows.

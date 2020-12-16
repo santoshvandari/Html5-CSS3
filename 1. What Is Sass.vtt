@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.440 --> 00:05.160
+All right guys so we've looked at the at least the fundamentals of pretty much everything you'll need
+
+00:05.160 --> 00:07.350
+to know as far as CSX goes.
+
+00:07.350 --> 00:12.720
+However there's something called sass that is pretty popular in front end web development and definitely
+
+00:12.720 --> 00:13.500
+worth learning.
+
+00:13.500 --> 00:16.650
+So in this section we're going to go over what Sass is.
+
+00:16.650 --> 00:18.150
+We're going to look at a few examples.
+
+00:18.150 --> 00:24.120
+Talk about the different features that SAS includes and then in the next section we'll be creating our
+
+00:24.120 --> 00:27.190
+final project which will be a portfolio Web site.
+
+00:27.190 --> 00:31.880
+We'll be using SAS along with a bunch of other stuff that we've learned in the course.
+
+00:31.890 --> 00:32.130
+All right.
+
+00:32.130 --> 00:39.330
+So what is SAS it stands for syntactically awesome style sheets and it's a C CSX pre processor and you
+
+00:39.330 --> 00:47.220
+may also see see it referred to as a CSX pre compiler or a C Ss extension or even a style sheet language.
+
+00:47.220 --> 00:52.690
+Now the reason we use SAS is because it enhances CSX beyond its natural capabilities.
+
+00:52.740 --> 00:59.840
+It allows us to use CSX more like an actual programming language and it can cut down repeated code.
+
+00:59.910 --> 01:03.600
+It can allow us to structure things in a more efficient way.
+
+01:03.660 --> 01:06.240
+SAS isn't the only pretty processor available.
+
+01:06.240 --> 01:11.940
+There's also less there's stylists and there's some others however SAS is by far the most popular at
+
+01:11.940 --> 01:14.760
+this point.
+
+01:14.760 --> 01:15.000
+All right.
+
+01:15.000 --> 01:16.830
+So how does SAS actually work.
+
+01:16.850 --> 01:22.660
+Because this confuses a lot of beginners SAS is written in one of two file extensions.
+
+01:22.680 --> 01:26.100
+So either dot SPSS or dot SAS.
+
+01:26.100 --> 01:32.340
+Now SPSS is usually preferred and I'll talk about the difference between the two and a little bit but
+
+01:32.340 --> 01:38.640
+I think what confuses people about SAS is that the browser doesn't actually read SAS files like it does
+
+01:38.640 --> 01:39.640
+CSX.
+
+01:39.690 --> 01:46.440
+You can't simply add a link tag and then include you know style dot SPSS like you can with a standard
+
+01:46.440 --> 01:48.580
+CSX file at least not yet.
+
+01:48.630 --> 01:56.180
+So it has to be compiled down to regular CSX and then that's what you include in your website or application.
+
+01:56.190 --> 01:56.520
+All right.
+
+01:56.520 --> 02:00.480
+Now as far as compiling goes there's many different programs to do this.
+
+02:00.480 --> 02:06.360
+What I like to use is something called Node SAS which is installed with NPM which is the node package
+
+02:06.360 --> 02:13.050
+manager and we can create a simple NPM script that will watch a certain folder where we create our SAS
+
+02:13.050 --> 02:19.850
+files and then it will compile anything we write into regular CSX and put that in another folder.
+
+02:19.860 --> 02:27.750
+Ok so we'll be using Node SAS for the most part but I'm also gonna show you an alternative graphical
+
+02:27.750 --> 02:33.390
+program called koala which is a program you install and you have a graphical user interface and you
+
+02:33.390 --> 02:34.940
+can compile SAS that way.
+
+02:35.430 --> 02:39.170
+Now you also have VSO code extensions that can compile SAS.
+
+02:39.180 --> 02:40.560
+You may want to look into that.
+
+02:40.620 --> 02:46.200
+However I know that some students might not be using this code so I didn't want to go with a V.S. code
+
+02:46.200 --> 02:51.120
+extension so what exactly does SAS offer us.
+
+02:51.170 --> 02:57.620
+Why is it worth using so like I said SAS allows us to write CSX more like a dynamic programming language
+
+02:57.620 --> 02:59.590
+it offers variables.
+
+02:59.600 --> 03:01.160
+Now you're probably thinking well we aren't.
+
+03:01.160 --> 03:03.800
+We've already seen variables in CSX.
+
+03:03.890 --> 03:06.460
+However CSX variables are fairly new.
+
+03:06.500 --> 03:13.550
+Also you saw the syntax it's not that pretty using the VAR and so on SAS variables are more like standard
+
+03:13.550 --> 03:20.690
+programming language variables nesting is probably the main reason that I use SAS we can ness styles
+
+03:21.020 --> 03:28.100
+if we have let's say a header tag and inside the header there's an H1 and maybe a well we can in our
+
+03:28.370 --> 03:36.230
+in our SAS style sheets we can put header and then inside the curly braces we can put H1 you well if
+
+03:36.230 --> 03:39.470
+we have some allies in the well we can nest those as well.
+
+03:39.530 --> 03:45.110
+It's kind of hard to explain but once we get into it and you see it visually it will make a lot more
+
+03:45.110 --> 03:45.900
+sense.
+
+03:45.980 --> 03:51.760
+So you can basically structure your CSX like you do your age to AML in each time all is nested.
+
+03:52.130 --> 03:58.410
+So you also have imports and partials now with regular CSX you can import other CSX files.
+
+03:58.520 --> 04:04.010
+However it makes a separate request to the server to get each file what SAS does is it builds on top
+
+04:04.010 --> 04:10.820
+of the current CSX import but instead of requiring crying a whole new HDP request to the server it will
+
+04:10.820 --> 04:16.580
+take that file and it will combine it with the file you're importing so that you can serve a single
+
+04:16.580 --> 04:18.720
+CSX file to the web browser.
+
+04:18.770 --> 04:25.190
+So it's much more efficient and you can create as many different SAS files for different elements or
+
+04:25.220 --> 04:28.010
+however you want to structure your CSX.
+
+04:28.010 --> 04:31.940
+We also have functions and mix ins which are predefined styling.
+
+04:32.090 --> 04:35.540
+We can set and call functions or Nixon's whenever we want.
+
+04:35.540 --> 04:41.300
+This helps us stick to the drive principle when programming which stands for don't repeat yourself instead
+
+04:41.300 --> 04:45.620
+of writing the same block of CSX over and over we can stick it in a function and use it.
+
+04:45.620 --> 04:52.730
+Then we have conditionals which are basically if else statements so we can say you know do something
+
+04:52.730 --> 04:54.630
+based on a certain condition.
+
+04:54.680 --> 05:01.100
+We also have inheritance which allows us to keep our CSX dry because we can take a class and have another
+
+05:01.100 --> 05:04.380
+class inherit its properties and styling.
+
+05:04.400 --> 05:06.680
+We also have operators for calculations.
+
+05:06.680 --> 05:09.720
+We have color functions to lighten or darken colors.
+
+05:09.860 --> 05:14.380
+And these are great for hover effects so there's a lot that SAS offers.
+
+05:14.560 --> 05:20.120
+All right now the last thing I want to talk about before we jump in is the difference between an SS
+
+05:20.120 --> 05:22.250
+SS file and a SAS file.
+
+05:22.250 --> 05:29.510
+So as you can see with the SAS file and in both our SAS is it's just the file extension.
+
+05:29.780 --> 05:35.660
+But with this syntax you see there's no curly braces so it works on indents if you want to be inside
+
+05:35.660 --> 05:42.320
+this a tag here you would indent in K and then for the hover if you want a style that you would indent
+
+05:42.320 --> 05:50.090
+again and I'm not really too fond of this the style most people use this SPSS which as you can see is
+
+05:50.210 --> 05:56.510
+is basically the same syntax SPSS except we have some additional features such as variables.
+
+05:56.510 --> 06:04.340
+OK so we'll be using SPSS but if you want to look more and to the DOT SAS type of syntax you can do
+
+06:04.340 --> 06:05.780
+that.
+
+06:05.950 --> 06:06.260
+All right.
+
+06:06.290 --> 06:08.010
+So enough with the slides.
+
+06:08.030 --> 06:13.840
+I think that this will make a lot more sense once we jump in and we start to see it in action.
+
+06:13.880 --> 06:18.410
+So in the next video I want to show you how we can set up an environment using Node SAS.

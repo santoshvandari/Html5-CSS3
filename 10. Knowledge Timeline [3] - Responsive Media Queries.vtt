@@ -1,0 +1,247 @@
+WEBVTT
+
+00:00.210 --> 00:06.150
+All right guys in the last video we went ahead and dealt with the boxes we created these boxes with
+
+00:06.150 --> 00:07.620
+these arrows.
+
+00:07.620 --> 00:09.370
+But this is not.
+
+00:09.870 --> 00:11.730
+This is not responsive.
+
+00:11.790 --> 00:15.650
+I can see that it's just the same no matter what the screen size is.
+
+00:15.660 --> 00:18.370
+So I want to add a couple of media queries.
+
+00:18.390 --> 00:23.040
+So in the CSX file let's go down here and let's say media.
+
+00:23.490 --> 00:28.530
+And this is gonna be a max width of 900 pixels.
+
+00:28.530 --> 00:36.270
+So basically when it's when it's less 900 pixels or less I want the width of the boxes to change from
+
+00:36.270 --> 00:38.940
+400 to two hundred and fifty pixels wide.
+
+00:38.970 --> 00:49.290
+So we're gonna say timeline you l l I div and let's set the width to two hundred and fifty pixels which
+
+00:49.290 --> 00:51.090
+were originally 400.
+
+00:51.090 --> 00:55.800
+So now when I hit nine hundred which is right here they change.
+
+00:55.800 --> 01:03.030
+Now we have an issue with the left side where it's too far out so we can fix that really easily by just
+
+01:03.570 --> 01:06.680
+taking the C ally.
+
+01:06.690 --> 01:16.980
+We want to do and child and we want to grab the even which is the left side and grab that div and then
+
+01:16.980 --> 01:25.980
+just move it over so we'll say from the left we want to do negative two eighty four pixels and save.
+
+01:25.980 --> 01:27.990
+And that brings it over all right.
+
+01:27.990 --> 01:32.580
+Now when you're creating this stuff from scratch you're going to be you're gonna be experimenting a
+
+01:32.580 --> 01:33.540
+lot.
+
+01:33.810 --> 01:38.490
+You're not going to know these values right away so you weren't going to be experimenting when it comes
+
+01:38.490 --> 01:45.180
+to like the border and in making these arrows it took me a while to to figure out exactly what values
+
+01:45.180 --> 01:46.230
+to use.
+
+01:46.260 --> 01:50.970
+OK so just keep that in mind it's not it's not always going to go as smooth as you see in courses and
+
+01:50.970 --> 01:52.620
+tutorials.
+
+01:52.620 --> 01:52.950
+All right.
+
+01:52.950 --> 01:56.420
+Now that is if it's under 900.
+
+01:56.430 --> 01:59.370
+Now if we get to like right here it's still it's not.
+
+01:59.370 --> 02:00.700
+It doesn't look good.
+
+02:00.840 --> 02:04.680
+And what I want to do is move them all to the to the right side.
+
+02:04.680 --> 02:10.040
+And I want this line basically the list item to be on the side here.
+
+02:10.110 --> 02:10.430
+OK.
+
+02:10.440 --> 02:18.060
+So let's add another media query and let's say Max with let's make it.
+
+02:18.090 --> 02:19.830
+Let's do six hundred pixels.
+
+02:21.090 --> 02:29.700
+So basically smartphones and we're going to take the time line you well ally and this is set to margin
+
+02:29.790 --> 02:31.130
+Auto on the left and right.
+
+02:31.140 --> 02:38.300
+If we go up here and we look at the ally we have auto for left and right.
+
+02:38.520 --> 02:41.730
+But I don't want it in the middle anymore I want it on the side.
+
+02:41.730 --> 02:53.140
+So I'm just going to simply set the margin left to 20 pixels and save and that does nothing that's because
+
+02:53.140 --> 02:54.310
+I'm not 600 yet.
+
+02:54.310 --> 02:55.510
+So if we go there we go.
+
+02:55.510 --> 03:02.380
+So at six hundred you can see that the the line gets pushed over to the left and it's it's margin left
+
+03:02.380 --> 03:03.140
+20.
+
+03:03.160 --> 03:06.770
+We don't want to do zero because it'll be right up against the edge.
+
+03:06.850 --> 03:08.470
+So margin left 20.
+
+03:08.500 --> 03:13.840
+And if you're confused of why that happened again it's because we had margin auto which puts it in the
+
+03:13.840 --> 03:14.520
+middle.
+
+03:14.530 --> 03:21.090
+Now we changed margin left to 20 pixels which makes it no longer margin auto.
+
+03:21.100 --> 03:21.410
+OK.
+
+03:21.430 --> 03:29.530
+So let's move on to the width of the boxes and I know that you can't see the the other side the left
+
+03:29.530 --> 03:36.640
+side boxes we're going to fix that but I want the width to actually be a calculation meaning I want
+
+03:36.640 --> 03:46.990
+it to be to be dynamic so let's say timeline you l ally div and let's set the width instead of using
+
+03:46.990 --> 03:53.620
+just a fixed number I'm going to use the C Ss calc calc function here and we can say we want to take
+
+03:53.620 --> 03:59.080
+one hundred viewport with so that basically the whole viewport width regardless of how big the browser
+
+03:59.080 --> 04:07.390
+is sized or the device is sized and we just want to take away 90 pixels from it and let's save.
+
+04:07.870 --> 04:14.080
+OK so now you can see that these two just ignore this for now but these ones perfectly fit in there
+
+04:14.080 --> 04:21.080
+and if I make this smaller they adjust OK so we're just taking the viewport with meaning the whole thing
+
+04:21.100 --> 04:30.790
+we're taking away 90 pixels because if we were to do just one hundred viewport width and save you'll
+
+04:30.790 --> 04:33.620
+see that it actually goes off the page like that.
+
+04:33.670 --> 04:34.820
+That doesn't look right.
+
+04:34.870 --> 04:38.410
+So we're just taking 90 pixels away.
+
+04:39.010 --> 04:42.430
+Now we want to move these boxes over to the right.
+
+04:42.430 --> 04:46.160
+We want these all in line so to do that.
+
+04:46.180 --> 04:48.130
+Let's take timeline.
+
+04:48.200 --> 04:50.710
+Well Ally we want to grab the ones in the left.
+
+04:50.710 --> 04:57.320
+So he's going to do ally and child.
+
+04:57.550 --> 05:06.770
+And we want the even divs and going to say from the left 40 pixels and save.
+
+05:07.090 --> 05:08.280
+Now we're just about there.
+
+05:08.290 --> 05:09.970
+But the arrows on the.
+
+05:10.000 --> 05:13.800
+The ones that were on the left the arrows are still facing on the right side.
+
+05:13.840 --> 05:19.620
+So we simply need to move them to this side which we can copy.
+
+05:19.690 --> 05:25.750
+This whole thing right here the right side arrows because these are pointing this way and paste that
+
+05:25.870 --> 05:29.670
+in here and just change this to even and save.
+
+05:29.680 --> 05:31.820
+And now they're all facing that way.
+
+05:31.840 --> 05:32.110
+All right.
+
+05:32.140 --> 05:34.510
+So now it's completely responsive.
+
+05:34.690 --> 05:36.130
+Hit nine hundred pixels.
+
+05:36.190 --> 05:40.270
+They get smaller gets 600 pixels and they adapt.
+
+05:40.270 --> 05:42.270
+They all go to the right side.
+
+05:42.310 --> 05:42.560
+All right.
+
+05:42.580 --> 05:47.230
+So that's it in the next video we're going to show you how we can implement a little bit of JavaScript
+
+05:47.230 --> 05:50.920
+to have a little bit of animation on the scroll.

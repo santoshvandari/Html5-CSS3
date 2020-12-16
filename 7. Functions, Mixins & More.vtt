@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.440 --> 00:00.950
+All right guys.
+
+00:00.970 --> 00:03.900
+Now we're going to get into functions and mix ins.
+
+00:03.930 --> 00:09.810
+Now if you've ever worked with a programming language whether it's javascript HP any language at all
+
+00:10.080 --> 00:12.370
+you've probably worked with functions.
+
+00:12.480 --> 00:17.870
+It's basically just a block of code that you can keep calling so you don't have to keep repeating yourself.
+
+00:17.880 --> 00:24.150
+So what I want to do is create a new SAS file a partial so to say new file underscore we'll call this
+
+00:24.210 --> 00:27.430
+underscore functions dot SPSS.
+
+00:27.430 --> 00:27.860
+OK.
+
+00:27.870 --> 00:34.280
+And then in here I want to create a function to set the text color.
+
+00:34.290 --> 00:39.900
+Now the difference between the main difference between a function and a mix in is a function actually
+
+00:39.900 --> 00:46.350
+returns something you have to use the return keyword a mix in is just basically a set of styles that
+
+00:46.350 --> 00:47.730
+you want to include.
+
+00:47.740 --> 00:48.150
+OK.
+
+00:48.150 --> 00:50.620
+And I'll I'll I'll give you some examples of this.
+
+00:50.640 --> 00:57.240
+So to create a function we use the at symbol and we say function and we're gonna call this set dash
+
+00:57.240 --> 01:03.390
+Tex dash color and by the way this is a very helpful function that I use all the time in SAS and it's
+
+01:03.390 --> 01:07.050
+going to take in a parameter of a color.
+
+01:07.140 --> 01:07.800
+All right.
+
+01:07.980 --> 01:15.300
+Now we're gonna use what's called a color function along with a conditional to see the lightness of
+
+01:15.300 --> 01:25.260
+the color that's passed in so to create a conditional we do what we do at the ad symbol and then f k
+
+01:25.290 --> 01:27.060
+and then our condition goes in here.
+
+01:27.060 --> 01:35.370
+So what we're testing is going to be the lightness case we have lightness of the color.
+
+01:36.570 --> 01:36.980
+OK.
+
+01:36.990 --> 01:41.970
+So basically whatever is passed in here rechecking the lightness and we want to see if it's greater
+
+01:41.970 --> 01:44.030
+than 50.
+
+01:44.360 --> 01:48.440
+OK so greater than basically 50 percent lightness.
+
+01:48.900 --> 01:51.620
+If that's true then we want to return.
+
+01:51.630 --> 01:57.170
+So we say at return and we want to return a dark.
+
+01:57.180 --> 01:57.690
+I'm sorry.
+
+01:57.720 --> 02:01.030
+Yeah dark color which we'll just do black.
+
+02:01.090 --> 02:01.760
+OK.
+
+02:01.800 --> 02:13.400
+Ls should we need to do at L so forget that at ls then we want to return a light color so we'll do white.
+
+02:13.470 --> 02:18.450
+OK so it's going to get passed and the color which is gonna be the background color actually maybe we
+
+02:18.450 --> 02:25.450
+should call this the colors fine just know that it's going to be the background color and it's gonna
+
+02:25.490 --> 02:32.160
+check the lightness of it if it's greater than 50 meaning it's light then we want to return a dark color
+
+02:32.160 --> 02:37.800
+if it's less than 50 meaning it's dark then we want a light color because obviously we want the text
+
+02:37.800 --> 02:48.660
+to contrast so I'm going to save this and I'm just going to restart this down here NPM runs SAS and
+
+02:48.660 --> 02:59.830
+I'm going to go in to my main dot SPSS and I'm going to import the functions file and then I want to
+
+02:59.870 --> 03:08.850
+let's go to the header where we have right here the color of this H1 of this of this will basically
+
+03:08.850 --> 03:17.640
+of anything that's in the header and I'm going to replace this with set dash text dash color.
+
+03:17.680 --> 03:18.070
+All right.
+
+03:18.070 --> 03:24.700
+Now this set text color takes in member a background color and we want to put him whatever we used here
+
+03:24.700 --> 03:29.300
+is the background which in this case is dark color so we'll paste that in there.
+
+03:30.850 --> 03:39.910
+And now let's save file to import not found or unreached unreachable it's because I called the file
+
+03:39.910 --> 03:42.670
+function I actually want to call it functions
+
+03:46.600 --> 03:46.870
+all right.
+
+03:46.890 --> 03:51.960
+So we're just gonna restart NPM run SAS.
+
+03:52.120 --> 03:53.840
+All right so let's reload.
+
+03:54.100 --> 04:01.150
+Now it's going to look the same but if I now change the bat the header background to something light
+
+04:01.330 --> 04:10.080
+like let's change it to light color and then we pass in the same the light color here and we save the
+
+04:10.080 --> 04:13.230
+text is now dark OK.
+
+04:13.310 --> 04:22.660
+If I do background primary color primary color it's going to evaluate the lightness of it.
+
+04:22.700 --> 04:27.570
+And it found that the lightness is less than 50.
+
+04:27.590 --> 04:35.360
+So it gives it a white background secondary color is a brighter color so I'm gonna bet that the text
+
+04:35.360 --> 04:37.280
+is going to be dark.
+
+04:37.280 --> 04:42.220
+So secondary color for the background and now the text is dark.
+
+04:42.250 --> 04:49.480
+So it makes it dynamic so you don't have to if you if you want to change the background then you can
+
+04:49.490 --> 04:53.470
+it'll dynamically change the text to whether it should be light or dark.
+
+04:53.480 --> 04:57.090
+You don't have to decide that this function does it for you.
+
+04:57.110 --> 04:57.410
+All right.
+
+04:57.410 --> 05:02.330
+So I'm just going to put this back to dark like that.
+
+05:02.630 --> 05:02.930
+All right.
+
+05:02.930 --> 05:07.280
+And then I just want to use this sex set text color pretty much everywhere.
+
+05:07.280 --> 05:17.560
+So we'll go down here and pay set in and we just want to pass on whatever the background is OK so we'll
+
+05:17.560 --> 05:20.380
+do it here as well.
+
+05:22.950 --> 05:27.230
+We'll set this to secondary color
+
+05:31.000 --> 05:32.280
+and let's do it.
+
+05:32.300 --> 05:36.830
+Here this has light color as background.
+
+05:39.780 --> 05:45.730
+And then down here this has dark color as a background.
+
+05:46.590 --> 05:49.600
+So once I save this it should all still be correct.
+
+05:49.600 --> 05:50.640
+So save.
+
+05:50.640 --> 05:54.270
+And this actually changed to dark because of the light background.
+
+05:54.870 --> 05:56.320
+OK.
+
+05:56.460 --> 05:57.170
+And that.
+
+05:57.210 --> 05:57.510
+Yeah.
+
+05:57.540 --> 05:58.260
+That's it.
+
+05:58.260 --> 06:00.780
+So hopefully that makes sense.
+
+06:00.780 --> 06:10.230
+Guys it just this is helpful because it allows us to basically set the color dynamically but functions
+
+06:10.230 --> 06:13.860
+in general are helpful so that you don't have to keep repeating code.
+
+06:14.280 --> 06:15.350
+And so are mixed in.
+
+06:15.360 --> 06:20.510
+So now we're going to look at creating a Mixon and all I want this Mixon to do.
+
+06:20.580 --> 06:27.180
+We're gonna put it right in the function's file is I want it to add a transform.
+
+06:27.210 --> 06:27.510
+OK.
+
+06:27.510 --> 06:34.710
+So basically if we want to like you know if we want it to add a transform to make this button curve
+
+06:34.710 --> 06:37.320
+or something like that we can do that.
+
+06:37.320 --> 06:43.230
+So let's say this is going to be the transform mix in.
+
+06:43.230 --> 06:47.670
+And once we start doing this stuff in the next project it'll make more sense as well.
+
+06:47.700 --> 06:54.850
+So a Mixon we're gonna say at mix in and then name and I'm just gonna call it transform and it's gonna
+
+06:54.870 --> 06:56.740
+take in a property.
+
+06:58.920 --> 06:59.340
+OK.
+
+06:59.340 --> 07:08.110
+Now in some cases you may want to use prefixes for for newer CSX and that's another good reason to to
+
+07:08.220 --> 07:16.660
+use mix ins we can like let's say we wanted to do Web Kit dash transform.
+
+07:16.750 --> 07:18.830
+This should be a dash.
+
+07:19.620 --> 07:21.360
+So Web Kit transform.
+
+07:21.360 --> 07:28.980
+Set it to property and maybe you want to do dash M S dash transform
+
+07:32.530 --> 07:35.690
+and set that to property.
+
+07:36.340 --> 07:40.810
+And then of course just transform said that to property.
+
+07:41.820 --> 07:42.080
+OK.
+
+07:42.100 --> 07:48.520
+So if you have a block of styles that you don't want to keep repeating in your first your sass you can
+
+07:48.520 --> 07:50.460
+just put it into a mix in.
+
+07:50.470 --> 07:58.360
+So now if I want to go back to my main J asked and let's say on the hover state of these buttons I want
+
+07:58.360 --> 08:08.290
+to add a transform that rotates them a little bit so I'll go right here and let's put in Ampersand hover
+
+08:10.360 --> 08:19.120
+and let's set the mix in now to include a mix and you actually have to do the at include and then the
+
+08:19.120 --> 08:22.210
+name of the mix in which is transform.
+
+08:22.850 --> 08:32.420
+OK in the property we want to pass in is gonna be lots to rotate and let's rotate it 20 degrees OK and
+
+08:32.440 --> 08:36.960
+I'm going to do the same thing for the dark.
+
+08:36.970 --> 08:43.180
+So paste that in if it's dark though let's do it let's do negative 20 we'll try to rotate it the opposite
+
+08:43.180 --> 08:43.900
+way.
+
+08:43.900 --> 08:48.070
+So if I save now and I hover over this you'll see it rotates 20 degrees.
+
+08:48.190 --> 08:50.350
+This one rotates that way.
+
+08:50.410 --> 08:50.690
+OK.
+
+08:50.710 --> 09:00.130
+So instead of using this these three lines in both of these places I can put it in the mix in and just
+
+09:00.130 --> 09:01.030
+include that.
+
+09:01.860 --> 09:02.490
+OK.
+
+09:02.620 --> 09:07.570
+I mean you don't really need web kitten Hamas anymore for transform however.
+
+09:07.670 --> 09:16.810
+You know if it's a different if it's a newer CSX property that you do need you know prefixes this is
+
+09:16.810 --> 09:19.090
+a good way to include them.
+
+09:19.160 --> 09:19.440
+OK.
+
+09:19.460 --> 09:26.140
+And not just for prefixes but for anything any set of styles that you're going to reuse.
+
+09:26.140 --> 09:33.280
+So let's see the last thing I want to show you is some of the color functions we have lighting and darken
+
+09:33.550 --> 09:39.810
+let's say in addition to just tilting these we want them to either darken our light in a little bit.
+
+09:40.480 --> 09:47.350
+So in the hover here I'm going to set the background dash color.
+
+09:47.890 --> 09:52.990
+So the background color is is this light color by default let's say I just want to darken it a little
+
+09:52.990 --> 09:57.220
+bit so we can say darken.
+
+09:58.070 --> 09:59.770
+So this is a predefined function.
+
+09:59.770 --> 10:00.990
+I don't have to create it.
+
+10:01.210 --> 10:03.880
+And we just pass in two things the color we want.
+
+10:04.030 --> 10:07.610
+So we'll say light color and then how much we want to darken it.
+
+10:07.620 --> 10:08.890
+We're going to do 10 percent.
+
+10:09.640 --> 10:09.870
+OK.
+
+10:09.880 --> 10:10.810
+So save that.
+
+10:10.810 --> 10:12.280
+Now when I hover over it.
+
+10:12.430 --> 10:14.710
+Notice that the color darkens 10 percent.
+
+10:15.850 --> 10:16.150
+OK.
+
+10:16.150 --> 10:17.200
+We also have light.
+
+10:17.200 --> 10:23.950
+So I'm going to just copy what I just did go down here to this hover and let's change this to lighten
+
+10:25.340 --> 10:27.470
+ups lighten.
+
+10:27.910 --> 10:32.200
+And this has the dark color and we're going to lighten it 10 percent.
+
+10:32.200 --> 10:33.040
+So we'll save.
+
+10:33.040 --> 10:37.530
+And then on a hover over it you'll see that at lightning 10 percent.
+
+10:37.660 --> 10:37.930
+All right.
+
+10:37.930 --> 10:43.120
+So you can see that there's some really cool functionality with SAS it really allows us to write our
+
+10:43.130 --> 10:49.870
+CSX more like a programming language conditionals you can't do this stuff with standard CSX premade
+
+10:49.870 --> 10:57.100
+functions and mix ins you can do variables however you can see that the variables with SAS are much
+
+10:57.100 --> 10:57.890
+more elegant.
+
+10:57.890 --> 11:02.590
+You know you don't have to do the VAR in the parentheses and you know stuff like that.
+
+11:02.590 --> 11:02.910
+All right.
+
+11:02.910 --> 11:09.190
+So hopefully this little crash course or the sandbox made sense in the next video we're going to start
+
+11:09.190 --> 11:14.770
+to build a real project using SAS which will be a portfolio Web site.
+
+11:14.770 --> 11:15.030
+All right.
+
+11:15.040 --> 11:16.950
+So I will see you in the next project.

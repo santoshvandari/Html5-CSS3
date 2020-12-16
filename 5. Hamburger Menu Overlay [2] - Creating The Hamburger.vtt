@@ -1,0 +1,487 @@
+WEBVTT
+
+00:00.350 --> 00:05.850
+All right guys so I know the last video is kind of long but I wanted to get the H team L and the base
+
+00:05.850 --> 00:10.440
+styling out of the way so we can focus on the menu so let's head over to our version which looks like
+
+00:10.440 --> 00:11.150
+this.
+
+00:11.220 --> 00:17.640
+We just have a checkbox up here and the check box has a class of toggle or if you remember so we have
+
+00:18.620 --> 00:25.650
+class of toddler menu wrap is going to cover it's going to surround everything OK including the overlay
+
+00:25.770 --> 00:28.740
+so menu wrap surrounds all of this everything.
+
+00:28.770 --> 00:30.090
+So let's start with that.
+
+00:30.120 --> 00:38.460
+So we're going to go to menu CSX and let's add class menu dash wrap and we're gonna set that to position
+
+00:38.460 --> 00:39.840
+fixed.
+
+00:39.840 --> 00:47.250
+So when we have our overlay open and we scroll down I don't we don't want this to scroll down like we
+
+00:47.250 --> 00:53.280
+don't want the the menu to just go out of focus or out of the viewport we want it to stay where it is.
+
+00:53.280 --> 00:59.210
+So we want to position it fixed at top 0 left 0.
+
+00:59.280 --> 01:05.550
+So basically its natural position we want it to stay there and we want to give it a z index of 1 so
+
+01:05.550 --> 01:06.780
+that it's always on top.
+
+01:06.780 --> 01:08.370
+We want the menu to be visible.
+
+01:08.400 --> 01:11.410
+So we want it to be on top of any other content.
+
+01:11.430 --> 01:11.760
+All right.
+
+01:11.760 --> 01:12.860
+So I save that.
+
+01:12.870 --> 01:19.170
+Now you can see that it's fixed in that white area is now gone because it's just sitting on top of anything
+
+01:19.170 --> 01:20.910
+else that we have on the page.
+
+01:20.910 --> 01:23.690
+Now let me try and explain what's going to happen.
+
+01:23.700 --> 01:26.960
+We need to style the checkbox itself.
+
+01:27.030 --> 01:31.320
+Now the checkbox is going to sit on top of the actual hamburger class.
+
+01:31.320 --> 01:33.920
+This right here we wanted to sit on top of it.
+
+01:33.930 --> 01:39.480
+However we want it to be invisible so we want to set the opacity to 0 0.
+
+01:39.540 --> 01:45.060
+And the reason that we need the checkbox is just for its state because we can set it to checked and
+
+01:45.060 --> 01:50.490
+we can actually grab on to that within the style and we can create our overlay when it's checked and
+
+01:50.490 --> 01:57.170
+when it's unchecked we can bring it out so that the the the checkbox is just for functionality the hamburger
+
+01:57.180 --> 02:03.570
+class is what we're gonna use to create the actual square and then the D INNER div will be using to
+
+02:03.570 --> 02:05.700
+create the lines inside.
+
+02:05.700 --> 02:05.910
+OK.
+
+02:05.910 --> 02:08.340
+Hopefully that makes sense and close that up.
+
+02:08.520 --> 02:16.770
+So let's grab the menu wrap and then the toddler which is the actual checkbox input and we need to position
+
+02:16.770 --> 02:26.910
+it correctly so we're gonna say position absolute and we want to set it to the top corner so top 0 left
+
+02:27.290 --> 02:28.390
+0.
+
+02:28.740 --> 02:38.300
+And we're gonna set let's see we're gonna set the z index to 2 because we always want it to be on top.
+
+02:38.760 --> 02:42.630
+It's gonna be invisible we won't see it but it will still be there and we'll still be able to check
+
+02:42.630 --> 02:49.020
+it and we're gonna set the cursor to pointer so that when we hover over it we have a pointer and let's
+
+02:49.020 --> 02:56.880
+set the width to say 50 pixels in height we'll do 50 pixels.
+
+02:56.880 --> 03:00.750
+And if I save that you can see now it's positioned absolute right in the corner.
+
+03:00.750 --> 03:06.100
+However we don't want it to show so we're gonna say opacity and let's set that to zero.
+
+03:06.370 --> 03:09.720
+OK so now it's not there but it is there.
+
+03:09.780 --> 03:10.140
+All right.
+
+03:10.140 --> 03:15.300
+And you can see I'm actually checking it right now when I hover over it the cursor goes over it and
+
+03:15.300 --> 03:19.500
+it's gonna be 50 pixels around all right.
+
+03:20.330 --> 03:24.980
+Now the hamburger class we're going to we're going to grab on to that next.
+
+03:24.980 --> 03:31.220
+So let's say hamburger and we're going to position it right in the same spot.
+
+03:31.250 --> 03:37.760
+So absolute top zero left zero.
+
+03:37.850 --> 03:43.530
+And we're gonna set this Zi index to one.
+
+03:44.260 --> 03:44.640
+OK.
+
+03:44.730 --> 03:51.700
+We want it to be under the checkbox and we're also going to set a width and height.
+
+03:51.780 --> 03:55.320
+We're gonna do 60 pixels so high.
+
+03:55.330 --> 03:57.830
+And you can mess with the sizes if you want.
+
+03:57.870 --> 04:07.960
+I mean you don't have to follow the exact parameters that I am but loops let's see we get width height.
+
+04:08.110 --> 04:13.970
+Let's set padding to one room and then the background.
+
+04:14.830 --> 04:17.050
+I'm going to set to the primary color.
+
+04:17.050 --> 04:20.920
+Now I just want to show you real quick if I do like background black and save.
+
+04:20.920 --> 04:24.370
+We get our little square here and we can actually check it.
+
+04:24.370 --> 04:27.520
+I'm clicking and it's checking that input.
+
+04:27.610 --> 04:27.900
+OK.
+
+04:27.920 --> 04:31.290
+But we're seeing the hamburger class here now.
+
+04:31.300 --> 04:35.780
+I'm setting it to the primary colors so far.
+
+04:35.920 --> 04:37.240
+Dash dash primary.
+
+04:37.240 --> 04:41.860
+We're not going to get the little drop down in B.S. code because the variables are not set in this file
+
+04:41.860 --> 04:43.300
+their sentence style file.
+
+04:44.050 --> 04:46.210
+So it's a primary color.
+
+04:46.210 --> 04:53.020
+And if I save you'll see that it has the primary color and it's see through it it's translucent because
+
+04:53.500 --> 05:01.750
+of the primary the primary color is an RGA and the opacity is one point seventy five.
+
+05:01.750 --> 05:07.570
+So that's what we're seeing here I mean if you don't want it if you want to set it to a different color
+
+05:07.570 --> 05:09.360
+you don't want it to be translucent.
+
+05:09.370 --> 05:13.570
+Then of course you can change the background to whatever you want.
+
+05:13.570 --> 05:23.230
+Now I'm also going I want to center on a display this as a flex because the div inside is going to take
+
+05:23.230 --> 05:24.690
+care of the lines.
+
+05:24.820 --> 05:33.280
+I want to center everything so when a display flexed and then a line the items to the center and let's
+
+05:33.280 --> 05:40.570
+also justify the content to the center and we should be good.
+
+05:41.110 --> 05:41.440
+All right.
+
+05:41.460 --> 05:45.640
+So that's basically the the hamburger the outside wrapper of the hamburger.
+
+05:45.640 --> 05:47.490
+Now we want to do the lines.
+
+05:47.660 --> 05:48.060
+OK.
+
+05:48.070 --> 05:48.930
+And remember there isn't.
+
+05:48.940 --> 05:54.010
+There's a div inside of the hamburger div.
+
+05:54.040 --> 06:00.310
+So what we want to do is set this to be a line and then we're going to use before and after to insert
+
+06:01.720 --> 06:03.510
+the top and bottom lines.
+
+06:03.530 --> 06:05.080
+OK if that makes sense.
+
+06:05.140 --> 06:09.940
+So let's go back to menu CSX and I'll actually put a comment here.
+
+06:09.940 --> 06:14.230
+Let's say hamburger line just so you know what does what.
+
+06:14.230 --> 06:20.890
+Because I know a lot of times when we look at complicated CSX is you don't know you know what is actually
+
+06:20.890 --> 06:21.490
+doing what.
+
+06:21.490 --> 06:24.610
+So I want to try to explain that as we go along.
+
+06:24.820 --> 06:31.420
+So we're going to take the menu wrap and we want the hamburger class and then we want the immediate
+
+06:31.450 --> 06:39.720
+div and we're going to set it to position relative.
+
+06:39.910 --> 06:47.290
+And then we're going to set flex to none and set the width to 100 percent.
+
+06:47.440 --> 06:47.830
+OK.
+
+06:47.830 --> 06:52.290
+Now the height I'm going to set to two pixels because remember we're creating the line here.
+
+06:52.300 --> 06:55.080
+We're creating the middle line of the hamburger menu.
+
+06:55.150 --> 06:59.370
+So I'm going to give it a background of white.
+
+06:59.460 --> 07:06.680
+I want it to be white and let's say display flex.
+
+07:07.420 --> 07:09.130
+And we want to set a line
+
+07:11.880 --> 07:19.280
+items to center and justify content to center.
+
+07:19.280 --> 07:23.160
+So let's save that and you can see we get our middle line.
+
+07:23.320 --> 07:23.660
+OK.
+
+07:23.670 --> 07:28.770
+Now obviously we need to more we need one above it or I should say before it and after it.
+
+07:28.790 --> 07:33.500
+So we're gonna use the before and after pseudo selectors.
+
+07:33.500 --> 07:42.030
+So let's say hamburger lines I will say top and bottom lines.
+
+07:42.290 --> 07:47.400
+So we're going to take menu wrap.
+
+07:48.290 --> 07:53.750
+Hamburger and let's say we want the div that we want to do before.
+
+07:53.990 --> 08:00.160
+So when you use the before sudo selector and we don't we're going to do the same exact styling for after.
+
+08:00.170 --> 08:06.320
+So when I copy this and then we're gonna do after and it might turn if you're using V as code it might
+
+08:06.320 --> 08:07.910
+turn into double colon.
+
+08:08.210 --> 08:12.950
+Basically does the same thing a single Colon is just a shortcut for that.
+
+08:12.950 --> 08:19.600
+So since we're using before and after we need to put in content but we're not actually inserting content.
+
+08:19.680 --> 08:21.320
+Let's set this to position
+
+08:23.900 --> 08:31.090
+absolute K and it's absolute to the relative div the actual div.
+
+08:32.010 --> 08:32.330
+Right.
+
+08:32.360 --> 08:43.350
+And then let's set the z index to one and let's say top say negative 10 pixels so I'm going to move
+
+08:43.350 --> 08:48.600
+it up 10 pixels and we want to set the width to 100 percent.
+
+08:48.600 --> 08:55.320
+Just like the the standard div appear and then we're going to set the height to the same thing.
+
+08:55.320 --> 09:03.950
+So two pixels and for a background I'm just gonna say inherit which will be white.
+
+09:03.960 --> 09:06.840
+It's going to inherit the this white here.
+
+09:06.840 --> 09:10.860
+So if I save that you'll see that now we have a line up above.
+
+09:10.860 --> 09:14.970
+Now what's happening is both the before and after.
+
+09:14.970 --> 09:19.750
+It's basically creating both lines the before and after however they're in the same exact spot.
+
+09:19.890 --> 09:23.070
+We just said top negative 10 pixels.
+
+09:23.070 --> 09:27.270
+So what I want to do now is just take the after one OK.
+
+09:27.570 --> 09:29.880
+Because this is this should all be the same for both.
+
+09:29.880 --> 09:35.040
+However the after we just want to position it below so I'm simply going to take the top value and I'm
+
+09:35.040 --> 09:38.010
+going to set it to 10 pixels and save.
+
+09:38.010 --> 09:40.530
+And now that brings it down 10 pixels.
+
+09:41.250 --> 09:41.510
+OK.
+
+09:41.520 --> 09:42.950
+So hopefully that makes sense.
+
+09:42.960 --> 09:45.780
+And now we have our our hamburger menu.
+
+09:45.870 --> 09:46.170
+All right.
+
+09:46.170 --> 09:51.040
+So just to reiterate what we've done here because I know that it might be a little confusing.
+
+09:51.330 --> 09:57.960
+We set the menu wrap to be positioned fixed and start at the top and top the top left corner.
+
+09:57.960 --> 10:02.490
+So menu wrap covers everything even the entire overlay here.
+
+10:02.490 --> 10:08.790
+And then the toddler is the checkbox which we position did we set a width and height and then we basically
+
+10:08.790 --> 10:10.410
+made it disappear.
+
+10:10.470 --> 10:11.790
+It's still there.
+
+10:11.790 --> 10:13.380
+You can see we can still check it.
+
+10:13.410 --> 10:16.440
+So right now I'm actually checking it if I click anywhere on this.
+
+10:16.440 --> 10:19.620
+It's checking it but it is opacity 0.
+
+10:19.620 --> 10:25.390
+In fact if I change this back to 1 and we save you can see that it's still there.
+
+10:25.410 --> 10:25.650
+All right.
+
+10:25.660 --> 10:30.960
+We're going to set that back to zero and then the hamburger class is what takes care of this actual
+
+10:30.960 --> 10:32.640
+box right here.
+
+10:32.640 --> 10:32.880
+OK.
+
+10:32.880 --> 10:35.100
+Which we have set the primary color you kind of care.
+
+10:35.160 --> 10:41.880
+Yeah I mean it's very hard to see because it's it's it's it's translucent and it it's almost the same
+
+10:41.880 --> 10:44.190
+color as the background but it is there.
+
+10:44.190 --> 10:49.610
+And then the inner div we took and we create basically created a line.
+
+10:49.800 --> 10:53.160
+So we set with to 100 percent.
+
+10:53.250 --> 10:54.720
+So goes all the way across.
+
+10:54.720 --> 11:01.260
+Aside from the padding and the height to two pixels so the line is two pixel then we took the before
+
+11:01.290 --> 11:09.780
+and after pseudo selectors and we created two more lines for those and set it to be up here the top
+
+11:09.810 --> 11:16.170
+negative 10 pixels and then we took just the after and we changed top to ten pixels so that it got pushed
+
+11:16.170 --> 11:17.160
+down.
+
+11:17.160 --> 11:17.480
+OK.
+
+11:17.490 --> 11:21.200
+So that's that's what's going on here and hopefully that makes sense.
+
+11:21.210 --> 11:26.910
+So I think that's gonna be it for this video in the next one I want to start to take care of the rotation
+
+11:26.910 --> 11:28.170
+when we click on this.
+
+11:28.260 --> 11:35.280
+I want to transform it and use rotate so that we can actually more fit into an X. case we're going to
+
+11:35.280 --> 11:36.510
+do that in the next video.

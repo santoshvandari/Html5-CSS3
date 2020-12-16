@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.210 --> 00:00.480
+All right.
+
+00:00.480 --> 00:06.150
+So our home page is pretty much done aside from the responsive stuff that we're gonna do our media queries
+
+00:06.150 --> 00:06.920
+later on.
+
+00:07.080 --> 00:08.100
+So we're gonna start on the.
+
+00:08.100 --> 00:10.140
+About in the article Dot.
+
+00:10.140 --> 00:15.170
+Each team L page so let's open up about what each team L..
+
+00:15.330 --> 00:23.340
+And we're gonna be using you know the the nav bar the footer that stuff from the index page so I'm gonna
+
+00:23.370 --> 00:29.850
+copy the whole index page and paste that in about and then we're gonna go up to the top here.
+
+00:29.850 --> 00:36.620
+Let's change the title here to just about and let's remove the current.
+
+00:36.630 --> 00:39.030
+We have a class of current on the link here.
+
+00:39.030 --> 00:43.700
+We're gonna move that to the to the about page class current.
+
+00:44.760 --> 00:46.620
+We're not going to have a showcase.
+
+00:46.620 --> 00:51.510
+We can actually get rid of everything in between the nav bar and the footer.
+
+00:51.510 --> 00:57.060
+So we'll get rid of all that stuff and if I save and we go to about we just have the the header and
+
+00:57.060 --> 01:02.460
+the footer so this is basically your boilerplate for any other page you want to create on this Web site.
+
+01:02.580 --> 01:08.600
+A lot of page a lot of page a lot of times what I will do when I'm building something like this is I'll
+
+01:08.600 --> 01:14.310
+I'll take this and in name it like boilerplate on each team l That way if I need to create another page
+
+01:14.310 --> 01:15.720
+I have all this.
+
+01:15.720 --> 01:15.960
+All right.
+
+01:15.960 --> 01:22.200
+And when later on when you get into actual programming and whether it's P HP or no J.S. whatever it
+
+01:22.200 --> 01:28.320
+may be if you get into front and frameworks like react in view J.S. you're not going to have to copy
+
+01:28.320 --> 01:29.250
+everything like this.
+
+01:29.250 --> 01:35.130
+You can have what are called partials or if you're using a front end frame framework you can have components
+
+01:35.160 --> 01:37.440
+that you can simply include into your file.
+
+01:37.440 --> 01:41.160
+That way you don't have to do all this and for every single page.
+
+01:41.160 --> 01:41.460
+All right.
+
+01:41.460 --> 01:45.840
+Now we're gonna have a section here.
+
+01:46.080 --> 01:54.150
+So let's say section and we're gonna given an idea of a boat and then inside here we're gonna have a
+
+01:54.150 --> 01:59.880
+container case that's just going to align everything to the middle but then we're also going to have
+
+01:59.910 --> 02:03.270
+a page container which is gonna be our grid container.
+
+02:03.270 --> 02:07.200
+And this page container we're gonna use on any in our pages.
+
+02:07.200 --> 02:13.410
+So the about in the article dot each team Allen if you wanted to create more pages we could use this
+
+02:13.410 --> 02:14.750
+as well it's going to set it up.
+
+02:14.760 --> 02:20.460
+It's going to it's going to create a grid layout so that we have a main area and then anything else
+
+02:20.460 --> 02:23.280
+we add will just be sidebar widgets basically.
+
+02:23.910 --> 02:32.340
+So in this page container let's create our first grid item which is gonna be an article and we're gonna
+
+02:32.340 --> 02:38.580
+give this a class of card because we want to have that white background with the padding and then let's
+
+02:38.580 --> 02:43.620
+do an H1 and I'm gonna give us a class of L heading because I want this to be a larger heading than
+
+02:43.700 --> 02:44.620
+the normal.
+
+02:44.730 --> 02:54.120
+And let's just say about our organization and then we're gonna do let's do a paragraph this paragraph
+
+02:54.150 --> 03:05.530
+with Lorem 50 and then let's do another paragraph still within the article and we'll say Lorem 100 like
+
+03:05.540 --> 03:09.360
+that let's do Lorem 150
+
+03:12.820 --> 03:21.190
+so next thing is gonna be in a side so let's say a side and this is just gonna be that little join our
+
+03:21.190 --> 03:22.230
+club thing.
+
+03:22.270 --> 03:27.730
+So I'm going to give this a class of card but I also want it to be read I want or have the primary colors
+
+03:27.750 --> 03:33.730
+so I'm going to do BGP dash primary I should probably put class in here
+
+03:36.390 --> 03:45.480
+so class card and BJP primary and then let's do an H two and let's say join our club by the way I have
+
+03:45.480 --> 03:46.950
+no idea what the club is.
+
+03:47.040 --> 03:50.630
+It's just an example of of content widget.
+
+03:50.910 --> 03:52.400
+So let's put paragraph here.
+
+03:52.410 --> 04:02.250
+Let's do Lorem 10 and underneath that we'll just put an A tag with the class of B.T. n and let's do
+
+04:03.060 --> 04:11.130
+a dark button so we'll do B T and let's to be t n dash dark and then I also want this to go all the
+
+04:11.130 --> 04:19.080
+way across its container so let's add B T N block which I'm about 90 percent sure we we added in the
+
+04:19.080 --> 04:21.030
+C Ss already but I'm gonna have to check.
+
+04:21.060 --> 04:23.580
+So let's say Join Now.
+
+04:23.580 --> 04:23.810
+Yeah.
+
+04:23.820 --> 04:28.960
+If we look at style CSX I just want to make sure that I added this PETN.
+
+04:28.970 --> 04:29.550
+BLOCK Yeah.
+
+04:29.640 --> 04:31.740
+So it's going to go 100 percent across.
+
+04:31.740 --> 04:36.350
+Gonna be display block all right so I think that's it.
+
+04:36.360 --> 04:37.830
+Let's save this.
+
+04:38.190 --> 04:41.430
+And basically we just have we just have our content.
+
+04:41.560 --> 04:47.580
+You know all on one line here we want to set this to a grid and we want to have this be the main part.
+
+04:47.580 --> 04:53.070
+And then this be in the sidebar and then anything else we add I want to be in the sidebar as well.
+
+04:53.130 --> 04:55.490
+So let's let's go to our style sheet.
+
+04:55.530 --> 05:01.220
+And there's nothing really we have to add that specific to the about page just the page container.
+
+05:01.380 --> 05:04.380
+So we're gonna go down.
+
+05:04.380 --> 05:07.990
+Let's put this.
+
+05:08.430 --> 05:16.350
+I don't want to put it as a utility cloud or I guess I guess it kind of is a utility because we're gonna
+
+05:16.370 --> 05:22.790
+use it in multiple page multiple pages so yeah we'll put it right below here below the list.
+
+05:22.790 --> 05:31.250
+So let's say page dash container and just going to put a comment here and say that this is the inner
+
+05:31.550 --> 05:37.490
+page container or grid container.
+
+05:37.490 --> 05:51.270
+So let's display grid and then we're gonna do grid dash template dash columns and the split that I want
+
+05:51.270 --> 05:56.380
+to use is going to be five f FIA and too far OK.
+
+05:56.430 --> 06:03.220
+And you can experiment with how thin or or wide you want the sidebar to be but I'm going to use that.
+
+06:03.230 --> 06:07.210
+Now how this is now with this stretching all the way down.
+
+06:07.290 --> 06:13.110
+I mean it's gonna do this because it's just it's a five FIA to a fire and there are gonna be the same
+
+06:13.110 --> 06:15.740
+height you may want to do this.
+
+06:15.750 --> 06:20.240
+You may want to add another like piece of content in the same box.
+
+06:20.250 --> 06:25.480
+But what I want to do is have this be completely separate box from the next one.
+
+06:25.500 --> 06:25.790
+All right.
+
+06:25.800 --> 06:27.530
+So it's up to you how you want to lay it out.
+
+06:27.540 --> 06:35.040
+You might want to do something like this but let's let's go and say we want the page container and we
+
+06:35.040 --> 06:37.020
+want the first child.
+
+06:37.050 --> 06:45.360
+So basically the main article so I'm just going to say asterisk cone first child and I want to span
+
+06:45.360 --> 06:55.920
+this across rows so going to say grid dash row we want to start at 1 and then we want to span let's
+
+06:55.920 --> 06:58.410
+spend three and save.
+
+06:58.880 --> 06:59.210
+OK.
+
+06:59.220 --> 07:06.210
+So now it's just going to span down three and whatever we put next is going to go right here and then
+
+07:06.210 --> 07:12.180
+right here and if you want to have more than three then you could you can increase this span and just
+
+07:12.180 --> 07:15.270
+have it span as long as you want.
+
+07:15.270 --> 07:15.590
+All right.
+
+07:15.600 --> 07:16.720
+So let's.
+
+07:16.800 --> 07:23.340
+This is all very close together so we're going to add some margin on the main container for the top
+
+07:23.340 --> 07:28.820
+and bottom so we'll say to ram top and bottom zero left and right.
+
+07:28.950 --> 07:30.780
+And then let's also do a grid gap.
+
+07:30.780 --> 07:34.560
+So we have some space in between the actual grid items.
+
+07:34.560 --> 07:40.110
+So grid gap is going to be one point five and save and then we go.
+
+07:40.170 --> 07:46.410
+Now we have our margin top and bottom here we also have a grid gap and you'll see that when we create
+
+07:46.410 --> 07:49.460
+our article page we're gonna have two boxes on the side.
+
+07:49.500 --> 07:53.610
+So the next thing I add would be right here next one would be here.
+
+07:53.820 --> 07:59.430
+And then after that it would go down over here because remember we're only spanning three and you could
+
+07:59.430 --> 08:00.750
+put this to whatever you want.
+
+08:00.780 --> 08:06.830
+Like if I put it to six it'll allow us to have six on the side but I'm just going to use three for now.
+
+08:06.930 --> 08:08.450
+That's fine.
+
+08:08.490 --> 08:08.840
+OK.
+
+08:08.850 --> 08:14.670
+So we have our home page we have our about page in the next video we're gonna start to work on our article
+
+08:14.670 --> 08:15.210
+page.

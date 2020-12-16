@@ -1,0 +1,679 @@
+WEBVTT
+
+00:00.590 --> 00:06.280
+All right guys so we're gonna get started here and I basically just have an edge ledger underscore Web
+
+00:06.290 --> 00:11.220
+site folder that's completely empty and I open that within V.S. code so you're going to want to do the
+
+00:11.220 --> 00:11.980
+same.
+
+00:12.030 --> 00:16.500
+And then in this lecture you'll find an image resources zip file.
+
+00:16.530 --> 00:23.910
+So you want to unzip that and we just want to grab all the images that are here and we'll copy these
+
+00:23.970 --> 00:26.660
+into our edu ledger Web site folder.
+
+00:26.670 --> 00:31.760
+We want to create a folder called EMG and we want to paste those images in there.
+
+00:32.960 --> 00:33.660
+OK.
+
+00:33.720 --> 00:38.050
+And then if we go back into v s code you can see we have our images to work with.
+
+00:38.130 --> 00:40.140
+So let's create our structure here.
+
+00:40.170 --> 00:45.060
+Obviously going to need an index study each time l and this is the only aged female page we need because
+
+00:45.060 --> 00:46.790
+this is a single page Web site.
+
+00:46.800 --> 00:48.600
+Everything is on one page.
+
+00:48.600 --> 00:51.810
+We just have different areas that the menus go to.
+
+00:51.850 --> 00:52.710
+And this is common.
+
+00:52.710 --> 00:58.290
+I'm sure you guys have seen this before and it's actually easier because you don't need as much copy
+
+00:58.380 --> 01:05.100
+as much markup our content I should say you know if you just want one section to have a paragraph and
+
+01:05.100 --> 01:11.730
+some list items that's fine and you don't have to think of all this this content and people don't want
+
+01:11.820 --> 01:18.270
+a ton of content to have to read through they want everything just very simple and easy to read and
+
+01:18.270 --> 01:19.110
+understand.
+
+01:19.200 --> 01:24.810
+And I think having single page Web sites like this really really helps with that rather than than them
+
+01:24.810 --> 01:27.080
+having to search through all these pages.
+
+01:27.240 --> 01:33.260
+So let's put in our boilerplate here actually let's create the rest of the file structure.
+
+01:33.510 --> 01:40.890
+We need to see assess folder and in CSX we're gonna have a style dot CSX file.
+
+01:40.890 --> 01:50.220
+We're also going to have a mobile dot CSX file and we're gonna have a wide screen DOD CSX because I
+
+01:50.220 --> 01:56.540
+want to style the icons differently depending on on if it's on a wide screen.
+
+01:57.150 --> 02:04.110
+And then we're also gonna have a J S folder so javascript and we're gonna have a file inside there called
+
+02:04.110 --> 02:10.530
+Main dot J S which is gonna have the javascript for the Google map as well as the smooth scrolling because
+
+02:10.530 --> 02:15.990
+we can't do that when we actually need a little bit of JavaScript for that for the smooth scrolling
+
+02:15.990 --> 02:22.470
+we're gonna use something called J query which is a javascript library to do all sorts of things.
+
+02:22.560 --> 02:27.330
+Animation is is pretty much the only thing that I would use J query for these days.
+
+02:27.330 --> 02:31.110
+So something like this smooth scrolling is much much easier with J.
+
+02:31.110 --> 02:32.590
+Query.
+
+02:32.610 --> 02:33.950
+But we'll get to that later.
+
+02:33.950 --> 02:39.910
+So let's close all these up except for index and then we're going to continue on here.
+
+02:39.930 --> 02:49.200
+So for the title I'm just going to say edge ledger financial and let's put a pipe character and then
+
+02:49.200 --> 02:55.350
+we'll see accounting and investment.
+
+02:55.620 --> 02:55.960
+OK.
+
+02:55.980 --> 03:03.480
+Let's put all all of our CSX files so we'll say link tab or link enter and I'm going to say CSX slash
+
+03:03.660 --> 03:12.870
+style CSX and I'm going to copy this so can shift option or shift Ault on windows down twice this first
+
+03:12.870 --> 03:21.630
+one I'm going to change to mobile the second one I'm going to change to widescreen and we need to add
+
+03:21.840 --> 03:32.280
+media queries or media attributes for mobile and widescreen so let's say screen and we want a max width
+
+03:32.400 --> 03:42.000
+of seven sixty 68 pixels OK and then for widescreen let's do media equals screen.
+
+03:42.030 --> 03:49.230
+And this time we want to do men with and we want eleven hundred pixels so this will only kick in when
+
+03:49.230 --> 03:53.060
+the screen is bigger than eleven hundred pixels.
+
+03:53.060 --> 03:53.490
+OK.
+
+03:53.490 --> 04:00.510
+And we're also going to be using font awesome so let's head over to font awesome dot com and click this
+
+04:00.510 --> 04:08.370
+button here and grab the link so that we can incorporate icons will pace set in there and our head should
+
+04:08.370 --> 04:09.620
+be all set.
+
+04:09.690 --> 04:15.840
+So let's go ahead and open this up and we're going to going to have a blank page we have an ad in anything
+
+04:15.840 --> 04:22.860
+yet so going to start with the nav bar obviously we're going to go top to bottom and I put the nav bar
+
+04:22.920 --> 04:28.470
+outside of the showcase outside of this header with the idea of showcase and the reason for that is
+
+04:28.470 --> 04:35.860
+we're using a sticky nav bar and if we put it inside of the showcase or in the header here what's going
+
+04:35.860 --> 04:41.880
+to happen is once we reached the bottom it's going to disappear because it's basically stuck inside
+
+04:41.880 --> 04:42.970
+of its parent.
+
+04:43.020 --> 04:44.940
+So we don't want this to have a parent.
+
+04:44.970 --> 04:48.550
+So we want to put the nav bar above the showcase.
+
+04:48.570 --> 04:48.990
+OK.
+
+04:49.020 --> 05:00.870
+So let's go into body and let's do nav tag and we want to put an I.D. nav bar and we want inside here
+
+05:00.870 --> 05:04.300
+in H1 we'll give it a class of logo.
+
+05:04.620 --> 05:08.500
+And inside this H1 as you can see we have an icon.
+
+05:08.640 --> 05:10.860
+And then these are both going to be green.
+
+05:10.860 --> 05:13.180
+So we need a special class for that.
+
+05:13.200 --> 05:17.920
+So let's do let's say span we'll give.
+
+05:18.030 --> 05:26.930
+Give this a class of text primary and inside here we want to put our icon.
+
+05:26.940 --> 05:29.710
+So I with the class of F.A. yes.
+
+05:29.880 --> 05:36.300
+And then another class this particular icon is F A Dash book dash open.
+
+05:36.910 --> 05:41.800
+And we want the word after the icon we want the word edge.
+
+05:41.800 --> 05:48.090
+And then outside of the span we want the word ledger because on the edge should be green.
+
+05:48.190 --> 05:50.290
+So ledger.
+
+05:50.740 --> 05:51.050
+OK.
+
+05:51.070 --> 05:55.970
+So that's our logo and then under that we want our navigation which will be a well.
+
+05:56.290 --> 05:59.260
+And we want for list items with links.
+
+05:59.260 --> 06:05.020
+So we'll say list item we'll use Emmet here so curly braces we can put in the content which will be
+
+06:05.020 --> 06:07.090
+in a tag.
+
+06:07.090 --> 06:09.560
+We'll just have this go nowhere.
+
+06:10.090 --> 06:14.930
+And then we want four of them so we're gonna say times four and hit enter.
+
+06:15.010 --> 06:15.600
+Okay.
+
+06:15.610 --> 06:19.480
+And if you don't like Emmett if you don't want to do that stuff you can simply type it all out but I
+
+06:19.480 --> 06:25.540
+think Emmett makes it much more faster much more efficient and you'll get you'll get used to it.
+
+06:26.530 --> 06:30.960
+So home let's do what.
+
+06:31.360 --> 06:36.780
+Who and contact and then for the links here.
+
+06:36.790 --> 06:42.040
+They're just going to go to the I.D. home the idea of what.
+
+06:42.070 --> 06:42.300
+OK.
+
+06:42.340 --> 06:47.610
+So these will be sections who and contact.
+
+06:47.710 --> 06:47.970
+All right.
+
+06:47.980 --> 06:51.770
+Now home as you can see it brings us all the way up to the top.
+
+06:51.790 --> 06:56.140
+So I'm going to put the idea of home on the body.
+
+06:56.140 --> 06:56.900
+OK.
+
+06:57.130 --> 07:02.790
+And this will work even without javascript but it will just kind of click down and it will just go right
+
+07:02.860 --> 07:06.330
+down it's not going to have this smooth effect to do that we're using the J.
+
+07:06.340 --> 07:07.650
+Query intimate method.
+
+07:08.080 --> 07:11.990
+But for now it's just going to kind of click to that area.
+
+07:12.040 --> 07:12.400
+All right.
+
+07:12.400 --> 07:16.030
+So let's see we have our NAV bar.
+
+07:16.060 --> 07:22.600
+So I'm just going to put a comment here and seeing nav bar and if we take a look it's going to look
+
+07:22.600 --> 07:23.800
+horrible.
+
+07:23.830 --> 07:26.570
+What I want to do is work on each.
+
+07:26.620 --> 07:32.380
+Basically each component at a time so we'll do the nav bar then we'll move on to the showcase then this
+
+07:32.380 --> 07:37.210
+area this area and so on and we want to style it as we go.
+
+07:37.270 --> 07:46.470
+So let's jump into style dot CSX and we'll most likely do the responsiveness after after we get them
+
+07:46.510 --> 07:49.150
+the main style down.
+
+07:49.150 --> 07:58.480
+So in style dot CSX let's first ad like our our base styles our core our core things that that don't
+
+07:58.480 --> 08:00.670
+pertain to specific classes and stuff.
+
+08:00.670 --> 08:03.980
+So body lengths asterisk.
+
+08:04.000 --> 08:07.750
+We want to add a reset but first thing we want to do is implement our font.
+
+08:07.750 --> 08:13.690
+I'm actually using that were a bottle font which is not you know a regular font.
+
+08:13.710 --> 08:24.540
+So we're gonna go to Google our fonts dot google and let's search for rubato and right here I'm going
+
+08:24.540 --> 08:30.910
+to click the plus sign go down here click on that and I'm actually going to import want to choose this
+
+08:30.910 --> 08:36.070
+and I'm going to imported into our CSX file so you can either do that or you can bring it in as a link
+
+08:36.070 --> 08:40.180
+tag and your each team Al but I'm just going to go ahead and just do that.
+
+08:40.890 --> 08:41.290
+OK.
+
+08:41.290 --> 08:45.340
+And once I do that I should be able to use font family rubato.
+
+08:45.400 --> 08:48.460
+So we're for our body.
+
+08:48.460 --> 08:51.480
+Let's add in that.
+
+08:51.490 --> 08:54.920
+Now I'm going to add a little CSX reset here.
+
+08:54.970 --> 09:01.060
+We want to make sure our box sizing is border box.
+
+09:01.060 --> 09:08.710
+And then I want to just zero out all the margin and padding case or resetting the margin and padding
+
+09:08.710 --> 09:12.760
+for everything and then links.
+
+09:12.760 --> 09:15.640
+So for lengths I'm just going to remove the underline.
+
+09:15.640 --> 09:23.590
+So text decoration underline and I want to add a little bit of margin back to the paragraphs because
+
+09:23.590 --> 09:27.280
+remember when we add our reset it takes away margin and padding from everything.
+
+09:27.670 --> 09:35.100
+So four paragraphs let's do zero point seven five REM on the top and bottom and zero left and right.
+
+09:37.270 --> 09:37.690
+OK.
+
+09:37.720 --> 09:39.370
+So take a look.
+
+09:39.370 --> 09:40.710
+Looks like this.
+
+09:42.040 --> 09:48.430
+Let's see so next thing I want to do is let's take care of the text primary class.
+
+09:48.430 --> 09:51.900
+Remember we wrapped this in text primary.
+
+09:52.090 --> 09:54.560
+Let's put a space after that icon.
+
+09:54.700 --> 09:59.610
+So right here we'll put a space and that pushes that over a bit.
+
+09:59.660 --> 10:13.540
+So going to go right here and I'm going to say utility classes do text primary and for text primary
+
+10:13.530 --> 10:23.590
+you're gonna do a color and the primary color is going to be nine three C B 5 2 which is gonna be that
+
+10:23.590 --> 10:25.060
+green color.
+
+10:25.140 --> 10:25.480
+All right.
+
+10:25.510 --> 10:27.250
+And if I save that we take a look.
+
+10:27.250 --> 10:29.320
+Now that's green.
+
+10:29.320 --> 10:29.770
+OK.
+
+10:29.770 --> 10:34.050
+Now let's let's deal with the nav bar.
+
+10:34.290 --> 10:35.810
+So let's see.
+
+10:35.840 --> 10:36.990
+Go right under here.
+
+10:37.000 --> 10:43.510
+Let's say nav bar and the nav bar itself.
+
+10:45.390 --> 10:47.400
+Let's let's add a background
+
+10:50.140 --> 10:56.410
+of 3 3 3 actually save it's going to look like that.
+
+10:56.410 --> 10:56.680
+You know what.
+
+10:56.740 --> 11:01.270
+Let's kind of what I want to show both at the same time.
+
+11:01.280 --> 11:08.120
+So I'm going to just shrink this down a little bit that should be good.
+
+11:08.140 --> 11:08.410
+OK.
+
+11:08.440 --> 11:15.290
+So we have a background and any anything that's not a link we can add color white.
+
+11:15.320 --> 11:15.630
+OK.
+
+11:15.640 --> 11:21.090
+So if I say this it's not going to change the the links because that's that's a separate color.
+
+11:21.460 --> 11:24.160
+And I want to position this sticky.
+
+11:24.160 --> 11:34.060
+So I'm actually going to do position for the first value here and let's say sticky and we want to say
+
+11:34.090 --> 11:35.120
+top zero.
+
+11:35.140 --> 11:37.660
+That's where we want it to stick.
+
+11:37.690 --> 11:41.300
+So when we scroll it should stick to the top.
+
+11:41.350 --> 11:48.900
+Now I want this to be flex because we want the logo over here we want the menu over here.
+
+11:48.910 --> 11:53.090
+Now remember the hotel site we used floats and we're not using floats anymore.
+
+11:53.290 --> 12:00.910
+So let's add right here a display of flex and watch what happens as soon as I do that.
+
+12:00.910 --> 12:07.780
+Now they're aligned this way not the list items but the whatever is the the child of the nav bar which
+
+12:07.780 --> 12:16.570
+if we look is the H1 and the well this dish to children k what what is in those children is irrelevant.
+
+12:16.570 --> 12:19.510
+These are the flexi items the NAV and the well.
+
+12:19.510 --> 12:23.570
+So those get basically floated horizontally.
+
+12:23.570 --> 12:26.710
+Now I want this over here.
+
+12:26.710 --> 12:27.040
+Right.
+
+12:27.040 --> 12:31.450
+So remember the justified content property.
+
+12:31.570 --> 12:34.500
+What that does is it aligns things horizontally.
+
+12:34.540 --> 12:41.290
+So I'm going to use space between because I want I want the space to be in between both of the Flex
+
+12:41.290 --> 12:42.110
+items.
+
+12:42.130 --> 12:47.600
+So let's go ahead and just choose it right here space between and save.
+
+12:47.650 --> 12:50.900
+And now that gets pushed over to the side.
+
+12:51.590 --> 12:54.170
+So let's see.
+
+12:54.610 --> 13:01.960
+Another thing I want to do here is I want to add a z index so a z index is going to it's basically the
+
+13:01.960 --> 13:02.640
+position.
+
+13:02.650 --> 13:09.550
+I know we went went over this back a while ago but it's the higher the number the closer to the screen
+
+13:09.550 --> 13:11.380
+the closer to you it is.
+
+13:11.410 --> 13:14.060
+And I want this to always be on top of everything.
+
+13:14.080 --> 13:19.210
+When we scroll down so I'm going to put a z index of 1 and that should do it unless we set something
+
+13:19.210 --> 13:24.120
+else to z index of 2 or higher than this should go over everything else.
+
+13:24.180 --> 13:24.510
+OK.
+
+13:24.520 --> 13:26.310
+Hopefully that makes sense.
+
+13:26.650 --> 13:30.840
+And then I'm also going to add just a padding value of one room.
+
+13:31.270 --> 13:37.210
+So in this case one room is 16 pixels because we haven't touched the eight the root each team.
+
+13:37.210 --> 13:41.010
+Font size and that's what REMS are based on.
+
+13:41.020 --> 13:42.730
+Next thing we want to do is the well
+
+13:45.380 --> 13:52.470
+OK now the U.S. is also going to be flex because we want these to align horizontally so let's say display.
+
+13:53.750 --> 13:54.700
+OK.
+
+13:54.830 --> 13:58.900
+Remember no more floats display flex save.
+
+13:58.900 --> 14:00.490
+There we go.
+
+14:00.490 --> 14:11.920
+And then I'm also going to I'm going to do a line items to the center OK so that kind of puts both of
+
+14:11.950 --> 14:14.930
+the logo in this at the same level here.
+
+14:15.590 --> 14:17.950
+And let's take away the bullet points.
+
+14:18.080 --> 14:23.160
+So list I want to do list style.
+
+14:23.480 --> 14:23.990
+None.
+
+14:25.360 --> 14:25.760
+OK.
+
+14:25.760 --> 14:28.720
+And then we also want to deal with the links.
+
+14:28.970 --> 14:38.780
+So let's do now Navarre well ally a new color white.
+
+14:40.160 --> 14:42.670
+OK so we have our White links.
+
+14:42.700 --> 14:45.340
+Wait a minute why is it still underline.
+
+14:45.370 --> 14:48.070
+Oh I did text decoration underline there should be none.
+
+14:50.980 --> 14:51.250
+All right.
+
+14:51.310 --> 14:57.430
+So next thing we want to do is separate them because we don't want them right on top of each other so
+
+14:57.430 --> 15:02.800
+let's add a padding here and let's just do zero point seventy five.
+
+15:02.800 --> 15:03.060
+Right.
+
+15:03.090 --> 15:09.530
+Notice some using REM for for most most things paintings and stuff like that.
+
+15:09.760 --> 15:12.010
+And then let's save that see what we get.
+
+15:12.010 --> 15:13.030
+Good.
+
+15:13.090 --> 15:22.370
+Now I'm also going to add a margin on the one to do a margin on the left and right.
+
+15:23.080 --> 15:29.880
+So margin let's do zero and then zero point to five REM on the left and right.
+
+15:30.310 --> 15:34.840
+Now when I hover over these I want to have kind of a green box around it.
+
+15:34.840 --> 15:37.890
+So let's do the hover state.
+
+15:38.110 --> 15:49.330
+So now bar you well ally a colon and hover and let's do a background in the background is going to be
+
+15:49.330 --> 15:53.600
+the same green that we have right here.
+
+15:53.650 --> 16:00.640
+The Texas primary so we'll copy that paste that in and save that.
+
+16:00.670 --> 16:03.500
+Let's check it out OK good.
+
+16:03.500 --> 16:09.410
+Now I do want the corners to be a little rounded so let's do a border radius and this is all stuff that
+
+16:09.410 --> 16:10.500
+we've done so.
+
+16:10.780 --> 16:15.020
+We'll do five pixels and we have a little round on the corners.
+
+16:15.020 --> 16:15.280
+All right.
+
+16:15.290 --> 16:15.800
+So that's it.
+
+16:15.800 --> 16:17.190
+That's our NAV bar.
+
+16:17.270 --> 16:22.960
+And as you can see it's it's much cleaner using flex than using floats and stuff like that.
+
+16:22.970 --> 16:28.400
+And you know you'll see that you'll realize that as we move along especially with the boxes and stuff
+
+16:28.400 --> 16:29.420
+like that.
+
+16:29.630 --> 16:32.370
+Also aligning in the showcase.
+
+16:32.480 --> 16:36.230
+So that's what we're gonna do next is the whole header showcase area.
+
+16:36.260 --> 16:37.730
+All right so I'll see you in the next video.

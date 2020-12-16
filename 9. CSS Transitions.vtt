@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.370 --> 00:00.900
+All right guys.
+
+00:00.900 --> 00:07.770
+Now we're going to look at transitions which are similar to how key frame animations work except transitions
+
+00:07.770 --> 00:09.930
+happen basically on an event.
+
+00:09.930 --> 00:17.280
+So if you hover over something that's a good example you would have a transition with with a property
+
+00:17.310 --> 00:18.830
+that is animator bold.
+
+00:18.840 --> 00:24.240
+So like the with the color basically anything that we can do with the key frame animations.
+
+00:24.240 --> 00:34.080
+So let's create a new file here called 0 9 underscore transitions dot HDMI all OK and we'll put in our
+
+00:34.080 --> 00:39.360
+boiler plate here.
+
+00:39.360 --> 00:41.090
+Close that up.
+
+00:41.110 --> 00:48.000
+Let's put our style and for the body again I'm just going to have a class A BOX.
+
+00:48.040 --> 00:48.260
+OK.
+
+00:48.270 --> 00:51.720
+We're going to use this element to display transitions.
+
+00:51.720 --> 00:58.540
+Now I'm going to add some other styling as well so for the body I'm going to do background three three
+
+00:58.600 --> 00:59.910
+three just like we did before.
+
+00:59.910 --> 01:05.510
+I'm also going to display it as a flex because the item I want to put it directly in the middle.
+
+01:05.640 --> 01:14.520
+So I think this is one of the easiest ways to do that is just displaying as flex doing a line items
+
+01:15.360 --> 01:21.900
+center justify content center and then we need a height on it.
+
+01:21.930 --> 01:25.930
+So we'll say one hundred viewport heights.
+
+01:25.980 --> 01:26.280
+All right.
+
+01:26.310 --> 01:31.620
+So let's open this with life server actually opened in the wrong browser.
+
+01:31.620 --> 01:32.640
+Let me bring it over.
+
+01:33.300 --> 01:33.530
+OK.
+
+01:33.570 --> 01:38.790
+So we just have a dark background now let's add the style for the box.
+
+01:38.790 --> 01:49.320
+So I'm going to do background whites we'll use color names and let's do a width of one hundred pixels
+
+01:49.440 --> 01:52.590
+and a height of one hundred pixels.
+
+01:52.590 --> 01:56.060
+So this should give us a square right in the middle of the page.
+
+01:56.160 --> 01:56.500
+All right.
+
+01:56.520 --> 02:04.590
+Now we're gonna take a look first at the different transition properties and then we'll look at compacting
+
+02:04.590 --> 02:10.620
+it into the single transition property just like with with the animation you have a bunch of different
+
+02:10.620 --> 02:15.270
+properties and you can combine them just like background properties all that stuff.
+
+02:15.290 --> 02:18.490
+Borders this does a shorthand way for just about everything.
+
+02:18.540 --> 02:20.300
+Margin padding.
+
+02:20.400 --> 02:22.980
+So let's first look at the.
+
+02:23.760 --> 02:26.750
+It's actually called Transition property.
+
+02:26.790 --> 02:27.130
+OK.
+
+02:27.160 --> 02:30.850
+So you're going to say transition dash property.
+
+02:31.000 --> 02:39.540
+And here's where we specify which properties we actually want to have a transition on a hover or something
+
+02:39.540 --> 02:40.080
+like that.
+
+02:40.110 --> 02:47.790
+So we could do all or we could specify a specific property so I'm going to start off with just a specific
+
+02:47.790 --> 02:49.910
+property of background.
+
+02:50.280 --> 02:54.690
+So that's the property that I want to add a transition to.
+
+02:54.690 --> 03:01.470
+And then let's add a transition dash duration.
+
+03:01.470 --> 03:06.210
+So this would be in seconds let's say we'll say two seconds.
+
+03:06.290 --> 03:07.080
+OK.
+
+03:07.110 --> 03:12.630
+Now if I save that nothing happens because the way that this works is like I said it has to be on some
+
+03:12.630 --> 03:13.410
+kind of event.
+
+03:13.440 --> 03:15.120
+So we're going to add a hover.
+
+03:15.240 --> 03:19.290
+So it's a box hover.
+
+03:19.290 --> 03:23.420
+And I'm just going to set the background to read.
+
+03:24.170 --> 03:24.510
+OK.
+
+03:24.540 --> 03:25.410
+That's it.
+
+03:25.410 --> 03:30.260
+Now if I save this and I hover over it let me just show you without the transition first.
+
+03:30.250 --> 03:33.450
+If we get rid of that and I hover over it it just it just goes to red.
+
+03:33.480 --> 03:33.780
+Right.
+
+03:34.320 --> 03:35.550
+We've seen this before.
+
+03:35.580 --> 03:40.490
+If I use it transition it slowly transitions into red.
+
+03:40.500 --> 03:47.470
+And then when I come off it it transitions back to white guy in the in the duration of two seconds.
+
+03:47.620 --> 03:53.740
+So you can just use the sign simple button hovers maybe put like one second on the button hover and
+
+03:53.740 --> 03:59.140
+it just gives it a smoother effect rather than just you know shifting right to red.
+
+03:59.140 --> 04:01.410
+Now we can also add delays if we want.
+
+04:01.440 --> 04:07.570
+So we could say transition dash delay say one second.
+
+04:08.120 --> 04:12.260
+And now if I if I hover over it nothing's going to happen for one second.
+
+04:12.340 --> 04:17.320
+Actually that wasn't really noticeable let's do three seconds and I'm hovering over it.
+
+04:17.320 --> 04:20.280
+And after three seconds it starts.
+
+04:20.320 --> 04:20.700
+OK.
+
+04:20.710 --> 04:22.210
+So that's the transition delay.
+
+04:22.510 --> 04:24.160
+We also have the timing function.
+
+04:24.160 --> 04:26.270
+I'm going to put that right here.
+
+04:26.290 --> 04:30.730
+Transition dash timing function.
+
+04:30.750 --> 04:33.730
+And this we're going to use ease in out.
+
+04:33.730 --> 04:33.960
+OK.
+
+04:33.970 --> 04:42.500
+So basically just like with the key frames and let's comment out the delay and just ease in and out.
+
+04:42.520 --> 04:46.890
+So it starts off slow and ends slow.
+
+04:46.900 --> 04:54.310
+Now of course you can take all of this and put this all together in just the transition property.
+
+04:54.450 --> 05:03.850
+We can say background then we can do it the duration which we'll say two seconds and the timing function
+
+05:03.880 --> 05:05.400
+ease in out.
+
+05:05.500 --> 05:08.800
+And if we wanted to delay we could add that on here as well.
+
+05:08.800 --> 05:16.150
+But I don't want to delay so doing this we should be able to comment all this stuff though because it
+
+05:16.150 --> 05:17.580
+does the same exact thing.
+
+05:17.590 --> 05:20.500
+So we'll save and then we go.
+
+05:21.040 --> 05:21.370
+OK.
+
+05:21.370 --> 05:25.770
+Now there's other other things that we can add that we can transition.
+
+05:25.780 --> 05:35.090
+So let's let's go ahead and say border dash radius and we'll set that to 50 percent.
+
+05:35.170 --> 05:36.490
+Now if I hover over it.
+
+05:36.490 --> 05:44.890
+Notice that the transition is only working on the color background color the border radius is just switching
+
+05:45.130 --> 05:45.700
+right away.
+
+05:45.700 --> 05:48.790
+That's because we didn't specify that here.
+
+05:48.790 --> 05:54.850
+Now what I could do is I could add a comma and I could say we also want to transition border radius
+
+05:56.590 --> 05:57.190
+that
+
+06:01.050 --> 06:05.250
+and now you can see that it transitions.
+
+06:05.250 --> 06:10.590
+But what I would probably do here is in all unless there was something you didn't want to transition
+
+06:10.590 --> 06:14.820
+for some reason but I want everything here to transition.
+
+06:14.820 --> 06:18.510
+So that works the same way we get a cool little effect.
+
+06:18.660 --> 06:23.350
+Now we can also do like the height and the width so let's say we want to make it bigger we'll say 300
+
+06:23.370 --> 06:30.510
+pixels and say with 300 pixels and save.
+
+06:30.540 --> 06:38.730
+And now it goes from a little white school square to a big red circle on hover and it does it very very
+
+06:38.730 --> 06:41.220
+smoothly all right.
+
+06:41.730 --> 06:44.000
+And again just experiment with it.
+
+06:44.010 --> 06:49.830
+There's no use some other properties in fact all the transitional properties I'm actually going to paste
+
+06:49.830 --> 06:51.110
+in this file for you guys.
+
+06:51.120 --> 06:51.840
+So you have it.
+
+06:51.870 --> 06:55.190
+So I'm going to go right here and paste this in.
+
+06:55.410 --> 07:02.520
+So transitional properties they have to have an identifiable identifiable and identifiable halfway point.
+
+07:02.520 --> 07:15.600
+So things like colors positions with font weight font size max height Max with opacity outline color
+
+07:15.630 --> 07:21.840
+visibility with word spacing z index all these things can be different values it can have a halfway
+
+07:21.840 --> 07:22.250
+point.
+
+07:22.260 --> 07:26.630
+It's not just like it's not binary it's not one or the other.
+
+07:26.640 --> 07:27.030
+All right.
+
+07:27.030 --> 07:30.260
+So these are all the properties that you can experiment with.
+
+07:30.330 --> 07:31.400
+So I'll save that.
+
+07:31.410 --> 07:35.020
+And you guys will have that for for reference.
+
+07:35.250 --> 07:40.500
+So in the next video I want to look at the transform property which you can use in conjunction with
+
+07:40.590 --> 07:48.150
+transitions to do some really cool stuff as far as rotating and moving things around the page things
+
+07:48.150 --> 07:48.960
+like that.
+
+07:48.960 --> 07:49.170
+All right.
+
+07:49.170 --> 07:51.120
+So we'll take a look at transform next.

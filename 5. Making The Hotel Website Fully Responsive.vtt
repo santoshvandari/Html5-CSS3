@@ -1,0 +1,802 @@
+WEBVTT
+
+00:00.360 --> 00:04.980
+All right so now we're going to start to make our hotel Web site responsive because there's some things
+
+00:04.980 --> 00:08.130
+that we need to change on on smaller screens.
+
+00:08.130 --> 00:10.920
+So if we take a look the menu looks OK right now.
+
+00:10.920 --> 00:15.150
+But if we add more links it's going to start to look funky down here.
+
+00:15.150 --> 00:19.380
+I don't like this how this is these are too skinny to be side by side.
+
+00:19.380 --> 00:21.510
+Also the text runs off.
+
+00:21.510 --> 00:23.060
+These should be stacked as well.
+
+00:23.070 --> 00:28.440
+So we basically want to stack everything that's that's being floated on larger screens on the about
+
+00:28.440 --> 00:29.070
+page.
+
+00:29.070 --> 00:34.650
+We want to stack these we probably want to change the line height for the heading down here.
+
+00:34.650 --> 00:40.500
+These are coming out of its container because the height is fixed here and then contact the form looks
+
+00:40.500 --> 00:41.270
+good with this.
+
+00:41.270 --> 00:42.300
+These should be stack.
+
+00:42.300 --> 00:49.020
+So if we have a few things that we need to change or just change on smaller screens now we could put
+
+00:49.020 --> 00:51.710
+media queries right in our style dot CSX.
+
+00:51.720 --> 00:54.520
+But this this style sheet is already pretty big.
+
+00:54.540 --> 01:03.240
+So what I'm going to do is create a whole new style sheet in the CSX folder called Mobile dot CSX and
+
+01:03.240 --> 01:08.790
+we're just going to go to our index and right below the style CSX link and we're going to copy that
+
+01:08.790 --> 01:17.340
+down we'll change this to mobile and then we just want to add a media attribute and we're going to set
+
+01:17.340 --> 01:26.310
+this to screen and and then a set of parentheses and we'll say Max with let's do 768 pixels.
+
+01:26.310 --> 01:33.090
+So basically tablets and glass tablets smartphones any any small device and then that's that style sheet
+
+01:33.090 --> 01:33.870
+should kick in.
+
+01:34.230 --> 01:42.180
+So to test it out in Mobile CSX I'm just going to do a body and do display none which will make the
+
+01:42.180 --> 01:44.790
+whole body disappear on small screen.
+
+01:44.790 --> 01:50.520
+So I save that you'll see there's nothing showing until I hit that 768 breakpoint.
+
+01:51.040 --> 01:51.310
+OK.
+
+01:51.330 --> 01:54.880
+So we know that that is actually in effect.
+
+01:54.880 --> 01:55.710
+So we'll get rid of that.
+
+01:55.710 --> 02:00.780
+I just wanted to test it out now in our index file.
+
+02:00.780 --> 02:06.870
+We're going to start with the menu which looks fine now but if I take this last list item the contact
+
+02:06.990 --> 02:11.400
+link here and I go go down three more times and save you'll see that.
+
+02:11.400 --> 02:12.970
+Now it looks messed up.
+
+02:13.020 --> 02:18.420
+So what I want is everything to be centered the logo centered and then all the links to be in a vertical
+
+02:18.420 --> 02:19.080
+fashion.
+
+02:19.560 --> 02:26.550
+So what I'll do is I'm going to keep our style CSX open and take our mobile CSX and move it over to
+
+02:26.850 --> 02:29.010
+this half way over to the right side.
+
+02:29.010 --> 02:32.960
+That way we can see both at the same time and see what we need to change.
+
+02:32.970 --> 02:38.520
+I'm also going to close up the sidebar here now for the nav bar.
+
+02:38.550 --> 02:39.560
+Let's see.
+
+02:39.610 --> 02:47.590
+Let's go down to our nav bar and were floating the H1 the logo to the left.
+
+02:47.590 --> 02:50.370
+We're floating the well to the right.
+
+02:50.400 --> 03:00.800
+We want to basically set those to float none so let's say nav bar H1.
+
+03:01.860 --> 03:09.490
+And you know we should be actually targeting the logo class see the H1 has a class of logo so let's
+
+03:09.490 --> 03:11.500
+actually do nav bar dot logo.
+
+03:11.500 --> 03:14.650
+We'll do that here and over here.
+
+03:14.650 --> 03:19.520
+Logo.
+
+03:19.810 --> 03:23.890
+And then we're gonna set this to float.
+
+03:23.920 --> 03:24.880
+None.
+
+03:24.880 --> 03:25.110
+OK.
+
+03:25.120 --> 03:27.300
+Just doing that's not going to change anything.
+
+03:27.310 --> 03:32.920
+But we want it in the middle so we're gonna say text align center.
+
+03:32.920 --> 03:36.190
+And if I save that now that's put in the center.
+
+03:36.190 --> 03:41.890
+Now for these I want to first get rid of the float on the well you can see it's floated to the right.
+
+03:41.890 --> 03:45.380
+I also want to get rid of the float on the allies.
+
+03:45.490 --> 03:45.720
+OK.
+
+03:45.730 --> 03:47.740
+So we want to remove both of those
+
+03:50.970 --> 04:03.270
+now I could combine both float in my doing so say nav bar you l and let's also do nav bar ally and we
+
+04:03.270 --> 04:08.730
+want to set both of them to float none and save
+
+04:11.470 --> 04:14.530
+actually know what this.
+
+04:14.820 --> 04:21.030
+This is not overwriting this because over here we specified the well so we'll just have to do that here
+
+04:21.030 --> 04:23.940
+as well in order for it to overwrite it.
+
+04:23.940 --> 04:25.020
+All right.
+
+04:25.080 --> 04:32.910
+Now this comes down quite a bit in later on you're probably going to learn Javascript where you can
+
+04:32.910 --> 04:38.280
+create some kind of button have and you can click it and then have this menu just kind of transition
+
+04:38.280 --> 04:39.330
+down.
+
+04:39.570 --> 04:44.010
+We may even get into some of that later on but right now we're just dealing with straight each team
+
+04:44.010 --> 04:44.840
+LCROSS.
+
+04:44.850 --> 04:47.280
+No animation anything like that.
+
+04:47.280 --> 04:53.100
+So I think one thing we could do is get rid of some of the padding not make these so so wide so fat
+
+04:53.550 --> 04:55.350
+so it doesn't come down as much.
+
+04:55.380 --> 05:04.650
+So let's grab nav bar you well ally a you want to grab the link because that's where the padding is
+
+05:04.650 --> 05:08.130
+if we look over here and as padding 20 pixels.
+
+05:08.130 --> 05:13.100
+So I'm going to update that to be only five pixels on small screens.
+
+05:13.100 --> 05:13.470
+All right.
+
+05:13.470 --> 05:20.550
+Now they kind of look bunched together so what I'll do is add a border as well a very faint border so
+
+05:20.550 --> 05:31.190
+let's do border bottom and let's do just a shade lighter we'll do four four four.
+
+05:31.260 --> 05:35.560
+Let's do dotted as the style in one pixel.
+
+05:35.700 --> 05:35.990
+OK.
+
+05:36.000 --> 05:36.990
+So we'll save that.
+
+05:37.020 --> 05:39.170
+And now that looks much better.
+
+05:39.270 --> 05:41.820
+So we still have our hover effect.
+
+05:41.910 --> 05:43.510
+Good.
+
+05:43.560 --> 05:44.990
+So the next thing I want to do.
+
+05:45.030 --> 05:50.100
+Actually let's get rid of those extra links that'll make it look better because it's not there won't
+
+05:50.100 --> 05:51.270
+be as many links
+
+05:55.780 --> 05:56.120
+OK.
+
+05:56.130 --> 05:58.040
+So now we have a responsive menu.
+
+05:58.050 --> 06:03.660
+So we have our standard nav bar and then we have our responsive now bar.
+
+06:04.080 --> 06:09.490
+So the next thing I want to do is we'll skip the showcase.
+
+06:09.510 --> 06:14.610
+When we test what the devices in the dev tools we may need to update this a little bit.
+
+06:14.700 --> 06:18.180
+But for now let's move on to the home info section.
+
+06:18.180 --> 06:21.780
+And one thing I want to change is the height.
+
+06:21.850 --> 06:27.800
+OK if we go down to our home info I.D. it's 400.
+
+06:27.810 --> 06:35.490
+I want to actually change it to 450 because it was covering the read more even than when it was a little
+
+06:35.490 --> 06:37.340
+bit above 768.
+
+06:37.350 --> 06:40.230
+Like right here on 400.
+
+06:40.290 --> 06:44.700
+If I change it to 400 you can see that it kind of runs down a little bit.
+
+06:44.700 --> 06:48.070
+So we want that to be 450 like that.
+
+06:48.270 --> 06:53.340
+And then once we hit that 768 Mark and mobile CSF kicks in.
+
+06:53.490 --> 06:58.800
+What I want to do is just get rid of that image completely and have this whole dark part with the tax
+
+06:58.800 --> 07:00.600
+go all the way across.
+
+07:00.720 --> 07:08.260
+So let's add in here home info and we're going to take the image.
+
+07:08.460 --> 07:16.230
+So home dash info and I believe freight here it has a class of info image
+
+07:18.980 --> 07:25.450
+and I'm actually going to set that to display none.
+
+07:26.180 --> 07:26.530
+All right.
+
+07:26.560 --> 07:28.760
+So now that image is gone.
+
+07:28.780 --> 07:34.840
+Next thing we need to do is the info content which is this part here we need to get rid of the float
+
+07:35.020 --> 07:36.100
+because right now it's float.
+
+07:36.100 --> 07:36.520
+Right.
+
+07:36.520 --> 07:38.460
+So we need to get rid of the flow.
+
+07:38.470 --> 07:40.150
+Actually I'll just copy this whole thing
+
+07:43.470 --> 07:46.050
+and we need to change the flow the width and the height.
+
+07:46.790 --> 07:50.010
+OK so the float should be none.
+
+07:50.010 --> 07:57.430
+And actually the height which the sleeve that put the width we want to change to 100 percent because
+
+07:57.430 --> 07:59.200
+we want it to go all the way across.
+
+07:59.230 --> 08:01.400
+So let's save that.
+
+08:01.570 --> 08:03.340
+And there we go.
+
+08:03.340 --> 08:08.320
+All right so you can see that this that these parts are now responsive once we hit that part it goes
+
+08:10.490 --> 08:14.110
+down like that OK.
+
+08:14.140 --> 08:18.290
+So the next part is the three boxes right here.
+
+08:18.310 --> 08:24.270
+Now these have a class of box which are it's the same class it's on these as well so it's also going
+
+08:24.270 --> 08:30.520
+to pertain to this basically any anywhere on the site where we want to or we want to line these boxes
+
+08:30.520 --> 08:31.180
+up like this.
+
+08:31.180 --> 08:34.030
+They have that box class right here.
+
+08:34.030 --> 08:38.500
+So we want to clear those and then we want to set them to 100 percent.
+
+08:38.500 --> 08:40.720
+That's really all we have to do.
+
+08:40.870 --> 08:47.570
+So let's say boxes and Dot box you want to say float none.
+
+08:48.160 --> 08:51.600
+And we want to set the width to 100 percent.
+
+08:51.830 --> 08:53.600
+OK we'll save that.
+
+08:53.650 --> 08:56.700
+And now you can see they're nicely stacked.
+
+08:56.950 --> 08:58.570
+So that looks pretty good.
+
+08:58.660 --> 09:01.860
+Now we're going to move on to the about page.
+
+09:01.990 --> 09:07.900
+This is not going to take effect yet because we haven't added these the link tag to the about page.
+
+09:07.900 --> 09:13.680
+So let's go to index and let's copy loops.
+
+09:13.690 --> 09:16.730
+Let's just go to this index.
+
+09:16.790 --> 09:18.470
+Let me close this up for a second.
+
+09:18.890 --> 09:25.130
+So from index I'm going to copy this link to the mobile CSX which has this media attribute and I'm going
+
+09:25.130 --> 09:29.180
+to put it in about right under the style CSX and save.
+
+09:29.180 --> 09:31.940
+I'm also going to do it with contact.
+
+09:31.940 --> 09:38.750
+So on the contact page right below style CSX will paste that in as well that way we have it working
+
+09:38.750 --> 09:41.270
+on all pages.
+
+09:41.270 --> 09:42.560
+So let's see.
+
+09:42.580 --> 09:46.670
+Let's bring back mobile CSX and bring it over to the side
+
+09:49.890 --> 10:00.990
+and close it up and we need to clear this float right here because if we look at the style CSX we have
+
+10:00.990 --> 10:03.490
+info right which is float right.
+
+10:03.510 --> 10:09.160
+We have info left which is float left and they're both 50 percent wide.
+
+10:09.180 --> 10:15.860
+So what we need to do is clear are not clear but set float to none for both and set the width to 100
+
+10:15.870 --> 10:17.310
+percent for both.
+
+10:17.310 --> 10:22.980
+So let's get down here and let's say about and we're going to grab a boat info
+
+10:26.070 --> 10:30.560
+info dash right.
+
+10:30.990 --> 10:37.530
+And let's also grab a boat info info
+
+10:39.930 --> 10:43.040
+dash left.
+
+10:43.170 --> 10:44.640
+So we're doing the same thing for both.
+
+10:44.640 --> 10:49.620
+So we might as well just just put them both on on the same style.
+
+10:49.620 --> 10:51.010
+So let's do float.
+
+10:51.410 --> 10:52.610
+None.
+
+10:52.720 --> 10:53.940
+And let's do with
+
+10:57.200 --> 11:01.400
+100 percent and save.
+
+11:01.550 --> 11:01.830
+All right.
+
+11:01.850 --> 11:02.930
+Cool.
+
+11:02.960 --> 11:10.760
+Now for the heading here I actually want this to be aligned to the center.
+
+11:10.850 --> 11:14.480
+So if you remember this has a class of L heading.
+
+11:14.480 --> 11:24.860
+So I'm just going to grab that class l dash heading and we're going to text aligned to the center
+
+11:28.270 --> 11:32.130
+and then another thing I want to do is the L heading in the style CSX.
+
+11:32.140 --> 11:38.620
+I just want to add a line height to because the words we're running into each other so see where as
+
+11:38.630 --> 11:43.620
+it should be up here at the utility right here.
+
+11:43.640 --> 11:51.730
+So l heading I'm going to say the line height it's change it to one point one point two.
+
+11:51.760 --> 11:56.850
+All right now let's see what else do we want to do here.
+
+11:57.680 --> 11:58.690
+The info right.
+
+11:58.700 --> 12:02.720
+Which is the image I kind of want to move that down a little bit.
+
+12:02.720 --> 12:04.620
+I think it's too close right here.
+
+12:04.760 --> 12:06.920
+So I'm going to grab this
+
+12:09.480 --> 12:14.640
+or go right here and we'll just add a margin top to it.
+
+12:14.640 --> 12:17.920
+So it's two 30 pixels.
+
+12:19.050 --> 12:21.670
+OK so that move that down a little bit.
+
+12:21.720 --> 12:22.020
+All right.
+
+12:22.020 --> 12:28.230
+Now the testimonials here you can see that the boxes are kind of coming out a little bit.
+
+12:28.350 --> 12:35.690
+So to fix that we should probably actually put that in the style sheet over here.
+
+12:35.850 --> 12:37.830
+So let's find testimonials
+
+12:41.670 --> 12:42.200
+OK.
+
+12:42.270 --> 12:45.300
+So we get height 600 pixels.
+
+12:45.300 --> 12:51.120
+What if we just set this to height one hundred percent.
+
+12:51.120 --> 12:51.630
+There we go.
+
+12:52.560 --> 12:58.390
+So that fixes that we don't even have to add anything special there so that looks pretty good to me.
+
+12:59.620 --> 13:04.690
+Now let's go to the contact and notice that these are already stacked because remember these have a
+
+13:04.690 --> 13:07.000
+class of box and we've already clear it.
+
+13:07.000 --> 13:10.830
+We've already done the float nine we've already done with 100 percent.
+
+13:10.840 --> 13:14.650
+One thing that I would like to do though is have a border because I think there's just I don't know
+
+13:14.660 --> 13:17.700
+it looks like this too much space in between here.
+
+13:17.800 --> 13:30.400
+So let's go down here we'll say contact and let's target the contact dash info and we want to target
+
+13:30.400 --> 13:37.840
+the box class inside there not just dot box because we don't want borders on the in the other boxes
+
+13:37.840 --> 13:42.960
+which are on the home page you don't need that because as you can see they kind of revolve the colors
+
+13:42.970 --> 13:52.160
+so we don't need it there but for the contact boxes let's do border bottom.
+
+13:52.280 --> 14:00.670
+It's 2 4 4 4 dotted one pixel and save.
+
+14:00.670 --> 14:06.760
+And I can see we have the board I just think it gives it a little just a little texture I guess.
+
+14:07.510 --> 14:07.840
+OK.
+
+14:07.870 --> 14:12.150
+Cool so what else do we want to do here.
+
+14:12.160 --> 14:16.690
+I think we're ready to start testing it on the actual devices so I'm going to make this bigger I'm going
+
+14:16.690 --> 14:25.690
+to open up our dev tools and let's click on the device icon here and for this course I'm only going
+
+14:25.690 --> 14:36.010
+to be testing on iPhone X 6 7 8 galaxy I don't care about iPhone 5 because the screen size is so small
+
+14:36.010 --> 14:42.580
+that we'll have to add extra media queries just for that and not too many people have an iPhone 5 anymore.
+
+14:42.820 --> 14:48.910
+If you want to add those add those styles yourself you can do that but we're not going to focus on that.
+
+14:50.140 --> 14:52.140
+So let's see if we look at this.
+
+14:52.150 --> 14:55.480
+This looks pretty good.
+
+14:55.480 --> 14:58.800
+One thing I would I notice though is that this is pushed down quite a bit.
+
+14:58.810 --> 15:04.140
+So we may want to look into that about page looks good.
+
+15:04.330 --> 15:06.400
+This is pushed down quite a bit.
+
+15:07.440 --> 15:09.330
+Contact page looks good.
+
+15:09.330 --> 15:09.630
+All right.
+
+15:09.690 --> 15:18.870
+Let's look at iPhone 6 7 8 so kind of same thing really looks good.
+
+15:19.550 --> 15:20.100
+Let's try.
+
+15:20.120 --> 15:20.990
+The Galaxy
+
+15:23.690 --> 15:24.080
+Yeah.
+
+15:24.220 --> 15:32.210
+Pretty much all the same but if we look at the iPhone 5 you can see that the screen is so small that
+
+15:32.210 --> 15:33.890
+it kind of messes up a little bit.
+
+15:35.800 --> 15:40.240
+So you might want to just mess with the heights and stuff like that but I'm not I don't want to get
+
+15:40.240 --> 15:42.100
+too deep into this.
+
+15:42.100 --> 15:43.300
+I just want it to look good on.
+
+15:43.300 --> 15:50.010
+On on modern iPhones in the galaxy pixels pixel also looks good.
+
+15:50.080 --> 15:53.260
+So let's let's change this right here.
+
+15:53.260 --> 16:00.400
+The spacing I'm going to go back into mobile CSX and let's go above or actually let's go right below
+
+16:00.400 --> 16:01.720
+where the nav bar is
+
+16:06.250 --> 16:19.810
+and let's say showcase and actually showcase and we want the I.D. showcase and I'm going to set the
+
+16:19.810 --> 16:29.790
+height to 100 percent case you we have the height at 100 percent now and then I'm going to set the padding
+
+16:29.790 --> 16:35.970
+top to 70 pixels and I'm gonna add some padding to the bottom.
+
+16:36.090 --> 16:43.140
+Right now the padding is what is the padding on showcase see.
+
+16:45.170 --> 16:46.190
+Yeah.
+
+16:46.560 --> 16:47.900
+Showcase 0 8.
+
+16:48.270 --> 16:48.470
+Yeah.
+
+16:48.470 --> 16:49.830
+Padding top.
+
+16:49.830 --> 16:52.110
+I'm sorry not showcase showcase content.
+
+16:52.110 --> 16:54.080
+The padding top is 170.
+
+16:54.090 --> 16:56.920
+So I'm going to change it to 70 which will move it up.
+
+16:57.000 --> 17:03.300
+So let's actually just grab this and then we can take these.
+
+17:03.910 --> 17:09.180
+So we'll do padding talks 70 and then to add some space on the bottom.
+
+17:09.180 --> 17:13.330
+Let's do padding bottom 30 pixels.
+
+17:13.530 --> 17:14.250
+And there we go.
+
+17:14.250 --> 17:15.240
+That looks much better.
+
+17:17.860 --> 17:18.980
+That's the pixel too.
+
+17:18.980 --> 17:27.180
+So if you look at the eye I iPhone and let's take a look at the I pad.
+
+17:27.350 --> 17:28.400
+That's the I pad
+
+17:33.530 --> 17:41.810
+good and the I Pad Pro is just going to look like the desktop because it's so wide OK.
+
+17:41.830 --> 17:47.350
+So now what I want to do is check out the landscape view so let's hit the landscape and if you wanted
+
+17:47.350 --> 17:54.670
+to you could put a media query for the height and you could you could lessen the padding here but I
+
+17:54.670 --> 17:59.050
+think it's fine because as we scroll it looks good you know.
+
+17:59.050 --> 18:04.570
+But if you absolutely need to have this above the fold when the when the person lands on the page in
+
+18:04.570 --> 18:07.060
+landscape mode you could do that.
+
+18:07.240 --> 18:14.110
+But yeah the rest of it you can see the floats are intact because the width is eight twelve hour our
+
+18:14.200 --> 18:16.210
+break breakpoint is seven sixty eight.
+
+18:16.210 --> 18:19.650
+So these are still going to be floated along with the menu.
+
+18:19.840 --> 18:22.980
+If you go to the about you can see we have our floats.
+
+18:23.060 --> 18:23.400
+OK.
+
+18:23.470 --> 18:27.190
+Everything looks good contact boxes are floated.
+
+18:27.190 --> 18:27.920
+Good.
+
+18:27.970 --> 18:30.800
+So I think that we're we're in good shape here.
+
+18:30.880 --> 18:36.670
+And as I mentioned it's more difficult to make your site responsive when you're using floats floats
+
+18:36.670 --> 18:37.890
+are almost like a hack.
+
+18:37.900 --> 18:42.040
+They're almost like a CSX hack to to align your elements.
+
+18:42.040 --> 18:47.410
+But in the next section we're going to start to look at flex box which is a much much better way to
+
+18:47.410 --> 18:48.580
+align things.
+
+18:48.580 --> 18:50.390
+You also have CSX grid.
+
+18:50.440 --> 18:55.300
+Some people choose like to choose one or the other I think that's silly I think that there's certain
+
+18:55.600 --> 19:00.290
+situations for flex in the certain situations for the grid system.
+
+19:00.520 --> 19:05.010
+And I'll kind of go over those differences as we move along.
+
+19:05.020 --> 19:05.320
+All right.
+
+19:05.320 --> 19:05.830
+So that's it.
+
+19:05.830 --> 19:08.580
+I hope you're enjoying the course and I'll see you in the next video.

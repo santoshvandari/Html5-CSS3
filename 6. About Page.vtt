@@ -1,0 +1,820 @@
+WEBVTT
+
+00:00.220 --> 00:00.500
+OK.
+
+00:00.540 --> 00:02.220
+So we have the home page done.
+
+00:02.220 --> 00:07.260
+Now we want to move on to the about which is completely empty right now if I click on it it's just a
+
+00:07.260 --> 00:08.460
+blank page.
+
+00:08.490 --> 00:14.190
+So what I'll do is copy what we have in the index because we're gonna be reusing some of this stuff
+
+00:14.190 --> 00:19.470
+like the nav bar in the footer and also some of the head the stuff in the head.
+
+00:19.470 --> 00:24.790
+So I'm just going to copy it all I'm going to just control a to select it all and then copy it and control
+
+00:24.790 --> 00:31.070
+C and let's go into about h t email and paste it in and start at the top here.
+
+00:31.080 --> 00:36.020
+Now if you want to leave the same meta tags description keywords you can do that.
+
+00:36.090 --> 00:38.180
+We don't need this this link to the font.
+
+00:38.210 --> 00:43.760
+Awesome because we're not using any icons on this page so we can completely get rid of that.
+
+00:43.800 --> 00:49.650
+We want to keep the reference to our style CSX because that's where all of our customers styling goes
+
+00:49.980 --> 00:56.580
+for the title I'm going to change the Welcome to about and then we have our header which had initially
+
+00:56.580 --> 01:01.530
+has the nav bar and the showcase but we're not going to be using the showcase so let's get rid of this
+
+01:01.530 --> 01:04.440
+whole div with the idea of showcase and everything in it.
+
+01:05.040 --> 01:12.210
+So now the header only has the NAV and we want to move the current class off of the home link or link
+
+01:12.240 --> 01:18.750
+because we want that to go on to the about whatever the current pages is what we want highlighted and
+
+01:18.750 --> 01:21.300
+then we can get rid of everything else up to the footer.
+
+01:21.330 --> 01:25.170
+We just want to keep the footer so let's save that.
+
+01:25.170 --> 01:28.830
+And now if we click on a boat we just have our header and footer.
+
+01:28.830 --> 01:34.670
+So this is basically like the start for any page that we create on this Web site.
+
+01:34.740 --> 01:41.580
+And when you start to get into like let's say BHP or some javascript framework stuff like that you don't
+
+01:41.580 --> 01:44.910
+have to reuse reuse your aged him.
+
+01:44.940 --> 01:50.940
+I like this you'll be able to like import files and stuff but that's that's later on that's after you
+
+01:50.940 --> 01:52.000
+learn HCM islands.
+
+01:52.010 --> 01:53.430
+Yes.
+
+01:53.580 --> 01:57.080
+So let's go ahead and create this.
+
+01:57.090 --> 01:57.580
+Where is it.
+
+01:57.630 --> 01:58.470
+Right here.
+
+01:58.680 --> 01:59.100
+We want it.
+
+01:59.100 --> 02:01.500
+We have basically two sections on the about page.
+
+02:01.510 --> 02:03.540
+It's gonna be the about info section.
+
+02:03.540 --> 02:06.270
+This is gonna be the testimonial section.
+
+02:06.270 --> 02:11.850
+So right under header I'm going to put in a section tag and I'm gonna give it an idea of about Dash
+
+02:11.880 --> 02:21.360
+info and inside here we want a container because we want all the content to be contained and we'll have
+
+02:21.360 --> 02:23.640
+info left and in full right.
+
+02:23.640 --> 02:27.250
+So info left class.
+
+02:27.540 --> 02:30.810
+And under that let's do info right.
+
+02:30.900 --> 02:32.360
+Class.
+
+02:33.000 --> 02:45.730
+So info left is gonna have a heading in each one and we're gonna do about hotel B T.
+
+02:46.410 --> 02:54.840
+And I'm gonna wrap the text about in the the text primary class inside of a span because I wanted what
+
+02:54.960 --> 02:57.810
+I wanted to have that that tan color.
+
+02:57.810 --> 03:07.030
+So it's a class text primary and we want that span to just wrap around the about word like that.
+
+03:07.410 --> 03:16.290
+And then underneath the H one let's put a paragraph and let's do say Lorem do alarm 30 and then let's
+
+03:16.290 --> 03:21.010
+do one more paragraph and let's do Lorem 20 like that.
+
+03:22.230 --> 03:23.630
+So that's the left side.
+
+03:23.640 --> 03:27.150
+Now on the right we're just going to have an image.
+
+03:27.150 --> 03:34.230
+So let's put an image tag in the source is gonna be dot slash because we're looking in the current directory
+
+03:34.530 --> 03:39.670
+and then we want to go into the image directory and we actually want photo to dot j peg.
+
+03:40.050 --> 03:40.980
+And for the all.
+
+03:41.010 --> 03:46.770
+I'll just put in the word hotel so let's save that see what we get.
+
+03:46.770 --> 03:52.100
+So we have the heading we have the paragraph this is in.
+
+03:52.110 --> 03:54.890
+This is info left and then info right.
+
+03:54.900 --> 04:00.660
+We just have the image in here which is the full size image as you can see you can scroll way way over
+
+04:00.660 --> 04:03.600
+it's actually a really large image.
+
+04:03.720 --> 04:07.480
+So let's add our CSX to get this looking better.
+
+04:07.520 --> 04:07.790
+OK.
+
+04:07.800 --> 04:14.520
+So we'll go to our style sheet and go all the way down.
+
+04:14.670 --> 04:18.300
+So put in a comment.
+
+04:18.300 --> 04:22.230
+Actually no let's leave the footer at the bottom I always like to keep the styling of the footer at
+
+04:22.230 --> 04:33.090
+the bottom but let's put a comment here and say about info we have our ideas about Dash info and let's
+
+04:33.090 --> 04:39.000
+see for boat info actually you know what.
+
+04:39.000 --> 04:45.510
+I don't think we have any specific style for that part just just that particular div what I do want
+
+04:45.510 --> 04:46.050
+to do
+
+04:49.220 --> 04:56.420
+is I want to add a big class one of our utilities I want these BGP light so in addition to the idea
+
+04:56.420 --> 05:05.630
+of about info let's add a class of BGP light and save and as you can see it's very faint but it is grey
+
+05:05.660 --> 05:06.440
+it's not white.
+
+05:07.300 --> 05:07.730
+OK.
+
+05:07.730 --> 05:10.890
+And then for the info right let's style that.
+
+05:10.910 --> 05:15.820
+So about info and then there's a class of info right.
+
+05:16.100 --> 05:25.340
+And we want to float to the right and we want to set the width to half 50 percent and just going to
+
+05:25.340 --> 05:33.620
+set a min height of 100 percent and let's see for the image.
+
+05:34.260 --> 05:34.510
+OK.
+
+05:34.520 --> 05:36.560
+This and this in this image is in line.
+
+05:36.560 --> 05:38.160
+It's not a background image.
+
+05:38.330 --> 05:41.650
+And by default it'll break out of its container.
+
+05:41.660 --> 05:47.990
+So usually with images you want to set the width to 100 percent because what it does is it contains
+
+05:47.990 --> 05:52.070
+it 100 percent of its container which in this case is in full right.
+
+05:52.070 --> 05:54.430
+So when to copy this right here.
+
+05:54.640 --> 05:55.940
+I'm going to copy that.
+
+05:56.600 --> 06:04.010
+And we want to say image you want to target the AMG tag and then we want to set the width of the image.
+
+06:04.010 --> 06:06.690
+Actually you know what I'm going to do 70 percent.
+
+06:07.820 --> 06:09.950
+So we'll say with 70 percent.
+
+06:10.190 --> 06:13.120
+And we also want to display it as a block.
+
+06:13.430 --> 06:20.600
+And if you remember back in the section where we talked about the display block display inline I showed
+
+06:20.600 --> 06:26.840
+you an example of an image and I wanted to align it in the middle but we couldn't do margin Auto on
+
+06:26.840 --> 06:30.550
+the image because an image by default is displayed in line.
+
+06:30.560 --> 06:38.400
+So that's why I'm going to display this block because I want to set the margin to auto.
+
+06:38.420 --> 06:38.710
+All right.
+
+06:38.780 --> 06:40.220
+Let's save that.
+
+06:40.220 --> 06:40.520
+Good.
+
+06:40.520 --> 06:46.780
+Now we want to take this which is in info left and we want to float it to the left.
+
+06:46.820 --> 06:59.750
+So let's let's go right here and we'll say about Dash info the class info dash left and flow to the
+
+06:59.750 --> 07:09.440
+left we'll set the width to 50 percent and the men height to 100 percent and save.
+
+07:09.500 --> 07:10.290
+And there it goes.
+
+07:10.310 --> 07:13.500
+Now we have that floated to the left.
+
+07:13.610 --> 07:15.970
+Now we need some spacing here right.
+
+07:15.980 --> 07:20.120
+Because it's right up against the header it's right up against the footer.
+
+07:20.750 --> 07:27.280
+So a lot of times what I'll do is I'll add a utility class for padding and sometimes for margin.
+
+07:27.290 --> 07:35.300
+So I'm going to go to my stop my utilities up here utility classes that we've been creating and let's
+
+07:35.300 --> 07:36.640
+create one for padding.
+
+07:36.650 --> 07:38.810
+So we'll see padding.
+
+07:39.170 --> 07:46.100
+We'll just say padding and let's do some p y padding and what I mean by p y want to do.
+
+07:46.190 --> 07:49.950
+Make this a class what I mean by P Y is the y axis.
+
+07:49.970 --> 07:52.630
+So padding for the top and bottom.
+
+07:52.790 --> 08:00.870
+And let's do P Y 1 and we'll make that padding on the top and bottom 10 pixels.
+
+08:00.920 --> 08:01.530
+OK.
+
+08:01.580 --> 08:11.150
+We could even since this is only going to be one property we could go like that and copy it down and
+
+08:11.150 --> 08:17.300
+then we'll do p y two even if we're not using them right now we could have them available for the future
+
+08:17.300 --> 08:22.190
+if we were going to add more pages so let's say 20 pixels 30 pixels.
+
+08:22.460 --> 08:25.430
+OK so we have these different padding classes now.
+
+08:25.900 --> 08:30.920
+I'm going to save it and I'm gonna go and add one to the about info.
+
+08:31.280 --> 08:39.590
+OK so right here about info in addition to be light let's do padding y dash 3 which should be 30 pixels
+
+08:39.590 --> 08:40.740
+on the top and bottom.
+
+08:40.760 --> 08:41.900
+Let's save.
+
+08:42.020 --> 08:42.770
+And there we go.
+
+08:42.800 --> 08:48.650
+Now we have some spacing here and then whenever we have a section where we want to add some padding
+
+08:48.650 --> 08:53.010
+to the top and bottom we can simply put in one of these utility classes.
+
+08:53.030 --> 08:58.030
+So this is this stuff is is it's not mandatory.
+
+08:58.040 --> 09:03.770
+I mean we could put up put padding on the about info but I think it's much cleaner to do it this way
+
+09:04.040 --> 09:08.540
+because you have these classes that are available to you whenever whenever you want as opposed to just
+
+09:08.540 --> 09:14.240
+having you know senseless padding in and background colors for every single element.
+
+09:14.240 --> 09:18.010
+You just have these classes you can add kind of like a framework.
+
+09:18.170 --> 09:18.470
+OK.
+
+09:18.500 --> 09:22.330
+So let's move on here.
+
+09:22.490 --> 09:23.720
+What else did I want to do.
+
+09:23.720 --> 09:26.570
+I think that's all we want to make the image circle.
+
+09:26.640 --> 09:34.970
+Ok well we want to add a radius to the image so to do that we just need to go back to our CSX and go
+
+09:34.970 --> 09:43.340
+down to where we have our image which is we've written credit quite a bit of CSX already.
+
+09:43.400 --> 09:50.090
+So right here this is this I am G tag we just want to add a border radius to this so we'll see a border
+
+09:50.120 --> 09:54.770
+dash radius so we're going to set it to 50 percent and save.
+
+09:54.770 --> 09:57.660
+And now you'll see that it's a circular image.
+
+09:57.740 --> 10:03.920
+Now the last thing I want to do is make this heading bigger because right now I have it as an H1 which
+
+10:03.920 --> 10:06.350
+is the biggest heading and I still want the text bigger.
+
+10:06.590 --> 10:13.000
+So I'm going to add a class to it and I'm going to call this L dash heading.
+
+10:13.040 --> 10:18.230
+So we'll call the wheel so we'll do large heading and we'll use this as a utility because we can use
+
+10:18.230 --> 10:20.100
+it on other headings as well.
+
+10:20.180 --> 10:32.210
+So let's go up here and see we'll go right under the clear right here and say dot l dash heading and
+
+10:32.240 --> 10:38.950
+I'm just going to set the font size to let's do 40 pixels and save.
+
+10:39.020 --> 10:39.760
+And there we go.
+
+10:39.800 --> 10:41.930
+Now the text is bigger.
+
+10:41.930 --> 10:45.890
+So let's move on to the next section which is going to be the testimonials.
+
+10:45.890 --> 10:49.550
+And since we have the clear I mean we have the floats here.
+
+10:49.670 --> 10:55.040
+We have to clear them so we're going to add a class of clear which we already have in our C Ss and then
+
+10:55.040 --> 11:01.350
+we'll add our section with the idea of testimonials.
+
+11:02.120 --> 11:09.400
+And I'm also going to have a class here of P Y three because I want to add padding here as well.
+
+11:09.530 --> 11:13.610
+Then we want our container so you can see the you can see the pattern here.
+
+11:13.760 --> 11:18.770
+It's just sections stacked on top of each other and then we have our container to move the content in
+
+11:18.770 --> 11:24.470
+the middle if we want some kind of background image or something we put it on the section which I'm
+
+11:24.470 --> 11:29.220
+actually gonna do so inside the testimonials.
+
+11:29.270 --> 11:32.270
+Let's see we're going to have a heading.
+
+11:32.300 --> 11:40.880
+Let's do an H two but I'm also gonna give this a class of L dash heading because I want it to be large
+
+11:40.910 --> 11:46.940
+and we'll say what our guests say.
+
+11:47.620 --> 11:49.380
+OK so those are H two.
+
+11:49.730 --> 11:57.200
+Let's add a testimonial so basically we're gonna have two testimonials here and we're gonna give them
+
+11:57.470 --> 12:05.660
+a class of testimonial and also big primary because we wanted that we want them to have this tan background
+
+12:06.140 --> 12:08.510
+so let's do a class of testimonial
+
+12:11.090 --> 12:17.770
+and inside the testimonial we're gonna have the image of the person.
+
+12:17.780 --> 12:26.710
+So this is going to go to slash image and then let's check person 1 dot j peg for the all time and we'll
+
+12:26.720 --> 12:35.030
+just give her a name we'll say Samantha and then under the image is the testimonial so it'll be a paragraph
+
+12:35.060 --> 12:37.550
+and let's do Lorem 40
+
+12:41.300 --> 12:42.680
+so that's one testimonial.
+
+12:42.680 --> 12:51.920
+And I'm gonna give the div here also a class of BJP primary which will give it that color that background
+
+12:51.920 --> 12:52.480
+color.
+
+12:52.670 --> 13:00.620
+And then we can just copy this whole div the whole testimonial and go on to the next round here and
+
+13:00.620 --> 13:05.200
+just change the image to Person 2 and we'll change the name is it.
+
+13:05.240 --> 13:06.160
+They both female.
+
+13:06.160 --> 13:06.370
+Yeah.
+
+13:06.380 --> 13:08.090
+So we'll just change the name to.
+
+13:08.090 --> 13:10.000
+I don't know Jen.
+
+13:10.580 --> 13:12.730
+So let's save and take a look.
+
+13:13.820 --> 13:15.570
+OK so it doesn't look too good.
+
+13:15.620 --> 13:20.880
+So let's go ahead and add some C Ss so right below the where we did the about stuff.
+
+13:23.900 --> 13:33.110
+Let's do I.D. testimonials and I want the height to be six hundred pixels.
+
+13:33.500 --> 13:42.490
+And let's give it a background image of let's do you are Al it's gonna be outside of the CSF folder
+
+13:42.490 --> 13:46.650
+into the images folder and then into and then we want to test Fiji.
+
+13:46.950 --> 13:53.560
+K We don't want it to repeat we'll do center center slash cover.
+
+13:53.560 --> 14:01.330
+We want the whole image to show and then let's add let's do a padding top of 40 pixels just to push
+
+14:01.370 --> 14:04.660
+that as the heading and all this stuff down right here.
+
+14:04.690 --> 14:04.930
+All right.
+
+14:04.960 --> 14:07.180
+So this is the testimonials.
+
+14:07.190 --> 14:09.020
+Six hundred pixels area.
+
+14:09.160 --> 14:13.450
+And as you can see everything is is busting out and it's because of the size of the images.
+
+14:13.810 --> 14:20.770
+So I'm going to grab those images so let's say testimonial.
+
+14:20.920 --> 14:28.150
+And then each one of those testimonials has a class of testimonial and then I'm going to grab onto the
+
+14:28.150 --> 14:30.900
+image and I'm going to give it.
+
+14:31.000 --> 14:31.450
+Let's see.
+
+14:31.450 --> 14:45.000
+Let's do a width of one hundred pixels and save Wait a minute up this should be testimonials.
+
+14:45.220 --> 14:51.670
+OK so now that the images are smaller it doesn't bust out of its container anymore so let's see.
+
+14:51.670 --> 14:52.710
+Let's let's do this.
+
+14:52.720 --> 14:54.520
+Let's start from here and go down.
+
+14:54.520 --> 14:57.580
+So this H to what's needed to I believe
+
+15:00.100 --> 15:07.990
+say testimonials dot want to target the H two.
+
+15:07.990 --> 15:10.600
+And we're gonna set the color to white.
+
+15:11.350 --> 15:14.560
+And let's let's align it to the center.
+
+15:14.560 --> 15:22.060
+So text align center and let's do padding bottom 40 pixels
+
+15:28.350 --> 15:29.420
+why isn't that.
+
+15:29.450 --> 15:36.090
+Or oh I put it so I put this testimonial attack and this H two is not within either of these divs and
+
+15:36.090 --> 15:38.220
+these divs have the classic testimonial.
+
+15:38.220 --> 15:39.080
+So this is wrong.
+
+15:39.090 --> 15:43.420
+We just want that there we go.
+
+15:43.470 --> 15:45.870
+OK so let's see.
+
+15:45.930 --> 15:53.970
+So for the testimonial Div I want to add some styles for that so I'm going to copy this because that
+
+15:53.970 --> 15:55.200
+one's for the image.
+
+15:55.200 --> 15:57.510
+This is for the actual div.
+
+15:57.510 --> 16:03.570
+I'm going to set some padding to 20 pixels.
+
+16:03.570 --> 16:06.010
+Let's do some margin bottom just to push.
+
+16:06.150 --> 16:08.120
+Push them down.
+
+16:08.990 --> 16:13.920
+And if we added more testimonials with the debt with a div with the class of testimonial this would
+
+16:13.920 --> 16:16.200
+apply to those as well.
+
+16:16.320 --> 16:21.690
+So it's the margin bottom 40 pixels let's do over.
+
+16:21.810 --> 16:25.590
+Actually I'll do that after let's save that.
+
+16:26.640 --> 16:30.810
+And then I want this the image to float to the left.
+
+16:30.810 --> 16:31.320
+OK.
+
+16:31.320 --> 16:34.110
+And we don't have to make the text float to the right.
+
+16:34.110 --> 16:36.360
+It'll automatically push the text over.
+
+16:36.360 --> 16:45.530
+So in the image let's say float left and save.
+
+16:45.600 --> 16:45.920
+OK.
+
+16:45.960 --> 16:51.050
+Now the images float to the left and it's right up against the edge though.
+
+16:51.090 --> 16:56.960
+So I'm going to add some margin right to the image to push the text over.
+
+16:57.240 --> 17:03.420
+So margin right to 20 pixels push the text over.
+
+17:03.420 --> 17:12.480
+Let's also make the image rounded so add a border radius of 15 percent.
+
+17:13.110 --> 17:13.730
+And there we go.
+
+17:13.740 --> 17:16.840
+That looks pretty good.
+
+17:16.890 --> 17:20.250
+Let's see for the testimonial itself.
+
+17:20.400 --> 17:24.740
+Let's give that let's could do us a little bit of a rounded corner here.
+
+17:24.780 --> 17:30.060
+So the testimonial class I'll do border dash radius.
+
+17:30.060 --> 17:31.940
+Let's do five pixels.
+
+17:32.010 --> 17:37.670
+So it has a little bit of a rounded corner and then I want it to be a little bit see through.
+
+17:37.800 --> 17:46.320
+So in CSX we have a property called opacity where we can make the the element opaque so basically transparent
+
+17:46.320 --> 17:54.630
+and we can add a value from 0 2 0 to 1 where 1 is is what it is now.
+
+17:54.630 --> 17:56.040
+Not see through at all.
+
+17:56.190 --> 17:58.470
+And zero is completely transparent.
+
+17:58.620 --> 18:03.770
+So basically the higher the the the less transparent.
+
+18:03.780 --> 18:08.040
+So I want to do zero point nine because I want it to be barely transparent.
+
+18:08.070 --> 18:15.390
+So right here for our testimonial div let's do opacity zero point nine and save.
+
+18:15.390 --> 18:17.520
+And you can see you can barely see through it.
+
+18:17.670 --> 18:22.070
+If I do zero point five and save now you can really see through it.
+
+18:22.100 --> 18:29.550
+But the problem here is when you have when you add opacity to a div like this it also makes everything
+
+18:29.550 --> 18:30.870
+within it opaque.
+
+18:30.870 --> 18:36.480
+So even the text we can't really read the image we can see through and that's not really what we want
+
+18:36.960 --> 18:42.780
+even if we wanted the background to be really see through like this really transparent and we wanted
+
+18:42.840 --> 18:48.480
+the text to be really readable we would have to do something different we'd have to add another element
+
+18:48.810 --> 18:51.740
+and then make just the background see through.
+
+18:51.740 --> 18:56.150
+So basically we'd have to add an overlay and I'm going to show you how to do that later on.
+
+18:56.190 --> 19:01.110
+Now right now if you want it to be just a little bit see through then you could add it to the whole
+
+19:01.110 --> 19:07.080
+div like we are now because it's it's such a small amount that the text is still readable the image
+
+19:07.350 --> 19:08.900
+you can still see the image.
+
+19:09.030 --> 19:12.530
+But at the same time it's still a little opaque.
+
+19:12.570 --> 19:16.590
+OK so I'll show you how to do an overlay later on.
+
+19:16.620 --> 19:18.950
+So I think that's it.
+
+19:18.960 --> 19:21.090
+Yeah that looks pretty good.
+
+19:21.140 --> 19:21.570
+Let's see.
+
+19:21.570 --> 19:22.670
+Let's compare it with that.
+
+19:22.710 --> 19:23.240
+Yeah.
+
+19:23.340 --> 19:24.450
+So that's good.
+
+19:24.450 --> 19:28.930
+Wait why is it that I missed some padding.
+
+19:28.940 --> 19:31.790
+I think I did see
+
+19:34.990 --> 19:35.550
+testimony.
+
+19:35.590 --> 19:36.160
+Oh I had.
+
+19:36.160 --> 19:36.490
+You know what.
+
+19:36.490 --> 19:38.500
+I had one hundred pixels padding on the top.
+
+19:40.330 --> 19:41.830
+There we go.
+
+19:41.860 --> 19:42.780
+OK.
+
+19:43.250 --> 19:45.430
+So that's our ball page.
+
+19:45.550 --> 19:46.170
+It's nothing.
+
+19:46.180 --> 19:50.380
+I mean there's not a ton of content but I think it looks pretty good.
+
+19:50.390 --> 19:51.960
+I think the home page looks pretty good.
+
+19:51.970 --> 19:57.430
+So especially if this is your first Web site in the next video we're going to start on the contact page
+
+19:57.430 --> 19:58.660
+which just has a form.
+
+19:58.660 --> 20:01.600
+We have some icons and and that should be it.
+
+20:01.630 --> 20:01.900
+All right.
+
+20:01.900 --> 20:03.010
+So I'll see you in the next one.

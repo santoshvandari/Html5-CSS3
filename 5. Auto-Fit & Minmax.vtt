@@ -1,0 +1,139 @@
+WEBVTT
+
+00:00.210 --> 00:06.960
+All right so in this video we're going to look at auto fit and min max which can make your grid kind
+
+00:06.960 --> 00:08.250
+of responsive.
+
+00:08.250 --> 00:14.100
+And it's good in certain situations not so good in some other situations it's great for like image gallery
+
+00:14.100 --> 00:19.350
+stuff like that but probably not so much for just regular Web site layout.
+
+00:19.350 --> 00:29.720
+So going to create a new file here called 0 4 underscore min max Don h t AML and generator.
+
+00:29.790 --> 00:30.930
+Each team out here
+
+00:34.880 --> 00:35.870
+OK.
+
+00:35.970 --> 00:39.090
+And just going to copy the styling for the item
+
+00:42.460 --> 00:52.990
+and paste that in here and then in the body let's put our parents in then we'll do item
+
+00:56.880 --> 00:59.390
+and let's do times four.
+
+00:59.440 --> 00:59.690
+OK.
+
+00:59.710 --> 01:06.960
+So if four grid items so let's set display grid on to our parent element here
+
+01:09.740 --> 01:15.070
+and then we're gonna set grid template columns.
+
+01:15.270 --> 01:17.430
+And I want to set it to repeat
+
+01:20.070 --> 01:22.170
+and I want to set in here.
+
+01:22.170 --> 01:23.170
+Auto fit.
+
+01:23.220 --> 01:25.110
+So auto dash fit.
+
+01:25.110 --> 01:33.090
+And then instead of just setting a width here I'm going to use min max which is a minimum and a maximum.
+
+01:33.090 --> 01:39.270
+So it's gonna take in those two things I'm going to say a minimum of 300 pixels a maximum of 1 FIA which
+
+01:39.270 --> 01:41.330
+is just the whole fraction.
+
+01:41.430 --> 01:44.430
+So let's save this and let's open this up
+
+01:47.790 --> 01:48.060
+OK.
+
+01:48.090 --> 01:54.540
+So immediately you can see that there's at this browser size we have two columns.
+
+01:54.540 --> 01:54.870
+Right.
+
+01:54.870 --> 02:01.970
+But as soon as I get to three hundred pixels which is our minimum it's going to just go to it.
+
+02:02.100 --> 02:03.360
+They're going to stack.
+
+02:03.540 --> 02:05.690
+So it's pretty responsive.
+
+02:05.730 --> 02:10.770
+And if I go bigger you'll see we'll have three until it hits they hit three hundred.
+
+02:10.770 --> 02:14.070
+Goes back goes to two bigger.
+
+02:14.070 --> 02:29.120
+Now if we were to make this to like 200 and let's add in a bunch of items here and save.
+
+02:29.330 --> 02:33.100
+So now you can see that it's it's pretty responsive.
+
+02:33.100 --> 02:38.390
+It stacks here but it's only good for certain types of content in my opinion.
+
+02:38.410 --> 02:45.080
+I don't use it for regular layout because if I wanted to have like let's just let's say I just wanted
+
+02:45.080 --> 02:52.660
+three boxes right where we have an icon some text it's like the features or whatever for the Web site.
+
+02:52.940 --> 02:56.270
+I don't ever want it to be like that.
+
+02:56.810 --> 03:03.680
+You know so I like to have more control over it in media queries so that I can set it to be either three
+
+03:03.680 --> 03:05.290
+or stack two like that.
+
+03:05.300 --> 03:07.730
+I don't want this midpoint here.
+
+03:08.450 --> 03:12.960
+So it's good for some some things but not so good for others.
+
+03:13.250 --> 03:16.520
+Image galleries things like that it's really good for.
+
+03:16.520 --> 03:19.080
+But I did want to just show you that.
+
+03:19.430 --> 03:24.830
+But in the next video before we get to I'm going to show you how to use media queries with the grid
+
+03:24.830 --> 03:25.610
+as well.
+
+03:25.610 --> 03:31.180
+But before we get to that I want to show you something called GRID template areas which are really nice
+
+03:31.190 --> 03:37.960
+they allow you to basically map out your content visually within your CSX and I'll show you what I mean
+
+03:37.970 --> 03:38.870
+in the next video.

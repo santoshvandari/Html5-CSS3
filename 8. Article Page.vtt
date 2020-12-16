@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.330 --> 00:05.820
+All right so in the last video we created our boat page and we added the page container which is going
+
+00:05.820 --> 00:08.940
+to be the grid that we use for all in our pages.
+
+00:08.940 --> 00:13.310
+Now the article does each channel is going to be pretty similar.
+
+00:13.320 --> 00:18.900
+We're gonna add like a couple extra things in the main article but the layout will be the same basically.
+
+00:19.140 --> 00:26.400
+So going to copy the about Dot each team all content and go to Article dot each to Ellen Page set in.
+
+00:26.400 --> 00:26.750
+All right.
+
+00:26.760 --> 00:28.670
+And then we'll go up to the top here.
+
+00:28.680 --> 00:30.340
+Let's change the title.
+
+00:30.360 --> 00:31.170
+We'll just say
+
+00:33.930 --> 00:41.150
+for the title we'll just say the latest news I guess it doesn't really matter.
+
+00:41.280 --> 00:46.230
+And then we want to remove the current from the about so we're not going to have a class of current
+
+00:46.230 --> 00:49.250
+because the article page is not in the menu.
+
+00:49.590 --> 00:56.100
+And then for the section let's give it an idea of article like that and we're going to keep the page
+
+00:56.100 --> 00:56.840
+contain.
+
+00:56.850 --> 01:06.750
+We're going to keep the the article tag here and let's see for the h 1 0 1 thing we didn't do is is
+
+01:06.750 --> 01:08.200
+add the L heading.
+
+01:08.220 --> 01:10.050
+So let's do that real quick.
+
+01:10.080 --> 01:12.100
+So that's obviously a utility class.
+
+01:12.140 --> 01:13.320
+So let's put it
+
+01:17.960 --> 01:19.510
+put it right under the padding here.
+
+01:19.520 --> 01:26.570
+So let's say a class l heading and I believe I did.
+
+01:26.570 --> 01:30.490
+Font Size 3 room.
+
+01:30.620 --> 01:32.120
+Let's see what that looks like.
+
+01:32.150 --> 01:32.690
+All right yeah.
+
+01:32.750 --> 01:33.030
+Good.
+
+01:33.770 --> 01:39.440
+So for the article we have our heading which I'm going to change.
+
+01:39.440 --> 01:43.490
+I'm just going to do large five for the title.
+
+01:43.490 --> 01:46.970
+And underneath the H one we're gonna have some metadata.
+
+01:47.000 --> 01:54.470
+Okay so an article or a blog post usually will have things like the author date stuff like that.
+
+01:54.470 --> 02:00.370
+So we're gonna create a class a div with the class of meta and inside meta.
+
+02:00.590 --> 02:02.660
+I'm going to put a small tag.
+
+02:02.780 --> 02:05.550
+OK I don't I don't know if we went over small tags.
+
+02:05.570 --> 02:13.580
+Basically it's an it's an inline element that will make the text smaller by default I forget what the
+
+02:13.580 --> 02:16.350
+percentages but it makes it a little smaller.
+
+02:16.400 --> 02:22.370
+And then in here I'm going to I'm going to put an icon of a user just make sure we use font awesome
+
+02:22.370 --> 02:22.850
+up here.
+
+02:23.270 --> 02:24.330
+Yes we did.
+
+02:24.330 --> 02:31.620
+So let's say I with the class of F.A. s dots F A Dash user.
+
+02:31.670 --> 02:34.970
+And the reason I want this icon is because I'm putting the author's name.
+
+02:35.030 --> 02:42.770
+So it's just a little icon next to the author name we're gonna say written let's say written by John
+
+02:42.770 --> 02:45.900
+Doe and then we'll just put the date.
+
+02:45.930 --> 02:54.420
+I'll just say like January January 12th 2019.
+
+02:55.030 --> 03:01.070
+Okay so that's in the small tag and then we want to have a div with the class of category because we
+
+03:01.070 --> 03:03.140
+want to put the category here as well.
+
+03:03.230 --> 03:10.580
+And this is we're going to say an entertainment article so we have a class of category dash Ian T and
+
+03:10.580 --> 03:21.650
+let's say entertainment and then let's see under that we can just keep the same text.
+
+03:21.650 --> 03:24.380
+But one thing that we do need is an image.
+
+03:24.380 --> 03:27.870
+So I'm going to put the image above the H1 actually.
+
+03:27.880 --> 03:29.350
+So we'll do image.
+
+03:29.570 --> 03:38.780
+Let's point to image slash articles and we'll use and one since this is an entertainment article and
+
+03:38.780 --> 03:41.390
+that should be good.
+
+03:41.390 --> 03:42.140
+Let's see.
+
+03:42.140 --> 03:44.060
+Let's save it and let's see what it looks like.
+
+03:44.060 --> 03:49.250
+So if I go to the home page I have all of these pointing to Article dot h t email and that's what it's
+
+03:49.250 --> 03:52.460
+going to look like and we're going to style this matter a little bit.
+
+03:52.460 --> 03:57.740
+But I also want to add an extra box on the side here are right here up above.
+
+03:57.890 --> 04:00.740
+Which will be a list of categories.
+
+04:00.830 --> 04:07.730
+So let's scroll down here to where we have our aside which is the join our club and I'm going to change
+
+04:07.730 --> 04:14.290
+the color for this page will say secondary that's what's good about having these utility classes that
+
+04:14.300 --> 04:19.970
+you can easily change things around the site and then you have variables in the CSX file which makes
+
+04:19.970 --> 04:22.220
+it easy to change the values.
+
+04:22.220 --> 04:30.560
+Now I want to go right above this and let's create another aside and this aside is also going to it's
+
+04:30.560 --> 04:40.040
+going to have an I.D. of categories but let's give it a class of card and we'll put an H two in here
+
+04:40.040 --> 04:41.930
+and we'll say categories
+
+04:46.510 --> 04:53.670
+and under the H two we'll have a L and we're gonna use our lists class and we'll do an ally and let's
+
+04:53.670 --> 04:58.180
+just put a link that goes nowhere and we're gonna have this.
+
+04:58.380 --> 05:05.280
+We're gonna put little Chevron icons next to each one so let's use font awesome here we'll do I dot
+
+05:05.310 --> 05:17.150
+F.A. s and the icon is F.A. dash Chevron dash right like that and then let's put a space after it and
+
+05:17.150 --> 05:25.160
+then we'll put sports OK and then I'm gonna grab this and just copy it down let's do one two three four
+
+05:25.160 --> 05:29.060
+more and we'll change this one let's see we have sports
+
+05:32.510 --> 05:38.390
+entertainment let's do technology
+
+05:41.020 --> 05:43.720
+fashion and shopping.
+
+05:43.720 --> 05:44.630
+It doesn't matter.
+
+05:45.470 --> 05:45.930
+OK.
+
+05:45.940 --> 05:46.980
+So save that.
+
+05:46.990 --> 05:53.120
+And there we go it automatically gets put in the sidebar so the grid is pretty powerful.
+
+05:53.200 --> 05:54.870
+You know we just add display grid.
+
+05:54.910 --> 06:01.840
+Add a couple grid template columns maybe some spans and we have our layout for all of our inner pages
+
+06:02.080 --> 06:05.060
+without having to do floats or anything like that.
+
+06:05.080 --> 06:10.260
+Now I just want to style this this meta area because it doesn't look very good it's very squished together
+
+06:10.270 --> 06:16.540
+I just want and I also want to give it like some some a look of texture so we'll add a background color
+
+06:16.540 --> 06:17.770
+to it as well.
+
+06:17.860 --> 06:26.760
+So let's go into our style sheet here and let's go down.
+
+06:26.770 --> 06:30.840
+We're targeting something that's on a specific page now.
+
+06:30.840 --> 06:40.720
+So going to go under home articles right above the footer and let's say the idea of article
+
+06:43.870 --> 06:45.680
+and then we want the class of meta
+
+06:48.640 --> 06:51.070
+so I'm actually going to use flex for this.
+
+06:51.070 --> 06:55.570
+This is this is definitely something that you would use flex for and you can see the difference between
+
+06:55.570 --> 06:58.990
+using grid and flex like the grid is good for this type of thing.
+
+06:58.990 --> 07:05.290
+This this the layout of all the boxes and stuff and then flex is good for inner elements aligning stuff
+
+07:05.290 --> 07:12.670
+like this or menus and you know just small simple stuff that's that's one dimensional.
+
+07:12.670 --> 07:19.840
+So let's say display flex and you could use the grid for this but I think it's it's stupid to use the
+
+07:19.840 --> 07:30.940
+grid for this and then we're going to let's let's justify our content and we want to we want to do space
+
+07:30.940 --> 07:38.560
+between K I want I want the category to be over to the right because if we look at the markup in the
+
+07:38.560 --> 07:41.480
+meta we have this is now a flex box right.
+
+07:41.500 --> 07:45.070
+And then the small tag is going to be one flex item.
+
+07:45.070 --> 07:48.100
+This is another and we want space in between the two.
+
+07:48.100 --> 07:58.780
+So it pushes the category over and then let's do a actually let's do a line items center as well and
+
+07:58.780 --> 08:01.620
+then we'll do a background.
+
+08:02.560 --> 08:07.210
+Gonna do a background of Triple E and just add some padding.
+
+08:07.210 --> 08:13.760
+So zero point five room and let's save that take a look good.
+
+08:13.780 --> 08:19.830
+Now this even though we align center this this category I want to push it down just a little bit.
+
+08:19.850 --> 08:38.110
+So let's do article dot met a category and same margin top let's do zero point for random and that just
+
+08:38.110 --> 08:41.050
+pushes it down a little bit into the middle.
+
+08:41.050 --> 08:41.350
+OK.
+
+08:41.380 --> 08:46.550
+So I think that's it guys are our site is complete except for the responsiveness of it.
+
+08:46.570 --> 08:53.290
+If I if we bring this down to Mobile size you'll see that things two things don't look very well.
+
+08:53.290 --> 08:58.990
+So we're gonna have to just add some media queries and make this look good.
+
+08:58.990 --> 09:01.120
+All right so I'll start doing that in the next video.

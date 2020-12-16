@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.420 --> 00:05.190
+All right so up to this point we've looked at most of each team all five and the basics of CSX.
+
+00:05.190 --> 00:11.370
+We created a little hotel Web site and it does use some elements of responsive design but it still isn't
+
+00:11.370 --> 00:15.560
+responsive because we have yet to add media queries where they're needed.
+
+00:15.600 --> 00:19.950
+If you go and you take the hotel website and you make your browser really small it's going to look like
+
+00:19.950 --> 00:20.430
+crap.
+
+00:20.460 --> 00:23.310
+But we're gonna fix that by the end of this section.
+
+00:23.310 --> 00:27.470
+So I just want to quickly go over what responsiveness is and how we can achieve it.
+
+00:27.570 --> 00:35.520
+Then we'll jump in we'll look at media queries and some other stuff such as relative CSX units so responsive
+
+00:35.520 --> 00:41.670
+design is when we use each team Alan assess to make a web site or an application layout respond to different
+
+00:41.670 --> 00:49.230
+screen sizes and a few years ago making a web site or layout responsive was kind of a luxury I can actually
+
+00:49.230 --> 00:55.170
+remember asking clients if they wanted to pay extra to make their Web site responsive.
+
+00:55.170 --> 00:57.140
+But now it's really a necessity.
+
+00:57.150 --> 00:59.240
+It's not an add on or a luxury.
+
+00:59.280 --> 01:05.310
+And the reason for that is the huge increase of the use of smartphones and tablets and other devices.
+
+01:05.310 --> 01:07.380
+A lot of people now don't even have computers.
+
+01:07.380 --> 01:10.230
+They're fine with either a tablet or even their smartphone.
+
+01:11.010 --> 01:14.990
+So let's look at some of the different ways to achieve responsive design.
+
+01:15.420 --> 01:21.150
+So the viewport tag is important because it tells the browser how to handle the pages and dimensions
+
+01:21.150 --> 01:22.560
+and scaling.
+
+01:22.560 --> 01:29.190
+We've already set this in our pages and it's actually default with Emmett with our boiler plate generation
+
+01:29.460 --> 01:35.370
+in V.S. code using fluid widths is also something we've done remember our containers we use max width
+
+01:35.370 --> 01:41.940
+instead instead of just width allows the text to adapt to smaller screen sizes.
+
+01:41.940 --> 01:47.580
+Now the most significant part of Responsive Web Design and probably the most difficult are media queries
+
+01:47.610 --> 01:54.180
+not setting them but learning how to use them and when to use them and media queries allow us to specify
+
+01:54.180 --> 01:57.500
+certain CSF styles based on the screen size.
+
+01:57.510 --> 02:04.080
+So for example if we wanted to float some elements if the screen was bigger than six hundred pixels
+
+02:04.290 --> 02:11.250
+we could write a media query for that if we wanted a font size to be smaller on just mobile devices
+
+02:11.430 --> 02:14.760
+that were 500 pixels or less we could do that as well.
+
+02:14.760 --> 02:16.790
+All right so we're going to we're going to do that.
+
+02:16.820 --> 02:21.740
+And we're also going to update our hotel project to use media queries.
+
+02:21.780 --> 02:27.800
+Another good idea is to use REM units over pixels it keeps sizes intact with the rest of the page because
+
+02:27.800 --> 02:34.480
+a rem unit is a multiplier of whatever the root H HTML elements font size is case and we're going to
+
+02:34.530 --> 02:40.250
+we're going to go over that in this section we're also going to talk about VH and VW units.
+
+02:40.440 --> 02:46.450
+So we also have a design method or strategy called mobile first which is pretty popular these days.
+
+02:46.530 --> 02:52.590
+This is where you first design the layout for mobile devices meaning small screens and then you add
+
+02:52.590 --> 02:59.500
+your media queries for the larger screen styles and you might even display less content on mobile devices.
+
+02:59.500 --> 03:04.590
+You know your most important content and then have more and larger devices when you have more real estate.
+
+03:05.270 --> 03:09.780
+And we're actually going to do a mobile first project later on all right.
+
+03:09.810 --> 03:14.700
+So in the next video I want to start to look at media queries in their syntax.
+
+03:14.880 --> 03:21.210
+Then we'll talk a little bit about relative units like RAM and M and finally will update our hotel project
+
+03:21.210 --> 03:22.530
+to be responsive.

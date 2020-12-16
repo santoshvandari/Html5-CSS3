@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.380 --> 00:00.840
+All right guys.
+
+00:00.840 --> 00:04.740
+Now we're going to look at some tags that have to do with topography some of the stuff we already looked
+
+00:04.740 --> 00:05.390
+at like.
+
+00:05.390 --> 00:07.950
+Like the h1 tag which is a heading tag.
+
+00:07.950 --> 00:13.830
+We'll look at some of the other headings hand also paragraph and the strong tag and stuff like that.
+
+00:13.830 --> 00:21.150
+So let's create a new file here called 0 4 underscore topography dot aged him.
+
+00:21.390 --> 00:26.920
+I'm going to show you some other stuff as well some little tips and tricks when it comes to V.S. code.
+
+00:27.000 --> 00:35.310
+So let's put in our boilerplate which is we'll do exclamation tab and that puts in all of our R structure
+
+00:35.310 --> 00:36.060
+here.
+
+00:36.060 --> 00:46.120
+And for the title it's changed this will just say like headings paragraphs topography.
+
+00:48.650 --> 00:49.090
+OK.
+
+00:49.110 --> 00:53.220
+And then we're gonna go down to the body here and I'm going to put a comment.
+
+00:53.220 --> 01:00.510
+Now if you want to just put a comment like an empty comment you can just do control and then the question
+
+01:00.510 --> 01:07.470
+mark or the forward slash key and that will put an empty comment it might be camp command and that key
+
+01:07.470 --> 01:08.250
+on a Mac.
+
+01:08.250 --> 01:12.650
+I'm not sure because on my Mac I actually switch the control and the command keys.
+
+01:12.780 --> 01:16.550
+So when I say control it might it might be command on a Mac.
+
+01:16.560 --> 01:18.120
+I'm not sure.
+
+01:18.120 --> 01:24.470
+So let's go ahead and just put it in headings here and another tab if you want to go to the next line
+
+01:24.480 --> 01:27.340
+obviously you can go to the end here and you can hit enter.
+
+01:27.510 --> 01:31.380
+But if you're in the middle here and you hit enter it'll do that.
+
+01:31.380 --> 01:37.530
+If you want to have a clear new line and you're in the middle you can hold down control or again might
+
+01:37.530 --> 01:42.830
+be command and then enter and it'll create a new line no matter where you are here.
+
+01:42.970 --> 01:45.880
+It'll create a new line if you hold down control.
+
+01:45.900 --> 01:46.170
+OK.
+
+01:46.200 --> 01:50.700
+So keep that in mind and I'm gonna give you these little tips throughout the course because I think
+
+01:50.700 --> 01:57.270
+that it really helps you write your code in a more efficient way and in a much faster way.
+
+01:57.270 --> 01:57.570
+All right.
+
+01:57.570 --> 02:01.080
+So let's let's put some headings in here so H1.
+
+02:01.080 --> 02:10.080
+I'm just gonna say heading one and hold control and enter to go to the next line to h to tab heading
+
+02:10.320 --> 02:13.800
+to s h three
+
+02:20.100 --> 02:27.420
+heading for what else we had heading 5 it goes up to 6.
+
+02:28.150 --> 02:31.690
+So each six headings six.
+
+02:31.690 --> 02:31.960
+All right.
+
+02:31.960 --> 02:37.900
+So let's save this and let's open this up with the live server I might have to close some of your other
+
+02:37.900 --> 02:40.750
+tabs and this is what it's going to look like.
+
+02:40.750 --> 02:42.670
+So this is H1.
+
+02:42.700 --> 02:43.930
+It's going to be the largest.
+
+02:43.930 --> 02:49.480
+And then it goes smaller and smaller and then h six is going to be the smallest.
+
+02:49.480 --> 02:51.960
+Now you can change the font size or CSX.
+
+02:51.970 --> 02:57.720
+You can do whatever you want through CSX but by default each one is going to be the largest.
+
+02:57.760 --> 03:04.330
+Now a little tip or some advice that I would give is is you usually only want to have an H 1 H one per
+
+03:04.330 --> 03:12.910
+page because the search engines actually look at this and you want to have like you want to describe
+
+03:12.910 --> 03:18.310
+whatever the content is for instance if it's a blog post you want to have your your blog post title
+
+03:19.150 --> 03:20.310
+in the H1.
+
+03:20.380 --> 03:21.250
+OK.
+
+03:21.400 --> 03:22.210
+And you can have more.
+
+03:22.240 --> 03:26.940
+I mean you can have multiple H ones but it's good practice to just have one per page.
+
+03:27.280 --> 03:29.990
+And then these other ones you can have as many as as you want.
+
+03:30.130 --> 03:32.200
+Say you have a role of blog posts.
+
+03:32.200 --> 03:35.060
+Maybe you have an h three for each title.
+
+03:35.080 --> 03:35.440
+OK.
+
+03:35.440 --> 03:42.000
+So I mean it's not you know mandatory but I would suggest using one H1 per page if possible.
+
+03:42.070 --> 03:43.090
+So those are headings.
+
+03:43.090 --> 03:47.370
+Let's go ahead and look at paragraphs.
+
+03:47.410 --> 03:50.510
+We've already done this but it's just a p tag.
+
+03:50.710 --> 03:54.000
+Now I'm going to give you another tip here with Emmett.
+
+03:54.010 --> 03:59.380
+We can generate some dummy text if you need just some tax to kind of fill.
+
+03:59.380 --> 04:06.700
+You know as a place holder you can do Lorem L O R E M and then hit tab and it'll give you a paragraph
+
+04:06.700 --> 04:13.780
+of dummy text or filler text and if you want to specify a certain number of words like let's say we
+
+04:13.780 --> 04:20.220
+want a 10 word sentence or paragraph we could do Lorem 10 tab and it'll give us 10 words.
+
+04:20.260 --> 04:20.490
+OK.
+
+04:20.530 --> 04:29.950
+We could even do like Lorem 500 and we'll give us 500 words I'm gonna do let's say one hundred and just
+
+04:29.950 --> 04:35.590
+generate some tax and if I save this and we go and we take a look you'll see that we have this paragraph
+
+04:35.590 --> 04:43.090
+of 100 words now inside the paragraph I'm gonna add we'll just go anywhere it doesn't really matter
+
+04:43.380 --> 04:46.020
+and I'm gonna put in a strong tag.
+
+04:46.180 --> 04:46.740
+Okay.
+
+04:46.930 --> 04:52.090
+Now with this code once they put the beginning tag in it adds the ending one automatically so I'm just
+
+04:52.090 --> 04:59.080
+going to just cut that out and put that over here and then anything that's within here is within the
+
+04:59.080 --> 04:59.990
+strong tag.
+
+04:59.990 --> 05:03.850
+So let's save this and go back and notice that it's bolded.
+
+05:03.850 --> 05:04.170
+OK.
+
+05:04.180 --> 05:11.500
+So by default it will be bold but with CSX you could change the styling of this strong tag to be a different
+
+05:11.500 --> 05:15.980
+color or to be bigger a bigger font whatever you want to do with it.
+
+05:16.150 --> 05:19.210
+But it's it's made to make it stand out.
+
+05:19.300 --> 05:27.580
+And at the same time you have the emphasis tag which is the E M So let's say E and I'm going to just
+
+05:27.580 --> 05:34.190
+put the ending tag let's say down here and if we save that we take a look by default it's going to be
+
+05:34.190 --> 05:34.930
+a italic.
+
+05:34.930 --> 05:36.940
+It's actually this right here.
+
+05:37.060 --> 05:37.370
+OK.
+
+05:37.420 --> 05:41.950
+You can see that the text is italic which again you can change within CSX.
+
+05:41.950 --> 05:45.010
+And we're going to get into CSX in the next section.
+
+05:45.010 --> 05:47.770
+So that's strong and emphasis.
+
+05:47.770 --> 05:51.960
+We also have the line break which I showed you in one of the slides.
+
+05:52.000 --> 06:00.470
+It's one of these self closing tags so let's say we want a space right here without adding a new paragraph.
+
+06:00.610 --> 06:05.580
+If I just do this and save it's not going to reflect that in the browser.
+
+06:05.620 --> 06:05.890
+OK.
+
+06:05.890 --> 06:12.310
+This is only in the ED I can put a million spaces here and save and it doesn't show in the browser to
+
+06:12.310 --> 06:18.880
+actually have a line break without adding a new paragraph you would add in a bizarre tag.
+
+06:18.880 --> 06:24.750
+So I'm going to go right here and put in a b r tag.
+
+06:25.370 --> 06:30.260
+So what that's going to do is it's going to knock this on to the next line in the browser as you can
+
+06:30.260 --> 06:31.450
+see right here.
+
+06:31.640 --> 06:43.570
+If I wanted it to go down again I could add in another bar tag I'm just going to put a comment here.
+
+06:44.850 --> 06:45.170
+OK.
+
+06:45.170 --> 06:51.020
+So if we have two line breaks you'll see that it pushes it down again and I can push it down as much
+
+06:51.020 --> 06:51.980
+as I want.
+
+06:52.160 --> 06:57.110
+And since it's a self closing tag you could either do this format or you could do that.
+
+06:57.110 --> 07:07.070
+So both of these are going to work as you can see I tend to use this just the HDMI five but sometimes
+
+07:07.070 --> 07:13.370
+I use a visual studio code extension called prettier which will auto format your code and it adds a
+
+07:13.370 --> 07:14.910
+slash automatically.
+
+07:14.960 --> 07:20.570
+So if you watch some of my other videos and I have the slash that's because I'm using prettier and I
+
+07:20.570 --> 07:23.690
+might introduce that extension to you guys later.
+
+07:23.690 --> 07:28.340
+Now in addition to the bar tab we have an H.R. tag which is a horizontal rule.
+
+07:28.340 --> 07:39.340
+I'm actually going to put that see we'll go right here and it's a horizontal rule and what this does.
+
+07:39.560 --> 07:41.250
+The H.R. tag is it.
+
+07:41.270 --> 07:44.470
+It does a line break but it also creates an actual line.
+
+07:44.480 --> 07:48.750
+So if we check this so you can see it put a line across the screen.
+
+07:48.750 --> 07:51.300
+OK so that's a horizontal rule.
+
+07:51.320 --> 07:57.320
+Now if you've studied each tool before especially if it was a while ago before age 2 0 5 you might have
+
+07:57.320 --> 07:59.990
+seen tags like the bold tag.
+
+08:00.110 --> 08:05.960
+So if we put a B here you might have scenes to stuff like this.
+
+08:05.960 --> 08:14.030
+So if we actually take a look at this in Chrome you'll see that it actually is bold but there's the
+
+08:14.030 --> 08:20.000
+bold tag along with the eye tag for italics and stuff like that that you tag for underline it's all
+
+08:20.000 --> 08:28.680
+been deprecated because h Tim L. is not meant for styling and this strong tag replace the bull tag because
+
+08:28.680 --> 08:34.160
+the strong tag is a semantic tag it doesn't necessarily mean it's bold it just means that it should
+
+08:34.160 --> 08:40.700
+stand out in some way but we leave it up to the C to to say what that way is even though it builds by
+
+08:40.700 --> 08:44.450
+default and that's kind of hard to understand.
+
+08:44.510 --> 08:49.520
+It did confuse me in the beginning when each team of five came out but just know that we don't really
+
+08:49.580 --> 08:56.030
+use this anymore or the you or I think there was asked for strike through although we do have a semantic
+
+08:56.030 --> 09:05.280
+tag for deleted text which does by default at a strike through so let's say we do DL and we're going
+
+09:05.280 --> 09:08.450
+to wrap this text right here.
+
+09:08.630 --> 09:14.420
+So this is actually a semantic tag so we'll save this and take a look and notice that it does add a
+
+09:14.420 --> 09:20.360
+strike through ok but it doesn't necessarily mean that it has to be strike through we can change that
+
+09:20.360 --> 09:26.120
+in the CSX if we want maybe we want it to be highlighted with a yellow background or something like
+
+09:26.120 --> 09:32.510
+that it doesn't necessarily mean strike through like the s tag did they took that out of each team L5
+
+09:32.830 --> 09:34.210
+or deprecated it.
+
+09:34.220 --> 09:34.490
+All right.
+
+09:34.490 --> 09:39.530
+So in the next video we're going to take a look at links hyperlinks and we're going to also look at
+
+09:39.530 --> 09:41.900
+embedding images into a web page.

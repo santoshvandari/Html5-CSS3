@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.470 --> 00:00.720
+All right.
+
+00:00.720 --> 00:07.500
+So we deployed our Web site to nullify and we have our form working but our domain looks like this.
+
+00:07.500 --> 00:10.860
+So obviously you're not going to want that for your Web site.
+
+00:10.860 --> 00:14.100
+Now there's plenty of domain registrars out there.
+
+00:14.100 --> 00:15.600
+I go with name cheap there.
+
+00:15.600 --> 00:18.210
+They're cheap obviously.
+
+00:18.210 --> 00:20.770
+Also they're very reliable they have great support.
+
+00:20.790 --> 00:25.440
+I've been using them for years it's a company that I personally recommend they're not paying me a dime
+
+00:25.440 --> 00:25.800
+for this.
+
+00:25.800 --> 00:29.660
+However I do have an affiliate link that I'm going to include if you guys can use that.
+
+00:29.670 --> 00:33.190
+If you do purchase a domain that would mean a lot to me.
+
+00:33.210 --> 00:35.490
+So what you would do is just search.
+
+00:35.490 --> 00:37.530
+So let's say we wanted like news.
+
+00:37.680 --> 00:44.480
+Obviously news grid is taken let's search for like news grid site and click the search.
+
+00:44.910 --> 00:46.720
+And as you can see it is available.
+
+00:46.730 --> 00:50.250
+The dot dot com is available and it's 888 per year.
+
+00:50.250 --> 00:50.500
+OK.
+
+00:50.520 --> 00:57.690
+So pretty cheap and then down here you can see some other options like the dot net dot A.I. which is
+
+00:57.690 --> 00:59.120
+much more expensive.
+
+00:59.370 --> 01:01.320
+Dot org dot.
+
+01:01.430 --> 01:04.600
+Oh and then there's a bunch of other ones down here.
+
+01:04.740 --> 01:10.230
+Usually I would suggest if it's if it's a real site like your company's site I would suggest registering
+
+01:10.230 --> 01:17.040
+the dot com the dot net the dot org all the big T all I would suggest taking because you want to be
+
+01:17.040 --> 01:23.040
+in control of that especially if your company you know gets big and stuff like that but I'm not going
+
+01:23.040 --> 01:27.150
+to actually register a domain because I already have some so I'm going to going to use one of my my
+
+01:27.780 --> 01:28.980
+current domains.
+
+01:29.010 --> 01:34.320
+So once you register and you go through the process if you go to your dashboard you're going to see
+
+01:34.320 --> 01:36.270
+all of your active domains.
+
+01:36.270 --> 01:41.070
+Now the one that I'm going to use for this project is this app demo 12 dot com.
+
+01:41.450 --> 01:41.710
+OK.
+
+01:41.730 --> 01:47.490
+So going to go to manage and this is going to bring you to basically the control panel for that particular
+
+01:47.490 --> 01:48.720
+domain.
+
+01:48.720 --> 01:55.100
+Now before I do anything here we're going to go back to notify and step two as you can see is setup
+
+01:55.170 --> 01:59.100
+a custom domain and you're going to put in the domain you want to use.
+
+01:59.110 --> 02:13.650
+I'm going to say w w w dot app demo 112 dot com and click verify already has an owner is it you.
+
+02:13.710 --> 02:14.430
+Yes.
+
+02:14.430 --> 02:15.000
+Domain
+
+02:20.980 --> 02:21.290
+All right.
+
+02:21.320 --> 02:27.890
+So now here says by default your site is always accessible subdomain.
+
+02:27.890 --> 02:32.960
+So it's still going to be accessible through the net lo fi subdomain which is that this crazy domain
+
+02:32.960 --> 02:34.180
+here.
+
+02:34.220 --> 02:41.390
+Now there's a few things we need to do to connect app demo 112 dot com two to our account because if
+
+02:41.390 --> 02:46.370
+it just let us do it anyone could take any domain and connect it to that to that Web site.
+
+02:46.850 --> 02:50.790
+So I'm going to go to this.
+
+02:50.930 --> 02:57.130
+This documentation page here this custom domains documentation and scroll down.
+
+02:57.470 --> 03:04.830
+And this basically tells us what to do but it's kind of long winded so I'm going to go to see where
+
+03:04.840 --> 03:15.400
+is it's right here so we can use we can use nullifies built in DNS but I'm not going to do that I'm
+
+03:15.400 --> 03:16.940
+going to use this method here.
+
+03:17.110 --> 03:22.780
+It says create in a record pointing your route domain to our load balancers IP address which is this
+
+03:22.780 --> 03:27.180
+number here 1 0 4 1 9 8 1 4 5 2.
+
+03:27.180 --> 03:28.840
+So it's this is an IP address.
+
+03:29.060 --> 03:29.300
+OK.
+
+03:29.350 --> 03:32.430
+Remember we talked about this a long time ago.
+
+03:32.620 --> 03:34.260
+So we're going to copy this.
+
+03:34.510 --> 03:40.810
+This load balancer IP and we're gonna go to our domain panel and go to advanced DNS.
+
+03:40.860 --> 03:41.290
+OK.
+
+03:41.290 --> 03:43.780
+And remember it said create in a record.
+
+03:43.780 --> 03:48.170
+So down here you can see it says add new record.
+
+03:48.230 --> 03:49.030
+I'm going to click that.
+
+03:49.030 --> 03:51.550
+I'm going to choose a record for the hosts.
+
+03:51.550 --> 03:58.510
+We're gonna put the at symbol meaning just the root the root of the domain.
+
+03:58.660 --> 04:03.550
+And we're going to paste in that IP address and then click the checkmark.
+
+04:03.550 --> 04:03.820
+All right.
+
+04:03.820 --> 04:08.520
+And then the next thing we need to do is add a new record of a C name.
+
+04:08.530 --> 04:16.030
+OK so we're going to say C name and we're going to point W WW to whatever your nullified domain is which
+
+04:16.030 --> 04:17.200
+mine is this right here.
+
+04:17.230 --> 04:19.480
+So years will obviously be different.
+
+04:19.480 --> 04:25.240
+So I'm going to grab that and I'm going to put that in here inside the C name and we're gonna click
+
+04:25.240 --> 04:26.410
+the check.
+
+04:26.500 --> 04:26.890
+All right.
+
+04:26.890 --> 04:34.670
+Now this stuff up here I'm actually going to delete stuff those already here OK so we should we just
+
+04:34.670 --> 04:37.220
+have our a record and see Name Record.
+
+04:37.220 --> 04:44.390
+Now if you needed to have an e-mail addresses with this domain you would find a separate e-mail service
+
+04:44.420 --> 04:47.540
+and you would have to use what's called an M X record.
+
+04:47.750 --> 04:53.920
+But I'm not going to get into this in this video in this course we just want to deploy this Web site.
+
+04:54.080 --> 05:03.350
+So we have this stuff done so let's go back to our domain management page and let's reload and you can
+
+05:03.350 --> 05:07.460
+see now that check check status thing is gone and these are now green.
+
+05:07.460 --> 05:12.320
+So I don't know if it's going to work yet sometimes it takes a little while to propagate but let's try
+
+05:12.320 --> 05:12.560
+it out.
+
+05:12.560 --> 05:20.010
+We'll go to w w dot app demo 1 12:00 dot com.
+
+05:20.010 --> 05:21.090
+There it is.
+
+05:21.090 --> 05:25.550
+So it's as easy as that to create our domain.
+
+05:25.560 --> 05:25.860
+All right.
+
+05:25.860 --> 05:29.780
+And as you can see it's HDTV s and this is all free.
+
+05:29.790 --> 05:33.690
+Didn't pay a dime didn't put any credit card information in nothing.
+
+05:33.720 --> 05:37.020
+So it's it's a fantastic service really.
+
+05:37.050 --> 05:40.560
+So if we go back to overview everything is done.
+
+05:40.560 --> 05:45.540
+Everything is deployed we have our form just to test that out one more time we'll go down here.
+
+05:45.540 --> 05:50.870
+I'll just say Brad at g mail and subscribe back to site.
+
+05:50.880 --> 05:56.520
+We'll go back to our panel here and reload and if we look at the form submissions you can see Brad at
+
+05:56.520 --> 05:57.230
+g mail.
+
+05:57.270 --> 05:57.890
+So that's it.
+
+05:57.920 --> 06:00.530
+Our Web site is deployed and that's that.
+
+06:00.690 --> 06:00.960
+All right.
+
+06:00.960 --> 06:02.520
+So I'll see you guys in the next video.

@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.330 --> 00:04.080
+All right so in the last video we did the header or the showcase area.
+
+00:04.100 --> 00:05.550
+So now we're going to move on to the.
+
+00:05.580 --> 00:10.170
+What we do section so we're gonna go in the H2 all file directly under the header.
+
+00:10.170 --> 00:16.740
+Let's put a comment here or we'll just say section and let's say what we do and we're gonna use in a
+
+00:16.740 --> 00:21.260
+show five section tag and we're gonna give this an idea of what.
+
+00:21.690 --> 00:28.520
+Now if we look at the final version here we go down to the what we do you can see that there's it's
+
+00:28.560 --> 00:33.610
+a light gray background also there's some padding on the top and bottom.
+
+00:33.660 --> 00:42.930
+So what I'm going to do is I'm gonna add a class here of BMG dash light and then I'm gonna do a class
+
+00:42.930 --> 00:50.040
+of P Y dash one K so remember I think we did this in the hotel website where we had the padding classes
+
+00:50.040 --> 00:52.580
+so Pete the Y is the y axis.
+
+00:52.590 --> 01:00.330
+Basically we want padding on top and bottom and we'll have p y one two and three and b g lt will be
+
+01:00.330 --> 01:02.360
+the the light gray background.
+
+01:02.570 --> 01:03.000
+OK.
+
+01:03.010 --> 01:09.840
+Now we want to also have a container in here because we want the content to stay in the middle we don't
+
+01:09.840 --> 01:17.940
+want it to go all the way over and then we're going to have an H to K and this H two is going to have
+
+01:17.940 --> 01:24.720
+a class and I don't want it to be as large as the showcase heading which has a class of L headings so
+
+01:24.720 --> 01:33.750
+let's do a m heading for medium so medium heading and then we're gonna have the text primary around
+
+01:33.750 --> 01:35.000
+the word What.
+
+01:35.010 --> 01:42.910
+K so we're gonna put a span in here with the class of text primary and we're going to say what.
+
+01:42.930 --> 01:49.160
+And then after the span put a space and say we do OK.
+
+01:49.170 --> 01:54.960
+And then under the H two is where we're going to put our boxes and we're going to just give this a class
+
+01:54.960 --> 02:01.710
+of items which is gonna be our Flex container and then inside our Flex container we're gonna have these
+
+02:01.710 --> 02:07.850
+three items as flex items so let's just give them a class of item.
+
+02:07.920 --> 02:10.660
+So we'll do item times three.
+
+02:10.680 --> 02:14.940
+So we have three items and each one is gonna have an icon.
+
+02:14.940 --> 02:17.720
+So it's two I class of font.
+
+02:17.730 --> 02:18.300
+Awesome.
+
+02:18.300 --> 02:27.870
+Also a class of F A Dash university is gonna be this first one here and I want to make it a little bigger
+
+02:27.870 --> 02:39.070
+so let's do f a two X that'll increase it increase the size and then I also want a div with the h three.
+
+02:39.090 --> 02:43.530
+This one will say investment banking
+
+02:46.400 --> 02:51.930
+and then under that let's do a paragraph with law we'll do Lord 10.
+
+02:52.070 --> 02:52.520
+OK.
+
+02:52.530 --> 02:54.230
+And then I'm just going to copy the I.
+
+02:54.270 --> 03:03.390
+The icon and the div and we want to do the same thing in both of these items except we want to change
+
+03:03.390 --> 03:11.820
+of course the icon we don't want all the same icons this one is gonna be F.A. book dash reader and then
+
+03:11.820 --> 03:22.200
+this last one is going to be FAA dash pencil dash opt in and let's just change the title so this next
+
+03:22.200 --> 03:34.300
+one let's do portfolio management and then tax and custodial.
+
+03:34.350 --> 03:35.660
+Okay now we'll save that.
+
+03:35.670 --> 03:37.620
+Let's take a look at ours.
+
+03:38.070 --> 03:40.890
+So it's going to look like this without any styling.
+
+03:40.890 --> 03:51.660
+So now let's hop over to style CSX and we don't have the container yet so maybe we should do that first.
+
+03:51.780 --> 03:55.020
+So let's see it's basically utility class.
+
+03:55.040 --> 04:01.830
+So we'll go right here we'll say container and remember containers that we want to restrict it to a
+
+04:01.830 --> 04:03.180
+certain width.
+
+04:03.450 --> 04:11.640
+We want to give it a max width which I'm going to do eleven hundred pixels and then let's do margin
+
+04:11.670 --> 04:15.500
+auto to make sure that it aligns in the middle.
+
+04:15.750 --> 04:17.340
+And then just a little padding.
+
+04:17.940 --> 04:24.440
+So I'll do zero top and bottom to ram left and right and let's do overflow hidden.
+
+04:26.180 --> 04:27.180
+OK.
+
+04:27.600 --> 04:32.670
+So save that and you can see we have some padding here and this is going to stay in the middle no matter
+
+04:32.670 --> 04:41.580
+what another class we added was the M heading class actually know what I think I wanted to yeah I will
+
+04:41.580 --> 04:43.910
+also want the the headings centred.
+
+04:44.100 --> 04:53.460
+So in addition to m heading let's also add a class of text center and we'll go to our style sheet and
+
+04:53.490 --> 05:00.510
+let's put text center and I just want that to align the text to the center.
+
+05:00.510 --> 05:04.350
+So that takes in text align center.
+
+05:05.770 --> 05:10.690
+OK so now that's moved to the center let's do the M heading.
+
+05:11.070 --> 05:20.540
+So we should put that right under the L heading I'm just going to copy this and font size for the M
+
+05:20.540 --> 05:29.750
+heading s change that is gonna be to REM and the margin bottom will leave that line height I guess we
+
+05:29.760 --> 05:32.410
+are we can leave that as well.
+
+05:33.140 --> 05:35.370
+So we'll save that.
+
+05:35.630 --> 05:35.960
+Good.
+
+05:35.960 --> 05:37.080
+So it's a little bigger.
+
+05:37.280 --> 05:43.670
+Now we also added that p y one because we need to have some padding here and at the bottom so we might
+
+05:43.670 --> 05:49.490
+as will add our padding classes now so I'll go to the bottom of the utility classes actually let's go
+
+05:49.490 --> 05:50.510
+right above the button.
+
+05:50.530 --> 05:54.890
+It doesn't really matter where you put this stuff but let's do P Y.
+
+05:54.920 --> 06:02.290
+Class P Y 1 so padding C padding.
+
+06:02.300 --> 06:06.140
+I'm going to do one point five Ram.
+
+06:06.470 --> 06:08.600
+Top and bottom.
+
+06:08.600 --> 06:08.980
+All right.
+
+06:08.990 --> 06:15.440
+And actually know what I'll do is since we only have one property here Let's shorten this up a little
+
+06:15.440 --> 06:25.610
+bit and then we'll copy this down and let's do two and three case we need to add more padding so to
+
+06:25.610 --> 06:31.660
+Let's do two RAM and then three we'll do three ram.
+
+06:31.880 --> 06:36.740
+So if we save that now you can see that we have some padding right here and if you want to make it bigger
+
+06:36.740 --> 06:38.870
+you could give it p y two if you want.
+
+06:39.850 --> 06:40.170
+OK.
+
+06:40.190 --> 06:48.710
+So I think that's good for the utility classes now let's work on the Flex items here and we're also
+
+06:48.710 --> 06:51.320
+gonna be styling the icon as well.
+
+06:51.320 --> 06:58.250
+But let's take the items so I'm going to go down below the showcase and let's just say
+
+07:03.750 --> 07:05.570
+section what we do.
+
+07:06.900 --> 07:07.210
+OK.
+
+07:07.220 --> 07:15.160
+So we have a class of items that wrap around all three and we want to display as a flex box.
+
+07:15.190 --> 07:25.320
+So once we save that it's going to align them in let's take a guy who just make this smaller so we can
+
+07:25.320 --> 07:28.940
+see both.
+
+07:29.020 --> 07:33.230
+Let's take each item.
+
+07:33.260 --> 07:35.150
+See what I want to do here.
+
+07:35.150 --> 07:45.080
+Yeah let's take each item in center center all the content so we'll say dot item and let's out of flex
+
+07:45.090 --> 07:54.190
+one and let's do text align center and save.
+
+07:54.240 --> 07:56.110
+Case looks pretty good.
+
+07:56.210 --> 08:05.210
+Let's also add padding to the item actually no one's going to do is add padding to the items itself
+
+08:07.590 --> 08:16.390
+so we'll do one room here and then let's also do padding on each item one room and save.
+
+08:16.620 --> 08:20.440
+So that kind of spreads it spreads stuff out a little bit.
+
+08:20.460 --> 08:23.900
+Now let's see for the icon here.
+
+08:23.910 --> 08:26.480
+I wanted to have that green circle around it.
+
+08:26.490 --> 08:28.560
+So let's let's target that.
+
+08:29.050 --> 08:30.660
+We'll go ahead and do.
+
+08:32.160 --> 08:32.650
+Actually no.
+
+08:32.670 --> 08:37.790
+Let's let's put the idea of what here.
+
+08:37.970 --> 08:39.290
+So what.
+
+08:39.300 --> 08:43.620
+And then items and then item we're just better targeting it.
+
+08:44.880 --> 08:50.220
+And then here I'm going to say what items item.
+
+08:50.220 --> 08:52.410
+And then we want to target the icon.
+
+08:52.800 --> 09:00.520
+And we're gonna have a background of our grass green color which is going to be hexadecimal 9 3 C B
+
+09:00.780 --> 09:08.130
+5 2 gives it that green and then to make it basically a circle.
+
+09:08.130 --> 09:11.720
+Because if I save that it's going to hate how it just goes back up.
+
+09:11.730 --> 09:15.410
+But unfortunately we just have to keep scrolling back down.
+
+09:15.420 --> 09:17.190
+But you can see we have the green background.
+
+09:17.610 --> 09:20.190
+So let's add some padding.
+
+09:20.700 --> 09:29.900
+So we'll do one round of padding and to make it circle we want to do a border radius of 50 percent.
+
+09:30.100 --> 09:32.330
+OK that'll give it that circle.
+
+09:32.360 --> 09:34.260
+So if I saved that then we go.
+
+09:34.260 --> 09:38.330
+We just want to add a little margin to the bottom to push the heading down.
+
+09:38.640 --> 09:44.100
+So we'll say margin bottom one room.
+
+09:44.190 --> 09:45.900
+Here we go.
+
+09:46.080 --> 09:48.670
+Now as this gets bigger the reason I'm using.
+
+09:48.670 --> 09:51.050
+No we have the widescreen CSX.
+
+09:51.050 --> 09:53.130
+Well that's not right.
+
+09:53.250 --> 09:55.030
+Okay so something.
+
+09:55.200 --> 09:57.000
+What did what did we miss here.
+
+09:57.030 --> 10:01.560
+So let's actually go back to the section content because that's where this overlay is.
+
+10:02.100 --> 10:06.160
+And I think it's because we have it.
+
+10:06.180 --> 10:10.980
+We have position absolute we have top comes down 60 left 0.
+
+10:10.980 --> 10:19.530
+We should also add right zero because this is positioned absolute so we'll do right zero and bottom
+
+10:19.530 --> 10:21.670
+zero.
+
+10:21.780 --> 10:24.040
+So we wanted to start right on the edge.
+
+10:24.050 --> 10:25.200
+I'll save that.
+
+10:25.350 --> 10:27.350
+And now it brings it back to the edge.
+
+10:27.360 --> 10:36.360
+So no matter how big or small this is you can see the overlay still covers it and it should still still
+
+10:36.360 --> 10:37.830
+reach the bottom no matter what.
+
+10:38.370 --> 10:38.640
+All right.
+
+10:38.670 --> 10:39.660
+So sorry about that.
+
+10:39.660 --> 10:42.290
+That little mistake there guys.
+
+10:42.510 --> 10:50.370
+But anyways yeah when we have a wide screen I actually want the icons to go on the side here but I'm
+
+10:50.370 --> 10:55.740
+not going to get into that until we get into the responsiveness we add that we actually start adding
+
+10:56.010 --> 11:01.100
+styles to the mobile and the widescreen dot see ISIS file.
+
+11:01.230 --> 11:05.530
+So I think that we're good for now and the next section or in the next video where either we're going
+
+11:05.530 --> 11:11.490
+to start to work on the WHO WE ARE section which if we look at this it's just basically going to be
+
+11:11.490 --> 11:17.760
+an image over here and then some text over here with a list or style it a little bit maybe we can get
+
+11:17.760 --> 11:20.610
+the clients in in the next video as well.
+
+11:20.610 --> 11:20.840
+All right.
+
+11:20.850 --> 11:21.600
+So I'll see you then.

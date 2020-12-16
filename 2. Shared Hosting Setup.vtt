@@ -1,0 +1,433 @@
+WEBVTT
+
+00:00.310 --> 00:06.240
+All right guys so we're going to deploy our site to a shared host with In Motion hosting which is a
+
+00:06.240 --> 00:09.060
+service that I've used for a long time.
+
+00:09.090 --> 00:10.810
+I'm actually going to create a new account.
+
+00:10.830 --> 00:12.390
+They're not paying me a dime for this.
+
+00:12.390 --> 00:18.420
+However I do have an affiliate link that I'll attach in a document to this lecture so if you are going
+
+00:18.420 --> 00:22.290
+to buy a package I'd appreciate it if you could use that link.
+
+00:22.290 --> 00:22.550
+All right.
+
+00:22.560 --> 00:27.420
+So I'm actually going to go ahead and set up an account just out of pocket just to demonstrate this
+
+00:27.420 --> 00:27.810
+to you.
+
+00:27.810 --> 00:32.970
+So as you can see there's different types of hosting they offer many of them are the types we've talked
+
+00:32.970 --> 00:33.690
+about.
+
+00:33.690 --> 00:37.590
+Now they're shared hosting plans are going to be the business hosting.
+
+00:37.650 --> 00:41.300
+You'll notice with different companies though they'll call it different things.
+
+00:41.340 --> 00:46.140
+They also have WordPress hosting which is basically the business hosting or shared hosting.
+
+00:46.140 --> 00:51.440
+But with Wordpress already pre configured WordPress is actually a content management system.
+
+00:51.540 --> 00:55.040
+And it might be something worth looking into after this course.
+
+00:55.140 --> 00:59.290
+They also a hosting dedicated servers reseller hosting.
+
+00:59.340 --> 01:03.010
+We're going to go ahead and click on learn more for business hosting.
+
+01:03.090 --> 01:08.220
+So as you can see if you choose any type of hosting that you're going to have additional packages with
+
+01:08.220 --> 01:14.330
+different price points and these prices here are actually if you paid for two years in advance three
+
+01:14.330 --> 01:17.350
+ninety nine you'll see one year for ninety nine.
+
+01:17.370 --> 01:19.670
+This one is one year six ninety nine.
+
+01:19.770 --> 01:25.620
+So very rarely if ever are you going to find a hosting company that allows you to actually pay three
+
+01:25.620 --> 01:28.310
+dollars and ninety nine cents a month by month.
+
+01:28.410 --> 01:32.610
+Usually you have to pay by year by two years sometimes they'll allow six months.
+
+01:32.610 --> 01:34.730
+It really depends on the company.
+
+01:34.740 --> 01:41.010
+But for now we're going to choose or I'm going to choose the cheapest version here for one year.
+
+01:41.010 --> 01:45.900
+Now the difference between these you can see is the number of Web sites so you can have different amounts
+
+01:45.900 --> 01:46.590
+of Web sites.
+
+01:46.590 --> 01:51.930
+The disk space and bandwidth is unlimited on all of these but you have to be careful with shared hosting
+
+01:51.930 --> 01:53.450
+even though it says Unlimited.
+
+01:53.610 --> 01:57.420
+If you start to slow the server down you start to slow down resources.
+
+01:57.430 --> 02:02.550
+They're either going to throttle you or they're going to ask you to bump up your package if you have
+
+02:03.410 --> 02:10.680
+a Web site that has a ton of users or it's a really big or big application something like that then
+
+02:10.710 --> 02:14.770
+you're going to want to use a VPN or dedicated server or something like that.
+
+02:14.940 --> 02:19.020
+But like I said most small business Web sites these are absolutely fine.
+
+02:19.020 --> 02:24.480
+I would probably say go with the middle tier but since I'm I'm just doing this for the course I'm going
+
+02:24.480 --> 02:30.210
+to choose the cheapest one available which is going to be one year for four ninety nine per month which
+
+02:30.210 --> 02:32.640
+should come to about 60 dollars a year
+
+02:35.460 --> 02:36.320
+yes.
+
+02:36.340 --> 02:43.780
+Now if you want an SSL certificate they do offer free SSL but you do have to have a dedicated IP for
+
+02:43.780 --> 02:48.790
+that which is an additional four dollars a month which is 48 dollars.
+
+02:48.880 --> 02:55.690
+So they're going to charge you an extra 48 dollars if you want a dedicated IP and an SSL I'm not going
+
+02:55.690 --> 03:00.280
+to choose that but just know that you will need to if you want SSL.
+
+03:00.670 --> 03:06.820
+And then here this is for just like a quick starter one page Web site for 100 bucks obviously we don't
+
+03:06.820 --> 03:08.120
+want that.
+
+03:08.320 --> 03:12.580
+And then if we want to install Wordpress or bold grid we could do that but we're not going to do that
+
+03:12.580 --> 03:13.300
+either.
+
+03:13.300 --> 03:14.800
+So let's click continue.
+
+03:14.800 --> 03:21.310
+And now it's going to ask about a domain now within motion you can purchase a domain through them.
+
+03:21.340 --> 03:26.950
+I think it's fourteen ninety nine per year or if you have your own you could choose this option here
+
+03:27.280 --> 03:32.530
+enter your domain and then you would have to go wherever you registered that domain and just update
+
+03:32.560 --> 03:40.050
+what's called name servers to point to you're in motion hosting account for just registering domains.
+
+03:40.060 --> 03:43.060
+I actually suggest name cheap dot com.
+
+03:43.060 --> 03:48.550
+I'll put an affiliate link for named cheap in the document as well but I'm just going to go ahead and
+
+03:48.550 --> 03:50.350
+purchase a new domain here.
+
+03:50.470 --> 03:58.160
+So I'm going to do edge ledger and I believe dot com is already taken but dot net is not.
+
+03:58.150 --> 04:02.890
+So I'm going to just choose edge ledger dot net as my domain.
+
+04:02.890 --> 04:03.090
+OK.
+
+04:03.100 --> 04:09.620
+So as you can see it's available so I'm going to add it to my cart and then over here you can see my
+
+04:09.620 --> 04:17.480
+total is eighty four eighty six that's for the entire year for the domain and for the hosting and let's
+
+04:18.000 --> 04:19.100
+continue here.
+
+04:19.320 --> 04:24.840
+I'm going to remove the domain privacy what that means is if someone tries to do a who is check on your
+
+04:24.840 --> 04:29.880
+domain they won't be able to see your like the e-mail address you used and stuff like that but I don't
+
+04:29.880 --> 04:30.620
+care about that.
+
+04:30.690 --> 04:32.820
+So I'll delete that.
+
+04:32.820 --> 04:38.400
+And then over here I am a returning customer but I want to create a whole new identity for this just
+
+04:38.400 --> 04:40.780
+because this is only for the course.
+
+04:40.920 --> 04:43.500
+So I'll go ahead and put an email address in here
+
+04:48.160 --> 04:49.080
+and continue
+
+04:54.580 --> 05:00.070
+and then it's probably going to take me to a page or I've to enter my credit card information and stuff
+
+05:00.070 --> 05:00.730
+like that.
+
+05:01.150 --> 05:01.390
+Yeah.
+
+05:01.420 --> 05:02.460
+All my information.
+
+05:02.460 --> 05:07.390
+So what I'm going to do is positive video I'm going to fill all this out and then I'll come back.
+
+05:07.960 --> 05:08.280
+All right.
+
+05:08.290 --> 05:14.290
+So I filled out all my information it gave me a summary up here so now I just need to click agree and
+
+05:14.290 --> 05:14.860
+check out
+
+05:21.990 --> 05:22.250
+OK.
+
+05:22.290 --> 05:26.020
+So now it says welcome to IN MOTION hosting order details.
+
+05:26.040 --> 05:31.860
+And down here it's gonna ask if we were creating a new Web site or transferring an existing web site.
+
+05:31.950 --> 05:35.850
+So we're gonna go ahead and click creating a new Web site.
+
+05:35.940 --> 05:42.360
+And they also ask if you want a one on one call from a new account specialist so someone that can actually
+
+05:42.360 --> 05:44.090
+call you and help you out if you need help.
+
+05:44.100 --> 05:45.320
+Which I think is really cool.
+
+05:45.330 --> 05:47.010
+But obviously when we're gonna click.
+
+05:47.010 --> 05:48.620
+No thanks.
+
+05:48.630 --> 05:54.570
+And then here they have really good documentation and support for you know the control panel setting
+
+05:54.570 --> 05:56.750
+up FCP accounts and stuff like that.
+
+05:56.850 --> 06:02.940
+And you can get custom articles sent to you but I'm not going to check any of these so we'll just leave
+
+06:02.940 --> 06:03.930
+them all blank.
+
+06:03.930 --> 06:05.740
+Well I guess we have to check at least one.
+
+06:05.910 --> 06:07.510
+So we'll do.
+
+06:08.520 --> 06:11.330
+Let's do the getting started
+
+06:14.690 --> 06:15.130
+OK.
+
+06:15.140 --> 06:17.350
+So it's going to process that.
+
+06:17.420 --> 06:24.260
+Now we should have an e-mail that has information on how to access our C panel our control panel and
+
+06:24.260 --> 06:25.370
+stuff like that.
+
+06:25.400 --> 06:30.140
+So I'm going to just pause the video and pull up that e-mail.
+
+06:30.180 --> 06:30.450
+All right.
+
+06:30.480 --> 06:32.430
+So this is the e-mail that you'll get.
+
+06:32.430 --> 06:37.950
+Welcome to emotion hosting and it's going to say get started with your account management panel also
+
+06:37.950 --> 06:38.780
+called.
+
+06:39.060 --> 06:44.340
+So your e-mail your log in is going to be your e-mail address and then it says to get started set your
+
+06:44.340 --> 06:45.360
+password here.
+
+06:45.360 --> 06:46.890
+So we're gonna go ahead and click that.
+
+06:46.890 --> 06:48.840
+We're gonna set a password.
+
+06:49.170 --> 06:55.140
+So you actually need something different here.
+
+07:01.720 --> 07:02.200
+All right.
+
+07:02.220 --> 07:08.990
+So that might be too simple.
+
+07:09.110 --> 07:10.980
+I'm gonna be cancelling this account anyways.
+
+07:10.990 --> 07:11.300
+All right.
+
+07:11.660 --> 07:18.740
+So this is your amp panel and this is this is basically in Motion's customer panel you can update your
+
+07:18.740 --> 07:25.610
+contact information your credit card info if you have trouble you can send in a support ticket and then
+
+07:25.610 --> 07:32.600
+down here you have your link to see panel which is basically your web hosting control panel and many
+
+07:32.600 --> 07:39.080
+many different companies you see panel it's the most popular type of control panel for managed hosting.
+
+07:39.110 --> 07:44.060
+You can also check your e-mail from here but you can also do that from C panel.
+
+07:44.150 --> 07:49.490
+You can install software like WordPress stuff like that you can manage your SSL certificates.
+
+07:49.490 --> 07:50.530
+So it's basically your.
+
+07:50.530 --> 07:52.040
+Your client panel.
+
+07:52.040 --> 07:53.900
+So let's go ahead and click on C. panel.
+
+07:53.900 --> 07:57.470
+And that should open up and let's just close this up.
+
+07:58.040 --> 08:04.100
+So this is your control panel for your basically your Web site your hosting account and you'll see there's
+
+08:04.100 --> 08:09.020
+different sections preferences we have a lot of the stuff that we have in the HAMP panel like contact
+
+08:09.020 --> 08:14.580
+information and to get back to amp you can click here or you can go click home.
+
+08:14.660 --> 08:20.240
+There's also links up here to get to different sections but e-mail you have your e-mail accounts you
+
+08:20.240 --> 08:26.990
+can set up your forwarders your email routing if spam filtering stuff like that domains if you wanted
+
+08:26.990 --> 08:32.630
+to add another domain if you want to create redirects you can do that from here if you want to install
+
+08:32.630 --> 08:39.450
+applications on your Web site like WordPress which is a blog slash CNS content management system you'll
+
+08:39.460 --> 08:45.590
+sort of like shopping carts open cart press to shop these are open source shopping carts that you can
+
+08:45.590 --> 08:47.590
+install and use on your Web site.
+
+08:47.810 --> 08:55.190
+You have software so PDP packages stuff like that files FCP accounts we're going to get into that because
+
+08:55.190 --> 09:02.540
+we need a way to actually upload our files to our site and databases if you get into application development.
+
+09:02.540 --> 09:05.980
+You probably want to get into like my as well or Postgres.
+
+09:06.080 --> 09:12.140
+These are relational databases and these are included as well metrics if you want to look at analytics
+
+09:12.170 --> 09:19.700
+your Web site visitors and so on security you can block certain IP addresses you do you have Shell access
+
+09:19.700 --> 09:24.910
+which means you can log in through the terminal into your account and do different things in advance
+
+09:24.920 --> 09:28.970
+we have things like cron jobs but that's way beyond this course.
+
+09:28.970 --> 09:29.480
+All right.
+
+09:29.600 --> 09:34.460
+And on the right side I mean I have mine blurred out just because this is sensitive information but
+
+09:34.460 --> 09:39.680
+it has all your stats and stuff like that the number of FCP accounts you use and email accounts and
+
+09:39.680 --> 09:40.590
+so on.
+
+09:40.610 --> 09:47.390
+So in the next video before we start to deploy our Web site I want to show you how to create email accounts
+
+09:47.480 --> 09:49.490
+as well as FTE accounts.

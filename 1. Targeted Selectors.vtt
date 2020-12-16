@@ -1,0 +1,376 @@
+WEBVTT
+
+00:00.170 --> 00:06.000
+All right guys so in this section we're gonna start to look at I guess more advanced parts of CSX or
+
+00:06.300 --> 00:12.420
+things that you're not going to use as much they're not as common but you should still know.
+
+00:12.540 --> 00:18.840
+And in this video we're going to look at targeted selectors or just different ways of selecting elements
+
+00:18.850 --> 00:19.950
+then we've already learned.
+
+00:20.200 --> 00:26.130
+So going to create a new file and what I've done is I've created a folder called CSF sandbox to just
+
+00:26.130 --> 00:31.950
+because the CSF sandbox that we've we've been working with is really filling up so I just figured I'd
+
+00:31.950 --> 00:33.960
+start a new one for this section.
+
+00:33.960 --> 00:41.550
+So let's create a file called 1 underscore and we'll call this targeted let's say targeted underscore
+
+00:42.210 --> 00:50.370
+selectors dot HDMI out and we're going to just put in our boilerplate here and let's change the title.
+
+00:51.030 --> 00:51.780
+Targeted
+
+00:54.210 --> 00:59.150
+selectors and we'll go ahead and put our style tags in.
+
+00:59.220 --> 01:04.560
+Now the HDMI out for this is going to be really weird but I'm doing it for a reason because I want to
+
+01:04.560 --> 01:07.460
+show you how to select certain parts of it.
+
+01:07.500 --> 01:15.270
+So we're going to create a div and in this div we'll have a paragraph with we'll just do Lorem something
+
+01:15.270 --> 01:22.920
+really short to swarm five and then under that I'm going to put a U L and let's do list item for the
+
+01:22.920 --> 01:29.550
+content we'll say item in an increment and number so Dollar Sign and let's do three or two times three
+
+01:30.030 --> 01:31.050
+and enter.
+
+01:31.110 --> 01:31.410
+All right.
+
+01:31.410 --> 01:37.010
+And then under the U L we're going to put another paragraph with alarm 5.
+
+01:37.050 --> 01:44.190
+I also want to make this item too I want to wrap that in a paragraph tag as well and you'll see why
+
+01:44.190 --> 01:46.010
+I'm doing this in a few minutes.
+
+01:46.020 --> 01:51.240
+So we're going to do that and then we're going to put one more paragraph under the div.
+
+01:51.270 --> 01:51.570
+OK.
+
+01:51.590 --> 01:54.990
+So outside of the div OK.
+
+01:55.020 --> 02:02.780
+So up in the style here if we do div P like this you guys you know what this is going to do it's going
+
+02:02.780 --> 02:06.210
+to look for any paragraph that's inside of a div.
+
+02:06.210 --> 02:06.650
+Right.
+
+02:06.660 --> 02:15.390
+So I'm just gonna put a background of let's do grey let's save it let's open this up with live server
+
+02:15.510 --> 02:19.950
+and I'm actually going to just make this a little bigger so you guys can see it better.
+
+02:20.040 --> 02:27.450
+So what's going on here is every paragraph within a div is has the grey background if we look at the
+
+02:27.450 --> 02:33.150
+markup here this paragraph is in the div this paragraph is in the div this one is in the div this last
+
+02:33.150 --> 02:33.870
+one is not.
+
+02:33.900 --> 02:36.890
+So that doesn't pertain to this selector.
+
+02:36.890 --> 02:45.330
+Now what if we wanted to select a paragraph that was directly in a div it was a direct child of the
+
+02:45.330 --> 02:45.790
+div.
+
+02:45.810 --> 02:52.740
+So to do that we just put a comment here we'll say direct child to do that what we could do is just
+
+02:52.800 --> 02:59.340
+add a greater than sine angle bracket here and this is this is saying that we only want a paragraph
+
+02:59.340 --> 03:02.040
+that is a direct child of a div.
+
+03:02.040 --> 03:08.190
+So let's save that and you can see that the middle one here this disappeared because it no longer pertains
+
+03:08.190 --> 03:10.080
+to that because this item.
+
+03:10.080 --> 03:14.900
+I'm sorry this paragraph it's direct parent is a list item.
+
+03:15.450 --> 03:16.140
+OK.
+
+03:16.260 --> 03:22.860
+I mean to do that it's a list item even though it is in this div it's not the direct parent K the direct
+
+03:22.860 --> 03:28.100
+parent is a list item then that parent is the well and then that parent is div.
+
+03:28.410 --> 03:35.340
+So at the same time we can also select something that is directly after an element.
+
+03:35.370 --> 03:37.270
+So something that's on the same level.
+
+03:37.380 --> 03:45.030
+So let's say directly after and I'm going to say div and I'm going to use a plus sign here and then
+
+03:45.030 --> 03:55.620
+a P and let's change the background to we'll just do da s we'll do dark grey and then we'll do color
+
+03:56.380 --> 03:57.060
+white.
+
+03:57.060 --> 03:59.750
+So let's save that and see what happens.
+
+03:59.760 --> 04:05.490
+So the last paragraph is affected by this selector right here and the reason for that is we're saying
+
+04:05.490 --> 04:11.760
+we want a paragraph where the element right before it is a div.
+
+04:11.760 --> 04:12.210
+OK.
+
+04:12.210 --> 04:15.540
+Now you might be saying what about this one there's a div here.
+
+04:15.540 --> 04:21.420
+This is a child of the div K. So this paragraph is inside the div which makes it a child.
+
+04:21.480 --> 04:25.950
+This one is a sibling of this div they're on the same level.
+
+04:25.950 --> 04:27.490
+This is not inside of it.
+
+04:27.660 --> 04:32.040
+So that's what this pertains to is basically a sibling.
+
+04:32.040 --> 04:32.390
+OK.
+
+04:32.400 --> 04:33.660
+So the next sibling.
+
+04:34.500 --> 04:34.900
+All right.
+
+04:35.820 --> 04:42.140
+Now the next thing I want to show you is how we can add attributes as selectors.
+
+04:42.150 --> 04:46.190
+So I'm actually going to add some more markup down here under the paragraph I'm going to put a couple
+
+04:46.200 --> 04:47.400
+links.
+
+04:47.400 --> 04:50.040
+So this this will just go nowhere.
+
+04:50.040 --> 04:55.960
+I'm just gonna say page one we'll just pretend it's a link to another page on the site.
+
+04:56.520 --> 05:02.590
+So page two and then let's do another link for this one let's have a go to Google
+
+05:05.260 --> 05:07.920
+and for the text will say Google.
+
+05:07.920 --> 05:08.200
+All right.
+
+05:08.200 --> 05:13.630
+Now usually when you have an external link you're gonna have a target attribute and set it to underscore
+
+05:13.660 --> 05:20.740
+blank and that will take it off the you know it won't redirect you within the same tab it'll open up
+
+05:20.740 --> 05:21.870
+another tab.
+
+05:22.150 --> 05:27.820
+And if we wanted to style this based on it having a target attribute we could do that.
+
+05:27.850 --> 05:39.040
+So let's go up here and let's say by attribute so I could say the I want all the tags that have an attribute
+
+05:39.100 --> 05:51.490
+of target and then I want to add a background of let's do red the color white.
+
+05:51.700 --> 05:57.790
+OK so if I save that notice said the google link now has a red background and that's because it has
+
+05:57.790 --> 05:59.020
+a target on it.
+
+05:59.020 --> 06:06.790
+Now if I were to add a target to this one here let's say target this time let's set it to underscore
+
+06:06.790 --> 06:12.010
+self will save and it gets a red background because it does have the target.
+
+06:12.010 --> 06:18.430
+Now in addition to this you can also you can reference the actual value.
+
+06:18.460 --> 06:26.010
+So if we want to say where the target is equal to underscore blank and say you'll see that now go it
+
+06:26.020 --> 06:32.320
+Google is the only one that has the red background because we're saying the target has to be blank where
+
+06:32.320 --> 06:34.030
+this one is actually self.
+
+06:34.470 --> 06:34.740
+OK.
+
+06:34.740 --> 06:39.430
+And I'm going to give you a more practical example of this so I'm just going to put that back like that
+
+06:39.880 --> 06:50.770
+and then let's go down here and let's say a specific attribute values and where I use this the most
+
+06:50.770 --> 06:57.820
+is with forms so or form inputs I should say so I want to just add some line breaks here and let's add
+
+06:57.820 --> 06:58.630
+a form
+
+07:01.350 --> 07:04.380
+and we're just going to have a couple inputs.
+
+07:04.380 --> 07:14.130
+So let's say input with the type of text and we don't need a name or idea we'll put a place holder and
+
+07:14.130 --> 07:19.560
+just say name and then I'll copy this down two more times this one will be an email I'm also going to
+
+07:19.560 --> 07:23.940
+change the type to email which is similar to a text field.
+
+07:23.940 --> 07:28.010
+This one is actually going to be a submits I want this to be a button to submit.
+
+07:28.080 --> 07:34.290
+So it's not going have a place holder however it needs a value because that's the text that is displayed.
+
+07:34.310 --> 07:34.620
+All right.
+
+07:34.650 --> 07:38.380
+So we'll save that and we get this right here.
+
+07:38.430 --> 07:47.370
+So let's say I want the name in the email input to go to be 100 percent with and add a little bit of
+
+07:47.370 --> 07:47.930
+margin.
+
+07:47.940 --> 08:00.930
+So if I were to just do input and say with 100 percent and then say margin bottom we'll do like 0 5
+
+08:01.000 --> 08:01.910
+pixels.
+
+08:02.170 --> 08:05.290
+And if we were to save that you'll see that all of these.
+
+08:05.320 --> 08:08.650
+This is gonna pertain to all of them because they're all inputs.
+
+08:08.650 --> 08:10.590
+They have different types but they're all inputs.
+
+08:10.600 --> 08:17.680
+So we may want to target certain types and in this case I want the name field in the email to have the
+
+08:17.680 --> 08:20.340
+hundred percent but not the button itself.
+
+08:20.350 --> 08:28.000
+So what I would do and this is something that I is pretty common for me is I would say input where the
+
+08:28.000 --> 08:30.710
+type equals text.
+
+08:30.850 --> 08:38.050
+If I do that only the name extends because it has a type of text but then we could put a comma we could
+
+08:38.050 --> 08:45.430
+say input where the type where the type equals email and save.
+
+08:45.430 --> 08:51.190
+And now both the name in the email are 100 percent and a lot of cases if it's like a contact form you'd
+
+08:51.190 --> 08:55.510
+also do the you know the text area as well but yeah.
+
+08:55.540 --> 09:00.400
+So that's how we can target specific values of attributes.
+
+09:00.430 --> 09:00.760
+OK.
+
+09:00.760 --> 09:02.590
+And it doesn't have to be input with the type.
+
+09:02.590 --> 09:06.220
+It can be any attribute at all.
+
+09:06.220 --> 09:07.090
+Why did that.
+
+09:08.560 --> 09:13.360
+Why did that change what did I do wrong here.
+
+09:13.390 --> 09:13.850
+There you go.
+
+09:13.940 --> 09:14.750
+All right.
+
+09:14.840 --> 09:23.390
+So I mean these are just some some other other methods to to target certain things in the DOM to style.
+
+09:23.510 --> 09:29.150
+You're not going to be using these as much obviously but you may run into a situation where they could
+
+09:29.150 --> 09:29.780
+help you out.
+
+09:30.530 --> 09:30.790
+All right.
+
+09:30.800 --> 09:37.130
+So in the next video we're going to talk about a special pseudo selector or a pseudo class called End
+
+09:37.190 --> 09:37.820
+Child.

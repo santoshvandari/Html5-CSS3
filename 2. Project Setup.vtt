@@ -1,0 +1,550 @@
+WEBVTT
+
+00:00.300 --> 00:05.970
+All right guys we're gonna get started so you should have in your section files you should have this
+
+00:05.970 --> 00:12.390
+project resources folder which has all the images that we need for the project as well as the typewriter
+
+00:12.450 --> 00:16.480
+script that we're going to include for the effect on the home page.
+
+00:16.500 --> 00:23.420
+So what we're gonna do is create a new folder for our Web site and just gonna call this portfolio Web
+
+00:23.420 --> 00:29.500
+site and inside here we're gonna have a disk folder.
+
+00:29.520 --> 00:35.550
+So going to create a folder called dist which is gonna be all the files that we would deploy the standard
+
+00:35.550 --> 00:40.500
+CSF files and so on outside of this will have our SAS files and everything.
+
+00:40.530 --> 00:46.620
+So in this disk folder we want to take the image and the javascript folder and just bring that in.
+
+00:46.620 --> 00:53.880
+OK so now what I'm gonna do is open up our portfolio Web site folder with VSO code and we should have
+
+00:53.910 --> 00:57.090
+a disk folder with the image in the javascript.
+
+00:57.090 --> 00:57.420
+All right.
+
+00:57.450 --> 01:03.330
+So in addition to image in JavaScript in our disk folder I'm going to create for now just our Index
+
+01:03.330 --> 01:07.860
+study HDMI out we'll create the rest of the e-mail files later.
+
+01:07.920 --> 01:15.150
+Now we need to get SAS set up so I'm going to be using Node SAS so I'm gonna open up my integrated terminal
+
+01:15.150 --> 01:21.930
+here and to install node SAS we need NPM installed which comes with no J.S. so if you don't have that
+
+01:21.930 --> 01:28.740
+on your system just go to no J.S. dot org and download and install it and then just do an NPM dash dash
+
+01:28.740 --> 01:33.120
+version just to verify that you actually have NPM installed.
+
+01:33.120 --> 01:33.440
+OK.
+
+01:33.450 --> 01:39.690
+So first thing we want to do here is do NPM and net which will initialize a package dot Jason File which
+
+01:39.690 --> 01:46.790
+is basically like a manifest file that has some info about the app as well as the.
+
+01:47.040 --> 01:49.940
+Any packages we install such as node SAS.
+
+01:49.950 --> 01:52.740
+So let's just hit enter here description.
+
+01:52.740 --> 02:03.070
+I'm going to say portfolio websites and we'll just go through all the rest of this.
+
+02:03.270 --> 02:03.600
+OK.
+
+02:03.630 --> 02:10.050
+So that will create a package dot Jason outside of your dist folder and what we want to do now is install
+
+02:10.050 --> 02:10.900
+node SAS.
+
+02:10.900 --> 02:19.530
+We're gonna say npm install node dash SAS and we can install this as a dev dependency so we're just
+
+02:19.530 --> 02:23.310
+going to do dash D because it's only used in development
+
+02:26.720 --> 02:27.450
+and that should get.
+
+02:27.500 --> 02:28.850
+That should show up right here.
+
+02:28.850 --> 02:29.740
+Good.
+
+02:29.750 --> 02:35.630
+So in order to you know use node SAS we need to create a script so I'm going to replace this test with
+
+02:35.630 --> 02:44.420
+SAS so that we can just do NPM run SAS and we want it to run node SAS we want it to watch.
+
+02:44.420 --> 02:49.700
+So we're going to do dash w a folder called SPSS Slash.
+
+02:49.700 --> 02:55.870
+So it's going to watch that folder for any SAS files and then the output of the regular CSX is going
+
+02:55.870 --> 03:04.600
+to go to dist slash CSX like that and then we're just going to add dash dash recursive on the end.
+
+03:04.880 --> 03:08.870
+So that's the command that we want to run when we run node SAS.
+
+03:09.020 --> 03:17.910
+I'm sorry NPM run SAS so let's save that and now what we'll do is create our SPSS folder make sure this
+
+03:17.910 --> 03:24.000
+is outside of your dist folder you want it outside because this isn't something that you're going to
+
+03:24.000 --> 03:27.150
+deploy when you put this on a server.
+
+03:27.150 --> 03:28.620
+This is just for development.
+
+03:28.710 --> 03:33.880
+This stuff gets compiled down to regular CSX inside of our dist folder.
+
+03:33.900 --> 03:34.200
+All right.
+
+03:34.200 --> 03:36.080
+So let's create our main SAS file.
+
+03:36.090 --> 03:39.870
+We're going to have a couple of them but we're going to create our main one so I'm just going to call
+
+03:39.870 --> 03:49.920
+it main dot SPSS and let's just do for now just to make sure everything works will create a variable
+
+03:49.920 --> 04:00.360
+called Color and let's set that to red and then let's just put in our body and let's do background and
+
+04:00.360 --> 04:03.470
+set that to the variable color.
+
+04:03.510 --> 04:12.330
+OK so I'm going to save this and nothing's going to happen because we didn't run NPM runs SAS I'm going
+
+04:12.330 --> 04:21.890
+to clear this up down here and just to NPM run SAS and now what it's doing is watching the SAS folder
+
+04:22.200 --> 04:27.280
+and in anytime we save it's going to then compile it into dist CSX.
+
+04:27.280 --> 04:27.520
+OK.
+
+04:27.530 --> 04:30.920
+Now we didn't create CSX in it'll actually create it for us.
+
+04:30.920 --> 04:35.810
+So if I just do anything just put a character in and delete it and save.
+
+04:35.810 --> 04:43.450
+You'll see now it created a CSX folder with a main dot CSX file and it's just standard CSX.
+
+04:43.700 --> 04:43.990
+OK.
+
+04:44.000 --> 04:45.290
+And that's what we would deploy.
+
+04:45.290 --> 04:52.010
+So from here on out you don't want to touch this CSX file you want to strictly deal with SAS.
+
+04:52.010 --> 04:52.270
+All right.
+
+04:52.280 --> 04:57.230
+Now the next thing I want to do is go to our index each team now let's put some boiler plate in here
+
+04:58.700 --> 05:04.430
+and let's see we'll just do for the title let's say I'm going to put John Doe what you can put your
+
+05:04.430 --> 05:13.120
+own name and let's just say UI UX designer and photographer.
+
+05:13.150 --> 05:17.300
+So that's that's basically what this fictional character specializes in.
+
+05:17.300 --> 05:23.120
+If you're going to use this I mean I give you guys permission to use this as your portfolio if you want.
+
+05:23.120 --> 05:28.720
+You'll just have to change things around to whatever it is you specialize in.
+
+05:28.730 --> 05:28.980
+OK.
+
+05:29.000 --> 05:33.440
+So let's see we want to include our main CSX files so let's do that.
+
+05:33.440 --> 05:44.810
+We'll put in a link to CSX slash main dot CSX and we also want font awesome so I'm just going to jump
+
+05:44.810 --> 05:47.330
+into chrome real quick
+
+05:50.010 --> 05:59.460
+and let's go to font awesome dot com start using free and then we'll grab this link right here and let's
+
+05:59.460 --> 06:05.380
+put that right above the main dot CSX like that all right.
+
+06:05.440 --> 06:10.570
+And then in the body for now let's just put an H1 and we'll just just say hello just to make sure that
+
+06:10.570 --> 06:12.730
+we can that this works.
+
+06:12.730 --> 06:13.020
+All right.
+
+06:13.030 --> 06:19.510
+So if I go ahead and run this with live server I'm going to right click and say open with live server
+
+06:19.930 --> 06:21.610
+we should get a red background.
+
+06:21.960 --> 06:22.360
+Okay.
+
+06:22.360 --> 06:27.640
+And the reason for that is because in our SAS file we set the variable to read.
+
+06:27.670 --> 06:35.470
+We set the body background to that variable node SAS comp. It when we saved it into CSX the main dot
+
+06:35.470 --> 06:36.450
+CSX.
+
+06:36.580 --> 06:40.400
+And then that's being included in our index each team.
+
+06:40.560 --> 06:40.910
+Okay.
+
+06:41.020 --> 06:43.660
+So that's gonna be our workflow from now on.
+
+06:43.660 --> 06:51.070
+Now what I'd like to do before we start with the markup with the h to L is import our font.
+
+06:51.070 --> 06:54.040
+We're gonna be using a font called DOCSIS or doses.
+
+06:54.040 --> 06:56.500
+I'm not exactly sure out of how you probably pronounce it.
+
+06:56.500 --> 07:03.040
+And then set up some variables and also just set some of our core styles like the reset some of the
+
+07:03.040 --> 07:04.900
+body styles and so on.
+
+07:04.900 --> 07:09.270
+All right now I'm going to close this main dot CSX because I want to be careful not to touch that.
+
+07:09.280 --> 07:13.380
+We only want to be dealing with our SAS files so let's first grab the font.
+
+07:13.390 --> 07:20.730
+So I'm going to go to Google fonts or what is it fonts Doc Google.
+
+07:22.330 --> 07:31.570
+And we're gonna go ahead and do a search for DOCSIS Deo s I s hit this plus sign and go down here and
+
+07:31.570 --> 07:38.200
+let's grab the link right here and paste that in.
+
+07:38.340 --> 07:48.460
+Let's go right above our six main CSX file and now we should be able to use this font family OK so I'm
+
+07:48.460 --> 07:55.780
+going to grab that and then we'll go into our main dot SPSS file to get rid of this.
+
+07:55.780 --> 08:03.760
+We're not gonna be using that and in our body let's say font it's just paste set in so font family DOCSIS
+
+08:03.820 --> 08:06.610
+sans serif.
+
+08:06.610 --> 08:09.190
+And if I save that it should show up.
+
+08:09.340 --> 08:13.320
+If we go back and you can see now the fonts changed.
+
+08:13.370 --> 08:13.700
+OK.
+
+08:13.720 --> 08:18.380
+So let's add just some some core styling here.
+
+08:18.790 --> 08:22.810
+As far as the reset goes the body stuff like that.
+
+08:22.810 --> 08:29.280
+So I'm just gonna put a comment here and just say General styles OK so our reset.
+
+08:29.290 --> 08:32.480
+I just want to clear the margin and padding for everything.
+
+08:32.680 --> 08:37.540
+So margins zero padding zero.
+
+08:37.960 --> 08:43.570
+And let's take for the body we're gonna set ups we already did the body what am I thinking we're get
+
+08:43.570 --> 08:47.560
+to move this let's actually just move this down here
+
+08:51.350 --> 08:59.590
+that and aside from the font family hopes let's add a line height
+
+09:02.170 --> 09:04.660
+and let's make that one point six.
+
+09:04.660 --> 09:08.350
+And then the background is just going to be white.
+
+09:09.690 --> 09:10.260
+OK.
+
+09:10.270 --> 09:11.340
+Now four links.
+
+09:11.350 --> 09:14.330
+So on all links to I want to remove the underline.
+
+09:14.350 --> 09:16.870
+I'm going to do tax decoration.
+
+09:16.870 --> 09:17.640
+None.
+
+09:18.550 --> 09:25.330
+And for the color we're gonna use the dark color variable so before we move on I'm going to go into
+
+09:25.330 --> 09:27.100
+my SPSS folder.
+
+09:27.190 --> 09:32.700
+I'm going to create a new file I'm going to call this underscore config dot SPSS.
+
+09:32.950 --> 09:38.130
+So this is gonna be a partial that we include and this is where I want to put all of our variables.
+
+09:38.200 --> 09:38.520
+All right.
+
+09:38.530 --> 09:41.050
+So let's go ahead and say variables
+
+09:43.450 --> 09:52.280
+and let's see we'll do I want to have a Web site with so we can change that easily if we want.
+
+09:52.330 --> 09:53.520
+So we're gonna change that.
+
+09:53.530 --> 09:58.710
+We're gonna set that to 12 80 pixels by default.
+
+09:58.780 --> 09:59.110
+All right.
+
+09:59.110 --> 10:07.320
+And then let's do the main dash color and we'll set that to f f b c 0 0.
+
+10:07.320 --> 10:12.990
+So it's kind of like a yellowish color and then I'm going to set a light and a dark color.
+
+10:13.000 --> 10:22.860
+OK so the light color is gonna be f for three times as a light gray and then the dark color is gonna
+
+10:22.900 --> 10:24.890
+be three three three.
+
+10:25.390 --> 10:34.980
+OK let's also do a medium color as well so we'll say medium dash color and that's gonna be CCC.
+
+10:34.980 --> 10:35.350
+All right.
+
+10:35.350 --> 10:39.700
+And then the last thing I want to set is the background image so that we can easily change that.
+
+10:39.700 --> 10:48.170
+So BGP image and set that to you are Al and in here we want to do dot dot slash.
+
+10:48.190 --> 10:56.400
+I am G slash and it's gonna be the showcase image showcase dot J Peg.
+
+10:57.250 --> 10:57.670
+All right.
+
+10:57.700 --> 11:05.320
+Now you might notice that this location doesn't pertain to where we currently are in this in the SPSS
+
+11:05.320 --> 11:06.160
+folder.
+
+11:06.220 --> 11:10.480
+We're not going out and then into image because image is actually in the disk folder.
+
+11:10.480 --> 11:17.110
+However when we compile our SAS we're gonna be in the C Ss full there so we want to make sure that our
+
+11:17.110 --> 11:21.220
+location to any images pertained to being in this file.
+
+11:21.310 --> 11:23.200
+OK so hopefully that makes sense.
+
+11:23.200 --> 11:27.690
+We want to go out of this CSX into the I'm sorry into the image folder.
+
+11:27.990 --> 11:36.040
+Ok so keep that in mind when you're dealing with SAS so let's save this and let's bring this in to our
+
+11:36.040 --> 11:37.330
+file here.
+
+11:37.420 --> 11:44.320
+So remember to bring in a partial we just use at imports and then we'd use just the name not the underscore
+
+11:44.350 --> 11:47.800
+or the dot SPSS just simply config.
+
+11:47.800 --> 11:50.480
+And that should bring in our variables.
+
+11:50.620 --> 11:57.500
+And then for the tag I'm going to set the color to the dark color.
+
+11:57.910 --> 12:03.970
+The downside about putting your variables in a separate file when using P.S. code is they don't show
+
+12:03.970 --> 12:05.080
+up automatically.
+
+12:05.080 --> 12:06.730
+Like if you put a number sign.
+
+12:06.880 --> 12:12.130
+I'm sorry a dollar sign and you have the variables in the same file you'd get a little dropdown with
+
+12:12.130 --> 12:16.990
+the variable names but we're not going to get that because they're in a separate file.
+
+12:17.140 --> 12:22.690
+And you don't have to put them in a separate file if you guys see something that you want to do differently.
+
+12:22.690 --> 12:23.860
+That's absolutely fine.
+
+12:23.860 --> 12:25.200
+In fact I encourage that.
+
+12:25.630 --> 12:28.840
+I don't encourage a straight copying everything.
+
+12:28.840 --> 12:32.740
+You know if you have your own ideas or your own your own ways of doing things.
+
+12:32.860 --> 12:35.140
+So it's for the wells.
+
+12:35.350 --> 12:40.310
+Let's do a list style none because I don't want any bullets anywhere on the site.
+
+12:40.810 --> 12:44.950
+And then I actually want all of the headings to be uppercase.
+
+12:44.950 --> 12:55.240
+So I'm going to say h to h three H for.
+
+12:55.530 --> 12:55.850
+Yeah.
+
+12:55.880 --> 12:57.470
+Do I want the H ones.
+
+12:58.430 --> 13:07.970
+Yeah it's just the H two H three N H for that I want uppercase so let's do text transform and set that
+
+13:07.970 --> 13:10.620
+to uppercase OK.
+
+13:10.700 --> 13:15.840
+And then all the images by default should have a width of one hundred percent.
+
+13:15.860 --> 13:18.110
+So we're just keeping them in their containers.
+
+13:18.560 --> 13:18.830
+OK.
+
+13:18.860 --> 13:25.340
+So I think that's pretty much it as far as just the core styles and obviously we haven't done any nesting
+
+13:25.340 --> 13:27.230
+or anything because we haven't had to.
+
+13:27.230 --> 13:31.430
+These are just these are just core general styles.
+
+13:31.430 --> 13:33.150
+So let's go out and save that.
+
+13:33.200 --> 13:35.510
+And it should update.
+
+13:35.510 --> 13:40.190
+So if we take a look I mean actually there's nothing really to update because we don't have any content
+
+13:40.880 --> 13:43.560
+but those styles should be in effect.
+
+13:43.640 --> 13:50.500
+In fact if we look at the source code and we look at our main CSX you'll see we have those styles and
+
+13:50.510 --> 13:57.920
+we have three three three for the color for the tag which is actually our SAS variable for dark color.
+
+13:57.920 --> 13:58.250
+All right.
+
+13:58.280 --> 14:03.980
+So I think that that's as far as I want to take it in this video and the next one we're gonna start
+
+14:03.980 --> 14:10.760
+working on our markup case we'll start down here start creating the header area with the NAV via the
+
+14:10.760 --> 14:12.520
+logo and all that stuff.
+
+14:12.530 --> 14:14.030
+All right so I'll see you in the next video.

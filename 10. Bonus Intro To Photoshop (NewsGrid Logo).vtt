@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.180 --> 00:05.340
+All right guys so this is gonna be just a bonus video showing you how I created the very simple news
+
+00:05.340 --> 00:13.320
+grid logo and it's this is not true logo design because what I really did is I found an icon on the
+
+00:13.320 --> 00:15.710
+Internet and I just added some text to it.
+
+00:15.720 --> 00:17.900
+I edited the colors a little bit.
+
+00:18.060 --> 00:24.570
+But what this is gonna do is give you a small introduction to Photoshop because photoshop is very beneficial
+
+00:24.850 --> 00:29.910
+when you are creating graphics and or even creating mockups stuff like that.
+
+00:29.910 --> 00:36.290
+So I just figured I'd add this on and I'm by no means am I like a true graphic designer.
+
+00:36.290 --> 00:42.210
+I have a little bit of capabilities but I wouldn't call myself a graphic designer by any means.
+
+00:42.210 --> 00:48.930
+So what we're gonna do first is create this is Photoshop S.C. and I'm going to open.
+
+00:48.930 --> 00:54.510
+I'm going to create a new file so you guys can't see my menu what I'm going to go to file new and I'm
+
+00:54.510 --> 01:03.090
+going to create a new document with the width of six hundred by let's say six hundred with four hundred
+
+01:03.090 --> 01:05.100
+height and create.
+
+01:05.100 --> 01:06.930
+And let me just bring this over.
+
+01:08.330 --> 01:08.810
+OK.
+
+01:08.820 --> 01:14.230
+And then I just search google for a global icon and I found this here.
+
+01:14.280 --> 01:22.230
+So if I go to search global icon it's going to be this one right here from Carmen's dot Wikimedia dot
+
+01:22.260 --> 01:22.950
+org.
+
+01:22.950 --> 01:29.490
+Now make sure if you if you're doing this type of thing for a client or for a production Web site make
+
+01:29.490 --> 01:32.310
+sure that if you do use an icon like this.
+
+01:32.310 --> 01:39.420
+Make sure it's it's it's stock it's free stock image and it's not from another website or anything like
+
+01:39.420 --> 01:43.540
+that because you could run into some issues some copyright issues.
+
+01:43.680 --> 01:46.080
+So I'm going to go ahead and just save this image
+
+01:48.900 --> 01:52.640
+and then I'm going to drag it into my Photoshop image.
+
+01:52.650 --> 02:01.780
+I can actually just take this and bring it right in like that and let's resize this so we'll do like
+
+02:02.280 --> 02:07.470
+like that and this isn't gonna be the exact image that we use but this is how I did it.
+
+02:07.480 --> 02:11.950
+So going to choose this tool right here which allows me to move things around so I'll move this over
+
+02:11.950 --> 02:18.760
+here and let's choose the text tool right here and just click in there and I'm going to say news you
+
+02:18.760 --> 02:24.460
+guys can't see probably can't see that so small I'll increase in a second but I'm I'm typing news grid
+
+02:25.210 --> 02:33.370
+and we can change the the the size of the font up here aren't sure exactly what size I use.
+
+02:33.370 --> 02:42.020
+Let's highlight this and 72 is the largest we can choose here but you can put in whatever whatever point
+
+02:42.020 --> 02:43.240
+you want.
+
+02:43.730 --> 02:49.940
+So let's bring this over and I don't think this machine has the exact font that I used but of course
+
+02:49.940 --> 02:57.170
+you could go through the fonts if I just go up here and just move the mouse wheel it will show me all
+
+02:57.170 --> 02:59.450
+the different fonts that I can use.
+
+02:59.450 --> 03:06.500
+So we'll just choose like again this isn't going to be the same exact logo but we'll choose see
+
+03:10.230 --> 03:15.710
+something that's kind of square we'll just use that I guess.
+
+03:15.710 --> 03:16.030
+All right.
+
+03:16.040 --> 03:23.800
+So you find a font and let's see we have a color that we want to use which is that red color.
+
+03:23.810 --> 03:28.410
+So I'm going to click on the palette right here and just kind of guess.
+
+03:28.640 --> 03:34.030
+So it was like a darker red so something see something like that.
+
+03:34.510 --> 03:43.460
+So click okay and let's highlight grid and then click this color up this box up here which is the actual
+
+03:43.460 --> 03:46.130
+text color and I can choose from here.
+
+03:46.130 --> 03:49.360
+I could have just did that but I wanted it in my palette over here.
+
+03:49.520 --> 03:54.230
+But you'll see it turns into an eyedropper when I hover over it and if I click it will change the color
+
+03:54.230 --> 03:55.800
+to that.
+
+03:55.940 --> 03:56.230
+All right.
+
+03:56.240 --> 03:59.660
+So that's the text now for the the globe here.
+
+03:59.720 --> 04:03.770
+I want these four inner squares to be red.
+
+04:03.800 --> 04:05.080
+I wanted to be this color.
+
+04:05.240 --> 04:14.280
+So I'm going to grab the wand tool right here and I'm going to click actually see over here in our layers.
+
+04:14.280 --> 04:19.310
+I probably should have explained the layers I'm going to deselect with control D but we have layers.
+
+04:19.410 --> 04:24.660
+So we have the texts we have the actual icon and we have the background and we can remove the background
+
+04:24.660 --> 04:29.550
+with this little eye right here so we can remove that we're gonna want to do that before we export the
+
+04:29.550 --> 04:31.500
+file as a PMG.
+
+04:31.530 --> 04:38.130
+Now in PND you can have a transparent background like this but J pegs you can't.
+
+04:38.150 --> 04:44.340
+So if you want a transparent background and not a white or solid color then make sure you export as
+
+04:44.340 --> 04:49.200
+PMG or gift Jeff whatever you want to however you want to say it.
+
+04:49.320 --> 04:54.730
+People say it in different ways but gifts are are not as high quality as PND are.
+
+04:55.410 --> 04:55.770
+All right.
+
+04:55.770 --> 04:59.820
+So we're just going to leave the background for now just so we can kind of see what we're doing.
+
+04:59.970 --> 05:07.550
+But I'm gonna go and highlight the globe icon here and again choose the one tool.
+
+05:07.560 --> 05:13.750
+And I'm going to click in here and you'll see the little the moving bars around the box here.
+
+05:13.770 --> 05:15.000
+That means it's selected.
+
+05:15.000 --> 05:16.710
+Now I want to select all four.
+
+05:16.710 --> 05:22.180
+So I'm going to hold down shift and click this one this one in this one.
+
+05:22.180 --> 05:22.460
+OK.
+
+05:22.470 --> 05:29.490
+And then I'm going to go over to my brush tool which is this one right here and see actually you know
+
+05:29.490 --> 05:32.980
+what I think we have to raster arises first.
+
+05:33.090 --> 05:35.250
+Yes the CIA can't do anything.
+
+05:35.250 --> 05:36.590
+We have to rationalize this.
+
+05:36.590 --> 05:43.080
+So we're going to go over to the layer and right click and say raster I's layer and now we can color
+
+05:43.080 --> 05:49.320
+it and noticed that it's only coloring within the selected parameters.
+
+05:49.410 --> 05:54.780
+And you can if you right click with the brush tool you can make it bigger so it can make it bigger like
+
+05:54.780 --> 05:55.290
+that.
+
+05:55.290 --> 05:58.110
+So now every all the four boxes are colored in.
+
+05:58.260 --> 06:00.530
+I'm going to d select with control D.
+
+06:00.870 --> 06:01.620
+And that's it.
+
+06:02.370 --> 06:02.670
+OK.
+
+06:02.670 --> 06:04.360
+So pretty simple.
+
+06:04.560 --> 06:12.120
+Now I also have the the light version of it so that it can go on a dark background because if I take
+
+06:12.120 --> 06:17.730
+this background and this is going to be locked by default the background so you have to double click
+
+06:17.730 --> 06:18.800
+and just click Okay.
+
+06:18.810 --> 06:24.360
+And now it's unlocked and we could take the brush and color this if we wanted to.
+
+06:24.480 --> 06:29.670
+But I'm just going to double click and it opens up the layer style panel and from here I'm going to
+
+06:29.670 --> 06:33.030
+choose color overlay and then we can actually choose a color.
+
+06:33.030 --> 06:37.920
+I'm just going to make it really dark like our footer is because that's where we put the light version
+
+06:38.330 --> 06:40.010
+and click Okay.
+
+06:40.140 --> 06:40.440
+All right.
+
+06:40.440 --> 06:44.670
+Now that doesn't look too good it's just it's too dark there's no contrast.
+
+06:44.670 --> 06:51.930
+So what I'll do is over here you can see the folder icon I'm going to create a new folder by default.
+
+06:51.930 --> 06:57.560
+It's called Group 1 but I'm going to rename it double click rename it to standard.
+
+06:59.250 --> 07:06.510
+And I'm going to move my two layers the icon in the news grid the text into that standard folder.
+
+07:06.510 --> 07:06.780
+All right.
+
+07:06.780 --> 07:09.040
+Now if I click the eye here I can toggle it.
+
+07:09.810 --> 07:16.300
+OK now I'm going to create another folder down here.
+
+07:16.350 --> 07:17.960
+Make sure it's not in the standard.
+
+07:17.970 --> 07:22.680
+And I'm going to call this one light all right.
+
+07:22.680 --> 07:26.140
+And then what I want to do is duplicate both of these.
+
+07:26.220 --> 07:28.880
+The news the text in the global icon.
+
+07:28.890 --> 07:34.680
+So I'm going to right click and I'm going to say duplicate layers and you can name them if you want.
+
+07:34.680 --> 07:35.810
+I'm just going to click OK.
+
+07:35.820 --> 07:37.710
+And they're just going to be called copy.
+
+07:37.770 --> 07:40.980
+And now let's move this into the light folder.
+
+07:40.980 --> 07:41.430
+Ok.
+
+07:41.430 --> 07:44.690
+And then I'm going to take the standard folder and just click the I.
+
+07:44.690 --> 07:45.780
+So it's not showing.
+
+07:45.780 --> 07:52.470
+So now it's just showing that the logo and or the icon in the text that are in the light folder.
+
+07:52.470 --> 07:54.470
+And now I want to make these light.
+
+07:54.480 --> 08:02.570
+So the text is easy I can just choose the text tool highlight news click on this and make it white.
+
+08:03.010 --> 08:04.250
+Click OK.
+
+08:04.260 --> 08:11.250
+And then for the icon I'm going to make sure that it's selected over here in the layer panel and grab
+
+08:11.250 --> 08:12.310
+the wand.
+
+08:12.570 --> 08:16.690
+And I want to select apps.
+
+08:16.840 --> 08:17.930
+Let's see.
+
+08:18.010 --> 08:18.400
+There we go.
+
+08:18.400 --> 08:19.770
+So I want to select in there.
+
+08:19.780 --> 08:26.170
+I'm actually going to zoom in so the microscope here and just zoom in and then click the wand and hold
+
+08:26.170 --> 08:27.880
+shift.
+
+08:27.940 --> 08:29.950
+That's not the one that's the color picker.
+
+08:30.040 --> 08:33.850
+We're going to hold shift and just click in each of these
+
+08:39.990 --> 08:40.450
+OK.
+
+08:40.460 --> 08:46.660
+And then what I'll do is choose the brush tool and I'm going to change the color.
+
+08:46.670 --> 08:47.420
+Now this.
+
+08:47.420 --> 08:51.470
+We have two colors here you can see the blue I'm just going to switch these just so I have that red
+
+08:51.470 --> 08:53.720
+one as a backup.
+
+08:53.810 --> 08:59.060
+I'm going to change this to white and that's going to be the color of the brush and I'll just go ahead
+
+08:59.060 --> 09:00.630
+and fill that in.
+
+09:01.230 --> 09:06.590
+It's only going to fill in watch what's selected and they'll do control D to D select and then let's
+
+09:06.590 --> 09:07.150
+zoom out.
+
+09:07.150 --> 09:09.840
+We'll just say we want to say 100 percent.
+
+09:09.980 --> 09:14.830
+And that's the actual logo OK so that's basically what I did.
+
+09:14.910 --> 09:20.120
+And then we can take the crop tool and crop this image.
+
+09:20.220 --> 09:24.630
+So basically we can just select around it like that.
+
+09:24.630 --> 09:31.140
+We can adjust it and let's right click and say crop.
+
+09:31.570 --> 09:31.870
+All right.
+
+09:31.870 --> 09:34.030
+So now the image is only this big.
+
+09:34.030 --> 09:35.920
+And we have the light.
+
+09:35.920 --> 09:39.940
+If I click the little icon and click standard we have our standard.
+
+09:39.940 --> 09:43.600
+Now we're gonna want to remove the background so we'll click that.
+
+09:43.720 --> 09:46.800
+And now we have our standard and our light.
+
+09:46.840 --> 09:47.170
+OK.
+
+09:47.170 --> 09:48.550
+Now let's save the standard.
+
+09:48.550 --> 09:52.350
+So I'm going to go to file.
+
+09:52.360 --> 09:58.790
+Now you could do well just to save as much as I don't want to make this too confusing.
+
+09:58.880 --> 10:05.270
+So let's go to save as and you can see that by default that's it's getting saved as a PSA D OK but I'm
+
+10:05.270 --> 10:10.280
+going to call this logo and I don't want it to be a PSC that's a photoshop file meaning that it will
+
+10:10.280 --> 10:12.000
+include all these layers and stuff.
+
+10:12.020 --> 10:14.570
+But we can't use that inside of a web page.
+
+10:14.720 --> 10:19.100
+So I'm just going to choose from here P and G.
+
+10:19.100 --> 10:19.430
+All right.
+
+10:19.430 --> 10:22.120
+And then I'll save this too.
+
+10:22.370 --> 10:31.480
+We'll just save it too I guess my desktop and we're gonna get this PMG options we're gonna just click
+
+10:31.480 --> 10:32.700
+OK here.
+
+10:32.710 --> 10:32.940
+All right.
+
+10:32.950 --> 10:34.870
+So that saves the regular logo.
+
+10:34.870 --> 10:36.580
+Now let's click the light.
+
+10:36.580 --> 10:44.320
+And same thing file save as and I'm going to change the nickname this logo underscore light and I'm
+
+10:44.320 --> 10:48.880
+going to choose PSG for this as well.
+
+10:48.940 --> 10:49.720
+OK.
+
+10:49.930 --> 10:50.730
+And that's it.
+
+10:50.740 --> 10:59.360
+Now if I close or minimize this and just get rid of all this stuff don't save and then I can show you.
+
+10:59.380 --> 11:06.560
+Let me just bring over what I saved so we have our logo light and we have our logo PMG.
+
+11:06.610 --> 11:06.850
+All right.
+
+11:06.850 --> 11:13.960
+And if I just open this with preview we just have just a standard image that we can include in our web
+
+11:13.960 --> 11:15.060
+page.
+
+11:15.070 --> 11:15.330
+OK.
+
+11:15.340 --> 11:18.640
+So I just wanted to kind of go through that little process.
+
+11:18.640 --> 11:26.140
+It's not really something that you know is is needed to know to build Web sites but if you want to get
+
+11:26.140 --> 11:34.330
+into editing images maybe creating graphics and stuff like that or just maybe just text logos photoshop
+
+11:34.330 --> 11:35.100
+is great for that.
+
+11:35.100 --> 11:41.050
+There's also gimp which is an open source tool that is very similar to Photoshop.
+
+11:41.050 --> 11:45.140
+You also have Adobe XDR you have sketch Fig.
+
+11:45.160 --> 11:50.800
+There's there's a lot of different graphic design programs out there so you know fine find one that
+
+11:50.800 --> 11:56.890
+fits fits you and you know it was pretty easy for you to pick up but I just wanted to throw that video
+
+11:56.890 --> 11:57.270
+in there.
+
+11:57.280 --> 11:59.380
+Hopefully guys enjoyed it and that's it.
+
+11:59.380 --> 11:59.830
+Thanks.

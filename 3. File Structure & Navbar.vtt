@@ -1,0 +1,850 @@
+WEBVTT
+
+00:00.400 --> 00:02.560
+All right so we're gonna go ahead and get started here.
+
+00:02.580 --> 00:09.390
+Now I'm going to keep the final project open just as a reference so that I can point to guys like when
+
+00:09.390 --> 00:14.450
+I'm creating the each team on CSX I can show you exactly what I'm doing in the final project.
+
+00:14.460 --> 00:18.780
+And like I said in the last video a lot of times you'll get the design beforehand and you'll just have
+
+00:18.780 --> 00:22.410
+to use it as a reference and create the each team Allen CSX.
+
+00:22.410 --> 00:24.200
+So we'll kind of take that approach.
+
+00:24.330 --> 00:30.900
+And I'm also going to for now have the browser and the text editor open at the same time I don't like
+
+00:30.900 --> 00:36.120
+how narrow this is but at the same time I want you to see to see them both.
+
+00:36.150 --> 00:36.660
+OK.
+
+00:37.200 --> 00:42.120
+If we get to a point where we're creating stuff like this and it doesn't look good when it's this narrow
+
+00:42.120 --> 00:43.610
+then I'll make it bigger.
+
+00:44.160 --> 00:44.420
+OK.
+
+00:44.430 --> 00:49.850
+So first thing we want to do is create a project folder so you can put that anywhere in your system.
+
+00:49.850 --> 00:55.750
+I'm going to go to my desktop and I'm just going to call this folder.
+
+00:55.790 --> 01:03.360
+Let's do hotel underscore Web site and we can open this invis code.
+
+01:03.360 --> 01:09.480
+So it's a open folder and we want hotel Web site.
+
+01:09.710 --> 01:14.030
+It's completely empty and going to create first of all a folder for our images.
+
+01:14.030 --> 01:20.300
+And you can call this images or AMG is another common convention so I'm going to use that and then we
+
+01:20.300 --> 01:26.300
+want to get all the image resources that you downloaded in the first video of this section which I have
+
+01:26.300 --> 01:31.150
+right here and we want to put those into our I am G folder.
+
+01:31.250 --> 01:38.520
+So let's go ahead and select all these and bring them into I am G.
+
+01:38.680 --> 01:40.120
+What happened.
+
+01:40.130 --> 01:41.030
+There we go.
+
+01:41.080 --> 01:41.380
+All right.
+
+01:41.380 --> 01:42.680
+So now those are in there.
+
+01:42.700 --> 01:46.010
+We can close these up and go back into v as code.
+
+01:46.090 --> 01:49.570
+And now you can see I have all the images here.
+
+01:49.570 --> 01:54.490
+So next thing we'll do is create our page structure as you can see we have three pages home about in
+
+01:54.490 --> 01:55.630
+contact.
+
+01:55.630 --> 02:02.830
+Now remember in the beginning of the H Tim L. basics section I said that when you have a home page of
+
+02:02.830 --> 02:08.290
+a Web site you need to call it index dot each team out because when you go to something whatever dot
+
+02:08.290 --> 02:11.740
+com it's going to look for that file as the home page.
+
+02:11.740 --> 02:18.250
+So let's say index start HDMI all as a new new file i click to this icon and we might as well create
+
+02:18.250 --> 02:27.210
+the rest of the team all pages so we'll do each team about each team l dot age know let's do contact
+
+02:28.020 --> 02:29.260
+dot age Timo.
+
+02:29.880 --> 02:30.210
+OK.
+
+02:30.240 --> 02:35.940
+We're also going to need our CSX our style sheet and we're not going to be putting our our CSX in the
+
+02:35.940 --> 02:38.230
+H team out like we did in the sandbox.
+
+02:38.340 --> 02:43.680
+I only did that for convenience when you have a project you want to create separate style sheets and
+
+02:43.680 --> 02:46.740
+generally you want a separate folder that contains those.
+
+02:46.770 --> 02:52.380
+So I'm going to click this folder icon and create a folder called CSX.
+
+02:52.380 --> 02:52.780
+OK.
+
+02:52.800 --> 02:59.670
+And then inside there I'm going to create a new file called style dot CSX and the named style isn't
+
+03:00.000 --> 03:04.230
+it doesn't matter what you call this but style main dot CSX.
+
+03:04.230 --> 03:10.980
+These are common conventions for main style sheets but it doesn't it doesn't really matter.
+
+03:11.070 --> 03:11.330
+OK.
+
+03:11.340 --> 03:15.050
+So now that we have that that's basically are our Web site structure.
+
+03:15.060 --> 03:20.880
+So we're gonna head into the index each team how we can close up about and contact for now but let's
+
+03:20.880 --> 03:22.880
+open up our style sheet as well.
+
+03:22.880 --> 03:27.180
+So we have these two files open and let's generate our head body tags.
+
+03:27.190 --> 03:34.220
+So exclamation enter tab and we'll change the title here to let's say hotel Beatty.
+
+03:34.500 --> 03:39.870
+And usually you'll have like some kind of separator like a dash or a pipe character.
+
+03:40.050 --> 03:46.170
+And then if you're if you're focused on search engines like you want or you want to rank for let's say
+
+03:46.200 --> 03:50.720
+Boston hotel you might put something like that here as long as it makes sense.
+
+03:51.810 --> 03:56.200
+But we're just going to put welcome because it's the home page OK.
+
+03:56.490 --> 04:02.580
+And you'll probably want to put some meta tags in here like description.
+
+04:02.580 --> 04:06.750
+I'm not going to do this for every project we create but I'll do it for this one just because it's the
+
+04:06.750 --> 04:07.610
+first.
+
+04:07.620 --> 04:20.820
+So let's say Name Description and let's do content equals and then I'll just say welcome to the most
+
+04:24.050 --> 04:27.200
+extraordinary Hotel in
+
+04:29.870 --> 04:30.770
+Boston
+
+04:33.380 --> 04:35.250
+Massachusetts.
+
+04:35.250 --> 04:36.350
+So that's our description.
+
+04:36.350 --> 04:37.670
+Let's do another medal tag.
+
+04:37.670 --> 04:38.840
+This will be our keyword.
+
+04:38.840 --> 04:47.270
+So we wanted to name equals keywords and for the content you'd probably do something like hotel whatever
+
+04:47.270 --> 04:56.620
+the location so something like Boston hotel New England hotel and whatever it may be whatever keywords
+
+04:56.630 --> 04:58.990
+describe this page.
+
+04:58.990 --> 04:59.270
+All right.
+
+04:59.270 --> 05:02.290
+Now in addition to that we want to link our style sheet.
+
+05:02.480 --> 05:09.500
+So we use a link tag and with I use Emmet if I do link enter our link tab it will automatically put
+
+05:09.500 --> 05:11.420
+in the real attribute.
+
+05:11.420 --> 05:16.250
+So the rally is going to be equal to style sheet because we're just telling it that we're importing
+
+05:16.250 --> 05:22.220
+a style sheet here CSX file and then in the atria if we want to point to that file.
+
+05:22.280 --> 05:25.220
+Now remember we put it inside of a folder called CSX.
+
+05:25.220 --> 05:34.930
+So we want to say CSX slash style dot CSX OK and then we can get started with the the body here.
+
+05:34.950 --> 05:39.110
+Now it's important to mention that everyone has their own style.
+
+05:39.120 --> 05:43.650
+Everyone has their own naming conventions and how they want to structure tags.
+
+05:43.650 --> 05:46.720
+For instance what I'm going to do is have a header tag.
+
+05:47.070 --> 05:54.060
+So just put it in header and inside my head or I want the navigation and the showcase I want this whole
+
+05:54.060 --> 05:59.970
+area to be the header but it's fine if you would have just this inside the header tag and then maybe
+
+05:59.970 --> 06:05.850
+have section for this you're going to see that you're going to see different styles when you're looking
+
+06:05.850 --> 06:11.110
+at different HD PML and you're going to develop your own style.
+
+06:11.280 --> 06:13.570
+What I do here is just what I like to do.
+
+06:14.040 --> 06:17.060
+And I like to think that it's it's it's OK.
+
+06:17.130 --> 06:22.290
+And hopefully you guys don't mind the way that I do things but I just want to I want I want to make
+
+06:22.290 --> 06:28.140
+it clear that every developer has their own style of doing things and not just each Tim Al any kind
+
+06:28.140 --> 06:29.890
+of programming anything like that.
+
+06:30.600 --> 06:36.840
+So like I said I want the NAV the now bar in here so I'm going to create a nav tag and I'm actually
+
+06:36.840 --> 06:45.910
+going to give this an I.D. of NAV bar and inside the nav bar we're gonna have the logo.
+
+06:45.990 --> 06:52.470
+This right here which is just an H1 and then we're going to have our our navigation which is unordered
+
+06:52.470 --> 06:53.290
+list.
+
+06:53.400 --> 07:02.280
+So let's put an H1 which I'm actually going to give a class of logo and that's another thing that is
+
+07:02.280 --> 07:09.570
+different depending on the as is how you use I.D. and classes I could easily call this a class and this
+
+07:09.570 --> 07:11.280
+an I.D. that's fine.
+
+07:11.280 --> 07:17.940
+The one major rule that I would say should never break is don't have more than one I.D. like don't have
+
+07:18.000 --> 07:21.830
+another I.D. of nav bar on the same page.
+
+07:21.990 --> 07:28.350
+But I mean some people you will use just classes I tend to use I.D. for stuff that I won't have duplicates
+
+07:28.350 --> 07:34.520
+of and that kind of surround everything else that they're parents of other things.
+
+07:34.530 --> 07:39.660
+For instance we have the H1 and the well in here the NAV surrounds them so I'm going to use an I.D.
+
+07:39.660 --> 07:40.890
+here.
+
+07:40.890 --> 07:45.050
+So for the logo WE'RE GONNA GONNA DO HB T.
+
+07:45.240 --> 07:51.840
+And usually you'll have your logo go to your home page like you'll see if I click on if I hover over
+
+07:51.840 --> 07:54.430
+it it's a link and it goes back to the home page.
+
+07:54.480 --> 07:57.180
+So if I'm on about and I click that take me back.
+
+07:57.180 --> 08:05.230
+So we want to surround this in an A tag and we want this to go to index dot HMO.
+
+08:05.310 --> 08:11.520
+All right make sure that you're closing a tag is on the other side of the head the HB T.
+
+08:11.540 --> 08:11.780
+All right.
+
+08:11.820 --> 08:16.530
+I'm just going to close this sidebar up to give me some more rum as well.
+
+08:16.530 --> 08:16.760
+OK.
+
+08:16.800 --> 08:17.790
+So that's our H1.
+
+08:17.790 --> 08:20.610
+Now we want the L right here.
+
+08:20.610 --> 08:27.100
+So let's do you all list item and then in each list item we'll have a link.
+
+08:27.120 --> 08:31.250
+This is going to go to index start each team out and this is going to be our home page.
+
+08:31.290 --> 08:37.740
+I'm going to do control option down our control all down on a Windows machine and let's do about
+
+08:40.170 --> 08:44.580
+say about done HMO Contact
+
+08:48.830 --> 08:49.700
+contact.
+
+08:50.000 --> 08:55.710
+OK so there's our NAV bar now let's open this in live server and it's going to look horrible because
+
+08:55.710 --> 08:57.540
+we have no CSX.
+
+08:57.540 --> 09:00.890
+So that's what we're gonna do now is we're going to jump to the CSX.
+
+09:00.930 --> 09:01.350
+OK.
+
+09:01.350 --> 09:07.530
+And that's another thing that that varies is sometimes you might do all of your HD Himmel on the whole
+
+09:07.530 --> 09:15.270
+page and then start your CSX or you can do what we're going to do and go by basically component by component.
+
+09:15.270 --> 09:20.760
+So the nav bar then will move to the showcase then to this part that part and so on.
+
+09:21.390 --> 09:24.860
+So let's jump into style that CSX.
+
+09:25.260 --> 09:31.410
+And in addition to the now bar styling I want to do just some of the core basic styling like the body
+
+09:31.410 --> 09:33.170
+tag and stuff like that.
+
+09:33.270 --> 09:36.290
+So I am going to add a CSX reset.
+
+09:36.540 --> 09:42.090
+So I'm going to put an asterisk here which means we're grabbing everything and we're going to clear
+
+09:42.090 --> 09:47.880
+out the margin and padding OK the default margin and padding that the browser puts on every on a lot
+
+09:47.880 --> 09:49.150
+of different elements.
+
+09:49.200 --> 09:56.930
+Soon as I save that you'll see that it changes the well the heading that stuff the margin goes away.
+
+09:57.030 --> 10:03.450
+And then I also want to add a box sizing property.
+
+10:05.250 --> 10:10.500
+And we're gonna set that to border box because when we have boxes that have padding like this right
+
+10:10.500 --> 10:15.060
+here I don't want the padding to add to the actual width of the box.
+
+10:15.300 --> 10:17.340
+So that's pretty important.
+
+10:17.340 --> 10:24.390
+So next we'll have our main styling and what I mean by Main is just like core elements like the body
+
+10:25.410 --> 10:28.760
+links headings paragraph all that stuff.
+
+10:28.770 --> 10:28.970
+OK.
+
+10:29.040 --> 10:32.040
+Anything that really doesn't have a class or an I.D..
+
+10:32.190 --> 10:38.970
+So for the body and a lot of times any style the body you'll put in the H T email as well.
+
+10:38.970 --> 10:46.590
+So each to our body and then I'm just going to set the font family to I'm going to use one of these
+
+10:46.590 --> 10:56.860
+presets for V.S. code we'll use this to argue UI to home Geneva and then let's set the line height too.
+
+10:56.910 --> 10:57.990
+I'm gonna set it kind of high.
+
+10:57.990 --> 11:01.550
+So one point seven am.
+
+11:01.680 --> 11:05.810
+And now that I saved you can see that there's a little more spacing in between the lines.
+
+11:06.330 --> 11:06.730
+OK.
+
+11:06.750 --> 11:14.790
+Next thing we'll do is the links I want all links by default unless unless the class or I.D. specifies
+
+11:14.790 --> 11:18.010
+otherwise I want them to have a color of three three three.
+
+11:18.270 --> 11:26.420
+And I also want to remove the underline so we'll do text decoration none and we'll save that okay.
+
+11:26.490 --> 11:33.750
+Also the headings so we're going to say H1 H to h three I want spacing underneath.
+
+11:33.750 --> 11:36.230
+So if we look at our final project.
+
+11:36.240 --> 11:42.690
+So like right here I can see the spacing here spacing here because we move we remove the default margin
+
+11:42.690 --> 11:47.010
+and padding there's not going to be any spacing so we need to add that ourselves.
+
+11:47.040 --> 11:53.070
+So I'm actually going to do padding bottom 20 pixels.
+
+11:53.280 --> 11:53.750
+OK.
+
+11:53.760 --> 12:01.410
+And then four paragraphs remember paragraphs by default have a margin but we just removed it with the
+
+12:01.410 --> 12:02.040
+reset.
+
+12:02.040 --> 12:07.320
+So I'm just going to re add 10 pixel margin on the top and bottom.
+
+12:07.380 --> 12:07.610
+OK.
+
+12:07.620 --> 12:10.020
+Remember if we do it this way this is top and bottom.
+
+12:10.050 --> 12:12.570
+This is left and right.
+
+12:12.570 --> 12:14.610
+So those are the those are the core styles.
+
+12:14.610 --> 12:17.920
+Now let's move on to the actual nav bar.
+
+12:18.020 --> 12:20.640
+So was it an I.D..
+
+12:21.060 --> 12:28.560
+Yes we did I.D. nav bar let's put a comment in here just to kind of organize things and I'll say nav
+
+12:28.560 --> 12:37.370
+bar I'm going to set the background color her background 2 3 3 3.
+
+12:37.770 --> 12:44.160
+I'm gonna set the color to white and let's see what else we're gonna do.
+
+12:44.220 --> 12:52.870
+Let's do an overflow Porto so that the background shows no matter what and we'll save that.
+
+12:52.870 --> 12:57.270
+And notice said that we can't read the text even though we put color here because the.
+
+12:57.370 --> 13:00.670
+All the text that it's all links and if you have links you have to.
+
+13:00.670 --> 13:04.080
+You have to add the color specifically to those links.
+
+13:04.120 --> 13:06.730
+So remember we have a logo.
+
+13:06.880 --> 13:07.720
+So I'm going to do now.
+
+13:07.740 --> 13:10.510
+Bar class logo.
+
+13:10.630 --> 13:15.450
+I want to style that link and then any other links in the nav bar.
+
+13:15.460 --> 13:22.070
+So it's to karma now Navarre actually know what we'll just do.
+
+13:22.120 --> 13:23.380
+Just do not bar a.
+
+13:23.410 --> 13:23.780
+We don't.
+
+13:23.860 --> 13:24.880
+There's no need to do that
+
+13:27.900 --> 13:34.660
+and let's say color white and save and now we can actually see the text.
+
+13:34.960 --> 13:43.900
+So let's see next thing we want to do is align the logo to the left and we want the the well to be on
+
+13:43.900 --> 13:44.980
+the right.
+
+13:44.980 --> 13:51.040
+So let's add some floats for that and I would recommend using something like flex blocks but we haven't
+
+13:51.040 --> 13:51.990
+gotten to that yet.
+
+13:52.000 --> 13:53.840
+So we're just going to use floats.
+
+13:53.980 --> 14:04.280
+So let's grab the Navarre H1 and let's do float left.
+
+14:04.660 --> 14:09.430
+I'm also going to add some padding to the top to push it down a little bit.
+
+14:09.510 --> 14:12.160
+It's two 20 pixels.
+
+14:12.170 --> 14:13.670
+OK we'll save that.
+
+14:13.690 --> 14:21.460
+Now the well we also want to float that we want to float that to the right.
+
+14:22.500 --> 14:25.110
+So it's a bar.
+
+14:25.290 --> 14:30.770
+Well we're going to do a couple other things too we want to remove the bullets.
+
+14:30.780 --> 14:32.830
+So let's say list style.
+
+14:33.190 --> 14:33.820
+None.
+
+14:34.920 --> 14:42.870
+And we'll set the margin to zero pad and extra didn't have to do that because we added the reset.
+
+14:42.870 --> 14:48.480
+So let's just do float right and save.
+
+14:48.480 --> 14:52.050
+And now that's floated over to the right.
+
+14:52.110 --> 14:59.070
+So the list items right now we're going vertical we want them to go horizontal so let's grab onto those
+
+14:59.070 --> 15:07.170
+we'll say nav bar you al ally or you could just do Navarre Ally it's up to you I like to just keep it
+
+15:07.170 --> 15:08.760
+kind of organized like that.
+
+15:09.570 --> 15:16.380
+So for the list items we want to float them all to the left and save.
+
+15:16.380 --> 15:22.480
+And then everything else that we style as far as these links is good it's going to be on the tag inside.
+
+15:22.530 --> 15:29.280
+So let's do that let's say nav bar you al ally a
+
+15:32.060 --> 15:44.600
+and we want to display them as blocks OK so that we can add padding and we want to do 20 pixels all
+
+15:44.600 --> 15:46.300
+around.
+
+15:46.460 --> 15:51.930
+If I save that and kind of pushes them right into place we get 20 pixels all around.
+
+15:52.040 --> 15:58.820
+Let's make sure there are lines centred so we'll say text align center.
+
+15:58.820 --> 16:01.970
+And what else do you want to do.
+
+16:01.970 --> 16:04.100
+I think that's it.
+
+16:04.170 --> 16:09.480
+Now I do want to have a hover state right now if I hover over them nothing happens.
+
+16:09.500 --> 16:18.930
+So what we can do is take this and just add our pseudo selector of hover so Cole and hover and I'm gonna
+
+16:18.950 --> 16:20.170
+say background.
+
+16:20.840 --> 16:28.900
+Let's do four four four and let's also make that color a hexadecimal of f..
+
+16:28.970 --> 16:37.430
+Let's do F seven see 0 8 a which is this light brownish tarnished color.
+
+16:37.430 --> 16:41.920
+So now if I hover over it looks like that.
+
+16:41.930 --> 16:46.760
+Now one other thing I want to do is depending on the page or on I wanted to have that effect as well
+
+16:46.760 --> 16:51.320
+if we looked at look at the final project you can see that the home page has that effect.
+
+16:51.830 --> 16:59.600
+So what we can do is whatever page you're on in the nav bar here we can add a special class and we're
+
+16:59.600 --> 17:03.140
+going to add it to the link to the tags.
+
+17:03.160 --> 17:04.840
+So center on the home page here.
+
+17:04.850 --> 17:13.070
+Let's say class equals and let's call this current OK so we'll go back and then I wanted to have the
+
+17:13.070 --> 17:19.570
+same styling there's no sense in recreating it let's just put a comma so that it affects both and we'll
+
+17:19.570 --> 17:24.390
+grab this and then just add the class of current.
+
+17:24.750 --> 17:25.080
+OK.
+
+17:25.120 --> 17:29.960
+And you usually want to put this on a new line just to keep it clean and save.
+
+17:30.010 --> 17:33.790
+And now notice the home page has that.
+
+17:33.790 --> 17:42.490
+Now before we move on I just want to show you one thing if we stretch us cell really far it's always
+
+17:42.490 --> 17:47.800
+on the very edge here and I don't want that usually what you'll do is you'll have a container and move
+
+17:47.800 --> 17:49.590
+it into the middle.
+
+17:49.720 --> 17:50.140
+OK.
+
+17:50.140 --> 17:55.390
+And we don't want to wrap a container around everything because then the black bar will actually get
+
+17:55.390 --> 17:57.420
+mad added you know push to the middle.
+
+17:57.420 --> 18:04.250
+I want the black bar to go all the way across but I want this stuff to be in the middle so to do that.
+
+18:04.390 --> 18:10.930
+What we'll do is add a container class within the NAV because remember the NAV the I.D. nav bars is
+
+18:10.930 --> 18:12.820
+where that background is.
+
+18:12.820 --> 18:20.890
+So within that we want to have a container class and we want to remove the H1 and the well into that
+
+18:20.890 --> 18:23.260
+class and save.
+
+18:23.260 --> 18:24.880
+And then we'll style it.
+
+18:24.880 --> 18:26.440
+So let's add the container.
+
+18:26.440 --> 18:31.930
+I'm actually going to put the container up top because it's kind of a utility class meaning you can
+
+18:31.930 --> 18:33.490
+use it all around.
+
+18:33.490 --> 18:41.110
+So let's put a comment here and say we'll just say utilities or utility classes
+
+18:45.720 --> 18:47.850
+and do container.
+
+18:48.900 --> 18:51.740
+So remember margin auto.
+
+18:51.810 --> 18:52.620
+Want to do that.
+
+18:53.100 --> 18:54.450
+That's going to push it all to the middle.
+
+18:54.450 --> 18:57.250
+But we need to have some kind of width.
+
+18:57.270 --> 19:05.070
+So for the width we want to use Macs with because we want it to be somewhat responsive as responsive
+
+19:05.070 --> 19:07.250
+as we can make it without going into stuff.
+
+19:07.260 --> 19:12.830
+We haven't talked about yet like media queries and we're gonna set that to eleven hundred pixels.
+
+19:12.840 --> 19:14.780
+That'll be the max with.
+
+19:15.270 --> 19:15.720
+All right.
+
+19:15.720 --> 19:17.250
+And then let's see.
+
+19:17.250 --> 19:25.700
+Let's add in overflow auto just so it always shows the the background doesn't go outside of it.
+
+19:26.580 --> 19:28.620
+And then some padding.
+
+19:28.800 --> 19:31.620
+I want to do padding.
+
+19:32.280 --> 19:37.200
+Let's do zero top and bottom and I just want left and right to have 20 pixels padding.
+
+19:37.200 --> 19:38.630
+So let's save that.
+
+19:38.790 --> 19:41.710
+And notice that now it's not right up against the edge.
+
+19:41.730 --> 19:50.020
+And if I bring this if I bring the browser out it's right when it hits eleven hundred pixels it stops.
+
+19:50.020 --> 19:50.340
+Okay.
+
+19:50.350 --> 19:56.490
+That's the max width and yet the black bars still goes all the way across.
+
+19:56.500 --> 19:58.040
+Now I just want to show you something.
+
+19:58.040 --> 19:59.370
+You guys don't have to do this.
+
+19:59.380 --> 20:04.500
+But if we had the container on the outside of the nav bar.
+
+20:05.610 --> 20:05.920
+OK.
+
+20:05.920 --> 20:12.270
+So have that and then the div the ending can div for the container outside of the nav bar and save.
+
+20:12.280 --> 20:17.620
+Now the background doesn't reach all the way across because it's restricted inside the container.
+
+20:18.270 --> 20:18.630
+OK.
+
+20:18.640 --> 20:24.670
+And I don't like the way that that looks I'm Web sites from like you know the like the early 2000s looked
+
+20:24.670 --> 20:29.410
+like that where everything was in this this container and then you had some like funky background over
+
+20:29.410 --> 20:30.060
+here.
+
+20:30.100 --> 20:34.630
+Nowadays you want your backgrounds to extend all the way across and you want to just put your content
+
+20:34.630 --> 20:36.330
+inside containers.
+
+20:36.450 --> 20:36.780
+OK.
+
+20:36.790 --> 20:41.320
+And that's another reason why it's a class and not an idea is because we're going to be using this container
+
+20:41.320 --> 20:44.260
+class throughout the throughout the site.
+
+20:44.260 --> 20:53.030
+All right so let's just bring that back how it was that was and there we go.
+
+20:53.030 --> 20:53.300
+OK.
+
+20:53.330 --> 20:54.110
+So that's it.
+
+20:54.140 --> 20:55.210
+That's our now bar.
+
+20:55.220 --> 20:59.690
+So in the next video we're going to start on the showcase area right here.

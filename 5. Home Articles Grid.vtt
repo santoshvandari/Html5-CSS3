@@ -1,0 +1,688 @@
+WEBVTT
+
+00:00.580 --> 00:05.010
+All right guys so in this video we're going to start to work on the articles down below.
+
+00:05.010 --> 00:10.850
+Basically our grid of articles and this quite a bit of each team l here quite a bit of mark up.
+
+00:10.890 --> 00:14.360
+I'm actually going to just make this a little bigger so that you guys can read it better.
+
+00:14.880 --> 00:21.210
+So under the header let's say Home Articles and we're gonna give.
+
+00:21.210 --> 00:27.690
+This is gonna be a section so going to use the H HTML5 section tag and we're gonna give an an idea of
+
+00:27.690 --> 00:36.360
+home dash articles and we're also gonna create padding classes so I'm gonna give it a class of P Y dash
+
+00:36.360 --> 00:42.200
+to just to give it some padding on the top and bottom and the way that these are gonna be set up is
+
+00:42.300 --> 00:43.610
+they're gonna be a little different.
+
+00:43.620 --> 00:48.720
+So for instance this first one we're actually going to make this a grid within a grid so that we can
+
+00:48.720 --> 00:54.600
+align it this way and then some of these will be adding a background color to some of them will have
+
+00:54.600 --> 00:55.650
+an image on the top.
+
+00:55.650 --> 01:00.440
+Some on the bottom so they'll be formatted a little bit differently.
+
+01:00.690 --> 01:01.930
+So let's go.
+
+01:01.950 --> 01:08.330
+Let's create the first one which is this one here which again is gonna be a grid within a grid.
+
+01:08.320 --> 01:11.130
+So actually let's put our heading for us.
+
+01:11.130 --> 01:21.180
+We're going to say Editor's Picks or editor picks and then what I want to do is create a container for
+
+01:21.180 --> 01:21.720
+our grid.
+
+01:21.720 --> 01:23.950
+So we're gonna call this one.
+
+01:23.970 --> 01:31.000
+Let's call it articles or articles excuse me articles container.
+
+01:32.010 --> 01:37.330
+And then each one is gonna be an article tag and I'm gonna give it a class of card.
+
+01:37.440 --> 01:45.300
+So card is something you see often in frameworks like bootstrap where you have maybe a background like
+
+01:45.300 --> 01:51.210
+this and some padding just something to put your content into rather than just having the text and images
+
+01:51.210 --> 01:55.320
+just you know just just floating there with just the background.
+
+01:55.320 --> 01:59.970
+Sometimes you'll have a like a colored heading like maybe a background with a heading something like
+
+01:59.970 --> 02:01.080
+that but yeah.
+
+02:01.080 --> 02:01.500
+That's going to.
+
+02:01.490 --> 02:06.480
+Those are gonna be cards so each one of these articles will have a class of card and we're going to
+
+02:06.480 --> 02:13.530
+put our first image in which is going to be in I am G slash articles and it's gonna be E.A. one.
+
+02:13.530 --> 02:23.430
+So this is an entertainment article and this this right here this is going to ax.
+
+02:23.430 --> 02:29.430
+This is gonna be a grid container and then this will be if one grid item in them will have a div that
+
+02:29.430 --> 02:32.430
+will have the rest of the stuff inside of it.
+
+02:32.460 --> 02:43.600
+So for instance the category which is going to be have a class of category dash he and t say entertainment.
+
+02:43.800 --> 02:52.110
+And underneath that we're gonna have our H 3 R title which is gonna be a link and it's gonna go to Article
+
+02:52.110 --> 03:01.230
+dot HDMI all we'll just say launch five for the article for the title rather and then under the h three
+
+03:01.230 --> 03:10.680
+we're going to put a paragraph and we'll say Lorem 20 thing is a 20 looks like 20 so that's gonna be
+
+03:10.680 --> 03:17.040
+our first one and if I save it and we take a look it's the image is gonna be giant because the images
+
+03:17.040 --> 03:21.270
+have have a width of one hundred percent.
+
+03:21.270 --> 03:26.430
+Now one thing I forgot is the main container you see how this is up against the edge like this because
+
+03:26.430 --> 03:32.010
+we didn't add the container class so right under the section I'm going to have a class of container
+
+03:32.330 --> 03:39.480
+that's going to wrap around everything so we just want to take all this and cut that out and put that
+
+03:39.480 --> 03:42.000
+inside the container and save.
+
+03:42.000 --> 03:46.880
+And now you can see that there's some padding on the edge here and it also line it to the middle.
+
+03:47.740 --> 03:48.010
+OK.
+
+03:48.050 --> 03:52.560
+So let's add our next article I'm just going to copy this.
+
+03:53.010 --> 03:56.640
+Now this one is not going to be its own grid.
+
+03:56.640 --> 03:59.630
+So we're talking about this right here.
+
+03:59.760 --> 04:03.930
+So we don't need to have this extra div.
+
+04:04.740 --> 04:12.180
+So we're gonna take that out widget and we're not even going to have an image we can take that out and
+
+04:12.540 --> 04:13.380
+that should be good.
+
+04:13.380 --> 04:17.590
+Let's move this back a little bit in the category is sports.
+
+04:17.590 --> 04:27.450
+So we're gonna change this to sports and change this to sports and we'll leave the title in the paragraph.
+
+04:27.450 --> 04:27.770
+All right.
+
+04:27.780 --> 04:31.620
+So if we take a look we should have something like this.
+
+04:31.620 --> 04:37.740
+The next one is gonna be similar to what we just did only it's gonna have an image up top.
+
+04:37.740 --> 04:48.820
+So let's copy the one we just did and paste that in and just fix this.
+
+04:48.850 --> 04:54.960
+So this one is gonna have an image right above the categories so let's say image and it's gonna be I
+
+04:54.960 --> 04:56.230
+am G slash
+
+04:58.360 --> 05:07.000
+articles slash and it's what is it technology so we want tech one dot j peg and we'll change this to
+
+05:07.000 --> 05:12.100
+tech and this to technology.
+
+05:12.250 --> 05:13.570
+OK we'll save that.
+
+05:13.570 --> 05:17.520
+Make sure the image shows up and then we have the content under it.
+
+05:17.560 --> 05:21.080
+So the next one is similar except the image is at the bottom.
+
+05:21.160 --> 05:31.360
+So I'll just copy what we just did and Let's paste that in and we're just going to take the image is
+
+05:31.360 --> 05:34.240
+actually going to be let's see what is this sports.
+
+05:34.240 --> 05:43.570
+So this is gonna be sports one dot j peg but we're gonna move this to the bottom of the article so right
+
+05:43.570 --> 05:50.300
+under the paragraph and we'll change the category change.
+
+05:50.560 --> 05:53.470
+This right here.
+
+05:53.470 --> 05:53.830
+Good.
+
+05:54.520 --> 06:01.360
+And then the next one is this one here which is basically the same thing is this just different image.
+
+06:01.360 --> 06:08.110
+So we'll go ahead and copy that one with the tech one image and paste that annual changes to tech to
+
+06:12.060 --> 06:12.820
+k.
+
+06:12.840 --> 06:18.420
+Next one is gonna be this which doesn't have an image or anything like that so I'll copy the one that
+
+06:18.420 --> 06:22.560
+we did with no image which is the second one.
+
+06:22.560 --> 06:28.530
+So this is the first one this is the second one and we'll put that right here
+
+06:32.640 --> 06:35.030
+OK but this is gonna be it is sports.
+
+06:35.040 --> 06:37.030
+So we can actually leave that.
+
+06:37.200 --> 06:43.750
+And then this last one is similar to the first one in that it's gonna be a grid within a grid.
+
+06:43.830 --> 06:49.050
+So let's let's copy the first one
+
+06:52.280 --> 06:57.990
+I know this is a lot of markup and hopefully it's not too confusing if you want you can just get the
+
+06:58.020 --> 07:03.930
+finished files from the first lecture of this section and you can just copy this whole thing.
+
+07:03.930 --> 07:10.200
+I sure probably should have said that before but yeah this is gonna be E.A. to only I want to take the
+
+07:10.200 --> 07:13.300
+image and put it after the div.
+
+07:14.040 --> 07:16.430
+So put the image right here.
+
+07:16.620 --> 07:16.920
+All right.
+
+07:16.950 --> 07:17.960
+So we'll save that.
+
+07:17.970 --> 07:23.250
+And if we take a look it's going to look pretty bad it's just all you know all in one line because we
+
+07:23.250 --> 07:25.480
+haven't added the grid yet.
+
+07:25.860 --> 07:33.600
+So let's jump into style CSX and let's start to add our grid actually first thing I'm going to do is
+
+07:33.600 --> 07:44.820
+add the utility classes like the card class so see we'll go right below the buttons and say.
+
+07:44.820 --> 07:55.380
+Card is going gonna give this a background of whites and let's do a padding of one room.
+
+07:55.650 --> 07:56.550
+So we save that.
+
+07:56.550 --> 08:02.780
+Now you can see that each one of these articles they're all wrapped in the in the white container are
+
+08:02.790 --> 08:03.830
+white card.
+
+08:04.800 --> 08:11.550
+So I think yeah we'll just we'll do leave that for now and then we'll go back down and let us style
+
+08:11.580 --> 08:14.370
+our Home Articles.
+
+08:14.640 --> 08:14.920
+OK.
+
+08:14.950 --> 08:22.800
+So we have an I.D. of home dash articles and remember we have a class in there called articles dash
+
+08:23.640 --> 08:26.690
+container and that's what we want to set the grid on.
+
+08:26.700 --> 08:28.210
+That's going to be the grid parent.
+
+08:29.180 --> 08:29.580
+OK.
+
+08:29.580 --> 08:36.720
+And then as far as the template columns we're gonna say grid template columns and we're gonna set repeat
+
+08:37.220 --> 08:40.800
+and we want 3 1 F.
+
+08:41.040 --> 08:45.510
+So if I save that automatically they're going to set to three in a row.
+
+08:45.510 --> 08:52.230
+Now I want some spacing in between so let's add a grid gap of one room.
+
+08:52.490 --> 08:53.130
+Whoops.
+
+08:53.160 --> 08:53.400
+Yeah.
+
+08:53.400 --> 08:53.910
+There we go.
+
+08:54.450 --> 08:54.780
+OK.
+
+08:54.810 --> 09:02.850
+So now we have some spacing and I mean that's that's not too bad itself but what I do want to do is
+
+09:03.180 --> 09:08.720
+like I said turn this one into its own grid and then span it over one.
+
+09:08.790 --> 09:09.270
+OK.
+
+09:09.330 --> 09:18.480
+Just to just to give it a little a little bit of style so we can grab on to this without giving it a
+
+09:18.480 --> 09:21.250
+special class by using first child.
+
+09:21.270 --> 09:21.540
+OK.
+
+09:21.540 --> 09:22.470
+Same with the last.
+
+09:22.470 --> 09:24.370
+We want this to do the same thing.
+
+09:24.390 --> 09:30.960
+So what I'll do is I'll go down and say home dash articles
+
+09:33.510 --> 09:34.950
+Articles.
+
+09:35.280 --> 09:36.370
+Dash.
+
+09:36.630 --> 09:38.160
+Container.
+
+09:38.160 --> 09:40.710
+Now I want the first article right.
+
+09:40.710 --> 09:44.770
+So I could say article first.
+
+09:44.780 --> 09:47.970
+Dash child I could do that.
+
+09:47.970 --> 09:48.600
+But what if I.
+
+09:48.660 --> 09:51.900
+What if I wanted to change it to a div or something I think I want to.
+
+09:51.920 --> 09:57.990
+I'm going to make this a little more flexible and I'm gonna use an asterisk here meaning any any element
+
+09:58.130 --> 10:06.360
+it doesn't have to be an article but I only want D the direct child so I'm gonna use the the greater
+
+10:06.360 --> 10:07.370
+than OK.
+
+10:07.560 --> 10:14.310
+So we're just saying any anything whatever this is even if even if this was changed to a div we're still
+
+10:14.310 --> 10:18.640
+going to target this first element here and only this first one.
+
+10:18.690 --> 10:20.550
+So let's add.
+
+10:20.730 --> 10:32.090
+Display grid to this and we're gonna add grid dash template columns and we just want to repeat.
+
+10:32.880 --> 10:40.320
+We want to repeat to 1 F far so we want basically the image is gonna be in one half hour and then the
+
+10:40.320 --> 10:49.260
+text the div with the text will be in one half hour and let's just add a grid dash gap and let's say
+
+10:51.240 --> 10:55.690
+1 REM and save that.
+
+10:55.690 --> 10:56.030
+All right.
+
+10:56.040 --> 11:04.710
+So what we've done here is we've turned this item the first child into a grid and we've set it to repeat
+
+11:04.710 --> 11:06.810
+to 1 FDR with some grid gap.
+
+11:06.810 --> 11:09.270
+Now obviously this doesn't look very good.
+
+11:09.270 --> 11:12.230
+What we need to do is span this across.
+
+11:12.240 --> 11:21.510
+K We wanted to take up two columns so what I can do is let's see here we'll just put it right in here
+
+11:21.510 --> 11:32.670
+so we'll say grid dash column from one we want to span it to a cross so we'll save.
+
+11:32.670 --> 11:33.420
+And then we go.
+
+11:33.420 --> 11:34.660
+It spans across.
+
+11:34.770 --> 11:37.080
+Now the images is kind of up too far.
+
+11:37.080 --> 11:38.750
+I want to basically center it.
+
+11:38.760 --> 11:47.600
+So I'm going to add a line dash items to the center.
+
+11:47.790 --> 11:48.510
+We'll save that.
+
+11:48.510 --> 11:50.170
+Now the images in the center.
+
+11:51.030 --> 11:51.350
+OK.
+
+11:51.380 --> 11:54.860
+So I want to do basically the same thing to the last.
+
+11:54.900 --> 12:03.630
+So I'm going to copy this whole thing right here and just put a comma paste that in and change this
+
+12:03.630 --> 12:08.310
+to last child so that we can target that and save.
+
+12:08.310 --> 12:12.970
+And now you can see we get the same thing now.
+
+12:13.710 --> 12:20.650
+Actually you know what we need to right now we're saying start at 1 and span 2.
+
+12:20.650 --> 12:25.730
+And that's not what we want because we wanted to start here so we actually wanted to start at two and
+
+12:25.730 --> 12:26.940
+span two.
+
+12:26.980 --> 12:39.950
+So we're gonna have to also just grab this go down here and take this and say we want to start it too
+
+12:39.980 --> 12:41.020
+in span too.
+
+12:41.050 --> 12:42.280
+So we'll go ahead and save that.
+
+12:42.280 --> 12:42.880
+And there he goes.
+
+12:42.910 --> 12:46.060
+Now it's put in this place all right.
+
+12:46.090 --> 12:48.340
+So that looks pretty good.
+
+12:48.340 --> 12:53.190
+Last thing we want to add our background classes and our padding classes.
+
+12:53.230 --> 12:55.210
+So this should have background dark.
+
+12:55.210 --> 12:57.510
+This should have background primary.
+
+12:57.730 --> 13:04.600
+And we also need that the pattern classes because this right here is just too close to to the showcase.
+
+13:04.600 --> 13:07.140
+Remember we added the P Y to class.
+
+13:07.240 --> 13:16.780
+So let's go on top and we're going to add in all the background classes which we're gonna have three.
+
+13:16.780 --> 13:28.630
+So let's say big dash dark and we're gonna do a background we'll use our our dark color variable and
+
+13:28.630 --> 13:32.940
+let's do a color white.
+
+13:32.950 --> 13:33.350
+All right.
+
+13:33.370 --> 13:39.910
+And let's go ahead and just go and copy this down twice.
+
+13:39.970 --> 13:51.970
+Let's change this to primary and change this to secondary OK and then we'll add our pattern classes.
+
+13:51.970 --> 14:05.140
+So I'm gonna do P Why do class P Y dash one and 4 padding for this I'm going to do one point five.
+
+14:05.380 --> 14:07.060
+Yeah one point five REM.
+
+14:07.060 --> 14:08.950
+Top and bottom.
+
+14:08.950 --> 14:10.930
+Copy this down a couple times.
+
+14:10.960 --> 14:13.070
+This one will be two.
+
+14:13.630 --> 14:22.660
+And then this one will be three and we'll change these to two and three and then I'm going to copy this
+
+14:23.470 --> 14:29.650
+and we want we also want pattern classes for all around which will be p1 p2 and P3 and then we'll just
+
+14:29.650 --> 14:33.250
+take the 0 away which will make it padding all the way around.
+
+14:34.780 --> 14:37.150
+OK so those are padding classes.
+
+14:37.150 --> 14:38.760
+Let's save that.
+
+14:38.920 --> 14:43.440
+Now we haven't added the big color yet you can see the padding is now there.
+
+14:43.450 --> 14:47.790
+But let's add our big color classes or BGP backgrounds.
+
+14:49.660 --> 14:56.340
+So let's see we have the first one which is right here the second one I'm going to give a class of BJP
+
+14:56.350 --> 15:09.190
+dash dark save it and c that didn't work why didn't network Class B G.
+
+15:09.200 --> 15:09.860
+Dark
+
+15:18.790 --> 15:19.780
+because of the card
+
+15:24.130 --> 15:26.400
+dark color background.
+
+15:26.440 --> 15:27.480
+P.G. dark
+
+15:32.130 --> 15:33.790
+article class P.G. dark.
+
+15:33.810 --> 15:36.720
+I'm not sure why that's why I put it.
+
+15:36.870 --> 15:37.830
+I put on this one.
+
+15:37.840 --> 15:39.360
+That's the wrong one.
+
+15:39.360 --> 15:43.530
+It's gonna be right here.
+
+15:43.530 --> 15:44.130
+There we go.
+
+15:45.030 --> 15:45.400
+OK.
+
+15:45.420 --> 15:49.170
+So we have an issue here the heading is not white.
+
+15:49.170 --> 15:56.100
+Even though we put color white we have to specifically target the heading or if there's any links.
+
+15:56.100 --> 15:58.050
+We also want to set those to white.
+
+15:58.050 --> 16:07.050
+So actually what I'm going to do is just create a bunch of styles here we'll do big dark each one
+
+16:09.570 --> 16:10.410
+BFG.
+
+16:10.430 --> 16:11.870
+Dark.
+
+16:11.880 --> 16:16.480
+Sorry about the length of this video guys we're just doing quite a bit here.
+
+16:16.770 --> 16:19.990
+That should be primary.
+
+16:20.200 --> 16:20.470
+Nope.
+
+16:20.480 --> 16:21.230
+Fiji dark.
+
+16:21.230 --> 16:22.170
+We're doing H.
+
+16:22.250 --> 16:26.040
+Let's just do H1 H2 and H3.
+
+16:27.080 --> 16:33.200
+And I know we only have an 3 but we might use BFG dark somewhere where there's an H1 or an H two as
+
+16:33.200 --> 16:39.650
+well so I I'm just trying to make this scalable basically and then let's take care of any links.
+
+16:39.680 --> 16:50.310
+So BGP dark a and then let's take care of the primary and secondary background so paste this in let's
+
+16:50.320 --> 16:55.030
+do primary paste that in
+
+16:57.860 --> 17:05.110
+secondary by the way I'm using controlled D to select the next one down and then we'll just set that
+
+17:05.110 --> 17:10.250
+to color white and save.
+
+17:10.250 --> 17:13.120
+And now you can see that this the heading is white.
+
+17:13.120 --> 17:17.590
+So I want this one right here to have the BJP primary so let's go back.
+
+17:17.650 --> 17:18.310
+So it's the set.
+
+17:18.320 --> 17:22.060
+It's the second to last one.
+
+17:22.240 --> 17:30.740
+So this is the last article let's go to the second to last and say BJP dash primary and save there go
+
+17:31.930 --> 17:33.910
+so that looks pretty good.
+
+17:34.030 --> 17:36.020
+And obviously it's not responsive yet.
+
+17:36.040 --> 17:41.570
+Well we're going to get to that probably last but I think that looks decent.
+
+17:41.680 --> 17:46.510
+So in the next video what I want to do is take care of the footer which we're also gonna use the grid
+
+17:46.510 --> 17:49.430
+in we're basically gonna have five items.
+
+17:49.480 --> 17:54.260
+So one two three four and then the fifth one we're gonna span all the way across like that.
+
+17:54.370 --> 17:56.160
+All right so I'll see you in the next video.

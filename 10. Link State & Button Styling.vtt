@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.360 --> 00:07.140
+All right in this video we're going to look at link styling links and buttons and links are kind of
+
+00:07.140 --> 00:11.820
+special because they have different states you have here your regular links your regular state and you
+
+00:11.820 --> 00:17.310
+have your hover state in active state and a visited state and you can actually style those different
+
+00:17.310 --> 00:19.960
+states using something called a pseudo selector.
+
+00:20.070 --> 00:24.990
+And I'm also going to show you how to how to style buttons and also how to style a link as a button
+
+00:25.020 --> 00:31.170
+because a lot of times you'll have actual a tags that you want to look like buttons in your web site
+
+00:31.170 --> 00:33.400
+or your user interface.
+
+00:33.420 --> 00:42.710
+So let's go ahead and create a new file here called 08 underscore links underscore buttons dot HDMI.
+
+00:44.880 --> 00:51.410
+And we're going to go ahead and change title up to links and buttons.
+
+00:52.680 --> 00:53.210
+OK.
+
+00:53.220 --> 00:56.510
+And let's add our style.
+
+00:57.540 --> 00:59.960
+And for now we'll just put in a tag does it have to.
+
+00:59.970 --> 01:06.660
+Doesn't matter where it goes and just say click here and save let's open it up with live server and
+
+01:06.720 --> 01:12.420
+we just have a simple link and it's going to be blue by default with an underline which doesn't look
+
+01:12.420 --> 01:12.950
+very good.
+
+01:12.960 --> 01:16.270
+So I'm going to grab on to that a tag here.
+
+01:16.320 --> 01:17.510
+Use that as a selector.
+
+01:17.520 --> 01:22.970
+I'm going to change the color to a dark gray and then to remove the underline.
+
+01:22.980 --> 01:28.360
+We want to use the text decoration property and we want to set that to none.
+
+01:28.360 --> 01:28.700
+OK.
+
+01:28.710 --> 01:30.570
+So the default is underlined.
+
+01:30.570 --> 01:32.550
+We're gonna set it to none.
+
+01:32.550 --> 01:37.290
+Now if I hover over it you'll see we get a cursor the cursor changes into a pointer.
+
+01:37.290 --> 01:39.920
+But the nothing else changes.
+
+01:39.930 --> 01:44.390
+So you're probably going to want some kind of a change when you hover over it.
+
+01:44.400 --> 01:52.890
+Now to do that we can use the pseudo selector hover so we can do a colon and then hover and let's change
+
+01:52.890 --> 01:56.130
+the color to coral.
+
+01:56.160 --> 02:02.190
+So now if I go and I hover over it it changes to coral and you can you can add any properties you want
+
+02:02.190 --> 02:08.820
+here you could do something crazy like I would do font size changes to like 40 pixels.
+
+02:08.820 --> 02:15.420
+And now what I have for 0 4 it goes to 40 pixels font size so you can do whatever you want in the hover
+
+02:15.420 --> 02:20.730
+state but I'm not going to keep that and let's just change the color and if you want to add the underline
+
+02:20.730 --> 02:29.730
+on hover you could do text decoration underline and I could see that it gets colored and it's underlined.
+
+02:29.730 --> 02:39.530
+So in addition to hover we have visited so we can do a colon visited and let's just do color red.
+
+02:39.540 --> 02:45.270
+Now visited at least for me I know I don't use this very much I don't think I've ever used it actually
+
+02:45.270 --> 02:46.650
+in a real project.
+
+02:47.010 --> 02:53.430
+When you click on it and you visit it it then turns red and it stays red even if I reload the server
+
+02:53.430 --> 02:54.660
+it stays red.
+
+02:54.660 --> 03:00.420
+And if there were other links if we didn't click on them they'd be they'd be gray dark gray and then
+
+03:00.420 --> 03:01.710
+you'd click on and they turn red.
+
+03:01.710 --> 03:07.890
+So it's kind of weird and I really don't like it and it's not something that I use but it is possible.
+
+03:07.920 --> 03:14.010
+So I just want to show you that but that comment that out another state that we have four links is active.
+
+03:14.010 --> 03:25.380
+So if we do a colon active and let's say color red and now the active state is going to be when we click.
+
+03:25.380 --> 03:30.270
+So when I click see how it turns red and if I click and hold it also turns red.
+
+03:30.540 --> 03:32.210
+So that's the active state in that.
+
+03:32.270 --> 03:37.620
+That's another one that I really don't use but it is it is possible.
+
+03:37.620 --> 03:39.450
+So those are the different states for lengths.
+
+03:39.450 --> 03:45.780
+Now what I want to do is I want to style I'm going to put a button in here and style the link in the
+
+03:45.780 --> 03:46.920
+button the same way.
+
+03:46.950 --> 03:48.320
+So it's a button.
+
+03:49.470 --> 03:55.040
+And let's give both of these a class of B.T. end.
+
+03:55.080 --> 03:55.330
+OK.
+
+03:55.350 --> 04:01.170
+So this is often what we'll do in projects is we'll have different button classes sometimes we'll have
+
+04:01.170 --> 04:07.230
+like a B10 light if I want a light button Beaty and dark which will be this basically the same just
+
+04:07.230 --> 04:08.240
+different colors.
+
+04:08.430 --> 04:12.960
+But let's just do BTR and we'll say click here.
+
+04:12.960 --> 04:13.440
+Actually no.
+
+04:13.470 --> 04:15.620
+Let's put it in the text.
+
+04:15.870 --> 04:26.550
+My button just so we know that this is a button and then up here let's say my link and save and you
+
+04:26.550 --> 04:32.840
+can see that they're obviously formatted very differently initially but we want to make them the same.
+
+04:32.850 --> 04:38.130
+And I'm going to just make this bigger not that big.
+
+04:38.130 --> 04:38.350
+OK.
+
+04:38.370 --> 04:39.960
+So we have a link and a button.
+
+04:39.960 --> 04:43.920
+Let's let's see I want these on separate lines.
+
+04:43.920 --> 04:45.520
+They're both inline elements.
+
+04:45.540 --> 04:51.400
+So I'm going to just put a couple line breaks here just to kind of get them away from each other.
+
+04:51.510 --> 04:54.600
+So buttons obviously are styled differently.
+
+04:54.600 --> 04:56.080
+They have a border.
+
+04:56.280 --> 04:59.070
+They have a little bit of padding here the fonts different.
+
+04:59.100 --> 05:09.020
+So let's go up here into our styling and let's say button styling.
+
+05:09.280 --> 05:11.250
+So we have a class of B10
+
+05:13.930 --> 05:17.930
+and let's go ahead and add a background.
+
+05:18.730 --> 05:23.780
+And I'm going to use a blue that's like like a Facebook brand blue.
+
+05:23.800 --> 05:35.390
+So it's going to be for C six C a zero and let's set the color of the text to white.
+
+05:35.410 --> 05:37.510
+OK let's save that and see what we get.
+
+05:37.510 --> 05:38.270
+All right.
+
+05:38.410 --> 05:43.930
+Now we want to remove the border because buttons have borders going to say border.
+
+05:43.930 --> 05:48.840
+We could either do border none like that or we could do border zero.
+
+05:48.910 --> 05:50.300
+I usually use border none.
+
+05:51.340 --> 05:52.330
+So save that.
+
+05:52.330 --> 05:55.510
+Now the border is off the actual button.
+
+05:55.510 --> 05:58.190
+Next thing we want to do is is the font size.
+
+05:58.340 --> 05:58.550
+OK.
+
+05:58.570 --> 06:05.220
+We want the font size to be the same for all all links and buttons which we're going to set to 16 pixels.
+
+06:05.260 --> 06:06.910
+So we'll save that.
+
+06:06.910 --> 06:07.770
+Good.
+
+06:07.780 --> 06:09.890
+Next thing we'll do is the padding.
+
+06:10.840 --> 06:16.720
+So let's say we want to do 10 on the top and bottom and 20 left and right.
+
+06:16.720 --> 06:18.430
+Save that.
+
+06:18.430 --> 06:21.500
+And this is this is zoomed in that's why this is so big.
+
+06:21.790 --> 06:24.830
+Can actually zoom out a little bit now.
+
+06:24.840 --> 06:25.520
+Yeah.
+
+06:25.630 --> 06:29.880
+And let's change the font for the body.
+
+06:30.730 --> 06:34.240
+So I'm going to say font family.
+
+06:34.300 --> 06:36.970
+Let's grab this or is it to home.
+
+06:37.000 --> 06:39.730
+Sig you UI to Homer.
+
+06:40.560 --> 06:42.630
+OK that looks a little better.
+
+06:42.670 --> 06:44.950
+Back down to our button.
+
+06:44.950 --> 06:46.780
+Let's give it a little border radius.
+
+06:47.770 --> 06:48.070
+OK.
+
+06:48.070 --> 06:50.290
+And this is these are all properties that we've learned about.
+
+06:50.290 --> 06:54.810
+So we're kind of taking all the stuff that we've learned and actually creating an element that that's
+
+06:54.820 --> 06:55.450
+styled.
+
+06:56.030 --> 06:56.210
+OK.
+
+06:56.230 --> 07:00.660
+So now you can see they have the the rounded corners.
+
+07:01.990 --> 07:08.590
+Let's let's actually put a line break above the the a tag to just bring it down a little bit.
+
+07:08.620 --> 07:08.890
+All right.
+
+07:08.890 --> 07:15.280
+So these are these are pretty much identical now so for any button or any link with that we want to
+
+07:15.280 --> 07:18.390
+style this way we would just add the class APTN.
+
+07:18.450 --> 07:18.780
+OK.
+
+07:18.850 --> 07:27.790
+Globally Now one thing that I want to mention is the will go over this in a minute how the hover state
+
+07:28.600 --> 07:32.460
+but when we go over the actual button we don't get a cursor.
+
+07:32.500 --> 07:41.170
+We don't get a pointer on our cursor and for this we do K links by default you do get the pointer.
+
+07:41.350 --> 07:48.280
+So if we want the pointer to show up either way we can actually set that in the CSF so we can set cursor
+
+07:48.280 --> 07:55.010
+pointer and now when I go over the button you can see that it turns into a pointer now for the hover
+
+07:55.010 --> 07:59.750
+state so let's say Beatty and hover troops.
+
+07:59.780 --> 08:03.510
+We don't want a space there that won't work.
+
+08:03.830 --> 08:09.790
+So Beatty and hover and we're gonna set the color to too light gray.
+
+08:09.840 --> 08:13.650
+That's the text color and then the background.
+
+08:13.970 --> 08:22.130
+I'm gonna set that to just a slightly lighter blue than the one we have which is going to be 4 4 6 1
+
+08:22.130 --> 08:24.900
+9 0 OK.
+
+08:25.130 --> 08:25.940
+Or is it darker.
+
+08:25.940 --> 08:28.250
+I think it's yeah I think it's darker.
+
+08:28.250 --> 08:34.310
+And then I'm going to just get rid of the text decoration underline for the link up here even though
+
+08:34.310 --> 08:41.240
+we said links link covers should be coral down here we're saying the button hover should be light grey
+
+08:41.240 --> 08:46.040
+and this is going to overwrite that style so let's save let's go ahead and hover and you can see that
+
+08:46.250 --> 08:54.740
+the blue gets a little darker so you can't even distinguish the difference here between the the link
+
+08:54.770 --> 08:57.910
+the tag and the button tag and that's that's what we want.
+
+08:58.280 --> 09:03.140
+So that's what you're gonna do a lot in Web sites and especially in user interfaces where you have a
+
+09:03.140 --> 09:07.400
+lot of links that you want to format as buttons.
+
+09:07.430 --> 09:15.080
+All right so that's it guys in the next video what I want to do is start to look at menus creating vertical
+
+09:15.080 --> 09:17.650
+and horizontal navigation bars.
+
+09:17.720 --> 09:19.370
+So we'll get into that next.

@@ -1,0 +1,241 @@
+WEBVTT
+
+00:00.260 --> 00:00.800
+All right guys.
+
+00:00.810 --> 00:07.340
+Now we're gonna go ahead and set up nodes SAS so that we can compile our SPSS files and our SAS code.
+
+00:08.140 --> 00:09.930
+So you need to go to no J.S. dot org.
+
+00:09.930 --> 00:14.490
+If you don't already have installed and just go ahead and install either the long term support or the
+
+00:14.490 --> 00:18.960
+current version for latest features doesn't really matter in this situation.
+
+00:18.960 --> 00:25.140
+Now we're gonna jump into this code and I just have an empty folder called SAS sandbox and we need to
+
+00:25.140 --> 00:27.110
+use the terminal or the command line.
+
+00:27.120 --> 00:29.120
+I'm going to use my integrated terminal.
+
+00:29.160 --> 00:35.250
+We can open that and V.S. code with control till day or you can go to the View menu and just go to a
+
+00:35.250 --> 00:42.120
+terminal or you can use your standard Mac terminal windows command prompt Linux terminal whatever and
+
+00:42.120 --> 00:46.850
+just do a quick NPM dash dash version just to make sure you have NPM installed.
+
+00:47.280 --> 00:47.720
+OK.
+
+00:47.730 --> 00:53.460
+And then what we want to do is create a package dot Jason File since or installing anything with NPM
+
+00:53.880 --> 00:59.940
+and we can generate that with NPM and net and then I'm also going to add on Dash y so that we don't
+
+00:59.940 --> 01:03.540
+have to answer a bunch of questions it will just give us the defaults.
+
+01:03.540 --> 01:05.610
+OK so let's go out and run that.
+
+01:05.770 --> 01:09.870
+I'll clear this up with control L and in our package.
+
+01:09.900 --> 01:13.620
+JASON It just has the name the version all that stuff.
+
+01:13.620 --> 01:17.540
+Once we install node SAS it should get listed in here as a dependency.
+
+01:17.550 --> 01:22.770
+So let's say npm install node dash SAS
+
+01:27.770 --> 01:32.810
+OK so it's going to install it in a folder called Node modules and you can see it's listed here as a
+
+01:32.810 --> 01:34.320
+dependency.
+
+01:34.370 --> 01:38.870
+Now in order to use node SAS we're going to create an NPM script.
+
+01:39.020 --> 01:44.990
+So inside here the scripts we don't need this test I'm actually gonna change this to SAS.
+
+01:45.170 --> 01:53.590
+That way we can just run NPM run run SAS and then in here we want it to run node SAS.
+
+01:53.870 --> 02:01.880
+We want to set a watch flag so dash w we want it to constantly watch a folder called SPSS which we haven't
+
+02:01.880 --> 02:02.630
+created yet.
+
+02:03.500 --> 02:13.520
+So SPSS slash and then we want it to output dash 0 to a folder called dist slash CSX dist is where basically
+
+02:13.520 --> 02:14.800
+our project is going to live.
+
+02:14.810 --> 02:20.450
+The H team l files the CSX anything that we would deploy will be in that dist folder and then we're
+
+02:20.450 --> 02:24.050
+just going to add a dash dash recursive flag here.
+
+02:25.580 --> 02:26.000
+All right.
+
+02:26.000 --> 02:27.410
+So that should be good.
+
+02:27.440 --> 02:30.480
+Let's go ahead and save this and we'll close it up.
+
+02:30.500 --> 02:37.580
+And now what I'll do is create a folder called SPSS and this is where all of our SAS files will go.
+
+02:37.580 --> 02:45.410
+So let's create a file called Main dot SPSS and you can see it as a little SAS logo there.
+
+02:45.410 --> 02:51.950
+Now we also want to create a folder called dest and this is where the compiled CSX is going to go as
+
+02:51.950 --> 02:53.930
+we directed in our script.
+
+02:53.930 --> 03:02.690
+So let's go ahead and clear this up down here and let's run NPM run SAS.
+
+03:02.690 --> 03:10.030
+Now what this is going to do is it's going to constantly watch the SPSS folder in any SAS files in it.
+
+03:10.040 --> 03:15.230
+And as soon as we save it'll compile into dist CSX which we haven't even created.
+
+03:15.290 --> 03:17.720
+We don't have to create it we'll do it on its own.
+
+03:17.840 --> 03:22.930
+So we'll test this out by just creating a variable and I'm going to discuss variables and stuff in depth.
+
+03:22.940 --> 03:24.420
+I just want to test it out.
+
+03:24.440 --> 03:26.640
+So going to say we want to see color.
+
+03:26.840 --> 03:38.060
+We'll set that to red and let's say a body and we'll set the background to the variable of color.
+
+03:38.360 --> 03:38.580
+OK.
+
+03:38.600 --> 03:39.590
+So this is SAS.
+
+03:39.590 --> 03:41.240
+This is not regular CSX.
+
+03:41.240 --> 03:46.970
+Now I'm going to save it with control s and as soon as I save it it'll tell us down here that rendering
+
+03:46.970 --> 03:53.500
+is complete and if we look in disk we now have a CSX file with a main dot CSX.
+
+03:53.510 --> 03:53.760
+OK.
+
+03:53.780 --> 03:59.230
+So it's going to copy the name which we called Main and it's going to just name it that but it's going
+
+03:59.230 --> 04:04.210
+to be a CSX file and if we look in that it's just body background red.
+
+04:04.260 --> 04:04.590
+OK.
+
+04:04.610 --> 04:11.300
+So it takes the SAS with these variables compiles it down to this CSX and then this is what we include
+
+04:11.330 --> 04:12.580
+in our HD CML.
+
+04:12.830 --> 04:20.100
+So in dist I'm going to create a file called index dot HD CML and we'll just put in our boilerplate
+
+04:20.180 --> 04:32.810
+here and let's call this SAS sandbox and we want to link to CSF slash main dot CSX and we'll just put
+
+04:32.810 --> 04:33.680
+an H1
+
+04:38.210 --> 04:39.370
+and we'll save that.
+
+04:39.370 --> 04:46.380
+Now we can open this each team out with a live server and now we have a red background.
+
+04:46.380 --> 04:46.990
+OK.
+
+04:47.090 --> 04:49.890
+Now if I go back into my SAS file.
+
+04:49.910 --> 04:54.310
+This is where you want to do all your styling you don't want to touch the CSX just the SAS.
+
+04:54.320 --> 05:00.770
+I'm going to change this to Blu ray and as soon as I save that you'll see down here it renders and then
+
+05:01.160 --> 05:04.220
+we can go back and now we have a blue background.
+
+05:04.220 --> 05:04.450
+OK.
+
+05:04.480 --> 05:06.560
+So our entire environment is set up.
+
+05:06.560 --> 05:10.960
+Now when you're ready to deploy you will just take this disk folder.
+
+05:10.970 --> 05:15.320
+KAY That's this other stuff node modules you all your SAS package.
+
+05:15.320 --> 05:17.710
+Jason this is your development environment.
+
+05:17.790 --> 05:18.010
+OK.
+
+05:18.020 --> 05:20.090
+This only has to do with your development.
+
+05:20.090 --> 05:25.500
+This disk is your actual project your actual product that you would deploy.
+
+05:25.520 --> 05:25.820
+All right.
+
+05:25.820 --> 05:29.440
+So that's how we work with node SAS and we're going to come back to this.
+
+05:29.450 --> 05:36.110
+But in the next video I want to show you another option which is using graphical program called koala.
+
+05:36.280 --> 05:40.160
+OK so we'll take a look at that and then we'll jump back in and we'll start to look at the features
+
+05:40.160 --> 05:40.910
+of SAS.

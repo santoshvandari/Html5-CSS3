@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.260 --> 00:02.510
+All right guys so our project is now finished.
+
+00:02.510 --> 00:04.980
+So I want to go ahead and deploy it.
+
+00:04.980 --> 00:10.430
+I also want to give functionality to the contact form using net le fi forms.
+
+00:10.500 --> 00:15.910
+So I'm in my net lo fi panel so you just have to sign up if you don't have an account and then log in
+
+00:15.910 --> 00:17.820
+and you can do all this for free.
+
+00:18.120 --> 00:24.730
+And then this is the forms documentation because we want the contact form to actually work.
+
+00:24.750 --> 00:26.730
+So there's a few things we need to do.
+
+00:26.730 --> 00:33.390
+First we need to add a method of post and then this data net lo fi true to our form tag.
+
+00:33.390 --> 00:42.450
+So I'm just going to grab that and go into our contact page contact HD AML and right here I have the
+
+00:42.450 --> 00:43.830
+form tag we want.
+
+00:43.830 --> 00:47.460
+Method equals post and data and alpha equals true.
+
+00:47.460 --> 00:50.430
+Now we also want name attributes for each input.
+
+00:50.430 --> 00:51.170
+So let's say.
+
+00:51.170 --> 00:52.320
+Name.
+
+00:52.320 --> 00:54.180
+This is the name field.
+
+00:54.330 --> 00:58.920
+Let's do name equals subject
+
+01:01.760 --> 01:04.340
+to name equals email
+
+01:08.350 --> 01:10.300
+name equals.
+
+01:10.300 --> 01:17.510
+What is this phone and then name equals message.
+
+01:17.560 --> 01:18.220
+OK.
+
+01:18.250 --> 01:21.800
+Now we also want to add some spam filtering with recaptured.
+
+01:21.830 --> 01:25.930
+So I'm going to go back to the forms documentation and go down
+
+01:28.670 --> 01:34.610
+see we're going to go down to spam filtering honeypot field.
+
+01:34.610 --> 01:35.570
+No we don't want that.
+
+01:35.570 --> 01:39.410
+We want this explicit recapture.
+
+01:39.740 --> 01:45.380
+So basically you guys have seen this before and it says I'm not a robot you have to check it and sometimes
+
+01:45.380 --> 01:47.630
+you have to do those pictures.
+
+01:47.630 --> 01:52.020
+So we want that just to stop spam from from coming in.
+
+01:52.160 --> 01:58.390
+So what we have to do is add this attribute data net low fi recapture equals true.
+
+01:58.440 --> 02:03.740
+We want to add that to our form tag which is right here.
+
+02:03.780 --> 02:11.240
+So I'm going to paste that in and then wherever we want to put it I'm going to go under the text area
+
+02:11.630 --> 02:18.230
+and I'm going to put a div with the class of m y dash to just to give it some margin around it and then
+
+02:18.230 --> 02:24.030
+we want to grab this this div right here with data.
+
+02:24.180 --> 02:27.550
+Net lo fi recaptured true.
+
+02:27.880 --> 02:30.110
+They're going to put that right in there and save.
+
+02:30.110 --> 02:35.510
+Now this won't show until we deployed in that lo fi because the platform looks at these attributes and
+
+02:35.510 --> 02:38.040
+then puts in the recapture.
+
+02:38.410 --> 02:38.710
+OK.
+
+02:38.720 --> 02:42.660
+And I believe that's all we have to do here.
+
+02:46.300 --> 02:48.020
+Ajax form submissions yes.
+
+02:48.060 --> 02:51.010
+So we should be ok now.
+
+02:51.160 --> 02:54.870
+We have to upload this to get hub or if the push to get hubs.
+
+02:54.880 --> 03:03.730
+So I'm going to go to get hub dot com and I'm going to create a new repository
+
+03:06.730 --> 03:15.630
+I'm just going to call this portfolio underscore Web site I'm actually going to make this private but
+
+03:15.630 --> 03:17.020
+you can do public if you want.
+
+03:17.070 --> 03:17.790
+I'll just say
+
+03:20.230 --> 03:27.940
+portfolio Web site and let's go and create repository.
+
+03:27.940 --> 03:34.260
+OK so now I have an empty repository so I want to go back in to our project and I'm going to just use
+
+03:34.260 --> 03:36.920
+the integrated terminal down here.
+
+03:37.770 --> 03:43.570
+But before I do anything with get I'm going to add in a file in my route here.
+
+03:43.800 --> 03:47.190
+New file I'm going to call it dot get ignore.
+
+03:47.550 --> 03:47.900
+OK.
+
+03:47.910 --> 03:53.070
+And what this does is it allows you to specify files and folders that you don't want to push to get
+
+03:53.070 --> 03:53.710
+hub.
+
+03:53.720 --> 03:59.640
+Now we installed node SAS which is located in this node modules folder.
+
+03:59.640 --> 04:01.950
+You don't want to push this node modules folder.
+
+04:01.950 --> 04:04.770
+This is just dependencies of your project.
+
+04:04.980 --> 04:12.660
+If someone wants to use your project they'll pull it from GitHub and they'll run npm install which will
+
+04:12.660 --> 04:18.750
+look at any packages you have such as node SAS and it will then create the node modules folder with
+
+04:19.080 --> 04:20.410
+those dependencies.
+
+04:20.490 --> 04:23.150
+So we don't want to push the node modules folder.
+
+04:23.160 --> 04:28.280
+So we're just going to put in here node underscore modules and save.
+
+04:28.290 --> 04:37.110
+And I do want to push the dist I want the the SAS and that's that should be it.
+
+04:37.170 --> 04:40.980
+So we just want the node modules not to be committed.
+
+04:40.980 --> 04:47.550
+So now let's initialize a get repository with get in it and make sure you have get installed.
+
+04:47.550 --> 04:55.160
+If you don't go to get dash SVM dot com and install it so you initialized our gate repository.
+
+04:55.170 --> 05:00.180
+Now it's to get add all okay.
+
+05:00.190 --> 05:02.590
+So now it's added to our local repository.
+
+05:02.590 --> 05:03.790
+Let's commit it.
+
+05:03.790 --> 05:09.780
+So get commit and we want to do dash M and then a comment.
+
+05:09.790 --> 05:15.020
+I'm just going to say initial commit.
+
+05:15.020 --> 05:15.330
+OK.
+
+05:15.340 --> 05:17.950
+So it added it committed it to our local repository.
+
+05:17.950 --> 05:24.550
+Now we want to add our github repository as the remote repository that we want to use which is this
+
+05:24.550 --> 05:25.510
+line right here.
+
+05:25.540 --> 05:30.430
+So you want to grab that and paste that in and right.
+
+05:30.940 --> 05:31.690
+OK.
+
+05:31.720 --> 05:34.570
+So now that's added as our remote repository.
+
+05:34.660 --> 05:41.140
+And then the last thing we want to do is this last line which is get push dash you origin master.
+
+05:41.140 --> 05:51.400
+So we want to push to the master branch so we'll clear this up and I'll say get push dash you origin
+
+05:51.850 --> 05:57.720
+master.
+
+05:57.830 --> 06:02.480
+So it's just pushing it to the remote repository.
+
+06:02.480 --> 06:08.360
+Now if I go back and I reload this page you'll see that our project is now uploaded to get I probably
+
+06:08.360 --> 06:14.570
+should have put this D.S. store file and get ignored as well but that's fine.
+
+06:14.570 --> 06:14.930
+All right.
+
+06:14.930 --> 06:18.560
+So the project we want to deploy is in the disk.
+
+06:18.560 --> 06:19.690
+This is what we want.
+
+06:19.730 --> 06:21.020
+On net lo fi.
+
+06:21.020 --> 06:21.410
+OK.
+
+06:21.410 --> 06:26.930
+So when we deploy the Natalya fi we want to specify this is our build folder.
+
+06:26.930 --> 06:37.300
+So now let's head over to nullify and going to say new site from get GitHub and I'm going to search
+
+06:37.300 --> 06:39.190
+for portfolio
+
+06:44.720 --> 06:49.000
+C portfolio Web site and the branch.
+
+06:49.010 --> 06:52.040
+I want to deploy I only have one branch which is M..
+
+06:52.040 --> 06:58.340
+Now the published directory is going to be dist and it even says right here some examples are dist public
+
+06:58.340 --> 06:58.760
+site.
+
+06:58.760 --> 07:04.640
+So we want to do dist because that has the H team L and our comp. CSX.
+
+07:04.640 --> 07:10.740
+Okay so let's go ahead and say deploy site site deploy in progress
+
+07:17.660 --> 07:19.100
+should just take a second.
+
+07:19.130 --> 07:19.970
+There we go.
+
+07:19.970 --> 07:25.700
+So now we have our domain here so I'm going to go ahead and open this up and there we go and you can
+
+07:25.700 --> 07:31.400
+see we have a subdomain of net lo fi but we could easily set up a custom domain.
+
+07:31.400 --> 07:37.190
+I'm not going to do that in this video though but let's make sure that first of all all of our pages
+
+07:37.190 --> 07:40.730
+show which they do that loads kind of slow
+
+07:44.660 --> 07:46.070
+that's slow and you know why.
+
+07:46.120 --> 07:47.700
+Because the images are so big.
+
+07:47.710 --> 07:56.890
+So the first load is a little slow so if you're going to actually use this as a production project you
+
+07:56.890 --> 08:01.420
+probably want to resize these images because these are really really big images.
+
+08:01.570 --> 08:06.040
+And I didn't I didn't optimize them at all.
+
+08:06.220 --> 08:10.000
+So contact you can see we have a little recapture here.
+
+08:10.000 --> 08:11.230
+Let's go ahead and try this out.
+
+08:11.240 --> 08:14.020
+So I'll say Kevin Smith email address.
+
+08:14.020 --> 08:17.710
+Kevin subject will just say hello.
+
+08:17.710 --> 08:18.900
+Phone number.
+
+08:20.590 --> 08:21.220
+Hello.
+
+08:21.220 --> 08:24.330
+This is a test.
+
+08:24.490 --> 08:28.130
+I'm not a robot and submit.
+
+08:28.180 --> 08:28.870
+Thank you.
+
+08:28.900 --> 08:32.620
+Go back to our site OK.
+
+08:32.740 --> 08:39.700
+Now if we go back to our net lo fi panel and let's reload this page
+
+08:42.400 --> 08:43.610
+and go down here.
+
+08:43.640 --> 08:47.900
+There's our form submission Kevin Smith name subject.
+
+08:47.920 --> 08:48.440
+Hello.
+
+08:48.440 --> 08:51.180
+Email phone and message.
+
+08:51.190 --> 08:51.450
+OK.
+
+08:51.480 --> 08:57.910
+So we have a fully working site that we built with SAS that we deployed with working contact form that
+
+08:57.910 --> 09:00.270
+has spam filtering.
+
+09:00.280 --> 09:02.880
+And of course you can add any fields you want.
+
+09:03.010 --> 09:09.490
+So hopefully you guys enjoyed this project and learned a lot from it and you hopefully you'll use it
+
+09:09.790 --> 09:11.420
+in your career and in your life.
+
+09:11.420 --> 09:14.890
+So thank you so much for watching guys I really appreciate it.
+
+09:14.890 --> 09:22.810
+And I will see you in the wrap up video that we deployed with working contact form that has spam filtering
+
+09:22.840 --> 09:29.200
+and of course you can add any fields you want so hopefully you guys enjoyed this project and learned
+
+09:29.200 --> 09:34.000
+a lot from it and you hopefully you'll use it in your career and in your life.
+
+09:34.000 --> 09:37.360
+So thank you so much for watching guys I really appreciate it.
+
+09:37.450 --> 09:39.450
+And I will see you in the wrap up video.

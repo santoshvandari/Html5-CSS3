@@ -1,0 +1,358 @@
+WEBVTT
+
+00:00.530 --> 00:03.760
+All right guys in this video we're going to take a look at lists and tables.
+
+00:03.780 --> 00:11.020
+So let's create a new file and we're going to call it 0 6 underscore lists underscore tables dot each
+
+00:11.030 --> 00:15.180
+team out and add in our boilerplate here.
+
+00:15.600 --> 00:19.650
+Close that up lists and tables.
+
+00:20.110 --> 00:23.010
+OK so we have a couple of different types of lists.
+
+00:23.340 --> 00:25.320
+So we have unordered lists
+
+00:28.440 --> 00:29.880
+and unordered lists.
+
+00:29.880 --> 00:34.560
+They're not numbered and basically they're they have bullet points which of course you can remove with
+
+00:34.560 --> 00:35.220
+CSX.
+
+00:35.220 --> 00:38.100
+You can you can have different types of bullet points.
+
+00:38.100 --> 00:40.200
+But let's go out and create an unordered list.
+
+00:40.200 --> 00:47.280
+So we want to put a U L tag and then each item in the list should be wrapped in a list item in ally
+
+00:47.310 --> 00:48.070
+tag.
+
+00:48.090 --> 00:54.830
+So let's go ahead and just say item 1 and what I'll do is I'll hold down shift in option or shift in
+
+00:54.880 --> 01:01.530
+Ault and just hit the down arrow so that we can bring these down and let's change that to three and
+
+01:01.530 --> 01:04.120
+four and we'll save this control less.
+
+01:04.140 --> 01:10.890
+And then let's open this with live server and there we go so that's what it's going to give us.
+
+01:10.890 --> 01:16.740
+I'm actually going to zoom in a little bit on the H terminal so you can see this better should probably
+
+01:16.870 --> 01:20.000
+get a while ago and notice that the bullets are here.
+
+01:20.010 --> 01:24.420
+And like I said these can be removed through CSX.
+
+01:24.420 --> 01:28.610
+We can also have different types of bullets.
+
+01:28.650 --> 01:36.030
+This isn't something that I would recommend but you can use a style tag to change the attributes and
+
+01:36.060 --> 01:39.030
+there is something called a list style.
+
+01:39.030 --> 01:42.450
+And we have circle square.
+
+01:42.450 --> 01:46.240
+Let's see let's change it to a square and save.
+
+01:46.240 --> 01:48.720
+Now you can see that each bullet is a square.
+
+01:48.720 --> 01:53.020
+We have desk save that.
+
+01:53.120 --> 01:57.390
+That's the default circle.
+
+01:57.400 --> 01:58.180
+Save that.
+
+01:58.180 --> 02:00.860
+So that's kind of an unfilled circle.
+
+02:01.190 --> 02:03.800
+And then we also have actually I think that's it.
+
+02:03.800 --> 02:06.170
+And then we have none.
+
+02:06.170 --> 02:06.500
+All right.
+
+02:06.500 --> 02:09.670
+And I add this is something that I would not recommend doing you want to.
+
+02:09.740 --> 02:13.080
+You want to put all your styling in your CSF style sheet.
+
+02:13.400 --> 02:16.090
+But I just wanted to give you an example of this.
+
+02:16.160 --> 02:17.540
+So let's get rid of that.
+
+02:19.640 --> 02:20.950
+So that's an unordered list.
+
+02:20.960 --> 02:23.180
+At the same time we have ordered lists
+
+02:26.290 --> 02:28.640
+and I'm going to give you another little Emmett trick here.
+
+02:28.640 --> 02:33.620
+So first of all it's an O L tag and then we still use allies.
+
+02:33.620 --> 02:33.920
+OK.
+
+02:33.920 --> 02:37.180
+We still use list items whether it's ordered or unordered.
+
+02:37.250 --> 02:43.910
+Now with Emmett let's say I want to have four list items I can actually do time so I can put an asterisk
+
+02:44.240 --> 02:48.440
+for and hit tab and it'll actually give me four or list items.
+
+02:48.440 --> 02:52.800
+Case a little tip there and we can fill these in.
+
+02:52.960 --> 02:55.910
+Let's say item 1 item 2
+
+03:00.270 --> 03:01.420
+item 4.
+
+03:01.530 --> 03:02.580
+And we'll save that.
+
+03:02.580 --> 03:06.600
+And now notice that instead of bullets we actually have numbers.
+
+03:06.680 --> 03:06.920
+OK.
+
+03:06.930 --> 03:08.920
+So it's a number list.
+
+03:09.570 --> 03:13.830
+And then we can change the type as well.
+
+03:13.830 --> 03:15.810
+So there's a type attribute.
+
+03:17.160 --> 03:22.960
+So basically Type 1 is the default if I save that you'll see no change.
+
+03:23.100 --> 03:24.570
+That's just numbers.
+
+03:24.570 --> 03:31.500
+I am we can use type uppercase a if I save that it'll change it to uppercase letters.
+
+03:31.500 --> 03:38.190
+If we use lowercase a is the type it'll be lowercase letters we can use uppercase I which will actually
+
+03:38.190 --> 03:43.950
+do uppercase Roman numerals lowercase i will do lowercase Roman numerals.
+
+03:43.950 --> 03:49.350
+So just to let you know that you can add the type attribute ordered list is something that I almost
+
+03:49.350 --> 03:54.180
+never use unordered list is something you're going to use all the time because they're used for navigation
+
+03:54.180 --> 04:01.550
+menus whether it's a horizontal navigate nav bar or if it's a side menu or anything like that.
+
+04:01.740 --> 04:05.740
+So we can also have nested lists.
+
+04:06.720 --> 04:08.720
+So let's actually copy this.
+
+04:08.710 --> 04:16.380
+So I'm going to just control C copy this well here and control V will paste that in and let's say we
+
+04:16.380 --> 04:18.360
+want to have a list within the list.
+
+04:18.420 --> 04:23.920
+So inside this ally the second one let's get rid of that.
+
+04:24.120 --> 04:30.610
+Actually we'll keep that but next to it I'm going to go on a new line and I'm going to put another well
+
+04:30.720 --> 04:41.290
+inside here and let's put a ally and we'll say nested item one OK and then we'll do nested item two.
+
+04:41.320 --> 04:42.560
+Let's save that.
+
+04:42.660 --> 04:46.050
+And now you can see that these two items are nested in the act.
+
+04:46.050 --> 04:51.840
+It automatically changes the the bullet point here to a circle.
+
+04:51.870 --> 04:54.290
+Changes it from a disk to a circle.
+
+04:54.330 --> 04:58.780
+So lists are pretty simple styling them as is a whole new level.
+
+04:58.830 --> 05:03.960
+When you start to get into creating navigation bars and stuff like that but we'll get into that later
+
+05:03.960 --> 05:06.870
+on when we start to deal with CSX.
+
+05:06.870 --> 05:07.130
+All right.
+
+05:07.140 --> 05:09.820
+So let's talk about tables OK.
+
+05:09.830 --> 05:13.620
+So tables are used for tabular data.
+
+05:13.620 --> 05:21.260
+Now back in the day back in you know eight nine ten years ago people would actually use tables to for
+
+05:21.260 --> 05:22.430
+a Web site layout.
+
+05:22.440 --> 05:30.270
+Before we had proper CSX before we had flex box in the grid system and and frameworks and stuff like
+
+05:30.270 --> 05:36.660
+that people would actually would have like their sidebar and their main content area in their Web site
+
+05:36.690 --> 05:40.680
+be a table which is absolutely horrible you never want to do anything like that.
+
+05:40.800 --> 05:43.800
+You only want to use tables for tabular data.
+
+05:44.190 --> 05:52.310
+If you have a you know list of users or whatever it may be just some kind of data.
+
+05:52.380 --> 06:02.400
+So to create a table we want to put a table tag and in a table we have a head a body and we can also
+
+06:02.400 --> 06:04.110
+have a footer If we want.
+
+06:04.110 --> 06:13.410
+I don't usually use photos but for the head we're gonna say T had OK and we want a table row inside
+
+06:13.410 --> 06:21.180
+the table row we want some columns but when it's with when it's a heading you want to use t h k for
+
+06:21.180 --> 06:28.110
+table head and let's do first name and then we'll bring this down twice by holding control option or
+
+06:28.110 --> 06:39.850
+control alt and hit the down arrow twice and we'll change this to let's say last name and let's do email.
+
+06:39.870 --> 06:40.160
+OK.
+
+06:40.170 --> 06:43.700
+Now if I save this you'll see that these are our headings.
+
+06:43.800 --> 06:49.590
+OK so these are the headings and then we want the data underneath so the data is going to go in the
+
+06:49.590 --> 06:50.430
+T body.
+
+06:52.370 --> 06:52.670
+OK.
+
+06:52.680 --> 06:58.760
+So we have our table our table head and then our table body which you also have table rows.
+
+06:58.860 --> 07:08.850
+But instead of T.H. We want to use t d gave t h is only for the heading and then we'll say to John bring
+
+07:08.850 --> 07:10.980
+down two more.
+
+07:10.980 --> 07:14.610
+So DOE would be the last name and email
+
+07:17.620 --> 07:19.740
+OK if I save that.
+
+07:20.090 --> 07:26.600
+And there we go so we have first name we have one entry here or one row with it which is John Doe and
+
+07:26.600 --> 07:28.030
+then his email.
+
+07:28.130 --> 07:33.440
+So I'm gonna go ahead and copy this whole table row and let's do two more
+
+07:36.180 --> 07:37.670
+I want to fix this up a little bit
+
+07:45.150 --> 07:50.060
+and we'll go ahead and change up some of this data.
+
+07:50.090 --> 07:55.130
+So say Kate Smith.
+
+07:55.700 --> 07:58.690
+Kate you have
+
+08:03.940 --> 08:04.200
+all right.
+
+08:04.220 --> 08:05.560
+So we'll save that.
+
+08:05.690 --> 08:09.720
+And now we have three rows in our table.
+
+08:09.770 --> 08:16.310
+OK so pretty simple if we want to we could change the width.
+
+08:16.470 --> 08:22.500
+Now I would suggest doing this stuff through CSX but just to show you we can we can use this style attribute
+
+08:22.890 --> 08:33.710
+and we can say with I don't know six hundred pixels and now it's wider and it just it's more readable
+
+08:33.860 --> 08:34.460
+like that.
+
+08:35.090 --> 08:40.820
+But again I would suggest not using the style attribute that's not good practice but we haven't gotten
+
+08:40.820 --> 08:41.930
+into CSX yet.
+
+08:42.170 --> 08:46.250
+So in the next video we're going to take a look at forms and input fields.

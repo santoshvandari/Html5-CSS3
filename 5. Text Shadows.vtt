@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.210 --> 00:05.010
+Hey guys in this video we're gonna look at Tech's shadows and this is another thing that I personally
+
+00:05.010 --> 00:06.950
+don't use that much.
+
+00:07.120 --> 00:09.450
+Just like we can add shadows to elements.
+
+00:09.450 --> 00:11.180
+We can also add them to text.
+
+00:11.190 --> 00:20.540
+So let's create a new file in our sandbox called 0 5 underscore text underscore shadows dot age CML.
+
+00:20.740 --> 00:24.470
+OK we'll go ahead and put our boiler plate in and just going to close up the sidebar.
+
+00:26.330 --> 00:26.950
+Let's say.
+
+00:26.950 --> 00:35.990
+Text shadows put in our style and what I'm gonna do here is just I'm just gonna have four different
+
+00:36.020 --> 00:36.980
+H ones.
+
+00:37.040 --> 00:41.290
+OK so we're gonna say one and inside the content.
+
+00:41.300 --> 00:45.560
+Let's say Welcome to my course.
+
+00:46.610 --> 00:47.120
+OK.
+
+00:47.120 --> 00:51.800
+And I just want to add actually let's do this.
+
+00:51.800 --> 00:54.990
+Two times four.
+
+00:55.160 --> 00:59.570
+And I want to add a class a different class to each one.
+
+00:59.570 --> 01:00.290
+So let's say.
+
+01:00.290 --> 01:01.400
+Class a
+
+01:05.600 --> 01:06.650
+class B
+
+01:09.750 --> 01:14.630
+S Class C
+
+01:16.940 --> 01:18.330
+Class D.
+
+01:18.350 --> 01:18.610
+OK.
+
+01:18.620 --> 01:22.940
+So we have these different classes on each H1 because I want to give you a different example for each
+
+01:22.940 --> 01:23.690
+one.
+
+01:23.690 --> 01:33.140
+Now I'm going to do just a core styling here of font family and let's do aerial and then let's make
+
+01:33.140 --> 01:34.690
+the font size pretty big.
+
+01:34.690 --> 01:36.430
+So we'll do font size.
+
+01:36.440 --> 01:45.060
+Let's do five REM and we'll go ahead and open that up and actually do a little bit smaller for them.
+
+01:45.140 --> 01:45.450
+Good.
+
+01:45.980 --> 01:52.460
+So let's start off with the first one which is an H one with a class of A.
+
+01:52.460 --> 01:57.650
+And of course I could just do dot a but I just want to I'm changing things up just see you guys remember
+
+01:57.650 --> 01:58.750
+that you can do this.
+
+01:58.760 --> 02:05.180
+You don't know you can do just a or you can target the H one with the class of a.
+
+02:05.250 --> 02:12.740
+So let me just paste this in just like with box shadow we have a couple different values so we have
+
+02:12.740 --> 02:18.650
+the H shadow which is horizontal shadow in the vertical or V shadow and the color.
+
+02:18.740 --> 02:24.900
+So let's go ahead and add to this first one text dash shadow.
+
+02:25.310 --> 02:34.880
+And I want to use rhyme units I'm just going to do point to REM H shadow wants to point to REM v shadow
+
+02:34.910 --> 02:38.660
+and for color I'm going to use steel blue.
+
+02:39.200 --> 02:41.750
+So let's save that see what it looks like.
+
+02:41.780 --> 02:50.090
+So as you can see the the horizontal shadow basically is this way vertical shadow is going down it's
+
+02:50.090 --> 02:50.810
+going this way.
+
+02:50.810 --> 02:54.510
+So it kind of comes off diagonal this way.
+
+02:54.830 --> 03:00.790
+Now just like with the box shadow we can also have a blur.
+
+03:00.800 --> 03:03.750
+So let's do an H1 let's do each one B.
+
+03:04.310 --> 03:08.570
+So we're now targeting the B class which is the second one here.
+
+03:08.930 --> 03:19.160
+And spaces in here so it's actually blur and then color and going to copy what we already have appear
+
+03:19.170 --> 03:20.980
+and pieces in.
+
+03:21.270 --> 03:30.940
+So let's do let's do for RAM will do for RAM 3 ram for the V shadow and then for the blur.
+
+03:30.950 --> 03:32.140
+Let's do.
+
+03:32.180 --> 03:32.590
+We'll do.
+
+03:32.600 --> 03:37.520
+Point seven RAM and we'll keep steel blue.
+
+03:37.550 --> 03:43.400
+So let's save that and I can see that we have the the blur effect and you can use pixels if you want.
+
+03:43.400 --> 03:48.010
+It doesn't have to be ram units but that gives kind of a different look.
+
+03:48.710 --> 03:52.790
+So next thing I want to do is white text.
+
+03:52.790 --> 03:55.700
+So it's to H1 dots see
+
+03:59.120 --> 04:02.090
+let's do white text.
+
+04:02.090 --> 04:08.360
+So basically what we're doing is setting the color to white I save that it's going to just completely
+
+04:08.360 --> 04:09.040
+disappear.
+
+04:09.050 --> 04:16.090
+But what we can do is add the shadow so that we can actually make out the text.
+
+04:16.100 --> 04:26.490
+So we'll do two zero point two Ram zero point two Ram.
+
+04:26.690 --> 04:34.940
+Let's do one ram for the blur and let's do still below and save and it's going to look like that.
+
+04:34.940 --> 04:37.460
+So we get some pretty cool text effects here.
+
+04:37.460 --> 04:42.090
+Again not something that I would really use that much but it's good to know.
+
+04:42.140 --> 04:50.020
+So for the last one here I want to show you that we can use negative values.
+
+04:50.820 --> 04:51.250
+OK.
+
+04:51.260 --> 04:54.170
+So I'm just going to copy this.
+
+04:54.650 --> 04:56.150
+Let's grab this one here
+
+04:59.290 --> 05:04.510
+and instead of it coming this way I want it to go up.
+
+05:04.590 --> 05:05.590
+I want to go this way.
+
+05:05.590 --> 05:12.480
+So we could add a negative value for the H shadow and the v shadow and we'll save.
+
+05:12.490 --> 05:19.260
+And now I could see that the blur is is up here rather than down here OK.
+
+05:19.490 --> 05:20.960
+So that's about it guys.
+
+05:21.020 --> 05:25.010
+We probably won't use this this text shadow again.
+
+05:25.010 --> 05:30.260
+I just wanted to include it in the course in case you like it and you want to use it maybe in like a
+
+05:30.260 --> 05:32.810
+showcase area or something like that.
+
+05:32.810 --> 05:33.110
+All right.
+
+05:33.110 --> 05:34.910
+So I will see you in the next video.

@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.380 --> 00:03.810
+All right guys so we have one page left to go that's the contact page.
+
+00:03.810 --> 00:05.430
+That's what we're going to start working on.
+
+00:05.470 --> 00:09.160
+Let's jump into V.S. code and let's open up.
+
+00:09.210 --> 00:15.630
+I'm going to open up about h t AML and I'm going to copy everything in there and then let's create a
+
+00:15.630 --> 00:20.910
+new file inside dist called Contact dot HD CML.
+
+00:21.370 --> 00:25.620
+OK we'll go ahead and paste the sin and let's just pick and choose what we want.
+
+00:25.620 --> 00:33.630
+So in the head I'm just gonna change the title to contact me and let's see we want to keep the header
+
+00:33.630 --> 00:41.760
+but we're going to move the class here to contact and we're gonna get rid of all the sections.
+
+00:41.880 --> 00:45.620
+Just keep the footer and we'll save that.
+
+00:45.630 --> 00:51.060
+And now we should be able to go to contact and we basically have our just our boiler plate for an inner
+
+00:51.060 --> 00:52.290
+page.
+
+00:52.290 --> 01:02.670
+So on our contact page we have a form and we have the email address phone number address area and then
+
+01:02.670 --> 01:05.440
+we just have an area that says let's start your next project.
+
+01:05.460 --> 01:08.400
+So we're gonna have Section A B and C..
+
+01:08.400 --> 01:12.620
+So let's start off with the form which is gonna be a section A.
+
+01:12.630 --> 01:14.130
+So we'll go under the header here.
+
+01:14.130 --> 01:20.700
+Let's say section A and we'll say contact form.
+
+01:21.180 --> 01:29.700
+So let's create a section with an idea of contact dash a we're gonna give it a class of text center
+
+01:29.700 --> 01:30.740
+and let's do.
+
+01:30.750 --> 01:33.690
+Class of P Y dash 3.
+
+01:35.430 --> 01:43.840
+And we'll put in our container and it's to our H 2 with the class of section title and we're just going
+
+01:43.840 --> 01:44.180
+to say.
+
+01:44.190 --> 01:45.660
+Contact me.
+
+01:46.440 --> 01:50.290
+And underneath that we'll put our bottom line.
+
+01:51.000 --> 01:58.170
+So I know this is very repetitive so we also want a paragraph with the class of lead and we'll say here
+
+01:58.170 --> 02:06.450
+is how you can reach me and I mean it's repetitive but that's that's really what you want.
+
+02:06.450 --> 02:12.540
+You want to stay consistent with you are your design with your mark up your styling you want everything
+
+02:12.540 --> 02:13.430
+to be consistent.
+
+02:13.440 --> 02:16.930
+So being repetitive is actually a good thing.
+
+02:17.040 --> 02:23.850
+So let's go underneath the paragraph here and create a form.
+
+02:23.880 --> 02:29.220
+I'm just gonna I'm not going to put any action or anything like that in the attributes in it and for
+
+02:29.220 --> 02:37.590
+now I would just just a form tag and let's do a class of text dash fields and then we're gonna put our
+
+02:37.650 --> 02:42.250
+inputs in I'm not going to use a label I'm just going to use a place holder in the form.
+
+02:42.360 --> 02:49.190
+So let's do an input with the type of text and actually know what it's gonna be text by default.
+
+02:49.200 --> 03:03.570
+Let's do a class of text dash input and also a class of name dash input and then let's do let's see
+
+03:03.570 --> 03:09.400
+let's add a place holder which you're gonna use as a label so we'll just say name.
+
+03:10.160 --> 03:10.680
+Okay.
+
+03:10.680 --> 03:14.380
+And then I'm going to just copy that down.
+
+03:14.430 --> 03:20.190
+Let's do that's two three four.
+
+03:20.190 --> 03:20.610
+Yeah will do.
+
+03:21.120 --> 03:23.550
+And then one or just five.
+
+03:23.730 --> 03:25.080
+So one two three four five.
+
+03:25.080 --> 03:28.050
+The last one is gonna be a text area but we'll change that up after.
+
+03:28.410 --> 03:32.790
+So we have our name next one is gonna be the subject.
+
+03:32.790 --> 03:42.510
+So let's do text input subject input and by the way we're gonna be using grid template areas for this
+
+03:42.510 --> 03:50.650
+form to place the inputs in the correct areas for place holder let's do subject.
+
+03:51.210 --> 03:59.070
+And this third one here is gonna be the email input so we'll do email let's change this class to email
+
+03:59.070 --> 04:08.820
+input We'll also change the type to email and we're gonna have a phone number so lots to write here
+
+04:08.820 --> 04:18.330
+we'll do phone input change the place holder to phone number actually for this place holder let's say
+
+04:18.360 --> 04:25.020
+email address and then this last one is gonna be the message so it's gonna be a text area so I'm going
+
+04:25.020 --> 04:34.820
+to get rid of the typed text in the input and let's say text area and let's see we're gonna have text
+
+04:34.820 --> 04:42.290
+input class let's also do message input and then get rid of the place holder No I'm sorry not get rid
+
+04:42.290 --> 04:48.650
+of the place holder we want that we're gonna say enter message but we do want to add an ending tag since
+
+04:48.650 --> 04:50.010
+it's a text area.
+
+04:50.290 --> 04:50.550
+Okay.
+
+04:50.570 --> 04:59.770
+And then I'm gonna go outside of the div here and add a button with the class of T N Dash dark and let's
+
+04:59.780 --> 05:08.000
+make sure we give the same type of submit the submit button and then for the text inside we'll just
+
+05:08.000 --> 05:11.230
+say submit.
+
+05:11.570 --> 05:11.920
+All right.
+
+05:11.930 --> 05:16.990
+So that's our form so we'll save that pretty or fixed it up a little bit.
+
+05:17.000 --> 05:22.420
+Made it a little more readable so if we go to our form it looks absolutely horrendous.
+
+05:22.490 --> 05:31.790
+So we want to add our styling so we'll head over to Main dot SPSS and let's go down to the bottom.
+
+05:31.850 --> 05:36.810
+So let's see we have our about and then our photo.
+
+05:36.840 --> 05:42.240
+Let's go right above the footer and let's say a contact page.
+
+05:42.900 --> 05:43.240
+OK.
+
+05:43.250 --> 05:53.740
+So for the contact we have our or our a section so it's to I.D. contact and then we want to focus on
+
+05:53.860 --> 06:03.790
+the idea of contact dash a so we'll do Ampersand dash a and let's do the text fields.
+
+06:03.820 --> 06:07.500
+Class which actually wraps around all the inputs.
+
+06:07.510 --> 06:08.940
+And this is gonna be our grid.
+
+06:09.340 --> 06:11.800
+So display grid.
+
+06:11.800 --> 06:16.360
+And we're gonna use grid template areas here.
+
+06:17.230 --> 06:18.680
+OK so let's go.
+
+06:18.680 --> 06:24.610
+We want to go on to the next line and we're gonna basically map this out visually so we want our name
+
+06:25.390 --> 06:31.960
+and email field on the first line then we want the subject and the phone.
+
+06:31.960 --> 06:40.250
+And then we want the message to span across both both columns here.
+
+06:40.260 --> 06:40.520
+OK.
+
+06:40.540 --> 06:49.480
+So we'll go ahead and put a semicolon here and then let's add a grid gap of one point two REM and let's
+
+06:49.480 --> 06:55.570
+do a margin bottom of one point to run.
+
+06:56.230 --> 06:56.520
+OK.
+
+06:56.530 --> 07:04.720
+So still within this text field I'm now gonna add grid areas we need to connect the actual elements.
+
+07:04.840 --> 07:08.850
+So we have these classes name input subject input and so on.
+
+07:08.860 --> 07:19.510
+Want to map onto these grid areas so it's to name dash input and let's do grid dash area and set that
+
+07:19.510 --> 07:20.750
+to name.
+
+07:22.270 --> 07:22.710
+OK.
+
+07:22.720 --> 07:25.560
+And then I'm just gonna grab this and copy it down.
+
+07:25.570 --> 07:28.420
+It's two two three four five.
+
+07:28.900 --> 07:37.100
+And then I'm going to select this name here control D and just change this to subject.
+
+07:37.150 --> 07:38.140
+Same thing here.
+
+07:38.140 --> 07:48.990
+Control D change these two email and this one change this to phone and this one will be message.
+
+07:49.060 --> 07:49.350
+All right.
+
+07:49.380 --> 07:50.410
+So we'll save that.
+
+07:50.410 --> 07:56.350
+We'll take a look and I can see it's mapped out how we how we did it in the grid template areas.
+
+07:57.580 --> 08:08.530
+So I want to add some padding these are way too small so let's go let's go outside of well knows we'll
+
+08:08.560 --> 08:17.500
+stay within the text fields so we want to go like right here and let's do text input so all the class
+
+08:17.500 --> 08:26.830
+of text input which is everything we're gonna have padding zero point five REM in one and then the message
+
+08:26.830 --> 08:34.840
+the text area I'm just going to add to that I'm going to I'm going to change the height let's do message
+
+08:34.870 --> 08:42.010
+input actually we already have the message input up here so I could just add it right here we'll say
+
+08:42.010 --> 08:51.670
+height let's do like two hundred pixels see what that looks like now it's too big let's do try one hundred
+
+08:53.990 --> 08:54.250
+all right.
+
+08:54.260 --> 09:02.990
+So it looks pretty good now for the button caught the this button right here I wanted to be a little
+
+09:02.990 --> 09:09.590
+wider I don't want 100 percent I think that's too wide so let's do 50 percent for that so we'll target
+
+09:10.970 --> 09:21.650
+let's see we have button button I guess you can target the button dark inside of the text text fields
+
+09:22.040 --> 09:25.100
+actually it's not in text fields you have to go outside of it.
+
+09:25.100 --> 09:26.930
+So that ends here.
+
+09:27.050 --> 09:35.480
+So we'll just say the button dark well actually we don't want to do that because we might want to change
+
+09:35.480 --> 09:38.090
+it to a different utility class.
+
+09:38.090 --> 09:50.180
+So we'll just do let's say button and we'll set the type equals submit case we want to target the submit
+
+09:50.180 --> 09:57.560
+button and let's do a with of 50 percent and see what that gives us.
+
+09:57.590 --> 09:57.860
+OK.
+
+09:57.890 --> 10:00.720
+So it makes it a little wider.
+
+10:00.720 --> 10:07.500
+So next we have the contact info so we're going to add that to the AGM Al now that we have our form
+
+10:07.500 --> 10:21.530
+all styled so and contact each team now let's add section B so section B is the contact info
+
+10:24.080 --> 10:36.170
+so section it's given an I.D. of contact dash B I'm going to give it a class of p y more padding three
+
+10:36.170 --> 10:39.770
+top and bottom and let's also do a big dark.
+
+10:39.800 --> 10:48.860
+Give it the dark background and wrap it in a container and then we're gonna do a class of contact dash
+
+10:48.920 --> 10:49.610
+info
+
+10:53.380 --> 10:54.300
+contacts.
+
+10:54.300 --> 10:56.200
+Contact info.
+
+10:57.420 --> 11:02.130
+And this is gonna be a grid as well with some divs and we're gonna have an icon.
+
+11:02.130 --> 11:09.780
+Let's give it a class of F.A. s Let's do F A Dash envelope and let's make it a little bigger we'll do
+
+11:09.780 --> 11:12.460
+F.A. to X case.
+
+11:12.480 --> 11:21.330
+That's that and then we'll do an H 3 with the e mail we'll put a paragraph here and we'll just say John
+
+11:21.720 --> 11:25.400
+at something dot com.
+
+11:25.430 --> 11:32.220
+Okay so that's our email let's just copy this div two more times because this one here is gonna be the
+
+11:32.220 --> 11:35.300
+phone will change the icon to phone.
+
+11:35.490 --> 11:41.990
+Change that to phone and let's just do fake phone number
+
+11:45.700 --> 11:48.670
+5 5 5 5 5 5.
+
+11:48.670 --> 11:51.530
+Just all fives.
+
+11:52.700 --> 11:53.100
+Okay.
+
+11:53.100 --> 11:55.880
+And then the last one here is gonna be the address.
+
+11:55.890 --> 12:06.090
+So the icon is gonna be address dash card and then let's say address and we'll change this to let's
+
+12:06.090 --> 12:11.020
+say 50 Main Street Boston Mass.
+
+12:11.650 --> 12:18.640
+Okay now I'm just gonna add the C Contact c section as well because it's basically just an H.
+
+12:18.720 --> 12:25.850
+So let's say section C we'll just say tag line and we'll do it.
+
+12:26.220 --> 12:31.950
+Let's do a section with the I.D. of contact.
+
+12:31.950 --> 12:45.220
+Dash C and let's do an H 1 and we'll just say let's start your next project.
+
+12:45.220 --> 12:45.590
+All right.
+
+12:45.600 --> 12:53.010
+So we'll save that and actually let's let's add a couple classes here as well.
+
+12:53.010 --> 12:54.160
+So I'm going to do.
+
+12:54.290 --> 13:00.860
+G Main and let's do p y 4.
+
+13:00.920 --> 13:02.550
+Let's see what that looks like.
+
+13:03.940 --> 13:08.290
+So I'm gonna save that and if we go back ok.
+
+13:08.330 --> 13:11.030
+So that's good for now.
+
+13:13.370 --> 13:16.360
+You know what we want to add a container in the sea.
+
+13:16.440 --> 13:17.450
+We've got about that.
+
+13:17.460 --> 13:24.840
+So it's two container and then will move this up into here like that.
+
+13:24.840 --> 13:28.870
+So let's start to style this part Section B.
+
+13:29.010 --> 13:37.920
+So we want to go under the A which ends right here and we're gonna do Ampersand dash B
+
+13:41.530 --> 13:43.330
+and let's see where we're just gonna.
+
+13:43.570 --> 13:45.380
+We're not gonna do too much here.
+
+13:45.430 --> 13:55.220
+We're gonna grab the contact info class and display it as a grid.
+
+13:55.720 --> 14:02.560
+Because we want those three contact info icons and stuff to go across.
+
+14:02.560 --> 14:12.970
+So let's do grid template columns and let's say repeats and or repeat three times one fraction and let's
+
+14:12.970 --> 14:17.020
+text align to the center.
+
+14:17.590 --> 14:21.430
+And I think that should be good.
+
+14:21.430 --> 14:22.370
+And check it out.
+
+14:23.170 --> 14:23.470
+All right.
+
+14:23.500 --> 14:26.310
+Now last thing is this right here.
+
+14:26.440 --> 14:29.010
+So I want it centered.
+
+14:29.710 --> 14:34.590
+I'm just actually we can just text center and I believe.
+
+14:34.600 --> 14:49.630
+So let's go under B and let's do Ampersand dash C and let's do each one and we want to text a line to
+
+14:49.660 --> 15:00.850
+the center and then I'm going to raise the font size to 4 REM so let's say font size for RAM and take
+
+15:00.850 --> 15:01.610
+a look.
+
+15:01.630 --> 15:02.120
+There we go.
+
+15:02.120 --> 15:03.780
+Let's start in next project.
+
+15:03.790 --> 15:08.470
+And if you guys don't like this you could put an image here you could put a Google map or some whatever
+
+15:08.470 --> 15:11.910
+you'd like but I think that's pretty good.
+
+15:11.920 --> 15:14.870
+So now we have all of our pages.
+
+15:15.010 --> 15:20.440
+So in the next video what I want to do is the responsiveness that actually doesn't look too bad.
+
+15:20.590 --> 15:22.810
+There's not a lot that we have to do.
+
+15:22.930 --> 15:23.830
+We want these two.
+
+15:23.860 --> 15:27.080
+Obviously this isn't good.
+
+15:28.390 --> 15:32.300
+We want to stack like the testimonials and stuff like that.
+
+15:32.320 --> 15:34.140
+This needs to be fixed.
+
+15:34.150 --> 15:35.500
+These need to be stacked.
+
+15:35.800 --> 15:39.670
+So in the next video we're going to start to make this much more responsive.

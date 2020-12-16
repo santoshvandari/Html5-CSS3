@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.670 --> 00:06.690
+All right guys so in the last video I gave you a little challenge I wanted you to replace the certain
+
+00:06.690 --> 00:15.450
+divs with each team of five semantic tags to just make it more accessible more organized.
+
+00:15.450 --> 00:19.230
+And I did the first one for you which is the div with the idea of header.
+
+00:19.230 --> 00:21.570
+So we use the header tag here.
+
+00:21.570 --> 00:24.620
+So the next one is pretty obvious.
+
+00:24.630 --> 00:27.630
+We have a div with the idea of main that goes around.
+
+00:27.630 --> 00:33.390
+Let's take a look at the project goes around all of this area which is basically the main content of
+
+00:33.390 --> 00:34.460
+the page.
+
+00:34.500 --> 00:37.940
+So that would be replaced with the main tag.
+
+00:37.950 --> 00:39.620
+So this ends.
+
+00:39.840 --> 00:44.830
+Like I said you can click on a div and it ends here.
+
+00:44.850 --> 00:47.490
+So we want to change the ending div.
+
+00:47.510 --> 00:52.740
+And we want to change the starting div.
+
+00:52.740 --> 00:52.980
+OK.
+
+00:53.050 --> 00:54.450
+So that's the first one.
+
+00:54.450 --> 01:00.260
+Next one is gonna be in here we have the welcome section which ends right here.
+
+01:00.270 --> 01:03.820
+So this this is actually going to be a section.
+
+01:03.960 --> 01:04.250
+OK.
+
+01:04.260 --> 01:08.350
+So we're gonna change that and we're going to change that to Section.
+
+01:08.520 --> 01:10.570
+Next we have the blog section.
+
+01:10.590 --> 01:18.500
+Now this ends right here so we're gonna change this section and change that section.
+
+01:18.810 --> 01:21.600
+Now within the blog we have some articles.
+
+01:21.720 --> 01:23.430
+So did with the class of article.
+
+01:23.420 --> 01:28.700
+So these are gonna be changed to article I'm going to cover.
+
+01:28.770 --> 01:32.900
+I'm going to select the div right here and then do a controlled D.
+
+01:32.910 --> 01:35.310
+I'm also going to get the next one and the next one.
+
+01:35.370 --> 01:35.600
+OK.
+
+01:35.640 --> 01:37.130
+So just some shortcuts here.
+
+01:37.140 --> 01:44.150
+We're gonna change all of these to article OK so the next thing is the sidebar.
+
+01:44.150 --> 01:49.790
+Now remember a site is for content that's not the main content but it's on the page we have navigation
+
+01:49.790 --> 01:51.600
+we have contact stuff here.
+
+01:51.680 --> 01:58.820
+So we're gonna grab this div right here along with the ending div and put in a side.
+
+01:58.820 --> 02:06.380
+Now the well the way that NAV works is we don't actually replace the well we wrap the L and NAV tags
+
+02:06.410 --> 02:14.570
+so let's say oops let's do NAV and then we'll grab this and I'll just hold option or alter and then
+
+02:14.570 --> 02:18.240
+the upper key and just move it up into the nav.
+
+02:18.240 --> 02:18.980
+Okay.
+
+02:19.070 --> 02:26.480
+And then the last thing is going to be the footer which I want to replace the div here with footer and
+
+02:26.480 --> 02:31.250
+let's save and if we take a look at the result it looks the exact same.
+
+02:31.250 --> 02:31.600
+All right.
+
+02:31.600 --> 02:37.460
+So if any of what we've talked about has been confusing don't worry about it we're gonna be doing this
+
+02:37.460 --> 02:40.220
+stuff all along throughout the course.
+
+02:40.220 --> 02:41.760
+So you're going to get the hang of it.
+
+02:41.960 --> 02:47.030
+If what we've talked about has been painfully easy for you Don't worry about it.
+
+02:47.030 --> 02:49.460
+Things are going to get more complicated.
+
+02:49.460 --> 02:55.070
+I just want to start from absolute scratch for people that that have never even written a paragraph
+
+02:55.070 --> 02:56.100
+tag before.
+
+02:56.150 --> 03:03.050
+So hopefully hopefully both sides are somewhat satisfied hopefully that you're you're starting to get
+
+03:03.050 --> 03:09.500
+it if you're an absolute beginner and hope flat and bore you to death if your more advanced front end
+
+03:09.500 --> 03:10.540
+developer.
+
+03:10.580 --> 03:10.870
+All right.
+
+03:10.900 --> 03:16.190
+So in the next video or I'm sorry in the next section we're going to jump in to see assess basics.
+
+03:16.190 --> 03:22.550
+So we're going to start to talk about all the basic properties for colors and padding and margin and
+
+03:22.820 --> 03:24.230
+the box model.
+
+03:24.230 --> 03:31.100
+We're going to look at things like positioning different types of positioning relative absolute and
+
+03:31.100 --> 03:32.080
+a whole bunch of other stuff.
+
+03:32.090 --> 03:33.660
+So that's it.
+
+03:33.710 --> 03:35.110
+I'll see you in the next section.

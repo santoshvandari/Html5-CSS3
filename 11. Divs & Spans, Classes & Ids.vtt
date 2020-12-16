@@ -1,0 +1,391 @@
+WEBVTT
+
+00:00.440 --> 00:05.310
+All right guys in this video we're going to talk about divs and spans which are both HD female elements
+
+00:05.310 --> 00:12.900
+are tags as well as I.D. and class attributes which are used for semantics they used to kind of separate
+
+00:12.900 --> 00:13.500
+content.
+
+00:13.500 --> 00:17.760
+They're also used for CSF styling which you're going to talk about in the next section.
+
+00:17.760 --> 00:23.700
+So let's create a new file called 0 9 underscore and we'll just call it I.D. underscore.
+
+00:23.700 --> 00:25.720
+Class done H T.
+
+00:26.340 --> 00:37.480
+And we're going to put our structure our bar boilerplate in here and for our title we'll say div span
+
+00:39.300 --> 00:42.840
+I.D. in class.
+
+00:42.840 --> 00:49.110
+So we used divs before we used it to separate our kind of our labels and inputs in the form and where
+
+00:49.110 --> 00:50.580
+we talked about forms.
+
+00:50.640 --> 00:53.460
+So let's put a div in here and let's see.
+
+00:53.460 --> 00:55.590
+This is gonna be the header of our website.
+
+00:55.590 --> 00:58.250
+We have maybe an H1.
+
+00:58.340 --> 01:04.230
+My Web site or maybe you have an image a logo image and then we'll put a paragraph that says it like
+
+01:04.230 --> 01:08.070
+a some kind of slogan Just say a site about me.
+
+01:08.130 --> 01:15.750
+Now since everything in this div pertains to the header I'm going to give this an I.D. of header okay.
+
+01:15.750 --> 01:20.970
+Or maybe even main header because you could have multiple headers maybe you have an art you have articles
+
+01:20.970 --> 01:26.000
+on the page and you have headers for the articles so let's call this the main header All right.
+
+01:26.010 --> 01:34.500
+And then underneath that let's create a U L and let's give it some allies some list items and we'll
+
+01:34.500 --> 01:38.610
+put some links inside here and let's say this go.
+
+01:38.610 --> 01:45.060
+This is the home page link I'm going to copy this down twice will say this is the about link goes to
+
+01:45.060 --> 01:47.910
+the about page just goes to it's a contact.
+
+01:47.910 --> 01:56.860
+So it's this is a navigation menu so let's give this you all an idea of let's call it main now.
+
+01:56.910 --> 01:58.680
+You can call it whatever you want.
+
+01:58.680 --> 02:06.120
+Now let's say underneath the navigation we have an area that has some information about us or about
+
+02:06.120 --> 02:07.920
+our page or whatever it may be.
+
+02:07.920 --> 02:11.590
+So we'll have a div and let's give it an idea of about now.
+
+02:11.760 --> 02:15.590
+Here I'm going to show you a very very helpful image trick.
+
+02:15.670 --> 02:23.040
+OK so again it is installed with V.S. code and it allows us to do things faster so instead of typing
+
+02:23.040 --> 02:30.240
+out I d equals what we can do is we can say div and we can put a just a number sign which represents
+
+02:30.240 --> 02:38.940
+an I.D. the word about and then tab or enter and it puts it in for us and then to take it a step further
+
+02:38.940 --> 02:46.410
+if it's a div like we could do this with with an H1 we could give it an idea of about like that but
+
+02:46.410 --> 02:51.750
+if it's a div we don't even have to write the word div we can simply just put a number signed and then
+
+02:51.780 --> 02:56.360
+about and then hit tab or enter and it will give us a div with the idea of about.
+
+02:56.850 --> 03:02.520
+OK so nice little tip there and again you don't have to use it but it will make you write your hcm all
+
+03:02.520 --> 03:03.990
+much faster.
+
+03:03.990 --> 03:09.750
+So let's say in this about we have an h three which is a heading we'll say about and then maybe a paragraph
+
+03:09.780 --> 03:13.510
+with some text will just generate some dummy text here.
+
+03:13.610 --> 03:14.060
+Okay.
+
+03:14.070 --> 03:21.180
+And then maybe under that div we have let's say an area for for our contact info.
+
+03:21.710 --> 03:21.990
+Okay.
+
+03:22.000 --> 03:24.630
+And I know I haven't talked about spans or classes yet.
+
+03:24.660 --> 03:25.920
+I'll get to that in a minute.
+
+03:26.340 --> 03:32.010
+So let's create a div with the I.D. of contact.
+
+03:32.010 --> 03:35.600
+And in here we have another heading.
+
+03:35.940 --> 03:40.710
+Remember it's good it's good practice to not have more than one H one.
+
+03:40.740 --> 03:47.130
+I don't think so yeah we do have an H1 which is in the header so every div here is using an h three
+
+03:47.130 --> 03:52.260
+as a tile you could use an H2 and again you could use an H1 it's just good practice to just have one
+
+03:52.260 --> 03:53.530
+on the page.
+
+03:53.910 --> 04:05.180
+So let's put a well here we'll do some list items we'll put like address 50 Main Street Boston Mass
+
+04:05.190 --> 04:07.980
+let's put another list item with a phone
+
+04:14.160 --> 04:17.950
+and let's do another list item with an e-mail.
+
+04:17.990 --> 04:23.030
+Just save me at something cool dot com.
+
+04:23.530 --> 04:23.860
+OK.
+
+04:23.870 --> 04:29.900
+And then finally maybe we have a footer so we'll have a div here with actually we can just do I.D. footer
+
+04:32.150 --> 04:42.530
+and we'll have a paragraph and let's just say copyright 20 older 20 19 because it's the very end of
+
+04:42.530 --> 04:44.480
+2018 right now.
+
+04:44.480 --> 04:44.870
+All right.
+
+04:44.890 --> 04:47.030
+So let's save this and take a look.
+
+04:47.150 --> 04:52.940
+We'll open it with five server it's going to look very ugly because we have no CSX but it's structured
+
+04:52.940 --> 04:55.090
+in a very common way.
+
+04:55.100 --> 04:56.330
+So we have a header.
+
+04:56.390 --> 04:58.150
+We have the navigation.
+
+04:58.190 --> 05:03.170
+We have some some different sections about contact and then we have a footer at the bottom.
+
+05:03.320 --> 05:05.730
+And we used I.D. for all of these.
+
+05:05.870 --> 05:11.960
+Now when it comes to CSX week we can grab on to these ideas and we can styles these sections by their
+
+05:11.960 --> 05:16.200
+I.D. but we also have something called classes now.
+
+05:16.220 --> 05:20.930
+A lot of people get confused on when do I use an I.D. and when do I use a class.
+
+05:20.930 --> 05:24.430
+And the reason for that is there is no functional difference.
+
+05:24.430 --> 05:26.510
+Like they don't behave any differently.
+
+05:26.540 --> 05:33.740
+You can style them the same exact way but it's a good practice to always have your I.D. be individual
+
+05:33.740 --> 05:38.360
+meaning you're not going to have a main header I.D. anywhere else like you're not going to go down here
+
+05:38.360 --> 05:44.380
+and have a main header I.D. you're not going to have another section on the page that has an idea of
+
+05:44.390 --> 05:45.760
+about.
+
+05:45.770 --> 05:50.600
+So basically just one per I.D. now a class you can repeat.
+
+05:50.600 --> 05:55.880
+So let's say we wanted to style it like a border and a light gray background around the about and the
+
+05:55.880 --> 05:59.850
+contact area we might have a class called card.
+
+05:59.860 --> 06:04.820
+Actually I'm going to add a CSA style up here and don't worry if you don't know what any of this is
+
+06:04.820 --> 06:06.350
+I'm gonna do this later.
+
+06:06.420 --> 06:11.960
+I want to show you this later but I'm going to put a style that grabs on to the card class and we're
+
+06:11.960 --> 06:17.600
+going to add a class of card to both of the divs of about and contact.
+
+06:17.660 --> 06:24.470
+So whoops did that backwards one of two class equals card and then let's go down to the contact div
+
+06:24.470 --> 06:30.390
+right here and also give that a class of card and let's save.
+
+06:30.440 --> 06:37.130
+And now notice they both have the same styling so you can see the difference here I.D. their individual
+
+06:37.130 --> 06:41.690
+to that that section but classes you can repeat.
+
+06:41.990 --> 06:44.420
+So we can have as many cards as we want.
+
+06:44.540 --> 06:50.750
+If I wanted the header to have that same style excuse me I could give that a class of card as well.
+
+06:50.750 --> 06:52.900
+And it would get that styling.
+
+06:52.900 --> 06:53.230
+OK.
+
+06:53.260 --> 06:57.130
+So that's the biggest difference between I.D. and classes.
+
+06:57.140 --> 06:59.240
+Now some people I mean everyone's different.
+
+06:59.240 --> 07:03.650
+Some people don't even use I.D. they'll just use classes like instead of doing this.
+
+07:03.650 --> 07:12.830
+You might see something like this like class Main header and card both in this you know both classes.
+
+07:12.830 --> 07:16.220
+But I think that this is a better way to structure it.
+
+07:16.820 --> 07:17.200
+OK.
+
+07:17.210 --> 07:21.610
+But you'll come to find your own way of doing things.
+
+07:21.800 --> 07:28.340
+But generally the most important thing is not to repeat I.D. on the same page at least.
+
+07:28.400 --> 07:28.730
+All right.
+
+07:28.760 --> 07:31.490
+So next let's talk about divs and spans.
+
+07:31.490 --> 07:37.880
+We've used quite a bit of divs here to separate out our content and the main difference between a div
+
+07:37.880 --> 07:40.850
+and a span as a device is a block level element.
+
+07:40.850 --> 07:43.310
+It pushes the next thing down.
+
+07:43.310 --> 07:51.680
+So let's say I had a style for let's let's let's do a class called enhance and let's say we want the
+
+07:51.680 --> 08:03.320
+color to be yellow and we want the background color to be black.
+
+08:03.700 --> 08:09.590
+And this is CSX I'm going to go over this all in the next section and let's say we wanted to add it
+
+08:09.590 --> 08:12.200
+to a piece of text in this paragraph.
+
+08:12.260 --> 08:24.700
+So if we use a div we say div class equals enhance and let's wrap this div let's put it like right here
+
+08:25.120 --> 08:32.950
+and let's save it we get that styling but it knocks it on to the next it next line it basically goes
+
+08:32.950 --> 08:38.860
+in between you know this line and this line this is a case where we want to use a span because a span
+
+08:38.860 --> 08:40.190
+is an inline elements.
+
+08:40.210 --> 08:41.700
+So let's grab this.
+
+08:41.710 --> 08:48.160
+I'll highlight this div and do control D to grab the next one and just change them both to a span.
+
+08:48.160 --> 08:49.870
+Guys save it.
+
+08:49.870 --> 08:54.040
+And now notice that it's not it's not block level.
+
+08:54.040 --> 08:57.520
+It just stays in its place and we can still add that styling.
+
+08:57.970 --> 09:00.550
+So that's the difference between the span and a div.
+
+09:00.700 --> 09:05.140
+For the most part you're going to be using divs but when you need it to be inline you want to use a
+
+09:05.140 --> 09:06.390
+span.
+
+09:06.460 --> 09:12.670
+Now each team of five when it was released it came out with something called semantic tags to better
+
+09:13.210 --> 09:15.130
+to better layout our sections.
+
+09:15.130 --> 09:20.320
+So for instance there's a header tag which we could use instead of having to use an I.D. we could use
+
+09:20.320 --> 09:21.890
+the actual header tag.
+
+09:21.980 --> 09:26.980
+There is something called the NAV tag we could use for navigation there's section tags for stuff like
+
+09:26.980 --> 09:29.830
+this and we're gonna go over that soon.
+
+09:30.130 --> 09:36.970
+But in the next video I want to just quickly cover entities OK which are little symbols we can use in
+
+09:36.990 --> 09:43.400
+H T L for instance this copy right down here if we want to put a copyright symbol we can do Amber stamp
+
+09:43.660 --> 09:50.620
+copy semicolon and if I go ahead and save that and now you see down here it actually gives us a little
+
+09:50.620 --> 09:51.710
+copyright symbol.
+
+09:52.000 --> 09:57.220
+So I want to talk a little bit about that in the next section before we move on to HCM all five semantic
+
+09:57.220 --> 09:57.790
+tags.

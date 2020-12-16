@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.520 --> 00:07.320
+All right guys so before we go ahead and create an FCP account and upload our Web site I want to show
+
+00:07.320 --> 00:11.970
+you how to create an email account and also how to create an email forward or in case you want to send
+
+00:11.970 --> 00:14.760
+your email to something like Gmail.
+
+00:14.760 --> 00:20.910
+So you won't go to your C panel and click on email accounts and very simple very self-explanatory.
+
+00:20.910 --> 00:24.320
+We have one domain on this account which has edge ledger dot net.
+
+00:24.330 --> 00:30.750
+So let's say we want to create Brad at Edge ledger Dot Net as an email address and we'll put a password
+
+00:30.750 --> 00:33.210
+in here.
+
+00:33.270 --> 00:35.430
+You can also choose to generate a password.
+
+00:38.380 --> 00:38.970
+OK.
+
+00:38.970 --> 00:40.340
+And then you can choose a quota.
+
+00:40.370 --> 00:45.450
+So if you have employees and you don't want you know their emails to take up so much room on the server
+
+00:45.450 --> 00:48.070
+you can limit it or you can do unlimited.
+
+00:48.180 --> 00:52.720
+You can also choose to send a welcome email with client configuration instructions.
+
+00:52.770 --> 00:58.710
+So if you're you know if you have a company and use like Outlook or something like that or gmail you
+
+00:58.710 --> 01:03.980
+can send them you know the account configuration stuff but we're not going to do that.
+
+01:04.410 --> 01:10.140
+So let's click Create Account and we get success if we click this view right here it'll show us the
+
+01:10.140 --> 01:10.950
+e-mail account.
+
+01:10.950 --> 01:16.880
+Also if we go back out to sea panel and we click on e-mail accounts we'll see it here as well.
+
+01:16.920 --> 01:23.130
+Now to check your e-mail you can do that right from C. panel by just check checking off or clicking
+
+01:23.340 --> 01:25.290
+access Web mail.
+
+01:25.290 --> 01:28.360
+And it's basically going to ask us which.
+
+01:28.500 --> 01:32.960
+Which default application we want to use and they're all pretty much the same.
+
+01:33.090 --> 01:38.400
+I would suggest using something like Gmail just forwarding all your e-mail there and then within the
+
+01:38.400 --> 01:43.830
+Gmail settings you can actually make it so you can send e-mail from your account as well.
+
+01:44.040 --> 01:48.030
+If you just look on the G.M. the Google documentation you can find out how to do that.
+
+01:48.510 --> 01:52.140
+So I usually choose squirrel mail if I do use this.
+
+01:52.140 --> 01:56.840
+You're probably going to get a welcome page where you need to put in your name and stuff like that.
+
+01:56.940 --> 02:01.760
+And then just click submit and then this is the inbox here.
+
+02:01.770 --> 02:06.810
+So what I'm going to do is I'm going to go off screen onto my Gmail account and I'm going to send an
+
+02:06.810 --> 02:12.020
+e-mail to Brad at Edge ledger dot net just to make sure that it works.
+
+02:12.030 --> 02:12.350
+OK.
+
+02:12.360 --> 02:25.470
+So say Brad at hedge ledger net and just say hello and it works.
+
+02:25.490 --> 02:25.790
+All right.
+
+02:25.820 --> 02:27.230
+So I'm going to go ahead and send
+
+02:29.880 --> 02:40.350
+and Let's reload our page here and it might take a couple seconds chicken box should be here any minute
+
+02:40.430 --> 02:41.160
+or any second.
+
+02:41.190 --> 02:42.140
+There it is.
+
+02:42.150 --> 02:42.450
+All right.
+
+02:42.480 --> 02:49.890
+So from Brad Travis see if we go to hello you can see that the message is it works.
+
+02:49.890 --> 02:54.140
+And I just put hello in the subject so this isn't the best looking interface.
+
+02:54.180 --> 02:57.200
+So like I said I would probably use g mail or something.
+
+02:57.240 --> 03:00.780
+So two out of forward are we can go back to C panel.
+
+03:01.450 --> 03:10.910
+Let's close that up and let's go home and then forwarders and say add for Twitter.
+
+03:11.200 --> 03:13.830
+So the address you want to forward is Brad.
+
+03:13.830 --> 03:18.030
+And the domain we only have one domain which is Ajay ledger dot net.
+
+03:18.030 --> 03:24.650
+So it's going to use that email address and I'm going to forward it to tech guy info at gmail dot com.
+
+03:24.660 --> 03:24.980
+All right.
+
+03:24.990 --> 03:31.440
+So we'll say ad for Twitter and now anything that's sent to Brad it edge ledger dot net is also going
+
+03:31.440 --> 03:33.300
+to go to tech guy info dot com.
+
+03:33.990 --> 03:34.650
+OK.
+
+03:34.740 --> 03:39.960
+Now if you're not going to use something like Gmail if you're if you're gonna use your C panel e-mail
+
+03:39.960 --> 03:47.280
+there's a there's a shorter way to get to your inbox rather than logging into C. panel clicking on e-mail
+
+03:47.280 --> 03:52.860
+accounts searching for a well you can do is you can go to your domain so we can go to AJ ledger dot
+
+03:52.860 --> 03:54.890
+net and then just slash web mail.
+
+03:55.970 --> 03:56.470
+OK.
+
+03:56.580 --> 04:04.310
+So it's going to take us to this log in right here and you can log in with your email address and password.
+
+04:05.220 --> 04:09.180
+And there we go and you can if you want if you don't want to show the screen every time you can choose
+
+04:09.180 --> 04:14.430
+to set squirrel mail or any of these as your default that way it just automatically goes right into
+
+04:14.430 --> 04:15.330
+your inbox.
+
+04:15.330 --> 04:15.630
+OK.
+
+04:15.630 --> 04:23.180
+So that's just a much easier way to get to your inbox so you can also set up things like auto responders.
+
+04:23.190 --> 04:25.850
+So if you're out of the office you can do that.
+
+04:26.070 --> 04:31.200
+Filters spam filtering I'm not going to go through all this it's out of the scope of the course but
+
+04:31.200 --> 04:34.500
+I just wanted to show you how to get your email setup.
+
+04:34.500 --> 04:34.770
+All right.
+
+04:34.770 --> 04:37.740
+So in the next video we're going to set up an FTE account.
+
+04:37.740 --> 04:42.690
+We're going to want to show you how to use something called file Zilla so that we can actually upload
+
+04:42.690 --> 04:44.880
+our Web site to edge larger Don that.

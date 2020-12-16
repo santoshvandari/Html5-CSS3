@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.450 --> 00:00.690
+All right.
+
+00:00.690 --> 00:03.960
+In this video we're gonna look at entities and symbols.
+
+00:03.960 --> 00:05.060
+Real quick OK.
+
+00:05.090 --> 00:15.890
+So we're going to create a new file called Ten underscore and let's just call this entities dot HMO.
+
+00:16.110 --> 00:16.480
+All right.
+
+00:16.500 --> 00:21.870
+So we're going to put in our boilerplate say entities
+
+00:25.090 --> 00:28.740
+so the first thing I want to show you is a non breaking space.
+
+00:28.740 --> 00:33.630
+I'm to put a comment here and say non breaking space.
+
+00:33.880 --> 00:46.000
+So if I put a paragraph and I say Hello my name is Brad and I run this and live server or you open your
+
+00:46.000 --> 00:50.130
+web page so we get to sell a paragraph that says Hello my name is Brad.
+
+00:50.140 --> 00:53.170
+Let's say that I wanted to put a bunch of whitespace.
+
+00:53.210 --> 00:55.920
+OK so where you see no text.
+
+00:55.930 --> 00:57.620
+It's called whitespace.
+
+00:57.640 --> 01:00.990
+Let's say I wanted to put a bunch of it in between is and Brad.
+
+01:01.000 --> 01:05.520
+Like if I go over here and I just put a bunch of spaces like that and they save.
+
+01:05.530 --> 01:06.640
+There's no difference.
+
+01:06.670 --> 01:07.180
+OK.
+
+01:07.270 --> 01:12.730
+It doesn't in the browser is not going to see these spaces and render it like that.
+
+01:12.850 --> 01:17.920
+If you wanted to do that for some reason and there's not too many cases where you would do this but
+
+01:17.920 --> 01:22.360
+if you did you could use a non breaking space which is an HD female entity.
+
+01:22.420 --> 01:27.860
+So it's actually going to be Ampersand and B S P semicolon.
+
+01:28.060 --> 01:33.750
+Remember the in the last video at the end they showed you the copyright entity which was Ampersand copy
+
+01:33.760 --> 01:41.260
+semicolon and you can look these up on W3 schools that you can find a list of all the entities symbols
+
+01:41.260 --> 01:42.420
+and stuff like that.
+
+01:42.610 --> 01:46.370
+But let's go ahead and save this and you see how it knocked it over a little bit.
+
+01:46.420 --> 01:53.710
+If I go ahead and grab this again and put another one let's put a couple of them and save it we'll keep
+
+01:53.710 --> 01:54.840
+pushing it over.
+
+01:54.850 --> 02:00.470
+So if you ever need to push a line over like that you can use a non braking space.
+
+02:00.580 --> 02:08.860
+So next thing I'm going to show you is how we can use or how we should use angle brackets so greater
+
+02:08.860 --> 02:12.120
+than and less than obviously they're used in each team all tags.
+
+02:12.130 --> 02:22.060
+But what if we wanted to actually put them on the in the each team page and say greater than and less
+
+02:22.060 --> 02:22.730
+than.
+
+02:23.740 --> 02:29.830
+So put a paragraph and let's just say 5 2 maybe this was a page that had some math equations or something
+
+02:30.310 --> 02:33.770
+we'll say five is greater than two.
+
+02:33.970 --> 02:40.900
+If we save that it does actually show up on the page but in some browsers it can actually get confused
+
+02:40.900 --> 02:44.860
+because it looks like the beginning or actually the end of each team.
+
+02:44.860 --> 02:45.490
+I'll tag.
+
+02:45.910 --> 02:51.580
+So usually when you do this if you want to actually put an angle bracket displayed on the page you would
+
+02:51.580 --> 03:01.810
+you've used the entity Ampersand G T semicolon K GTI is greater than so let's save this and you'll see
+
+03:01.810 --> 03:04.730
+that it renders the same thing OK.
+
+03:04.840 --> 03:14.260
+If we wanted to do a less than let's actually we'll just comp copy this down and let's say let's do
+
+03:14.260 --> 03:24.100
+one is less than two we could use LTE by save that you'll see one is less than two.
+
+03:24.280 --> 03:27.760
+There's also numbers for entities as well.
+
+03:27.760 --> 03:33.970
+So I'm actually going to copy this down again the greater then and instead of doing G T I'm gonna do.
+
+03:33.970 --> 03:43.810
+Number sixty two and save and notice said it again gives me the greater than so the number for less
+
+03:43.810 --> 03:46.450
+than is actually sixty.
+
+03:46.470 --> 03:53.560
+So we would do Ampersand number sine 60 and save and you'll see it gives us the same thing.
+
+03:53.560 --> 03:57.000
+Now most cases you're going to use the greater than and less than.
+
+03:57.010 --> 04:01.070
+But I just wanted to show you that you can actually use the number.
+
+04:01.070 --> 04:01.380
+OK.
+
+04:01.420 --> 04:05.620
+We already saw the copyright but I'm going to put it in here anyways.
+
+04:05.630 --> 04:09.770
+So we're going to do Ampersand copy semicolon.
+
+04:09.790 --> 04:12.610
+This is the one that I use frequently.
+
+04:12.610 --> 04:14.620
+We also have the trademark.
+
+04:14.800 --> 04:20.360
+So it's two Ampersand and this is our e.g.
+
+04:20.360 --> 04:26.470
+And if we save that and you can see it gives all not the trademark the little R if we want to do like
+
+04:26.470 --> 04:27.670
+currency stuff.
+
+04:27.670 --> 04:30.370
+Dollar Signs pound stuff like that
+
+04:34.160 --> 04:35.410
+we can do.
+
+04:35.780 --> 04:36.960
+Let's see for
+
+04:39.950 --> 04:43.000
+obviously dollar signs we can use that the actual key.
+
+04:43.010 --> 04:50.780
+But let's say we wanted to sense we could do Ampersand sent save and it gives us a little sense sine
+
+04:53.230 --> 04:53.590
+OK.
+
+04:53.600 --> 05:05.600
+We can also do for working with foreign currencies like pound ups can do pound we can do yen we can
+
+05:05.600 --> 05:16.360
+do Euro save that we get all those different symbols we can even do use suits like card suits OK.
+
+05:16.730 --> 05:17.990
+Such as spades.
+
+05:17.990 --> 05:22.360
+So if I wanted to do Ampersand spades semicolon.
+
+05:22.400 --> 05:24.210
+There we go.
+
+05:24.250 --> 05:25.820
+And of course we have the other three.
+
+05:25.820 --> 05:26.630
+So if we want
+
+05:30.060 --> 05:30.930
+clubs
+
+05:33.630 --> 05:42.810
+hearts and diamonds is actually D I A M S guy so yeah I mean you're probably not going to use these
+
+05:42.810 --> 05:45.710
+very much but I did just want to show you guys it.
+
+05:46.020 --> 05:54.770
+Also if you want to display something in like computer code font you can use the code tag.
+
+05:54.990 --> 05:59.270
+So let's say computer code.
+
+05:59.310 --> 06:08.190
+So it's a code which is a tag and let's say we wanted to display p p p p code now in P P you start your
+
+06:08.190 --> 06:10.140
+code with this right here.
+
+06:10.140 --> 06:18.670
+This is an opening p p tag and this is a closing p p tag and you could put like Echo string Hello.
+
+06:18.710 --> 06:24.270
+I don't expect you to understand any of this but let's say we wanted to display this on the page and
+
+06:24.270 --> 06:32.240
+we wanted it to look like code so we would replace this with the entity of less than.
+
+06:32.310 --> 06:43.790
+So we'll do Ampersand LTE semicolon and then let's replace this with Ampersand GMT semicolon and we'll
+
+06:43.790 --> 06:44.540
+save that.
+
+06:44.540 --> 06:48.260
+And now down here notice that it actually looks like code.
+
+06:48.260 --> 06:54.260
+OK so if you wanted to put a code snippet into your page maybe it was it's a programming site or something
+
+06:54.260 --> 06:54.800
+like that.
+
+06:55.280 --> 06:57.020
+That's how you would do it.
+
+06:57.020 --> 07:00.480
+There's also a tag called K BD for keyboard.
+
+07:00.620 --> 07:10.310
+So if we wanted to put like a paragraph and we were giving instructions to say save the file by pressing
+
+07:10.940 --> 07:13.210
+and let's say we were telling them how to save a file.
+
+07:13.220 --> 07:25.310
+So control s we could put a K BD tag and we could put in C T R L plus s we'll do like that and save
+
+07:25.850 --> 07:32.120
+and now save the file by pressing control s and notice the control s is kind of it's in that computer
+
+07:32.120 --> 07:33.000
+code font.
+
+07:33.590 --> 07:33.970
+OK.
+
+07:34.010 --> 07:39.140
+So it's again not these these aren't things that you're going to use all the time but it's something
+
+07:39.140 --> 07:40.490
+that is good to know.
+
+07:40.760 --> 07:45.590
+And again if you want to look at all of the different the different entities and symbols available in
+
+07:45.590 --> 07:50.870
+each HTML you can go to the W three schools it's a like I said it's a great reference site.
+
+07:50.960 --> 07:51.220
+All right.
+
+07:51.230 --> 07:55.490
+So in the next video we're going to start to look at each team of five semantic tags.

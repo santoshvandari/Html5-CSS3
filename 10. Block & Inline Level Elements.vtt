@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.350 --> 00:05.330
+All right guys in this video we're gonna look at inline level elements and block level elements.
+
+00:05.340 --> 00:10.710
+Now certain tags or H2 metal elements are blocked some are in line.
+
+00:10.710 --> 00:14.990
+Now this is a page from W3 schools which is a great reference site.
+
+00:15.210 --> 00:19.050
+And it shows us which elements are block and which are in line.
+
+00:19.050 --> 00:26.430
+So all of these tags right here are block level so we have power graph form all the H tags the heading
+
+00:26.430 --> 00:29.100
+tags these header section all this stuff.
+
+00:29.100 --> 00:32.850
+These are h HTML5 semantic tags nav Main.
+
+00:32.930 --> 00:34.680
+I'm going to talk about those in a little bit.
+
+00:34.680 --> 00:37.380
+Those are very important but for now let's check.
+
+00:37.410 --> 00:44.430
+Let's look at the ones that we know like paragraph ordered lists unordered list list item all of these
+
+00:44.430 --> 00:53.550
+are block level and then for inline we have a tags which are links we have C button we have span we
+
+00:53.550 --> 01:00.930
+didn't talk about spans yet select what else here have we looked at these these bold and italics we're
+
+01:00.930 --> 01:05.940
+not going to be using those anymore emphasised strong text area.
+
+01:06.030 --> 01:06.990
+These are inline.
+
+01:06.990 --> 01:15.360
+Now the difference here is that a block level element will span 100 percent width of the page.
+
+01:15.390 --> 01:15.670
+OK.
+
+01:15.690 --> 01:20.610
+So it basically goes across the whole page and then the next thing that you put on the page is going
+
+01:20.610 --> 01:27.000
+to be on the next line because it knocks it down to the next line in inline element does not span across
+
+01:27.000 --> 01:29.520
+the page it only takes up that space.
+
+01:29.520 --> 01:33.150
+Therefore the next thing you put is going to go to the right of it.
+
+01:33.150 --> 01:35.030
+It's just going to go right after it.
+
+01:35.040 --> 01:37.020
+So let me give you some examples.
+
+01:37.030 --> 01:37.320
+OK.
+
+01:37.350 --> 01:45.280
+So it's open let's create a file here I'll call it 0 8 underscore block underscore inline dot aged him
+
+01:45.280 --> 01:48.480
+out and we'll go ahead and put our structure in here.
+
+01:48.480 --> 01:50.310
+Let's say in line
+
+01:53.420 --> 01:58.850
+in line versus block and inside the body here.
+
+01:58.890 --> 02:07.450
+Let's go ahead and put a paragraph which is a block level element and I'll say Lorem let's do Lorem
+
+02:07.500 --> 02:11.580
+30 tab or enter and we'll save that.
+
+02:11.580 --> 02:14.130
+Let's go ahead and open this with live server.
+
+02:14.630 --> 02:14.960
+OK.
+
+02:14.970 --> 02:16.990
+So this is a block level element.
+
+02:17.370 --> 02:26.130
+If I put another paragraph underneath it all right let's say Lorem 20 tab.
+
+02:26.130 --> 02:31.920
+Notice how it gets pushed on to the next line paragraphs actually have styling by default see the space
+
+02:31.920 --> 02:37.140
+here they actually have default margin which I'm going to we'll talk about when we get to the CSX but
+
+02:37.140 --> 02:43.510
+since it's block level it goes across the whole page and pushes the next one onto the next line.
+
+02:43.560 --> 02:47.300
+Now a link in a tag is an inline element.
+
+02:47.310 --> 02:53.360
+So let's go ahead and let's put a link not within a paragraph but just a link itself.
+
+02:53.360 --> 02:59.200
+And if we put out no sign that just means it goes to the current page Iran it doesn't go anywhere and
+
+02:59.200 --> 03:02.430
+in here let's just say a link.
+
+03:02.430 --> 03:10.620
+And if I save it this is an inline element which means if we add another link copy this down and I save
+
+03:11.120 --> 03:16.140
+notice that it goes next to it it doesn't get pushed on to the next line because it doesn't it doesn't
+
+03:16.140 --> 03:18.350
+span all the way across.
+
+03:18.350 --> 03:18.630
+OK.
+
+03:18.690 --> 03:20.420
+So that's the difference here.
+
+03:20.460 --> 03:27.360
+Now I'm going to add a style attribute because I want to put a border around all of these just so you
+
+03:27.360 --> 03:30.630
+can see kind of the outline of them.
+
+03:30.660 --> 03:36.080
+And again I don't suggest using style tags you want to use CSX but we haven't gotten to that yet.
+
+03:36.090 --> 03:41.910
+I'm just showing you this for an example and you'll learn all about borders and stuff later on but I'm
+
+03:41.910 --> 03:47.360
+just going to say border Greens solid and we'll do the same with the next one.
+
+03:47.670 --> 03:54.510
+So just copy this and let's save that and you can see that it goes all the way across.
+
+03:54.510 --> 03:57.290
+Now let's at a red border to the link.
+
+03:58.230 --> 04:00.480
+So I'm just going to change this to red
+
+04:04.860 --> 04:10.780
+read and save and you can see that it doesn't go all the way across.
+
+04:10.860 --> 04:16.170
+Now you might be saying well these paragraphs are you know they're long they reach all the way across
+
+04:16.170 --> 04:18.760
+the page but this doesn't the end doesn't.
+
+04:18.800 --> 04:22.270
+If it were in line the next one would start right here.
+
+04:22.290 --> 04:28.200
+So even if I just had a one word paragraph and I save it goes all the way across.
+
+04:28.200 --> 04:30.050
+OK so that's the difference.
+
+04:30.060 --> 04:32.310
+And it's very important to understand that.
+
+04:33.360 --> 04:39.370
+So another block level element is an unordered list as well as list items.
+
+04:39.390 --> 04:47.610
+So when I put a s when I put a list item in here and another one it knocks it down to the next line
+
+04:47.640 --> 04:56.010
+because it's it's a block level element and you can change the you can change it from inline to block
+
+04:56.040 --> 04:59.850
+or vice versa using CSX and we're gonna get into that later.
+
+04:59.940 --> 05:08.570
+But I just want you to understand the difference between inline and block and then those not span.
+
+05:08.580 --> 05:14.880
+I want to do a strong the topography semantic tags like strong and
+
+05:17.850 --> 05:19.170
+strong and emphasis.
+
+05:19.170 --> 05:25.920
+Those are also obviously in line because you can see we can make this strong but it doesn't knock it
+
+05:25.920 --> 05:27.270
+down to the next line.
+
+05:27.270 --> 05:35.610
+So these these are inline and you also have something called inline block which I'll talk about when
+
+05:35.610 --> 05:40.300
+we get to CSX because it doesn't really pertain to to just each team out.
+
+05:40.370 --> 05:40.610
+OK.
+
+05:40.620 --> 05:46.020
+So hopefully that makes sense guys I just wanted to clear that up before we move on in the next video
+
+05:46.020 --> 05:50.820
+we're going to talk a little bit about divs with I.D. and classes.

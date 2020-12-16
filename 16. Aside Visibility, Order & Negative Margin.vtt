@@ -1,0 +1,232 @@
+WEBVTT
+
+00:00.410 --> 00:05.910
+All right guys so in this video I just want to go over a couple small things that I missed that I feel
+
+00:05.910 --> 00:08.220
+are important for you guys to know.
+
+00:08.280 --> 00:13.950
+So this is kind of just an aside and I just have a file called index H Temple and I'm going to just
+
+00:13.950 --> 00:24.360
+generate my Boulder boilerplate here and let's just say test file and we'll put in our style tags and
+
+00:24.360 --> 00:31.170
+then in the body I'm just going to have an H1 and I'm just going to say hello world and a paragraph
+
+00:31.170 --> 00:38.550
+underneath with let's say 15 words and we'll go ahead and openness and the first thing I want to talk
+
+00:38.550 --> 00:40.500
+about is visibility.
+
+00:40.500 --> 00:47.910
+OK so we looked at the display property where we could display block display inline inline block later
+
+00:47.910 --> 00:50.920
+on we're going to look at display flex display grid.
+
+00:50.970 --> 00:58.050
+There's also something called display none which will just remove the element from the browser completely.
+
+00:58.050 --> 01:06.240
+So I'm going to take the H1 and I'm going to set display to none and save.
+
+01:06.270 --> 01:08.070
+And notice it completely goes away.
+
+01:08.070 --> 01:14.340
+So this can be very useful especially when it comes to building responsive Web sites and responsive
+
+01:14.370 --> 01:20.470
+applications because sometimes you might want something not to show on mobile screens.
+
+01:20.520 --> 01:21.720
+So this comes in handy.
+
+01:21.720 --> 01:26.180
+Now there's also a property called visibility.
+
+01:26.640 --> 01:33.660
+OK so we can set visibility to hidden and I'm going to save that notice it goes away but the big difference
+
+01:33.660 --> 01:37.080
+here is that it still takes up the space.
+
+01:37.080 --> 01:37.390
+OK.
+
+01:37.400 --> 01:38.320
+Display none.
+
+01:38.320 --> 01:42.960
+We'll just completely remove it from what's called the Document Object Model.
+
+01:42.960 --> 01:47.690
+Visibility just basically makes it disappear or makes it invisible.
+
+01:47.970 --> 01:50.130
+It's still there in terms of the space.
+
+01:50.320 --> 01:50.570
+OK.
+
+01:50.580 --> 01:55.260
+So that's the big difference between these two you're going to find yourself using this much much more
+
+01:55.260 --> 01:58.980
+than this but it's still important to know that that's available.
+
+01:58.980 --> 02:06.710
+All right so the next thing I want to look at is the order of precedence and also the important flag.
+
+02:06.720 --> 02:14.340
+So basically if I take this H1 here and I give it a color of blue I save that.
+
+02:14.340 --> 02:25.530
+Obviously it's going to turn blue but if I give this a class of let's just say hello and up here I say
+
+02:25.590 --> 02:34.310
+dot hello and give that a color of red and save it turns red.
+
+02:34.310 --> 02:41.840
+So normally the further down the style is that that's what's going to take precedence however targeting
+
+02:41.840 --> 02:47.370
+a class is going to override targeting the actual element.
+
+02:47.390 --> 02:54.680
+And if I take this class of how low and I move it above the H1 you might think that while now it's going
+
+02:54.680 --> 03:00.950
+to be fixed this you might think now it's gonna be blue because this is further down.
+
+03:00.950 --> 03:03.210
+However if I save it's still red.
+
+03:03.380 --> 03:09.770
+And the reason for that is is having a specific class and targeting that it's going to override just
+
+03:09.770 --> 03:12.110
+the H1 itself.
+
+03:12.110 --> 03:12.490
+All right.
+
+03:12.500 --> 03:25.120
+Now I just want to put this back how I had it like that and if you come to a situation where you in
+
+03:25.130 --> 03:31.250
+this might happen if you're dealing with other style sheets maybe you're using some kind of CSX framework
+
+03:31.250 --> 03:38.110
+and you're bringing an external style sheets as well and you want your style to override another style
+
+03:38.150 --> 03:40.130
+you can use the important flag.
+
+03:40.130 --> 03:44.760
+So right here where we sit color blue I'm just going to add onto the end of this.
+
+03:45.280 --> 03:48.510
+I'm going to add an exclamation and then the word important.
+
+03:48.990 --> 03:49.340
+OK.
+
+03:49.340 --> 03:56.120
+Now if I save this you can see now it's blue because this this important flag is going to say it doesn't
+
+03:56.120 --> 04:02.030
+matter if there's a class of hello or anything else and nothing else matters this should take precedence.
+
+04:02.600 --> 04:03.170
+OK.
+
+04:03.200 --> 04:09.410
+And the only way that that this is going to work is if I also put important on this which is stupid
+
+04:09.410 --> 04:13.740
+and defeats the purpose but just to show you that it works.
+
+04:13.940 --> 04:16.130
+We'll go ahead and save that and that will be red.
+
+04:17.240 --> 04:17.900
+All right bring in.
+
+04:17.960 --> 04:18.990
+Get rid of that.
+
+04:19.010 --> 04:21.500
+I do want to keep that though.
+
+04:21.500 --> 04:24.170
+Just see you guys have it for reference.
+
+04:24.200 --> 04:24.530
+All right.
+
+04:24.530 --> 04:29.360
+And then the last thing I want to mention for now if I remember anything else that I forgot I'll come
+
+04:29.360 --> 04:30.140
+back to this.
+
+04:30.140 --> 04:37.520
+This this video and edited it but is is negative margin values we went over margin we went we met went
+
+04:37.520 --> 04:43.490
+over padding but we didn't go over negative margin values which you really should try to avoid if you
+
+04:43.490 --> 04:49.100
+can but it is possible so of course we can take this H1.
+
+04:49.340 --> 04:57.650
+So let's work in the class down here we'll say margin dash top and we say 30 pixels and save and it
+
+04:57.650 --> 05:04.310
+gets pushed down 30 pixels but at the same time we can also do negative 30 pixels and that will just
+
+05:04.310 --> 05:05.990
+bring it upwards.
+
+05:05.990 --> 05:06.310
+OK.
+
+05:06.320 --> 05:13.970
+And you can do the same thing like Let's do margin let's do left.
+
+05:13.970 --> 05:15.770
+Negative 30 pixels.
+
+05:15.770 --> 05:18.880
+And what it should do is pull it this way save.
+
+05:18.890 --> 05:20.480
+And there it goes that way.
+
+05:20.480 --> 05:20.720
+All right.
+
+05:20.720 --> 05:23.270
+So you can have negative values with margins.
+
+05:23.330 --> 05:24.940
+However you can't do it with padding.
+
+05:24.950 --> 05:33.890
+If I do it with padding and save that's not going to work OK because remember padding is inside the
+
+05:33.920 --> 05:35.510
+border.
+
+05:35.540 --> 05:35.860
+All right.
+
+05:35.870 --> 05:38.920
+So those are the main things that I wanted to mention.
+
+05:38.930 --> 05:42.890
+So we'll move on and let's start our hotel website project.

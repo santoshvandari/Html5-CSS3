@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.270 --> 00:00.500
+All right.
+
+00:00.510 --> 00:05.700
+So up to this point we've only looked at HCM Al which is definitely needed we needed to actually put
+
+00:05.700 --> 00:13.380
+stuff on the page but by itself it's very ugly we need CSX to style it and move things around and in
+
+00:13.400 --> 00:19.170
+a line and add colors and background and anything else that has to do with layout and style.
+
+00:19.170 --> 00:22.640
+So in this section we're going to look at all the basics of CSX.
+
+00:22.800 --> 00:28.260
+So let's go ahead and create a new folder and just like we did with aged him out we're going to create
+
+00:28.260 --> 00:29.030
+a sandbox.
+
+00:29.040 --> 00:36.250
+So I'm going to call this CSX sandbox and these files will be in the lecture.
+
+00:36.270 --> 00:41.700
+The Last Lecture the introduction if you want to download those or you can just create them along with
+
+00:41.700 --> 00:42.350
+me.
+
+00:42.510 --> 00:44.970
+So I'm going to open this with V.S. code.
+
+00:44.970 --> 00:52.920
+So in Visual Studio code I'm just going to go ahead and open folder and open up CSF sandbox and we're
+
+00:52.920 --> 01:02.430
+going to create in here a new file and I'm going to call this just we'll call it basic dot a 0 1 underscore
+
+01:02.520 --> 01:04.680
+basic dot HD CML.
+
+01:05.040 --> 01:08.760
+So I'm just numbering them so you know what order we're going in.
+
+01:08.760 --> 01:10.640
+And again you don't have to number them.
+
+01:10.830 --> 01:18.330
+And if you didn't watch the last section the H Al section we are using an extension called live server
+
+01:18.360 --> 01:23.070
+so that we can open our each team all file in a little server and it will auto reload.
+
+01:23.070 --> 01:26.390
+So you just want to install that if you don't have that yet.
+
+01:26.400 --> 01:26.820
+All right.
+
+01:26.850 --> 01:34.260
+I also went over some tips and tricks with shortcuts as well as Emmett which allows us to write faster
+
+01:34.260 --> 01:40.530
+aged him out so we can actually do exclamation and hit enter or tab and it'll give us this basic HD
+
+01:40.550 --> 01:42.250
+hymnal structure.
+
+01:42.260 --> 01:42.630
+OK.
+
+01:42.630 --> 01:48.570
+So in the title here I'm going to call this implementing CSX because I want to talk about the different
+
+01:48.570 --> 01:54.900
+ways we can actually bring in CSX and we're going to look a little bit at selectors but we're going
+
+01:54.900 --> 01:57.740
+to talk more about that in the next video.
+
+01:57.930 --> 02:04.450
+So let's put some basic H Tim Allen here I'm going to put an H one and just say heading one and then
+
+02:04.450 --> 02:10.530
+I'm going to copy this down by doing shift option or shift Ault on a Windows machine and then hit the
+
+02:10.530 --> 02:12.480
+down arrow twice.
+
+02:12.480 --> 02:25.440
+So this will be heading to and heading three and let's actually make this an H to make this an h three.
+
+02:25.730 --> 02:26.200
+OK.
+
+02:26.200 --> 02:30.120
+And I'm going to save this and then we're going to open with live server.
+
+02:30.840 --> 02:31.230
+OK.
+
+02:31.230 --> 02:32.570
+And right now I have this.
+
+02:32.760 --> 02:33.680
+I haven't both.
+
+02:33.680 --> 02:36.750
+You know the browser and the editor on the same screen.
+
+02:36.750 --> 02:39.920
+But later on we're gonna have to make this bigger.
+
+02:40.070 --> 02:43.590
+We're going to build a real web sites and stuff.
+
+02:43.680 --> 02:48.330
+So we have three headings on the screen and I'm going to show you three different ways to implement
+
+02:48.330 --> 02:49.410
+CSX.
+
+02:49.410 --> 02:56.670
+The first is called inline CSX which is not something that you want to do but it is something you should
+
+02:56.670 --> 03:01.170
+know and this is what we've been what we were doing in the last the last section.
+
+03:01.200 --> 03:05.280
+The h him I'll section when I just wanted to show you a couple examples of stuff.
+
+03:05.280 --> 03:11.190
+So we use the style tag and you can actually put CSX in here like let's say we want to use the color
+
+03:11.190 --> 03:13.850
+property and we want to set that to red.
+
+03:13.920 --> 03:16.990
+If I go ahead and save that the heading turns red.
+
+03:17.010 --> 03:19.880
+Now you don't want to do this and the reason for that is you want to.
+
+03:19.920 --> 03:21.220
+You want to keep.
+
+03:21.360 --> 03:26.890
+It's called separation of concerns you want to keep your styling out of your markup.
+
+03:26.970 --> 03:28.940
+You want to keep those two things separate.
+
+03:29.100 --> 03:32.310
+And when you do it like this you're just clumping it all together.
+
+03:32.310 --> 03:33.660
+It's much harder to read.
+
+03:33.660 --> 03:35.860
+It's much harder to change.
+
+03:35.910 --> 03:40.760
+It's just not good practice and any developer will give you crap for doing this.
+
+03:40.760 --> 03:46.340
+So this is not something you want to do but it's something that you should know you can do.
+
+03:46.350 --> 03:46.730
+All right.
+
+03:46.740 --> 03:52.890
+So next one I want to show you is called internal CSX where it's still on the same page it's on this
+
+03:52.920 --> 03:59.010
+HCM Al page but it's separate from your HMO the way that you do this is INSIDE YOUR HEAD tag.
+
+03:59.190 --> 04:01.700
+You put in a style tag.
+
+04:01.700 --> 04:02.030
+OK.
+
+04:02.040 --> 04:09.240
+And then in here you can just put CSX now with when you're using CSX you need a way to select whatever
+
+04:09.240 --> 04:10.400
+it is you want to style.
+
+04:10.410 --> 04:13.280
+Let's say we want to change the color of this age.
+
+04:13.500 --> 04:20.280
+Well we can use the actual element as the selector so I can say H2 and then open some curly braces and
+
+04:20.280 --> 04:23.330
+I can put as many styles in here as I want.
+
+04:23.370 --> 04:34.250
+So let's say we want color and let's let's add green and if I save that notice that it turns green.
+
+04:34.320 --> 04:34.680
+All right.
+
+04:34.680 --> 04:37.600
+Now let's go over this syntax really quick.
+
+04:37.710 --> 04:42.150
+So if we take a look here I mean this is similar to what we just did except we use color instead of
+
+04:42.150 --> 04:43.140
+background color.
+
+04:43.500 --> 04:47.160
+But the first thing here is a selector in this case it's in a tag.
+
+04:47.160 --> 04:53.550
+What we just did was we did the H1 than we did the H2 and you can use the actual tag as a selector but
+
+04:53.550 --> 04:58.830
+you can also use I.D. classes there's something called pseudo selectors.
+
+04:58.830 --> 05:03.470
+There's a lot of different things we can do for our selectors and we're going to get into that in the
+
+05:03.470 --> 05:06.010
+next video as well as later on.
+
+05:06.020 --> 05:06.950
+So that's the selector.
+
+05:06.950 --> 05:09.380
+Then we have the declarations start.
+
+05:09.380 --> 05:11.410
+We also have the declaration end.
+
+05:11.420 --> 05:18.470
+So everything goes within these curly braces and inside the curly braces we have a property such as
+
+05:18.470 --> 05:21.170
+background color or color as you just saw.
+
+05:21.350 --> 05:22.490
+And then the value.
+
+05:22.550 --> 05:23.170
+OK.
+
+05:23.180 --> 05:27.900
+And in between that we have the property value separator which is a colon.
+
+05:27.920 --> 05:28.250
+All right.
+
+05:28.280 --> 05:33.380
+So you have the property and value and you can add more of these if we wanted to add a color we could
+
+05:33.380 --> 05:34.480
+do that as well.
+
+05:34.520 --> 05:37.210
+You just want to end each one with a semicolon.
+
+05:37.220 --> 05:43.270
+So this is the basically the just a diagram of how CSX works.
+
+05:43.310 --> 05:49.580
+So we've looked at two ways to add CSX line which you don't want to do and then internal.
+
+05:49.580 --> 05:53.720
+And I'm just going to put a comment here and you can have comments in CSX as well.
+
+05:53.870 --> 06:00.440
+If I hold down control and hit the question mark or forward slash you'll see that it adds in a forward
+
+06:00.440 --> 06:03.260
+slash asterisk and ends with an asterisk.
+
+06:03.260 --> 06:04.040
+Forward slash.
+
+06:04.040 --> 06:05.930
+This is a CSX comment.
+
+06:05.930 --> 06:15.250
+So in here I'm just going to say that this is internal CSX all right so going to save that and I'm going
+
+06:15.250 --> 06:21.310
+to show you the third way which is external CSX where you actually have a separate file that you bring
+
+06:21.310 --> 06:23.130
+in that has all your CSX.
+
+06:23.140 --> 06:24.820
+So let's create a folder.
+
+06:24.820 --> 06:29.980
+I'm going to go over here and I'm going to click the folder icon and call this folder CSX.
+
+06:30.220 --> 06:34.800
+And in here let's create a file called style dot CSX.
+
+06:34.810 --> 06:38.090
+That's a common name for a for main style sheet.
+
+06:38.200 --> 06:42.550
+And you can include more than one style sheet if you want as well.
+
+06:42.580 --> 06:47.890
+So now that we have a separate file let's start let's grab this h three right here.
+
+06:47.890 --> 06:53.930
+So I'm going to use the H three element as a selector and I'm going to do color blue.
+
+06:54.470 --> 06:54.790
+OK.
+
+06:54.810 --> 06:56.880
+And we want to end that with a semicolon.
+
+06:56.890 --> 07:01.180
+Now if I save this you'll notice that the the h three is not is not blue.
+
+07:01.180 --> 07:07.120
+And the reason for that is this file has no clue that it's supposed to look at that that style dot CSX.
+
+07:07.120 --> 07:08.930
+We actually have to bring that in.
+
+07:09.070 --> 07:11.770
+And the way that we do that is with a link tag.
+
+07:11.840 --> 07:12.140
+OK.
+
+07:12.180 --> 07:15.170
+HDL has a link tag that we can use in the header.
+
+07:15.190 --> 07:21.430
+So we'll say link and then we'll hit enter a tab and it gives us some necessary attributes such as Rel
+
+07:21.700 --> 07:27.940
+this tells it basically what what type of link exists for a style sheet and then in a trap just like
+
+07:27.940 --> 07:29.280
+with the tags.
+
+07:29.320 --> 07:34.870
+This points to the location that we want to basically load which in our case is in the folder called
+
+07:34.870 --> 07:36.070
+CSX.
+
+07:36.070 --> 07:41.440
+And it's a file called style dot CSX.
+
+07:41.500 --> 07:45.190
+So if I save this now you'll see that the H two three changes blue.
+
+07:45.220 --> 07:48.080
+That's because we're now including this file.
+
+07:48.110 --> 07:52.800
+OK if we don't have this if I comment this file out and save it's not going to read it.
+
+07:52.870 --> 07:56.890
+So you want to make sure that you include your style sheets.
+
+07:57.010 --> 08:04.420
+Now out of these three this is the preferred using an external CSX file when we build our projects when
+
+08:04.420 --> 08:08.440
+we create a Web site all our CSX will be in a separate file.
+
+08:08.440 --> 08:14.650
+However for this sandbox for this section I'm going to be doing it this way because I don't want for
+
+08:14.650 --> 08:20.920
+a couple of reasons one reason I don't want to have to go back and forth to to go to my CSX.
+
+08:20.950 --> 08:24.040
+I also want you guys to get a big picture of what's going on.
+
+08:24.040 --> 08:28.480
+So I want you to see the HD Himmel and the CSX at the same time.
+
+08:28.720 --> 08:32.100
+But usually you would do it this way you would have a separate file.
+
+08:32.100 --> 08:32.320
+OK.
+
+08:32.350 --> 08:34.120
+So just keep that in mind.
+
+08:34.150 --> 08:40.810
+So in the next video we're going to start to look at how to use I.D. and classes for selectors how to
+
+08:40.810 --> 08:45.340
+use multiple selectors nested selectors things like that.
+
+08:45.340 --> 08:46.810
+So I will see you in the next video.

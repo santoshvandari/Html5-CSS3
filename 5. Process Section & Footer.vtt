@@ -1,0 +1,979 @@
+WEBVTT
+
+00:00.210 --> 00:04.340
+All right guys soon in this video we're gonna start to work on the rest of the index page.
+
+00:04.350 --> 00:05.200
+So we want this.
+
+00:05.220 --> 00:10.650
+This process my creative process and we want these font awesome icons.
+
+00:10.650 --> 00:12.240
+We want to add some background to it.
+
+00:12.240 --> 00:19.650
+This transition effect and get these numbers kind of inside of the the display of the icon.
+
+00:19.800 --> 00:20.120
+All right.
+
+00:20.130 --> 00:24.790
+And then we also do the footer as well with these social media icons with the hover effect.
+
+00:24.840 --> 00:30.990
+So we're going to start with each team Miles also let's jump into V.S. code and go to our index each
+
+00:30.990 --> 00:38.580
+team will go right below Section B which is the stats that we did in the last video and let's say section
+
+00:38.890 --> 00:39.870
+C..
+
+00:39.960 --> 00:43.440
+And this is the process section.
+
+00:43.440 --> 00:53.400
+So I'm going to give this a an idea of home dash see and let's give it a class of text center and also
+
+00:53.400 --> 00:55.100
+a class of P Y two.
+
+00:55.110 --> 00:58.210
+So do some padding on the top and bottom.
+
+00:58.260 --> 01:00.060
+We want our container.
+
+01:00.180 --> 01:05.670
+You can see there's a lot of repetitiveness in these sections.
+
+01:05.670 --> 01:06.990
+So we'll have each two.
+
+01:07.000 --> 01:14.180
+Let's give it a class of Section dash title which I believe we still have to add in the CSX and we're
+
+01:14.180 --> 01:24.090
+just going to see my creative process and let's put let's do a bottom line game and we have that bottom
+
+01:24.090 --> 01:25.350
+line class.
+
+01:25.350 --> 01:30.180
+So we'll do bottom line.
+
+01:30.180 --> 01:34.850
+And underneath that we're going to have a class a paragraph with the class of lead.
+
+01:35.610 --> 01:38.460
+And we're going to say actually you know what I'm going to do is just
+
+01:41.100 --> 01:44.790
+paste this in you guys can just copy it.
+
+01:45.330 --> 01:47.580
+So it's go right here.
+
+01:47.580 --> 01:54.810
+So all of my UI UX and design projects are based off of a practice formula to get the result I am looking
+
+01:54.810 --> 01:55.970
+for.
+
+01:56.040 --> 01:58.720
+And of course you can put whatever you'd like in here.
+
+01:58.770 --> 02:00.980
+I just wanted to make it a little more realistic.
+
+02:00.990 --> 02:06.620
+We are going to have some form of some content but I wanted to put some real text in here as well.
+
+02:06.750 --> 02:12.980
+So underneath this paragraph let's create a class called process.
+
+02:13.650 --> 02:13.880
+OK.
+
+02:13.890 --> 02:22.320
+Now this process is going to be the the four divs with the icons and the text and so on and so this
+
+02:22.320 --> 02:23.100
+right here.
+
+02:23.100 --> 02:23.300
+OK.
+
+02:23.310 --> 02:29.370
+So the process class will surround these and then will have the divs inside and we'll use the grid to
+
+02:29.400 --> 02:29.970
+align them.
+
+02:31.020 --> 02:39.960
+So let's go back and in process let's do div and we're gonna have our icons so we'll say I with the
+
+02:39.960 --> 02:47.700
+class of FH s and the icon we're gonna use as F A Dash file dash all right.
+
+02:48.000 --> 02:55.530
+And we want this to be four times its size so we're gonna say f or four times the regular default size.
+
+02:55.530 --> 03:04.500
+So for X and we're also going to add in here process dash icon which is a custom class I'm going to
+
+03:04.500 --> 03:10.360
+add and then I want to do the m y and when we did the margin classes for the top and bottom we're gonna
+
+03:10.380 --> 03:12.240
+do M Y two.
+
+03:12.480 --> 03:17.030
+Now inside here remember we want to have the numbers 1 2 3 4.
+
+03:17.030 --> 03:19.470
+Inside the icon.
+
+03:19.470 --> 03:25.720
+So we're gonna put a div inside here and let's give this a class of process.
+
+03:25.920 --> 03:31.020
+Dash step and going to put a number 1.
+
+03:31.120 --> 03:31.500
+Okay.
+
+03:31.530 --> 03:42.450
+Now underneath that C in what I'm gonna do here is I'm actually gonna float it because of the way that
+
+03:42.480 --> 03:48.060
+it's it's positioned so I'm gonna just put a clear class underneath this.
+
+03:48.060 --> 03:56.190
+OK so we're gonna put a clear class and then underneath that we're gonna have an H 3 and let's say discuss
+
+03:57.570 --> 03:59.070
+the project
+
+04:02.380 --> 04:11.240
+and then we'll put a paragraph and let's do Lorem think I did last 15 looks about right.
+
+04:11.340 --> 04:11.610
+Okay.
+
+04:11.620 --> 04:14.070
+So that's gonna be the first one first div.
+
+04:14.110 --> 04:23.830
+So I'm going to actually copy this whole div and let's put it in two three four times.
+
+04:23.880 --> 04:26.660
+OK I'm just gonna save it to format it with prettier.
+
+04:26.710 --> 04:29.680
+So the first one's all set which is this one.
+
+04:29.710 --> 04:39.190
+Now the second one is gonna have an icon of f a desktop OK and we want to keep these classes we just
+
+04:39.190 --> 04:55.910
+want to change this to two for the heading let's say we'll do brainstorming and concept and I'll just
+
+04:55.910 --> 04:58.360
+keep the same text OK.
+
+04:58.370 --> 05:08.600
+And then for this third one here the icon is gonna be F.A. dash object dash unwrap and then we want
+
+05:08.600 --> 05:19.970
+to change the step to three and then the title let's change that to UI dash or slash you X planning
+
+05:21.610 --> 05:25.840
+okay and then for the last one here we're gonna make this thumbs up.
+
+05:25.970 --> 05:33.690
+So if a push up see we want this to be step four.
+
+05:34.700 --> 05:42.840
+And the title lets say interaction.
+
+05:43.050 --> 05:44.100
+So save that.
+
+05:44.100 --> 05:46.560
+Let's see what it looks like without the CSA.
+
+05:46.580 --> 05:49.680
+So it just looks like this.
+
+05:51.690 --> 05:54.510
+And notice I do have the same icons here in here.
+
+05:54.510 --> 05:58.170
+So if you want to change those out that's fine.
+
+05:58.170 --> 06:04.080
+I just didn't want to go crazy looking for icons because the content is really not that important.
+
+06:04.080 --> 06:09.880
+You can only switch out the content it's the markup in the CSF that we're really paying attention to.
+
+06:09.960 --> 06:18.660
+So let's add some of those utility classes so we have let's see we want our clear class we want the
+
+06:18.660 --> 06:26.760
+process to that's not really a that's not a utility class but we did have lead which I think we already
+
+06:26.820 --> 06:29.760
+added Let's see do we add lead.
+
+06:29.760 --> 06:31.560
+Yes you did.
+
+06:31.680 --> 06:32.930
+There was bottom line.
+
+06:32.940 --> 06:34.310
+We didn't add that yet.
+
+06:34.650 --> 06:38.310
+So it's go down here.
+
+06:38.310 --> 06:45.770
+This is utilities SPSS and let's do bottom dash line.
+
+06:46.650 --> 06:46.950
+All right.
+
+06:46.980 --> 06:54.130
+So for bottom line we're just going to do a do a height.
+
+06:55.070 --> 06:55.400
+OK.
+
+06:55.410 --> 06:58.590
+So it's just gonna be just a line with the main color.
+
+06:58.590 --> 07:02.610
+So let's do a height of two pixels.
+
+07:02.610 --> 07:16.500
+Let's do a width of three ram let's do a background of the main color and let's make this display block
+
+07:18.410 --> 07:26.340
+and then let's add a little margin so I'm going to do margin let's do zero auto 1 auto on the left and
+
+07:26.340 --> 07:32.150
+right we'll do one room and then auto.
+
+07:32.520 --> 07:37.750
+So let's save that and you can see right here this is what it looks like.
+
+07:37.820 --> 07:38.080
+OK.
+
+07:38.080 --> 07:43.710
+And if you want to make it thicker if you want to increase the width that's that's fine to just make
+
+07:43.710 --> 07:46.730
+sure OK.
+
+07:46.730 --> 07:51.690
+So one thing that another thing we have to add is the title see how this one is bigger.
+
+07:51.690 --> 07:55.980
+That's because we didn't add the section title I believe that's what we named it.
+
+07:56.130 --> 07:59.850
+So we have class section title.
+
+07:59.850 --> 08:02.390
+So let's put that right here.
+
+08:02.430 --> 08:10.440
+Say section dash title and it's a utility class because we use it over and over in different parts of
+
+08:10.440 --> 08:10.980
+the site.
+
+08:11.550 --> 08:14.090
+So I'm going to set the font size to be a little bigger.
+
+08:14.100 --> 08:21.820
+Let's do two RAM and let's set the let's make it display block.
+
+08:21.840 --> 08:30.960
+Let's make the padding bottom let's say zero point five RAM and let's align it to the center
+
+08:34.470 --> 08:35.270
+which it already is.
+
+08:35.280 --> 08:38.610
+But it doesn't hurt just to add that just to make sure.
+
+08:39.720 --> 08:41.000
+So I'm going to say Fine.
+
+08:40.990 --> 08:50.790
+Wait let's do a font weight of one hundred and let's make it up make sure it's uppercase of text transform
+
+08:51.620 --> 08:52.900
+uppercase.
+
+08:53.010 --> 08:53.310
+OK.
+
+08:53.330 --> 08:57.430
+So let's take a look at it now and that looks better.
+
+08:57.730 --> 09:02.530
+OK you can see we have the title and the bottom line.
+
+09:02.550 --> 09:06.550
+All right so let's start to work on the.
+
+09:07.220 --> 09:07.550
+The.
+
+09:07.850 --> 09:10.440
+The whole process area.
+
+09:10.440 --> 09:18.020
+So we're going to go back to our main dot SPSS and let's see we have.
+
+09:18.050 --> 09:19.280
+Remember we have our home.
+
+09:19.320 --> 09:21.870
+We have home dash a home dash B.
+
+09:21.870 --> 09:24.250
+Now we want to work on a home dash C..
+
+09:24.340 --> 09:31.970
+So I want to go to the end of the dash B which is right here and let's say home section C..
+
+09:31.970 --> 09:40.760
+And we'll do Ampersand dash C and I want to work on the process div.
+
+09:40.980 --> 09:41.350
+OK.
+
+09:41.370 --> 09:45.690
+So we're gonna display this as a grid.
+
+09:45.690 --> 09:50.520
+And let's do our grid template columns.
+
+09:50.520 --> 09:53.100
+And I'm going to use a repeat.
+
+09:53.100 --> 09:56.780
+Let's do repeat four times one fraction.
+
+09:56.780 --> 10:02.240
+So we have four four even columns will set a grid gap.
+
+10:02.240 --> 10:06.260
+I'm going to go a little larger going to do one point five room for the grid gap.
+
+10:06.480 --> 10:10.900
+And just text align everything to the center.
+
+10:10.900 --> 10:11.310
+OK.
+
+10:11.340 --> 10:15.510
+Now we want to take each process step.
+
+10:15.600 --> 10:18.930
+So if we look at our each team all we have right.
+
+10:18.980 --> 10:21.420
+Is it's right here.
+
+10:21.420 --> 10:28.800
+The process step class which surrounds the number which is this right here the circle part.
+
+10:28.860 --> 10:30.610
+So we're going to work on that.
+
+10:30.840 --> 10:38.880
+Now since the class is called process dash step we can simply go within process and we can just do Ampersand
+
+10:38.910 --> 10:41.760
+dash step.
+
+10:41.860 --> 10:42.230
+All right.
+
+10:42.240 --> 10:52.320
+Now I'm going to position it absolute because I want to move it in word and then we're gonna set the
+
+10:52.320 --> 10:57.780
+top to zero and the right to zero
+
+11:00.800 --> 11:04.830
+K and then let's do a font size.
+
+11:05.430 --> 11:16.070
+I'm actually going to set this to a pixel 28 pixels and then let's set the background so background
+
+11:16.070 --> 11:21.010
+is going to be the main color.
+
+11:21.130 --> 11:21.400
+All right.
+
+11:21.410 --> 11:24.590
+Let me just check that room quick.
+
+11:24.620 --> 11:24.810
+Yes.
+
+11:24.830 --> 11:29.540
+So it's going to be main color but when we try to hover over it it's going to transition into the dark
+
+11:29.540 --> 11:30.660
+color.
+
+11:30.920 --> 11:32.210
+So let's see.
+
+11:32.480 --> 11:38.810
+Well this should be background either background color or just background and then we're going to set
+
+11:38.810 --> 11:45.080
+the ball we want it to be circle a circle behind it so we're going to set border radius to 50 percent
+
+11:45.980 --> 11:55.260
+and let's set a height of 15 pixels and a width of 15 pixels OK.
+
+11:55.260 --> 11:57.660
+And then we're gonna set a line height of the same.
+
+11:57.660 --> 12:02.800
+So 15 pixels and 4 padding.
+
+12:03.000 --> 12:07.300
+I'll do one room and we want it to transition.
+
+12:07.530 --> 12:08.960
+So we'll add transition.
+
+12:08.970 --> 12:10.800
+All I'm going to do one second.
+
+12:11.740 --> 12:12.090
+OK.
+
+12:12.120 --> 12:13.260
+So that's our step.
+
+12:13.260 --> 12:15.480
+Now we want to work on the icon.
+
+12:15.480 --> 12:19.500
+Now remember we we gave it a custom class of process dash icon.
+
+12:19.500 --> 12:29.920
+So within this process right here we go go after the step and we'll just do dash icon and like that.
+
+12:29.920 --> 12:35.340
+And again if you want to comment this like we could say this is the process dash icon
+
+12:39.040 --> 12:41.920
+process dash step
+
+12:44.600 --> 12:51.500
+so for the icon what I'm going to do is set a border radius because again we want it to be certain circles
+
+12:51.530 --> 13:00.150
+so we'll do 50 percent and let's set the background to the dark color variable.
+
+13:01.130 --> 13:04.600
+Let's set the color to we'll do white.
+
+13:05.060 --> 13:13.960
+And then the padding 2 to room and then we want this to be excuse me much bigger than this.
+
+13:13.970 --> 13:20.530
+The step so I'm going to set it to 70 pixels and also set the height to 70.
+
+13:22.480 --> 13:23.010
+OK.
+
+13:23.020 --> 13:31.190
+And then let's set the line height to the same thing height to 70 pixels.
+
+13:31.190 --> 13:35.690
+And then let's make sure it's text aligned center.
+
+13:36.050 --> 13:43.840
+And we want to position this relative because the step is inside the icon.
+
+13:43.850 --> 13:48.310
+Price should it put the icon styling first but it doesn't really matter.
+
+13:48.470 --> 13:52.510
+And then I'm gonna add transition for this transform.
+
+13:52.520 --> 13:59.130
+We want to transition and I'm going to do all one second OK.
+
+13:59.300 --> 14:02.850
+Now let's just save that and see what we get.
+
+14:02.870 --> 14:04.600
+So that's what we get.
+
+14:05.080 --> 14:09.500
+And when it loads it does it did the transition just because it was the first load with live server
+
+14:09.740 --> 14:11.810
+but you can see that that looks pretty good.
+
+14:11.810 --> 14:16.410
+However we do want that hover effect and we want them to transition.
+
+14:16.460 --> 14:16.790
+All right.
+
+14:16.820 --> 14:26.460
+So actually you know what guys I'm not exactly sure why had the clear class in their so we're going
+
+14:26.460 --> 14:27.240
+to get rid of that.
+
+14:27.240 --> 14:28.220
+There is no flow.
+
+14:28.230 --> 14:30.390
+I don't I actually don't know why I did that.
+
+14:30.840 --> 14:32.560
+So we're just going to clear the ups.
+
+14:32.580 --> 14:34.100
+I'm going to clear these out.
+
+14:34.110 --> 14:37.420
+Sorry about that.
+
+14:37.610 --> 14:40.080
+Oh see you get those.
+
+14:40.100 --> 14:43.690
+This one this one
+
+14:47.310 --> 14:48.640
+OK.
+
+14:49.200 --> 14:56.580
+So now like I said we're going to work on the hover so let's go back to main dot SPSS and we're gonna
+
+14:56.580 --> 14:59.220
+do the hover on the icons.
+
+14:59.220 --> 15:08.910
+So you want to make sure you're within the icon and we want to add Ampersand coal and hover and we want
+
+15:08.910 --> 15:10.500
+to set the background.
+
+15:10.500 --> 15:12.210
+So remember we're dealing with the icons.
+
+15:12.220 --> 15:14.350
+We want to set the background to the main color.
+
+15:14.370 --> 15:18.150
+By default it's the dark color and then we want to set the width.
+
+15:18.150 --> 15:19.570
+I'm going to make it grow a little bit.
+
+15:19.590 --> 15:29.520
+So we're going to do 90 pixels height 90 pixels and also the line height 90 pixels.
+
+15:29.520 --> 15:29.880
+OK.
+
+15:29.880 --> 15:33.020
+Now the process step I also want to change I want to change that.
+
+15:33.150 --> 15:36.210
+The color of that which by default is the main color.
+
+15:36.210 --> 15:38.750
+I want to reverse it to the dark color.
+
+15:38.790 --> 15:53.700
+So when we hover over the icon we also want the class of process step to change the background to the
+
+15:53.730 --> 15:55.570
+dark color.
+
+15:55.590 --> 16:05.010
+OK so let's try it we'll save it and go down here and hover over and you can see that the icon process
+
+16:05.010 --> 16:08.460
+icon grows from 70 to 90.
+
+16:08.460 --> 16:16.710
+Changes the background color and then the absolute positioned process step class changes the color as
+
+16:16.710 --> 16:21.220
+well and they both transition nicely over one second.
+
+16:21.540 --> 16:21.830
+All right.
+
+16:21.840 --> 16:23.730
+So that's it for that part.
+
+16:23.730 --> 16:28.290
+Now we want to we want to deal with the footer which shouldn't be too bad.
+
+16:28.290 --> 16:36.030
+So let's go back into index each team now and let's go down below the last section here and create our
+
+16:36.030 --> 16:36.450
+footer
+
+16:40.170 --> 16:41.400
+so we'll put.
+
+16:41.820 --> 16:51.480
+Let's do a footer tag and let's give it an idea of main dash footer and we're gonna have a class in
+
+16:51.480 --> 16:55.130
+here called footer dash content.
+
+16:55.230 --> 17:00.030
+And I'm also I also want to contain or so I'm just gonna add that here as well.
+
+17:00.030 --> 17:07.770
+And then in here we'll put a paragraph or say copy right Ampersand copy semicolon which will give us
+
+17:07.800 --> 17:12.510
+a little copyright symbol 20 19.
+
+17:12.540 --> 17:15.800
+All rights reserved.
+
+17:15.870 --> 17:23.070
+And then under that I want the social icons which I'm going to put in a class called social and let's
+
+17:23.070 --> 17:30.340
+do some fun awesome icons so f a f a b is what we want to use for the social media icons and I'm gonna
+
+17:30.360 --> 17:34.780
+do Twitter so F.A. dash Twitter.
+
+17:34.950 --> 17:41.150
+Copy this down four times and we want Facebook.
+
+17:41.160 --> 17:43.020
+Let's do Instagram
+
+17:46.120 --> 17:49.770
+and let's do LinkedIn.
+
+17:49.770 --> 17:50.140
+All right.
+
+17:50.590 --> 17:54.940
+So if we take a look at that without any CSX it should look like this.
+
+17:55.300 --> 18:02.710
+So now let's go back into main dot SPSS and let's deal with the footer.
+
+18:02.710 --> 18:06.940
+So we want to be and see we want to be outside of everything.
+
+18:06.940 --> 18:08.800
+So just go down to the bottom here
+
+18:11.980 --> 18:14.230
+and let's do I.D..
+
+18:14.290 --> 18:26.440
+Main dash footer and the footer itself will give a background let's do a dark color color.
+
+18:26.440 --> 18:33.720
+We'll say white and let's do a height of we'll do five REM.
+
+18:33.880 --> 18:39.420
+Now the footer content I'm going to style which is inside the main footer so we can put it in here.
+
+18:39.430 --> 18:42.580
+So footer dash content
+
+18:45.220 --> 18:52.710
+and I'm going to use flex here so we'll say display flex and let's do justify content space between.
+
+18:53.740 --> 19:01.810
+So remember the footer has to the week we gave this photo content a class I mean I'm sorry a display
+
+19:01.810 --> 19:07.840
+of flax and we have the paragraph and then we have this div as flex items and we want space between
+
+19:07.840 --> 19:09.820
+because we want them on each side.
+
+19:10.030 --> 19:14.580
+So we want to put all the remaining space in between.
+
+19:14.850 --> 19:24.150
+Next thing I'm going to set the height to the same as the parent as the main foot or so 5 room and then
+
+19:24.150 --> 19:32.760
+let's do a line items one of the line items to the center.
+
+19:34.100 --> 19:34.530
+OK.
+
+19:34.530 --> 19:43.230
+Now we want to take care of the icons so let's see the icons are still inside footer content.
+
+19:43.260 --> 19:52.730
+So we can stay within here and we'll say dot social and then I want to style the icons which all have
+
+19:52.730 --> 19:55.120
+a class of FCB.
+
+19:55.210 --> 19:55.520
+OK.
+
+19:55.580 --> 19:57.380
+So I'm going to give them a margin right.
+
+19:57.380 --> 20:00.850
+Just to separate them a little bit of one room.
+
+20:00.920 --> 20:03.860
+Let's do a border.
+
+20:04.300 --> 20:14.750
+We'll do border two pixels white and solid and let's do a border radius because we want them to be circular
+
+20:15.150 --> 20:19.550
+a radius of 50 percent.
+
+20:19.970 --> 20:25.460
+And let's do a height height width and line height of 20 pixels
+
+20:33.010 --> 20:37.190
+OK and then let's do text align center
+
+20:40.250 --> 20:44.240
+and let's do a little bit of padding so we'll do zero point five.
+
+20:44.900 --> 20:45.220
+OK.
+
+20:45.230 --> 20:47.980
+Now when we hover them we want the main color.
+
+20:47.990 --> 20:55.640
+So within this social FCB class we're just gonna do Ampersand call and hover
+
+20:58.340 --> 21:04.490
+and just set the background to the main color.
+
+21:04.520 --> 21:04.860
+All right.
+
+21:04.860 --> 21:05.360
+And that's it.
+
+21:05.390 --> 21:09.350
+So let's save that and go back and you can see our photo looks pretty good.
+
+21:09.350 --> 21:12.170
+We have the hover effect on the icons.
+
+21:12.230 --> 21:20.710
+Now the last thing I want to do is I want to use the set text color function that we created in the
+
+21:20.720 --> 21:26.900
+last section because I think that'll be helpful if we want to change you know the main color or dark
+
+21:26.900 --> 21:29.040
+color any background color at all.
+
+21:29.060 --> 21:34.020
+So let's go into we're going to put this in our config with our variables.
+
+21:34.040 --> 21:41.450
+So this config is usually where I would put any variables mix ins functions things like that.
+
+21:41.450 --> 21:53.990
+So let's just say set text color and let's do at function and we want to call this set text color and
+
+21:53.990 --> 21:59.720
+it's going to take in a color which is going to be basically the background color and then we're gonna
+
+21:59.750 --> 22:08.030
+do simple conditions so we'll do if we're gonna test the lightness so we'll see if the lightness of
+
+22:08.030 --> 22:18.860
+the color that's passed in is greater than 50 then we want to return the color of black.
+
+22:19.530 --> 22:20.030
+We need.
+
+22:20.240 --> 22:27.400
+We need at symbol here and then we're gonna do an else
+
+22:30.150 --> 22:37.280
+K ls then we want to return a white color.
+
+22:37.530 --> 22:38.740
+OK.
+
+22:39.050 --> 22:41.110
+And if you want to change up the colors that's fine.
+
+22:41.110 --> 22:42.800
+Can you use black and white.
+
+22:42.910 --> 22:48.820
+So we'll save that and let's see what I actually want to implement this.
+
+22:48.880 --> 22:53.780
+Let's go to see.
+
+22:56.050 --> 23:03.730
+So basically wherever we have a background color we can implement this
+
+23:07.020 --> 23:11.790
+this see.
+
+23:13.800 --> 23:19.980
+So the divs background color we don't need to do it.
+
+23:19.980 --> 23:26.880
+Actually I don't know if there's I don't know if we actually need to put this anywhere just yet.
+
+23:32.680 --> 23:36.430
+So right here the actually for the icon we should probably do that.
+
+23:36.440 --> 23:38.510
+I mean we take a look here.
+
+23:38.590 --> 23:45.550
+So here if we wanted to change these icons to have a light background then we would want the icons themselves
+
+23:45.550 --> 23:46.240
+to be dark.
+
+23:46.270 --> 23:57.370
+So we should implement it here so instead of just white let's do a set dash text dash color and let's
+
+23:57.370 --> 24:00.690
+pass in dark color.
+
+24:00.730 --> 24:01.850
+OK we'll save that.
+
+24:01.850 --> 24:04.310
+We should get the same result.
+
+24:04.360 --> 24:11.500
+However if we were to change both of these two light then the text should change dark or the icon.
+
+24:11.550 --> 24:11.950
+Yep.
+
+24:11.990 --> 24:14.230
+There we go.
+
+24:14.230 --> 24:15.410
+Good.
+
+24:15.460 --> 24:26.530
+It's going to change those back and then we should probably do do the same thing with with the step.
+
+24:26.530 --> 24:33.290
+So let's add right below it a color and let's set that to set.
+
+24:33.460 --> 24:42.230
+Text color and pass in the main color and we'll take a look.
+
+24:42.340 --> 24:43.710
+Good.
+
+24:43.840 --> 24:47.170
+So if we were to to make the background light on that
+
+24:49.780 --> 24:51.850
+change both of these to light.
+
+24:51.860 --> 24:55.420
+So now just the step should be light but it should have a dark.
+
+24:55.430 --> 24:55.820
+There we go.
+
+24:55.820 --> 24:58.460
+Has a dark text.
+
+24:59.640 --> 25:03.690
+Oh we probably want to do it to the hover too as you can see now you can't see the number.
+
+25:03.740 --> 25:09.650
+So on the hover right here let's also add color set
+
+25:12.100 --> 25:18.700
+text color dark color and that will decide and it will make it light.
+
+25:18.720 --> 25:22.160
+So let's just try that out now and hover it.
+
+25:22.170 --> 25:23.400
+You'll see that it turns light.
+
+25:23.400 --> 25:24.230
+Good.
+
+25:24.270 --> 25:35.730
+So let's change the main color back to main for the step here so those two main color.
+
+25:35.750 --> 25:37.790
+Well it was it main or was it dark.
+
+25:37.790 --> 25:41.780
+No it's dark.
+
+25:42.120 --> 25:42.930
+No it was me.
+
+25:42.930 --> 25:43.760
+Sorry.
+
+25:45.390 --> 25:46.920
+All right.
+
+25:46.920 --> 25:48.060
+There you go.
+
+25:48.060 --> 25:48.370
+OK.
+
+25:48.360 --> 25:53.900
+And if you find other places where you want to use that function you can do that as well.
+
+25:53.910 --> 25:54.210
+All right.
+
+25:54.210 --> 26:01.080
+So I think that that's it for this video and that's it for the home page as far as aside from making
+
+26:01.080 --> 26:02.280
+it responsive.
+
+26:02.430 --> 26:05.880
+So in the next video we're going to start on the about page.

@@ -1,0 +1,811 @@
+WEBVTT
+
+00:00.470 --> 00:05.880
+All right guys so we finish the about page now we're going to move on to the work which is gonna be
+
+00:06.990 --> 00:10.950
+a set of images that will have a transition overlay.
+
+00:10.950 --> 00:15.320
+So we're gonna be using transition transform some other stuff as well.
+
+00:15.450 --> 00:23.010
+So let's jump in to V.S. code and what we're gonna do is copy everything from the about Dot HD him out
+
+00:23.520 --> 00:31.110
+and I'm gonna create a new file in the disk folder called Work dot each team L and then we'll go ahead
+
+00:31.110 --> 00:41.250
+and paste that in and let's change the title we'll just say my work and then we want to move the class
+
+00:41.250 --> 00:46.970
+of current from about to work OK.
+
+00:46.980 --> 00:52.340
+And then let's delete everything except for the footer.
+
+00:52.350 --> 00:57.820
+So all the sections you can get rid of all these and we'll just keep the footer.
+
+00:58.640 --> 00:59.000
+OK.
+
+00:59.020 --> 01:05.310
+Now if I save this and we go back and we click on work it should just look like this.
+
+01:05.310 --> 01:05.660
+All right.
+
+01:05.670 --> 01:14.060
+So the work page is it's basically just going to have one section which is gonna be the gallery.
+
+01:14.250 --> 01:14.940
+We could call it.
+
+01:14.940 --> 01:20.250
+So let's just say section A
+
+01:22.800 --> 01:25.890
+and let's say we'll just.
+
+01:25.980 --> 01:30.360
+Yeah we'll say gallery here OK.
+
+01:30.360 --> 01:32.370
+And we're just going to add a section.
+
+01:32.370 --> 01:36.280
+Let's give it an I.D. of work.
+
+01:36.480 --> 01:39.560
+Dash a.
+
+01:39.720 --> 01:50.440
+And actually I want to give it a class of text center and let's do P Y dash three.
+
+01:51.140 --> 01:51.590
+Okay.
+
+01:51.610 --> 01:54.630
+I'm gonna put it in the container.
+
+01:54.630 --> 02:02.650
+We're going to add our H two with a class section title and let's just say my work.
+
+02:02.670 --> 02:11.310
+And then underneath that we'll put a class of bottom dash line and underneath that will put a paragraph
+
+02:11.310 --> 02:13.210
+with the class of lead.
+
+02:13.710 --> 02:22.790
+And let's just say check out some of my projects.
+
+02:23.350 --> 02:24.190
+So we'll do that.
+
+02:24.190 --> 02:27.430
+And then underneath that we're gonna have a grid case.
+
+02:27.440 --> 02:34.570
+We're gonna have a class of items and then each item will be a div.
+
+02:34.570 --> 02:36.880
+And I'm gonna give it a class of item.
+
+02:37.530 --> 02:38.070
+Okay.
+
+02:38.070 --> 02:43.840
+And then inside there we'll have a class of item dash image.
+
+02:44.350 --> 02:52.540
+And let's put in our first image which is gonna be it's gonna have a source of image slash items slash
+
+02:52.630 --> 02:55.400
+item one dot P energy.
+
+02:55.430 --> 03:00.910
+OK so that's a first image that we want to go outside of the item image and create another did with
+
+03:00.910 --> 03:05.090
+the class of item dash text.
+
+03:05.480 --> 03:05.930
+OK.
+
+03:05.950 --> 03:14.340
+And inside here we're gonna have another div of the class of item dash text dash wrap.
+
+03:15.070 --> 03:20.710
+And we're gonna have a category and a title so the first is gonna be a paragraph with the class of item
+
+03:20.740 --> 03:24.700
+dash text dash category.
+
+03:24.700 --> 03:26.480
+And let's say design.
+
+03:26.680 --> 03:32.140
+And then under that we're gonna have an age to which which will have the title we're gonna say item
+
+03:32.140 --> 03:39.090
+dash text dash title and we'll say great gradients.
+
+03:39.150 --> 03:39.390
+OK.
+
+03:39.400 --> 03:44.440
+So these are just sample projects and they're just stock images.
+
+03:44.500 --> 03:50.140
+So what I'll do now is just copy the whole div with the class of item because we're gonna have quite
+
+03:50.140 --> 03:54.130
+a few of these nine to be exact.
+
+03:54.130 --> 04:03.910
+So let's do two three four five six seven eight nine and then we just want to change some of the info
+
+04:03.910 --> 04:04.620
+for some of the.
+
+04:04.630 --> 04:13.360
+So that's the first one the second one we're going to change the image to item two.
+
+04:13.400 --> 04:23.680
+I'm going to change the category two UI dash you ex and the title is going to be world experience and
+
+04:23.680 --> 04:25.960
+some of these titles might be a little weird.
+
+04:26.080 --> 04:30.020
+It's just kind of the first thing that came to mind when I saw the image.
+
+04:30.130 --> 04:42.610
+So this will be image 3 and the is going to be photography and photography and design and then the title
+
+04:42.610 --> 04:48.390
+for this is gonna be vanishing.
+
+04:48.510 --> 04:50.060
+So this one here.
+
+04:50.130 --> 04:51.700
+So we have 2 3.
+
+04:51.690 --> 04:53.950
+This will be item four.
+
+04:54.510 --> 04:59.180
+And let's see item four is gonna be category of design.
+
+04:59.190 --> 05:01.420
+And let's do gap.
+
+05:01.440 --> 05:06.390
+Say Gap Inc.
+
+05:06.570 --> 05:09.540
+And then let's see this is gonna be five.
+
+05:09.900 --> 05:13.330
+So five is gonna be the category of mobile.
+
+05:14.070 --> 05:21.640
+Let's say mobile UI design and we'll see a face.
+
+05:21.690 --> 05:23.070
+The experience
+
+05:25.590 --> 05:38.610
+OK so we have here we'll be Image 6 and category is gonna be design concept and can be busy curves
+
+05:44.330 --> 05:48.800
+get seven item seven is going to be photography
+
+05:51.290 --> 05:53.990
+and the title is gonna be Doc ponder
+
+05:59.130 --> 06:00.870
+OK so we get two more.
+
+06:00.870 --> 06:08.130
+This would be eight image eight and this is gonna be web applications
+
+06:10.380 --> 06:11.880
+and it's going to be called.
+
+06:11.910 --> 06:13.480
+It's just a restaurant app.
+
+06:15.450 --> 06:25.950
+So let's say rest rant app and then this final one here is gonna be Image 9 or item 9 and it's going
+
+06:25.950 --> 06:37.810
+to be let's say social network concept and we'll call this FriendFeed.
+
+06:38.740 --> 06:39.050
+OK.
+
+06:39.090 --> 06:42.630
+So if we take a look now it's going to look like this.
+
+06:42.630 --> 06:45.110
+Just two very large images small tax.
+
+06:45.120 --> 06:48.610
+So obviously we need to add some styling here.
+
+06:48.610 --> 06:53.210
+Now there's a lot of styling that goes into this.
+
+06:53.220 --> 07:00.930
+So what I want to do is just create its own sass file so I'll do that if I have a page or a part of
+
+07:00.930 --> 07:06.480
+an application that has just a ton of styling I'll put it in its own SAS file because in the end it
+
+07:06.480 --> 07:07.060
+all.
+
+07:07.230 --> 07:11.570
+It's all gonna just be compiled into our main CSX.
+
+07:11.720 --> 07:21.990
+So if you wanted to you could have another CSX file get compiled just leave off the underscore but I'm
+
+07:21.990 --> 07:29.010
+just gonna create a new SAS file in these SPSS folder called underscore and I'm going to call it item
+
+07:29.190 --> 07:33.870
+underscore grid dots SPSS.
+
+07:33.870 --> 07:39.900
+Now when you create a new a new partial you might want to restart your server with control C and then
+
+07:39.930 --> 07:41.390
+NPM runs SAS.
+
+07:41.520 --> 07:46.840
+If you don't see any changes that you make in your SAS files always try that because sometimes node
+
+07:46.840 --> 07:53.540
+SAS can just muck up a little bit and not you won't show you changes into your restart.
+
+07:53.700 --> 08:03.150
+So let's grab the items and we want to display is a grid case so all the items we want a three column
+
+08:03.150 --> 08:03.470
+grid.
+
+08:03.480 --> 08:13.280
+So we'll do grid dash template dash columns and let's do a repeat and we'll repeat three times one at
+
+08:13.290 --> 08:15.040
+far.
+
+08:15.050 --> 08:15.360
+All right.
+
+08:15.360 --> 08:26.550
+And then I'm just going to add a light box shadow here and we'll do 0 5 pixel or 10 pixel and then zero
+
+08:26.580 --> 08:31.040
+and then for the color I'm just going to do RGA which is red green blue Alpha.
+
+08:31.620 --> 08:35.800
+And let's just do a dark.
+
+08:35.850 --> 08:40.060
+So zero for RGA and then zero point three for the Alpha.
+
+08:41.160 --> 08:47.010
+Okay and if I save that and we take a look you'll see that now our images in all our items are in a
+
+08:47.010 --> 08:48.640
+grid.
+
+08:48.750 --> 08:57.850
+Now we're going to see I'm trying to think of how I should do this.
+
+08:58.040 --> 09:00.470
+Let's do the item.
+
+09:00.470 --> 09:07.640
+The core item styles first along with the hover effects and then we'll we'll move this stuff off the
+
+09:07.640 --> 09:13.550
+screen because ideally we don't want this to show at first until we hover over and then we want to have
+
+09:13.550 --> 09:16.250
+it basically come in with the overlay.
+
+09:16.580 --> 09:17.970
+So let's do that.
+
+09:17.970 --> 09:18.430
+I will.
+
+09:18.470 --> 09:25.100
+We'll take the item and everything else we do is gonna go in here because everything is prefixed with
+
+09:25.130 --> 09:25.850
+item.
+
+09:26.060 --> 09:29.820
+We have like item dash image item dash tax text wrap.
+
+09:29.870 --> 09:33.170
+So we can just use Ampersand dash and then whatever.
+
+09:33.170 --> 09:36.490
+So for the item itself we want to position relative.
+
+09:36.490 --> 09:41.150
+Ok everything is pretty much going to be positioned absolute inside of this item.
+
+09:41.150 --> 09:48.790
+So we want to position at this relative we want the background to be the main color.
+
+09:49.110 --> 09:58.090
+OK we'll set the overflow to hidden and then we want to add the overlay so we're gonna use Ampersand
+
+09:58.830 --> 10:09.170
+colon after we've created overlays like this before we need to put in content some quotes and let's
+
+10:09.770 --> 10:17.960
+position this absolute within its container or within the item and then we're going to do display
+
+10:20.450 --> 10:25.650
+block and for the background we're just going to inherit.
+
+10:25.760 --> 10:32.900
+So we get the main color and then the opacity I'm going to set just slightly translucent so we'll do
+
+10:32.900 --> 10:34.300
+zero point nine.
+
+10:34.520 --> 10:40.090
+And then let's say top from the top zero from the left zero.
+
+10:40.100 --> 10:44.230
+And then we want to go all the way across 100 percent.
+
+10:44.450 --> 10:47.040
+Again we're just creating the overlay here.
+
+10:47.060 --> 10:53.900
+So one hundred percent and then we want to add our transform.
+
+10:54.230 --> 11:01.890
+OK so transform is gonna be scale to translate X..
+
+11:02.000 --> 11:10.850
+So we want we want it off screen first so let's do negative 75 percent and then let's do translate
+
+11:13.420 --> 11:17.880
+y that's also going to be negative 75 percent.
+
+11:17.930 --> 11:27.880
+We're pushing it to the left and then we want rotate rotate is going to be negative 28 degrees.
+
+11:28.020 --> 11:28.540
+OK.
+
+11:28.550 --> 11:30.580
+And then we'll add our transition.
+
+11:30.650 --> 11:36.140
+So when we hover over it we're going to we're going to transition the transform property.
+
+11:37.730 --> 11:44.410
+OK transform we'll do it over three seconds and instead of using like ease or ease and now we're gonna
+
+11:44.420 --> 11:51.620
+use cubic BCA which allows us to kind of change the speed up and stuff like that.
+
+11:51.620 --> 11:53.520
+Are the curves.
+
+11:53.520 --> 12:00.350
+So we're gonna do zero zero point two one zero point three and one and you can mess around with it if
+
+12:00.350 --> 12:07.900
+you want but let's save that and we can see the overlay over the text here.
+
+12:07.910 --> 12:10.560
+But this is not going to be here afterwards.
+
+12:10.570 --> 12:13.430
+After we we get down to that part.
+
+12:13.580 --> 12:19.590
+So the overlay is not showing which is what we want because we want to bring it in when we hover.
+
+12:19.610 --> 12:29.090
+So let's go back and let's go outside of this after but still within the item and we want to bring in
+
+12:29.840 --> 12:32.790
+main color overlay.
+
+12:32.810 --> 12:33.160
+All right.
+
+12:33.170 --> 12:38.180
+So to do that we're gonna do at night at Ampersand hover.
+
+12:38.900 --> 12:47.240
+And then we also want to grab on to after which is where our overlay is and we're gonna do transform
+
+12:50.090 --> 12:58.040
+say scale to actually I'm just going to copy this because we're essentially doing the same thing except
+
+12:58.310 --> 12:59.690
+we want to bring it into view.
+
+12:59.690 --> 13:06.190
+So we want to do zero here instead of negative 75.
+
+13:06.200 --> 13:06.530
+All right.
+
+13:06.530 --> 13:08.360
+So let's save that and go back.
+
+13:08.360 --> 13:12.430
+And now you can see it's coming in all right.
+
+13:12.490 --> 13:15.160
+And if you mess with these values for the best yay.
+
+13:15.160 --> 13:21.280
+Like if I do one goal to change the curve so you can see that it actually changes the speed because
+
+13:21.280 --> 13:27.930
+it changes its place the curve up here because it's outsides negative 75 percent over.
+
+13:28.090 --> 13:31.450
+So zero point two I think is a good value.
+
+13:31.480 --> 13:31.810
+All right.
+
+13:31.810 --> 13:34.620
+Now we also want to scale the image a little bit on hover.
+
+13:34.690 --> 13:36.800
+Make it zoom in a little bit.
+
+13:36.970 --> 13:42.110
+So scale image on hover.
+
+13:43.000 --> 13:51.400
+So we're going to say Ampersand coal and hover and we want to grab on to the item dash image class so
+
+13:51.400 --> 14:04.480
+we can do Ampersand dash image and let's say opacity I'm sorry not opacity transform and wheel scale
+
+14:05.350 --> 14:08.590
+scale one point two on hover.
+
+14:08.590 --> 14:17.150
+So now if we go and we hover you can see that the image is scaling up and we're getting that overlay.
+
+14:17.410 --> 14:23.710
+Next thing is I want to bring the text in on hover although we haven't hit we haven't hidden the text
+
+14:23.740 --> 14:25.680
+yet but we will.
+
+14:25.680 --> 14:32.060
+So let's say Bring in text on hover.
+
+14:32.230 --> 14:40.690
+So we're gonna do Ampersand call and hover and then Ampersand dash text and we want to set the opacity
+
+14:41.710 --> 14:45.270
+to 1 because we're gonna set it to 0 by default.
+
+14:45.370 --> 14:52.530
+But when we hover we want it to set to 1 and we also want to bring it in with translate y.
+
+14:52.530 --> 14:57.870
+OK so translate Y and we wanted to just say zero which will be its resting position.
+
+14:58.240 --> 14:58.610
+All right.
+
+14:58.890 --> 15:04.420
+And right now it's not going to do anything because we haven't dealt with the default text basically
+
+15:04.420 --> 15:08.380
+where it should rest by default.
+
+15:08.380 --> 15:12.480
+So let's deal with the image first.
+
+15:12.730 --> 15:20.350
+So we're gonna add here Ampersand dash image which is the item dash image class.
+
+15:20.740 --> 15:27.550
+Set the height to auto set a transform.
+
+15:27.800 --> 15:37.900
+Actually I don't think we need to transform to display block because an image is is in line by default
+
+15:38.350 --> 15:40.000
+and then add a transition
+
+15:43.030 --> 15:45.420
+actually know what we do need to do this.
+
+15:45.460 --> 15:47.580
+We need to deal with the translate Z.
+
+15:48.400 --> 15:51.910
+So we want to add a transform for translate Z
+
+15:54.460 --> 16:04.540
+and set that to zero and then set the transition to that transform and let's say seven hundred and fifty
+
+16:04.990 --> 16:11.930
+milliseconds and we'll add the same cubic Bessie a value that we have up here.
+
+16:12.130 --> 16:15.040
+So just copy that.
+
+16:15.360 --> 16:17.290
+That should be good.
+
+16:17.290 --> 16:17.560
+All right.
+
+16:17.560 --> 16:21.750
+Now we also want to grab on to the image before pseudo selector.
+
+16:21.760 --> 16:33.310
+So we're gonna do Ampersand dash image before and set the content to just quotes and let's also set
+
+16:33.310 --> 16:44.040
+this to display block and then I'm going to add a padding top of 75 percent and an overflow of hidden.
+
+16:45.680 --> 16:46.380
+OK.
+
+16:46.390 --> 16:50.830
+So that should take care of the actual image container and this right here.
+
+16:50.830 --> 16:51.460
+Item image.
+
+16:51.460 --> 16:56.200
+Now for the actual image we want to position that absolute within it.
+
+16:56.300 --> 16:57.060
+Okay.
+
+16:57.070 --> 17:13.350
+So let's do Ampersand dash image and then I am G and position absolute top 0 left 0.
+
+17:13.480 --> 17:16.980
+Set the with two 100 percent height.
+
+17:16.990 --> 17:23.590
+We should be able to just set to auto and then line height will set to zero as well.
+
+17:23.590 --> 17:27.040
+OK so that takes care of the image.
+
+17:27.880 --> 17:30.240
+Not really any difference yet.
+
+17:30.520 --> 17:35.920
+Now for the text remember we want to hide that by default.
+
+17:35.930 --> 17:37.470
+We also need to move it.
+
+17:37.520 --> 17:51.010
+We need to we need to use transform translate to move it so let's go ahead and do the text.
+
+17:51.010 --> 17:55.870
+We're going to position this absolute.
+
+17:55.960 --> 18:08.150
+Let's set it to the top zero position and left zero position actually going gonna do zero on all sides.
+
+18:08.170 --> 18:11.320
+So top left bottom right.
+
+18:11.320 --> 18:12.670
+Zero.
+
+18:12.700 --> 18:14.820
+Now the opacity by default.
+
+18:14.830 --> 18:21.730
+I'm going to set to zero because we wanted to kind of fade in and then let's just make sure it's a line
+
+18:21.730 --> 18:29.250
+center and let's add a z index of 1 so that we make sure that it's on top and we can read it.
+
+18:29.260 --> 18:31.250
+We'll set the color to white.
+
+18:32.020 --> 18:38.200
+And as far as the transitions go we want to transition the opacity.
+
+18:40.150 --> 18:41.410
+Let's see actually you know what.
+
+18:41.470 --> 18:42.380
+Let's.
+
+18:42.440 --> 18:42.620
+Yeah.
+
+18:42.640 --> 18:46.390
+We'll just do opacity and then the transform.
+
+18:47.290 --> 18:51.800
+So opacity we'll do 500 milliseconds.
+
+18:51.940 --> 18:54.430
+And that same cubic busy a value
+
+18:57.750 --> 19:04.440
+so pace set in and then let's put a common here so we can add another one for transform which I actually
+
+19:04.440 --> 19:05.620
+haven't added yet.
+
+19:06.150 --> 19:10.410
+So transform 500 milliseconds.
+
+19:10.410 --> 19:16.170
+Same cubic BCA and then let's actually put the transform above it.
+
+19:18.220 --> 19:18.920
+OK.
+
+19:19.080 --> 19:29.860
+So transform we're just going to take translate why and set that as negative 20 percent by default.
+
+19:30.210 --> 19:33.260
+And then up here this is where we bring it in.
+
+19:33.260 --> 19:39.420
+So we set the opacity from 0 to 1 and then transform translate Y from negative 20 percent to zero.
+
+19:39.470 --> 19:41.520
+On hover.
+
+19:41.630 --> 19:41.960
+All right.
+
+19:41.990 --> 19:49.310
+So we also have the text wrap to deal with which goes around the title and the category.
+
+19:49.310 --> 19:52.780
+So let's add here.
+
+19:53.240 --> 19:57.380
+Text dash wrap.
+
+19:57.740 --> 20:05.450
+We want the width to be 100 percent and the position to be absolute
+
+20:08.800 --> 20:15.860
+K actually to put the absolute first position absolute with and then from the top.
+
+20:15.870 --> 20:21.570
+Let's move it down 50 percent and then we also want to translate Y negative 50.
+
+20:21.570 --> 20:24.480
+So translate I mean transform
+
+20:27.980 --> 20:29.390
+translate why.
+
+20:29.720 --> 20:34.460
+And we're gonna do negative 50 percent case.
+
+20:34.470 --> 20:35.900
+That's the Texas rap now.
+
+20:36.120 --> 20:48.630
+The Texas title it's just format that so we'll do Ampersand dash text dash title and I'm gonna set the
+
+20:48.660 --> 20:49.980
+font size
+
+20:53.100 --> 21:05.460
+font size for that to to ram for the title and then let's set the padding to 0 and it's 2 1 room and
+
+21:05.460 --> 21:07.740
+then margin.
+
+21:07.740 --> 21:10.580
+I'm just gonna do 5 pixel margin on the top.
+
+21:12.100 --> 21:12.680
+OK.
+
+21:12.720 --> 21:17.010
+And then the category 2 Dash.
+
+21:17.010 --> 21:19.150
+Text Dash.
+
+21:19.290 --> 21:20.850
+Category.
+
+21:20.940 --> 21:25.970
+I want that to be uppercase I'm going to do text transform uppercase.
+
+21:25.980 --> 21:30.870
+I also want it to be smaller so I'm gonna say font size or smaller than the title.
+
+21:30.870 --> 21:39.720
+So one point to rim and then the oh I'm going to set an opacity of zero point seven and clear the margin
+
+21:40.320 --> 21:41.310
+and that should do it.
+
+21:41.550 --> 21:46.890
+So let's save and go back.
+
+21:46.900 --> 21:48.300
+All right so something's not right.
+
+21:48.300 --> 21:51.870
+Because S.L. The Texas coming in really fast.
+
+21:54.510 --> 21:56.160
+It should actually come in after.
+
+21:56.160 --> 21:59.550
+And I think that's because I forgot the delay.
+
+21:59.550 --> 21:59.800
+Yeah.
+
+21:59.820 --> 22:04.410
+So we want to go to that where the text is and let's add a delay.
+
+22:04.410 --> 22:11.230
+So transition dash delay and let's do three hundred milliseconds.
+
+22:11.280 --> 22:14.190
+See if that works yeah.
+
+22:14.330 --> 22:18.890
+So it kind of comes in at the same time and if you want to if you want to mess with any of these values
+
+22:18.890 --> 22:20.390
+feel free.
+
+22:20.390 --> 22:23.670
+I know it's it's kind of advanced CSX.
+
+22:23.690 --> 22:30.100
+So if you want to mess with things and see exactly what does what feel free to do that.
+
+22:30.260 --> 22:31.400
+But I think that's good.
+
+22:31.400 --> 22:34.740
+I think that looks pretty good has a nice effect.
+
+22:34.910 --> 22:36.940
+So I think we're all set.
+
+22:37.130 --> 22:42.610
+So in the next video we're going to start on the contact page which is pretty simple.
+
+22:42.800 --> 22:46.210
+And then after that we'll move to making this responsive.
+
+22:46.250 --> 22:48.950
+And then finally we'll go ahead and deploy.

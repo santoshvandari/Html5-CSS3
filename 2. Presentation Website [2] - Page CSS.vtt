@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.390 --> 00:00.650
+All right.
+
+00:00.660 --> 00:05.240
+So in the last video we did the team El for our presentation project.
+
+00:05.240 --> 00:10.840
+Now we're gonna start on the CSX in our style dot CSX is already being included.
+
+00:10.920 --> 00:14.700
+So make sure you have your link to your style she right here.
+
+00:14.730 --> 00:20.580
+So first thing I want to do is set some variables so let's set for the route scope.
+
+00:20.580 --> 00:28.970
+I just want to have the colors for each page and also the animation speed.
+
+00:28.990 --> 00:33.990
+OK because in the beginning when the landing page loads we'll have the heading come in from the top
+
+00:34.700 --> 00:40.170
+paragraph come coming from the side and we want to say we want that speed to be inside of a variable
+
+00:40.170 --> 00:48.600
+so let's say dash dash page dash 1 dash color and I'm going to set this to steel blue.
+
+00:48.600 --> 00:54.930
+I'm going to use color names and let's do actual just copy this down.
+
+00:54.930 --> 00:58.430
+So do shift option or shift all on Windows.
+
+00:58.440 --> 00:59.920
+And then the down key.
+
+01:00.060 --> 01:05.010
+Let's do we need four of them because this four pages and of course you could add more if you wanted
+
+01:05.010 --> 01:06.440
+to more or less.
+
+01:06.720 --> 01:22.680
+So three and four and let's see for page two let's do 10 and we'll do teal and let's do slate blue
+
+01:25.490 --> 01:32.850
+which is almost the purple and then I'm just going to add a variable called an inmate dash speed so
+
+01:32.850 --> 01:37.660
+we can easily change the speed of the animation I'm going to set that to one second.
+
+01:37.670 --> 01:39.260
+All right so those are our variables.
+
+01:39.260 --> 01:49.030
+Next thing I'm going to do is the body style so for the body let's do font family.
+
+01:49.430 --> 01:58.020
+And I'm just going to use aerial for this and then let's do line height usually like to do about one
+
+01:58.020 --> 02:06.510
+point four for the body line height color is gonna be white by default and then let's zero out the margin
+
+02:06.840 --> 02:09.380
+in padding.
+
+02:10.090 --> 02:10.410
+OK.
+
+02:10.410 --> 02:17.460
+Now I don't want scroll bars to show that's that's a big part of the curve of how I want this Web site
+
+02:17.460 --> 02:17.940
+to work.
+
+02:17.940 --> 02:23.010
+So we want to say overflow and we want to set that too hidden.
+
+02:23.120 --> 02:23.360
+OK.
+
+02:23.400 --> 02:25.980
+So no scroll bars will show on the body.
+
+02:26.070 --> 02:32.580
+So if I save that it's going to look like this which we can't see the text anymore because the text
+
+02:32.580 --> 02:33.900
+is white.
+
+02:34.050 --> 02:39.000
+So I think that we should implement the page colors.
+
+02:39.000 --> 02:40.190
+So let's go down here.
+
+02:40.200 --> 02:44.390
+Let's put a comment let's say page colors.
+
+02:44.850 --> 02:48.430
+And basically we're going to tack on to the I.D..
+
+02:48.750 --> 02:49.140
+OK.
+
+02:49.170 --> 02:51.630
+All sections have a class of page.
+
+02:51.630 --> 02:53.330
+So this is all stuff they'll share.
+
+02:53.340 --> 02:58.410
+Styles they'll share but the ideas are unique and that's where we want the colors.
+
+02:58.410 --> 03:00.250
+So let's do I.D..
+
+03:00.270 --> 03:09.100
+Page One and I'm just going to do background I'm going to set it to var dash dash.
+
+03:09.220 --> 03:17.120
+Page ups page dash 1 dash color.
+
+03:17.310 --> 03:17.610
+All right.
+
+03:17.610 --> 03:20.660
+And then I'll copy this line down couple more times.
+
+03:20.700 --> 03:25.320
+This one will be two three four.
+
+03:25.350 --> 03:30.170
+And then we want to change the I.D. to three and four.
+
+03:30.270 --> 03:35.220
+So this way it's easy just to change the colors if you change you know if you want to have something
+
+03:35.220 --> 03:38.620
+different for a background of a certain page.
+
+03:38.640 --> 03:44.910
+So if we save this you'll see that now each each page has the different background color.
+
+03:44.910 --> 03:46.740
+Now for the pages themselves each.
+
+03:46.740 --> 03:50.540
+Every single one we're gonna want to take up the whole viewport.
+
+03:50.580 --> 03:51.000
+Right.
+
+03:51.000 --> 04:02.810
+So let's add in our page class down here and let's display as flex.
+
+04:02.880 --> 04:05.700
+As soon as I do that everything's going to go in a row.
+
+04:05.700 --> 04:07.860
+It's going to go horizontal which I don't want.
+
+04:07.890 --> 04:11.980
+So I want to say flex dash direction.
+
+04:12.030 --> 04:17.280
+I want to be a column and then it'll go back to going vertical.
+
+04:17.550 --> 04:22.110
+And then let's set the height for 100 viewport heights.
+
+04:22.110 --> 04:26.220
+And then when I save it's only going to show the first page.
+
+04:26.220 --> 04:26.480
+OK.
+
+04:26.490 --> 04:28.220
+Now we want to align this stuff.
+
+04:28.230 --> 04:37.110
+So let's say a line dash items and let's say center center.
+
+04:37.500 --> 04:41.030
+And that's going to align it harm horizontal into the center.
+
+04:41.060 --> 04:50.550
+And then let's do justify dash content to the center and save.
+
+04:50.550 --> 04:54.540
+And now it's a line both horizontal and vertical.
+
+04:54.840 --> 05:03.840
+And then I'm just going to add I'm also going to text align center so the text itself and then I'm gonna
+
+05:03.870 --> 05:07.730
+add a little padding on the left and right so zero top and bottom.
+
+05:07.740 --> 05:13.060
+And let's do four REM left and right just so it's not right up against the edge.
+
+05:13.280 --> 05:13.610
+All right.
+
+05:13.620 --> 05:18.090
+Now the heading in the paragraph I want to be a little bigger.
+
+05:18.160 --> 05:33.240
+So let's target the page each excuse me and let's set the font size let's set it to four REM and I just
+
+05:33.240 --> 05:38.640
+want to change the line height to one point two.
+
+05:38.760 --> 05:42.760
+I'm gonna add a margin of one room.
+
+05:42.840 --> 05:43.080
+All right.
+
+05:43.090 --> 05:44.820
+So let's save that.
+
+05:44.880 --> 05:45.740
+Excuse me.
+
+05:46.680 --> 05:48.430
+So that looks pretty good.
+
+05:48.450 --> 05:55.200
+The paragraph I also want to be a little bigger so let's target the page paragraph and we'll set the
+
+05:55.200 --> 05:57.990
+font size.
+
+05:57.990 --> 06:00.770
+Let's do one point three rams.
+
+06:00.780 --> 06:03.890
+So we'll make it a little larger.
+
+06:03.930 --> 06:04.280
+All right.
+
+06:04.280 --> 06:07.470
+Now let's do the button.
+
+06:07.800 --> 06:20.040
+OK so the button here so has a class of B10 and we want to display it as an inline block as far as padding.
+
+06:20.040 --> 06:25.860
+It's gonna be a pretty big button so we'll do one room top and bottom two left in right.
+
+06:25.860 --> 06:32.110
+Let's make the background light by default.
+
+06:32.130 --> 06:36.940
+You could put that in a variable if you wanted to but I think it's fine.
+
+06:37.230 --> 06:39.610
+And then let's do color.
+
+06:39.890 --> 06:47.010
+We'll do three three three for the text color and if it's a length we want to take away the text decoration
+
+06:47.400 --> 06:56.580
+make that none we should also add board or none and then let's do margin dash top one room just to push
+
+06:56.580 --> 07:03.060
+it down a little bit and then the font size I'm going to make a little bigger so we'll do one point
+
+07:03.060 --> 07:08.660
+one room member one room by default is gonna be 16 pixels.
+
+07:09.270 --> 07:09.540
+OK.
+
+07:09.540 --> 07:16.940
+Now when we hover over this I wanted to change to a dark color but I also wanted to transition.
+
+07:16.950 --> 07:24.210
+So I'm going to add a transition to all and it's going to be really quick let's say zero point three
+
+07:24.210 --> 07:27.630
+seconds and we'll say ease in.
+
+07:27.900 --> 07:30.970
+So that doesn't do anything because we don't have a hover yet.
+
+07:31.050 --> 07:41.700
+So let's add a Beatty in coal and hover and I want the background to be dark and the color to be light
+
+07:45.240 --> 07:46.360
+so if I saved that.
+
+07:46.390 --> 07:52.230
+And now when I hover over it you'll see it transitions to dark rather than just clicking or you know
+
+07:52.470 --> 07:56.930
+just immediately switching to a dark color.
+
+07:56.970 --> 08:03.990
+Now let's see we also want to have a dark version of the button and I want it to be this exact styling.
+
+08:03.990 --> 08:08.920
+So what I'll do is I'll just put a comma here and I'll just say for Beatty n dash dark.
+
+08:08.940 --> 08:16.230
+We want to have this styling and then for the B10 dark cover it's going to go ahead and copy this.
+
+08:16.230 --> 08:21.480
+So Beatty and dark hover is going to be the opposite.
+
+08:21.510 --> 08:31.710
+So the background will be light and the color will be dark.
+
+08:31.790 --> 08:32.360
+All right.
+
+08:32.360 --> 08:34.840
+And if I click it you'll see it goes to the next page.
+
+08:34.870 --> 08:40.180
+So I can now I can navigate up and down the pages we don't have the scrolling effect with Jake Query
+
+08:40.190 --> 08:40.880
+yet.
+
+08:40.880 --> 08:46.460
+And it's up to you if you want to include that or not I'm going to but you don't need to it'll just
+
+08:46.520 --> 08:48.260
+switch like this.
+
+08:48.260 --> 08:48.560
+All right.
+
+08:48.590 --> 08:53.510
+So I think we're going to stop here and then in the next video we're going to add our animation and
+
+08:53.510 --> 08:54.290
+we want this.
+
+08:54.290 --> 08:56.480
+This heading to come in from the top.
+
+08:56.510 --> 09:02.000
+This to come in from the side and then we'll also implement a little bit of J query to add the scrolling
+
+09:02.000 --> 09:02.480
+effect.

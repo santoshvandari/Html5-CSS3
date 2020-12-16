@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.430 --> 00:03.390
+All right guys so now I'm going to give you a challenge.
+
+00:03.390 --> 00:05.940
+I want you to style a form that looks like this.
+
+00:05.940 --> 00:09.030
+It doesn't have to be exact but something similar.
+
+00:09.030 --> 00:11.670
+That looks pretty decent and clean.
+
+00:11.670 --> 00:17.160
+So I'm gonna give you all the H T.M. I'm gonna give you even that the classes and all the elements were
+
+00:17.160 --> 00:19.410
+styling along with some hints.
+
+00:19.440 --> 00:27.210
+So in the in this lecture you should find a file called form styling underscore start date each team
+
+00:27.210 --> 00:27.660
+out.
+
+00:27.870 --> 00:34.830
+And what I'm going to do here is I'm going to create a file called Twelve underscore form underscore
+
+00:35.580 --> 00:42.060
+styling dot H team L and I'm gonna grab everything that's in that start file and paste it in and just
+
+00:42.060 --> 00:43.530
+go over it real quick.
+
+00:43.530 --> 00:51.720
+So let me just close this up and let's take a look at the H Team Alpha so we have an idea of container
+
+00:51.720 --> 00:59.810
+that wraps around everything and then we have an eye class of form wrap that wraps around the form.
+
+00:59.980 --> 01:06.350
+OK so this part right here we have an H1 a paragraph and then in our form we have some fields.
+
+01:06.360 --> 01:11.250
+Each one is wrapped in a div with the class of form group and inside the form group.
+
+01:11.250 --> 01:12.360
+We have the label.
+
+01:12.360 --> 01:13.790
+We also have the input.
+
+01:14.100 --> 01:15.010
+OK.
+
+01:15.030 --> 01:19.680
+So we have first name last name email password confirmed password.
+
+01:19.680 --> 01:24.480
+Then we have a button which which has a class of B10.
+
+01:24.690 --> 01:25.040
+OK.
+
+01:25.060 --> 01:28.380
+Then we have a paragraph which is this part right here.
+
+01:28.620 --> 01:31.320
+And underneath the form wrap.
+
+01:31.320 --> 01:35.470
+We just have a footer that says already have an account log in here.
+
+01:35.490 --> 01:37.330
+So that's the markup for this.
+
+01:37.410 --> 01:42.450
+Now up here you have everything that's going to be styled all the styles that I'm going to add along
+
+01:42.450 --> 01:43.800
+with some hints.
+
+01:43.860 --> 01:47.520
+So I'm going to go along and just give you some hints here.
+
+01:47.520 --> 01:52.460
+So as you can see I actually brought in a font from Google fonts called railway.
+
+01:53.160 --> 01:57.450
+So just that you want to you want to use that as your font family.
+
+01:57.570 --> 01:59.410
+I have an asterisk here.
+
+01:59.430 --> 02:05.060
+It says may want to add Border box for box sizing so padding does not affect the width.
+
+02:05.160 --> 02:07.260
+We've talked about that quite a bit.
+
+02:07.290 --> 02:12.310
+We should also reset the margin and padding in the body.
+
+02:12.330 --> 02:16.000
+I'm just saying the background color is going to be this right here.
+
+02:16.020 --> 02:21.540
+Now I'm not saying that that's all you need to put in the body or that's all you should put it's just
+
+02:21.540 --> 02:22.400
+a hint.
+
+02:22.440 --> 02:23.100
+OK.
+
+02:23.130 --> 02:25.830
+In the tags underlines or ugly.
+
+02:25.830 --> 02:29.190
+So you probably want to remove those container.
+
+02:29.250 --> 02:34.800
+So remember margin Auto on the left and right will center a block element.
+
+02:34.860 --> 02:39.530
+So you want to center the container and remember margin auto.
+
+02:39.570 --> 02:39.990
+All right.
+
+02:40.020 --> 02:44.330
+And I'd also suggest using a max width for responsiveness.
+
+02:44.460 --> 02:46.980
+You also may want to add some padding.
+
+02:47.190 --> 02:54.060
+Now the form wrap is the white area around the form so this whole box right here around the form in
+
+02:54.060 --> 02:55.450
+the heading and all of that.
+
+02:55.470 --> 03:01.080
+So figure out how to style that the H1 in the paragraph you want to center these.
+
+03:01.080 --> 03:10.310
+Remember the text line property the form wrap or the form group I should say each label and input is
+
+03:10.310 --> 03:11.780
+wrapped in the form group.
+
+03:11.780 --> 03:13.820
+So this is a form group right.
+
+03:13.850 --> 03:20.550
+So you may want to add some margin separating these labels should be turned into a block element.
+
+03:20.580 --> 03:20.910
+OK.
+
+03:20.910 --> 03:25.260
+Because we want the label to be on its own line and we don't want to use line breaks.
+
+03:25.320 --> 03:27.690
+I only use line breaks to give you guys examples.
+
+03:27.690 --> 03:30.430
+You don't want to use those in your actual layout.
+
+03:30.600 --> 03:37.290
+So turn that into a block element so that the next element pushes on to the next line inputs should
+
+03:37.290 --> 03:42.770
+reach across the form wrap 100 percent and have some padding by default inputs are very ugly.
+
+03:42.770 --> 03:47.350
+They're very thin and it'll only it won't go across the whole thing.
+
+03:47.460 --> 03:52.380
+So you might want to set the width to 100 percent and add some padding.
+
+03:52.380 --> 03:57.420
+So the format button which is this right here should wrap across 100 percent.
+
+03:57.420 --> 04:03.300
+It should also be displayed as a block OK background color is this next right here.
+
+04:03.540 --> 04:07.410
+The hover is this color for the button.
+
+04:07.410 --> 04:13.200
+Let's see the bottom text is smaller so you might want to set the font size smaller for the bottom text
+
+04:13.560 --> 04:17.160
+footer which is this right here should be centered.
+
+04:17.160 --> 04:20.100
+So remember text line and the footer color.
+
+04:20.100 --> 04:22.860
+I'm sorry the footer link color is this right here.
+
+04:22.860 --> 04:24.570
+So that's a lot of hints.
+
+04:24.570 --> 04:29.460
+So I'm going to give you guys this is a challenge to try and recreate this.
+
+04:29.550 --> 04:29.910
+OK.
+
+04:29.910 --> 04:35.610
+And don't just skip it really try it if it looks absolutely insane and nothing like this.
+
+04:35.610 --> 04:36.440
+Don't worry about it.
+
+04:36.450 --> 04:37.830
+Don't get discouraged.
+
+04:37.830 --> 04:42.530
+It's kind of a tough challenge if you're just learning CSX but just give it a shot.
+
+04:42.570 --> 04:42.930
+OK.
+
+04:42.930 --> 04:47.580
+And then in the next video I'll go over it and I'll give you all my styling and it doesn't even have
+
+04:47.580 --> 04:48.770
+to match mine.
+
+04:48.870 --> 04:49.160
+OK.
+
+04:49.170 --> 04:53.850
+As long as it looks decent so I'll see you in the next video which will be the conclusion.

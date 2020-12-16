@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.480 --> 00:05.760
+All right guys in this video we're going to look at fonts specifically the font family property and
+
+00:05.760 --> 00:07.680
+font size property.
+
+00:07.680 --> 00:13.170
+So you might want to use different styles of fonts in different Web sites and different user interfaces.
+
+00:13.170 --> 00:14.820
+So we're going to take a look at how to do that.
+
+00:14.820 --> 00:21.780
+We're going to talk about Web say fonts and also how to use fonts from from other sources like Google
+
+00:21.780 --> 00:22.820
+fonts.
+
+00:22.860 --> 00:31.170
+So let's create a new file here called 0 3 underscore fonts start HD HTML and we're going to put our
+
+00:31.170 --> 00:40.950
+boiler plate in here and let's go down and just change the title to fonts and let's put our style tags
+
+00:40.950 --> 00:48.120
+in here for our CSX and then I'm going to copy from the last file the selectors just the two divs that
+
+00:48.120 --> 00:54.800
+are in the HDMI all here just so we can use them as a as text display.
+
+00:54.870 --> 01:00.690
+So I'm going to save this and then open with five server and let's make it a little bigger a whole control
+
+01:00.690 --> 01:04.280
+and hit the plus symbol and just make these a little bigger.
+
+01:04.290 --> 01:04.800
+All right.
+
+01:05.520 --> 01:10.760
+So in our style right here let's add a selector for the body.
+
+01:10.770 --> 01:15.270
+That's usually where you're going to add your font family because then it affects your whole page right.
+
+01:15.270 --> 01:17.600
+So the fonts for your whole page.
+
+01:17.640 --> 01:22.750
+So we want to use font dash family which takes in a font stack.
+
+01:22.770 --> 01:29.290
+So basically a list of different fonts in Invesco we get this cool dropdown speaking of font stacks
+
+01:29.290 --> 01:30.610
+that we can choose from.
+
+01:30.690 --> 01:34.400
+But before we get into that I want to take a look at web save fonts.
+
+01:34.440 --> 01:38.150
+Now you have the ability to use pretty much any font that you want.
+
+01:38.160 --> 01:39.300
+You can get your hands on.
+
+01:39.300 --> 01:45.540
+But if they're not these web save fonts then you're going to want to include them include the actual
+
+01:45.540 --> 01:51.450
+font files within your Web site just like you would include a CSX file and you can also link to them
+
+01:51.450 --> 01:54.470
+remotely which I'm going to show you how to do with Google fonts.
+
+01:54.660 --> 01:59.300
+But these right here you don't need to do anything extra for because they're going to they're going
+
+01:59.300 --> 02:05.690
+to be available in all all browsers that users are using to view your Web site with.
+
+02:05.790 --> 02:10.550
+And notice that there is some of these there's multiple fonts.
+
+02:10.620 --> 02:12.810
+These are actually called font stacks.
+
+02:12.810 --> 02:16.860
+For instance this first one aerial Helvetica sans serif.
+
+02:17.040 --> 02:20.380
+What's going to happen is it's going to look for the aerial font to use it.
+
+02:20.460 --> 02:23.610
+If it can't find that it will move to use Helvetica.
+
+02:23.730 --> 02:27.510
+If it can't find that a little use to use any sans serif font.
+
+02:27.510 --> 02:30.540
+So basically you have sans serif and serif and these.
+
+02:30.540 --> 02:33.330
+This is an example of what these look like.
+
+02:33.330 --> 02:40.110
+So basically a Sarah font has these these edges these points on the edge and a sans serif font is like
+
+02:40.110 --> 02:45.840
+a flat look for the most part you're probably going to want to use a sans serif font because they just
+
+02:45.900 --> 02:47.160
+they just look neater.
+
+02:47.160 --> 02:48.870
+They also look much more modern.
+
+02:48.870 --> 02:55.110
+And part of the reason for that is because times new roman which is a very Sarah font is the default.
+
+02:55.170 --> 02:55.450
+OK.
+
+02:55.470 --> 03:01.430
+So when we don't add a font family that's what's used some of my favorite web save fonts or aerial.
+
+03:01.530 --> 03:04.480
+I also like for Dan I like to Homa.
+
+03:04.500 --> 03:09.560
+So let's jump back into V.S. code and in Chrome and by default.
+
+03:09.570 --> 03:11.330
+Like I said it's using sans serif.
+
+03:11.340 --> 03:16.000
+You can see the kind of like the point see the a right here.
+
+03:16.020 --> 03:23.400
+So I want to change this to Ariel now obvious code if I just type in a Ariel health health Ariel Helvetica
+
+03:23.430 --> 03:25.880
+sans serif is actually an option.
+
+03:25.900 --> 03:27.870
+OK so this is a font stack.
+
+03:27.870 --> 03:31.360
+Like I said it's going to look for Ariel then Helvetica sans serif.
+
+03:31.500 --> 03:32.850
+If I save this.
+
+03:32.850 --> 03:36.990
+Notice how it changes into a flatter looking font.
+
+03:36.990 --> 03:37.530
+OK.
+
+03:37.560 --> 03:39.170
+Let's try something else.
+
+03:39.170 --> 03:41.730
+Let's try for Danna.
+
+03:41.730 --> 03:46.440
+So just if I just put a V in there it's going to ver Dan is going to pop up.
+
+03:46.440 --> 03:49.470
+So we have Vedanta Geneva to home a sans serif.
+
+03:49.620 --> 03:50.640
+Save it.
+
+03:50.640 --> 03:54.240
+It's a little different but it's still a sans serif font.
+
+03:54.240 --> 04:02.040
+OK so if you want to use something different something that isn't in that list I showed you then what
+
+04:02.040 --> 04:04.540
+I would recommend is using Google fonts.
+
+04:04.560 --> 04:11.180
+So I'm going to open up a new browser here and just make it bigger.
+
+04:11.530 --> 04:20.220
+And let's head over to fonts dot google dot com so here you can go over to search.
+
+04:20.220 --> 04:23.490
+You can search for certain fonts you can browse them if you want.
+
+04:23.490 --> 04:25.360
+You can see samples of them.
+
+04:25.410 --> 04:26.660
+I like rubato.
+
+04:26.700 --> 04:29.090
+That's what I use quite a bit.
+
+04:29.730 --> 04:31.670
+And you see it pops up over here.
+
+04:31.680 --> 04:38.240
+There's rubato rubato condensed or bottom mono slab so let's say we want to use this rubato font.
+
+04:38.280 --> 04:42.160
+We can click this plus sign right here and we get this little pop up.
+
+04:42.180 --> 04:47.220
+And if I click on that it shows us how we can bring this in to our HD PML.
+
+04:47.220 --> 04:52.900
+We can do it using a link tag just like we do with just regular CSX files.
+
+04:52.920 --> 04:56.760
+We can also import it into our CSX like this.
+
+04:56.760 --> 05:02.460
+Usually I do import it but since we're putting our CSX in the team I'll file I'm just going to use the
+
+05:02.460 --> 05:02.910
+link.
+
+05:03.790 --> 05:04.110
+OK.
+
+05:04.140 --> 05:09.510
+So if we grab that and then it shows us how we can actually implement it we can just add the font family
+
+05:09.570 --> 05:12.360
+and then rubato sans serif.
+
+05:12.360 --> 05:23.700
+So let's go back into v as code and let's open up our our other browser here and let's go right below
+
+05:23.700 --> 05:28.120
+the next year we'll go right above the title and paste in that link.
+
+05:28.140 --> 05:28.390
+OK.
+
+05:28.410 --> 05:35.230
+So it links to fonts a Google API dot com slash CSX and then as a parameter it has family equals or
+
+05:35.230 --> 05:36.120
+bottle.
+
+05:36.120 --> 05:45.840
+So now we should be able to go ahead and put in Votto just like it said and then sans serif and if I
+
+05:45.840 --> 05:49.910
+save it there we go and that looks pretty pretty nice and clean.
+
+05:49.910 --> 05:57.530
+I really like the rubato font so that's how we can use basically non web save fonts.
+
+05:58.170 --> 05:58.550
+OK.
+
+05:58.560 --> 06:01.820
+So next thing I want to look at is font size.
+
+06:01.860 --> 06:05.800
+OK so let's say font size.
+
+06:05.820 --> 06:10.790
+Now the standard is 16 pixels and that's actually on the HD PML tag.
+
+06:10.860 --> 06:17.850
+The HDL tag by default has a font size of 16 pixels that's what you're seeing that we do have this zoomed
+
+06:17.850 --> 06:18.620
+in a little bit.
+
+06:18.630 --> 06:22.880
+That's why it's bigger actually let's put it back to just.
+
+06:23.280 --> 06:25.260
+Let's put it back to just 100 percent.
+
+06:25.260 --> 06:27.860
+So I'm going to do control and then the minus.
+
+06:28.110 --> 06:30.060
+And that's 110 that's 100.
+
+06:30.060 --> 06:31.650
+So that's the default.
+
+06:31.680 --> 06:33.860
+So let's change it to 18 pixels.
+
+06:34.120 --> 06:34.290
+OK.
+
+06:34.430 --> 06:37.540
+And for the most part I usually leave it at 16.
+
+06:37.650 --> 06:42.520
+But just to show you I'll change it to 18 save and I can see it's bigger.
+
+06:42.810 --> 06:48.570
+Also we can adjust the line height which is basically the height of each line.
+
+06:48.750 --> 06:53.600
+So let's say line X line dash height.
+
+06:53.880 --> 06:58.310
+And this is going to this is usually in m units which is a relative unit.
+
+06:58.310 --> 07:00.990
+Now I'm going to go over Ramón M units later on.
+
+07:01.230 --> 07:08.490
+So don't worry if you don't really understand this but a common common value I like to use for the line
+
+07:08.490 --> 07:13.930
+height for the body is one point six AM and we'll save.
+
+07:13.930 --> 07:18.090
+And notice how now there there's more space in between each line.
+
+07:18.090 --> 07:18.410
+OK.
+
+07:18.420 --> 07:21.050
+So I think it makes it look a little cleaner.
+
+07:21.510 --> 07:26.300
+Now I want to talk a little bit about units so pixels and so on.
+
+07:26.340 --> 07:32.400
+Now looking at this list of CSX units this one which is absolute units and then we also have relative
+
+07:32.400 --> 07:37.380
+units it may be a little overwhelming but don't worry about it because we don't use most of these.
+
+07:37.380 --> 07:44.850
+In fact the only thing we're going to use on this page is pixels pixels as that is the the common absolute
+
+07:45.210 --> 07:50.800
+unit that you're going to use you can use centimeters you can use millimeters inches.
+
+07:50.880 --> 07:55.980
+You can set your font to one inch if you want but that's not something that you're probably going to
+
+07:55.980 --> 08:03.630
+do what you're going to use as pixels and the exact size of size of one pixel is one ninety six of one
+
+08:03.630 --> 08:04.460
+inch.
+
+08:04.680 --> 08:05.040
+OK.
+
+08:05.040 --> 08:11.470
+There's also points points may be familiar from something like Microsoft Word and one point is one seventy
+
+08:11.470 --> 08:16.920
+two of one inch you may run into points but for the most part you're going to see pixels.
+
+08:16.950 --> 08:20.690
+You also have peak is which it's actually equal to twelve point scale.
+
+08:20.700 --> 08:22.620
+You're not going to really see that.
+
+08:22.710 --> 08:27.030
+Now there's also something called relative units which I'm going to get into later I'm not going to
+
+08:27.030 --> 08:31.400
+really focus on this right now but for instance you have percentage.
+
+08:31.410 --> 08:34.850
+You can set it to percentage of a parent element.
+
+08:35.010 --> 08:37.340
+And by the way this doesn't have to be just font size.
+
+08:37.350 --> 08:41.410
+This could be for margin padding line height.
+
+08:41.880 --> 08:43.370
+What else with height.
+
+08:43.380 --> 08:44.600
+All that stuff.
+
+08:44.810 --> 08:45.210
+OK.
+
+08:45.220 --> 08:47.010
+You also have m in RAM units.
+
+08:47.010 --> 08:54.750
+M is basically it's a multiplier so whatever the size of your parent element let's say the parent div
+
+08:54.750 --> 09:03.480
+to a paragraph is is 16 pixels and you set it set it to 1 m that's going to be equal to 16 pixels if
+
+09:03.480 --> 09:11.010
+you set it to one point two m that will be equal to 16 pixels time's one point two REM units act the
+
+09:11.010 --> 09:17.280
+same way except instead of the parent element they use the root H team l element which by default is
+
+09:17.280 --> 09:18.940
+sixteen pixels.
+
+09:18.990 --> 09:24.420
+So if you set it to one REM by default it'll be set to 16 pixels.
+
+09:24.420 --> 09:26.220
+And if this is confusing the crap out of you.
+
+09:26.220 --> 09:29.050
+Don't worry we're gonna get into this stuff later.
+
+09:29.160 --> 09:33.660
+I'm not even going to bother going over viewport with an viewport height right now.
+
+09:33.660 --> 09:39.480
+All right let's head back into v as code and I'm actually going to put the font family back to aerial
+
+09:40.430 --> 09:47.820
+or aerial Helvetica sans serif and I just want to show you a couple more font properties.
+
+09:47.820 --> 09:50.940
+So I want to look at font weight and font style which are very simple.
+
+09:50.940 --> 09:56.970
+They're basically used to make some text bold or make Text Italic.
+
+09:57.180 --> 10:01.830
+So I'm going to add a span in here so let's say span.
+
+10:02.100 --> 10:04.130
+I'm going to take the ending tag here.
+
+10:04.140 --> 10:05.550
+Control C copy it.
+
+10:05.550 --> 10:12.900
+Delete it and then put that there and also put a span down here.
+
+10:13.120 --> 10:17.990
+Stu span and we'll take the ending tag.
+
+10:17.990 --> 10:20.890
+Put that down here.
+
+10:20.960 --> 10:21.230
+All right.
+
+10:21.230 --> 10:22.100
+So let's save that.
+
+10:22.130 --> 10:27.230
+Let's go up here and I want to show you how to target these spans.
+
+10:27.320 --> 10:31.990
+So for this one here we can say we want to go into the welcome div..
+
+10:32.020 --> 10:37.220
+OK so the div has the idea of welcome and then we want to go into the paragraph and then we want to
+
+10:37.220 --> 10:38.450
+go into that span.
+
+10:38.480 --> 10:42.100
+So that's how we can target this first span right here.
+
+10:42.110 --> 10:47.690
+Now technically we don't even need the paragraph because it's still going to look into this div with
+
+10:47.690 --> 10:48.820
+the idea of welcome.
+
+10:48.830 --> 10:50.620
+And then onto this span.
+
+10:50.720 --> 10:54.080
+But I think it's more organized to keep the paragraph in there.
+
+10:54.620 --> 10:54.980
+OK.
+
+10:54.980 --> 11:04.490
+Just as an extra step and let's say we want to make the font weight bold and notice that this.
+
+11:04.670 --> 11:11.030
+This V.S. code gives us the selections which we could use numbers to make them more or less bold but
+
+11:11.030 --> 11:13.790
+we're just going to choose bold and save.
+
+11:13.820 --> 11:18.950
+And notice how now the span the text it's within the span is bold.
+
+11:18.950 --> 11:24.610
+OK so just like the strong tag we can set it to bold through CSX.
+
+11:24.620 --> 11:25.810
+So let's target this.
+
+11:25.820 --> 11:37.970
+This span down here by saying we want the about div paragraph span and we're going to set the font style
+
+11:38.480 --> 11:41.810
+to italic and save.
+
+11:41.810 --> 11:47.060
+And now you can see it is very faint but this text is now italic.
+
+11:47.060 --> 11:53.160
+So these are the font based properties in the next video I want to start to get into colors.
+
+11:53.300 --> 11:57.320
+And you saw that I used for instance the color name like red and green.
+
+11:57.320 --> 12:04.810
+I also use this weird this no sign and then some some letters that's actually called hexadecimal.
+
+12:04.820 --> 12:08.960
+We also have something called our G.B. so I want to look at colors and the different types that we can
+
+12:08.960 --> 12:10.520
+use in CSX.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:00.330 --> 00:03.620
+All right guys so this is kind of an aside from the rest of the section.
+
+00:03.630 --> 00:07.920
+I just want to give you a different option if you don't want to deal with node sass and deal with the
+
+00:07.920 --> 00:10.580
+terminal although I think it's easier than using this.
+
+00:10.710 --> 00:16.470
+This graphical program but nevertheless I want to give you the the options so if you go to koala dash
+
+00:16.500 --> 00:23.790
+app dot com you can download this program it's for Windows as well as MAC and it's a goofy program and
+
+00:23.790 --> 00:28.130
+it compiles both sass and less so I already have installed.
+
+00:28.140 --> 00:33.300
+So if you download install it just like any other piece of software and then open it up it'll look like
+
+00:33.300 --> 00:34.140
+this.
+
+00:34.180 --> 00:34.560
+OK.
+
+00:34.560 --> 00:39.790
+Now I also have this code open and I just created a test folder just to give you an example here.
+
+00:39.930 --> 00:43.350
+And I'm going to structure this just like we did in the last video.
+
+00:43.350 --> 00:52.530
+We'll have an SC SS folder where we'll have any SAS and then we'll create another folder called dist
+
+00:53.320 --> 00:54.420
+an inside disk.
+
+00:54.420 --> 01:06.240
+We're gonna have a folder called C Ss and most likely most likely an index each to email like that.
+
+01:06.240 --> 01:06.560
+All right.
+
+01:06.570 --> 01:14.950
+Now in koala I'm going to say plus sign to add a project and I'm going to choose from desktop test OK
+
+01:14.980 --> 01:21.350
+so we'll select that and see.
+
+01:21.520 --> 01:28.900
+OK so we don't have any SAS files so let's create in SPSS I'm going to create a new file called Main
+
+01:28.900 --> 01:30.370
+dot SPSS
+
+01:32.680 --> 01:33.570
+refresh that.
+
+01:33.580 --> 01:41.860
+So now it sees that we have a SAS file now by default when it compiles it'll put the CSX file in the
+
+01:41.860 --> 01:48.280
+same folder In SPSS we want to direct it to go into the C Ss in the dist.
+
+01:48.280 --> 01:56.810
+So we'll go to set output path and we're gonna choose dist CSX OK.
+
+01:56.820 --> 01:59.800
+Please select the CSX file.
+
+02:00.280 --> 02:08.190
+OK so we have to actually create the CSX file so we'll do main dot CSX like that and then let's do it
+
+02:08.190 --> 02:17.620
+again set whole put path to dist CSX main dot CSX replace.
+
+02:17.640 --> 02:18.000
+OK.
+
+02:18.000 --> 02:23.940
+So now this is this is running we can go ahead and minimize this.
+
+02:23.970 --> 02:37.560
+Now when I write some SAS in this main dot SPSS I'll do the same thing I'll do color red body and let's
+
+02:37.560 --> 02:39.280
+do background.
+
+02:39.380 --> 02:40.920
+So that's a color.
+
+02:40.920 --> 02:47.520
+And when I save that if I look in the main dot CSX you'll see that a comp. It also creates a source
+
+02:47.520 --> 02:53.610
+map I'm not going to go over that but you'll see there's a main dot CSX a map as well.
+
+02:53.610 --> 02:58.380
+So anytime we chant like if I change this actually we know what we'll do is we'll go to our index each
+
+02:58.380 --> 03:03.120
+to AML and let's include that CSX.
+
+03:03.150 --> 03:08.040
+So we're going to go CSX slash main dot CSX.
+
+03:08.040 --> 03:08.430
+All right.
+
+03:08.470 --> 03:18.970
+If we go ahead and open this with the live server actually live servers already running so let me set
+
+03:25.030 --> 03:27.070
+where is all right here.
+
+03:27.110 --> 03:30.890
+So I'm just going to stop live server from running.
+
+03:31.080 --> 03:34.040
+I'm going to stop node SAS and live server.
+
+03:34.640 --> 03:34.900
+OK.
+
+03:34.940 --> 03:42.710
+So now if I run live server from here this is the test folder where we use koala and if I go to my SAS
+
+03:42.710 --> 03:48.560
+and they change this to let's say green and save you'll see that it changes.
+
+03:48.650 --> 03:48.940
+All right.
+
+03:48.950 --> 03:54.740
+So if you're more comfortable using quality using the graphical interface then by all means you can
+
+03:54.740 --> 03:55.310
+do that.
+
+03:55.640 --> 03:58.000
+However we're going to stick to nodes SAS.
+
+03:58.010 --> 03:58.250
+All right.
+
+03:58.250 --> 04:03.610
+So just wanted to kind of add this as an aside to to give you another option.
+
+04:03.620 --> 04:13.430
+Also if you want to look into extensions if we search for SAS and V.S. code this right here live SAS
+
+04:13.430 --> 04:18.140
+compiler will actually compile your SAS for you as well.
+
+04:18.380 --> 04:23.490
+If you want to look into that there's just there's so many different programs you can use really.
+
+04:23.510 --> 04:25.290
+So whatever works for you.
+
+04:25.310 --> 04:25.630
+All right.
+
+04:25.640 --> 04:27.100
+So I'm going to stop this.
+
+04:27.100 --> 04:28.630
+I'm not going to use this anymore.
+
+04:28.640 --> 04:32.480
+This test folder that I created I just wanted to give you an example.
+
+04:32.510 --> 04:37.170
+In fact I'm going to just delete my project here and koala.
+
+04:37.190 --> 04:37.460
+All right.
+
+04:37.460 --> 04:43.400
+So in the next video we're going to jump back into our SAS sandbox and we'll start to look at some of
+
+04:43.400 --> 04:44.090
+the features.

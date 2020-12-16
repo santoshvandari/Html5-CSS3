@@ -1,0 +1,748 @@
+WEBVTT
+
+00:00.390 --> 00:04.010
+All right guys in this video we're going to talk about backgrounds and borders.
+
+00:04.020 --> 00:09.690
+And I'm going to use the full the full screen editor and full screen browser because I want to utilize
+
+00:09.720 --> 00:11.250
+all the space here.
+
+00:11.250 --> 00:14.240
+Now notice that I have a folder called I Am G.
+
+00:14.250 --> 00:20.780
+This is an image folder and I have two images one is a star's dot JPEG file which is this image here.
+
+00:20.790 --> 00:25.500
+I'm going to use as a background and then I have a leaf dot P and G which you can't really see because
+
+00:25.500 --> 00:29.070
+it's transparent and it's on it's on a dark background.
+
+00:29.070 --> 00:33.520
+Now one thing to remember is j peg files or jpeg images.
+
+00:33.600 --> 00:40.770
+They can't be transparent like this one is PMG files can have a transparent background where you can
+
+00:40.770 --> 00:46.170
+put it on any web page like let's say the Web pages are red background and it will show red behind this
+
+00:46.170 --> 00:52.230
+image if it were a j peg it would have to have a solid color it couldn't be transparent so just remember
+
+00:52.230 --> 00:56.190
+that if you want transparency then use PMG image.
+
+00:56.190 --> 00:56.480
+All right.
+
+00:56.490 --> 01:04.200
+So what we're gonna do now is create a file called 0 5 underscore backgrounds underscore borders dot
+
+01:04.340 --> 01:15.480
+each team L and let's put in our boilerplate here and for a title we'll save backgrounds and borders
+
+01:16.340 --> 01:18.690
+set in our style tags.
+
+01:18.890 --> 01:22.040
+And as far as each time all goes we're gonna have four Divs.
+
+01:22.770 --> 01:27.580
+So the first one is going to have an I.D. of box dash one.
+
+01:27.610 --> 01:27.930
+OK.
+
+01:28.000 --> 01:30.410
+She wanted div with the idea of box 1.
+
+01:30.510 --> 01:38.520
+We're going to put an H 3 and just say Box 1 for the title and we want a paragraph with let's say 20
+
+01:38.520 --> 01:38.910
+words.
+
+01:38.910 --> 01:41.690
+So we'll do lawn 20.
+
+01:41.860 --> 01:42.270
+OK.
+
+01:42.270 --> 01:46.620
+And then what I'm going to do is just highlight this whole div and I'm going to copy it down with shift
+
+01:46.890 --> 01:53.520
+shift option or shift Ault on windows and then we're going to hit the down key three times.
+
+01:53.520 --> 01:56.790
+Now we have four divs and then we're just going to change the I.D..
+
+01:56.790 --> 02:03.850
+So one two and three and four and then I will change the text as well and we'll probably use this H
+
+02:03.850 --> 02:09.860
+to email in a couple different lectures that's three and four.
+
+02:09.870 --> 02:10.150
+OK.
+
+02:10.170 --> 02:15.300
+So let's save this and let's open it up with live server and it should look like this.
+
+02:15.350 --> 02:19.890
+Case we have our four divs and we're gonna style the first one.
+
+02:19.890 --> 02:30.240
+So let's go back and let's target the I.D. of Box 1 and we're gonna use the background spell background
+
+02:30.240 --> 02:31.360
+right.
+
+02:31.410 --> 02:33.940
+We want to use the background color property.
+
+02:33.960 --> 02:40.920
+Now when you want to assign a color to text obviously we use the color property we've already talked
+
+02:40.920 --> 02:46.230
+about that if you want to style the background color the background you use background color.
+
+02:46.410 --> 02:51.960
+And I'm just gonna choose this Blanch almond doesn't really matter what what color we use.
+
+02:51.960 --> 02:54.480
+But if I go ahead and save this and we take a look.
+
+02:54.480 --> 02:58.420
+Notice that this whole div now has that background color.
+
+02:58.470 --> 02:58.770
+OK.
+
+02:58.770 --> 03:04.800
+And it's going to take up however however much space that the element takes up or the div remember divs
+
+03:04.800 --> 03:10.770
+or block level so this is going to go all the way across by default unless we set a width on it or something
+
+03:10.770 --> 03:12.180
+like that.
+
+03:12.180 --> 03:15.330
+And I know the text is right up against the edge.
+
+03:15.450 --> 03:16.860
+That's because there's no padding.
+
+03:16.860 --> 03:22.130
+I'm going to go for margin and padding and lecture very soon.
+
+03:22.260 --> 03:30.210
+So let's head back into our editor here and I want to go over border OK now border has three mandatory
+
+03:30.210 --> 03:31.040
+properties.
+
+03:31.170 --> 03:36.890
+So the first one is gonna be width and this can be in any order but we're going to do with first.
+
+03:36.890 --> 03:38.810
+So let's say three pixels.
+
+03:38.880 --> 03:41.310
+Now if I just just do that and take a look.
+
+03:41.310 --> 03:46.680
+We have nothing there's no change because we need all three properties the next one is gonna be the
+
+03:46.680 --> 03:47.720
+color.
+
+03:47.820 --> 03:52.970
+So we want to say border dash color and let's just do red.
+
+03:53.190 --> 03:59.520
+And then the last one is gonna be border style which can be dashed dotted double groove.
+
+03:59.520 --> 04:01.320
+The most popular is gonna be solid.
+
+04:01.320 --> 04:06.060
+That's probably the most common that you'll use which is just a solid regular border.
+
+04:06.060 --> 04:08.580
+So let's save that and let's take a look.
+
+04:08.580 --> 04:12.400
+And now we have a three pixel wide red solid border.
+
+04:12.400 --> 04:12.660
+OK.
+
+04:12.660 --> 04:18.710
+And just to give you an idea of some of the other styles we can do like dotted for Take a look at that.
+
+04:18.720 --> 04:20.610
+That's the dotted border.
+
+04:20.730 --> 04:22.650
+And what else we have dashed
+
+04:25.240 --> 04:29.670
+that stash is similar to dotted but it's there are wider lines.
+
+04:29.670 --> 04:35.790
+But for the most part you're probably going to be using solid the most now using all three properties
+
+04:35.790 --> 04:36.510
+like this.
+
+04:36.510 --> 04:39.770
+We don't have to do it this way and this isn't the preferred way.
+
+04:39.900 --> 04:44.580
+What we can do is just use the single border property and we can actually add all three of those in
+
+04:44.580 --> 04:44.940
+here.
+
+04:44.940 --> 04:50.570
+So three pixels solid red and it doesn't matter the order either you can use any order.
+
+04:50.730 --> 04:56.750
+And if I comment this so I'll highlight this and do control forward slash or control question mark that
+
+04:56.760 --> 05:00.780
+will comment that out if I save with Troll ass and take a look.
+
+05:00.780 --> 05:01.910
+We have the same thing.
+
+05:01.920 --> 05:05.970
+OK so this is the exact same as doing this.
+
+05:05.970 --> 05:07.800
+It's just less lines of code.
+
+05:08.480 --> 05:08.720
+OK.
+
+05:08.760 --> 05:15.660
+So that's border let's say we want to do just border on the top.
+
+05:15.660 --> 05:16.360
+Actually no it will.
+
+05:16.410 --> 05:17.820
+We'll grab the next one.
+
+05:17.850 --> 05:23.340
+Let's do box 2 and let's actually give this a background.
+
+05:23.340 --> 05:29.100
+Now we can also use just background if we want to add a color or background image which I'll get into
+
+05:29.100 --> 05:30.000
+in a second.
+
+05:30.000 --> 05:37.980
+But let's give this a dark background and let's give it a color text color of white.
+
+05:38.940 --> 05:41.340
+And let's say we just want a border on the top.
+
+05:41.340 --> 05:50.180
+We can just do border dash top and let's say we want to do blue solid three pixels.
+
+05:50.180 --> 05:50.510
+OK.
+
+05:50.520 --> 05:52.980
+So we save that and we take a look.
+
+05:52.980 --> 05:57.040
+Now we just have a border on the top so you can do border talk.
+
+05:57.060 --> 06:00.560
+Border bottom border left and border right.
+
+06:00.570 --> 06:00.960
+All right.
+
+06:00.960 --> 06:07.770
+So now I want to take a look at the border radius property because by default our corners are just straight
+
+06:07.770 --> 06:08.210
+corners.
+
+06:08.220 --> 06:10.140
+But we can rounded off if we want.
+
+06:10.680 --> 06:15.820
+So I'm actually going to comment out the border top or not I'll leave it.
+
+06:15.820 --> 06:16.440
+I'll leave it.
+
+06:16.470 --> 06:18.450
+But what I do want to do
+
+06:21.510 --> 06:30.180
+what I do want to do is just add a line break between these two box one and box two.
+
+06:30.180 --> 06:31.070
+There we go.
+
+06:31.080 --> 06:35.890
+So let's say that this top one here I want rounded corners.
+
+06:35.940 --> 06:38.400
+So for that I would use a border radius.
+
+06:38.520 --> 06:39.860
+So I'm gonna go to box 1.
+
+06:39.880 --> 06:46.690
+Going to say border radius and we can put percentages here we can put pixels.
+
+06:46.830 --> 06:48.300
+Let's say 10 pixels.
+
+06:48.300 --> 06:49.800
+That's pretty common.
+
+06:49.860 --> 06:53.070
+And if we take a look now we have rounded corners.
+
+06:53.070 --> 06:58.920
+Now before CSX three there was no border radius property we actually had to create little images of
+
+06:58.920 --> 07:05.460
+corners rounded corners and then position them perfectly so that it looked rounded like that which was
+
+07:05.460 --> 07:06.990
+a huge pain in the butt.
+
+07:07.020 --> 07:13.560
+And if you're just learning each team on CSX now you Hey you missed a lot of crappy stuff that we used
+
+07:13.560 --> 07:14.700
+to have to do before.
+
+07:14.700 --> 07:22.770
+Each team of five and CSX three just to just to let you know that now if we wanted to just add rounded
+
+07:22.770 --> 07:24.830
+corners to like let's say the top.
+
+07:24.830 --> 07:34.140
+We can do that as well so let's take box to let's say border dash top dash left dash radius.
+
+07:34.140 --> 07:38.190
+I know that's a long property and let's say 10 pixels.
+
+07:38.190 --> 07:43.350
+So if we take a look at that notice that only the top left is rounded.
+
+07:43.350 --> 07:43.580
+OK.
+
+07:43.590 --> 07:48.930
+So we can choose which corners we want around and let's say we just want the whole top.
+
+07:48.930 --> 07:53.610
+So we'll just copy this down and we'll do right as well.
+
+07:53.610 --> 07:53.970
+All right.
+
+07:53.970 --> 07:57.930
+Now if we look at that both of the top is rounded.
+
+07:57.930 --> 08:02.790
+Now you don't even have to have a border property to use border radius like we could still round the
+
+08:02.880 --> 08:05.830
+bottom edges even though there's no border.
+
+08:05.850 --> 08:06.210
+OK.
+
+08:06.240 --> 08:08.620
+So that doesn't matter.
+
+08:08.640 --> 08:12.350
+So next thing I want to look at is the background image property.
+
+08:12.450 --> 08:15.630
+A lot of times you might want to have some kind of image is your background.
+
+08:15.630 --> 08:23.800
+So let's use box 3 and let's use the background dash image property.
+
+08:23.820 --> 08:30.390
+So this is going to actually take in you are ill and in here we could use a remote image like we could
+
+08:30.390 --> 08:34.480
+do each GDP and then locate some image on the Internet and use that.
+
+08:34.530 --> 08:40.230
+But what we want to do is target the stars dot JPEG file that's in our image folder.
+
+08:40.290 --> 08:40.560
+Ok.
+
+08:40.560 --> 08:46.890
+And since our image folder is local in our directory here we can just do dot slash that represents the
+
+08:46.890 --> 08:48.100
+current directory.
+
+08:48.240 --> 08:53.940
+Then we want to go into the image directory and then we want to call the stars dot JPEG file.
+
+08:55.080 --> 08:55.400
+OK.
+
+08:55.440 --> 08:59.970
+So let's save that and let's go back and notice that it uses the background image.
+
+08:59.970 --> 09:04.140
+Now you're not going to see you don't see the whole image because it only takes up the space of the
+
+09:04.140 --> 09:05.370
+actual element.
+
+09:05.370 --> 09:05.790
+OK.
+
+09:05.790 --> 09:08.430
+And this is the whole div right here.
+
+09:08.430 --> 09:12.000
+Now we can make this bigger by setting a height.
+
+09:12.000 --> 09:14.950
+We can set a height in width and CSX.
+
+09:15.000 --> 09:18.420
+Let's also change the color of the text because it's unreadable right now.
+
+09:18.450 --> 09:28.590
+So we'll see color white and let's give it a height of let's say 300 pixels and let's give it a width
+
+09:29.160 --> 09:33.270
+of 600 pixels and let's save that and take a look.
+
+09:33.300 --> 09:35.980
+And there we go so now we have our background image.
+
+09:36.010 --> 09:43.250
+We have a width of 300 and the height of I'm sorry width of six hundred and the height of three hundred.
+
+09:43.260 --> 09:48.780
+So with background image or I should say with background you have a bunch of other properties just like
+
+09:48.780 --> 09:52.280
+with border one of those as background repeat.
+
+09:52.290 --> 09:56.770
+Now you can't see it here but let's say this image was only like this big.
+
+09:56.820 --> 09:57.340
+OK.
+
+09:57.350 --> 09:58.770
+It ended right here.
+
+09:58.800 --> 10:04.610
+It would repeat both this way on the x axis and this way on the y axis.
+
+10:04.680 --> 10:09.120
+And usually you're not going to want that unless it's some kind of seamless texture that you want to
+
+10:09.120 --> 10:13.100
+repeat like as it has some kind of seamless background.
+
+10:13.200 --> 10:15.300
+But for the most part you're not going to want that.
+
+10:15.290 --> 10:23.010
+So let's go ahead and set the background dash repeat property and there's a few options here you can
+
+10:23.010 --> 10:24.660
+do repeat which is the default.
+
+10:24.690 --> 10:26.340
+It repeats both ways.
+
+10:26.370 --> 10:31.110
+Repeat x will only repeat on the x axis which is horizontal.
+
+10:31.110 --> 10:34.350
+Repeat Y will go on the up and down the y axis.
+
+10:34.350 --> 10:38.490
+But what we want is no repeat because we don't want to repeat.
+
+10:38.650 --> 10:39.180
+Okay.
+
+10:39.180 --> 10:42.720
+Another property is the position property.
+
+10:42.720 --> 10:47.250
+So let's say background position and this will move the image around.
+
+10:47.250 --> 10:48.630
+It takes in to values.
+
+10:48.630 --> 10:52.770
+The first is going to be the x axis and the second is the y axis.
+
+10:52.770 --> 10:59.470
+So let's do one hundred pixels let's just do one hundred pixel zero and see what happens here.
+
+10:59.500 --> 11:05.980
+So what happened is on the x axis it pushed it over 100 pixels and it actually leaves a blank space
+
+11:05.980 --> 11:07.300
+here.
+
+11:07.300 --> 11:15.300
+Now if I do 100 pixels in the y axis try to try to guess what's going to happen so let's save that and
+
+11:15.300 --> 11:18.980
+take a look and it pushes it down.
+
+11:18.990 --> 11:20.450
+One hundred pixels.
+
+11:20.490 --> 11:26.610
+Now let's say you wanted to move it up and over 100 pixels so that the image didn't actually get pushed
+
+11:26.610 --> 11:30.290
+out of the out of its context here or its wrapper.
+
+11:30.300 --> 11:38.760
+So let's go back and what we can do is we can do negative values now if we take a look.
+
+11:38.760 --> 11:44.150
+What happened is the image went up 100 pixels and over this way 100 pixels.
+
+11:44.160 --> 11:49.920
+Now you also have keywords you can use like top center and bottom so let's say we wanted to center and
+
+11:49.920 --> 11:53.100
+center on both axis.
+
+11:53.420 --> 11:53.740
+OK.
+
+11:53.760 --> 11:56.010
+And you can see what it did is it just centered it.
+
+11:56.130 --> 12:01.940
+If I wanted to take the y axis and move it up to the top we could do that as well.
+
+12:02.280 --> 12:06.930
+And this might not be the best image to use as an example because it's just stars it's not something
+
+12:06.930 --> 12:12.510
+that you can actually tell what position it's in but just know that we can move it you know top bottom
+
+12:12.510 --> 12:15.250
+center and so on.
+
+12:15.360 --> 12:22.500
+Now in most cases you're going to want the whole image to cover the background and that's not what's
+
+12:22.500 --> 12:23.250
+going on here.
+
+12:23.250 --> 12:29.940
+It's just it's the size of the image which I believe is 1920 by 10 80 so that the image is really like
+
+12:29.940 --> 12:30.600
+this big.
+
+12:30.600 --> 12:32.940
+It's like the whole window.
+
+12:32.940 --> 12:37.950
+Now let's say we we just want the whole image to show in this spot what we could do is we can add a
+
+12:37.950 --> 12:46.110
+background size property and we can set that to cover this case it's going to cover the whole space.
+
+12:46.110 --> 12:48.980
+If we take a look now the whole image is showing.
+
+12:49.020 --> 12:54.300
+It doesn't matter how what size the images it's going to adjust it's going to take up the whole space
+
+12:54.300 --> 12:56.100
+right here.
+
+12:56.100 --> 12:56.450
+All right.
+
+12:56.460 --> 12:59.870
+So that's a lot of different properties right for the background.
+
+12:59.880 --> 13:00.950
+There's even more than that.
+
+13:00.960 --> 13:06.750
+But let's say that we want to do exactly what we're doing here but we don't want to take up all this
+
+13:06.780 --> 13:09.590
+this these lines with all these different properties.
+
+13:09.720 --> 13:12.340
+We can actually just use background.
+
+13:12.340 --> 13:12.550
+OK.
+
+13:12.570 --> 13:15.620
+So when I use background I'm going to do the same exact thing we just did.
+
+13:15.620 --> 13:20.370
+So we're gonna take the U.R.L. and then after that we want the no repeat.
+
+13:21.750 --> 13:27.330
+And then after that we'll do the position let's do center to center center.
+
+13:27.330 --> 13:32.020
+And then when you want to put the size and you just do a slash and then cover like that.
+
+13:32.040 --> 13:40.230
+So if I go ahead and comment this out and save and take a look we get the same result with much less
+
+13:40.230 --> 13:42.900
+lines of code much less properties.
+
+13:43.020 --> 13:45.350
+OK so let's move on.
+
+13:45.390 --> 13:50.750
+I want to look at a bar having a fixed background and I'll show you what I mean.
+
+13:50.750 --> 13:58.620
+So let's add in our box for and this time I'm going to set background.
+
+13:58.620 --> 14:03.120
+Now when you want to set an image you don't have to use background image you can use just background.
+
+14:03.120 --> 14:07.420
+Even if you don't want to add of all this other stuff we did up here.
+
+14:07.620 --> 14:15.600
+So let's do U.R.L. and let's go in the current folder and then into the image folder and we want leaf
+
+14:15.600 --> 14:17.220
+dot P and G.
+
+14:17.240 --> 14:17.480
+OK.
+
+14:17.490 --> 14:22.260
+And I'm just gonna do a no repeat.
+
+14:22.400 --> 14:26.960
+All right now let's save this and see what we get.
+
+14:27.830 --> 14:32.180
+So notice that it's just because the image is bigger like the image is this big.
+
+14:32.240 --> 14:37.250
+It's not going to show the whole image it's only going to cover whatever the content area covers which
+
+14:37.250 --> 14:37.790
+is this.
+
+14:37.800 --> 14:39.660
+This right here.
+
+14:39.660 --> 14:47.710
+So let's see what I'm going to do is set actually no.
+
+14:47.730 --> 14:49.500
+We'll do is will add more content.
+
+14:49.680 --> 14:58.530
+So in box for let's take this paragraph and let's just copy it down like a bunch of times a lot and
+
+14:58.530 --> 14:59.450
+save that.
+
+14:59.520 --> 15:00.800
+And now take a look.
+
+15:01.020 --> 15:07.020
+And now notice that it shows the whole image because the content area is bigger.
+
+15:07.020 --> 15:12.030
+If we manually set a height like we did here we'd be able to see the whole image as well.
+
+15:12.030 --> 15:17.910
+But I want to show you how we can make a make this a fixed image and to give you an example let me just
+
+15:18.000 --> 15:21.180
+make this smaller so we have a more of a scroll.
+
+15:21.180 --> 15:24.900
+Now if I scroll see all the image just kind of stays in place.
+
+15:24.930 --> 15:26.550
+We can make it fixed.
+
+15:26.550 --> 15:35.280
+So let's go back up to box for and let's actually position it differently too so let's let's do
+
+15:38.150 --> 15:41.890
+center bottom.
+
+15:41.910 --> 15:54.050
+See what that looks like so now it's out Senator bottom do center center.
+
+15:54.120 --> 15:56.580
+Now it's it's dead center.
+
+15:56.580 --> 15:58.310
+Now I wanted to stay fixed.
+
+15:58.320 --> 16:02.500
+So I'm going to add a a background attached.
+
+16:02.580 --> 16:03.210
+I'm sorry.
+
+16:03.270 --> 16:06.950
+Background attachment property.
+
+16:08.550 --> 16:13.010
+And let's say fixed and let's save that.
+
+16:13.020 --> 16:21.450
+And now watch when I scroll the image just stays in place and it's fixed to the to the browser window.
+
+16:21.480 --> 16:21.810
+OK.
+
+16:21.810 --> 16:27.110
+So if you want to do that then you want to use the background attachment fixed.
+
+16:27.150 --> 16:27.420
+All right.
+
+16:27.450 --> 16:31.680
+So that's going to be it for this video guys in the next one we're going to start to talk about the
+
+16:31.680 --> 16:38.880
+box model which has to do with margin and padding and just how spacing works in NC SS.

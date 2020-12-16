@@ -1,0 +1,703 @@
+WEBVTT
+
+00:00.380 --> 00:05.940
+All right guys in this video I want to just show you how to quickly create a CSX drop down menu.
+
+00:05.940 --> 00:08.520
+So we're going to create this right here.
+
+00:08.520 --> 00:10.910
+Basically it's just we're focusing on the menu.
+
+00:11.040 --> 00:15.030
+And when we hit services you'll see that we get this drop down.
+
+00:15.030 --> 00:15.650
+We hit blog.
+
+00:15.660 --> 00:17.430
+We get a dropdown we also have this.
+
+00:17.430 --> 00:20.730
+This area over here which displays the number of posts.
+
+00:20.890 --> 00:26.160
+I figured it was just a nice addition and then we just have a simple showcase here and you could go
+
+00:26.160 --> 00:28.770
+on to to add to this if you wanted to.
+
+00:28.920 --> 00:30.970
+But the main focus is how to get it.
+
+00:30.980 --> 00:33.750
+Show you how to get this dropdown effect.
+
+00:34.050 --> 00:40.240
+And I made it semi responsive so you'll see that when we hit a certain point six and our pixels they'll
+
+00:40.360 --> 00:42.750
+they'll display block and we hover over it.
+
+00:42.780 --> 00:45.090
+We'll get this as the sub menu.
+
+00:45.090 --> 00:45.350
+OK.
+
+00:45.360 --> 00:50.060
+So it'll basically just push the rest of the links down and show the sub menu here.
+
+00:50.070 --> 00:50.370
+All right.
+
+00:50.370 --> 00:51.690
+So let's get started.
+
+00:51.690 --> 00:53.540
+I just have a folder called dropdown.
+
+00:53.540 --> 01:03.840
+I'm going to create an index on each t amount and let's also create a style dot CSX generate our boilerplate
+
+01:03.870 --> 01:13.650
+here close that up and let's say CSX drop down menu and let's put in our style sheet
+
+01:16.420 --> 01:20.260
+and then we're also gonna use font awesome for these little arrows right here.
+
+01:20.310 --> 01:30.120
+So I'm just gonna go to font font awesome dot com start using free and we're going to grab this link
+
+01:30.120 --> 01:30.950
+right here.
+
+01:31.020 --> 01:33.460
+Paste that in.
+
+01:33.660 --> 01:40.680
+So now what we're gonna do is go down to the body and we're going to start to create our each team how
+
+01:40.780 --> 01:42.990
+our markup body whatever you want to call it.
+
+01:43.020 --> 01:48.990
+So we're gonna have a nav tag and I'm going to give us an idea of Navarre and inside here we'll have
+
+01:48.990 --> 01:56.970
+a well we're gonna have an ally with a tag and this will be the home Home Link and I want to copy this
+
+01:56.970 --> 02:01.380
+down this one will be about and then the next one is gonna be services.
+
+02:02.100 --> 02:04.180
+However this is gonna be the dropdown.
+
+02:04.380 --> 02:09.090
+Now I'm not going to have this be a link so I'm going to get rid of the a tag.
+
+02:09.150 --> 02:14.910
+I mean you could if you wanted to but I'm just going to have just the text and then we'll have the drop
+
+02:14.910 --> 02:17.340
+downs and I'm going to put the icon next to it.
+
+02:17.330 --> 02:25.410
+So that's I with a class of F.A. s and then F A Dash angle dash down.
+
+02:26.020 --> 02:27.620
+So that'll give us the icon.
+
+02:27.780 --> 02:38.520
+And then after that we're gonna put a nested list so another you l and let's do ally and a tag and this
+
+02:38.520 --> 02:44.470
+is gonna be web development and we'll just copy this down a couple times.
+
+02:44.610 --> 02:51.960
+This next one will be let's say website design and this one here is gonna be mobile development
+
+02:54.630 --> 02:56.630
+and then let's do SEO.
+
+02:58.060 --> 02:59.270
+OK.
+
+02:59.550 --> 03:03.500
+And then the next one is gonna be the blog which is also a dropdown.
+
+03:03.510 --> 03:11.080
+So we want to go after this list item after the services and we're gonna say blog.
+
+03:11.370 --> 03:23.490
+And again we want our icons so F.A. S F A Dash angle dash down and we're gonna put you all once again
+
+03:25.020 --> 03:32.880
+and let's put a list item within a tag and this is gonna be h t email now we're gonna have that that
+
+03:33.450 --> 03:39.900
+the post number as well so we're gonna put that in a span so we'll say span twenty two posts.
+
+03:39.900 --> 03:40.220
+All right.
+
+03:40.260 --> 03:41.420
+I'm going to copy this down.
+
+03:41.420 --> 03:48.480
+Let's do that's one two three four five six and we can just change these numbers up to whatever you
+
+03:48.480 --> 03:49.120
+want
+
+03:58.590 --> 04:04.740
+OK I'll do 21 and let's change these up so we'll do CSX
+
+04:06.570 --> 04:07.830
+Javascript
+
+04:10.160 --> 04:17.950
+Python on page P. and we'll do one called Design.
+
+04:17.950 --> 04:18.270
+OK.
+
+04:18.280 --> 04:20.550
+And then after the list item we'll do one more.
+
+04:20.590 --> 04:22.300
+And this is just going to be two.
+
+04:22.370 --> 04:26.260
+It's gonna be the contact link so contact.
+
+04:26.260 --> 04:26.530
+All right.
+
+04:26.560 --> 04:27.970
+So that's our menu let's save it.
+
+04:27.970 --> 04:30.690
+Let's take a look it's going to look horrible.
+
+04:31.280 --> 04:37.720
+So it's just dial and a list an unordered list with some nested unordered lists.
+
+04:37.810 --> 04:42.480
+So let's jump into our CSX and let's turn this into this.
+
+04:42.610 --> 04:48.830
+So we'll start off with just a general reset of the margin and padding
+
+04:53.260 --> 04:56.580
+and let's do box sizing.
+
+04:56.990 --> 05:06.040
+Bought a box and then let's do our body and a lot of time just see each team and body like that.
+
+05:06.040 --> 05:14.620
+And for this we're gonna have a background let's do a background color of light grey and let's set a
+
+05:14.620 --> 05:18.880
+font family let's do aerial
+
+05:21.750 --> 05:23.130
+All right.
+
+05:23.310 --> 05:31.080
+Now we're gonna work on the nav bar so it's two now bar
+
+05:33.880 --> 05:38.920
+the now bar itself isn't going to have anything but we're gonna take the well we're going to do list
+
+05:39.550 --> 05:41.300
+style none.
+
+05:41.980 --> 05:43.990
+OK make sure there's no bullets.
+
+05:44.260 --> 05:48.080
+Then we're going to deal with the list items themselves.
+
+05:48.100 --> 05:51.260
+Basically all list items so let's do now.
+
+05:51.260 --> 06:02.860
+Bar you well ally and we're gonna set the color to dark grey which if I save it it's only going to affect
+
+06:02.860 --> 06:06.770
+the ones that are not linked because we have to color the links separately.
+
+06:06.790 --> 06:16.720
+Now we want to display each of these as an inline block OK so if we do that they'll go side by side.
+
+06:16.990 --> 06:21.050
+We'll do some padding so we'll save one room of padding.
+
+06:21.190 --> 06:27.780
+And we also want to position relative K basically the way that the drop downs are going to work is they're
+
+06:27.790 --> 06:35.590
+gonna be positioned absolute inside of this inside of the the the top ally as a container.
+
+06:35.590 --> 06:35.860
+OK.
+
+06:35.860 --> 06:42.610
+That way we can position it and we can add it so that we can make it so that it comes down on hover.
+
+06:42.610 --> 06:53.440
+Now let's color the links so I'm going to just grab this here and say a color will be dark grey and
+
+06:53.440 --> 06:58.600
+let's take away the underline so text decoration is going to be none.
+
+06:58.660 --> 06:59.310
+OK.
+
+06:59.350 --> 07:06.820
+Now we want to we want to hide the nested you ls by default so basically anything that's in a dropdown
+
+07:06.820 --> 07:08.740
+we don't want that to show by default.
+
+07:08.770 --> 07:19.030
+So let me just put a comment here or say hide hide nested well by default and we can target that by
+
+07:19.030 --> 07:25.650
+doing nav bar u l l y you well OK.
+
+07:25.660 --> 07:31.960
+Because we're grabbing the unordered lists that are inside the allies and we're gonna set that to display
+
+07:32.290 --> 07:34.090
+none and save.
+
+07:34.090 --> 07:37.330
+And now those all go away.
+
+07:37.660 --> 07:40.480
+All right so let's see.
+
+07:40.960 --> 07:42.460
+We'll go ahead and
+
+07:45.860 --> 07:53.300
+if I hover over these we get and we get the cursor take changes to a pointer but not on these because
+
+07:53.300 --> 07:54.180
+these are not links.
+
+07:54.200 --> 08:08.360
+But I want I want a cursor on these women only hover so let's do nav bar you l l I hover and let's do
+
+08:08.390 --> 08:14.700
+cursor pointer and I also want the background to be a different color.
+
+08:14.720 --> 08:23.090
+So let's do background coral and let's do color whites and save.
+
+08:23.090 --> 08:23.480
+OK.
+
+08:23.500 --> 08:29.630
+So the color white is not showing on the links but it is on the text because we have no links we have
+
+08:29.630 --> 08:38.270
+to target the color separately so let's just take this and say when we hover we also want the links
+
+08:38.750 --> 08:41.370
+to have the color of white.
+
+08:41.390 --> 08:47.120
+So now when I hover over any of them whether it's actual link or just text we get the white color.
+
+08:47.120 --> 08:54.380
+Now when we hover over these here we want the draw we want the nested yells to show.
+
+08:54.380 --> 08:55.570
+So let's do that.
+
+08:55.570 --> 08:57.800
+Let's say nested
+
+09:01.490 --> 09:03.540
+dropdown show.
+
+09:03.590 --> 09:14.770
+So we're gonna do nav bar you l l I hover and we want the well inside of that to show.
+
+09:14.780 --> 09:15.390
+So remember.
+
+09:15.440 --> 09:17.510
+We set it to display none by default.
+
+09:17.510 --> 09:19.790
+So now we're gonna set it to display block.
+
+09:20.180 --> 09:25.270
+So now if I hover over it we're going to we're going to see it but it's going to it's it's just crazy
+
+09:25.280 --> 09:26.780
+so we're gonna fix this up.
+
+09:27.530 --> 09:36.280
+Let's go ahead and let's do a position of absolute.
+
+09:38.270 --> 09:42.630
+And we're going to we're going to say from the left zero.
+
+09:43.040 --> 09:49.520
+And let's set a width to be 200 pixels and if you guys want to mess with this a little bit you can.
+
+09:49.520 --> 09:55.340
+And then I'm gonna do a margin top of one room all right.
+
+09:55.370 --> 09:57.190
+So we check it out.
+
+09:57.190 --> 10:02.150
+You can see that at least it's positioned underneath.
+
+10:02.150 --> 10:04.610
+It's going to be 200 pixels wide.
+
+10:04.610 --> 10:08.330
+There's no background though so let's target each list item
+
+10:11.800 --> 10:17.990
+I'm going to grab this right here we just did and we're gonna target the list item on hover and we're
+
+10:17.990 --> 10:20.780
+gonna say display block
+
+10:23.560 --> 10:31.720
+and we're gonna add a background and let's to e we'll do e seven three times.
+
+10:31.720 --> 10:36.320
+And now if we hover you can see that it has the background however the lengths are white still so we
+
+10:36.320 --> 10:40.450
+want to target the tag when we hover.
+
+10:40.480 --> 10:46.500
+So it's to ally a and let's set the color to 3 3 3.
+
+10:46.570 --> 10:49.060
+So now the links are dark.
+
+10:49.150 --> 10:53.500
+Now we also want a hover a color for these if we hover over that.
+
+10:54.610 --> 11:02.160
+So we'll have to do see we'll have to do this.
+
+11:02.410 --> 11:11.950
+So when we hover over the top ally we want we're going to target the hover of the nested allies like
+
+11:11.950 --> 11:15.610
+that and let's do a background
+
+11:18.310 --> 11:26.980
+and we're gonna do e 0 3 times and make sure the color.
+
+11:27.020 --> 11:28.060
+Well we shouldn't have to do that.
+
+11:28.120 --> 11:29.950
+Well we could do two color inherit
+
+11:33.920 --> 11:34.280
+all right.
+
+11:34.310 --> 11:35.840
+So we'll save.
+
+11:36.020 --> 11:38.270
+And now we have that lighter color.
+
+11:38.360 --> 11:39.710
+I'm sorry a darker color.
+
+11:39.740 --> 11:42.110
+When we hover over these.
+
+11:42.110 --> 11:42.370
+All right.
+
+11:42.380 --> 11:43.820
+So that's starting to shape up.
+
+11:43.850 --> 11:50.930
+Now let's deal with the spans these 22 these posts right here we want these to have a coral background.
+
+11:50.930 --> 11:54.390
+I also want the color to change for those when they're hovered over.
+
+11:54.500 --> 11:55.930
+So let's target this.
+
+11:55.940 --> 11:58.640
+The span remember we put those in a span.
+
+11:58.640 --> 12:00.970
+So we want this now.
+
+12:00.980 --> 12:06.160
+Bar you al ally hover you al ally in the span.
+
+12:06.290 --> 12:15.290
+So like that and we'll say span we want that to actually float to the right and we're going to make
+
+12:15.290 --> 12:23.690
+the color white in the background coral.
+
+12:24.430 --> 12:24.720
+OK.
+
+12:24.740 --> 12:26.270
+We're going to add a little bit of padding.
+
+12:26.270 --> 12:32.130
+We'll do zero point two REM top and bottom zero point five REM left and right.
+
+12:33.050 --> 12:42.910
+Let's text align to the center and let's make the font size a little smaller we'll do zero point eight
+
+12:43.300 --> 12:46.480
+RAM and let's round the corners a little bit.
+
+12:46.480 --> 12:51.150
+So border radius and we'll do five pixels.
+
+12:51.220 --> 12:52.450
+OK so let's save that.
+
+12:52.450 --> 12:53.020
+Take a look.
+
+12:53.020 --> 12:57.100
+Good.
+
+12:57.250 --> 13:01.150
+And I think that's what I also want them to change color a little bit.
+
+13:01.150 --> 13:06.430
+So let's let's grab this.
+
+13:06.430 --> 13:12.470
+But let's say on the list item hover OK so the inner list item hover.
+
+13:12.490 --> 13:16.410
+We want the span background to change too.
+
+13:16.420 --> 13:20.230
+Let's do chocolate which is pretty close to coral.
+
+13:20.230 --> 13:25.030
+So as we hover over it now you can see the background of those change.
+
+13:25.030 --> 13:25.320
+All right.
+
+13:25.330 --> 13:27.350
+So it's pretty good.
+
+13:28.720 --> 13:32.820
+Now what I'm going to do and if you want to add a background to the now bar you can do that as well.
+
+13:32.950 --> 13:36.220
+But I'm going to add our showcase area right underneath.
+
+13:36.640 --> 13:37.990
+So did I already add it.
+
+13:37.990 --> 13:38.560
+No I didn't.
+
+13:38.560 --> 13:41.830
+So in the aged here now it's going to be very simple.
+
+13:41.840 --> 13:51.670
+I'm just going to go under the NAV input a let's do a header showcase and all I'm going to put in here
+
+13:51.670 --> 14:03.790
+is an H one and just say your Web site here and we'll go back to our style sheet and let's grab on to
+
+14:03.790 --> 14:04.990
+the showcase
+
+14:10.150 --> 14:17.430
+and let's set up actually knowing what we're gonna do is I'm going to display this as a flex column.
+
+14:17.430 --> 14:26.500
+So display flex flex direction is gonna be column and for the height I'm just gonna do three hundred
+
+14:26.500 --> 14:36.250
+pixels and then let's align everything that at the center so we'll say a line items center justify content
+
+14:36.250 --> 14:51.420
+center text align center and let's do padding zero and two to ram on the left and right.
+
+14:51.830 --> 14:54.920
+Let's go ahead semicolon there.
+
+14:54.940 --> 14:55.210
+All right.
+
+14:55.230 --> 14:56.230
+So we'll save that.
+
+14:56.620 --> 14:57.880
+Oh I didn't add the background
+
+15:01.020 --> 15:06.930
+so let's add background coral
+
+15:09.610 --> 15:09.870
+all right.
+
+15:09.870 --> 15:10.450
+Actually you know what.
+
+15:10.470 --> 15:14.610
+Let's put the let's put that in there in a variable the color.
+
+15:14.610 --> 15:22.520
+So we'll say for the root scope let's do primary color.
+
+15:22.680 --> 15:33.030
+There's gonna be coral and then we'll just change this to var dash dash primary color.
+
+15:33.030 --> 15:37.250
+Grab that and go down here.
+
+15:37.260 --> 15:44.160
+Place that that way it's easy to change the color and then we could use this as a secondary color
+
+15:48.660 --> 15:54.380
+so up here we'll say a secondary color
+
+15:56.860 --> 15:57.370
+chocolate
+
+16:01.130 --> 16:01.550
+all right.
+
+16:02.320 --> 16:04.610
+And then for the H one in the showcase
+
+16:08.180 --> 16:14.940
+let's make it color white and let's make the font size.
+
+16:14.960 --> 16:18.350
+Let's do four REM.
+
+16:18.350 --> 16:20.510
+Here we go.
+
+16:20.510 --> 16:24.550
+So I have the showcase matching the hover state which I like.
+
+16:24.560 --> 16:29.810
+I like that in fact and if you're on a certain page you can do like a current current class and have
+
+16:29.810 --> 16:30.500
+it like that.
+
+16:30.500 --> 16:33.980
+So it actually looks like it's kind of part of the showcase.
+
+16:33.980 --> 16:34.270
+All right.
+
+16:34.280 --> 16:40.190
+So let's let's deal with the responsiveness because right now if we go like right here it's I mean it
+
+16:40.190 --> 16:48.770
+goes off the screen so I'm just gonna do a quick solution for this and let's add a media query with
+
+16:48.770 --> 17:00.080
+a max width of 600 pixels and we're just going to take the nav bar you all ally and instead of displaying
+
+17:00.080 --> 17:02.240
+inline block we're gonna display block.
+
+17:02.240 --> 17:03.880
+That way they go on top of each other.
+
+17:04.450 --> 17:04.730
+All right.
+
+17:05.690 --> 17:14.180
+And then let's see we're going to take the the nested well on hover and we're going to set it to a width
+
+17:14.180 --> 17:16.880
+of one hundred percent and also position it relative.
+
+17:16.880 --> 17:22.760
+Right now it's two hundred pixels wide and it's position absolute which means it just goes over the
+
+17:22.760 --> 17:25.820
+rest of the content and we can't see the rest of the menu items.
+
+17:25.820 --> 17:28.960
+I want it to basically just push everything down.
+
+17:29.060 --> 17:34.730
+So we're gonna say nav bar you al ally hover somewhere hover over it.
+
+17:34.730 --> 17:44.420
+We want the well to have a with of 100 percent and we want the position to go from absolute to relative.
+
+17:44.420 --> 17:44.720
+OK.
+
+17:44.750 --> 17:45.560
+We'll save that.
+
+17:45.590 --> 17:51.770
+And now when we hover over it we get all of our sub items and we can still go to the next one we can
+
+17:51.770 --> 17:54.170
+see all the menu items still.
+
+17:54.170 --> 17:54.470
+OK.
+
+17:54.470 --> 18:00.920
+So I mean it's not really the best looking thing in the world but it is a solution for you know if you're
+
+18:01.220 --> 18:03.060
+for smaller screens.
+
+18:03.620 --> 18:04.090
+But yeah.
+
+18:04.100 --> 18:10.160
+That's gonna be a guys a lot of these dropdown menus will involve javascript but I'm trying not to get
+
+18:10.160 --> 18:15.020
+into too much javascript cause I don't want it because I want to focus on each team LCROSS and how you
+
+18:15.020 --> 18:21.530
+can do things with just those in it and I've mentioned it before that I do have a modern javascript
+
+18:21.530 --> 18:26.960
+from the beginning course on you to me as well but that's it hopefully you enjoy this little project
+
+18:26.960 --> 18:32.780
+it's just something that I thought of that I think should be included in the course is how to create
+
+18:32.780 --> 18:34.480
+these little drop downs.
+
+18:34.670 --> 18:36.760
+And of course as there's many other ways to do it.
+
+18:36.770 --> 18:41.120
+But this is one and I think it's pretty pretty easy but that's it.
+
+18:41.120 --> 18:43.220
+Thanks for watching and I'll see you in the next video.

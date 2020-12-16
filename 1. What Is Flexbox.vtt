@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00.440 --> 00:00.710
+All right.
+
+00:00.720 --> 00:04.280
+So now we're gonna start looking at some stuff to make your lives much easier.
+
+00:04.270 --> 00:10.230
+Now in our hotel Web site project we used floats to align things which is a pain in the neck for so
+
+00:10.230 --> 00:16.920
+many reasons and for a long time we had to use frameworks like bootstrap and one of the biggest reasons
+
+00:16.920 --> 00:23.070
+for that was it came with a grid system to easily align elements so we didn't have to use floats but
+
+00:23.070 --> 00:31.020
+flex blocks was introduced in CSA s version 3 which allows us to align things easily without using floats
+
+00:31.080 --> 00:32.390
+or frameworks.
+
+00:32.400 --> 00:39.750
+So from now on we're gonna do do away with floats and use flex blocks and or CSX grid when we get to
+
+00:39.750 --> 00:40.110
+that.
+
+00:40.680 --> 00:48.840
+OK so flex boxes is basically a modern layout mode and C Ss 3 we assign flex to the display property
+
+00:48.870 --> 00:54.950
+just like we have display block display inline display inline block display none.
+
+00:54.960 --> 01:02.130
+We also have display flex and it replaces floats it's much more elegant to work with we can align items
+
+01:02.130 --> 01:10.020
+both horizontal and vertical and flex items can also be reordered via CSF so we can actually reorder
+
+01:10.020 --> 01:16.200
+the way that are our items are laid out without having to change the markup without having to change
+
+01:16.200 --> 01:17.830
+the h t amount.
+
+01:17.850 --> 01:19.820
+So let's take a quick look at how it works.
+
+01:19.830 --> 01:21.840
+And I'm going to show you all this.
+
+01:21.840 --> 01:29.280
+Don't worry about it but just really quickly if we assign display flex to a container div or any container
+
+01:29.280 --> 01:32.530
+element it creates a flex container.
+
+01:32.530 --> 01:34.390
+OK and we can look at this image here.
+
+01:34.440 --> 01:40.650
+So let's say that these two boxes are divs inside of a div that we said display flex.
+
+01:40.710 --> 01:47.190
+OK so we have a flex container and then it makes all direct elements flex items.
+
+01:47.220 --> 01:51.690
+OK so each div or list item it could be any element at all.
+
+01:51.690 --> 01:59.070
+Each thing inside that flex container is going to be a flex item and it's going to actually align Horizontal
+
+01:59.070 --> 02:00.910
+in a row by default.
+
+02:00.960 --> 02:07.920
+So simply putting display flex is going to make all the child elements just automatically align horizontally.
+
+02:07.920 --> 02:15.570
+So basically like what floats do but we can also do flex direction column which will align them this
+
+02:15.570 --> 02:15.840
+way.
+
+02:15.870 --> 02:16.320
+OK.
+
+02:16.650 --> 02:18.450
+Align them vertically.
+
+02:18.480 --> 02:25.140
+Now we have a cross access which goes up and down and we have a main axis that goes this way.
+
+02:25.290 --> 02:31.510
+And there's different CSF properties we can use to align our Flex items.
+
+02:31.590 --> 02:37.270
+So here's some of those properties so we have justified content which will align along the main access.
+
+02:37.290 --> 02:44.430
+So basically horizontal along this main access we have a line items which will align items on the cross
+
+02:44.430 --> 02:45.090
+access.
+
+02:45.090 --> 02:51.180
+So this way and then align content which will align when there's extra space in the cross axis.
+
+02:51.180 --> 02:57.720
+Basically if we have you know multiple rows of flex items it'll align those and I mean I know that's
+
+02:57.720 --> 03:02.950
+confusing just saying it but I will show you and give you examples of all of these.
+
+03:03.000 --> 03:03.270
+All right.
+
+03:03.270 --> 03:07.590
+So let's jump in and let's take a look at the basic fundamentals of flex box.

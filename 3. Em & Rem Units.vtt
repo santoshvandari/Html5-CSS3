@@ -1,0 +1,571 @@
+WEBVTT
+
+00:00.210 --> 00:04.410
+All right so in this video we're gonna get into m units and REM units up to this point.
+
+00:04.410 --> 00:08.710
+We've pretty much been using pixels for everything which is a fixed unit.
+
+00:09.090 --> 00:17.190
+So m and rhyme are similar but they're multipliers of different things so an M unit is a multiplier
+
+00:17.880 --> 00:26.400
+or relative to the font size of its parent container or its parent element where a RAM unit is its relative
+
+00:26.400 --> 00:29.920
+to the font size of the root h t Mal element.
+
+00:29.950 --> 00:32.710
+OK so if we look at an H team I'll file this right here.
+
+00:32.710 --> 00:40.170
+This each team l tag its default Potts Point its default font size is 16 pixels but of course you can
+
+00:40.170 --> 00:47.010
+change that within your C Ss so I know it's it's kind of tough to explain so let's jump in and let's
+
+00:47.010 --> 00:56.040
+create a file called 14 underscore M underscore Ram dot h t now and we'll put our head body tags in
+
+00:56.040 --> 01:11.820
+here and let's say and ram units and then for the H team l I'm just going to have a box 1 div and let's
+
+01:11.820 --> 01:24.560
+do an H 3 2 paragraph we'll do Lord 20 and then I'm just going to copy the whole div here.
+
+01:24.660 --> 01:26.790
+Okay so this one will do.
+
+01:26.910 --> 01:32.930
+Box 2 box 2 All right.
+
+01:33.170 --> 01:41.250
+So let's save this and let's open up a live server and let's open up our dev tools as well here.
+
+01:41.310 --> 01:46.000
+Here we're gonna be in the elements tab and I'm just going to go ahead and select the.
+
+01:46.160 --> 01:47.550
+Select the paragraph.
+
+01:47.750 --> 01:54.950
+Now by default the font size as well as the margin here it's going to be set to 1 end.
+
+01:55.040 --> 02:02.090
+So whatever the number of pixels of the font size of its parent element and by default obviously its
+
+02:02.090 --> 02:06.920
+parent its direct parent is the box one which we haven't set a specific font size.
+
+02:07.100 --> 02:14.080
+So it's going to keep going up until it finds a font size which it's going to reach the the HDMI all
+
+02:14.090 --> 02:15.000
+the root element.
+
+02:15.050 --> 02:15.340
+OK.
+
+02:15.350 --> 02:17.350
+This is the absolute root element.
+
+02:17.480 --> 02:19.990
+And by default that's 16 pixels.
+
+02:20.000 --> 02:27.970
+So if we go to computed you're gonna see that the margin is 16 pixels the font size is also 16 pixels.
+
+02:28.130 --> 02:29.680
+Now headings are a bit different.
+
+02:29.690 --> 02:35.600
+If we take a look at that and grab the selector and click on the heading you can see the font size is
+
+02:35.600 --> 02:40.290
+actually the computed font size is eighteen point seventy two.
+
+02:40.310 --> 02:47.090
+Because if we look at the actual CSX from the browser the font size is one point one seven m.
+
+02:47.750 --> 02:56.090
+So the reason for that is 16 pixels or sixteen times one point seventeen is actually equal to eighteen
+
+02:56.090 --> 02:57.320
+point seven two.
+
+02:57.320 --> 02:59.530
+So that's where this comes from.
+
+02:59.540 --> 03:00.540
+OK.
+
+03:00.740 --> 03:10.740
+Now if I were to manually change the font size of of the direct parent which is Box 1 so it's a font
+
+03:10.740 --> 03:14.500
+size we'll change it to 20 pixels rather than 16.
+
+03:14.670 --> 03:21.600
+And watch what happens to this font size of the H three can save and it gets it gets turned to twenty
+
+03:21.600 --> 03:26.350
+three point four because twenty times one point seven.
+
+03:26.460 --> 03:27.980
+That's what the the m..
+
+03:27.990 --> 03:29.900
+That's what this is set to one point.
+
+03:29.910 --> 03:36.210
+I'm sorry 1 point 1 7 is going to be twenty three point four and if we look at the paragraph now the
+
+03:36.210 --> 03:38.090
+font size is 20 pixels.
+
+03:38.130 --> 03:42.870
+So is the margin I can see right here the margin on the start and the end.
+
+03:42.870 --> 03:49.190
+Also 20 pixels because it's it's set to 1 m OK so you can see right here.
+
+03:49.200 --> 03:51.960
+So it's going to be whatever this is.
+
+03:51.980 --> 04:00.950
+Now let's say we wanted to change the font size of the paragraph so we'll say box 1.
+
+04:01.040 --> 04:01.710
+Let's see.
+
+04:01.710 --> 04:10.380
+We'll do box 1 paragraph and let's set font size 2.
+
+04:11.460 --> 04:14.120
+Let's do one point five REM.
+
+04:14.280 --> 04:20.330
+I'm sorry Em and save and you can see it gets much bigger.
+
+04:20.490 --> 04:29.310
+And down here this is our styling font size one point five m so let's look at the computed value computed
+
+04:29.310 --> 04:37.780
+value is 30 pixels excuse me and the reason for that is because one 20 which is its parent element time's
+
+04:37.830 --> 04:40.620
+one point five is equal to 30.
+
+04:40.770 --> 04:42.960
+That's where we get 30 pixels from.
+
+04:43.290 --> 04:49.270
+And it's also automatically going to add that margin to the top and the bottom of 30.
+
+04:49.290 --> 04:55.380
+Now one thing that's confusing about M units is if I do padding.
+
+04:55.380 --> 04:57.070
+Right.
+
+04:57.210 --> 05:05.690
+So let's say padding 1 m what it would just take a second and think of what what this is going to be.
+
+05:05.730 --> 05:10.180
+Remember 1 m is a multiplier of its parent.
+
+05:10.200 --> 05:13.250
+So you might think that it's going to equal 20 right.
+
+05:13.260 --> 05:15.750
+Because 20 times one is 20.
+
+05:15.750 --> 05:18.840
+So let's save it and let's see what we get.
+
+05:18.840 --> 05:23.940
+So for padding which is right here we actually get 30.
+
+05:23.940 --> 05:30.540
+The reason for that is since we added a font size to the actual element itself the paragraph it's going
+
+05:30.540 --> 05:32.460
+to go on that now.
+
+05:32.460 --> 05:32.770
+OK.
+
+05:32.790 --> 05:39.060
+So the padding is going to be since this is 30 pixels to one point five times 20.
+
+05:39.180 --> 05:43.090
+And then we set this to 1 m then it's going to be 30.
+
+05:43.090 --> 05:44.960
+And that's very confusing.
+
+05:44.970 --> 05:49.760
+So that's that's one reason that a lot of people don't use Ms.
+
+05:49.770 --> 05:52.410
+And one reason I don't use Ms.
+
+05:52.410 --> 05:55.410
+So another reason is for nested elements.
+
+05:55.410 --> 05:58.560
+So let's go ahead and add down here you well.
+
+05:59.920 --> 06:05.280
+And I'm just going to put in a couple list items we can use the money sign which was just start at 1
+
+06:05.490 --> 06:07.490
+and go in increment by 1.
+
+06:07.650 --> 06:11.670
+We'll say times for tab and then we get these for list items.
+
+06:11.670 --> 06:18.220
+Now this one here I'm going to add another well and let's do the same thing.
+
+06:18.310 --> 06:25.290
+Say times three and we'll save and we have these list items here.
+
+06:25.440 --> 06:31.430
+So let's say we want to change the font size of a well that's in box 1.
+
+06:32.490 --> 06:38.730
+So Box 1 Well and let's say we want the font size
+
+06:41.670 --> 06:49.020
+to be one point two m and let's go ahead and save that.
+
+06:49.020 --> 06:54.400
+So if you look at this well the nested list right here is bigger.
+
+06:54.410 --> 06:54.770
+Right.
+
+06:54.780 --> 06:57.470
+And we can check that out by using the selector.
+
+06:57.480 --> 06:58.820
+Let's look at these ones here.
+
+06:58.830 --> 07:05.190
+So we get 24 pixels but if we look at these ones here we get twenty eight point eight.
+
+07:05.910 --> 07:13.470
+So it's not consistent and the reason for that is these inner elements here are actually now going on
+
+07:13.560 --> 07:19.950
+the nested I'm sorry their parent element and we have a nested well here.
+
+07:19.950 --> 07:30.090
+So this is going on this and if we were to put another you all like let's go ahead and grab this and
+
+07:30.090 --> 07:36.810
+put this right here and paste that in well nested again it's going to get even bigger.
+
+07:36.810 --> 07:40.170
+So that's that's another issue with using Ms.
+
+07:40.200 --> 07:45.510
+So my suggestion would be just to drop Ms altogether and use REMS because they're always going to be
+
+07:45.510 --> 07:47.750
+based on the root element.
+
+07:47.760 --> 07:48.090
+All right.
+
+07:48.120 --> 07:49.620
+So let's start to get into that.
+
+07:49.620 --> 07:55.350
+So I'm actually going to comment out the whole div here the whole box one div
+
+07:57.990 --> 07:59.520
+and let's see.
+
+07:59.670 --> 08:05.610
+Comment this stuff out too so we'll just kind of start from scratch and now we'll look at Ram units.
+
+08:05.790 --> 08:09.360
+Now I'm not going to set a font size to the parent element itself.
+
+08:09.360 --> 08:12.990
+Box 2 because we're very rarely going to do that.
+
+08:12.990 --> 08:18.910
+We're going to be using REM units so we're gonna go on the root element always.
+
+08:18.930 --> 08:34.320
+So let's grab the let's grab the H 3 so box Dash 2 H 3 and let's set the font size to let's say 2 REM.
+
+08:34.320 --> 08:42.940
+OK we'll save that and let's take a look at what that is so if you go and hit that and we look at our
+
+08:42.940 --> 08:45.880
+computed styles you'll see that it's going to be 32.
+
+08:45.880 --> 08:52.540
+Like I said the HDMI all the root element font size is always gonna be 16 pixels unless we manually
+
+08:52.540 --> 08:56.150
+change it so you can see it's 32.
+
+08:56.350 --> 09:13.300
+If we set let's say box 2 paragraph set font size two to one point six RAM and we save that and we take
+
+09:13.300 --> 09:18.620
+a look at the computed sides is twenty five point six pixels.
+
+09:18.680 --> 09:18.950
+OK.
+
+09:18.970 --> 09:24.100
+Because 16 times one point six is gonna be twenty five point six.
+
+09:24.100 --> 09:28.340
+Now let's let's actually add a line height here.
+
+09:28.840 --> 09:36.760
+So the height of the line and I'm going to do one point seven REM.
+
+09:36.790 --> 09:42.910
+Now remember when we used M units if we had set a line height here it would actually it would actually
+
+09:42.910 --> 09:44.930
+be based on this.
+
+09:44.980 --> 09:45.310
+Right.
+
+09:45.760 --> 09:50.650
+But since we're using REMS it's always going to be based on the root h t mail element.
+
+09:50.650 --> 09:51.460
+So let's save it.
+
+09:51.490 --> 09:56.910
+Let's take a look at the line height and it's twenty seven point two which is 16.
+
+09:56.980 --> 10:00.070
+The root elements font size times one point seven.
+
+10:00.070 --> 10:08.770
+So much less confusing if we wanted to change the root element font size we could do that.
+
+10:08.770 --> 10:19.030
+So let's go right here and just simply do HD PML and let's say font size 10 pixels and we'll save.
+
+10:19.090 --> 10:21.910
+And notice that everything got smaller.
+
+10:22.120 --> 10:29.770
+So if we check out the font size of the heading here it's 20 pixels because the heading is set to to
+
+10:29.770 --> 10:30.440
+ram right.
+
+10:30.460 --> 10:33.430
+So it's going to be two times 10 which is 20.
+
+10:33.430 --> 10:38.760
+The paragraph trying to take a guess at what that's going to be.
+
+10:38.860 --> 10:39.690
+Let's check it out.
+
+10:39.700 --> 10:47.920
+And it's 16 pixels because ten times one point six is 16 and if we look at the line height it's 17 because
+
+10:47.920 --> 10:53.440
+we set it to one point seven and this is actually a common thing that some people do because when you
+
+10:53.440 --> 11:01.050
+deal with 16 pixels as the root element it's harder to figure out what the exact size is going to be.
+
+11:01.050 --> 11:08.200
+If you set it to 10 then you're going to know that two is twenty one point six is sixteen This is seventeen
+
+11:08.200 --> 11:10.020
+two point eight is 28.
+
+11:10.330 --> 11:17.380
+You know if we if we set the the font size here to two point three it's gonna be twenty three pixels
+
+11:17.410 --> 11:17.740
+right.
+
+11:17.740 --> 11:18.810
+If we take a look at it.
+
+11:18.800 --> 11:20.880
+So let's grab the heading.
+
+11:20.910 --> 11:22.600
+It's twenty three pixels.
+
+11:22.600 --> 11:27.250
+So a lot of people will do that and to make it even more responsive we could just set the font size
+
+11:27.580 --> 11:35.170
+to a percentage to sixty two point five percent which is actually going to be 10 pixels by save that
+
+11:35.410 --> 11:37.560
+it's the same thing twenty.
+
+11:37.750 --> 11:44.410
+And if we look at the font size of the text here it's going to be 16 because we said it's a one point
+
+11:44.410 --> 11:50.860
+six room and just to show you if I said it's a one room it's gonna be ten OK.
+
+11:50.950 --> 11:53.230
+So you might see this as well.
+
+11:53.230 --> 11:59.800
+I tend to leave the team out at 16 pixels and just and just kind of eyeball things rather than being
+
+11:59.800 --> 12:00.970
+so exact.
+
+12:01.060 --> 12:08.260
+If you are taking an actual design from like photoshop or something and it need the pixels need to be
+
+12:08.260 --> 12:14.890
+exact then you might want to do it this way you might want to set it to sixty two point five so that
+
+12:14.890 --> 12:19.850
+you know exactly how many pixels you're adding to padding and all that.
+
+12:19.870 --> 12:27.160
+For me I do a lot of my my designs just just by eyeballing it just by doing the H two LCROSS not actually
+
+12:27.160 --> 12:32.010
+copying an exact design so I'll usually leave the room.
+
+12:32.110 --> 12:35.710
+Sorry the the root element at sixteen.
+
+12:35.770 --> 12:42.750
+Now another huge reason to use REM units this is for accessibility and browser settings.
+
+12:42.760 --> 12:50.760
+Now if I go to my chrome settings and go down to where it says font size you'll see it's set to medium.
+
+12:50.760 --> 12:51.600
+That's the default.
+
+12:51.600 --> 12:58.350
+That's the recommended but if I said it's a very large and I use REM units notice Mike it's gotten bigger.
+
+12:58.350 --> 13:06.060
+In fact down here you'll see the paragraph is now 24 instead of 16 because we've we've we've manually
+
+13:06.060 --> 13:14.160
+set that in the browser settings if we use m units that has no effect in fact I'll go ahead and take
+
+13:14.160 --> 13:21.760
+this off and take this comment off and we'll save it.
+
+13:21.760 --> 13:24.380
+And it has no effect.
+
+13:24.580 --> 13:28.530
+So if I it's I mean it's set larger because of what we did up here.
+
+13:29.020 --> 13:37.460
+But watch if I said it to very small notice that all the stuff we do with the M units is still huge.
+
+13:37.470 --> 13:41.870
+While if we go down to where we used REMS it's very small.
+
+13:41.870 --> 13:42.220
+OK.
+
+13:42.240 --> 13:46.310
+So it's not going to have an effect if your parent elements have font sizes.
+
+13:46.320 --> 13:53.520
+Now if we didn't have a parent element font size it would go by the h t AML even if we used Ms.
+
+13:53.640 --> 13:56.820
+And then it would work because that's what this is doing.
+
+13:56.820 --> 13:59.350
+This is changing the the parent.
+
+13:59.490 --> 14:06.480
+I'm sorry the root elements font size if we didn't have this here let's get rid of that and save.
+
+14:06.490 --> 14:12.040
+Now you'll see that this is very small because it's going by the root element by default.
+
+14:12.090 --> 14:18.600
+But when you use MS You're adding you're adding font size to the parent element and that's what it goes
+
+14:18.600 --> 14:21.960
+on regardless of the settings in the browser.
+
+14:21.960 --> 14:27.400
+So just another reason that REM units make things more adaptive and more responsive.
+
+14:27.600 --> 14:33.890
+So let's set this back to medium and I'm going to comment this stuff back out OK.
+
+14:34.050 --> 14:40.520
+So I know that that this may be confusing but it is a good idea to use REM units if you want to use.
+
+14:40.530 --> 14:45.630
+I mean it's you can but that's I mean everybody has their own style their own ways of doing things.
+
+14:45.630 --> 14:53.160
+I don't really use m units except for maybe some special situations but you know using ram it makes
+
+14:53.160 --> 14:54.320
+it more accessible.
+
+14:54.330 --> 14:59.940
+If someone if older people that can't see very well they want to change the settings it will actually
+
+14:59.940 --> 15:01.320
+work.
+
+15:01.500 --> 15:08.100
+You know it makes things more responsive more adaptive so it is it is recommended but you could also
+
+15:08.100 --> 15:09.190
+stick with pixels.
+
+15:09.250 --> 15:10.910
+It's all up to you guys.
+
+15:10.920 --> 15:13.320
+You know whatever is easier for you.
+
+15:13.320 --> 15:19.080
+But we will be using Ram units quite a bit throughout the rest of the course.
+
+15:19.080 --> 15:19.430
+All right.
+
+15:19.440 --> 15:25.500
+So in the next video I want to take a look at another CSX unit which is the viewport height in the viewport
+
+15:25.500 --> 15:26.220
+with unit.
+
+15:26.390 --> 15:26.730
+OK.
+
+15:26.760 --> 15:29.900
+Which are really used for something completely different.
+
+15:29.910 --> 15:36.900
+Used more for like black boxes and backgrounds and stuff like that rather than like font sizes.
+
+15:36.930 --> 15:39.090
+All right so I'll see you in the next video.

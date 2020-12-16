@@ -1,0 +1,574 @@
+WEBVTT
+
+00:00.330 --> 00:00.830
+All right guys.
+
+00:00.840 --> 00:05.700
+Now we're going to jump into media queries and I'm actually going to do this in our CSF sandbox.
+
+00:05.700 --> 00:13.830
+So I'm going to add a file here called 1 3 13 because we left off at 12:00 media underscore queries
+
+00:14.100 --> 00:22.260
+dot h t email and we're gonna put our boiler plate in with Emmet so exclamation enter a tab at our title
+
+00:25.530 --> 00:27.590
+and for the body.
+
+00:28.080 --> 00:32.730
+This isn't going to be a very practical use of media queries we're gonna do that later on and all our
+
+00:32.730 --> 00:33.800
+projects.
+
+00:33.870 --> 00:37.940
+This is more to get you familiar with how they work in the syntax.
+
+00:38.040 --> 00:40.560
+So I'm going to have a few divs here.
+
+00:40.680 --> 00:41.940
+So actually we don't even need that.
+
+00:41.940 --> 00:43.380
+Let's do an I.D..
+
+00:43.510 --> 00:46.480
+A div with an idea of wide screen.
+
+00:47.370 --> 00:53.640
+And inside here I'm going to put an H and then I'm just gonna put the text wide screen and the names
+
+00:53.640 --> 00:55.080
+of these did these ideas.
+
+00:55.080 --> 00:59.820
+They have nothing to do with media queries it's just what I'm choosing to use because I want to give
+
+00:59.820 --> 01:05.880
+you an example of each screen size and how we can add separate styles for them.
+
+01:06.000 --> 01:10.030
+So it's clear the So and this one is gonna be normal.
+
+01:10.050 --> 01:15.040
+Normal size computer size whatever you want to call it.
+
+01:15.120 --> 01:19.080
+This one is gonna be tablet.
+
+01:20.550 --> 01:23.320
+And this one is gonna be smartphone
+
+01:29.580 --> 01:36.520
+and this one we're gonna do landscape.
+
+01:37.350 --> 01:37.710
+OK.
+
+01:37.710 --> 01:40.770
+We can do media queries for both width and height.
+
+01:41.100 --> 01:45.200
+So let's save this and let's open this up with a live server.
+
+01:45.330 --> 01:46.740
+So that's what it's going to look like.
+
+01:46.740 --> 01:53.650
+Now we're gonna put all of our CSX up in the head area just for convenience usually it would be on us
+
+01:53.730 --> 02:00.420
+in a separate CSX file and I'm going to add some core styles for the body.
+
+02:00.420 --> 02:09.560
+So let's just add a better font family we'll do aerial and let's do a background of gray.
+
+02:09.570 --> 02:15.690
+I'm just going to use color names just for convenience because what I want to happen is I want to have
+
+02:15.690 --> 02:20.690
+a different background color for each device or each of these divs here.
+
+02:20.820 --> 02:22.380
+So let's see what else.
+
+02:22.380 --> 02:23.790
+Let's align to the center
+
+02:27.680 --> 02:32.680
+and let's do a padding top of 100 pixels.
+
+02:32.780 --> 02:33.080
+All right.
+
+02:33.080 --> 02:34.170
+So we'll save that.
+
+02:34.520 --> 02:36.070
+It's going to look like this.
+
+02:36.380 --> 02:43.420
+Now as far as testing your your media queries and breakpoints you can resize the browser.
+
+02:43.450 --> 02:44.300
+OK that'll work.
+
+02:44.300 --> 02:46.730
+It'll update in real time.
+
+02:46.730 --> 02:53.540
+Another way to do it and a way that you should definitely do it even if you test to begin with with
+
+02:53.540 --> 02:58.400
+the browser you should always check them out with the chrome tools so I'm going to open up my chrome
+
+02:58.400 --> 03:00.140
+tools and hit this icon here.
+
+03:00.140 --> 03:06.320
+This is the device toolbar and this actually allows you to test your web page on different devices as
+
+03:06.320 --> 03:11.200
+you can see the iPhone X we have iPhone 6 7 8 plus 6 7 8.
+
+03:11.210 --> 03:18.650
+Even the 5 which you can see is much smaller pixel to excel pixel to galaxy and then we also have the
+
+03:18.740 --> 03:24.950
+iPad so you can test for tablets before the iPad Pro which is basically the same with us as a laptop
+
+03:24.980 --> 03:26.250
+would be.
+
+03:26.250 --> 03:29.400
+But we do we can test with that as well.
+
+03:29.540 --> 03:36.680
+So I usually test mostly with the iPhone 6 7 8 and the iPhone X but yeah.
+
+03:36.680 --> 03:43.010
+This is you're going to see some things here that you won't notice if you just use the browser because
+
+03:43.010 --> 03:48.890
+of the height in the browser you have a much bigger height than you do on actual smart so you don't
+
+03:48.890 --> 03:51.660
+get a real look at what it looks like on a smartphone.
+
+03:52.190 --> 03:59.510
+But I'm going to close this for now by clicking the icon again and we're going to go back in here and
+
+03:59.510 --> 04:04.660
+inside my my CSX usually this would be in a separate file but I can do it here as well.
+
+04:04.670 --> 04:07.000
+I'm going to add my first media query.
+
+04:07.160 --> 04:14.080
+So we do this by doing at media some parentheses and then inside here we can put a max width or amend
+
+04:14.210 --> 04:22.280
+with or max height or I mean height but I'm going to do max width and set it to 500 pixels and then
+
+04:22.280 --> 04:24.280
+we open up some curly braces.
+
+04:24.290 --> 04:30.850
+Now another thing I want to show you here in the device is it shows you the width and the height.
+
+04:31.130 --> 04:38.840
+OK so an iPhone X has a width of 375 pixels for Levin galaxy is 360.
+
+04:38.840 --> 04:40.810
+Notice that they're all under 500.
+
+04:40.810 --> 04:44.950
+So that's usually what I use for smartphones.
+
+04:45.050 --> 04:55.760
+So I'm going to go right here and say smartphones and let's take the body and let's change the background
+
+04:56.360 --> 04:57.510
+to red.
+
+04:57.520 --> 04:57.790
+OK.
+
+04:57.800 --> 04:59.590
+By default it's gray.
+
+04:59.600 --> 05:04.060
+I should say the core style or the default styling is gray.
+
+05:04.070 --> 05:11.090
+But as you can see when we test on an iPhone X or any of these devices it's red and I can close this
+
+05:11.090 --> 05:17.680
+up and just drag the browser make it smaller once it hits 500 it turns red.
+
+05:18.340 --> 05:18.560
+OK.
+
+05:18.740 --> 05:23.450
+And you can also do a min with if I do mean with it's going to do the opposite.
+
+05:23.470 --> 05:27.680
+It's going to be red until I hit 500 pixels.
+
+05:27.680 --> 05:35.030
+Now when you do mobile first design usually you'll put you'll do all your base styling as as you would
+
+05:35.030 --> 05:39.450
+on a mobile screen and then you add your men width for larger screens.
+
+05:39.450 --> 05:44.550
+OK but we'll get into that later but I'm going to put this back to Max.
+
+05:45.080 --> 05:51.570
+So the other thing that I want to do is only display the heading for that screen size.
+
+05:51.650 --> 05:57.700
+So by default I'm going to set each one all age ones to have a display of none.
+
+05:57.790 --> 05:58.130
+OK.
+
+05:58.220 --> 06:00.290
+Which will make them just disappear completely.
+
+06:00.290 --> 06:07.360
+So we'll save that and then down in our media query for our smartphone for 500 pixels or less.
+
+06:07.420 --> 06:15.950
+I'm going to target the I.D. smartphone each one and I'm going to set the display to its normal value
+
+06:15.950 --> 06:17.300
+of block.
+
+06:17.420 --> 06:18.080
+And there we go.
+
+06:18.080 --> 06:23.600
+So now it only displays when it's 500 pixels or less.
+
+06:23.600 --> 06:23.920
+OK.
+
+06:23.920 --> 06:25.700
+Now let's add another one for tablet.
+
+06:25.700 --> 06:36.580
+I'm going to just copy this whole thing here and let's add tablets and usually a tablet is around 768.
+
+06:36.590 --> 06:39.050
+That's a common break point for tablets.
+
+06:39.050 --> 06:47.060
+I'm going to set this to blue and let's grab the I.D. of tablet and display the H1.
+
+06:47.120 --> 06:47.480
+All right.
+
+06:47.480 --> 06:54.440
+Now notice that even though we're under five hundred pixels this is still applying because always said
+
+06:54.440 --> 06:57.040
+was the max width of 768.
+
+06:57.200 --> 06:59.360
+And that includes five hundred and less.
+
+06:59.360 --> 07:01.100
+So anything under 768.
+
+07:01.100 --> 07:07.110
+So if we wanted to target everything under 768 we could just do this.
+
+07:07.190 --> 07:13.700
+There's not even any need for this but if we want a different style for smartphones and then something
+
+07:13.700 --> 07:17.650
+different for tablets what we would do is a mini width.
+
+07:17.700 --> 07:19.460
+Next we're going to go right here.
+
+07:19.760 --> 07:31.110
+Open up another set of curly braces and say men with do 5 0 1 pixels and a max width of 768.
+
+07:31.670 --> 07:40.330
+So if I save that now when I get down to 500 notice it goes back to red it just shows the styling because
+
+07:40.330 --> 07:43.990
+this media query is 5 0 1 to 5 2.
+
+07:43.990 --> 07:45.610
+I'm sorry 768.
+
+07:47.290 --> 07:48.630
+OK.
+
+07:48.790 --> 07:58.470
+Another thing I want to mention is that you might you might sometimes see this at media only screen
+
+07:59.480 --> 08:02.460
+and and then the max or min with or whatever.
+
+08:02.470 --> 08:06.040
+Now the reason for this is because screen is one of the media types.
+
+08:06.040 --> 08:10.220
+There's screen print and I believe speech.
+
+08:10.270 --> 08:14.850
+And sometimes you'll see this and it just means this only applies to screens.
+
+08:14.890 --> 08:19.930
+I usually leave this off because the default is all so it will show for it doesn't matter the media
+
+08:19.930 --> 08:27.190
+type but if you see this it just means that it's only four screens all right so let's move on here let's
+
+08:27.190 --> 08:27.590
+do that.
+
+08:27.630 --> 08:29.340
+The normal size.
+
+08:30.050 --> 08:37.410
+So going to copy this and paste that in and let's change the values here.
+
+08:37.870 --> 08:40.400
+So this ends at 768.
+
+08:40.420 --> 08:47.070
+So let's do a min width of seven sixty nine and we'll go to let's say twelve hundred.
+
+08:48.270 --> 08:55.110
+I'm going to set the green are the background to green and then I only want the normal I.D. H1 to show
+
+08:55.140 --> 08:56.450
+so I'll save that.
+
+08:56.550 --> 09:05.390
+And now from seven sixty nine to twelve hundred we get that green normal we hit 768 tablet we had 500
+
+09:05.720 --> 09:07.100
+Smartphone.
+
+09:07.270 --> 09:07.590
+All right.
+
+09:07.590 --> 09:10.010
+And then finally let's do the widescreen.
+
+09:10.020 --> 09:17.750
+So I'm just gonna paste this in again and we'll see a wide screen and four wide screen.
+
+09:17.760 --> 09:23.350
+I'm just gonna do anything above twelve hundred or twelve twelve hundred and one I should say.
+
+09:23.460 --> 09:25.380
+So we don't need a range.
+
+09:25.380 --> 09:37.070
+We can simply do men with 12 or 1 and we can just get rid of this and let's make it black and the I.D.
+
+09:37.090 --> 09:47.590
+of wide screen So now once they hit twelve or one we get wide screen and it's gonna it's gonna stay
+
+09:47.590 --> 09:50.370
+like that as large as I go.
+
+09:50.700 --> 09:51.020
+OK.
+
+09:51.030 --> 09:55.540
+So as you can see we're just hitting breakpoints and then those styles are kicking in.
+
+09:55.540 --> 10:00.610
+Now usually you're not going to have all of these you're not going to have separate styles for every
+
+10:00.610 --> 10:08.650
+single device but you might for instance have floats on your normal you know you might have two sections
+
+10:08.650 --> 10:11.020
+that are float floated left and right.
+
+10:11.080 --> 10:17.080
+Or better yet the Flex will use flex in the grid system later on but then when you get to smaller screens
+
+10:17.320 --> 10:22.570
+you want them to be on top of each other because it looks ridiculous floated like that on very small
+
+10:22.570 --> 10:28.210
+screens so you would add a media query for a mobile device and just set the float to none.
+
+10:28.510 --> 10:31.570
+And that's exactly what we're gonna do in our hotel website.
+
+10:31.810 --> 10:34.270
+But this is the syntax for media queries.
+
+10:34.480 --> 10:42.880
+So let's test this out in the device toolbar So I'm to open up my chrome tools and hit the device toolbar.
+
+10:42.880 --> 10:49.950
+So any smartphone should just be read because they're all under 500 pixels wide.
+
+10:50.320 --> 10:58.210
+And then if I go to the iPad we get the tablet as you can see it's seven sixty eight and then I Pad
+
+10:58.210 --> 11:06.220
+Pro is gonna be normal because it's 10 24 OK in an iPad Pro is pretty wide it's it's pretty much like
+
+11:06.220 --> 11:08.360
+a laptop OK.
+
+11:08.410 --> 11:16.030
+Now for landscape what we would do is probably set a height because actually let me make this a little
+
+11:16.030 --> 11:22.480
+bigger because if we hit this icon here let's go back to iPhone and we'll hit that and it shows this
+
+11:22.480 --> 11:26.230
+landscape and the width is 812.
+
+11:26.250 --> 11:34.960
+So it falls into normal but let's add another one here just copy this
+
+11:37.650 --> 11:44.760
+and say you'll change this landscape let's do a max
+
+11:47.160 --> 12:01.940
+height of 500 pixels and we're gonna change the background to Orange and let's say landscape H1 and
+
+12:01.940 --> 12:02.870
+we'll save that.
+
+12:03.410 --> 12:09.200
+And now notice that it's orange we get in landscape it's also going to show normal because of the width.
+
+12:09.360 --> 12:09.730
+OK.
+
+12:09.750 --> 12:13.100
+It's it's also whatever we have for the width still applies.
+
+12:13.100 --> 12:15.660
+We're just adding some for the height as well.
+
+12:15.680 --> 12:16.040
+All right.
+
+12:16.040 --> 12:22.220
+And if this is confusing don't worry about it just like anything else that that may have confused you
+
+12:22.220 --> 12:25.180
+we're going to we're going gonna touch on all of this stuff as we move along.
+
+12:25.190 --> 12:25.780
+So you're going to.
+
+12:25.810 --> 12:29.000
+It's going to make sense it's going to click OK.
+
+12:29.050 --> 12:33.590
+So the last thing I want to show you is that we can actually have separate style sheets as our media
+
+12:33.590 --> 12:37.570
+query if you don't want to embed the media query into a style sheet.
+
+12:37.580 --> 12:40.730
+You can have a separate one so just for an example.
+
+12:40.730 --> 12:43.490
+I'm going to create a new file.
+
+12:43.490 --> 12:46.310
+I'm actually going to delete this after which is to show you.
+
+12:46.310 --> 12:56.360
+We could do like let's say a style she called Mobile dot CSX and go up to the head and just like we
+
+12:56.360 --> 13:05.330
+add any style sheet we could use a link tag Rel style sheet and we can point to mobile dot CSX.
+
+13:05.330 --> 13:14.510
+Now right now it'll always load that style sheet but we can actually add a media attribute and in our
+
+13:14.510 --> 13:25.010
+media attribute we're gonna say screen and and then open some parentheses and let's do a max width of
+
+13:25.110 --> 13:28.270
+768 pixels.
+
+13:28.280 --> 13:35.290
+Now what this is going to do is it's only going to load this style sheet if the screen is 768 or less.
+
+13:35.300 --> 13:37.760
+So basically a tablet or less.
+
+13:37.760 --> 13:39.650
+Otherwise it's not going to load.
+
+13:39.710 --> 13:44.840
+Now you always want to have this after your main style sheet.
+
+13:44.840 --> 13:48.040
+In fact this isn't even going to do what I want because our style.
+
+13:48.200 --> 13:59.280
+It's down here so I'm going to move this below are style tags so we'll go right here because you want
+
+13:59.280 --> 14:06.600
+your main styling up here and then down here we have our mobile so in our mobile CSX.
+
+14:06.720 --> 14:07.590
+Where is it.
+
+14:07.710 --> 14:08.510
+Right here.
+
+14:08.610 --> 14:19.380
+I'm going to actually take the body and I'm going to add a background of pink so once I save that once
+
+14:19.380 --> 14:23.100
+I hit 768 notice that it's pink.
+
+14:23.520 --> 14:31.380
+And it doesn't matter if it's tablet or smartphone because I said it to 768 and it's after the rest
+
+14:31.380 --> 14:32.180
+of our styling.
+
+14:32.190 --> 14:34.690
+So it's going to take precedence.
+
+14:34.690 --> 14:37.410
+OK but yeah you can do that as well.
+
+14:37.410 --> 14:47.280
+I'm actually going to delete the that mobile CSX and then I'm just going to comment out the link to
+
+14:47.280 --> 14:50.450
+it just so you have it as a reference.
+
+14:50.460 --> 14:50.760
+All right.
+
+14:50.790 --> 14:55.800
+So let's media queries and like I said we're going to get more into them but before we do that I want
+
+14:55.800 --> 15:03.750
+to take a look at certain relative units in CSX such as REM am as well as viewport heights and viewport
+
+15:03.780 --> 15:04.680
+widths.
+
+15:04.680 --> 15:04.980
+All right.
+
+15:04.980 --> 15:06.390
+So I'll see you in the next video.

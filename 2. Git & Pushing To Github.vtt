@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.450 --> 00:00.750
+All right.
+
+00:00.780 --> 00:07.580
+So now we're going to do is initialize a get repository and push it to get hub dot com.
+
+00:07.620 --> 00:10.740
+So I have my news grid Web site right here.
+
+00:10.740 --> 00:16.960
+So if I open it up and they open up the index each time all we have the Web site that we built in the
+
+00:17.370 --> 00:19.260
+was the last section.
+
+00:19.440 --> 00:25.920
+And what we need to do is open this folder up inside of a terminal or a command line which is basically
+
+00:25.920 --> 00:27.080
+the same thing.
+
+00:27.120 --> 00:32.430
+Now if you're on Windows and you downloaded get which you should have you should be able to right click
+
+00:32.490 --> 00:41.400
+and say open with a get bash or if you want you can say open with the Gates is open with command line.
+
+00:41.460 --> 00:50.940
+If not then just go down to the windows icon and just type in inside the run text box type in C D and
+
+00:50.940 --> 00:53.370
+you'll get your command line open.
+
+00:53.370 --> 00:55.980
+Now if you're on a Mac you'll use your terminal.
+
+00:56.580 --> 01:03.120
+If you can't find where it is just go to the search up in the top right and type in terminal and hit
+
+01:03.150 --> 01:06.090
+enter and your terminal should open like that.
+
+01:06.090 --> 01:10.950
+Now you're going to have to be in the news grid sites if you right click and you say open with get bash
+
+01:10.950 --> 01:12.730
+you'll be already be in there.
+
+01:13.140 --> 01:18.030
+But for me in my home directory now my project is on my desktop.
+
+01:18.060 --> 01:25.340
+If I do an L S command and by the way I do have a command line crash course on YouTube as well.
+
+01:25.470 --> 01:31.650
+But if I do an atlas it shows me all the folders that are in here and you can see that desktop is is
+
+01:31.650 --> 01:37.720
+in here so I'm going to see D which means change directory into desktop.
+
+01:38.070 --> 01:38.460
+OK.
+
+01:38.460 --> 01:42.020
+Now if I do another alas it shows me everything that's on my desktop.
+
+01:42.060 --> 01:46.770
+I want to see these into my news grid Web site or folder.
+
+01:46.770 --> 01:51.210
+And if I do an L s you can see all the files that we have that we created.
+
+01:51.210 --> 01:58.740
+Now to initialize a get repository locally and you should first actually check to see if you have get
+
+01:58.770 --> 02:03.870
+so do get dash dash version and it should show you a virgin.
+
+02:03.870 --> 02:04.320
+OK.
+
+02:04.320 --> 02:05.430
+And I'm going to clear this up.
+
+02:05.430 --> 02:09.160
+We can clear this up with control Al or it might be.
+
+02:09.220 --> 02:09.440
+Yeah.
+
+02:09.450 --> 02:15.060
+Command and Control Al and then we're gonna do get init.
+
+02:15.120 --> 02:15.410
+OK.
+
+02:15.420 --> 02:18.600
+So this will initialize a get repository.
+
+02:18.660 --> 02:22.630
+What it does is it creates a hidden folder called dot get.
+
+02:22.680 --> 02:24.750
+If I do an L S we don't see it.
+
+02:24.750 --> 02:31.290
+However if I do l s and I add the dash a flag that means that it's going to show everything even hidden
+
+02:31.290 --> 02:32.760
+hidden files and folders.
+
+02:32.790 --> 02:36.770
+And now you can see that there is actually a dot get folder here.
+
+02:36.920 --> 02:37.960
+All right.
+
+02:37.980 --> 02:44.850
+Now we need to we need to add our files to our Get repository.
+
+02:44.850 --> 02:51.960
+So I'm going to go ahead and say Get add and instead of doing right writing out every file we can simply
+
+02:51.960 --> 02:53.010
+put a dot.
+
+02:53.010 --> 02:58.950
+That means get add all OK I'm going to run that and it's going to add it to what's called the staging
+
+02:58.950 --> 02:59.970
+area.
+
+02:59.970 --> 03:00.290
+All right.
+
+03:00.420 --> 03:06.450
+If we want to see what's in that staging area we can say get status and you'll see all of our files
+
+03:06.450 --> 03:08.200
+our images everything.
+
+03:08.220 --> 03:09.960
+So they're in the staging area.
+
+03:09.960 --> 03:17.780
+And now I want to commit them to our local repository so to do that we say get commit and we're going
+
+03:17.780 --> 03:19.820
+to put a dash M flag here.
+
+03:19.830 --> 03:26.430
+And then inside of quotes just put a comment as to to what what we did what is this commit about.
+
+03:26.430 --> 03:30.010
+So we're going to say initial commit since this is our first one.
+
+03:30.850 --> 03:31.150
+OK.
+
+03:31.170 --> 03:36.320
+So once we do that all of those files get committed to our local repository.
+
+03:36.330 --> 03:41.100
+Now what we want to do is take that local repository and push it to get hub dot com.
+
+03:41.160 --> 03:43.680
+So let's head over to get hub.
+
+03:43.680 --> 03:48.750
+Now once you sign up and you log in you'll see something like this and you just want to go up to the
+
+03:48.750 --> 03:51.900
+plus sign and say new repository.
+
+03:51.900 --> 03:52.190
+All right.
+
+03:52.200 --> 03:58.620
+And then right here you want to put your repository name so I'm going to say news grid and you can put
+
+03:58.620 --> 03:59.840
+a description if you want.
+
+03:59.840 --> 04:06.500
+We'll just say I don't know I'm just going to say sample Web site.
+
+04:06.570 --> 04:14.450
+Now here you can choose public or private and private repositories were premium for a long long time.
+
+04:14.460 --> 04:17.880
+But I believe that they just made them free.
+
+04:17.880 --> 04:23.190
+Microsoft actually acquired GitHub and I believe they made private depositories free.
+
+04:23.340 --> 04:29.550
+And what that means is that if they're private other people can't see them unless you invite them.
+
+04:29.610 --> 04:30.760
+If it's public.
+
+04:30.780 --> 04:34.130
+Other people will be able to see all your code.
+
+04:34.410 --> 04:39.420
+So you know this is a place for public repositories for open source code.
+
+04:39.420 --> 04:40.960
+I'm going to choose private.
+
+04:41.040 --> 04:42.840
+You guys can choose public if you want.
+
+04:42.840 --> 04:48.540
+I just choose private because I have quite a few followers and this is a repository that I'm not going
+
+04:48.540 --> 04:49.020
+to keep.
+
+04:49.020 --> 04:52.010
+So I don't want people to see it and stuff like that.
+
+04:52.010 --> 04:57.590
+So I'm just going to choose private and then I'm going to say create repository.
+
+04:57.610 --> 04:57.850
+All right.
+
+04:57.880 --> 05:03.190
+Now this pretty much gives us instructions on how to push to get hub.
+
+05:03.430 --> 05:08.770
+But there's a couple of things that we don't need like we don't need a read me file but we did already
+
+05:08.770 --> 05:10.040
+did this get in it.
+
+05:10.090 --> 05:12.870
+We already add it all up for all of our files.
+
+05:12.880 --> 05:15.440
+Like I said we don't need to read me so we're not going to do that.
+
+05:15.580 --> 05:17.190
+And then we did our commit.
+
+05:17.190 --> 05:17.450
+OK.
+
+05:17.500 --> 05:18.640
+We did get commit.
+
+05:18.640 --> 05:20.620
+Dash M initial commit.
+
+05:20.620 --> 05:23.770
+Now we need to add this as our remote repository.
+
+05:23.770 --> 05:29.140
+Now if we use this right here if we use SSA which is what's being used you'll need to create what are
+
+05:29.140 --> 05:34.900
+called SSA keys which make it so that you don't have to log in every time you push to get hub which
+
+05:34.900 --> 05:39.640
+is something you probably want to look into but I'm not going to do that here I'm actually going to
+
+05:39.640 --> 05:45.870
+choose H GDP s so I'm going to click this right here and then I'm going to grab this command.
+
+05:45.940 --> 05:51.460
+So I'm going to control c I'm going to copy it copy it and then I'm going to paste it in here and run
+
+05:51.460 --> 05:57.460
+it and then we want to grab this get push dash you origin master.
+
+05:57.460 --> 06:02.260
+So basically we're just saying we want to push to the master branch because and get you can have different
+
+06:02.260 --> 06:03.730
+branches.
+
+06:03.730 --> 06:09.370
+And that's something that you'll learn about later but we're gonna go ahead and copy that command and
+
+06:09.370 --> 06:16.560
+put that in here and it's going to push to get hub case.
+
+06:16.660 --> 06:23.760
+Now if I go back and I reload you can see all of our files all of our age team all files are I icon
+
+06:24.090 --> 06:29.790
+this DSA store I probably shouldn't have pushed but I didn't want to get into the whole get ignore file
+
+06:29.790 --> 06:30.300
+and all that.
+
+06:30.300 --> 06:31.640
+I want to keep this very basic.
+
+06:31.650 --> 06:34.430
+So I mean it's not going to hurt anything to have this file.
+
+06:34.530 --> 06:36.210
+And if you're on Windows you won't have this.
+
+06:36.210 --> 06:37.940
+This is a Mac thing.
+
+06:38.080 --> 06:39.610
+Then we have our CSX.
+
+06:39.660 --> 06:47.360
+We can even look at our code in GitHub but our news good Web site is now a repository is now on github.
+
+06:48.120 --> 06:56.010
+So in the next video what I want to do is go to nettled Fi and deploy it basically take this this repository
+
+06:56.280 --> 07:02.550
+and deploy it to nullify so that we can actually view it in the browser it'll give us very strange domain
+
+07:02.550 --> 07:05.960
+name at first and then we'll add our own custom domain.

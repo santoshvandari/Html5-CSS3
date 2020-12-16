@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.390 --> 00:00.630
+All right.
+
+00:00.630 --> 00:06.680
+So before we get into CSX properties and stuff like that I want to take a break from from the East Coast
+
+00:06.850 --> 00:10.080
+and just go into Google and take a look at the dev tools.
+
+00:10.080 --> 00:15.870
+Now if you're not using Google if you're using Firefox or Safari those also have developer tools and
+
+00:15.870 --> 00:20.250
+they have all they can do all this stuff we're gonna do in this video you just might have to look up
+
+00:20.520 --> 00:24.240
+the shortcut to get to them or the menu item to get to them.
+
+00:24.240 --> 00:27.120
+So in Chrome if you're on Windows you can hit F 12.
+
+00:27.120 --> 00:28.880
+That should open them if you're on a Mac.
+
+00:28.890 --> 00:34.750
+You can do option option command I and that will also open them.
+
+00:34.830 --> 00:40.590
+And it's also in the menu so if you go up here and you go to more tools I know you guys can't see it
+
+00:40.620 --> 00:46.020
+but off to the right there's a developer tools option and I can click that and that will also open them
+
+00:46.020 --> 00:46.980
+up.
+
+00:46.980 --> 00:52.770
+So there's a lot of tabs here and this did they're very powerful we can see network connections we have
+
+00:52.770 --> 00:56.160
+a javascript console there's all types of stuff we can do here.
+
+00:56.250 --> 01:01.470
+But what we want to focus on is the elements tab and what this does is it shows us all the age.
+
+01:01.470 --> 01:03.510
+Tim Allen assets for the page.
+
+01:03.510 --> 01:07.950
+And by the way if you want to make this bigger or smaller you can hit control plus to make it bigger
+
+01:07.980 --> 01:10.480
+or control minus to make it smaller.
+
+01:10.500 --> 01:17.130
+Also if you want it to dock on the side you could hit a guy like that or the other side or you could
+
+01:17.130 --> 01:18.450
+even undock it.
+
+01:18.480 --> 01:23.870
+This will undock it and put it in a separate window I just I usually like to have it on the bottom.
+
+01:23.880 --> 01:26.730
+But anyways this is the H team all over here.
+
+01:26.730 --> 01:28.300
+This is the CSX.
+
+01:28.320 --> 01:33.990
+Now notice when I hover over something like the body it actually highlights everything that's in the
+
+01:33.990 --> 01:38.830
+body if I hover over the div with the idea of welcome it hovers over that.
+
+01:39.180 --> 01:45.840
+If I on collapses and I go over the H to paragraph so whatever I hover over it's going to highlight
+
+01:45.930 --> 01:51.840
+in the browser and then if we want to select something we can go ahead and hit the select tool.
+
+01:51.840 --> 01:54.890
+So it turned blue and then let's say I want to look at the H.
+
+01:54.890 --> 02:02.130
+Tim Allen CSX for this welcome this H too right here I can click that and notice that it's now highlighted
+
+02:02.130 --> 02:04.800
+down here and it also shows me the CSX.
+
+02:05.220 --> 02:12.630
+So it shows me the H to CSX and the class of primary heading because that's a class that's actually
+
+02:12.630 --> 02:14.010
+on this element.
+
+02:14.040 --> 02:20.820
+Now we didn't put any of this H to stuff in here the font size display block there's some margin here.
+
+02:20.820 --> 02:24.810
+Font weight bold this is default browser styling.
+
+02:24.900 --> 02:29.520
+Every browser has default styling for the most part it's that it's pretty much the same.
+
+02:29.730 --> 02:35.790
+And the way that we can tell this is but from the browser is right here user agent style sheet K by
+
+02:35.790 --> 02:42.240
+user age and it basically means the browser that you're using this here this styling is coming from
+
+02:42.300 --> 02:44.220
+our selectors each team I'll file.
+
+02:44.220 --> 02:51.000
+Now usually this will be a CSX file because like I said usually we use external CSX files and you'll
+
+02:51.000 --> 02:55.640
+see that when we start getting into projects but it's just going to give us whatever the file name the
+
+02:55.660 --> 02:57.980
+CSX is located in.
+
+02:58.000 --> 02:58.380
+All right.
+
+02:58.380 --> 03:02.180
+Now we can actually change stuff here too temporarily.
+
+03:02.190 --> 03:09.960
+So this welcome tech right here if I wanted to change this to say hello and then click somewhere else
+
+03:09.960 --> 03:12.130
+to see the text actually changes.
+
+03:12.150 --> 03:15.870
+I can also like I can change this if I want to.
+
+03:16.020 --> 03:24.180
+I don't know other class and now you'll see that it's no longer blue because it doesn't have the primary
+
+03:24.180 --> 03:25.320
+heading class.
+
+03:25.380 --> 03:27.880
+The primary heading is where that blue came from.
+
+03:28.560 --> 03:29.440
+OK.
+
+03:29.760 --> 03:38.430
+Now what's cool is you can do this with any site like if we go to Google dot com and we open up our
+
+03:39.390 --> 03:41.190
+tools here.
+
+03:41.190 --> 03:47.700
+And what I want to do is click the Select Select eye icon and then this button right here.
+
+03:47.700 --> 03:49.650
+So this is actually an input.
+
+03:49.650 --> 03:55.530
+It has the type of submit member we we learned about this stuff in the in the last section and the value
+
+03:55.530 --> 03:56.830
+is I'm feeling lucky.
+
+03:56.850 --> 04:02.640
+So if I double click this I can change this to whatever and say I'm feeling awesome and you might want
+
+04:02.640 --> 04:07.190
+to have some fun with this and noticed that it's changed now in the browser.
+
+04:07.200 --> 04:11.140
+Now it hasn't changed on Google's servers so other people can see it.
+
+04:11.150 --> 04:13.770
+It's only locally to our browser.
+
+04:13.980 --> 04:17.040
+And if we reload the page it goes back to normal.
+
+04:17.100 --> 04:24.720
+So if we wanted to change some CSX let's go up here and let's click on the body that gives us the CSX
+
+04:24.720 --> 04:25.370
+of the body.
+
+04:25.380 --> 04:28.850
+Let's say we wanted to change the background here which is white.
+
+04:28.860 --> 04:30.900
+This is hexadecimal for white.
+
+04:30.930 --> 04:32.590
+Let's change it to red.
+
+04:32.610 --> 04:36.480
+So now we have a red body can change the color here to White.
+
+04:38.010 --> 04:42.180
+And notice the text up here is not white because this has its own styling.
+
+04:42.180 --> 04:47.800
+So if I click the select tool and let's click one of these links right here.
+
+04:47.820 --> 04:49.620
+Notice the color is black.
+
+04:49.660 --> 04:52.370
+So I'm going to select that and change it to white.
+
+04:52.380 --> 04:53.870
+And now these links are white.
+
+04:54.430 --> 04:54.740
+OK.
+
+04:54.750 --> 04:58.330
+So you can really have some fun here you could replace the image link if you want.
+
+04:58.340 --> 05:02.360
+What's and mean to do that but yes he now goes back to normal.
+
+05:02.430 --> 05:04.010
+But you could change a whole bunch of stuff.
+
+05:04.020 --> 05:07.350
+You can add content and it's only local to your machine.
+
+05:07.350 --> 05:13.090
+No one else sees it obviously that the Internet would be a crazy place if you could just edit any one
+
+05:13.090 --> 05:18.770
+site but it is kind of fun to mess with and you can learn a lot from doing stuff like that.
+
+05:18.780 --> 05:19.110
+All right.
+
+05:19.140 --> 05:25.380
+So I just wanted to kind of introduce you to the the chrome tools the developer tools and we will be
+
+05:25.380 --> 05:28.720
+using these more as we go along in the course.
+
+05:28.740 --> 05:31.730
+So in the next video we're going to start to look at fonts.
+
+05:31.740 --> 05:33.750
+I want to look at different font families.
+
+05:33.750 --> 05:38.040
+I want to talk about Web save fonts and we'll also look at colors.
+
+05:38.130 --> 05:38.370
+All right.
+
+05:38.380 --> 05:39.660
+So I'll see you in the next video.

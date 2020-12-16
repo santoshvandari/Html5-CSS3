@@ -1,0 +1,520 @@
+WEBVTT
+
+00:00.320 --> 00:03.770
+All right guys so now we're gonna get to the fun part which is the timeline.
+
+00:03.780 --> 00:07.180
+So let's go to our style dot CSX.
+
+00:07.230 --> 00:16.050
+And let's start off with the timeline you well so we'll see timeline you Al and it's not much.
+
+00:16.200 --> 00:27.890
+We just want to add the background it's a background which is going to be the primary color.
+
+00:28.830 --> 00:35.850
+OK so we'll save that and we see no difference there but I just want to add that and then padding.
+
+00:35.880 --> 00:39.420
+We're going to do 50 pixels top and bottom zero left and right.
+
+00:39.420 --> 00:42.380
+So we just move that down a little bit.
+
+00:42.570 --> 00:54.630
+Now for the list items to timeline you well ally and we want to set the list style to none.
+
+00:54.960 --> 01:00.960
+So make sure there's no bullet points and then we want to position this relative.
+
+01:01.320 --> 01:01.770
+OK.
+
+01:01.770 --> 01:05.870
+And the reason for that is we're gonna position some of the stuff inside of it.
+
+01:05.880 --> 01:06.510
+Absolute.
+
+01:06.510 --> 01:08.370
+So we want to make sure this is relative.
+
+01:08.520 --> 01:14.740
+And then we're gonna set the with two six pixels and we're gonna.
+
+01:14.760 --> 01:22.230
+And you'll see why in a little bit we're gonna set the margin 0 auto that pushes it into the middle
+
+01:23.220 --> 01:31.030
+and then we're going to say some give it some padding top of let's do 50 pixels.
+
+01:31.110 --> 01:33.810
+So for each list item and then the background
+
+01:36.480 --> 01:39.340
+we're gonna do white.
+
+01:40.700 --> 01:41.300
+OK.
+
+01:41.400 --> 01:50.310
+So what we've done here is we've created our line as you can see which is US has a width of six pixels.
+
+01:50.310 --> 01:56.370
+Now the boxes that are going to be coming off the sides are actually going to be the divs.
+
+01:56.580 --> 01:56.880
+OK.
+
+01:56.880 --> 02:00.830
+So if you look at our team all inside the ally we have the divs.
+
+02:00.930 --> 02:03.240
+So those are gonna be the the boxes.
+
+02:03.240 --> 02:09.220
+So that's why put six pixels for the ally itself because it's basically just the line.
+
+02:09.210 --> 02:17.220
+So let's go down here let's say boxes actually right here you know what we'll do is we'll say create
+
+02:17.650 --> 02:18.240
+line
+
+02:20.740 --> 02:33.470
+and let's see we're going to take time line you l l II div and let's say position relative.
+
+02:34.870 --> 02:40.280
+And from the bottom we're gonna say 0.
+
+02:40.970 --> 02:41.300
+OK.
+
+02:41.320 --> 02:45.400
+So we're going to start from zero from the bottom and then we're gonna set the width of the initial
+
+02:45.400 --> 02:49.280
+width of the boxes to 400 pixels.
+
+02:49.280 --> 02:53.160
+OK so now we have each div is four hundred pixels wide.
+
+02:53.170 --> 03:00.520
+And we need some padding so padding will say 1 Ram gives it some padding.
+
+03:00.520 --> 03:03.580
+We also want a background.
+
+03:03.580 --> 03:06.510
+So we'll do background and let's use our secondary color.
+
+03:06.520 --> 03:13.060
+So we'll say var and let's say dash dash secondary colour and save.
+
+03:13.060 --> 03:16.890
+And now we start to see our boxes forming.
+
+03:17.110 --> 03:24.610
+Now I want to add a transition on this because ultimately if we add our javascript we'll have some animation.
+
+03:24.610 --> 03:38.620
+So we're gonna add transition all let's say zero point five seconds and let's do ease ease in out
+
+03:41.420 --> 03:46.250
+OK so that's all divs now.
+
+03:46.250 --> 03:51.050
+The way I want to do this is the right side because remember we're gonna have him on the right and the
+
+03:51.050 --> 03:57.050
+left the right side is gonna be the odd in the left side will be the even gay.
+
+03:57.050 --> 04:03.980
+Now remember we have the end child selector and we can choose odd and even so let's go down here and
+
+04:03.980 --> 04:07.970
+let's say right side.
+
+04:07.970 --> 04:19.100
+So we're going to take the time line you l l II and we want to choose the n dash child and let's take
+
+04:19.130 --> 04:25.840
+all the odd and we want the div K we want to make sure we're targeting the divs divs is what have is
+
+04:25.880 --> 04:30.860
+where the box with the padding 400 pixels wide that's the div not the ally.
+
+04:32.090 --> 04:38.880
+And then here we're gonna say from the left we want this to be 40 pixels OK.
+
+04:39.110 --> 04:44.630
+And we'll save and notice that all the odds now are 40 pixels from the left.
+
+04:44.720 --> 04:45.600
+OK.
+
+04:45.800 --> 04:54.110
+So for the left side we'll go ahead and just copy this and let's say left side we're going to choose
+
+04:54.110 --> 05:00.880
+the Evens and we're gonna say from the left we want to go.
+
+05:01.160 --> 05:06.020
+Now remember though what we're saying is from the from the middle here which is the left we want to
+
+05:06.020 --> 05:07.040
+go this way.
+
+05:07.040 --> 05:12.770
+So we're gonna do negative four hundred and thirty four pixels and save.
+
+05:12.890 --> 05:15.650
+And that's going to bring it to the other side.
+
+05:15.680 --> 05:21.620
+Now I want to have the little dots here for each item in the timeline.
+
+05:21.890 --> 05:26.810
+So let's go down here and let's say dots and the dots.
+
+05:26.810 --> 05:31.860
+It's gonna be a timeline.
+
+05:31.860 --> 05:35.150
+You l ally and we're gonna say after.
+
+05:35.150 --> 05:35.410
+OK.
+
+05:35.420 --> 05:38.890
+So we're gonna use the after pseudo selector let's say.
+
+05:38.900 --> 05:46.250
+Content nothing in position absolutes.
+
+05:46.490 --> 05:54.650
+Remember we created this this line here with the ally so we're just saying after that we want to position
+
+05:54.650 --> 06:06.600
+this absolute we want to say from the left 50 percent and we're gonna set from the bottom zero and let's
+
+06:06.600 --> 06:14.460
+set the width so the width of the dot I'm going to say 25 pixels height also twenty five pixels.
+
+06:14.460 --> 06:19.770
+Now if I save that we're not going to see it yet because there's no background it's basically just just
+
+06:20.130 --> 06:25.620
+invisible so let's say background and I'm just going to inherit.
+
+06:25.620 --> 06:27.850
+So it should be.
+
+06:27.970 --> 06:29.760
+Well actually let's.
+
+06:30.300 --> 06:32.820
+What I want to do is I want it to be white to begin with.
+
+06:32.820 --> 06:38.220
+But once the sides are once they're brought in when we use the javascript I then want it to be filled
+
+06:38.220 --> 06:38.980
+with blue.
+
+06:39.090 --> 06:43.980
+But for now are the I'm sorry not blue with the primary color but for now let's just use the primary
+
+06:43.980 --> 06:44.390
+color.
+
+06:44.940 --> 06:48.030
+So see Dash Dash primary color.
+
+06:48.210 --> 06:53.100
+And if we save it's you can see what do we want.
+
+06:53.260 --> 06:54.900
+Now we want secondary I'm sorry.
+
+06:55.200 --> 06:56.940
+You can't see it.
+
+06:57.390 --> 07:00.530
+So it's a secondary color.
+
+07:00.530 --> 07:01.450
+All right.
+
+07:01.620 --> 07:08.160
+Now I want to move it over and I also want to make it into a circle so to move it over I'm gonna add
+
+07:08.160 --> 07:15.450
+a transform because remember we can do transform translate to move it let's say translate and we want
+
+07:15.450 --> 07:17.510
+to translate on the x axis.
+
+07:17.670 --> 07:24.630
+So we're gonna use translate X and we want to bring it over negative however much to the left we put
+
+07:24.630 --> 07:27.030
+it so we put it 50 percent to the left.
+
+07:27.030 --> 07:33.450
+So we want to say negative 50 percent and save and that will bring it right smack dab in the middle
+
+07:33.960 --> 07:42.740
+and then let's make it into a circle by just simply doing border radius 50 percent and save us.
+
+07:42.750 --> 07:43.920
+There we go.
+
+07:43.920 --> 07:44.150
+Okay.
+
+07:44.180 --> 07:47.440
+So now we have our dots.
+
+07:47.610 --> 07:48.450
+Let's see.
+
+07:48.510 --> 07:54.880
+So the next thing actually yeah that's good.
+
+07:54.880 --> 07:56.350
+So let's add a transition
+
+07:58.960 --> 08:03.520
+because like I said when we add the javascript I want it to be white at first and then.
+
+08:03.550 --> 08:08.090
+And then transition to to blue.
+
+08:08.260 --> 08:10.840
+When I went to certain classes added.
+
+08:10.840 --> 08:16.720
+That's basically what the javascript is gonna do it's going to add a certain class that will do certain
+
+08:16.720 --> 08:18.330
+things like position these.
+
+08:18.370 --> 08:25.270
+So slide them in and also change the color of this but for it to do it smoothly we need to add a transition.
+
+08:25.270 --> 08:35.680
+So let's transition the background zero point five seconds and ease in out OK so let's see the next
+
+08:35.680 --> 08:40.990
+thing I want to work on is the arrows because we want little arrows pointing to the DOT and the way
+
+08:40.990 --> 08:43.860
+that we can do that is manipulating the border.
+
+08:43.870 --> 08:51.390
+OK so let's go we'll go right right down here.
+
+08:51.390 --> 08:56.030
+Now we're going to hit the arrows are going to be on the div before.
+
+08:56.030 --> 09:07.070
+So we're gonna say timeline div before and we're gonna have to we'll have some styles that will pertain
+
+09:07.070 --> 09:12.710
+to just the left and just the right because obviously the arrows will be facing a different way depending
+
+09:12.710 --> 09:19.330
+on if it's on the left or right box but we're going to add some similar styles to all of the arrows
+
+09:19.340 --> 09:27.290
+so let's say content just blank quotes and then we want to position absolute.
+
+09:27.830 --> 09:28.080
+OK.
+
+09:28.100 --> 09:34.990
+So it's gonna be positioned absolute within the div and we're gonna say let's go from the bottom five
+
+09:35.000 --> 09:36.380
+pixels up.
+
+09:36.800 --> 09:41.930
+Because we want it to be we don't want it to be right at the bottom we want it to be like up five pixels
+
+09:42.920 --> 09:53.090
+and then we're gonna set the width to zero and the height to zero because the board the arrows are gonna
+
+09:53.180 --> 09:54.620
+come from the border.
+
+09:54.640 --> 10:03.080
+OK it's gonna be just from the border with and then let's set border style to solid.
+
+10:03.530 --> 10:04.360
+OK.
+
+10:04.430 --> 10:11.340
+Now the reason I'm just doing border style here is because whether it's on the left or the right it
+
+10:11.350 --> 10:12.740
+the style is gonna be solid.
+
+10:12.740 --> 10:20.300
+However the width and the color are gonna have different properties depending on if it's on the left
+
+10:20.300 --> 10:21.280
+or the right.
+
+10:21.290 --> 10:28.130
+So let's go down here actually I'll put a comment here and I'll say arrows say arrows base
+
+10:31.410 --> 10:40.080
+and let's go down here and let's say right arrows are right side arrows.
+
+10:40.350 --> 10:46.290
+And notice if I say we have these see these little dot dots or these little squares on each side.
+
+10:46.410 --> 10:48.170
+That's what we created with this.
+
+10:48.180 --> 10:50.420
+This whole style right here.
+
+10:50.430 --> 10:54.350
+If I get rid of that and save those those squares disappear.
+
+10:54.360 --> 10:56.040
+So we've created that.
+
+10:56.040 --> 11:08.040
+Now what I want to do is grab this the odd div because that's the right side and we'll paste that in.
+
+11:08.220 --> 11:12.140
+And remember the before selector is is how we're creating these arrows.
+
+11:12.140 --> 11:18.000
+So we want to do colon before and let's move it over so we'll see from the left.
+
+11:18.000 --> 11:21.170
+Negative 15 pixels by save that.
+
+11:21.200 --> 11:30.420
+You'll see that now this has moved over and the way that we can get this to basically shaped like like
+
+11:30.450 --> 11:35.980
+a point using CSF is with the border width and border color in certain spots.
+
+11:35.970 --> 11:40.610
+So border with we can do top right bottom left.
+
+11:40.610 --> 11:51.090
+So we're gonna do eight pixels top 16 pixels right eight pixels bottom and zero left top right bottom
+
+11:51.090 --> 11:52.450
+left.
+
+11:52.620 --> 11:56.900
+And if I save that you'll see that it just gets bigger really.
+
+11:56.910 --> 12:00.540
+Now we only want to color certain certain parts of it.
+
+12:00.540 --> 12:05.110
+We want to make transparent in certain parts we want to color.
+
+12:05.110 --> 12:14.430
+So let's do border dash color and we're gonna say transparent for the first value second is gonna be
+
+12:14.430 --> 12:16.110
+the secondary color.
+
+12:16.110 --> 12:24.640
+So var secondary color and then the next two will be transparent.
+
+12:24.640 --> 12:24.980
+All right.
+
+12:24.990 --> 12:30.860
+Now if I save that it turns into an arrow guy or that's it's shaped like an arrow.
+
+12:31.050 --> 12:37.260
+And this is done with with just the border it's a solid water we give it widths on each on each side
+
+12:37.290 --> 12:45.540
+and set it to transparent except one side and we get this point effect and if we move this if we add
+
+12:45.540 --> 12:51.060
+to it like let's say bottom 25 we can move the arrow up if we want but we want it right on par with
+
+12:51.060 --> 12:51.930
+the circle.
+
+12:51.930 --> 12:53.900
+So five pixels is good.
+
+12:54.000 --> 12:55.860
+It's basically right in the middle there.
+
+12:56.070 --> 13:05.570
+And for the other side for this over here let's just copy this pace set in and say left side arrows
+
+13:05.580 --> 13:10.890
+change this to even because that's the left and we're going to set the position to be from the right
+
+13:10.890 --> 13:17.310
+15 percent 15 pixels and then we need to change this stuff up because if I save this you'll see that
+
+13:17.650 --> 13:19.990
+it's it's pointing the wrong way.
+
+13:20.010 --> 13:30.110
+So we want to change the width to be eight pixels top 0 8 pixels and then sixteen at the end.
+
+13:30.270 --> 13:30.960
+All right.
+
+13:31.080 --> 13:37.930
+So if I saved that we can't even see it because we need to change this the color pattern up.
+
+13:38.070 --> 13:43.890
+Basically we want transparent for the first three and then have the secondary color as the last value
+
+13:44.670 --> 13:46.520
+like that and save.
+
+13:46.520 --> 13:47.100
+And there we go.
+
+13:47.100 --> 13:48.760
+So now we have our arrows.
+
+13:49.520 --> 13:49.830
+OK.
+
+13:49.860 --> 13:55.320
+So it's kind of cool that you can do this kind of stuff with CSX and it's a little it's a little difficult
+
+13:55.320 --> 14:02.160
+to understand but you know you'll you'll get the hang of it as you create stuff like this more and more
+
+14:03.230 --> 14:04.140
+so.
+
+14:04.370 --> 14:05.720
+And this is kind of advanced.
+
+14:05.730 --> 14:13.400
+This is this is pretty pretty advanced SS So we have our points this looks pretty good.
+
+14:14.730 --> 14:20.040
+I think what we need to do next is make it responsive because if I make this smaller you'll see it's
+
+14:20.040 --> 14:25.530
+basically just it's just stuck in that width no matter what I do.
+
+14:25.560 --> 14:29.590
+So in the next video we're going to add some media queries and we're good just going to change a couple
+
+14:29.610 --> 14:31.980
+things up depending on the screen size.

@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.270 --> 00:00.560
+All right.
+
+00:00.570 --> 00:06.960
+So we've completed our initial each team on CSX but I want to just add a little bit of JavaScript here
+
+00:06.960 --> 00:08.380
+to make this dynamic.
+
+00:08.400 --> 00:14.920
+OK so we're going to add some lines of JavaScript in a j ust file and then we're going to edit the CSX
+
+00:14.970 --> 00:19.200
+a little bit because we need to kind of change how this works.
+
+00:19.200 --> 00:25.790
+Basically what we need to do is check to see as we scroll down we need to fire off an event that's going
+
+00:25.790 --> 00:31.560
+to check to see if a certain list item certain box here is actually in the viewport.
+
+00:31.880 --> 00:32.180
+OK.
+
+00:32.190 --> 00:36.930
+So right now the python one is not in the viewport but when I scroll down it starts to enter.
+
+00:36.930 --> 00:38.010
+It is.
+
+00:38.010 --> 00:39.290
+Now when it hits that point.
+
+00:39.290 --> 00:46.410
+We want this to basically just come in fade in from the right or from the left on this side and the
+
+00:46.410 --> 00:51.450
+way that we're going to do that is with JavaScript we're going to add dynamically add a class called
+
+00:51.450 --> 00:55.380
+show which will add a transform to to bring it in.
+
+00:55.740 --> 00:56.060
+OK.
+
+00:56.070 --> 01:01.860
+We're gonna initially hide these things at first and then the show class will allow them to basically
+
+01:01.860 --> 01:03.020
+animate in.
+
+01:03.220 --> 01:09.480
+So let's create a new file called Main dot J.S. the javascript file and I'm going to paste this code
+
+01:09.480 --> 01:10.370
+in.
+
+01:10.470 --> 01:15.450
+And again this is not a javascript course so I'm not going to explain every single line here but basically
+
+01:15.450 --> 01:21.210
+what's going on is we're grabbing onto all the timeline list items so basically each of these and we're
+
+01:21.210 --> 01:27.240
+putting it in a variable called items and then down here we have a function called Run which is looping
+
+01:27.240 --> 01:28.170
+through those items.
+
+01:28.170 --> 01:32.000
+So it's going through each one and it's checking to see if it's in the viewport.
+
+01:32.010 --> 01:34.530
+That's what this function does right here.
+
+01:34.680 --> 01:38.700
+And if it is in the viewport it's going to add the class of show.
+
+01:38.760 --> 01:39.050
+All right.
+
+01:39.060 --> 01:43.830
+So that's exactly what this does it loops through all of these list items checks to see if it's in the
+
+01:43.830 --> 01:47.180
+viewport if it is it adds the class of show.
+
+01:47.400 --> 01:49.330
+Now down here we're just firing it off.
+
+01:49.320 --> 01:52.180
+We're firing off this run when the page loads.
+
+01:52.180 --> 01:52.400
+OK.
+
+01:52.410 --> 01:57.810
+So when the page loads if anything is in the viewport it's going to just slide in also on resize so
+
+01:57.810 --> 01:59.690
+if we resize the browser it'll run.
+
+01:59.700 --> 02:01.830
+And then if we scroll it will also run.
+
+02:01.860 --> 02:06.770
+So every time something enters the viewport it should add the class of show.
+
+02:06.780 --> 02:11.820
+Now that's all javascript is doing is adding this this class of show we have to handle the rest of it
+
+02:11.820 --> 02:12.920
+in the CSX.
+
+02:12.930 --> 02:15.570
+So you can see how they work together.
+
+02:15.570 --> 02:21.360
+So let's save this file and let's go to index each team Ali make sure we include it and JavaScript files
+
+02:21.420 --> 02:25.950
+for ninety nine percent of the time you want to include them at the bottom of the page right above the
+
+02:25.950 --> 02:26.450
+body.
+
+02:26.910 --> 02:34.640
+So we're going to put a script tag and we're going to add a source attribute pointing to main dot J.S.
+
+02:34.740 --> 02:36.410
+and we'll save.
+
+02:36.630 --> 02:37.000
+OK.
+
+02:37.000 --> 02:42.630
+Now nothing is going to happen yet because all we've done is included the javascript.
+
+02:42.660 --> 02:48.520
+But I can show you if we open up our chrome tools here let's actually just make this bigger.
+
+02:48.570 --> 02:52.740
+Now I want to show you what the javascript file is actually doing.
+
+02:52.740 --> 03:00.390
+So I'm going to go to elements and if we look at our you'll notice that these allies all have a class
+
+03:00.390 --> 03:01.640
+of show.
+
+03:01.650 --> 03:01.940
+OK.
+
+03:01.950 --> 03:10.620
+So even though this this fourth one here is in the viewport it's it's it has to be fully in the viewport.
+
+03:10.620 --> 03:15.540
+So if I scroll down a little bit as soon as it's fully in the viewport notice that this class of show
+
+03:15.540 --> 03:16.740
+got added.
+
+03:16.740 --> 03:23.190
+If I keep scrolling as soon as the next one is fully in the viewport just watch over here on the right.
+
+03:23.250 --> 03:26.010
+Keep scrolling there's that one that one.
+
+03:26.010 --> 03:31.290
+So it's just it's just adding that class of show to the document object model.
+
+03:31.290 --> 03:33.380
+So it's adding that class to the ally.
+
+03:33.480 --> 03:35.880
+And that's exactly what we want the javascript to do.
+
+03:35.880 --> 03:38.280
+Now we have to handle the rest and CSX.
+
+03:38.400 --> 03:49.800
+So let's jump over to styled dot CSX and I'm going to add a couple of things in a few places so I mean
+
+03:51.120 --> 03:55.890
+by default we don't want this stuff to show unless the class of show is added to it.
+
+03:55.920 --> 03:56.250
+Right.
+
+03:56.250 --> 03:59.220
+So let's go to the div.
+
+03:59.220 --> 04:10.160
+OK so this box is the UL allied div and we want to add on here a visibility of hidden.
+
+04:10.860 --> 04:15.330
+And then we want to also add an opacity value of zero.
+
+04:15.330 --> 04:21.450
+Now when I save this and we go back everything disappears which is what we want because we'll we're
+
+04:21.520 --> 04:27.240
+going gonna make it so they only show if the class of show is on them which they are right now but we
+
+04:27.240 --> 04:30.440
+haven't added the rest of the the CSF that we need.
+
+04:31.050 --> 04:41.390
+So right here for the the right side and the left side we actually want to have these pushed over a
+
+04:41.390 --> 04:42.170
+little bit.
+
+04:42.200 --> 04:47.030
+So actually I'm going to comment what we just did out these two lines for a second because I do want
+
+04:47.030 --> 04:52.180
+these to show I'm going to just close this up so we can see both at the same time.
+
+04:52.370 --> 04:54.680
+So we'll go like right here.
+
+04:54.760 --> 04:55.150
+All right.
+
+04:55.160 --> 04:59.660
+Now for the left and right we want these to come in.
+
+04:59.700 --> 05:01.130
+You know this will come in this way.
+
+05:01.130 --> 05:02.270
+This will come in this way.
+
+05:02.270 --> 05:13.820
+So I'm going to add an initial transform value of translate and we want to say we want do we want to
+
+05:13.820 --> 05:18.440
+do 200 pixels on the x axis.
+
+05:18.440 --> 05:22.490
+Okay I guess we could do translate X but we'll just do it this way.
+
+05:22.490 --> 05:25.190
+So translate on the x axis 200 pixels.
+
+05:25.190 --> 05:34.010
+Now if I save this over here you can see that this is now pushed over two hundred pixels and we want
+
+05:34.010 --> 05:36.980
+to go to the left side.
+
+05:37.330 --> 05:41.180
+We're going to pace this in the same thing except we're gonna do negative two hundred pixels because
+
+05:41.180 --> 05:43.450
+we want it to be pulled over that way.
+
+05:43.520 --> 05:47.310
+Now once the show class hits we want these to come in.
+
+05:47.330 --> 05:54.290
+So basically we want them to go to trance transform translate 0 to bring them back.
+
+05:54.290 --> 06:03.050
+So let's add the show class we'll go I guess what we'll go right we'll go at the bottom here and we'll
+
+06:03.050 --> 06:13.610
+say show boxes we want to grab the timeline you l l ally with the class of show and then the div came
+
+06:13.640 --> 06:17.620
+remember the div is what is is the box really.
+
+06:17.720 --> 06:19.850
+So we want to set transform
+
+06:22.630 --> 06:24.900
+to none.
+
+06:24.930 --> 06:25.450
+OK.
+
+06:25.460 --> 06:32.840
+Because we set the transform to be offset on each side initially but as soon as they're shown we want
+
+06:32.840 --> 06:39.860
+them to come in to transform none which would just be you know set them to their their natural spot.
+
+06:40.310 --> 06:47.460
+So if I save this and I reload you can see that the ones that have the class of show are coming in now.
+
+06:47.600 --> 06:54.770
+We want to make these disappear so let's go back up to the visibility and opacity and let's uncommon
+
+06:54.800 --> 06:56.240
+that case.
+
+06:56.300 --> 06:59.140
+Now if we save that everything should disappear.
+
+06:59.450 --> 07:10.510
+But if we go back down to the show we want to set the visibility to visible.
+
+07:10.580 --> 07:17.140
+We also want to set the opacity to 1 which is which is just solid opaque.
+
+07:17.360 --> 07:17.650
+All right.
+
+07:17.660 --> 07:19.300
+So let's save this.
+
+07:19.640 --> 07:24.620
+And now remember that when the page loads the first three you already have the class of show because
+
+07:24.620 --> 07:30.440
+they're in the viewport and then I'm going to scroll down a little bit and as soon as the Ruby on Rails
+
+07:30.440 --> 07:32.680
+one gets in the viewport it slides in.
+
+07:32.870 --> 07:34.010
+Next one slides in.
+
+07:34.010 --> 07:35.180
+Next one slide.
+
+07:35.720 --> 07:40.370
+So what's all that's going on with the JavaScript as it's adding the class of show and then then the
+
+07:40.370 --> 07:47.720
+CSX we're saying you know initially make everything disappear but as soon as that show is added to the
+
+07:48.020 --> 07:54.320
+to the DOM here to the list item we want that div to transform none meaning come back to its original
+
+07:54.320 --> 08:00.130
+spot and also display with the visibility visible and opacity 1.
+
+08:00.140 --> 08:05.920
+Now the last thing I want to do is I want these dots here to be white by default.
+
+08:05.930 --> 08:11.140
+And then as soon as the show classes comes in then it will be blue.
+
+08:11.150 --> 08:18.460
+So let's go up to a we created the DOT which is right here we used ally after and we created the 25
+
+08:18.560 --> 08:26.250
+pixel heighten with border radius 50 percent and we have the background set to the secondary color.
+
+08:26.300 --> 08:33.140
+So what I'm going to do is I'm going to copy this background secondary color and then change this one
+
+08:33.140 --> 08:34.760
+to just inherit.
+
+08:35.760 --> 08:38.990
+OK so if I save that now they're going to be white.
+
+08:39.810 --> 08:50.160
+But down here let's go right under where we put the the Allied dots show div and we're gonna do timeline
+
+08:51.660 --> 08:57.180
+U L L I dot show and remember the after.
+
+08:57.180 --> 09:02.760
+That's where the DOT is so we're going to do after and then we'll paste in the background secondary
+
+09:02.760 --> 09:03.160
+colors.
+
+09:03.170 --> 09:10.890
+So this dot is gonna get the background of the secondary color when the show class is added so let's
+
+09:10.890 --> 09:12.090
+save.
+
+09:12.150 --> 09:14.480
+And now you can see that the first three are blue.
+
+09:14.550 --> 09:15.860
+This one down here is white.
+
+09:15.870 --> 09:19.260
+But as soon as it comes in it turns blue.
+
+09:19.260 --> 09:23.820
+All right so that's gonna be a guys hopefully you enjoyed this little project here and learn quite a
+
+09:23.820 --> 09:30.480
+bit about CSX and transitions and how to integrate it with JavaScript and don't worry if you don't understand
+
+09:30.510 --> 09:32.150
+every line of the javascript.
+
+09:32.250 --> 09:37.200
+Basically though it's just looking to see if an element if a list item is in the viewport if it is it's
+
+09:37.200 --> 09:40.560
+adding a class of show that's all the script is doing.
+
+09:40.560 --> 09:40.860
+All right.
+
+09:40.860 --> 09:41.640
+So that's it.
+
+09:41.670 --> 09:43.980
+Thanks for watching and I'll see you in the next video.

@@ -1,0 +1,610 @@
+WEBVTT
+
+00:00.320 --> 00:05.430
+All right guys so now we're gonna get started on the overlay with the list items.
+
+00:05.550 --> 00:07.430
+We have our toddler all set.
+
+00:07.560 --> 00:15.510
+So let's go down here and let's say menu wrap and let's style the menu class itself.
+
+00:15.570 --> 00:29.880
+So we're going to position this to fixed and set it to top 0 left 0 and set the width to 100 percent.
+
+00:29.880 --> 00:31.260
+We want to go all the way across.
+
+00:31.260 --> 00:34.500
+We also want to be 100 percent up and down.
+
+00:34.500 --> 00:36.730
+So basically like an overlay.
+
+00:36.930 --> 00:44.270
+Now initially we're going to want the visibility to be set to hit an OK.
+
+00:44.280 --> 00:46.940
+But if I do that now I won't be able to see it to style it.
+
+00:46.950 --> 00:50.300
+So I'm just going to comment that out for now we'll come back to it.
+
+00:50.370 --> 00:59.420
+Let's set the overflow to hidden and let's display this as flex because we want to center everything.
+
+00:59.430 --> 01:12.690
+So we'll say display flex and line items to the center and justify content to the center.
+
+01:12.690 --> 01:13.070
+All right.
+
+01:13.100 --> 01:19.070
+So go ahead and save that now you can see the list items are in the medal here.
+
+01:19.200 --> 01:19.470
+All right.
+
+01:19.470 --> 01:26.010
+So now we want to take care of the the menu overlay which is basically the the dark part.
+
+01:26.100 --> 01:26.350
+OK.
+
+01:26.360 --> 01:31.170
+So when we click this this this dark area right here.
+
+01:31.170 --> 01:36.330
+So for that we're going to take menu wrap.
+
+01:36.900 --> 01:43.440
+Same menu wrap menu and then it's going to be the direct div.
+
+01:44.190 --> 01:44.440
+OK.
+
+01:44.580 --> 01:48.860
+If you remember our menu class has to divs in it before the well.
+
+01:48.870 --> 01:53.280
+So we're targeting that first one and we're going to set a background.
+
+01:53.430 --> 01:57.700
+And I'm gonna use the primary color I'm sorry the overlay color.
+
+02:00.070 --> 02:01.010
+OK.
+
+02:01.020 --> 02:08.310
+Now if I save that you'll see that it's only overlaying the the the the menu itself.
+
+02:08.310 --> 02:17.310
+Now I'm going to set the width to 200 and I'm going to use viewport widths here and then height.
+
+02:17.310 --> 02:23.190
+I'm also going to set to 200 viewport widths.
+
+02:23.250 --> 02:29.130
+Now the reason for that is I wanted to extend pretty far.
+
+02:29.130 --> 02:34.170
+So when this is the finished one if I click this it extends you see how it scales up.
+
+02:34.170 --> 02:41.130
+It scales up to 200 viewport widths in both the height and the the width.
+
+02:42.310 --> 02:44.340
+So let's see now what we want to do.
+
+02:44.340 --> 02:46.290
+You can see that this stuff has disappeared.
+
+02:46.440 --> 02:52.500
+So we're gonna go ahead and say display flex
+
+02:57.150 --> 02:59.670
+and let's align.
+
+03:00.270 --> 03:08.560
+We want to line items to the center and also justify content to the center.
+
+03:08.580 --> 03:09.770
+And now it's back.
+
+03:09.860 --> 03:12.600
+So we're just three centering everything.
+
+03:12.600 --> 03:16.140
+Let's see next thing we want is to add a transition here
+
+03:18.990 --> 03:25.710
+and we're gonna do transition all zero point four seconds in ease.
+
+03:25.710 --> 03:28.830
+Now what we want to transition is the scale.
+
+03:28.830 --> 03:31.770
+So we want this to start off with a scale of zero.
+
+03:31.770 --> 03:41.130
+So let's say transform and then scale and we'll if we set this to zero and I save you'll see it disappears.
+
+03:41.130 --> 03:45.760
+So scale zero it's just it's not there it's scaled down to nothing.
+
+03:46.050 --> 03:50.430
+And then what we want to happen is when we click this we want it to scale upwards.
+
+03:50.430 --> 03:55.160
+So that's what's happening when you see this open it's scaling up and it's transitioning.
+
+03:55.170 --> 03:57.720
+However I can't see anything anymore.
+
+03:57.720 --> 04:00.420
+So again I'm going to just comment that out for now.
+
+04:00.420 --> 04:03.450
+Just so we can see this to style it.
+
+04:03.780 --> 04:04.150
+All right.
+
+04:04.170 --> 04:09.420
+Now let's see I think I think that's that's good for this div.
+
+04:09.420 --> 04:11.970
+Now the next one just copy this
+
+04:14.520 --> 04:18.030
+and it's paste that in and target the next div
+
+04:21.380 --> 04:31.730
+so let's see for this one we're going to text align center so we'll save that and I can see that these
+
+04:31.730 --> 04:33.370
+are aligned in the center.
+
+04:33.800 --> 04:35.030
+We're gonna do a Max
+
+04:37.430 --> 04:46.540
+with let's do 90 viewport widths so it wouldn't go beyond 90 viewport widths.
+
+04:46.550 --> 04:49.340
+And this is inside the dark inside this.
+
+04:49.580 --> 04:58.080
+The part where scaling in the max height we're going to set to 100 viewport heights.
+
+04:58.080 --> 04:58.510
+OK.
+
+04:58.520 --> 05:03.030
+And we're going to set opacity to zero.
+
+05:03.060 --> 05:03.420
+All right.
+
+05:03.420 --> 05:08.980
+Now if I save that it disappears so again I'm going to comment that so.
+
+05:09.490 --> 05:09.760
+OK.
+
+05:09.840 --> 05:14.250
+The parts that are that actually this basically the starting points.
+
+05:14.250 --> 05:15.230
+Nothing shows.
+
+05:15.230 --> 05:21.280
+So we need to comment all that stuff out for now and then when we're ready we'll bring it back in.
+
+05:21.600 --> 05:24.570
+Now see what else you want to do here.
+
+05:24.570 --> 05:35.130
+We need to add a transition and we want to transition the opacity now just to let you know what's going
+
+05:35.130 --> 05:36.150
+on here.
+
+05:36.450 --> 05:41.910
+When we click this you'll see that it scales up but then you see how that feeds in.
+
+05:41.910 --> 05:45.590
+It doesn't come in with the scale it feeds in afterwards.
+
+05:45.600 --> 05:48.420
+So that's the div that we're working with right now.
+
+05:48.450 --> 05:54.010
+So we want to transform the opacity to zero point four seconds ease.
+
+05:55.020 --> 05:55.400
+OK.
+
+05:55.410 --> 06:04.250
+So that way it'll just kind of fade in after this div scales in and then I think we should be good here.
+
+06:04.290 --> 06:09.460
+So let's go back and now let's start to style what this looks like here.
+
+06:09.510 --> 06:11.830
+So let's grab onto the the list items.
+
+06:11.830 --> 06:19.850
+I'm going to copy this and let's put this in and we're just going to use the angle brackets I know in
+
+06:19.880 --> 06:25.980
+order these cases we don't need to like right here but we'll just use it and we'll say well and then
+
+06:26.020 --> 06:31.560
+ally and then we're going to remove the bullet.
+
+06:31.560 --> 06:33.370
+So let's say list style none.
+
+06:34.090 --> 06:34.490
+OK.
+
+06:34.590 --> 06:36.960
+So that gets rid of the bullets.
+
+06:37.740 --> 06:41.930
+Let's set color to whites even though that's not going to change the link color.
+
+06:41.940 --> 06:48.890
+But just in case there is a list item that is not that is not a link.
+
+06:49.320 --> 06:54.900
+And then we can just inherit and we can just do color inherit for the tag and we're going to set the
+
+06:54.900 --> 06:56.760
+font size here.
+
+06:56.820 --> 06:58.820
+So it's a font size.
+
+06:58.830 --> 07:07.070
+Let's do one point five REM and let's do sets should be good.
+
+07:07.500 --> 07:11.110
+Let's save that so
+
+07:15.400 --> 07:17.550
+we need some padding here.
+
+07:17.920 --> 07:19.030
+That's two padding
+
+07:22.210 --> 07:23.020
+too.
+
+07:23.560 --> 07:24.520
+Oh that's too much.
+
+07:24.520 --> 07:33.160
+I'm kind of experimenting a little bit from my initial my initial one here because I use pixels and
+
+07:33.160 --> 07:33.610
+now.
+
+07:33.760 --> 07:35.280
+I want to use room.
+
+07:35.350 --> 07:36.070
+So that looks good.
+
+07:36.070 --> 07:45.160
+Now the links we've take care of those so it's copy this and let's say we want to target the tag and
+
+07:45.160 --> 07:50.520
+if we say color inherit and save that's there and it turned white.
+
+07:50.530 --> 07:58.770
+We also want to do text decoration none and save all right.
+
+07:58.770 --> 08:06.540
+Now for the hover I want to use the secondary colors when I just grabbed this and let's do coal and
+
+08:06.540 --> 08:10.800
+hover and let's say color far
+
+08:15.740 --> 08:19.560
+secondary color.
+
+08:19.610 --> 08:23.540
+All right so now when I hover over it we get that that secondary color.
+
+08:23.570 --> 08:26.870
+But I want it to be transition so I'm going to add to the link.
+
+08:26.880 --> 08:40.710
+A transition of well we'll just do color transition color zero point four seconds and ease snow you
+
+08:40.720 --> 08:42.430
+get that nice transition.
+
+08:42.470 --> 08:45.530
+So there's really only a couple things left to do.
+
+08:45.530 --> 08:52.340
+We need to hide all of this initially which basically we just need to UN comment the things that we've
+
+08:52.340 --> 08:55.720
+commented out and then we need to have an event.
+
+08:55.730 --> 08:56.920
+Well not it's on tech.
+
+08:56.940 --> 08:59.060
+Well I guess it is an event it's the checked event.
+
+08:59.060 --> 09:04.790
+When we check this out we want that stuff to show we want it to scale up.
+
+09:04.790 --> 09:07.510
+We want that first of to scale up the second div.
+
+09:07.640 --> 09:11.220
+We want to bring into opacity 1.
+
+09:11.480 --> 09:16.040
+And we also want to set the visibility from hidden to show.
+
+09:16.070 --> 09:16.500
+All right.
+
+09:16.640 --> 09:17.000
+I'm sorry.
+
+09:17.000 --> 09:17.900
+Visible.
+
+09:18.080 --> 09:22.310
+So let's UN comments opacity right here.
+
+09:22.310 --> 09:29.690
+So that's the the inner div and then scale is the outer div and then visible.
+
+09:29.690 --> 09:31.560
+The menu has visibility hidden.
+
+09:31.560 --> 09:36.110
+So we're going to uncommon to all of those and save and that's going to make it all disappear.
+
+09:36.110 --> 09:39.050
+So now we want it to come back when we click this.
+
+09:39.080 --> 09:42.180
+So we're going to add that stuff up here.
+
+09:42.290 --> 09:46.010
+So first one let's do
+
+09:48.680 --> 09:50.450
+a show menu.
+
+09:50.450 --> 09:55.540
+So we're going to say dot menu wrap.
+
+09:55.990 --> 09:59.330
+And this is all going to happen when the toddler is checked.
+
+09:59.330 --> 10:03.720
+So we simply want to do toddler checked.
+
+10:03.770 --> 10:12.650
+Now we want to target the class of menu and we can't do like dot menu like that because it's not within
+
+10:12.890 --> 10:13.760
+the toddler.
+
+10:13.760 --> 10:14.120
+Right.
+
+10:14.150 --> 10:15.560
+And we can't do that.
+
+10:15.590 --> 10:21.160
+We can't even do plus because it's not directly after the hamburgers directly after.
+
+10:21.170 --> 10:27.440
+So the way that we can target this menu from this checkbox is we're using the till day.
+
+10:27.440 --> 10:27.930
+OK.
+
+10:27.950 --> 10:34.850
+Which I can't remember if I actually showed you this before but we can use this to target something
+
+10:34.850 --> 10:36.950
+that precedes another element.
+
+10:36.980 --> 10:43.490
+So we want to grab the menu and we want to set that visibility too visible.
+
+10:43.490 --> 10:43.760
+OK.
+
+10:43.760 --> 10:46.880
+Because remember initially we set it to hidden.
+
+10:46.880 --> 10:53.270
+So now we're checking we're hitting the check thing and or the checkbox and we're setting menu to visibility
+
+10:53.390 --> 10:56.000
+visibility visible.
+
+10:56.000 --> 11:01.730
+Now we still can't see it because it's the inner div is scaled down.
+
+11:01.740 --> 11:02.090
+Right.
+
+11:02.090 --> 11:07.400
+So we have to add another basically another event with this toggle are checked.
+
+11:07.400 --> 11:20.550
+So we're going to grab this and we want to take that first div and transform scale.
+
+11:21.140 --> 11:24.580
+And we want to scale to 1.
+
+11:24.620 --> 11:25.010
+All right.
+
+11:25.010 --> 11:28.850
+And then let's add a transition
+
+11:31.720 --> 11:36.110
+duration and I'm going to use that menu speed.
+
+11:36.220 --> 11:41.730
+So let's say var dash dash menu dash speed.
+
+11:41.730 --> 11:45.660
+And let me just make sure I set that I did.
+
+11:45.850 --> 11:46.150
+All right.
+
+11:46.180 --> 11:52.180
+So if I save that case now that opens Oh you know what.
+
+11:52.180 --> 11:57.880
+We didn't make it circular so we didn't add the border radius where we sit we were supposed to.
+
+11:57.880 --> 12:06.970
+So we need to go to that first div and let's add border radius unless you want it to be square.
+
+12:06.970 --> 12:09.460
+But I think it looks cool as a circle.
+
+12:09.460 --> 12:13.900
+So it's a that's still not quite right.
+
+12:15.720 --> 12:15.930
+All right.
+
+12:15.930 --> 12:18.450
+I'll figure out what's wrong afterwards.
+
+12:18.480 --> 12:28.310
+Let's add the the last one which is going to let's go back up here the last one which is gonna set the.
+
+12:28.320 --> 12:30.310
+Which is going to bring the items in right.
+
+12:30.330 --> 12:37.020
+Because it's set to opacity 0 so we want to target those which is gonna be the inner div and we want
+
+12:37.020 --> 12:38.340
+to set opacity
+
+12:41.280 --> 12:46.350
+to 1 because it's initially set to zero and let's say transition
+
+12:48.840 --> 13:00.240
+opacity zero point four seconds ease and let's add a delay so we'll do zero point four seconds delay.
+
+13:00.550 --> 13:08.430
+OK so now we click that it's almost working but we have an issue with the circle here.
+
+13:08.430 --> 13:12.690
+So let me just see what what's going on here.
+
+13:15.320 --> 13:21.550
+All right guys so since this is in a flex the width is being affected.
+
+13:21.550 --> 13:28.900
+So all we have to do is in this initial div right here the directive after menu is add a property of
+
+13:28.990 --> 13:29.890
+flex none.
+
+13:29.890 --> 13:33.940
+So let's put this right here.
+
+13:33.940 --> 13:42.160
+So if we say flex nine and save and now let's reload the page so we click this and now it scales out
+
+13:42.190 --> 13:43.060
+all the way.
+
+13:43.060 --> 13:47.400
+And it's not it's not bound into the the window here.
+
+13:47.410 --> 13:47.670
+All right.
+
+13:47.680 --> 13:50.030
+Cool so let's bring it out.
+
+13:50.270 --> 13:51.270
+Still looks good.
+
+13:51.270 --> 13:53.400
+Let's bring it in.
+
+13:53.450 --> 13:53.840
+Good.
+
+13:53.840 --> 13:55.820
+I mean we can still see the circle.
+
+13:56.090 --> 14:02.340
+And like I said if you want to extend this like you could at a media query and extend this to like 300
+
+14:07.030 --> 14:07.290
+yes.
+
+14:07.320 --> 14:09.090
+So now you don't have that effect.
+
+14:11.300 --> 14:14.920
+But it takes longer Oh it doesn't take longer.
+
+14:14.930 --> 14:16.400
+But it goes does it go fast.
+
+14:16.400 --> 14:20.360
+Looks like it's going faster.
+
+14:20.380 --> 14:21.010
+No it's not.
+
+14:21.040 --> 14:26.160
+So you could you can increase that if you don't like the circle.
+
+14:26.250 --> 14:31.350
+You know when it's on smaller screens but I think it's fine.
+
+14:31.350 --> 14:33.070
+I think it looks cool.
+
+14:33.070 --> 14:33.360
+All right.
+
+14:33.370 --> 14:39.490
+So that's it guys hopefully you enjoyed this little project in like I said feel free to use this in
+
+14:40.150 --> 14:42.010
+you know future projects.
+
+14:42.010 --> 14:48.820
+It's a nice little subtle menu and you could basically attach it to any UI or any Web site.
+
+14:49.000 --> 14:56.020
+And like I said if you want to try and turn this into a full fledged web site using this menu maybe
+
+14:56.020 --> 14:58.540
+that could be a little challenge for you.
+
+14:58.540 --> 14:59.140
+But that's it.
+
+14:59.140 --> 15:00.460
+I'll see you in the next video.

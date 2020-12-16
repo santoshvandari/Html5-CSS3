@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.120 --> 00:06.330
+OK so in the last video we looked at key frames and we looked at how we could animate different properties
+
+00:06.330 --> 00:11.630
+such as the position the with the color but we just did a two and a from.
+
+00:11.630 --> 00:16.350
+So basically a starting point and an ending point but with key frames you can actually have more than
+
+00:16.350 --> 00:19.310
+just those points you can you can use percentages.
+
+00:19.320 --> 00:21.070
+So that's what I want to go over in this video.
+
+00:21.360 --> 00:30.150
+So when we create a new full file here called 0 8 underscore key frames and say key frames to dot each
+
+00:30.150 --> 00:31.190
+team out.
+
+00:32.250 --> 00:32.680
+OK.
+
+00:32.760 --> 00:41.760
+And I'm just going to close the sidebar up here and that's a key frames too and we'll put in our style
+
+00:41.760 --> 00:42.390
+tags
+
+00:45.930 --> 00:53.480
+and I'm just gonna have again just an I.D. of or let's do that I do an idea or a class.
+
+00:53.480 --> 00:57.200
+And the last one I want to be a little consistent here.
+
+00:57.200 --> 00:58.680
+So we have a class of box.
+
+00:58.680 --> 01:00.300
+Let's do that same thing.
+
+01:00.300 --> 01:10.590
+So box and in the style let's add box will make the background dark like we did in the last one.
+
+01:10.650 --> 01:16.780
+So party background three three three.
+
+01:16.890 --> 01:22.570
+So the box will give it a background color of white.
+
+01:22.570 --> 01:33.090
+And let's set the width to 200 pixels in height to 200 pixels.
+
+01:33.130 --> 01:35.720
+I should probably spell background correctly.
+
+01:35.940 --> 01:42.540
+And we're also going to position this relative because we're gonna be dealing with positional properties.
+
+01:42.540 --> 01:45.520
+So it's a position relative.
+
+01:45.540 --> 01:52.500
+And let's save this and open this up with live server case we have our box.
+
+01:52.720 --> 01:57.970
+Now I'm going to add an animation here with a key frame and I'm just going to add I'm just going to
+
+01:57.970 --> 02:06.190
+use the animation property instead of using all the separate properties and we'll say animates one let's
+
+02:06.190 --> 02:14.080
+say we'll have the span will be a five second span forward so that it stays where it's at when it ends
+
+02:15.010 --> 02:19.030
+and lets to ease we'll do ease in and out.
+
+02:19.660 --> 02:19.990
+All right.
+
+02:20.020 --> 02:30.690
+So just like in the last video we're going to create a key frames and let's call it enemy 1.
+
+02:31.540 --> 02:38.230
+And before what we did is we did two and from but in this case I want to use percentages so basically
+
+02:38.530 --> 02:40.420
+zero percent of the starting point.
+
+02:40.420 --> 02:42.970
+We already have set here.
+
+02:43.120 --> 02:49.480
+In fact I'm going to set the position that I want which is top 0 left 0
+
+02:53.050 --> 03:04.250
+left 0 and then I'm going to say well at 25 percent I want it to be top zero.
+
+03:04.300 --> 03:07.590
+So I still want it to be at the top but I want it to be left.
+
+03:07.930 --> 03:10.010
+Let's say three hundred pixels.
+
+03:10.010 --> 03:16.860
+Now what I want this to do ultimately is I want it to go from here over down back over and up.
+
+03:16.870 --> 03:23.380
+So a complete circle complete you know 360 360 degrees.
+
+03:23.380 --> 03:27.040
+So let's go ahead and save this and see what happens.
+
+03:27.130 --> 03:34.590
+So it gets pushed over and it's going to end in the same spot over a period of five seconds.
+
+03:34.690 --> 03:35.210
+Okay.
+
+03:35.230 --> 03:40.570
+Now obviously we want we want to add onto this we want to go down after.
+
+03:40.720 --> 03:49.330
+So let's go right under this and say it 50 percent of the base basically like the timeline we want it
+
+03:49.330 --> 03:56.860
+to be top three hundred pixels because we want it to move down and we still want left to be 300 pixels.
+
+03:56.860 --> 03:57.880
+So let's try that.
+
+03:57.890 --> 03:58.650
+We'll save.
+
+03:58.810 --> 04:05.490
+Goes over goes down and it's going to end up in the in the starting position.
+
+04:05.620 --> 04:05.950
+All right.
+
+04:05.950 --> 04:12.850
+So next thing we want to do is add 75 percent and it doesn't have to be 25 50 75.
+
+04:12.850 --> 04:15.310
+You can use any point in the timeline that you want.
+
+04:15.940 --> 04:19.550
+So here I want it to be from the left.
+
+04:19.690 --> 04:27.390
+Let's do top four so top I still want to be 300 pixels but the left I want it to be zero because I wanted
+
+04:27.400 --> 04:28.510
+to go back over.
+
+04:28.510 --> 04:34.660
+So let's save goes over down back over and up.
+
+04:34.720 --> 04:35.170
+OK.
+
+04:35.170 --> 04:42.010
+Now I would just want to make sure that at 100 percent which is basically the ending point I want it's
+
+04:42.010 --> 04:47.020
+to be back in its original place which is top 0 left 0.
+
+04:47.080 --> 04:47.410
+All right.
+
+04:47.440 --> 04:52.480
+So now our square just does a complete square.
+
+04:52.510 --> 04:56.380
+Now obviously we can change other properties if we want.
+
+04:56.410 --> 04:59.680
+So let's say at every point we want to change the color.
+
+04:59.770 --> 05:01.030
+So let's do it here.
+
+05:01.090 --> 05:03.590
+Background red.
+
+05:04.030 --> 05:09.700
+And then at 50 percent we'll say background green.
+
+05:10.260 --> 05:17.100
+Let's do background blue.
+
+05:17.800 --> 05:22.580
+And then at the ending point let's do background white.
+
+05:23.050 --> 05:24.480
+OK we'll save that.
+
+05:24.640 --> 05:29.430
+And you can see it changes to red to green to blue and to white.
+
+05:29.470 --> 05:31.630
+Now let's do something else.
+
+05:31.630 --> 05:34.060
+We can also animate the border radius.
+
+05:34.180 --> 05:36.670
+Let's do border radius.
+
+05:36.730 --> 05:41.470
+I don't know if I showed this to you guys but you can have more than one value and it pertains to each
+
+05:41.470 --> 05:42.000
+corner.
+
+05:42.010 --> 05:49.150
+So let's say we want the left call on top left to be 50 percent so basically rounded and then the other
+
+05:49.150 --> 05:50.300
+one zero.
+
+05:50.320 --> 05:51.720
+So I save that.
+
+05:52.030 --> 05:58.290
+Notice that it turns into 50 percent when it goes to 25 percent.
+
+05:58.440 --> 06:00.330
+OK this this corner here.
+
+06:00.490 --> 06:09.010
+Now I'm going to copy this and then right here let's say we want both both the top corners to be rounded
+
+06:09.040 --> 06:14.630
+so 50 percent and then we'll go down here and then we want the top.
+
+06:15.490 --> 06:19.890
+So 50 percent and then also the bottom right.
+
+06:19.900 --> 06:22.550
+I believe this is will be 50 percent.
+
+06:22.660 --> 06:30.740
+And then by the end it should be a complete circle so we'll just say border radius 50 percent like that.
+
+06:30.920 --> 06:32.990
+Meaning all corners.
+
+06:33.190 --> 06:38.060
+So with each iteration each corner changes and by the end it's a circle.
+
+06:38.080 --> 06:44.230
+So I mean obviously this animation is is it's not very practical it's not something you would actually
+
+06:44.590 --> 06:52.240
+put in in a project but it gives you the the tools that you need to be able to create some cool stuff.
+
+06:52.240 --> 06:57.420
+So you should be able to come up with some nice ideas as far as animation goes.
+
+06:57.420 --> 07:04.450
+It's not really my specialty but you know if you're if you're creative in that area you can do some
+
+07:04.450 --> 07:08.050
+really really awesome things with CSF animation.
+
+07:08.830 --> 07:15.070
+So in the next video we're going to continue on with with animations and we're going to look at transitions.

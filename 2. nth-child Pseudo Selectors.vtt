@@ -1,0 +1,277 @@
+WEBVTT
+
+00:00.270 --> 00:05.130
+All right guys so in this video we're going to look at a pseudo selector or pseudo class called End
+
+00:05.160 --> 00:05.820
+Child.
+
+00:05.820 --> 00:13.890
+So I'm going to go ahead and our CSA sandbox to create a new file called Zero to underscore and underscore
+
+00:14.370 --> 00:15.410
+child Dot.
+
+00:15.450 --> 00:18.260
+Each team l I'm gonna change this.
+
+00:18.270 --> 00:26.310
+This targeted selectors just gonna do 0 1 just to stay consistent here.
+
+00:26.700 --> 00:26.940
+All right.
+
+00:26.970 --> 00:38.730
+So in the end in the child file let's go ahead and generate our head and body tags say and child and
+
+00:38.730 --> 00:41.250
+we want our style tags.
+
+00:41.490 --> 00:50.450
+Now as far as the H team l what I'm going to do is just have a U L and I want about 20 list items.
+
+00:50.480 --> 00:52.140
+So I'm going to say ally.
+
+00:52.170 --> 00:58.470
+And he's Emmet here and the content will be item and then an incremental number and I'm going to say
+
+00:58.470 --> 01:01.510
+time's 20 and then hit enter.
+
+01:01.510 --> 01:05.940
+OK so we'll go ahead and open this up we'll save it open with live server.
+
+01:05.960 --> 01:09.420
+Now I'm going to add some base styling for the list item.
+
+01:09.570 --> 01:11.860
+So I just want to add some padding.
+
+01:12.270 --> 01:18.450
+We'll say point to five REM and margin.
+
+01:18.640 --> 01:20.440
+Pardon.
+
+01:20.970 --> 01:23.290
+Zero point to five REM.
+
+01:23.550 --> 01:26.620
+And let's just take away the bullet items with list style.
+
+01:26.610 --> 01:28.190
+None.
+
+01:28.200 --> 01:28.530
+All right.
+
+01:28.530 --> 01:33.360
+Now we've seen first child and last child.
+
+01:33.360 --> 01:41.160
+So I'm just going to refresh your memory if you forget what these do basically we can select the first
+
+01:41.160 --> 01:46.050
+and last element and it doesn't have to be a list I do I'm just using list items that could be divs
+
+01:46.050 --> 01:48.850
+it could be whatever any element at all.
+
+01:48.990 --> 01:54.730
+But we're going to say ally and then the pseudo selector syntax is a colon.
+
+01:54.750 --> 02:03.600
+So we want to say first child and let's say background.
+
+02:03.600 --> 02:05.010
+Let's just do background rattle.
+
+02:05.010 --> 02:06.720
+Just use color names here.
+
+02:06.720 --> 02:15.000
+So that selects the first one and if we want the last one copy that and we'll just do last child and
+
+02:15.000 --> 02:15.420
+save.
+
+02:15.430 --> 02:16.830
+Now the last one is red.
+
+02:16.830 --> 02:18.780
+But what about all of these.
+
+02:18.900 --> 02:24.900
+You know what if we want to choose the fourth one or every every second one every even one every odd
+
+02:24.900 --> 02:31.050
+one for that we can use any child and anything is basically like kind of like a placeholder.
+
+02:31.110 --> 02:35.680
+So let's get let's say position three.
+
+02:35.730 --> 02:44.640
+So to do that we can say list item and we're gonna say n dash child and we're just going to pass in
+
+02:44.640 --> 02:45.190
+three.
+
+02:46.300 --> 02:46.630
+Okay.
+
+02:46.650 --> 02:53.890
+And then I'm going to say background and let's do a different color we'll do purple and save.
+
+02:54.320 --> 02:59.600
+And notice that the third one down is is purple.
+
+02:59.610 --> 02:59.950
+OK.
+
+02:59.960 --> 03:06.650
+So what if we wanted to do every three K not just the third one but every third one.
+
+03:06.770 --> 03:12.510
+We want to do so in that case it's a every three.
+
+03:13.160 --> 03:23.950
+So we could say andthe child and we can say three and plus zero.
+
+03:23.970 --> 03:31.200
+This is basically the formula that that we're gonna use here and let's say background and we'll do orange
+
+03:32.830 --> 03:40.670
+I save that I notice that every third one is orange and it replace the the this one here position three
+
+03:41.030 --> 03:42.500
+because it's further down.
+
+03:42.530 --> 03:43.990
+So it just kind of overrode.
+
+03:44.000 --> 03:49.490
+If I put important here and save then that's going to overwrite that.
+
+03:49.490 --> 03:53.350
+Now this formula that we passed in here is the counter.
+
+03:53.360 --> 03:57.850
+So this is the counter and then zero this is the offset K because we can offset.
+
+03:57.860 --> 04:03.860
+We can start it wherever we want in this case were starting at zero and as a shortcut we can just do
+
+04:03.860 --> 04:04.800
+three n.
+
+04:04.880 --> 04:07.430
+So I save that we're going to get the same result.
+
+04:07.490 --> 04:14.330
+Now let's say that I want to do every three but I wanted to start after the seventh item here.
+
+04:14.930 --> 04:21.260
+So let's put a comment in here we'll say every 3 after 7.
+
+04:21.290 --> 04:29.990
+So to do that we can put an end to child and then pass in 3 N and we want to do plus 7 which is our
+
+04:29.990 --> 04:31.460
+offset.
+
+04:31.560 --> 04:32.030
+Okay.
+
+04:32.030 --> 04:38.520
+And then I'll do background yellow and we'll save that.
+
+04:38.690 --> 04:40.900
+And notice that the yellow starts here.
+
+04:40.920 --> 04:41.190
+Okay.
+
+04:41.210 --> 04:43.490
+So this 7 this is the offset.
+
+04:43.490 --> 04:48.050
+We're basically gonna just we're not going to start it until we hit that seventh item and then we're
+
+04:48.050 --> 04:50.810
+going to do every three.
+
+04:50.840 --> 04:54.480
+Now a more common thing you're probably going to do is even an odd.
+
+04:54.470 --> 05:14.120
+So let's say every odd so we could do ally and child and we could pass in odd and let's do background.
+
+05:14.120 --> 05:17.840
+We'll do a light gray and save.
+
+05:17.840 --> 05:22.950
+And now every odd item here is going to be light gray.
+
+05:23.240 --> 05:29.900
+Now it's probably probably it's probably pretty obvious that we can do even as well so let's do that.
+
+05:29.910 --> 05:39.200
+Let's do even and we'll change this to let's do a shade darker shade lighter actually and save.
+
+05:39.200 --> 05:41.620
+And now every even is the.
+
+05:41.630 --> 05:42.330
+Like this.
+
+05:42.330 --> 05:44.810
+This DDD light gray.
+
+05:44.900 --> 05:45.200
+All right.
+
+05:45.200 --> 05:47.140
+So any child can be pretty handy.
+
+05:47.150 --> 05:54.860
+I remember before and the child was actually a thing we had to use javascript to dynamically select
+
+05:54.890 --> 05:59.670
+every other element there was it was just a pain in the neck guys if you're learning each team Allen
+
+05:59.680 --> 06:08.390
+CSX now you've missed a lot of just giant pains in the asses because things weren't I mean you know
+
+06:08.780 --> 06:17.780
+these selectors weren't around even like border radius wasn't around to do things like even place holders
+
+06:17.780 --> 06:23.540
+in our forms and our input forms we didn't have the place holder attribute before each team all five.
+
+06:23.540 --> 06:28.880
+So we would have to use javascript to put to have a value in but then had a click event.
+
+06:28.880 --> 06:33.740
+So when we clicked in the value went away which was just a giant pain in the neck.
+
+06:33.770 --> 06:39.290
+So you guys are lucky those of you that are learning this now that you don't have to go through that
+
+06:39.290 --> 06:42.790
+stuff and then browser compatibility is a whole new issue.
+
+06:42.800 --> 06:43.130
+All right.
+
+06:43.160 --> 06:45.270
+So that's that's the basis of.
+
+06:45.400 --> 06:50.540
+And the child in the next video we're going to look at the before and after pseudo selector and look
+
+06:50.540 --> 06:52.100
+at some practical uses for the.
+
+06:52.100 --> 06:52.640
+For that.

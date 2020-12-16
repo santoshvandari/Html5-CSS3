@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.470 --> 00:05.390
+All right guys so in the last video we created an index each team I'll file.
+
+00:05.460 --> 00:08.860
+We opened it inside of a browser so we could see how it renders.
+
+00:09.000 --> 00:14.160
+And this is not the standard of how to create a document.
+
+00:14.160 --> 00:18.660
+There's some other things that you need to add even if we only wanted to display this in the browser.
+
+00:18.660 --> 00:23.380
+There's some other tags that we need to add for it to be a valid HDMI all five document.
+
+00:23.430 --> 00:29.850
+Now before we do anything I'm going to rename this file so instead of index I'm going to rename it to
+
+00:29.850 --> 00:36.410
+0 1 underscore basic underscore layout dot HD CML.
+
+00:36.420 --> 00:42.600
+Because like I said I want this to be a sandbox so you can go back to and you can check certain things
+
+00:42.600 --> 00:47.650
+and I want each file to be named after what what we're doing inside of it.
+
+00:47.700 --> 00:50.430
+OK so we're gonna just number them.
+
+00:50.430 --> 00:53.460
+So they're in order if you don't want to number them you don't have to.
+
+00:53.490 --> 00:58.770
+You could call it just basic layout or basic or whatever but I want to be very specific and I want to.
+
+00:58.790 --> 01:01.600
+I want you guys to have this for future reference.
+
+01:01.650 --> 01:01.950
+All right.
+
+01:01.980 --> 01:04.180
+So basic layout of an H team page.
+
+01:04.200 --> 01:06.570
+Let's actually just get rid of this for now.
+
+01:06.570 --> 01:10.950
+So the first thing that you're going to want on every page female page is the doc type.
+
+01:11.100 --> 01:11.420
+OK.
+
+01:11.430 --> 01:12.770
+So I'm just gonna type this out.
+
+01:12.780 --> 01:14.160
+It's gonna be an angle bracket.
+
+01:14.160 --> 01:17.690
+Exclamation Doc type usually all capitals.
+
+01:17.820 --> 01:21.170
+And then h team L and then closing angle bracket.
+
+01:21.210 --> 01:26.370
+So this is a doc type and what this does is it tells the browser what type of document it is because
+
+01:26.370 --> 01:28.740
+a browser can read each team all five.
+
+01:28.800 --> 01:33.900
+It can read x h t AML it can read H team all four point zero point one.
+
+01:34.080 --> 01:40.020
+So there's a lot of different variations of each team out but each team of five is definitely the standard
+
+01:40.020 --> 01:41.550
+and that's what you're gonna want to use.
+
+01:42.180 --> 01:48.630
+It's also it's also much easier than the others and it's less strict when it comes to tag syntax.
+
+01:48.660 --> 01:55.500
+So I just want to quickly show you from the W3 schools dot com site which is a great site for reference.
+
+01:55.890 --> 01:58.470
+This is a page all on dog types.
+
+01:58.470 --> 02:03.930
+And if we go down here you'll see that the dog type declaration must be the very first thing in your
+
+02:03.930 --> 02:09.360
+age team I'll document before the age team l tag which I'll go over in a second and down here it gives
+
+02:09.360 --> 02:10.580
+us the different types.
+
+02:10.590 --> 02:16.230
+So for age HTML5 it's what we what we just did but then you'll see that each team all four point zero
+
+02:16.230 --> 02:24.300
+point one actually has a much longer dock type because there's different variations of strict transitional
+
+02:24.840 --> 02:25.700
+frame set.
+
+02:25.710 --> 02:28.820
+And this has to do with what's allowed and what's not.
+
+02:28.830 --> 02:33.030
+So it's gotten much easier over the years with each team of five.
+
+02:33.050 --> 02:38.580
+So we don't have to worry about these dog types but I just wanted to show you that there are very different
+
+02:38.920 --> 02:45.750
+ex each team Al has its own dog type has transitional frame set one point zero one point one but this
+
+02:45.750 --> 02:48.230
+is the only one that we have to worry about.
+
+02:48.270 --> 02:48.530
+All right.
+
+02:48.540 --> 02:53.520
+So I just wanted to kind of show you that so we're declaring this document as each team of five.
+
+02:53.550 --> 02:57.150
+The next thing we want is in each team l tag.
+
+02:57.150 --> 02:57.410
+OK.
+
+02:57.420 --> 03:01.740
+So we'll do each team L and then hit enter a tab and then we'll finish it for me.
+
+03:01.740 --> 03:06.680
+And we just want to hit enter so that the bottom tag is down below.
+
+03:06.810 --> 03:11.550
+And now inside the each team I'll tag we have a head tag.
+
+03:11.700 --> 03:15.110
+And then under the head we have a body tag.
+
+03:15.120 --> 03:20.520
+Now notice that there's an indent here and V.S. code will do this automatically if you're using something
+
+03:20.520 --> 03:25.740
+like Notepad which I would definitely not suggest it's not going to indented for you automatically so
+
+03:25.740 --> 03:27.680
+you have to do it yourself.
+
+03:27.690 --> 03:33.890
+Now the reason it's indented is because both of these tags are inside the H html tag.
+
+03:33.890 --> 03:34.190
+OK.
+
+03:34.200 --> 03:40.590
+This is actually the parent of these two tags and these are the children of the H team l tag.
+
+03:40.710 --> 03:44.430
+Now the head and body are very different.
+
+03:44.430 --> 03:50.590
+Head is for things like medal tags if you want to associate keywords with your page.
+
+03:50.700 --> 03:56.820
+It's basically just information about your page it doesn't actually display in the browser in the body
+
+03:56.820 --> 03:58.470
+of the browser.
+
+03:58.470 --> 04:03.090
+Now one thing that you should definitely put in the head tag is the title.
+
+04:03.390 --> 04:03.700
+OK.
+
+04:03.720 --> 04:09.750
+So we want to put a title tag and again we're tagging it over because it's within the head tag for the
+
+04:09.750 --> 04:12.770
+title I'm just going to say my Web site.
+
+04:12.830 --> 04:13.170
+All right.
+
+04:13.260 --> 04:21.000
+Now if I go ahead and save this and do control X I'm going to save the file and let's open it up.
+
+04:21.000 --> 04:24.120
+So we have our basic layout dot aged him out because we renamed it.
+
+04:24.150 --> 04:28.800
+And I'm going to stay open with Chrome and notice there's nothing in the body.
+
+04:28.950 --> 04:31.890
+But if we look in the tab we see my web site.
+
+04:31.890 --> 04:35.440
+Whatever you put in the title tag is gonna show right here.
+
+04:35.460 --> 04:38.470
+OK so it's very important for you to have a title.
+
+04:38.580 --> 04:44.290
+Now whatever we want the body we put in the body so we can put back our H one.
+
+04:44.370 --> 04:48.510
+Say my Web site and we can put our paragraph
+
+04:53.820 --> 04:58.310
+and we'll go ahead and save and we'll go back and reload.
+
+04:58.380 --> 05:01.700
+And now we have our H one in paragraph in the body.
+
+05:02.080 --> 05:02.410
+OK.
+
+05:02.430 --> 05:08.850
+So anything that you want to show in this area is going to go in the body of your your document.
+
+05:08.850 --> 05:11.270
+All right so you just want to keep this structure in mind.
+
+05:11.280 --> 05:16.100
+This is the the core fundamental mandatory structure of an aged him I'll document.
+
+05:16.110 --> 05:18.050
+You have your doc type at the top.
+
+05:18.120 --> 05:23.280
+You have your h team all tags that wrap around everything and then you have a head and body area in
+
+05:23.280 --> 05:23.640
+your head.
+
+05:23.640 --> 05:25.830
+You should at least have the title and then the body.
+
+05:25.830 --> 05:28.740
+You just have whatever you your Web site content will be.
+
+05:28.740 --> 05:33.840
+So the last thing I want to show you is how to create a comment case so you might want to label stuff
+
+05:33.870 --> 05:36.510
+without it actually rendering in the browser.
+
+05:36.510 --> 05:39.270
+So let's say I wanted to put a comment right here.
+
+05:39.390 --> 05:45.000
+What I would do is put an angle bracket an exclamation mark and then double hyphen.
+
+05:45.000 --> 05:48.430
+Once I do that and V.S. code it actually auto completes the rest of it.
+
+05:48.540 --> 05:52.630
+But this is the format of a comment so I'll just say this is a comment.
+
+05:52.710 --> 05:57.080
+So starts off like this and then it ends with double hyphen and an angle bracket.
+
+05:57.180 --> 05:59.300
+So just make sure you don't forget the exclamation.
+
+05:59.300 --> 06:01.270
+Because that's not a valid comment.
+
+06:01.440 --> 06:06.310
+And notice that it turns green and V.S. code to let you know that it's it's actually a comment.
+
+06:06.350 --> 06:12.270
+And if I save this and we go to the browser and reload notice it doesn't show here because it's a comment
+
+06:12.750 --> 06:16.660
+now in browsers you can view the source code.
+
+06:16.800 --> 06:22.800
+You can view the HD him I'll source on a Mac you can do command option you add on Windows I believe
+
+06:22.800 --> 06:28.920
+it's control you and it will open up a new tab that shows you the actual HD CML so you can see our dock
+
+06:28.920 --> 06:31.100
+type are each terminal tags all that stuff.
+
+06:31.110 --> 06:34.490
+It also will show the comments in the source code.
+
+06:34.490 --> 06:35.730
+OK just to let you know that.
+
+06:36.510 --> 06:41.770
+So let's go back and I want to show you how you can common out something that's already there.
+
+06:41.790 --> 06:48.960
+So if I just put my tab my cursor on this line right here in this code I can actually just do control
+
+06:48.990 --> 06:54.600
+and then forward slash work or a question mark the same key the forward slash question mark.
+
+06:54.630 --> 06:59.160
+So if I hold control and hit that it will comment the whole line out and I can toggle it if I hit it
+
+06:59.160 --> 07:06.000
+again control forward slash I can just toggle the comment if I wanted to come comment out multiple lines
+
+07:06.000 --> 07:11.580
+I could highlight them and again control forward slash and that will comment out the whole thing.
+
+07:11.580 --> 07:17.280
+There may be times when you want to just kind of not show a certain part of the team Al Allen the browser
+
+07:17.310 --> 07:22.140
+and you want to comment it out OK and you can put this on a separate line as well like that.
+
+07:22.140 --> 07:22.910
+That will still work.
+
+07:22.920 --> 07:25.110
+This is all commented out.
+
+07:25.290 --> 07:28.730
+All right so that's going to be it for this video guys in the next one.
+
+07:28.740 --> 07:35.430
+I want to give you some tips and tricks with is code for instance we can generate the basic structure
+
+07:35.700 --> 07:39.840
+automatically without having to type all this out with every age team Al page.
+
+07:39.830 --> 07:45.090
+I also want to give you a couple extensions that I want to recommend and that I'll be using in this
+
+07:45.090 --> 07:45.750
+course.
+
+07:45.750 --> 07:47.280
+All right so I'll see you in the next video.
